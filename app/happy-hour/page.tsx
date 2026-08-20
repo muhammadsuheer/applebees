@@ -20,7 +20,7 @@ const faqData = [
   },
   {
     question: "What time are Applebee's half price apps?",
-    answer: "Half price appetizers run during both happy hour windows — 3:00 PM to 6:00 PM and again from 9:00 PM or 10:00 PM until close."
+    answer: "Half price appetizers run during both happy hour windows  3:00 PM to 6:00 PM and again from 9:00 PM or 10:00 PM until close."
   },
   {
     question: "Does Applebee's have late night happy hour?",
@@ -52,7 +52,7 @@ const faqData = [
   },
   {
     question: "How late does Applebee's happy hour run?",
-    answer: "Until the restaurant closes — typically 11:00 PM Sunday through Thursday and midnight or later Friday and Saturday, though the kitchen may stop taking orders before the posted closing time."
+    answer: "Until the restaurant closes  typically 11:00 PM Sunday through Thursday and midnight or later Friday and Saturday, though the kitchen may stop taking orders before the posted closing time."
   }
 ];
 
@@ -114,24 +114,24 @@ export default function HappyHourPage() {
       <Breadcrumb items={[{ label: 'Happy Hour', href: '/happy-hour' }]} />
 
       <main className={styles.main}>
-        {/* H1 & §1 — OPENING */}
+        {/* H1 & §1  OPENING */}
         <header className={styles.hero} role="banner" aria-label="Happy Hour Header">
           <h1>Applebee's Happy Hour Times and Menu (2026)</h1>
           <p className={styles.heroLead}>
             Applebee's happy hour runs in two windows, not one. The afternoon window is typically 3:00 PM to 6:00 PM. The late-night window typically starts at 9:00 PM on weeknights and 10:00 PM on weekends, running until close.
           </p>
           <p className={styles.heroSub}>
-            Both windows cover half price appetizers and discounted drinks — but not every appetizer is included, and in six states it is illegal for the drinks half to exist at all.
+            Both windows cover half price appetizers and discounted drinks  but not every appetizer is included, and in six states it is illegal for the drinks half to exist at all.
           </p>
           <p className={styles.heroHighlight}>
             This page covers the exact times, what is included and excluded, why your location may differ, and which items give you the most for the money. Check our <Link href="/specials-and-deals">current specials and deals</Link> for additional promotions.
           </p>
         </header>
 
-        {/* §2 — THE TWO WINDOWS */}
+        {/* §2  THE TWO WINDOWS */}
         <section className={styles.clusterSection} id="happy-hour-times">
           <h2>Applebee's Happy Hour Times</h2>
-          
+
           <div className={styles.tableCard} style={{ maxWidth: '650px', margin: '20px auto' }}>
             <div className={styles.tableResponsive}>
               <table className={styles.customTable}>
@@ -160,7 +160,7 @@ export default function HappyHourPage() {
 
           <h3>Afternoon window</h3>
           <p>
-            The quieter of the two. It sits in the gap between the lunch rush and the dinner service, which is exactly why it exists — the restaurant is filling seats that would otherwise be empty.
+            The quieter of the two. It sits in the gap between the lunch rush and the dinner service, which is exactly why it exists  the restaurant is filling seats that would otherwise be empty.
           </p>
           <p>
             <strong>Practical advantage:</strong> you can usually get a table immediately, hear the person across from you, and get faster service than at 9:30 PM. If the goal is a cheap meal rather than a night out, this is the better window.
@@ -171,20 +171,20 @@ export default function HappyHourPage() {
 
           <h3>Late-night window</h3>
           <p>
-            The busier window and the one the promotion is known for. Weekend start times run later than weekdays at most locations — 10:00 PM rather than 9:00 PM — because the dinner service runs later.
+            The busier window and the one the promotion is known for. Weekend start times run later than weekdays at most locations  10:00 PM rather than 9:00 PM  because the dinner service runs later.
           </p>
           <p>
             Closing time sets the end, and closing times vary by location and local ordinance. The kitchen also sometimes stops taking orders before the posted close, so the practical end of late-night happy hour can be earlier than the sign suggests. Check your <Link href="/locations">local restaurant</Link> for exact hours.
           </p>
         </section>
 
-        {/* §3 — WHAT'S HALF PRICE AND WHAT ISN'T */}
+        {/* §3  WHAT'S HALF PRICE AND WHAT ISN'T */}
         <section className={styles.clusterSection} id="half-price-apps-list">
           <h2>Applebee's Half Price Appetizers: The Full List</h2>
-          
+
           <div className={styles.answerBlock}>
             <p>
-              Applebee's half price appetizers cover the core appetizer range — Boneless Wings, Mozzarella Sticks, Spinach & Artichoke Dip, Chicken Quesadilla, Chicken Wonton Tacos, and Brew Pub Pretzels. Combination platters and premium seasonal appetizers are excluded.
+              Applebee's half price appetizers cover the core appetizer range  Boneless Wings, Mozzarella Sticks, Spinach & Artichoke Dip, Chicken Quesadilla, Chicken Wonton Tacos, and Brew Pub Pretzels. Combination platters and premium seasonal appetizers are excluded.
             </p>
           </div>
 
@@ -219,7 +219,7 @@ export default function HappyHourPage() {
           </p>
         </section>
 
-        {/* §4 — WHERE HAPPY HOUR DRINKS ARE ILLEGAL */}
+        {/* §4  WHERE HAPPY HOUR DRINKS ARE ILLEGAL */}
         <section className={styles.clusterSection} id="state-liquor-laws">
           <h2>Six States Where Applebee's Cannot Discount Drinks</h2>
           <p>
@@ -241,7 +241,7 @@ export default function HappyHourPage() {
                 <tbody>
                   <tr>
                     <td><strong>Massachusetts</strong></td>
-                    <td>Banned since 1984 — the first state to do so.</td>
+                    <td>Banned since 1984  the first state to do so.</td>
                   </tr>
                   <tr>
                     <td><strong>Rhode Island</strong></td>
@@ -272,7 +272,7 @@ export default function HappyHourPage() {
             <strong>Two states that changed, and most sites still list wrongly:</strong>
           </p>
           <ul className={styles.textList}>
-            <li><strong>Indiana</strong> removed its ban — limited happy hour privileges took effect on 1 July 2024.</li>
+            <li><strong>Indiana</strong> removed its ban  limited happy hour privileges took effect on 1 July 2024.</li>
             <li><strong>Oklahoma</strong> repealed its ban in 2018.</li>
           </ul>
           <p>
@@ -281,14 +281,14 @@ export default function HappyHourPage() {
 
           <h3>What locations in those states do instead</h3>
           <p>
-            Restaurants in ban states pivot to food. Half price appetizers are unaffected by these laws — the restrictions cover alcohol pricing only. So an Applebee's in Massachusetts or North Carolina can and does run the appetizer half of happy hour normally.
+            Restaurants in ban states pivot to food. Half price appetizers are unaffected by these laws  the restrictions cover alcohol pricing only. So an Applebee's in Massachusetts or North Carolina can and does run the appetizer half of happy hour normally.
           </p>
           <p>
             On drinks, the workaround is all-day pricing. A drink offered at the same price from open to close is legal in most ban states, because the restriction targets time-limited discounting rather than low prices. This is why some locations promote a drink of the month rather than an afternoon special.
           </p>
         </section>
 
-        {/* §5 — GETTING THE MOST FROM HALF PRICE APPS */}
+        {/* §5  GETTING THE MOST FROM HALF PRICE APPS */}
         <section className={styles.clusterSection} id="appetizer-value-breakdown">
           <h2>Which Half Price Appetizer Gives You the Most</h2>
           <p>
@@ -310,8 +310,8 @@ export default function HappyHourPage() {
                   <tr>
                     <td><strong>Chicken Wonton Tacos</strong></td>
                     <td style={{ textAlign: 'center' }}>590</td>
-                    <td style={{ textAlign: 'center' }}>—</td>
-                    <td style={{ textAlign: 'right' }}>—</td>
+                    <td style={{ textAlign: 'center' }}></td>
+                    <td style={{ textAlign: 'right' }}></td>
                   </tr>
                   <tr>
                     <td><strong>Mozzarella Sticks</strong></td>
@@ -349,30 +349,30 @@ export default function HappyHourPage() {
           </div>
 
           <p>
-            <strong>Most protein:</strong> Chicken Quesadilla at 49g — more than Boneless Wings, which most people assume is the protein pick.
+            <strong>Most protein:</strong> Chicken Quesadilla at 49g  more than Boneless Wings, which most people assume is the protein pick.
           </p>
           <p>
-            <strong>Best protein-to-calorie ratio:</strong> Mozzarella Sticks at 41g for 860 calories — 21 calories per gram of protein, the best on the list.
+            <strong>Best protein-to-calorie ratio:</strong> Mozzarella Sticks at 41g for 860 calories  21 calories per gram of protein, the best on the list.
           </p>
           <p>
             <strong>Lightest option:</strong> Chicken Wonton Tacos at 590 calories, roughly half of most others.
           </p>
           <p>
-            <strong>The sodium catch:</strong> Boneless Wings in Classic Hot Buffalo carry 4,720mg of sodium — more than double an adult's recommended daily intake, and nearly twice what the Garlic Parmesan version carries at 2,710mg despite the Garlic Parmesan having more calories. If sodium matters to you, the sauce choice matters more than the item choice.
+            <strong>The sodium catch:</strong> Boneless Wings in Classic Hot Buffalo carry 4,720mg of sodium  more than double an adult's recommended daily intake, and nearly twice what the Garlic Parmesan version carries at 2,710mg despite the Garlic Parmesan having more calories. If sodium matters to you, the sauce choice matters more than the item choice.
           </p>
           <p>
             <strong>Sharing note:</strong> These figures are per full serving. Split between two people, most of these land in normal appetizer territory. Ordered individually at 10 PM, they are a full meal.
           </p>
         </section>
 
-        {/* §6 — THE DRINKS SIDE */}
+        {/* §6  THE DRINKS SIDE */}
         <section className={styles.clusterSection} id="happy-hour-drinks">
           <h2>Applebee's Happy Hour Drinks</h2>
           <p>
-            Where happy hour drink pricing is legal, discounts typically cover house margaritas, select cocktails, and draft beer. Applebee's also runs periodic drink-of-the-month campaigns at a fixed low price — those run as limited-time events rather than as standing happy hour items, and they are also the format that works in states where timed discounts are prohibited.
+            Where happy hour drink pricing is legal, discounts typically cover house margaritas, select cocktails, and draft beer. Applebee's also runs periodic drink-of-the-month campaigns at a fixed low price  those run as limited-time events rather than as standing happy hour items, and they are also the format that works in states where timed discounts are prohibited.
           </p>
           <p>
-            Applebee's signature cocktails are served in oversized glassware, which is a large part of the perceived value. The volume comes primarily from ice and mixers rather than from spirit — the pour is measured.
+            Applebee's signature cocktails are served in oversized glassware, which is a large part of the perceived value. The volume comes primarily from ice and mixers rather than from spirit  the pour is measured.
           </p>
           <p>
             <strong>Where the calories are:</strong> The mixers. A frozen margarita from our <Link href="/nutrition">drinks data</Link> runs 650 calories and 75g of sugar. That is more sugar than the Triple Chocolate Meltdown dessert. By comparison, a 16 oz draft light beer is 130 calories with zero sugar.
@@ -382,7 +382,7 @@ export default function HappyHourPage() {
           </p>
         </section>
 
-        {/* §7 — DINE-IN ONLY */}
+        {/* §7  DINE-IN ONLY */}
         <section className={styles.clusterSection} id="dine-in-versus-takeout">
           <h2>Can You Get Half Price Apps for Takeout or Delivery?</h2>
 
@@ -403,7 +403,7 @@ export default function HappyHourPage() {
           </p>
         </section>
 
-        {/* §8 — WHY YOUR LOCATION IS DIFFERENT */}
+        {/* §8  WHY YOUR LOCATION IS DIFFERENT */}
         <section className={styles.clusterSection} id="why-location-differs">
           <h2>Why Happy Hour Varies Between Applebee's Locations</h2>
           <p>
@@ -420,9 +420,9 @@ export default function HappyHourPage() {
           </p>
         </section>
 
-        {/* §9 — FAQ */}
+        {/* §9  FAQ */}
         <section className={styles.clusterSection} id="faqs">
-          <h2>Applebee's Happy Hour — Frequently Asked Questions</h2>
+          <h2>Applebee's Happy Hour  Frequently Asked Questions</h2>
           <div className={styles.faqList}>
             {faqData.map((faq, index) => (
               <article key={index} className={styles.faqItem}>
