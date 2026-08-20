@@ -1,14 +1,14 @@
 .calculatorContainer {
   display: flex;
   flex-direction: column;
-  gap: 30px;
-  background-color: #f9fafb;
+  gap: 28px;
+  background-color: #ffffff;
   border: 1px solid #e5e7eb;
-  border-radius: 12px;
-  padding: 24px;
-  margin: 40px 0;
+  border-radius: 16px;
+  padding: 28px;
+  margin: 30px 0;
   font-family: var(--font-roboto), sans-serif;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05), 0 8px 10px -6px rgba(0, 0, 0, 0.01);
 }
 
 @media (min-width: 1024px) {
@@ -21,73 +21,67 @@
 /* Tab Navigation */
 .tabsContainer {
   display: flex;
-  overflow-x: auto;
-  gap: 12px;
-  padding-bottom: 12px;
-  margin-bottom: 16px;
-  border-bottom: 2px solid #e5e7eb;
-  /* Hide scrollbar for clean look */
-  scrollbar-width: none;
-  -ms-overflow-style: none;
-}
-.tabsContainer::-webkit-scrollbar {
-  display: none;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding-bottom: 16px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #f1f5f9;
 }
 
 .tabButton {
-  background: none;
-  border: none;
-  padding: 8px 16px;
-  font-family: var(--font-outfit), sans-serif;
-  font-size: 16px;
+  flex-shrink: 0;
+  background-color: #f8fafc;
+  border: 1px solid #e2e8f0;
+  padding: 10px 18px;
+  font-family: var(--font-roboto), sans-serif;
+  font-size: 14px;
   font-weight: 600;
-  color: #6b7280;
+  color: #475569;
   cursor: pointer;
   white-space: nowrap;
-  border-radius: 20px;
-  transition: all 0.2s;
+  border-radius: 30px;
+  transition: all 0.2s ease;
 }
 
 .tabButton:hover {
-  background-color: #f3f4f6;
-  color: #374151;
+  background-color: #f1f5f9;
+  color: #0f172a;
+  border-color: #cbd5e1;
 }
 
 .tabButtonActive {
-  background-color: #1f2937;
-  color: #ffffff;
-}
-
-.tabButtonActive:hover {
-  background-color: #111827;
-  color: #ffffff;
+  background-color: #c8102e !important;
+  border-color: #c8102e !important;
+  color: #ffffff !important;
+  font-weight: 700;
+  box-shadow: 0 4px 12px rgba(200, 16, 46, 0.25);
 }
 
 /* Left Panel: Menu Selection */
 .selectionPanel {
-  flex: 1 1 auto;
+  flex: 1 1 0%;
   display: flex;
   flex-direction: column;
-  min-width: 0; /* CRITICAL: Allows inner tabsContainer to scroll without breaking flex layout */
+  min-width: 0;
 }
 
 .itemList {
   display: flex;
   flex-direction: column;
-  gap: 8px;
-  max-height: 500px;
+  gap: 10px;
+  max-height: 480px;
   overflow-y: auto;
-  padding-right: 8px;
-  /* Scrollbar styling */
+  padding-right: 6px;
   scrollbar-width: thin;
-  scrollbar-color: #d1d5db transparent;
+  scrollbar-color: #cbd5e1 transparent;
 }
 
 .itemList::-webkit-scrollbar {
   width: 6px;
 }
+
 .itemList::-webkit-scrollbar-thumb {
-  background-color: #d1d5db;
+  background-color: #cbd5e1;
   border-radius: 4px;
 }
 
@@ -96,211 +90,224 @@
   justify-content: space-between;
   align-items: center;
   padding: 16px 20px;
-  border: 1px solid #e5e7eb;
-  border-radius: 8px;
-  background-color: #ffffff;
+  border: 1px solid #f1f5f9;
+  border-radius: 10px;
+  background-color: #fcfcfc;
   cursor: pointer;
-  transition: all 0.2s;
+  transition: all 0.2s ease;
 }
 
 .itemLabel:hover {
-  border-color: #d1d5db;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  border-color: #cbd5e1;
+  background-color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
 }
 
 .itemLabelSelected {
-  border-color: #dc2626;
+  border-color: #fecaca;
   background-color: #fef2f2;
 }
 
 .itemInfo {
   display: flex;
   flex-direction: column;
+  gap: 4px;
 }
 
 .itemName {
-  font-weight: 600;
-  color: #1f2937;
-  font-size: 16px;
-  margin-bottom: 4px;
+  font-weight: 700;
+  color: #0f172a;
+  font-size: 15px;
 }
 
 .itemMacros {
-  font-size: 14px;
-  color: #6b7280;
+  font-size: 13px;
+  color: #64748b;
+  font-weight: 500;
 }
 
 .addButton {
+  flex-shrink: 0;
   width: 32px;
   height: 32px;
   border-radius: 50%;
-  border: 1px solid #d1d5db;
+  border: 1px solid #cbd5e1;
   background-color: #ffffff;
-  color: #374151;
+  color: #334155;
   font-size: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-weight: 300;
+  font-weight: 400;
+  transition: all 0.2s ease;
 }
 
 .itemLabelSelected .addButton {
-  background-color: #dc2626;
-  border-color: #dc2626;
+  background-color: #c8102e;
+  border-color: #c8102e;
   color: #ffffff;
 }
 
-/* Right Panel / Bottom Smart Tray: Summary */
+/* Right Panel / Summary */
 .summaryPanel {
-  flex: 0 0 350px;
-  background-color: #1f2937;
+  flex: 0 0 340px;
+  background-color: #1a2433;
   color: #ffffff;
-  border-radius: 12px;
+  border-radius: 14px;
   position: sticky;
   top: 20px;
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.2);
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
 
-/* Desktop inner container */
 .summaryContent {
   padding: 24px;
 }
 
 .summaryTitle {
-  font-family: var(--font-outfit), sans-serif;
-  font-size: 24px;
+  font-family: var(--font-oswald), sans-serif;
+  font-size: 22px;
   font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
   margin-top: 0;
   margin-bottom: 20px;
-  border-bottom: 2px solid #374151;
-  padding-bottom: 12px;
+  border-bottom: 1px solid #334155;
+  padding-bottom: 14px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-/* Action Buttons */
 .actionButtons {
   display: flex;
-  gap: 10px;
+  gap: 8px;
 }
 
 .clearBtn {
-  background-color: transparent;
-  color: #9ca3af;
-  border: 1px solid #4b5563;
+  background-color: #334155;
+  color: #cbd5e1;
+  border: 1px solid #475569;
   padding: 6px 12px;
   border-radius: 6px;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 600;
   cursor: pointer;
   transition: all 0.2s;
 }
 
 .clearBtn:hover:not(:disabled) {
-  background-color: #374151;
+  background-color: #475569;
   color: #ffffff;
 }
 
 .clearBtn:disabled {
-  opacity: 0.5;
+  opacity: 0.4;
   cursor: not-allowed;
 }
 
-/* Print Button */
 .printBtn {
-  background-color: #dc2626;
-  color: white;
+  background-color: #c8102e;
+  color: #ffffff;
   border: none;
-  padding: 6px 12px;
+  padding: 6px 14px;
   border-radius: 6px;
-  font-size: 14px;
-  font-weight: 600;
+  font-size: 13px;
+  font-weight: 700;
   cursor: pointer;
   transition: background-color 0.2s;
 }
 
-.printBtn:hover {
-  background-color: #b91c1c;
+.printBtn:hover:not(:disabled) {
+  background-color: #a80d26;
 }
+
 .printBtn:disabled {
-  background-color: #6b7280;
+  background-color: #475569;
   cursor: not-allowed;
+  opacity: 0.5;
 }
 
 .macroRow {
   display: flex;
   justify-content: space-between;
-  font-size: 18px;
+  font-size: 16px;
   padding: 10px 0;
-  border-bottom: 1px solid #374151;
+  border-bottom: 1px solid #243042;
 }
 
 .macroRow:last-of-type {
   border-bottom: none;
   font-weight: 700;
-  font-size: 22px;
-  color: #fca5a5;
-  padding-top: 16px;
+  font-size: 20px;
+  color: #fbbf24;
+  padding-top: 14px;
 }
 
 .macroLabel {
-  color: #9ca3af;
+  color: #94a3b8;
+  font-size: 15px;
 }
 
 .macroValue {
-  font-weight: 600;
+  font-weight: 700;
+  color: #f8fafc;
 }
 
 .emptyState {
-  font-size: 15px;
-  color: #9ca3af;
+  font-size: 14px;
+  color: #94a3b8;
   font-style: italic;
   margin-top: 20px;
   text-align: center;
+  line-height: 1.5;
 }
 
 .selectedItemsList {
   margin-top: 20px;
-  padding-top: 20px;
-  border-top: 2px solid #374151;
-  max-height: 200px;
+  padding-top: 18px;
+  border-top: 1px solid #334155;
+  max-height: 180px;
   overflow-y: auto;
-  padding-right: 8px;
+  padding-right: 6px;
   scrollbar-width: thin;
-  scrollbar-color: #4b5563 transparent;
+  scrollbar-color: #475569 transparent;
 }
+
 .selectedItemsList::-webkit-scrollbar {
-  width: 6px;
+  width: 5px;
 }
+
 .selectedItemsList::-webkit-scrollbar-thumb {
-  background-color: #4b5563;
+  background-color: #475569;
   border-radius: 4px;
 }
 
 .selectedItemsList h4 {
-  font-family: var(--font-outfit), sans-serif;
-  font-size: 16px;
-  color: #9ca3af;
-  margin-bottom: 12px;
+  font-family: var(--font-oswald), sans-serif;
+  font-size: 15px;
+  color: #94a3b8;
+  margin-bottom: 10px;
   margin-top: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
 
 .selectedItem {
   display: flex;
   justify-content: space-between;
-  font-size: 14px;
-  margin-bottom: 8px;
-  color: #d1d5db;
+  font-size: 13px;
+  margin-bottom: 6px;
+  color: #cbd5e1;
 }
 
 .selectedItemName {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  max-width: 220px;
+  max-width: 200px;
 }
 
 /* Mobile Smart Tray (Compact Bar) */
@@ -311,7 +318,7 @@
 @media (max-width: 1023px) {
   .calculatorContainer {
     position: relative;
-    padding-bottom: 0;
+    padding: 20px;
   }
 
   .summaryPanel {
@@ -320,12 +327,12 @@
     top: auto;
     left: 0;
     right: 0;
-    margin-top: 20px;
+    margin-top: 15px;
     z-index: 10;
   }
 
   .summaryContent {
-    display: none; /* Hidden by default on mobile until expanded */
+    display: none;
     padding: 20px;
     max-height: 50vh;
     overflow-y: auto;
@@ -335,23 +342,22 @@
     display: block;
   }
 
-  /* The compact bar that shows when closed */
   .mobileTrayHeader {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 16px 20px;
-    background-color: #1f2937;
+    background-color: #1a2433;
     color: white;
     border-radius: 12px;
     cursor: pointer;
-    font-family: var(--font-outfit), sans-serif;
+    font-family: var(--font-oswald), sans-serif;
   }
   
   .summaryPanel.expanded .mobileTrayHeader {
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
-    border-bottom: 1px solid #374151;
+    border-bottom: 1px solid #334155;
   }
 
   .mobileTraySummary {
@@ -360,15 +366,15 @@
   }
   
   .mobileTraySub {
-    font-size: 14px;
-    color: #9ca3af;
+    font-size: 13px;
+    color: #94a3b8;
     font-family: var(--font-roboto), sans-serif;
-    margin-top: 4px;
+    margin-top: 2px;
   }
 
   .mobileTrayToggle {
-    font-size: 24px;
-    color: #dc2626;
+    font-size: 20px;
+    color: #c8102e;
     transition: transform 0.3s;
   }
 
@@ -377,26 +383,22 @@
   }
 }
 
-/* PRINT CSS: Professional Printable PDF Design */
+/* PRINT CSS */
 .printOnlyHeader, .printCheckbox {
   display: none;
 }
 
 @media print {
-  /* Hide EVERYTHING by default */
   body * {
     visibility: hidden;
   }
   
-  /* Reset body and html margins to avoid blank pages */
   html, body {
     margin: 0 !important;
     padding: 0 !important;
-    height: auto !important;
     background: white !important;
   }
 
-  /* Make ONLY the summary panel and its contents visible */
   .summaryPanel, .summaryPanel * {
     visibility: visible;
   }
@@ -421,12 +423,10 @@
     overflow: visible !important;
   }
   
-  /* Hide interactive/unnecessary elements during print */
   .mobileTrayHeader, .printBtn, .emptyState {
     display: none !important;
   }
 
-  /* Print-only elements for professional look */
   .printOnlyHeader {
     display: block !important;
     font-size: 14px;
@@ -446,48 +446,42 @@
     border-radius: 2px;
   }
 
-  /* Adjust colors and layout for professional print (saving ink) */
   .summaryTitle {
     color: black !important;
     border-bottom: 3px solid #000 !important;
-    font-size: 32px !important;
+    font-size: 30px !important;
   }
   
   .macroRow {
     border-bottom: 1px solid #eee !important;
-    padding: 12px 0 !important;
+    padding: 10px 0 !important;
   }
   
   .macroLabel {
     color: #333 !important;
-    font-weight: 500 !important;
   }
 
   .macroRow:last-of-type {
     color: black !important;
     border-top: 2px solid #000 !important;
-    font-size: 24px !important;
+    font-size: 22px !important;
   }
   
   .selectedItemsList {
-    border-top: 3px solid #000 !important;
-    margin-top: 40px !important;
+    border-top: 2px solid #000 !important;
+    margin-top: 30px !important;
     padding-top: 20px !important;
     max-height: none !important;
-    overflow: visible !important;
   }
 
   .selectedItemsList h4 {
     color: black !important;
-    font-size: 20px !important;
-    margin-bottom: 20px !important;
+    font-size: 18px !important;
   }
   
   .selectedItem {
     color: black !important;
     border-bottom: 1px solid #eee !important;
-    padding: 12px 0 !important;
-    font-size: 16px !important;
-    align-items: center !important;
+    padding: 10px 0 !important;
   }
 }
