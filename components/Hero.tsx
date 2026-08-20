@@ -17,8 +17,6 @@ export default function Hero() {
       />
       <h1>Applebees Menu with Prices and Calories (2026)</h1>
       <p className={styles.lastUpdated}>Last updated: August 2026</p>
-      <p className={styles.disclaimer}><strong>Independent menu guide. Not affiliated with Applebee's. Prices and availability vary by location.</strong></p>
-
       <p>
         This complete guide covers the full Applebee's menu with prices and calories. It includes over 90 items across 14 categories: appetizers, handcrafted burgers, steaks and ribs, chicken, pasta, seafood, salads, desserts, sides, signature cocktails, non-alcoholic beverages, and the kids menu. You will also find current details on the popular 2 for $25 deal, All You Can Eat promotions, and daily specials like half-price apps. All prices and nutrition data were verified in August 2026 by sampling live menus from franchise locations across the United States. Since Applebee's locations are independently operated, local prices and item availability will differ from these averages.
       </p>

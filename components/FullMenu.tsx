@@ -76,7 +76,7 @@ export default function FullMenu() {
               <div className={styles.tableCard}>
                 <div className={styles.tableBanner}>
                   <span className={styles.bannerTitle}>
-                    <strong>{category.title} Menu</strong> — Prices verified August 2026
+                    <strong>{category.title} Menu</strong>  Prices verified August 2026
                   </span>
                   <Link href={`/menu/${category.slug}`} className={styles.bannerLink}>
                     View {category.title} Page &rarr;
