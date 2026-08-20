@@ -52,7 +52,7 @@ export default function Sidebar({ currentSlug, pageType = 'menu' }: SidebarProps
         <h3 className={styles.widgetTitle}>TOP MENU GUIDES</h3>
         <ul className={styles.widgetList}>
           {recommendedCategories.map(category => (
-            <li key={`rec-${category.id || category.slug}`}>
+            <li key={`rec-${category.slug}`}>
               <Link href={`/menu/${category.slug}`}>
                 Applebee's {category.title} Prices & Menu
               </Link>
@@ -66,7 +66,7 @@ export default function Sidebar({ currentSlug, pageType = 'menu' }: SidebarProps
         <h3 className={styles.widgetTitle}>EXPLORE MORE</h3>
         <ul className={styles.widgetList}>
           {moreCategories.map(category => (
-            <li key={`cat-${category.id || category.slug}`}>
+            <li key={`cat-${category.slug}`}>
               <Link href={`/menu/${category.slug}`}>
                 {category.title}
               </Link>

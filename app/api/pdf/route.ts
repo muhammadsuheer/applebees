@@ -100,7 +100,6 @@ export async function POST(req: Request) {
         if (data.section === 'body' && data.column.index === 0) {
           doc.setDrawColor(100, 100, 100);
           doc.setLineWidth(0.3);
-          // @ts-expect-error - jsPDF autoTable types are incomplete
           doc.rect(data.cell.x + 5, data.cell.y + 1.5, 4, 4, 'S');
         }
       }
