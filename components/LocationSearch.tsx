@@ -10,56 +10,101 @@ interface LocationSearchProps {
 
 export default function LocationSearch({ locationsData }: LocationSearchProps) {
   const [query, setQuery] = useState('');
+  const [selectedState, setSelectedState] = useState<string>('ALL');
+
+  // Extract all available state names
+  const availableStates = useMemo(() => {
+    return locationsData.map(s => s.stateName);
+  }, [locationsData]);
 
   // Memoize the filtering logic so it's snappy
   const filteredData = useMemo(() => {
-    if (!query.trim()) return locationsData;
+    let result = locationsData;
+
+    if (selectedState !== 'ALL') {
+      result = result.filter(s => s.stateName.toLowerCase() === selectedState.toLowerCase());
+    }
+
+    if (!query.trim()) return result;
 
     const lowerQuery = query.toLowerCase();
     
-    return locationsData
+    return result
       .map(stateData => {
-        // Filter locations within the state
         const matchingLocations = stateData.locations.filter(
           loc => 
             loc.city.toLowerCase().includes(lowerQuery) ||
             loc.address.toLowerCase().includes(lowerQuery) ||
-            stateData.stateName.toLowerCase().includes(lowerQuery) // If they search by state, return all in that state
+            stateData.stateName.toLowerCase().includes(lowerQuery)
         );
         return { ...stateData, locations: matchingLocations };
       })
-      .filter(stateData => stateData.locations.length > 0); // Remove empty states
-  }, [query, locationsData]);
+      .filter(stateData => stateData.locations.length > 0);
+  }, [query, selectedState, locationsData]);
 
   return (
-    <div className={styles.searchContainer}>
+    <div className={styles.searchContainer} id="location-finder-widget">
       <div className={styles.searchHeader}>
-        <h3>Find a Restaurant Near You</h3>
+        <h3 className={styles.searchHeading}>Find a Restaurant Near You</h3>
+        <p className={styles.searchSub}>Search by ZIP code, city, or filter by state below.</p>
+        
         <div className={styles.searchInputWrapper}>
           <span className={styles.searchIcon}>🔍</span>
           <input
             type="text"
             className={styles.searchInput}
-            placeholder="Search by city, state, or zip code..."
+            placeholder="Enter ZIP code, city, or address..."
             value={query}
             onChange={(e) => setQuery(e.target.value)}
           />
+          {query && (
+            <button className={styles.clearSearchBtn} onClick={() => setQuery('')}>✕</button>
+          )}
+        </div>
+
+        {/* State Filter Pills */}
+        <div className={styles.statePillsContainer}>
+          <button
+            className={`${styles.statePill} ${selectedState === 'ALL' ? styles.statePillActive : ''}`}
+            onClick={() => setSelectedState('ALL')}
+          >
+            All States ({locationsData.reduce((acc, s) => acc + s.locations.length, 0)})
+          </button>
+          {availableStates.map(state => {
+            const count = locationsData.find(s => s.stateName === state)?.locations.length || 0;
+            return (
+              <button
+                key={state}
+                className={`${styles.statePill} ${selectedState === state ? styles.statePillActive : ''}`}
+                onClick={() => setSelectedState(selectedState === state ? 'ALL' : state)}
+              >
+                {state} ({count})
+              </button>
+            );
+          })}
         </div>
       </div>
 
+      {/* Results Display */}
       {filteredData.length > 0 ? (
         filteredData.map((stateInfo) => (
-          <div key={stateInfo.stateName} className={styles.stateSection}>
-            <h2 className={styles.stateTitle}>{stateInfo.stateName}</h2>
+          <div key={stateInfo.stateName} className={styles.stateSection} id={`state-${stateInfo.stateName.toLowerCase()}`}>
+            <div className={styles.stateHeader}>
+              <h3 className={styles.stateTitle}>{stateInfo.stateName}</h3>
+              <span className={styles.stateCount}>{stateInfo.locations.length} Locations</span>
+            </div>
             <div className={styles.locationsGrid}>
               {stateInfo.locations.map((loc, idx) => (
                 <div key={idx} className={styles.locationCard}>
-                  <div className={styles.cardHeader}>
+                  <div className={styles.cardTop}>
                     <span className={styles.cityBadge}>{loc.city}</span>
-                    <p className={styles.address}>{loc.address}</p>
+                    <span className={styles.openBadge}>Open Today: 11 AM – 11 PM</span>
                   </div>
+                  
+                  <p className={styles.address}>{loc.address}</p>
+                  
                   <div className={styles.cardActions}>
-                    <a href={`tel:${loc.phone.replace(/\D/g, '')}`} className={styles.phoneBtn}>
+                    <a href={`tel:${loc.phone.replace(/\D/g, '')}`} className={styles.phoneBtn} title="Call this location">
                       📞 {loc.phone}
                     </a>
                     <a 
@@ -67,6 +112,7 @@ export default function LocationSearch({ locationsData }: LocationSearchProps) {
                       target="_blank" 
                       rel="noreferrer"
                       className={styles.directionsBtn}
+                      title="Open in Google Maps"
                     >
                       🧭 Get Directions
                     </a>
@@ -80,10 +126,11 @@ export default function LocationSearch({ locationsData }: LocationSearchProps) {
         <div className={styles.noResults}>
           <h4>No Locations Found</h4>
           <p>
-            We couldn't find any Applebee's matching "{query}". 
-            <br/><br/>
-            <strong>Note:</strong> Applebee's does not operate locations in Hawaii, Fiji, or US Territories. If you are searching in these areas, you will need to travel to the mainland.
+            We couldn't find any Applebee's matching "{query}".
           </p>
+          <button className={styles.resetBtn} onClick={() => { setQuery(''); setSelectedState('ALL'); }}>
+            Reset Filters
+          </button>
         </div>
       )}
     </div>

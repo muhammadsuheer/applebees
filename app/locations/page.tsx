@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import Link from 'next/link';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Breadcrumb from '@/components/Breadcrumb';
@@ -7,17 +8,83 @@ import LocationSearch from '@/components/LocationSearch';
 import styles from './page.module.css';
 
 export const metadata: Metadata = {
-  title: 'Applebee\'s Locations | Find Your Nearest Restaurant',
-  description: 'Find an Applebee\'s restaurant near you. View our comprehensive 2026 directory of 1,579 worldwide locations, get directions, and check operating hours.',
+  title: "Applebee's Locations: Find a Restaurant, Hours & Phone Numbers",
+  description: "Find Applebee's locations by state or ZIP code, with hours, phone numbers and directions. Plus what changes between restaurants — prices, deals and happy hour times.",
   alternates: {
-    canonical: 'https://applebees-menus.us/locations/',
+    canonical: 'https://applebees-menus.us/locations',
   }
 };
 
+const faqData = [
+  {
+    question: "How many Applebee's locations are there?",
+    answer: "Around 1,600 restaurants across the United States, plus international locations. The number shifts as restaurants open and close."
+  },
+  {
+    question: "How do I find the closest Applebee's?",
+    answer: "Use the search above with a ZIP code or by allowing location access. Results show distance, address, phone number and current open status."
+  },
+  {
+    question: "What time does Applebee's open?",
+    answer: "Most locations open at 11:00 AM. Applebee's does not serve a breakfast menu, so there is no earlier opening."
+  },
+  {
+    question: "What time does Applebee's close?",
+    answer: "Typically 11:00 PM Sunday through Thursday and midnight or later on Friday and Saturday. Closing times are set per restaurant and the kitchen may stop serving before the posted time."
+  },
+  {
+    question: "Are Applebee's locations open on holidays?",
+    answer: "Most open with reduced hours on major holidays. Christmas Day closures are common but decided locally. Call the restaurant to confirm."
+  },
+  {
+    question: "How do I find an Applebee's phone number?",
+    answer: "Each restaurant listing in the finder above includes its direct number. Calling the location is the fastest route for hours, wait times or party bookings."
+  },
+  {
+    question: "Do all Applebee's locations have the same menu?",
+    answer: "Core items are consistent nationally. Limited-time and regional items vary, and promotion participation is decided by each franchise owner."
+  },
+  {
+    question: "Why do prices differ between Applebee's locations?",
+    answer: "Franchise owners set pricing based on local operating costs. Differences of several dollars on the same item between markets are normal."
+  },
+  {
+    question: "Does every Applebee's offer delivery?",
+    answer: "No. Delivery is available at participating locations and the coverage area is set per restaurant."
+  },
+  {
+    question: "Do all locations run happy hour?",
+    answer: "Most participating locations do, usually Monday through Friday with afternoon and late-night windows. Times and included items are set locally."
+  }
+];
+
 export default function LocationsPage() {
-  const combinedSchema = {
+  const schemaData = {
     "@context": "https://schema.org",
     "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://applebees-menus.us/locations/#webpage",
+        "url": "https://applebees-menus.us/locations",
+        "name": "Applebee's Locations: Find a Restaurant, Hours & Phone Numbers",
+        "description": "Find Applebee's locations by state or ZIP code, with hours, phone numbers and directions. Plus what changes between restaurants — prices, deals and happy hour times.",
+        "breadcrumb": {
+          "@id": "https://applebees-menus.us/locations/#breadcrumb"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://applebees-menus.us/locations/#faq",
+        "name": "Applebee's Locations Frequently Asked Questions",
+        "mainEntity": faqData.map(faq => ({
+          "@type": "Question",
+          "name": faq.question,
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": faq.answer
+          }
+        }))
+      },
       {
         "@type": "BreadcrumbList",
         "@id": "https://applebees-menus.us/locations/#breadcrumb",
@@ -35,72 +102,6 @@ export default function LocationsPage() {
             "item": "https://applebees-menus.us/locations"
           }
         ]
-      },
-      {
-        "@type": "ItemList",
-        "@id": "https://applebees-menus.us/locations/#list",
-        "name": "Applebee's Locations Directory",
-        "description": "A comprehensive directory of Applebee's locations.",
-        "itemListElement": locationData.flatMap(stateObj =>
-          stateObj.locations.map(loc => ({ ...loc, state: stateObj.stateName }))
-        ).map((loc, index) => ({
-          "@type": "ListItem",
-          "position": index + 1,
-          "item": {
-            "@type": "Restaurant",
-            "name": `Applebee's ${loc.city}`,
-            "address": {
-              "@type": "PostalAddress",
-              "streetAddress": loc.address,
-              "addressLocality": loc.city,
-              "addressRegion": loc.state,
-              "postalCode": loc.address.split(', ').pop()?.split(' ').pop() || '',
-              "addressCountry": "US"
-            },
-            "telephone": loc.phone,
-            "url": "https://applebees-menus.us/locations",
-            "servesCuisine": "American"
-          }
-        }))
-      },
-      {
-        "@type": "FAQPage",
-        "@id": "https://applebees-menus.us/locations/#faq",
-        "name": "Applebee's Locations FAQ",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "How many Applebee's locations are there?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "As of 2026, there are 1,579 Applebee's locations worldwide. The vast majority (1,520) are franchised, while 59 are company-owned."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Are there any Applebee's locations in Hawaii?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Currently, there are no Applebee's locations in Hawaii. However, Applebee's maintains a strong presence across nearly all other U.S. states and territories."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Does Applebee's serve breakfast?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Traditional Applebee's locations do not serve breakfast. However, the new 2026 dual-branded Applebee's and IHOP locations serve the full breakfast menu from IHOP alongside the standard Applebee's lunch and dinner menu."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "How can I find Applebee's near me?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "The fastest way to find a location is by using the official Applebee's App, searching 'Applebee's near me' on Google Maps, or consulting our state-by-state directory below to call your local restaurant directly."
-            }
-          }
-        ]
       }
     ]
   };
@@ -109,106 +110,200 @@ export default function LocationsPage() {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(combinedSchema) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
       <Header />
       <Breadcrumb items={[{ label: 'Locations', href: '/locations' }]} />
-      <main>
-        <section className={styles.hero}>
-          <h1>Applebee's Locations: The 2026 Worldwide Directory</h1>
-          <p>
-            Looking for an <strong>"Applebee's near me"</strong> for tonight's dinner or a weekend Happy Hour? You've come to the right place. With exactly <strong>1,579 restaurants worldwide</strong>including 1,520 franchised locations and 59 company-owned spotsfinding your neighborhood grill is easier than ever. Our human-curated guide breaks down everything from finding the closest spot for Curbside To Go, to the real reason you won't find an Applebee's on your Hawaiian vacation.
+      
+      <main className={styles.main}>
+        {/* H1 & §1 — OPENING */}
+        <header className={styles.hero} role="banner" aria-label="Locations Header">
+          <h1>Applebee's Locations, Hours and Contact Details</h1>
+          <p className={styles.heroLead}>
+            Applebee's runs about 1,600 restaurants across the United States. Finding one is usually easy. Knowing what to expect when you get there is the harder part, because Applebee's is franchised — individual owners set their own hours, prices and promotions.
           </p>
-        </section>
+          <p className={styles.heroSub}>
+            That has a practical consequence most people learn the hard way: the restaurant you visited last month in another town may run different happy hour times, charge a few dollars more for the same burger, or not participate in the deal you drove there for.
+          </p>
+          <p className={styles.heroHighlight}>
+            This page covers finding the nearest restaurant, what varies between them, hours including holidays, and how to reach a specific location directly.
+          </p>
+        </header>
 
-        <section className={styles.clusterSection}>
-          <h2>Pro Tips: How to Find Your Nearest Applebee's in 2026</h2>
+        {/* §2 — FIND YOUR NEAREST RESTAURANT & §3 — BROWSE BY STATE */}
+        <section className={styles.clusterSection} id="find-nearest">
+          <h2>Find an Applebee's Near You</h2>
           <p>
-            We've all been thereyou're craving Half-Price Apps, but you aren't sure if the location down the street is still open. While our interactive directory below is great for planning, here is our top advice for securing the best dining experience:
+            Search by ZIP code, city, or allow location access. Results return the closest restaurants with distance, address, phone number, and whether each one is currently open.
           </p>
-          <ul className={styles.textList}>
-            <li><strong>The "Near Me" Search Strategy:</strong> Google Maps and Apple Maps are your best friends for real-time data. Searching "Applebee's near me" will instantly show you holiday hours, current traffic, and how busy the restaurant is right now. <em>Pro Tip:</em> Always check the "Live" busy meter before heading out for a Friday night dinner.</li>
-            <li><strong>Using the Official App for Curbside To Go:</strong> If you're ordering takeout, use the official Applebee's App or website. It ties directly into the kitchen's system, meaning you get real-time tracking for your Carside To Go or Delivery orders. Third-party apps like DoorDash are great, but the official app often has exclusive local coupons.</li>
-            <li><strong>When in Doubt, Call Ahead:</strong> Looking to book a large party or wondering if a specific Happy Hour deal is running today? Use our directory below to find the direct phone number. A 30-second phone call to the host stand can save you a lot of hassle.</li>
-          </ul>
-        </section>
-
-        <section className={styles.clusterSection}>
-          <h2>What Services Do Applebee's Locations Offer?</h2>
-          <p>
-            While every neighborhood grill shares that classic, welcoming vibe, the actual services can vary. When searching for a location, keep an eye out for these specific amenities:
-          </p>
-          <ul className={styles.textList}>
-            <li><strong>Carside To Go®:</strong> Almost all locations now feature designated parking spots where staff will bring your food directly to your window.</li>
-            <li><strong>Delivery:</strong> Available at over 90% of locations, either fulfilled by Applebee's own drivers or partners like UberEats.</li>
-            <li><strong>Late-Night Happy Hour:</strong> The legendary half-price appetizers are a staple, but the hours (usually 9 PM or 10 PM to close) depend entirely on the local franchise owner.</li>
-            <li><strong>Free Wi-Fi:</strong> Perfect for a working lunch; nearly all domestic locations offer free guest Wi-Fi.</li>
-          </ul>
-        </section>
-
-        <section className={styles.clusterSection}>
-          <h2>The Applebee's Footprint: Franchised vs Company-Owned</h2>
-          <p>
-            Currently, there are <strong>1,579 Applebee's locations</strong> operating globally. But here is something most diners don't realize: the vast majority of these aren't run by a giant corporate office.
-          </p>
-          <p>
-            Out of the total restaurants, <strong>1,520 are franchised locations</strong> operated by independent, local restaurant groups. Only <strong>59 are company-owned spots</strong>. <em>Why does this matter to you?</em> Because it explains why the Applebee's in Texas might have a slightly different drink menu, or a different Happy Hour start time, than the Applebee's in Michigan. The franchise owners have the flexibility to tailor their locations to the local neighborhood.
-          </p>
-        </section>
-
-        <section className={styles.clusterSection}>
-          <h2>The Missing Markets: Does Applebee's Exist in Hawaii or Fiji?</h2>
-          <p>
-            Two of the most frequently asked questions regarding Applebee's expansion involve tropical islands. Let's set the record straight for 2026:
-          </p>
-          <ul className={styles.textList}>
-            <li><strong>Hawaii:</strong> There are <strong>zero</strong> Applebee's locations in Hawaii. Despite a massive tourism industry, the brutal economics of shipping supplies from the mainland to the islands make the casual dining franchise model difficult to sustain. The closest Applebee's to Hawaii is located in California.</li>
-            <li><strong>Fiji:</strong> Similarly, there are no Applebee's restaurants in Fiji. Rumors of a Fiji location often stem from confusion with local island bars or other international chains.</li>
-            <li><strong>U.S. Territories:</strong> Applebee's currently has no presence in Guam, American Samoa, the U.S. Virgin Islands, or the Northern Mariana Islands.</li>
-          </ul>
-        </section>
-
-        <section className={styles.clusterSection}>
-          <h2>The 2026 Evolution: Dual-Branded IHOP & Applebee's</h2>
-          <p>
-            The biggest news for Applebee's locations in 2026 isn't traditional expansionit is the aggressive rollout of the <strong>Dual-Branded Applebee's & IHOP concept</strong>. Dine Brands (the parent company of both chains) is combining these two iconic restaurants under a single roof.
-          </p>
-          <p>
-            If you visit one of these new locations, you will enter through a shared set of doors. One side of the dining room features the classic Applebee's red décor, while the other features IHOP's signature blue. The incredible advantage? You can order from <em>both</em> menus simultaneously. If your local standalone Applebee's recently closed, check the locatorit is highly likely it is being replaced by one of these high-revenue, dual-branded super-centers.
-          </p>
-        </section>
-
-        <section className={styles.clusterSection} id="interactive-directory">
-          <h2>Interactive Applebee's Location Directory</h2>
-          <p>
-            Use our interactive search tool below to find an Applebee's near you. You can search by city, address, or state. Get direct phone numbers to confirm operating hours or instantly load directions into Google Maps.
-          </p>
-
+          
+          {/* Location Search Widget Placed Directly Above the Fold */}
           <LocationSearch locationsData={locationData} />
+
+          <p>
+            If you are somewhere unfamiliar and just want the nearest option, the ZIP search is faster than browsing by state. If you are planning ahead, the state directory below gives you the full picture for an area.
+          </p>
+          <p>
+            <strong>One habit worth building:</strong> check the phone number and call before a long drive, particularly late in the evening or on a holiday. Kitchens sometimes stop serving before posted closing time, and holiday schedules are decided locally rather than centrally.
+          </p>
         </section>
 
-        <section className={styles.clusterSection}>
-          <h2>Frequently Asked Questions</h2>
-          <div className={styles.faqSection}>
-            <div className={styles.faqItem}>
-              <h3>How many Applebee's locations are there in the U.S.?</h3>
-              <p>As of 2026, there are 1,579 Applebee's restaurants operating worldwide. The vast majority (1,520) are franchised, while 59 are company-owned spots. The exact number fluctuates slightly due to the opening of new dual-branded Applebee's/IHOP locations and occasional closures of older standalone units.</p>
+        {/* §3 — BROWSE BY STATE */}
+        <section className={styles.clusterSection} id="browse-by-state">
+          <h2>Applebee's Locations by State</h2>
+          <p>
+            Applebee's operates in all 50 states, with the largest concentrations in Texas, Florida, Ohio, Pennsylvania, New York and Michigan. Use the quick filter pills in the finder above to instantly view restaurants by state.
+          </p>
+        </section>
+
+        {/* §4 — WHAT CHANGES BETWEEN RESTAURANTS */}
+        <section className={styles.clusterSection} id="what-changes">
+          <h2>What's Different at Each Applebee's Location</h2>
+          <p>
+            This is the section that makes the page worth reading, and it is the part almost no competitor covers properly.
+          </p>
+
+          <div className={styles.varianceGrid}>
+            <div className={styles.varianceCard}>
+              <h3>Prices</h3>
+              <p>
+                Franchise owners set menu pricing against local costs. The same handcrafted burger can differ by several dollars between a small-town location and a major metro. Figures on our <Link href="/menu">menu with prices</Link> reflect commonly listed pricing — treat the local restaurant as authoritative.
+              </p>
             </div>
 
-            <div className={styles.faqItem}>
-              <h3>Does Applebee's have locations in Hawaii or Fiji?</h3>
-              <p>No. Applebee's does not operate any restaurants in Hawaii or Fiji. The logistical and shipping costs required to maintain their casual dining franchise model on these islands have historically prevented expansion into those markets.</p>
+            <div className={styles.varianceCard}>
+              <h3>Deal Participation</h3>
+              <p>
+                Value offers like <Link href="/menu/2-for-25">2 for $25</Link> and <Link href="/specials-and-deals">half price appetizers</Link> are corporate promotions that franchisees opt into. Most participate. Not all do, and not always on the same schedule.
+              </p>
             </div>
 
-            <div className={styles.faqItem}>
-              <h3>Does Applebee's serve breakfast?</h3>
-              <p>Traditional Applebee's locations do not serve breakfast. However, the new 2026 dual-branded Applebee's and IHOP locations serve the full breakfast menu from IHOP alongside the standard Applebee's lunch and dinner menu.</p>
+            <div className={styles.varianceCard}>
+              <h3>Happy Hour Windows</h3>
+              <p>
+                The common pattern is an afternoon session and a late-night session, but start times, end times and which appetizers are included are all set per restaurant. Details on the <Link href="/happy-hour">happy hour page</Link>.
+              </p>
             </div>
 
-            <div className={styles.faqItem}>
-              <h3>How can I find Applebee's near me?</h3>
-              <p>The fastest way to find a location is by using the official Applebee's App, searching "Applebee's near me" on Google Maps, or consulting our state-by-state directory above to call your local restaurant directly.</p>
+            <div className={styles.varianceCard}>
+              <h3>Menu Availability</h3>
+              <p>
+                Core items are consistent nationally. Limited-time items roll out on staggered schedules, so a dish advertised nationally may not have reached every kitchen yet. If you are checking whether a specific item is available at a specific restaurant, the location's own ordering page is the only reliable answer.
+              </p>
             </div>
+
+            <div className={styles.varianceCard}>
+              <h3>Ordering Methods</h3>
+              <p>
+                <Link href="/delivery">Delivery</Link> coverage depends on the area. <Link href="/takeout">Carside To Go</Link> is available at most locations but not all. <Link href="/catering">Catering</Link> has advance-notice requirements that vary.
+              </p>
+            </div>
+
+            <div className={styles.varianceCard}>
+              <h3>What Doesn't Change</h3>
+              <p>
+                Recipes, portion sizes, and <Link href="/nutrition">nutrition and allergen data</Link>. Those are set centrally and hold everywhere.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* §5 — HOURS */}
+        <section className={styles.clusterSection} id="hours">
+          <h2>Applebee's Hours: Standard and Holiday</h2>
+          <p>
+            Most locations follow standard casual dining schedules:
+          </p>
+
+          <div className={styles.tableCard} style={{ maxWidth: '650px', margin: '20px auto' }}>
+            <div className={styles.tableResponsive}>
+              <table className={styles.hoursTable}>
+                <thead>
+                  <tr>
+                    <th scope="col">Days</th>
+                    <th scope="col">Opens</th>
+                    <th scope="col">Closes</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><strong>Sunday – Thursday</strong></td>
+                    <td>11:00 AM</td>
+                    <td>11:00 PM</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Friday – Saturday</strong></td>
+                    <td>11:00 AM</td>
+                    <td>12:00 AM or later</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <p>
+            Applebee's does not serve breakfast, which is why opening is consistently late morning rather than early.
+          </p>
+          <p>
+            Two things the table does not capture. Bar service often runs later than the kitchen, so arriving near closing may mean drinks only. And the kitchen sometimes stops taking orders 15 to 30 minutes before the posted close.
+          </p>
+          <p>
+            Holidays are the real variable. Thanksgiving, Christmas Eve, Christmas Day and New Year's Day schedules are set per restaurant. Christmas Day closures are common but not universal. Published hours are unreliable on holidays — calling is the only way to be certain.
+          </p>
+          <p>
+            Full breakdown including holiday schedules: see our complete <Link href="/operating-hours">operating hours</Link> guide.
+          </p>
+        </section>
+
+        {/* §6 — CONTACT A SPECIFIC RESTAURANT */}
+        <section className={styles.clusterSection} id="contact-restaurant">
+          <h2>Applebee's Phone Numbers and Addresses</h2>
+          <p>
+            Every restaurant in the finder above lists its direct phone number and street address. Calling the location directly is more useful than a general enquiry line for anything location-specific: current hours, whether a deal is running, wait times, large party bookings, or checking an allergen question with the kitchen manager.
+          </p>
+          <p>
+            For allergen questions in particular, calling ahead lets the manager pull the allergen binder before you arrive rather than during a busy service.
+          </p>
+        </section>
+
+        {/* §7 — ORDERING WITHOUT VISITING */}
+        <section className={styles.clusterSection} id="ordering-options">
+          <h2>Delivery, Takeout and Catering by Location</h2>
+          <p>
+            <strong><Link href="/delivery">Delivery</Link>:</strong> Delivery is available at participating restaurants through Applebee's own site and app, and through selected third-party platforms. Coverage radius is set per restaurant, so a location eight miles away may deliver while one four miles away does not. See <Link href="/delivery">delivery</Link>.
+          </p>
+          <p>
+            <strong>Carside To Go:</strong> Carside To Go lets you order ahead and collect from a designated parking spot without going inside. Available at most locations. See <Link href="/takeout">takeout</Link>.
+          </p>
+          <p>
+            <strong>Catering:</strong> Catering covers group and party orders at participating restaurants, with lead times that vary. See <Link href="/catering">catering</Link>.
+          </p>
+        </section>
+
+        {/* §8 — SPANISH SECTION */}
+        <section className={styles.clusterSection} id="cerca-de-mi">
+          <h2>Applebee's Cerca de Mí</h2>
+          <p>
+            Applebee's tiene alrededor de 1,600 restaurantes en Estados Unidos. Para encontrar el más cercano, busca por código postal o selecciona tu estado en la sección de arriba. Los resultados muestran la dirección, el teléfono y si el restaurante está abierto en este momento.
+          </p>
+          <p>
+            Algo importante: Applebee's funciona por franquicias. Cada restaurante decide sus propios horarios, precios y promociones. Antes de ir, conviene confirmar el horario del local — sobre todo en días festivos — y verificar si participa en ofertas como <Link href="/menu/2-for-25">2 por $25</Link> o la <Link href="/happy-hour">hora feliz</Link>.
+          </p>
+          <p>
+            La mayoría de los locales abren a las 11:00 AM y cierran alrededor de las 11:00 PM entre domingo y jueves, con horario extendido los viernes y sábados.
+          </p>
+        </section>
+
+        {/* §9 — FAQ */}
+        <section className={styles.clusterSection} id="faqs">
+          <h2>Applebee's Locations — Common Questions</h2>
+          <div className={styles.faqList}>
+            {faqData.map((faq, index) => (
+              <article key={index} className={styles.faqItem}>
+                <h3>{faq.question}</h3>
+                <p>{faq.answer}</p>
+              </article>
+            ))}
           </div>
         </section>
       </main>
