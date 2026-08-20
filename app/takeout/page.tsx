@@ -38,7 +38,7 @@ const faqData = [
   },
   {
     question: "What is the best way to reheat Applebee's leftovers?",
-    answer: "An air fryer for anything fried — roughly 4–6 minutes at 375°F for wings. For steak and chicken, slice thin and warm briefly in a hot skillet. Avoid the microwave for fried food and bread."
+    answer: "An air fryer for anything fried  roughly 4–6 minutes at 375°F for wings. For steak and chicken, slice thin and warm briefly in a hot skillet. Avoid the microwave for fried food and bread."
   },
   {
     question: "Can I get half price appetizers for takeout?",
@@ -144,11 +144,11 @@ export default function TakeoutPage() {
       <Breadcrumb items={[{ label: 'Takeout', href: '/takeout' }]} />
 
       <main className={styles.main}>
-        {/* H1 & §1 — FINDER + OPENING */}
+        {/* H1 & §1  FINDER + OPENING */}
         <header className={styles.hero} role="banner" aria-label="Takeout Header">
           <h1>Applebee's Takeout and Carside To Go</h1>
           <p className={styles.heroLead}>
-            Applebee's takeout is available at essentially every location, either as standard pickup inside or as Carside To Go, where the order is brought out to your car. Both use the same in-restaurant menu prices — no markup, no delivery fee.
+            Applebee's takeout is available at essentially every location, either as standard pickup inside or as Carside To Go, where the order is brought out to your car. Both use the same in-restaurant menu prices  no markup, no delivery fee.
           </p>
           <p className={styles.heroSub}>
             That makes takeout the cheapest way to eat Applebee's outside the restaurant. This page covers how to order, what it costs compared to <Link href="/delivery">delivery</Link>, which dishes survive the trip, and how to reheat what is left.
@@ -160,13 +160,13 @@ export default function TakeoutPage() {
           <LocationSearch locationsData={locationData} />
         </section>
 
-        {/* §2 — HOW TO ORDER */}
+        {/* §2  HOW TO ORDER */}
         <section className={styles.clusterSection} id="how-to-order">
           <h2>How to Order Applebee's Takeout</h2>
-          
+
           <div className={styles.answerBlock}>
             <p>
-              Order Applebee's takeout through the Applebee's app or website, or by phone. Ordering ahead through the app is fastest — it sends the order straight to the kitchen system and gives a pickup time based on current kitchen load.
+              Order Applebee's takeout through the Applebee's app or website, or by phone. Ordering ahead through the app is fastest  it sends the order straight to the kitchen system and gives a pickup time based on current kitchen load.
             </p>
           </div>
 
@@ -194,7 +194,7 @@ export default function TakeoutPage() {
           </p>
         </section>
 
-        {/* §3 — TAKEOUT VS DELIVERY COST */}
+        {/* §3  TAKEOUT VS DELIVERY COST */}
         <section className={styles.clusterSection} id="takeout-vs-delivery-cost">
           <h2>Is Takeout Cheaper Than Delivery at Applebee's?</h2>
 
@@ -245,7 +245,7 @@ export default function TakeoutPage() {
 
           <h3>Fees worth checking</h3>
           <p>
-            Carside To Go itself is not a paid service — bringing the food out is included. Some individual locations do apply a separate to-go service or packaging fee to off-premise orders, since a takeout order does not generate the drink sales a dine-in table does.
+            Carside To Go itself is not a paid service  bringing the food out is included. Some individual locations do apply a separate to-go service or packaging fee to off-premise orders, since a takeout order does not generate the drink sales a dine-in table does.
           </p>
           <p>
             This is a franchise-level decision rather than a company-wide policy, so it varies. Build the order in the app and check the total breakdown before submitting. If a service fee appears on a takeout order, that is a local charge.
@@ -260,7 +260,7 @@ export default function TakeoutPage() {
           </p>
         </section>
 
-        {/* §4 — WHAT TRAVELS WELL */}
+        {/* §4  WHAT TRAVELS WELL */}
         <section className={styles.clusterSection} id="what-travels-well">
           <h2>Which Applebee's Dishes Hold Up for Takeout</h2>
           <p>
@@ -292,7 +292,7 @@ export default function TakeoutPage() {
               <strong>Anything fried and sauced:</strong> Boneless wings tossed in sauce sit in warm liquid for the whole journey and the coating softens. Ordering them plain with sauce in a separate container, then tossing at home, gives you the texture you paid for. This one change makes more difference than any other. See our <Link href="/menu/appetizers">appetizers</Link>.
             </li>
             <li>
-              <strong><Link href="/menu/salads">Salads</Link>:</strong> Dressing wilts greens and softens crispy toppings. Ask for dressing and crunchy elements on the side — it is not always the default.
+              <strong><Link href="/menu/salads">Salads</Link>:</strong> Dressing wilts greens and softens crispy toppings. Ask for dressing and crunchy elements on the side  it is not always the default.
             </li>
             <li>
               <strong>Fries:</strong> The single worst travelling item on the menu. Substituting <Link href="/menu/sides">steamed vegetables or mashed potatoes</Link> means the side arrives in usable condition.
@@ -301,41 +301,41 @@ export default function TakeoutPage() {
 
           <h3>Not offered for takeout</h3>
           <p>
-            Some items are absent from the to-go menu entirely — typically skillet dishes served sizzling and ice-cream desserts. Both depend on temperature contrast that does not survive a container. If something on the <Link href="/menu">full menu</Link> is missing from the takeout menu, this is usually why.
+            Some items are absent from the to-go menu entirely  typically skillet dishes served sizzling and ice-cream desserts. Both depend on temperature contrast that does not survive a container. If something on the <Link href="/menu">full menu</Link> is missing from the takeout menu, this is usually why.
           </p>
         </section>
 
-        {/* §5 — REHEATING LEFTOVERS */}
+        {/* §5  REHEATING LEFTOVERS */}
         <section className={styles.clusterSection} id="reheating-guide">
           <h2>How to Reheat Applebee's Leftovers</h2>
           <p>
             Portions are large enough that leftovers are common. The microwave is the wrong tool for most of them.
           </p>
-          
+
           <div className={styles.reheatGrid}>
             <div className={styles.reheatCard}>
-              <h3>Fried items — Air Fryer</h3>
+              <h3>Fried items  Air Fryer</h3>
               <p>
-                Dry circulating heat re-crisps breading that a microwave turns rubbery. Boneless wings and wonton tacos take about 4–6 minutes at 375°F. Mozzarella sticks need less — around 3 minutes at 350°F, and watch them closely, because the cheese will burst through if left too long. Fries take 3–5 minutes at 400°F, tossed halfway.
+                Dry circulating heat re-crisps breading that a microwave turns rubbery. Boneless wings and wonton tacos take about 4–6 minutes at 375°F. Mozzarella sticks need less  around 3 minutes at 350°F, and watch them closely, because the cheese will burst through if left too long. Fries take 3–5 minutes at 400°F, tossed halfway.
               </p>
             </div>
 
             <div className={styles.reheatCard}>
-              <h3>Steak & Chicken — Skillet</h3>
+              <h3>Steak & Chicken  Skillet</h3>
               <p>
                 Slice thin first, then warm in a hot pan with a little oil for under two minutes. Reheating a whole piece of meat dries it out; slicing first means it warms through before it overcooks.
               </p>
             </div>
 
             <div className={styles.reheatCard}>
-              <h3>Pasta — Stovetop</h3>
+              <h3>Pasta  Stovetop</h3>
               <p>
                 A little water or milk added while reheating brings the sauce back rather than letting it split in the microwave.
               </p>
             </div>
 
             <div className={styles.reheatCard}>
-              <h3>Burgers — Deconstruct</h3>
+              <h3>Burgers  Deconstruct</h3>
               <p>
                 Separate the components. Warm the patty in a pan, toast the bun, then rebuild. Reheating an assembled burger produces a steamed, soggy bun.
               </p>
@@ -347,7 +347,7 @@ export default function TakeoutPage() {
           </p>
         </section>
 
-        {/* §6 — DEALS ON TAKEOUT ORDERS */}
+        {/* §6  DEALS ON TAKEOUT ORDERS */}
         <section className={styles.clusterSection} id="deals-on-takeout">
           <h2>Which Applebee's Deals Apply to Takeout</h2>
           <p>
@@ -357,30 +357,30 @@ export default function TakeoutPage() {
             <strong>Does not transfer:</strong> <Link href="/happy-hour">Half price appetizers</Link> and happy hour drink pricing are dine-in promotions.
           </p>
           <p>
-            <strong>Gift cards:</strong> <Link href="/gift-card-deals">Gift cards</Link> work normally on app and website orders — there is a field for the card number and PIN at checkout.
+            <strong>Gift cards:</strong> <Link href="/gift-card-deals">Gift cards</Link> work normally on app and website orders  there is a field for the card number and PIN at checkout.
           </p>
           <p>
             <strong>Large orders:</strong> For large parties, check <Link href="/catering">catering</Link> first. Past six or seven meals, catering is priced for volume and works out cheaper than assembling individual entrées. See all current offers on our <Link href="/specials-and-deals">specials and deals</Link> page.
           </p>
         </section>
 
-        {/* §7 — DUAL-BRANDED LOCATIONS */}
+        {/* §7  DUAL-BRANDED LOCATIONS */}
         <section className={styles.clusterSection} id="dual-branded">
           <h2>Applebee's and IHOP Under One Roof</h2>
           <p>
             A small but growing number of locations operate as combined Applebee's and IHOP restaurants under one roof, with a single kitchen and one menu organised by daypart.
           </p>
           <p>
-            For takeout this means one order can include items from both brands — an Applebee's burger alongside IHOP pancakes, bagged together and collected in one trip. Some locations also carry items exclusive to the dual-brand format.
+            For takeout this means one order can include items from both brands  an Applebee's burger alongside IHOP pancakes, bagged together and collected in one trip. Some locations also carry items exclusive to the dual-brand format.
           </p>
           <p>
             <strong>Scale check:</strong> The first US dual-branded location opened in Seguin, Texas in February 2025, and the format reached 44 US locations by mid-2026 out of roughly 1,600 Applebee's restaurants. Dine Brands is expanding it quickly, but the odds that your local restaurant is one are still low. The <Link href="/locations">location finder</Link> shows which format a restaurant runs.
           </p>
         </section>
 
-        {/* §8 — FAQ */}
+        {/* §8  FAQ */}
         <section className={styles.clusterSection} id="faqs">
-          <h2>Applebee's Takeout — Frequently Asked Questions</h2>
+          <h2>Applebee's Takeout  Frequently Asked Questions</h2>
           <div className={styles.faqList}>
             {faqData.map((faq, index) => (
               <article key={index} className={styles.faqItem}>

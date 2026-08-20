@@ -9,7 +9,7 @@ import styles from './page.module.css';
 
 export const metadata: Metadata = {
   title: "Applebee's Delivery: Order Direct, Fees & Coverage (2026)",
-  description: "How Applebee's delivery works — ordering direct versus DoorDash and Uber Eats, why app prices run higher, alcohol delivery rules, and how to check coverage.",
+  description: "How Applebee's delivery works  ordering direct versus DoorDash and Uber Eats, why app prices run higher, alcohol delivery rules, and how to check coverage.",
   alternates: {
     canonical: 'https://applebees-menus.us/delivery',
   }
@@ -67,7 +67,7 @@ export default function DeliveryPage() {
         "@id": "https://applebees-menus.us/delivery/#webpage",
         "url": "https://applebees-menus.us/delivery",
         "name": "Applebee's Delivery: Order Direct, Fees & Coverage (2026)",
-        "description": "How Applebee's delivery works — ordering direct versus DoorDash and Uber Eats, why app prices run higher, alcohol delivery rules, and how to check coverage.",
+        "description": "How Applebee's delivery works  ordering direct versus DoorDash and Uber Eats, why app prices run higher, alcohol delivery rules, and how to check coverage.",
         "breadcrumb": {
           "@id": "https://applebees-menus.us/delivery/#breadcrumb"
         }
@@ -116,11 +116,11 @@ export default function DeliveryPage() {
       <Breadcrumb items={[{ label: 'Delivery', href: '/delivery' }]} />
 
       <main className={styles.main}>
-        {/* H1 & §1 — OPENING */}
+        {/* H1 & §1  OPENING */}
         <header className={styles.hero} role="banner" aria-label="Delivery Header">
           <h1>Applebee's Delivery: How to Order and What It Costs</h1>
           <p className={styles.heroLead}>
-            Applebee's delivers through two routes: its own website and app, or third-party platforms like DoorDash, Uber Eats and Grubhub. Both end up with a contract driver at your door — but the price you pay is not the same.
+            Applebee's delivers through two routes: its own website and app, or third-party platforms like DoorDash, Uber Eats and Grubhub. Both end up with a contract driver at your door  but the price you pay is not the same.
           </p>
           <p className={styles.heroSub}>
             Ordering direct gets you the restaurant's actual menu price. Ordering through a third-party app gets you a marked-up menu, because platform commission is built into the listed price before any fees are added.
@@ -135,13 +135,13 @@ export default function DeliveryPage() {
           <LocationSearch locationsData={locationData} />
         </section>
 
-        {/* §2 — DIRECT VS THIRD-PARTY */}
+        {/* §2  DIRECT VS THIRD-PARTY */}
         <section className={styles.clusterSection} id="direct-vs-third-party">
           <h2>Ordering Direct or Through a Delivery App</h2>
 
           <div className={styles.answerBlock}>
             <p>
-              Applebee's does not employ its own delivery drivers. Orders placed on the Applebee's site or app are prepared by the restaurant and handed to a third-party contract driver. Orders placed on DoorDash or Uber Eats are prepared the same way — the difference is the menu price and who holds your money.
+              Applebee's does not employ its own delivery drivers. Orders placed on the Applebee's site or app are prepared by the restaurant and handed to a third-party contract driver. Orders placed on DoorDash or Uber Eats are prepared the same way  the difference is the menu price and who holds your money.
             </p>
           </div>
 
@@ -158,7 +158,7 @@ export default function DeliveryPage() {
 
           <h3>Why direct is easier when something goes wrong</h3>
           <p>
-            This is the part people find out the hard way. When you order through a third-party app, your transaction is with the platform, not the restaurant. A missing appetizer cannot be resolved by calling the store — the manager does not hold your payment and cannot refund it. You go through the app's support flow.
+            This is the part people find out the hard way. When you order through a third-party app, your transaction is with the platform, not the restaurant. A missing appetizer cannot be resolved by calling the store  the manager does not hold your payment and cannot refund it. You go through the app's support flow.
           </p>
           <p>
             Order direct and the restaurant holds the transaction, so the location can fix it.
@@ -166,25 +166,25 @@ export default function DeliveryPage() {
 
           <h3>Where third-party apps still make sense</h3>
           <p>
-            If you already pay for a platform subscription that removes delivery fees and reduces service fees, the gap narrows. Coverage also differs — a platform may reach an address the direct route does not, or vice versa. Checking both is worth thirty seconds on a larger order.
+            If you already pay for a platform subscription that removes delivery fees and reduces service fees, the gap narrows. Coverage also differs  a platform may reach an address the direct route does not, or vice versa. Checking both is worth thirty seconds on a larger order.
           </p>
         </section>
 
-        {/* §3 — CARSIDE TO GO */}
+        {/* §3  CARSIDE TO GO */}
         <section className={styles.clusterSection} id="carside-to-go">
           <h2>Carside To Go: The Cheapest Way to Eat Applebee's at Home</h2>
           <p>
             Carside To Go is Applebee's curbside pickup. You order ahead through the app or site, park in a marked Carside spot, and check in through the app with your spot number and vehicle description. Someone brings the order to your car.
           </p>
           <p>
-            <strong>Cost comparison:</strong> No delivery fee, no service fee, no menu markup — you pay exactly the dining-room price. Tipping the person who brings your order out is customary and still far cheaper than the combined premium of a delivery app order.
+            <strong>Cost comparison:</strong> No delivery fee, no service fee, no menu markup  you pay exactly the dining-room price. Tipping the person who brings your order out is customary and still far cheaper than the combined premium of a delivery app order.
           </p>
           <p>
             If the drive is short, this is the best-value off-premise option by a wide margin. Full details: see our guide to <Link href="/takeout">takeout and Carside To Go</Link>.
           </p>
         </section>
 
-        {/* §4 — HAPPY HOUR AND DEALS ON DELIVERY */}
+        {/* §4  HAPPY HOUR AND DEALS ON DELIVERY */}
         <section className={styles.clusterSection} id="deals-on-delivery">
           <h2>Which Applebee's Deals Work for Delivery</h2>
 
@@ -208,14 +208,14 @@ export default function DeliveryPage() {
           </p>
         </section>
 
-        {/* §5 — GHOST KITCHEN LISTINGS */}
+        {/* §5  GHOST KITCHEN LISTINGS */}
         <section className={styles.clusterSection} id="cosmic-wings">
           <h2>Cosmic Wings: The Applebee's Brand That Isn't Labelled Applebee's</h2>
           <p>
             If you have scrolled a delivery app and seen "Cosmic Wings," that food comes out of an Applebee's kitchen.
           </p>
           <p>
-            Cosmic Wings launched in February 2021 as a delivery-only brand — a partnership between Dine Brands, Uber Eats and Frito-Lay, built around Cheetos-flavoured wings, tenders and waffle fries. At launch it operated from roughly 1,300 Applebee's kitchens. It replaced an earlier virtual brand, Neighborhood Wings, which was wound down.
+            Cosmic Wings launched in February 2021 as a delivery-only brand  a partnership between Dine Brands, Uber Eats and Frito-Lay, built around Cheetos-flavoured wings, tenders and waffle fries. At launch it operated from roughly 1,300 Applebee's kitchens. It replaced an earlier virtual brand, Neighborhood Wings, which was wound down.
           </p>
           <p>
             Current footprint is smaller. By 2024 it had contracted to around 670 locations, and a second virtual brand in testing was shelved. Whether it appears in your area depends on whether your local Applebee's still runs it.
@@ -223,14 +223,14 @@ export default function DeliveryPage() {
 
           <h3>The separate-order problem</h3>
           <p>
-            Cosmic Wings and Applebee's are listed as two different restaurants on delivery platforms even when one kitchen cooks both. Items from the two menus generally cannot be combined into one order — two orders, two delivery fees, two tips, same kitchen.
+            Cosmic Wings and Applebee's are listed as two different restaurants on delivery platforms even when one kitchen cooks both. Items from the two menus generally cannot be combined into one order  two orders, two delivery fees, two tips, same kitchen.
           </p>
           <p>
             If someone at the table wants wings and someone wants a <Link href="/menu/handcrafted-burgers">burger</Link>, ordering everything from the Applebee's listing is usually cheaper than splitting across both.
           </p>
         </section>
 
-        {/* §6 — ALCOHOL DELIVERY */}
+        {/* §6  ALCOHOL DELIVERY */}
         <section className={styles.clusterSection} id="alcohol-delivery">
           <h2>Can You Get Alcohol Delivered from Applebee's?</h2>
 
@@ -249,14 +249,14 @@ export default function DeliveryPage() {
           <ul className={styles.textList}>
             <li><strong>Sealed packaging:</strong> Drinks are supplied in tamper-evident containers rather than an open cup.</li>
             <li><strong>A food order alongside it:</strong> Many jurisdictions permit alcohol delivery only with a substantial food purchase.</li>
-            <li><strong>ID verification at the door:</strong> The driver checks ID on arrival. Alcohol cannot be left unattended, and a driver who cannot verify ID — or who judges the recipient to be intoxicated — is required to take it back.</li>
+            <li><strong>ID verification at the door:</strong> The driver checks ID on arrival. Alcohol cannot be left unattended, and a driver who cannot verify ID  or who judges the recipient to be intoxicated  is required to take it back.</li>
           </ul>
           <p>
             The <Link href="/menu/signature-cocktails">drinks menu</Link> shows what is offered in-restaurant; delivery availability is narrower and set locally. Check the <Link href="/locations">location finder</Link> for your area.
           </p>
         </section>
 
-        {/* §7 — WHAT TRAVELS WELL */}
+        {/* §7  WHAT TRAVELS WELL */}
         <section className={styles.clusterSection} id="what-travels-well">
           <h2>Which Applebee's Items Hold Up for Delivery</h2>
           <p>
@@ -264,7 +264,7 @@ export default function DeliveryPage() {
           </p>
           <ul className={styles.textList}>
             <li>
-              <strong>Travels well:</strong> Grilled proteins. <Link href="/menu/steaks-and-ribs">Steaks</Link>, <Link href="/menu/chicken">grilled chicken</Link> and <Link href="/menu/seafood">salmon</Link> hold heat and texture. <Link href="/menu/pasta">Pasta</Link> is the most reliable category overall — sauce protects it, and it reheats.
+              <strong>Travels well:</strong> Grilled proteins. <Link href="/menu/steaks-and-ribs">Steaks</Link>, <Link href="/menu/chicken">grilled chicken</Link> and <Link href="/menu/seafood">salmon</Link> hold heat and texture. <Link href="/menu/pasta">Pasta</Link> is the most reliable category overall  sauce protects it, and it reheats.
             </li>
             <li>
               <strong>Travels poorly:</strong> Anything fried and sauced together. Boneless wings tossed in sauce steam in transit and soften. Ordering sauce on the side keeps the coating intact, and most kitchens will do it.
@@ -273,7 +273,7 @@ export default function DeliveryPage() {
               <strong>Sides are where orders go wrong:</strong> Fries lose the most in a sealed container. Swapping to <Link href="/menu/sides">steamed vegetables or mashed potatoes</Link> means the side arrives in the condition it left in.
             </li>
             <li>
-              <strong>Salads:</strong> <Link href="/menu/salads">Salads</Link> hold up if dressing comes separately — ask, because it is not always default.
+              <strong>Salads:</strong> <Link href="/menu/salads">Salads</Link> hold up if dressing comes separately  ask, because it is not always default.
             </li>
           </ul>
           <p>
@@ -281,11 +281,11 @@ export default function DeliveryPage() {
           </p>
         </section>
 
-        {/* §8 — LARGE ORDERS */}
+        {/* §8  LARGE ORDERS */}
         <section className={styles.clusterSection} id="delivery-vs-catering">
           <h2>Delivery vs Catering for Groups</h2>
           <p>
-            For a party or an office lunch, ordering ten individual entrées through a delivery app is the most expensive possible route — the per-item markup applies to every item, then fees stack on the total.
+            For a party or an office lunch, ordering ten individual entrées through a delivery app is the most expensive possible route  the per-item markup applies to every item, then fees stack on the total.
           </p>
           <p>
             <Link href="/catering">Catering</Link> is priced for volume, with party-size platters of appetizers, salads and entrées. Orders go through the restaurant directly, usually with advance notice and often as pickup. On a large order the saving is substantial enough that collecting it yourself is worth the trip.
@@ -295,11 +295,11 @@ export default function DeliveryPage() {
           </p>
         </section>
 
-        {/* §9 — COVERAGE */}
+        {/* §9  COVERAGE */}
         <section className={styles.clusterSection} id="delivery-coverage">
           <h2>Is Applebee's Delivery Available in My Area?</h2>
           <p>
-            Delivery coverage is set per restaurant, not nationally. A location eight miles away may deliver to you while one four miles away does not — radius depends on the store's own settings and driver availability.
+            Delivery coverage is set per restaurant, not nationally. A location eight miles away may deliver to you while one four miles away does not  radius depends on the store's own settings and driver availability.
           </p>
           <p>
             Coverage can also differ between ordering routes. The direct route and each platform maintain separate delivery zones, so an address outside one may sit inside another.
@@ -308,13 +308,13 @@ export default function DeliveryPage() {
             Fastest way to check: enter your address in the finder at the top of this page, or look up your restaurant in the <Link href="/locations">location finder</Link>. If delivery is not offered, <Link href="/takeout">Carside To Go</Link> usually is.
           </p>
           <p>
-            Hours also apply — delivery stops when the kitchen does. See <Link href="/operating-hours">operating hours</Link>.
+            Hours also apply  delivery stops when the kitchen does. See <Link href="/operating-hours">operating hours</Link>.
           </p>
         </section>
 
-        {/* §10 — FAQ */}
+        {/* §10  FAQ */}
         <section className={styles.clusterSection} id="faqs">
-          <h2>Applebee's Delivery — Frequently Asked Questions</h2>
+          <h2>Applebee's Delivery  Frequently Asked Questions</h2>
           <div className={styles.faqList}>
             {faqData.map((faq, index) => (
               <article key={index} className={styles.faqItem}>
