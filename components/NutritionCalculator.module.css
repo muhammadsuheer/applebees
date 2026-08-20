@@ -1,0 +1,493 @@
+.calculatorContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  background-color: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 24px;
+  margin: 40px 0;
+  font-family: var(--font-roboto), sans-serif;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+@media (min-width: 1024px) {
+  .calculatorContainer {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
+
+/* Tab Navigation */
+.tabsContainer {
+  display: flex;
+  overflow-x: auto;
+  gap: 12px;
+  padding-bottom: 12px;
+  margin-bottom: 16px;
+  border-bottom: 2px solid #e5e7eb;
+  /* Hide scrollbar for clean look */
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.tabsContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.tabButton {
+  background: none;
+  border: none;
+  padding: 8px 16px;
+  font-family: var(--font-outfit), sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #6b7280;
+  cursor: pointer;
+  white-space: nowrap;
+  border-radius: 20px;
+  transition: all 0.2s;
+}
+
+.tabButton:hover {
+  background-color: #f3f4f6;
+  color: #374151;
+}
+
+.tabButtonActive {
+  background-color: #1f2937;
+  color: #ffffff;
+}
+
+.tabButtonActive:hover {
+  background-color: #111827;
+  color: #ffffff;
+}
+
+/* Left Panel: Menu Selection */
+.selectionPanel {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  min-width: 0; /* CRITICAL: Allows inner tabsContainer to scroll without breaking flex layout */
+}
+
+.itemList {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-height: 500px;
+  overflow-y: auto;
+  padding-right: 8px;
+  /* Scrollbar styling */
+  scrollbar-width: thin;
+  scrollbar-color: #d1d5db transparent;
+}
+
+.itemList::-webkit-scrollbar {
+  width: 6px;
+}
+.itemList::-webkit-scrollbar-thumb {
+  background-color: #d1d5db;
+  border-radius: 4px;
+}
+
+.itemLabel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 20px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  background-color: #ffffff;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.itemLabel:hover {
+  border-color: #d1d5db;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.itemLabelSelected {
+  border-color: #dc2626;
+  background-color: #fef2f2;
+}
+
+.itemInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.itemName {
+  font-weight: 600;
+  color: #1f2937;
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+.itemMacros {
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.addButton {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1px solid #d1d5db;
+  background-color: #ffffff;
+  color: #374151;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 300;
+}
+
+.itemLabelSelected .addButton {
+  background-color: #dc2626;
+  border-color: #dc2626;
+  color: #ffffff;
+}
+
+/* Right Panel / Bottom Smart Tray: Summary */
+.summaryPanel {
+  flex: 0 0 350px;
+  background-color: #1f2937;
+  color: #ffffff;
+  border-radius: 12px;
+  position: sticky;
+  top: 20px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+/* Desktop inner container */
+.summaryContent {
+  padding: 24px;
+}
+
+.summaryTitle {
+  font-family: var(--font-outfit), sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #374151;
+  padding-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Action Buttons */
+.actionButtons {
+  display: flex;
+  gap: 10px;
+}
+
+.clearBtn {
+  background-color: transparent;
+  color: #9ca3af;
+  border: 1px solid #4b5563;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.clearBtn:hover:not(:disabled) {
+  background-color: #374151;
+  color: #ffffff;
+}
+
+.clearBtn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Print Button */
+.printBtn {
+  background-color: #dc2626;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.printBtn:hover {
+  background-color: #b91c1c;
+}
+.printBtn:disabled {
+  background-color: #6b7280;
+  cursor: not-allowed;
+}
+
+.macroRow {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  padding: 10px 0;
+  border-bottom: 1px solid #374151;
+}
+
+.macroRow:last-of-type {
+  border-bottom: none;
+  font-weight: 700;
+  font-size: 22px;
+  color: #fca5a5;
+  padding-top: 16px;
+}
+
+.macroLabel {
+  color: #9ca3af;
+}
+
+.macroValue {
+  font-weight: 600;
+}
+
+.emptyState {
+  font-size: 15px;
+  color: #9ca3af;
+  font-style: italic;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.selectedItemsList {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 2px solid #374151;
+  max-height: 200px;
+  overflow-y: auto;
+  padding-right: 8px;
+  scrollbar-width: thin;
+  scrollbar-color: #4b5563 transparent;
+}
+.selectedItemsList::-webkit-scrollbar {
+  width: 6px;
+}
+.selectedItemsList::-webkit-scrollbar-thumb {
+  background-color: #4b5563;
+  border-radius: 4px;
+}
+
+.selectedItemsList h4 {
+  font-family: var(--font-outfit), sans-serif;
+  font-size: 16px;
+  color: #9ca3af;
+  margin-bottom: 12px;
+  margin-top: 0;
+}
+
+.selectedItem {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-bottom: 8px;
+  color: #d1d5db;
+}
+
+.selectedItemName {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 220px;
+}
+
+/* Mobile Smart Tray (Compact Bar) */
+.mobileTrayHeader {
+  display: none;
+}
+
+@media (max-width: 1023px) {
+  .calculatorContainer {
+    position: relative;
+    padding-bottom: 0;
+  }
+
+  .summaryPanel {
+    position: sticky;
+    bottom: 20px;
+    top: auto;
+    left: 0;
+    right: 0;
+    margin-top: 20px;
+    z-index: 10;
+  }
+
+  .summaryContent {
+    display: none; /* Hidden by default on mobile until expanded */
+    padding: 20px;
+    max-height: 50vh;
+    overflow-y: auto;
+  }
+
+  .summaryContent.expanded {
+    display: block;
+  }
+
+  /* The compact bar that shows when closed */
+  .mobileTrayHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 20px;
+    background-color: #1f2937;
+    color: white;
+    border-radius: 12px;
+    cursor: pointer;
+    font-family: var(--font-outfit), sans-serif;
+  }
+  
+  .summaryPanel.expanded .mobileTrayHeader {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom: 1px solid #374151;
+  }
+
+  .mobileTraySummary {
+    font-size: 18px;
+    font-weight: 700;
+  }
+  
+  .mobileTraySub {
+    font-size: 14px;
+    color: #9ca3af;
+    font-family: var(--font-roboto), sans-serif;
+    margin-top: 4px;
+  }
+
+  .mobileTrayToggle {
+    font-size: 24px;
+    color: #dc2626;
+    transition: transform 0.3s;
+  }
+
+  .summaryPanel.expanded .mobileTrayToggle {
+    transform: rotate(180deg);
+  }
+}
+
+/* PRINT CSS: Professional Printable PDF Design */
+.printOnlyHeader, .printCheckbox {
+  display: none;
+}
+
+@media print {
+  /* Hide EVERYTHING by default */
+  body * {
+    visibility: hidden;
+  }
+  
+  /* Reset body and html margins to avoid blank pages */
+  html, body {
+    margin: 0 !important;
+    padding: 0 !important;
+    height: auto !important;
+    background: white !important;
+  }
+
+  /* Make ONLY the summary panel and its contents visible */
+  .summaryPanel, .summaryPanel * {
+    visibility: visible;
+  }
+  
+  .summaryPanel {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    max-width: 100%;
+    background-color: white !important;
+    color: black !important;
+    box-shadow: none !important;
+    border: none !important;
+    padding: 40px !important;
+  }
+
+  .summaryContent {
+    display: block !important;
+    padding: 0 !important;
+    max-height: none !important;
+    overflow: visible !important;
+  }
+  
+  /* Hide interactive/unnecessary elements during print */
+  .mobileTrayHeader, .printBtn, .emptyState {
+    display: none !important;
+  }
+
+  /* Print-only elements for professional look */
+  .printOnlyHeader {
+    display: block !important;
+    font-size: 14px;
+    color: #666 !important;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+  }
+
+  .printCheckbox {
+    display: inline-block !important;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #333;
+    margin-right: 12px;
+    vertical-align: middle;
+    border-radius: 2px;
+  }
+
+  /* Adjust colors and layout for professional print (saving ink) */
+  .summaryTitle {
+    color: black !important;
+    border-bottom: 3px solid #000 !important;
+    font-size: 32px !important;
+  }
+  
+  .macroRow {
+    border-bottom: 1px solid #eee !important;
+    padding: 12px 0 !important;
+  }
+  
+  .macroLabel {
+    color: #333 !important;
+    font-weight: 500 !important;
+  }
+
+  .macroRow:last-of-type {
+    color: black !important;
+    border-top: 2px solid #000 !important;
+    font-size: 24px !important;
+  }
+  
+  .selectedItemsList {
+    border-top: 3px solid #000 !important;
+    margin-top: 40px !important;
+    padding-top: 20px !important;
+    max-height: none !important;
+    overflow: visible !important;
+  }
+
+  .selectedItemsList h4 {
+    color: black !important;
+    font-size: 20px !important;
+    margin-bottom: 20px !important;
+  }
+  
+  .selectedItem {
+    color: black !important;
+    border-bottom: 1px solid #eee !important;
+    padding: 12px 0 !important;
+    font-size: 16px !important;
+    align-items: center !important;
+  }
+}

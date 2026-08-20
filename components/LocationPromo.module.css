@@ -1,0 +1,80 @@
+.section {
+  padding: 70px max(20px, calc(50% - 500px));
+  background-color: #1a2433;
+  color: #ffffff;
+  text-align: center;
+  border-top: 4px solid #c53030;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section h2 {
+  font-family: var(--font-oswald), sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.section p {
+  font-family: var(--font-roboto), sans-serif;
+  font-size: 18px;
+  line-height: 1.75;
+  margin-bottom: 30px;
+  color: #d1d5db;
+}
+
+.featureList {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 36px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  text-align: center;
+}
+
+.featureList li {
+  font-family: var(--font-roboto), sans-serif;
+  font-size: 17px;
+  color: #e5e7eb;
+  line-height: 1.6;
+}
+
+.featureList li::before {
+  content: "✓ ";
+  color: #c53030;
+  font-weight: 700;
+}
+
+.ctaButton {
+  display: inline-block;
+  background-color: #c53030;
+  color: #ffffff;
+  font-family: var(--font-roboto), sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  text-decoration: none;
+  padding: 16px 40px;
+  border-radius: 4px;
+  transition: background-color 0.2s, transform 0.2s;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.ctaButton:hover {
+  background-color: #9b2c2c;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .section h2 {
+    font-size: 28px;
+  }
+  .section p {
+    font-size: 16px;
+  }
+}
+

@@ -1,0 +1,186 @@
+.searchContainer {
+  margin: 40px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.searchHeader {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background-color: #1f2937; /* Dark charcoal */
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.searchHeader h3 {
+  color: #ffffff !important;
+  margin: 0;
+  font-family: var(--font-outfit), sans-serif;
+  font-size: 28px;
+}
+
+.searchInputWrapper {
+  position: relative;
+  width: 100%;
+}
+
+.searchInput {
+  width: 100%;
+  padding: 16px 20px;
+  padding-left: 50px;
+  font-size: 18px;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  outline: none;
+  background-color: #ffffff;
+  color: #1f2937;
+  font-family: var(--font-roboto), sans-serif;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.searchInput:focus {
+  border-color: #dc2626; /* Applebee's Red */
+  box-shadow: 0 0 0 4px rgba(220, 38, 38, 0.2);
+}
+
+.searchIcon {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #9ca3af;
+  font-size: 20px;
+  z-index: 2;
+}
+
+/* Results Grid */
+.stateSection {
+  margin-top: 40px;
+}
+
+.stateTitle {
+  font-family: var(--font-outfit), sans-serif;
+  font-size: 28px;
+  color: #1f2937;
+  border-bottom: 3px solid #dc2626;
+  padding-bottom: 8px;
+  margin-bottom: 24px;
+  display: inline-block;
+}
+
+.locationsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 24px;
+}
+
+/* Location Card */
+.locationCard {
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);
+}
+
+.locationCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 20px -5px rgba(0,0,0,0.1);
+  border-color: #d1d5db;
+}
+
+.cardHeader {
+  margin-bottom: 16px;
+}
+
+.cityBadge {
+  display: inline-block;
+  background-color: #fef2f2;
+  color: #dc2626;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 4px 10px;
+  border-radius: 20px;
+  margin-bottom: 12px;
+  letter-spacing: 0.5px;
+}
+
+.address {
+  font-size: 16px;
+  color: #374151;
+  font-weight: 600;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.cardActions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.phoneBtn {
+  display: inline-block;
+  text-align: center;
+  background-color: #1f2937;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 12px;
+  border-radius: 8px;
+  transition: background-color 0.2s;
+}
+
+.phoneBtn:hover {
+  background-color: #111827;
+}
+
+.directionsBtn {
+  display: inline-block;
+  text-align: center;
+  background-color: transparent;
+  color: #1f2937;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  transition: background-color 0.2s, border-color 0.2s;
+}
+
+.directionsBtn:hover {
+  background-color: #f3f4f6;
+  border-color: #9ca3af;
+}
+
+/* Empty State */
+.noResults {
+  background-color: #fffbeb;
+  border: 1px solid #fde68a;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.noResults h4 {
+  color: #92400e;
+  font-size: 22px;
+  margin: 0 0 12px 0;
+  font-family: var(--font-outfit), sans-serif;
+}
+
+.noResults p {
+  color: #b45309;
+  font-size: 16px;
+  margin: 0;
+  line-height: 1.6;
+}

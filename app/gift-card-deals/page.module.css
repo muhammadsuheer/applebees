@@ -1,0 +1,26 @@
+.hero {
+  background-color: #1a2433;
+  color: #ffffff;
+  padding: 80px max(20px, calc(50% - 550px)) 60px;
+  text-align: center;
+  border-bottom: 4px solid #c53030;
+}
+
+.hero h1 {
+  font-family: var(--font-oswald), sans-serif;
+  font-size: 38px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+}
+
+.hero p {
+  font-family: var(--font-roboto), sans-serif;
+  font-size: 18px;
+  line-height: 1.8;
+  color: #e5e7eb;
+  max-width: 900px;
+  margin: 0 auto;
+}

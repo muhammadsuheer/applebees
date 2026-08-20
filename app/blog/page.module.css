@@ -1,0 +1,338 @@
+.blogContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.imageWrapper {
+  width: 100%;
+  height: 200px;
+  position: relative;
+  background-color: #f1f5f9;
+}
+
+.imageWrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.meta {
+  font-size: 13px;
+  color: #64748b;
+  margin-bottom: 10px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.title {
+  font-family: var(--font-oswald), sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #1a2433;
+  margin-bottom: 15px;
+  line-height: 1.3;
+}
+
+.excerpt {
+  font-family: var(--font-roboto), sans-serif;
+  color: #475569;
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 25px;
+  flex-grow: 1;
+}
+
+.readMore {
+  display: inline-block;
+  color: #c53030;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  align-self: flex-start;
+  transition: color 0.2s;
+}
+
+.card:hover .readMore {
+  color: #a02020;
+}
+
+/* Individual Post Styling */
+.postHero {
+  background-color: #1a2433;
+  color: #ffffff;
+  padding: 80px 20px 100px;
+  text-align: center;
+  position: relative;
+}
+
+.postHero h1 {
+  font-family: var(--font-oswald), sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+  max-width: 800px;
+  margin: 0 auto 20px;
+  line-height: 1.2;
+}
+
+.postMeta {
+  color: #475569;
+  font-size: 16px;
+}
+
+/* Magazine Layout Container */
+.magazineLayout {
+  max-width: 1200px;
+  margin: -60px auto 60px;
+  position: relative;
+  z-index: 10;
+  display: grid;
+  grid-template-columns: 2.5fr 1fr;
+  gap: 40px;
+  padding: 0 20px;
+}
+
+/* Sidebar Styles */
+.sidebar {
+  position: sticky;
+  top: 100px; /* Stick below the header */
+  height: max-content;
+  background: #f8fafc;
+  border-radius: 12px;
+  padding: 30px;
+  border: 1px solid #e2e8f0;
+}
+
+.sidebar h3 {
+  font-family: var(--font-oswald), sans-serif;
+  font-size: 22px;
+  color: #1a2433;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #c53030;
+  padding-bottom: 10px;
+  display: inline-block;
+}
+
+.sidebarList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebarList li {
+  margin-bottom: 15px;
+}
+
+.sidebarList a {
+  text-decoration: none;
+  font-family: var(--font-roboto), sans-serif;
+  font-size: 16px;
+  color: #334155;
+  font-weight: 600;
+  display: block;
+  padding: 10px 15px;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+}
+
+.sidebarList a:hover {
+  background: #c53030;
+  color: #ffffff;
+  border-color: #c53030;
+  transform: translateX(5px);
+}
+
+/* Related Articles Section */
+.relatedSection {
+  margin-top: 60px;
+  padding-top: 40px;
+  border-top: 1px solid #e2e8f0;
+}
+
+.relatedSection > h3 {
+  font-family: var(--font-oswald), sans-serif;
+  font-size: 28px;
+  color: #1a2433;
+  margin-bottom: 30px;
+}
+
+.relatedGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+/* Adjust original postBody to span grid */
+.postBody {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 50px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+  font-family: var(--font-roboto), -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #1a1a1a;
+  line-height: 1.8;
+  font-size: 19px;
+}
+
+.postBody h2 {
+  font-family: var(--font-oswald), -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 38px;
+  font-weight: 900;
+  color: #000000;
+  margin-top: 50px;
+  margin-bottom: 25px;
+  border-bottom: 3px solid #9e1b1b;
+  padding-bottom: 10px;
+}
+
+.postBody h3 {
+  font-family: var(--font-oswald), -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+  color: #000000;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.postBody p {
+  margin-bottom: 24px;
+}
+
+.featuredImage {
+  width: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.featuredImage img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* E-E-A-T Author Box */
+.authorBox {
+  display: flex;
+  align-items: center;
+  margin-top: 60px;
+  padding: 30px;
+  background-color: #f8fafc;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+  gap: 25px;
+}
+
+.authorImageWrapper {
+  flex-shrink: 0;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.authorImageWrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.authorInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.authorRole {
+  font-family: var(--font-roboto), sans-serif;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #c53030;
+  font-weight: 700;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.authorName {
+  font-family: var(--font-oswald), sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: #1a2433;
+  margin-bottom: 12px;
+  display: block;
+}
+
+.authorBio {
+  font-family: var(--font-roboto), sans-serif;
+  font-size: 15px;
+  color: #475569;
+  line-height: 1.6;
+  margin: 0;
+}
+
+@media (max-width: 1024px) {
+  .magazineLayout {
+    grid-template-columns: 1fr;
+    margin-top: -40px;
+  }
+  .sidebar {
+    position: static;
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .postHero h1 {
+    font-size: 32px;
+  }
+  .postBody {
+    padding: 30px 20px;
+  }
+  .postBody h2 {
+    font-size: 24px;
+  }
+  .authorBox {
+    flex-direction: column;
+    text-align: center;
+  }
+  .relatedGrid {
+    grid-template-columns: 1fr;
+  }
+}

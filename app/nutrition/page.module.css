@@ -1,0 +1,344 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.hero {
+  background-color: #1a2433;
+  color: #ffffff;
+  padding: 80px max(20px, calc(50% - 550px)) 60px;
+  text-align: center;
+  border-bottom: 4px solid #c53030;
+}
+
+.hero h1 {
+  font-family: var(--font-oswald), sans-serif;
+  font-size: 38px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.hero p {
+  font-family: var(--font-roboto), sans-serif;
+  font-size: 18px;
+  line-height: 1.8;
+  color: #e5e7eb;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.content {
+  padding: 60px max(20px, calc(50% - 600px));
+  background-color: #fdfaf6;
+  flex-grow: 1;
+}
+
+.tableIntro {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.tableIntro h2 {
+  font-family: var(--font-oswald), sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: #c53030;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.tableIntro p {
+  font-family: var(--font-roboto), sans-serif;
+  font-size: 18px;
+  line-height: 1.8;
+  color: #4b5563;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.categorySection {
+  margin-bottom: 80px;
+}
+
+.categorySection > h2 {
+  font-family: var(--font-oswald), sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  color: #1a2433;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #e5e7eb;
+  padding-bottom: 10px;
+}
+
+.tableWrapper {
+  width: 100%;
+  overflow-x: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+  border: 1px solid #e5e7eb;
+}
+
+.nutritionTable {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-family: var(--font-roboto), sans-serif;
+  background-color: #ffffff;
+}
+
+.mainTable {
+  min-width: 1200px; /* Ensure massive 14-column tables don't squish too much */
+}
+
+.nutritionTable caption {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.nutritionTable th,
+.nutritionTable td {
+  padding: 10px 12px;
+  border-bottom: 1px solid #e5e7eb;
+  vertical-align: middle;
+}
+
+.nutritionTable thead th {
+  background-color: #f9fafb;
+  color: #374151;
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  border-bottom: 2px solid #d1d5db;
+}
+
+.nutritionTable tbody tr:nth-child(even) {
+  background-color: #fcfcfc;
+}
+
+.nutritionTable tbody tr:hover {
+  background-color: #f3f4f6;
+}
+
+.itemName {
+  font-weight: 700;
+  color: #111827;
+  font-size: 13px;
+  min-width: 280px;
+  white-space: normal;
+  line-height: 1.4;
+}
+
+.highlightCol {
+  font-weight: 700;
+  color: #c53030;
+}
+
+/* All numeric columns right aligned */
+.nutritionTable th:nth-child(n+3):nth-child(-n+12),
+.nutritionTable td:nth-child(n+3):nth-child(-n+12) {
+  text-align: right;
+  white-space: nowrap;
+  font-size: 13px;
+}
+
+/* Make serving column not wrap */
+.nutritionTable td:nth-child(2) {
+  white-space: nowrap;
+  font-size: 13px;
+}
+
+.tagsCol {
+  min-width: 180px;
+}
+
+.tagList,
+.allergenList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.tagList { margin-bottom: 6px; }
+
+.tagList li {
+  background-color: #dcfce7;
+  color: #166534;
+  padding: 3px 6px;
+  border-radius: 4px;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.allergenList li {
+  background-color: #fee2e2;
+  color: #991b1b;
+  padding: 3px 6px;
+  border-radius: 4px;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* Massive Content Clusters */
+.clusterSection {
+  background-color: #ffffff;
+  padding: 60px max(20px, calc(50% - 450px));
+  border-top: 1px solid #e5e7eb;
+}
+
+.clusterSection:nth-of-type(even) {
+  background-color: #f9fafb;
+}
+
+.clusterSection > h2 {
+  font-family: var(--font-oswald), sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: #1a2433;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.clusterSection > h2::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background-color: #c53030;
+  margin: 15px auto 0;
+}
+
+.clusterSection > h3 {
+  font-family: var(--font-oswald), sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #c53030;
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+
+.clusterSection > p {
+  font-family: var(--font-roboto), sans-serif;
+  font-size: 18px;
+  line-height: 1.8;
+  color: #374151;
+  margin-bottom: 20px;
+}
+
+.clusterSection > p > strong {
+  color: #111827;
+}
+
+.clusterSection > p > em {
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.textList {
+  font-family: var(--font-roboto), sans-serif;
+  font-size: 18px;
+  line-height: 1.8;
+  color: #374151;
+  margin-bottom: 30px;
+  padding-left: 20px;
+}
+
+.textList li {
+  margin-bottom: 10px;
+}
+
+.textList strong {
+  color: #991b1b;
+}
+
+/* FAQs */
+.faqList {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.faqItem {
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 25px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+}
+
+.faqItem h3 {
+  font-family: var(--font-roboto), sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 12px;
+  margin-top: 0;
+}
+
+.faqItem p {
+  font-family: var(--font-roboto), sans-serif;
+  font-size: 17px;
+  color: #4b5563;
+  line-height: 1.6;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 50px 20px 40px;
+  }
+  .hero h1 { font-size: 28px; }
+  .hero p { font-size: 15px; }
+
+  .content {
+    padding: 40px 20px;
+  }
+  .tableIntro {
+    margin-bottom: 30px;
+  }
+  .tableIntro h2 { font-size: 24px; }
+  
+  .categorySection {
+    margin-bottom: 50px;
+  }
+  .categorySection > h2 { 
+    font-size: 22px; 
+    margin-bottom: 15px;
+  }
+
+  .clusterSection {
+    padding: 40px 20px;
+  }
+  .clusterSection > h2 { font-size: 26px; margin-bottom: 15px; }
+  .clusterSection > h3 { font-size: 20px; margin-top: 30px; }
+  
+  .faqItem {
+    padding: 20px;
+  }
+  .faqItem h3 {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero h1 { font-size: 24px; }
+  .clusterSection > h2 { font-size: 22px; }
+  .clusterSection > h2::after { width: 40px; }
+}

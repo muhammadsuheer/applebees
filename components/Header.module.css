@@ -1,0 +1,256 @@
+.header {
+  background-color: #1a2433; /* Dark navy */
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #ffffff;
+  z-index: 1001; /* Keep above mobile menu */
+}
+
+.logo > span {
+  font-size: 32px;
+  margin-right: 10px;
+  color: #c53030;
+}
+
+.logo > div {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+}
+
+.logo strong {
+  font-family: serif;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.logo em {
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #e5e5e5;
+  align-self: flex-end;
+  font-style: normal;
+}
+
+/* Menu Toggle Icon */
+.menuIcon {
+  display: none;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  z-index: 1002; /* Must be above backdrop and sidebar */
+  position: relative;
+  width: 44px;
+  height: 44px;
+}
+
+.menuIcon span,
+.menuIcon span::before,
+.menuIcon span::after {
+  background: #ffffff;
+  content: '';
+  display: block;
+  height: 2px;
+  position: absolute;
+  left: 10px;
+  transition: background ease .2s, top ease .2s .2s, transform ease .2s;
+  width: 24px;
+}
+
+.menuIcon span {
+  top: 21px;
+}
+.menuIcon span::before { top: -8px; }
+.menuIcon span::after { top: 8px; }
+
+/* Open State for Icon (X shape) - Hidden now since we use a dedicated close button inside the sidebar */
+.menuIconOpen {
+  visibility: hidden;
+  opacity: 0;
+}
+
+/* Desktop Navigation */
+.nav {
+  display: block;
+}
+
+.nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 15px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: var(--font-roboto), sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  transition: color 0.2s;
+  letter-spacing: 0.5px;
+}
+
+.nav a:hover,
+.nav a.active {
+  color: #c53030;
+}
+
+/* Backdrop Overlay */
+.backdrop {
+  display: none;
+}
+
+/* Hide sidebar header on desktop */
+.sidebarHeader {
+  display: none;
+}
+
+/* Hide specific elements on desktop */
+.mobileOnly {
+  display: none;
+}
+
+/* Mobile Offcanvas Styles */
+@media (max-width: 1100px) {
+  .mobileOnly {
+    display: block;
+  }
+  .header {
+    padding: 15px 20px;
+  }
+  
+  .menuIcon {
+    display: block;
+  }
+  
+  /* The Overlay Background */
+  .backdrop {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(3px);
+    z-index: 999; /* Below the header/sidebar, above content */
+  }
+  
+  /* Offcanvas Sidebar */
+  .nav {
+    position: fixed;
+    top: 0;
+    right: -100%; /* Hidden off-screen to the right by default */
+    width: 80%;
+    max-width: 350px;
+    height: 100vh;
+    background-color: #1a2433;
+    z-index: 1001; /* Above backdrop */
+    overflow-y: auto;
+    transition: right 0.3s ease-in-out;
+    box-shadow: -5px 0 15px rgba(0,0,0,0.3);
+    padding-bottom: 40px;
+  }
+  
+  /* Sidebar Header (Logo + Close) */
+  .sidebarHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 25px;
+    border-bottom: 1px solid #2a374a;
+    background-color: #1a2433;
+    position: sticky;
+    top: 0;
+    z-index: 1002;
+  }
+  
+  .sidebarLogo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  .sidebarLogo > span {
+    font-size: 28px;
+    margin-right: 8px;
+    color: #c53030;
+  }
+  
+  .sidebarLogo > div {
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+  }
+  
+  .sidebarLogo strong {
+    font-family: serif;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  .sidebarLogo em {
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #e5e5e5;
+    align-self: flex-end;
+    font-style: normal;
+  }
+  
+  .closeBtn {
+    background: transparent;
+    border: none;
+    color: #ffffff;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 5px;
+  }
+
+  /* When Open */
+  .navOpen {
+    right: 0;
+  }
+  
+  .nav ul {
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    gap: 0;
+    padding-top: 10px;
+  }
+  
+  .nav a {
+    display: block;
+    padding: 18px 25px;
+    font-size: 16px;
+    border-bottom: 1px solid #2a374a;
+  }
+  
+  .nav a:hover,
+  .nav a.active {
+    background-color: #2a374a;
+    color: #ffffff;
+    border-left: 4px solid #c53030;
+    padding-left: 21px; /* Compensate for the border */
+  }
+}

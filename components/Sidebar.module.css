@@ -1,0 +1,95 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.widget {
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 8px;
+  border: 1px solid #eaeaea;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.searchForm {
+  display: flex;
+  height: 40px;
+}
+
+.searchInput {
+  flex: 1;
+  padding: 0 15px;
+  border: 1px solid #ddd;
+  border-right: none;
+  border-radius: 2px 0 0 2px;
+  font-size: 14px;
+  outline: none;
+}
+
+.searchInput:focus {
+  border-color: #b31b1b;
+}
+
+.searchButton {
+  background-color: #9e1b1b;
+  color: white;
+  border: none;
+  padding: 0 20px;
+  font-weight: 700;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 0 2px 2px 0;
+  transition: background-color 0.2s ease;
+}
+
+.searchButton:hover {
+  background-color: #7a1515;
+}
+
+.widgetTitle {
+  font-family: var(--font-oswald), sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #000;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #9e1b1b;
+  letter-spacing: 0.5px;
+}
+
+.widgetList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.widgetList li {
+  padding: 12px 0;
+  border-bottom: 1px dashed #ddd;
+}
+
+.widgetList li:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.widgetList li:first-child {
+  padding-top: 0;
+}
+
+.widgetList a {
+  color: #222222;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.5;
+  display: block;
+  transition: color 0.2s ease;
+}
+
+.widgetList a:hover {
+  color: #9e1b1b;
+}

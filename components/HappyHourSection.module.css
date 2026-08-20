@@ -1,0 +1,133 @@
+.section {
+  padding: 80px max(20px, calc(50% - 450px));
+  background-color: #ffffff;
+  border-top: 1px solid #e5e7eb;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.section h2 {
+  font-family: var(--font-oswald), sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: #1a2433; /* Deep navy */
+  margin-bottom: 35px;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+}
+
+/* Red accent line under the heading */
+.section h2::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background-color: #c53030;
+  margin: 15px auto 0;
+}
+
+.section p {
+  font-family: var(--font-roboto), sans-serif;
+  font-size: 18px;
+  line-height: 1.85;
+  color: #374151;
+  margin-bottom: 28px;
+}
+
+/* Highlight box for the list */
+.section ul {
+  font-family: var(--font-roboto), sans-serif;
+  font-size: 18px;
+  line-height: 1.85;
+  color: #111827;
+  margin-bottom: 30px;
+  padding: 28px 28px 28px 48px;
+  background-color: #fff1f2;
+  border-left: 4px solid #e11d48;
+  border-radius: 4px;
+  list-style: none;
+}
+
+.section li {
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.section li:last-child {
+  margin-bottom: 0;
+}
+
+/* Custom bullet points using pseudo-elements */
+.section li::before {
+  content: "•";
+  color: #e11d48;
+  font-size: 24px;
+  position: absolute;
+  left: -20px;
+  top: -4px;
+}
+
+.section a {
+  color: #c53030;
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-color: #f87171;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 2px;
+  transition: color 0.2s ease, text-decoration-color 0.2s ease;
+}
+
+.section a:hover {
+  color: #9b2c2c;
+  text-decoration-color: #c53030;
+}
+
+.faqBlock {
+  margin-top: 48px;
+  border-top: 2px solid #e5e7eb;
+  padding-top: 40px;
+}
+
+.faqBlock h3 {
+  font-family: var(--font-oswald), sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #1a2433;
+  text-transform: uppercase;
+  margin-bottom: 28px;
+}
+
+.faqItem {
+  border-bottom: 1px solid #e5e7eb;
+  padding: 20px 0;
+}
+
+.faqItem:last-child {
+  border-bottom: none;
+}
+
+.faqItem h4 {
+  font-family: var(--font-oswald), sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  color: #c53030;
+  margin-bottom: 12px;
+}
+
+.faqItem p {
+  font-family: var(--font-roboto), sans-serif;
+  font-size: 18px;
+  line-height: 1.8;
+  color: #374151;
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 50px 20px;
+  }
+  .section h2 {
+    font-size: 28px;
+  }
+}
+

@@ -1,0 +1,332 @@
+.main {
+  background-color: #fdfaf6;
+  min-height: 100vh;
+}
+
+.hero {
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heroOverlay {
+  text-align: center;
+  padding: 0 20px;
+}
+
+.hero h1 {
+  font-family: var(--font-oswald), sans-serif;
+  font-size: 56px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+  letter-spacing: 2px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 320px;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 60px auto;
+  padding: 0 20px;
+  align-items: start;
+}
+
+@media (max-width: 992px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+  .content {
+    padding: 30px;
+  }
+}
+
+.content {
+  width: 100%;
+  background-color: #ffffff;
+  padding: 50px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  border: 1px solid #e5e7eb;
+}
+
+/* Markdown Content Styling */
+.markdownBody {
+  font-family: var(--font-roboto), -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #1a1a1a;
+  line-height: 1.8;
+  font-size: 19px;
+}
+
+.markdownBody h2 {
+  font-family: var(--font-oswald), -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 38px;
+  font-weight: 900;
+  color: #000000;
+  margin-top: 50px;
+  margin-bottom: 25px;
+  text-transform: none;
+  border-bottom: 3px solid #9e1b1b;
+  padding-bottom: 10px;
+}
+
+.markdownBody h3 {
+  font-family: var(--font-oswald), -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+  color: #000000;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.markdownBody p {
+  margin-bottom: 24px;
+}
+
+.markdownBody img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  border-radius: 8px;
+  margin: 30px 0;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.markdownBody ul, .markdownBody ol {
+  margin-bottom: 24px;
+  padding-left: 25px;
+}
+
+.markdownBody li {
+  margin-bottom: 12px;
+}
+
+.markdownBody strong {
+  color: #111827;
+  font-weight: 700;
+}
+
+.markdownBody blockquote {
+  border-left: 4px solid #c53030;
+  padding-left: 20px;
+  margin-left: 0;
+  font-style: italic;
+  color: #4b5563;
+  background-color: #fef2f2;
+  padding: 20px;
+  border-radius: 0 8px 8px 0;
+  margin: 30px 0;
+  font-size: 20px;
+}
+
+/* AI Overview Structured Tables */
+.markdownBody table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 30px 0;
+  font-size: 16px;
+}
+
+.markdownBody th, .markdownBody td {
+  border: 1px solid #e5e7eb;
+  padding: 12px 16px;
+  text-align: left;
+}
+
+.markdownBody th {
+  background-color: #f9fafb;
+  font-weight: 700;
+  color: #111827;
+  text-transform: uppercase;
+}
+
+.markdownBody tr:nth-child(even) {
+  background-color: #fcfcfc;
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 40px;
+  }
+  .content {
+    padding: 25px;
+  }
+  .markdownBody h2 {
+    font-size: 28px;
+  }
+  .markdownBody h3 {
+    font-size: 24px;
+  }
+}
+
+/* Category Items Grid Styling */
+.itemsSection {
+  margin-top: 60px;
+  border-top: 2px solid #e5e7eb;
+  padding-top: 40px;
+}
+
+.itemsHeading {
+  font-family: var(--font-oswald), sans-serif;
+  font-size: 32px;
+  color: #1a2433;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.itemsGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+
+.itemCard {
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.itemCard:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.itemImageWrapper {
+  width: 100%;
+  aspect-ratio: 16/9;
+  background-color: #f8fafc;
+  overflow: hidden;
+}
+
+.itemImageWrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.itemCardContent {
+  padding: 20px;
+}
+
+.itemCardContent h3 {
+  font-family: var(--font-oswald), sans-serif;
+  font-size: 22px;
+  color: #c53030;
+  margin: 0 0 8px 0;
+}
+
+.itemMeta {
+  font-family: var(--font-roboto), sans-serif;
+  font-size: 14px;
+  color: #64748b;
+  margin-bottom: 12px;
+}
+
+.itemMeta strong {
+  color: #1a2433;
+  font-weight: 700;
+}
+
+.divider {
+  margin: 0 8px;
+  color: #cbd5e1;
+}
+
+.itemDescription {
+  font-family: var(--font-roboto), sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #4b5563;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .itemsGrid {
+    grid-template-columns: 1fr;
+  }
+  .content {
+    padding: 20px; /* Reduce padding on mobile to prevent overflow */
+  }
+}
+
+/* Related Categories Section */
+.relatedCategoriesSection {
+  margin-top: 60px;
+  padding-top: 40px;
+  border-top: 1px solid #e5e7eb;
+}
+
+.relatedHeading {
+  font-family: var(--font-oswald), -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 28px;
+  color: #1a2433;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.relatedCategoriesGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.relatedCategoryCard {
+  display: block;
+  padding: 25px;
+  background-color: #f8fafc;
+  border-radius: 10px;
+  border: 1px solid #e2e8f0;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.relatedCategoryCard:hover {
+  background-color: #c53030;
+  border-color: #c53030;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(197, 48, 48, 0.2);
+}
+
+.relatedCategoryCard h3 {
+  font-family: var(--font-oswald), -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 20px;
+  color: #1a2433;
+  margin: 0 0 10px 0;
+  transition: color 0.3s ease;
+}
+
+.relatedCategoryCard:hover h3 {
+  color: #ffffff;
+}
+
+.relatedCategoryLink {
+  font-family: var(--font-roboto), -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #c53030;
+  transition: color 0.3s ease;
+}
+
+.relatedCategoryCard:hover .relatedCategoryLink {
+  color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .relatedCategoriesGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+

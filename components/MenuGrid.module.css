@@ -1,0 +1,128 @@
+.section {
+  padding: 60px max(20px, calc(50% - 550px));
+  background-color: #f3f4f6;
+}
+
+.section h2 {
+  font-family: var(--font-oswald), sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  color: #1a2433;
+  margin-bottom: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.section nav {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-bottom: 50px;
+}
+
+.section nav a {
+  text-decoration: none;
+  display: block;
+}
+
+.section article {
+  background-color: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  border: 1px solid #e5e7eb;
+  transition: transform 0.2s, box-shadow 0.2s;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.section nav a:hover article {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.imageContainer {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background-color: #ebebeb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #e5e7eb;
+  overflow: hidden;
+}
+
+.imageContainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.section nav a:hover .imageContainer img {
+  transform: scale(1.05);
+}
+
+.section article span {
+  color: #9ca3af;
+  font-size: 14px;
+  font-family: var(--font-roboto), sans-serif;
+}
+
+.section article h3 {
+  padding: 15px;
+  font-family: var(--font-oswald), sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #111827;
+  text-align: center;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.pdfButtons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.pdfButtons a {
+  background-color: #c53030;
+  color: #ffffff;
+  font-family: var(--font-roboto), sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 12px 24px;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+  text-transform: uppercase;
+}
+
+.pdfButtons a:hover {
+  background-color: #9b2c2c;
+}
+
+@media (max-width: 992px) {
+  .section nav {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .section nav {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .section nav {
+    grid-template-columns: 1fr;
+  }
+}
