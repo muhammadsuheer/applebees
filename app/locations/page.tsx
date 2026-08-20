@@ -9,7 +9,7 @@ import styles from './page.module.css';
 
 export const metadata: Metadata = {
   title: "Applebee's Locations: Find a Restaurant, Hours & Phone Numbers",
-  description: "Find Applebee's locations by state or ZIP code, with hours, phone numbers and directions. Plus what changes between restaurants — prices, deals and happy hour times.",
+  description: "Find Applebee's locations by state or ZIP code, with hours, phone numbers and directions. Plus what changes between restaurants  prices, deals and happy hour times.",
   alternates: {
     canonical: 'https://applebees-menus.us/locations',
   }
@@ -67,7 +67,7 @@ export default function LocationsPage() {
         "@id": "https://applebees-menus.us/locations/#webpage",
         "url": "https://applebees-menus.us/locations",
         "name": "Applebee's Locations: Find a Restaurant, Hours & Phone Numbers",
-        "description": "Find Applebee's locations by state or ZIP code, with hours, phone numbers and directions. Plus what changes between restaurants — prices, deals and happy hour times.",
+        "description": "Find Applebee's locations by state or ZIP code, with hours, phone numbers and directions. Plus what changes between restaurants  prices, deals and happy hour times.",
         "breadcrumb": {
           "@id": "https://applebees-menus.us/locations/#breadcrumb"
         }
@@ -114,13 +114,13 @@ export default function LocationsPage() {
       />
       <Header />
       <Breadcrumb items={[{ label: 'Locations', href: '/locations' }]} />
-      
+
       <main className={styles.main}>
-        {/* H1 & §1 — OPENING */}
+        {/* H1 & §1  OPENING */}
         <header className={styles.hero} role="banner" aria-label="Locations Header">
           <h1>Applebee's Locations, Hours and Contact Details</h1>
           <p className={styles.heroLead}>
-            Applebee's runs about 1,600 restaurants across the United States. Finding one is usually easy. Knowing what to expect when you get there is the harder part, because Applebee's is franchised — individual owners set their own hours, prices and promotions.
+            Applebee's runs about 1,600 restaurants across the United States. Finding one is usually easy. Knowing what to expect when you get there is the harder part, because Applebee's is franchised  individual owners set their own hours, prices and promotions.
           </p>
           <p className={styles.heroSub}>
             That has a practical consequence most people learn the hard way: the restaurant you visited last month in another town may run different happy hour times, charge a few dollars more for the same burger, or not participate in the deal you drove there for.
@@ -130,13 +130,13 @@ export default function LocationsPage() {
           </p>
         </header>
 
-        {/* §2 — FIND YOUR NEAREST RESTAURANT & §3 — BROWSE BY STATE */}
+        {/* §2  FIND YOUR NEAREST RESTAURANT & §3  BROWSE BY STATE */}
         <section className={styles.clusterSection} id="find-nearest">
           <h2>Find an Applebee's Near You</h2>
           <p>
             Search by ZIP code, city, or allow location access. Results return the closest restaurants with distance, address, phone number, and whether each one is currently open.
           </p>
-          
+
           {/* Location Search Widget Placed Directly Above the Fold */}
           <LocationSearch locationsData={locationData} />
 
@@ -148,7 +148,7 @@ export default function LocationsPage() {
           </p>
         </section>
 
-        {/* §3 — BROWSE BY STATE */}
+        {/* §3  BROWSE BY STATE */}
         <section className={styles.clusterSection} id="browse-by-state">
           <h2>Applebee's Locations by State</h2>
           <p>
@@ -156,7 +156,7 @@ export default function LocationsPage() {
           </p>
         </section>
 
-        {/* §4 — WHAT CHANGES BETWEEN RESTAURANTS */}
+        {/* §4  WHAT CHANGES BETWEEN RESTAURANTS */}
         <section className={styles.clusterSection} id="what-changes">
           <h2>What's Different at Each Applebee's Location</h2>
           <p>
@@ -167,7 +167,7 @@ export default function LocationsPage() {
             <div className={styles.varianceCard}>
               <h3>Prices</h3>
               <p>
-                Franchise owners set menu pricing against local costs. The same handcrafted burger can differ by several dollars between a small-town location and a major metro. Figures on our <Link href="/menu">menu with prices</Link> reflect commonly listed pricing — treat the local restaurant as authoritative.
+                Franchise owners set menu pricing against local costs. The same handcrafted burger can differ by several dollars between a small-town location and a major metro. Figures on our <Link href="/menu">menu with prices</Link> reflect commonly listed pricing  treat the local restaurant as authoritative.
               </p>
             </div>
 
@@ -208,7 +208,7 @@ export default function LocationsPage() {
           </div>
         </section>
 
-        {/* §5 — HOURS */}
+        {/* §5  HOURS */}
         <section className={styles.clusterSection} id="hours">
           <h2>Applebee's Hours: Standard and Holiday</h2>
           <p>
@@ -248,14 +248,14 @@ export default function LocationsPage() {
             Two things the table does not capture. Bar service often runs later than the kitchen, so arriving near closing may mean drinks only. And the kitchen sometimes stops taking orders 15 to 30 minutes before the posted close.
           </p>
           <p>
-            Holidays are the real variable. Thanksgiving, Christmas Eve, Christmas Day and New Year's Day schedules are set per restaurant. Christmas Day closures are common but not universal. Published hours are unreliable on holidays — calling is the only way to be certain.
+            Holidays are the real variable. Thanksgiving, Christmas Eve, Christmas Day and New Year's Day schedules are set per restaurant. Christmas Day closures are common but not universal. Published hours are unreliable on holidays  calling is the only way to be certain.
           </p>
           <p>
             Full breakdown including holiday schedules: see our complete <Link href="/operating-hours">operating hours</Link> guide.
           </p>
         </section>
 
-        {/* §6 — CONTACT A SPECIFIC RESTAURANT */}
+        {/* §6  CONTACT A SPECIFIC RESTAURANT */}
         <section className={styles.clusterSection} id="contact-restaurant">
           <h2>Applebee's Phone Numbers and Addresses</h2>
           <p>
@@ -266,7 +266,7 @@ export default function LocationsPage() {
           </p>
         </section>
 
-        {/* §7 — ORDERING WITHOUT VISITING */}
+        {/* §7  ORDERING WITHOUT VISITING */}
         <section className={styles.clusterSection} id="ordering-options">
           <h2>Delivery, Takeout and Catering by Location</h2>
           <p>
@@ -280,23 +280,23 @@ export default function LocationsPage() {
           </p>
         </section>
 
-        {/* §8 — SPANISH SECTION */}
+        {/* §8  SPANISH SECTION */}
         <section className={styles.clusterSection} id="cerca-de-mi">
           <h2>Applebee's Cerca de Mí</h2>
           <p>
             Applebee's tiene alrededor de 1,600 restaurantes en Estados Unidos. Para encontrar el más cercano, busca por código postal o selecciona tu estado en la sección de arriba. Los resultados muestran la dirección, el teléfono y si el restaurante está abierto en este momento.
           </p>
           <p>
-            Algo importante: Applebee's funciona por franquicias. Cada restaurante decide sus propios horarios, precios y promociones. Antes de ir, conviene confirmar el horario del local — sobre todo en días festivos — y verificar si participa en ofertas como <Link href="/menu/2-for-25">2 por $25</Link> o la <Link href="/happy-hour">hora feliz</Link>.
+            Algo importante: Applebee's funciona por franquicias. Cada restaurante decide sus propios horarios, precios y promociones. Antes de ir, conviene confirmar el horario del local  sobre todo en días festivos  y verificar si participa en ofertas como <Link href="/menu/2-for-25">2 por $25</Link> o la <Link href="/happy-hour">hora feliz</Link>.
           </p>
           <p>
             La mayoría de los locales abren a las 11:00 AM y cierran alrededor de las 11:00 PM entre domingo y jueves, con horario extendido los viernes y sábados.
           </p>
         </section>
 
-        {/* §9 — FAQ */}
+        {/* §9  FAQ */}
         <section className={styles.clusterSection} id="faqs">
-          <h2>Applebee's Locations — Common Questions</h2>
+          <h2>Applebee's Locations  Common Questions</h2>
           <div className={styles.faqList}>
             {faqData.map((faq, index) => (
               <article key={index} className={styles.faqItem}>
