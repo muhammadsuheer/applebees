@@ -31,12 +31,10 @@ img, picture, video, canvas, svg {
   overflow-wrap: break-word;
 }
 
-/* Make tables scrollable on mobile if they overflow instead of breaking page width */
+/* Make tables fill their container properly */
 table {
-  max-width: 100%;
-  display: block;
-  overflow-x: auto;
-  white-space: nowrap;
+  width: 100%;
+  border-collapse: collapse;
 }
 
 /* Prevent container blowouts */

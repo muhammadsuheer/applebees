@@ -73,29 +73,41 @@ export default function FullMenu() {
                 ))}
               </div>
 
-              <table className={styles.seoTable}>
-                <caption>
-                  <strong>{category.title} Menu</strong>  Prices verified August 2026. See full <Link href={`/menu/${category.slug}`}>Applebee's {category.title} details</Link>.
-                </caption>
-                <thead>
-                  <tr>
-                    <th scope="col">Item Name</th>
-                    <th scope="col">Calories</th>
-                    <th scope="col">Price</th>
-                    <th scope="col">Description</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {category.items.map((item) => (
-                    <tr key={`table-${item.id}`}>
-                      <th scope="row">{item.name}</th>
-                      <td>{item.calories}</td>
-                      <td>{item.price}</td>
-                      <td>{item.tableDescription}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
+              <div className={styles.tableCard}>
+                <div className={styles.tableBanner}>
+                  <span className={styles.bannerTitle}>
+                    <strong>{category.title} Menu</strong> — Prices verified August 2026
+                  </span>
+                  <Link href={`/menu/${category.slug}`} className={styles.bannerLink}>
+                    View {category.title} Page &rarr;
+                  </Link>
+                </div>
+                <div className={styles.tableResponsive}>
+                  <table className={styles.seoTable}>
+                    <caption className={styles.srOnly}>
+                      Pricing and nutritional information for {category.title}
+                    </caption>
+                    <thead>
+                      <tr>
+                        <th scope="col" className={styles.colName}>Item Name</th>
+                        <th scope="col" className={styles.colCalories}>Calories</th>
+                        <th scope="col" className={styles.colPrice}>Price</th>
+                        <th scope="col" className={styles.colDesc}>Description</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {category.items.map((item) => (
+                        <tr key={`table-${item.id}`}>
+                          <th scope="row" className={styles.nameCell}>{item.name}</th>
+                          <td className={styles.calorieCell}>{item.calories}</td>
+                          <td className={styles.priceCell}>{item.price}</td>
+                          <td className={styles.descCell}>{item.tableDescription}</td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
             </>
           ) : (
             <p style={{ fontFamily: 'var(--font-roboto)', color: '#666', marginTop: '10px' }}>

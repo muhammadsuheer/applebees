@@ -1,75 +1,170 @@
 .section {
-  padding: 3rem 1.5rem;
-  max-width: 1200px;
+  padding: 3.5rem 1.5rem;
+  width: 100%;
+}
+
+.container {
+  max-width: 1000px;
   margin: 0 auto;
 }
 
-.section h2 {
-  font-family: var(--font-oswald), sans-serif;
-  text-transform: uppercase;
-  font-size: 2rem;
-  margin-bottom: 1.5rem;
-  color: #d11241;
+.headerArea {
   text-align: center;
+  margin-bottom: 1.75rem;
 }
 
-.tableWrapper {
+.headerArea h2 {
+  font-family: var(--font-oswald), sans-serif;
+  text-transform: uppercase;
+  font-size: 2.25rem;
+  letter-spacing: 0.5px;
+  color: #c8102e; /* Applebee's Brand Red */
+  margin-bottom: 0.5rem;
+}
+
+.subtext {
+  font-family: var(--font-roboto), sans-serif;
+  font-size: 1.05rem;
+  color: #4b5563;
+  font-style: italic;
+}
+
+.tableCard {
+  background-color: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.07), 0 2px 8px -2px rgba(0, 0, 0, 0.04);
+  border: 1px solid #e5e7eb;
+}
+
+.tableResponsive {
+  width: 100%;
   overflow-x: auto;
-  border-radius: 8px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  -webkit-overflow-scrolling: touch;
 }
 
 .table {
   width: 100%;
+  min-width: 520px;
   border-collapse: collapse;
-  background-color: #ffffff;
   text-align: left;
+  font-family: var(--font-roboto), sans-serif;
 }
 
-.table caption {
-  caption-side: top;
-  font-size: 1.1rem;
-  color: #555;
-  margin-bottom: 1rem;
-  font-style: italic;
-  text-align: left;
-}
-
-.table th,
-.table td {
-  padding: 1rem;
-  border-bottom: 1px solid #eee;
+.srOnly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
 }
 
 .table thead th {
-  background-color: #f8f9fa;
-  color: #333;
-  font-weight: 700;
-  text-transform: uppercase;
+  background-color: #1a2433; /* Dark navy brand accent */
+  color: #ffffff;
+  font-family: var(--font-oswald), sans-serif;
   font-size: 0.95rem;
-}
-
-.table tbody th {
   font-weight: 600;
-  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+  padding: 16px 24px;
+  border: none;
 }
 
-.table tbody th a {
-  color: #d11241;
+.colCategory {
+  width: 44%;
+  text-align: left;
+}
+
+.colPrice {
+  width: 28%;
+  text-align: center;
+}
+
+.colCalories {
+  width: 28%;
+  text-align: right;
+}
+
+.table tbody tr {
+  border-bottom: 1px solid #f1f5f9;
+  transition: background-color 0.15s ease;
+}
+
+.table tbody tr:last-child {
+  border-bottom: none;
+}
+
+.table tbody tr:hover {
+  background-color: #f8fafc;
+}
+
+.table tbody td {
+  padding: 16px 24px;
+  font-size: 0.98rem;
+  vertical-align: middle;
+}
+
+.categoryCell {
+  text-align: left;
+}
+
+.categoryLink {
+  color: #111827;
+  font-weight: 700;
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.categoryLink:hover {
+  color: #c8102e;
   text-decoration: underline;
-  text-decoration-color: rgba(209, 18, 65, 0.3);
-  text-decoration-thickness: 2px;
-  text-underline-offset: 4px;
 }
 
-.table tbody th a:hover {
-  text-decoration-color: #d11241;
+.priceCell {
+  text-align: center;
+  font-weight: 700;
+  color: #c8102e; /* Vibrant brand red */
+  font-size: 1.05rem;
 }
 
-.captionNote {
-  font-size: 0.9rem;
-  color: #666;
-  margin-top: 1rem;
+.calorieCell {
+  text-align: right;
+  color: #4b5563;
+  font-weight: 500;
+}
+
+.cardFooter {
+  padding: 14px 24px;
+  background-color: #f9fafb;
+  border-top: 1px solid #f1f5f9;
+  font-size: 0.88rem;
+  color: #6b7280;
   text-align: right;
   font-style: italic;
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 2.5rem 1rem;
+  }
+  
+  .headerArea h2 {
+    font-size: 1.85rem;
+  }
+  
+  .table thead th,
+  .table tbody td {
+    padding: 14px 16px;
+  }
+  
+  .cardFooter {
+    padding: 12px 16px;
+    font-size: 0.82rem;
+    text-align: center;
+  }
 }
