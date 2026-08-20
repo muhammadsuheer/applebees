@@ -1,0 +1,75 @@
+.section {
+  padding: 3rem 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section h2 {
+  font-family: var(--font-oswald), sans-serif;
+  text-transform: uppercase;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #d11241;
+  text-align: center;
+}
+
+.tableWrapper {
+  overflow-x: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  text-align: left;
+}
+
+.table caption {
+  caption-side: top;
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 1rem;
+  font-style: italic;
+  text-align: left;
+}
+
+.table th,
+.table td {
+  padding: 1rem;
+  border-bottom: 1px solid #eee;
+}
+
+.table thead th {
+  background-color: #f8f9fa;
+  color: #333;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.95rem;
+}
+
+.table tbody th {
+  font-weight: 600;
+  color: #333;
+}
+
+.table tbody th a {
+  color: #d11241;
+  text-decoration: underline;
+  text-decoration-color: rgba(209, 18, 65, 0.3);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
+
+.table tbody th a:hover {
+  text-decoration-color: #d11241;
+}
+
+.captionNote {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 1rem;
+  text-align: right;
+  font-style: italic;
+}

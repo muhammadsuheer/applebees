@@ -4,40 +4,49 @@ import styles from './DealsPromo.module.css';
 export default function DealsPromo() {
   const promos = [
     {
-      id: "all-you-can-eat",
-      title: "Applebee's All You Can Eat",
-      description: "See the current All You Can Eat menu, available choices, pricing, and offer details.",
-      image: "/apple-bees-menu/friends-sharing-appetizers.jpg",
-      badge: "UNLIMITED",
-      link: "/specials-and-deals",
-      cta: "VIEW ALL YOU CAN EAT"
-    },
-    {
       id: "2-for-25",
-      title: "Applebee's 2 for 25",
-      description: "Check the current 2 for $25 menu, including available appetizers, entrées, and deal details.",
+      title: "Applebee's 2 for $25",
+      description: "The Applebee's 2 for $25 deal includes one full-size appetizer and two full-size entrées for a flat price. Options typically feature items like the Classic Bacon Cheeseburger or Fiesta Lime Chicken.",
       image: "/apple-bees-menu/applebees-2-for-25-value-meal-deal-category.webp",
       badge: "VALUE",
       link: "/menu/2-for-25",
       cta: "VIEW 2 FOR $25 MENU"
     },
     {
+      id: "all-you-can-eat",
+      title: "Applebee's All You Can Eat",
+      description: "The All You Can Eat special offers unlimited refills on select entrées like Boneless Wings, Riblets, and Shrimp, paired with endless fries. This limited-time promotion usually starts at $14.99.",
+      image: "/apple-bees-menu/friends-sharing-appetizers.jpg",
+      badge: "UNLIMITED",
+      link: "/specials-and-deals",
+      cta: "VIEW ALL YOU CAN EAT"
+    },
+    {
+      id: "half-price-apps",
+      title: "Applebee's Half Price Apps",
+      description: "Half Price Apps are available daily during Late Night Happy Hour at participating locations. Popular discounted items include Mozzarella Sticks, Boneless Wings, and Spinach & Artichoke Dip.",
+      image: "/apple-bees-menu/applebees-classic-combo-appetizer-trio-platter.webp",
+      badge: "APPETIZERS",
+      link: "/specials-and-deals",
+      cta: "VIEW HALF PRICE APPS"
+    },
+    {
       id: "happy-hour",
       title: "Applebee's Happy Hour",
-      description: "Find Happy Hour menu details, participating times, and available food and drink specials.",
+      description: "Applebee's Happy Hour typically runs from 3:00 PM to 6:00 PM and again from 9:00 PM to close. It features substantial discounts on select domestic beers, wine, and signature cocktails.",
       image: "/apple-bees-menu/applebees-dollarita-house-margarita-cocktail.webp",
       badge: "DRINKS",
       link: "/happy-hour",
       cta: "VIEW HAPPY HOUR"
     },
     {
-      id: "half-price-apps",
-      title: "Applebee's Half Price Apps",
-      description: "Check Half Price Appetizer times, prices, and the appetizers included at participating locations.",
-      image: "/apple-bees-menu/applebees-classic-combo-appetizer-trio-platter.webp",
-      badge: "APPETIZERS",
-      link: "/specials-and-deals",
-      cta: "VIEW HALF PRICE APPS"
+      id: "really-big-meal-deal",
+      title: "The Really BIG Meal Deal",
+      description: "The Really BIG Meal Deal combines a qualifying burger or chicken sandwich with classic fries and a fountain drink. It is designed as a complete bundled meal for a single diner.",
+      image: "/apple-bees-menu/applebees-really-big-meal-deal-spread.webp",
+      badge: "COMBO",
+      link: "/menu/really-big-meal-deal",
+      cta: "VIEW BIG MEAL DEAL"
     }
   ];
 
@@ -46,7 +55,7 @@ export default function DealsPromo() {
       <div className={styles.container}>
         <h2>Applebee's Specials & Deals</h2>
         <p className={styles.sectionDescription}>
-          Explore the Applebee's specials people search for most, including All You Can Eat, 2 for 25, Happy Hour, and Half Price Apps. Offer availability, menu choices, prices, and times can vary by participating location.
+          Applebee's is known for high-value promotions like the 2 for $25 and Half Price Apps. Below are the current active and seasonal deals you can find at most franchise locations.
         </p>
         <div className={styles.grid}>
           {promos.map((promo) => (

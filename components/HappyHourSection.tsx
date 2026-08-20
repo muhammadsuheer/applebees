@@ -5,23 +5,23 @@ export default function HappyHourSection() {
   const faqs = [
     {
       q: "What time is Applebee's Happy Hour?",
-      a: "Applebee's Happy Hour times vary by location. Most participating restaurants offer afternoon Happy Hour from around 3:00 PM to 6:00 PM. A late-night Happy Hour window is also available at many locations, typically starting around 9:00 PM until close. Check with your local Applebee's to confirm the exact schedule."
+      a: "Applebee's Happy Hour times typically run from 3:00 PM to 6:00 PM and from 9:00 PM to close at participating locations. However, because franchise owners operate independently, exact hours and days can vary. Check with your local Applebee's to confirm their specific schedule."
     },
     {
       q: "Does Applebee's have Happy Hour every day?",
-      a: "Happy Hour is available at most Applebee's locations Monday through Friday. Weekend and holiday hours can vary by franchise location. Some locations run daily specials  verify with your nearest restaurant."
+      a: "Happy Hour is available every day at many Applebee's locations, but some restrict deals to Monday through Friday. Weekend and holiday hours frequently vary by franchise location. Contact your nearest restaurant to verify daily specials."
     },
     {
       q: "What is included in the Applebee's Happy Hour menu?",
-      a: "The Applebee's Happy Hour menu typically includes half-price appetizers and discounted drinks. Common items include Boneless Wings, Mozzarella Sticks, Spinach & Artichoke Dip, and Chicken Quesadilla, plus drink specials on select cocktails and beers. Exact offerings can vary by location."
+      a: "The Applebee's Happy Hour menu includes half-price appetizers and discounted signature drinks. Common food items include Boneless Wings, Mozzarella Sticks, Spinach & Artichoke Dip, and Chicken Quesadillas, while drink specials often feature select cocktails, domestic beers, and wine."
     },
     {
       q: "What time are Applebee's half price apps?",
-      a: "Applebee's half price apps are available during Happy Hour, which is generally offered in the late afternoon (around 3–6 PM) and again late night (after 9 PM) at participating locations. Times and items can differ by restaurant."
+      a: "Applebee's half price apps are available during Late Night Happy Hour, which generally starts at 9:00 PM and lasts until closing time every day. Many locations also offer an afternoon window from 3:00 PM to 6:00 PM."
     },
     {
       q: "Does Applebee's have late night Happy Hour?",
-      a: "Yes. Many Applebee's locations offer a late night Happy Hour window starting around 9:00 PM until closing. During this time, select appetizers are available at half price. Confirm availability with your local restaurant."
+      a: "Yes, Applebee's offers a late night Happy Hour at most locations starting around 9:00 PM until closing. During this time, diners can order select appetizers at half price. Confirm availability with your local restaurant."
     }
   ];
 
@@ -34,7 +34,7 @@ export default function HappyHourSection() {
       </p>
 
       <p>
-        The <Link href="/happy-hour">Applebee's Happy Hour menu</Link> typically includes a selection of half-price apps and discounted drinks. While exact offerings depend on your <Link href="/locations">local Applebee's location</Link>, the items below are commonly available at participating restaurants:
+        The <Link href="/happy-hour">Applebee's Happy Hour menu</Link> typically includes a selection of half-price apps and discounted drinks. While exact offerings depend on your local restaurant, the items below are commonly available at participating locations:
       </p>
 
       <ul>
@@ -43,7 +43,7 @@ export default function HappyHourSection() {
           <Link href="/menu/appetizers">Boneless Wings, Mozzarella Sticks, Spinach & Artichoke Dip, and Chicken Quesadilla</Link>.
         </li>
         <li>
-          <strong>Late Night Half Price Appetizers:</strong> The half-price app window reopens late night at most locations  typically after 9 PM until close.
+          <strong>Late Night Half Price Appetizers:</strong> The half-price app window reopens late night at most locations  typically after 9:00 PM until close.
         </li>
         <li>
           <strong>Drink Specials:</strong> Discounted pricing on select cocktails, house margaritas, and draft beers during Happy Hour. Specific drinks and prices vary by location.

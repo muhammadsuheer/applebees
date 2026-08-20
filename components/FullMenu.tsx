@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { menuData } from '@/data/menu';
 import styles from './FullMenu.module.css';
 
@@ -24,11 +25,11 @@ export default function FullMenu() {
             "calories": item.calories
           }
         };
-        
+
         if (item.image) {
           menuItemData.image = "https://applebees-menus.us" + item.image;
         }
-        
+
         return menuItemData;
       })
     }))
@@ -40,11 +41,11 @@ export default function FullMenu() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
-      
+
       {menuData.map((category) => (
         <div key={category.title} className={styles.categoryBlock} id={category.slug}>
-          <h2>{category.title}</h2>
-          
+          <h2><Link href={`/menu/${category.slug}`}>{category.title}</Link></h2>
+
           {category.items.length > 0 ? (
             <>
               <div className={styles.itemsGrid}>
@@ -57,7 +58,7 @@ export default function FullMenu() {
                         <span>Item Image</span>
                       )}
                     </div>
-                    
+
                     <div className={styles.itemContent}>
                       <h3>{item.name}</h3>
                       {item.description && (
@@ -72,9 +73,9 @@ export default function FullMenu() {
                 ))}
               </div>
 
-              <table className={styles.seoTable} aria-labelledby={`heading-${category.title.replace(/\s+/g, '-')}`}>
-                <caption className={styles.visuallyHidden} id={`heading-${category.title.replace(/\s+/g, '-')}`}>
-                  Pricing and nutritional information for {category.title}
+              <table className={styles.seoTable}>
+                <caption>
+                  <strong>{category.title} Menu</strong>  Prices verified August 2026. See full <Link href={`/menu/${category.slug}`}>Applebee's {category.title} details</Link>.
                 </caption>
                 <thead>
                   <tr>
@@ -97,11 +98,11 @@ export default function FullMenu() {
               </table>
             </>
           ) : (
-            <p style={{fontFamily: 'var(--font-roboto)', color: '#666', marginTop: '10px'}}>
+            <p style={{ fontFamily: 'var(--font-roboto)', color: '#666', marginTop: '10px' }}>
               New items for this category are being updated. Check back soon!
             </p>
           )}
-          
+
         </div>
       ))}
     </section>

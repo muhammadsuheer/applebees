@@ -6,7 +6,10 @@ export default function LocationPromo() {
     <section className={styles.section} id="find-your-location">
       <h2>Find an Applebee's Near You</h2>
       <p>
-        Applebee's has locations across the US, and menu items, prices, and specials can differ between restaurants. If you are looking for the closest Applebee's, want to check if a location is open right now, or need a phone number before heading in  the location finder covers all of that.
+        Applebee's operates nearly 1,600 locations across the United States. <strong>Please note that this site is an independent guide and we do not operate any Applebee's restaurants.</strong> 
+      </p>
+      <p>
+        Because menu items, prices, and specials can differ between independent franchise locations, we recommend checking directly with your local restaurant. If you are looking for the closest Applebee's, want to check if a location is open right now, or need a phone number before heading in, use our location directory.
       </p>
       <ul className={styles.featureList}>
         <li>Find the nearest Applebee's to your current location</li>

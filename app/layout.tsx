@@ -16,8 +16,8 @@ const inter = Inter({
 import { SuppressHydrationOverlay } from "@/components/SuppressHydrationOverlay";
 
 export const metadata: Metadata = {
-  title: "Applebees Menu",
-  description: "Applebees Menu with Prices & Calories",
+  title: "Applebees Menu with Prices, Calories & 2 for $25 (2026)",
+  description: "Browse the full Applebees menu with prices and calories for 2026  appetizers, burgers, steaks, pasta, desserts, drinks, kids menu and the 2 for $25 deal.",
   robots: {
     index: true,
     follow: true,
