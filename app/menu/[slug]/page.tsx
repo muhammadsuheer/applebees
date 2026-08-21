@@ -65,6 +65,7 @@ export default async function CategoryPage({ params }: Props) {
 
   let contentHtml = '';
   let pageTitle = `Applebee's ${category.title} Menu with Prices and Calories`;
+  const faqs: { question: string; answer: string }[] = [];
 
   try {
     const filePath = path.join(process.cwd(), 'data', 'content', `${p.slug}.md`);
@@ -73,6 +74,21 @@ export default async function CategoryPage({ params }: Props) {
       const { data, content } = matter(fileContents);
       if (data.title) pageTitle = data.title;
       contentHtml = await marked.parse(content);
+
+      // Extract FAQs for Schema
+      const faqSection = content.split(/## Frequently Asked Questions/i)[1];
+      if (faqSection) {
+        const nextH2 = faqSection.split(/\n## /)[0];
+        const faqBlocks = nextH2.split(/\n### /).slice(1);
+        faqBlocks.forEach(block => {
+          const lines = block.trim().split('\n');
+          const question = lines[0].replace(/\?+$/, '?').trim();
+          const answer = lines.slice(1).join(' ').trim();
+          if (question && answer) {
+            faqs.push({ question, answer });
+          }
+        });
+      }
     } else {
       contentHtml = `<p>Detailed information about ${category.title} is coming soon.</p>`;
     }
@@ -83,7 +99,7 @@ export default async function CategoryPage({ params }: Props) {
   // Sibling categories for contextual linking
   const otherCategories = menuData.filter(c => c.slug !== p.slug).slice(0, 4);
 
-  const schemaData = {
+  const schemaData: Record<string, any> = {
     "@context": "https://schema.org",
     "@graph": [
       {
@@ -136,6 +152,22 @@ export default async function CategoryPage({ params }: Props) {
       }
     ]
   };
+
+  if (faqs.length > 0) {
+    schemaData["@graph"].push({
+      "@type": "FAQPage",
+      "@id": `https://applebees-menus.us/menu/${p.slug}/#faq`,
+      "name": `Applebee's ${category.title} Frequently Asked Questions`,
+      "mainEntity": faqs.map(faq => ({
+        "@type": "Question",
+        "name": faq.question,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": faq.answer
+        }
+      }))
+    });
+  }
 
   return (
     <>

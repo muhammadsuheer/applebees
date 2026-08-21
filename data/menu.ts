@@ -111,39 +111,45 @@ export const menuData: MenuCategory[] = [
     items: [
       { 
         id: "a4", name: "Chicken Wonton Tacos", calories: "590 Cals", price: "$11.49",
-        description: "Applebee’s Chicken Wonton Tacos feature Sweet Asian chile-marinated grilled chicken in crispy wonton shells, finished with coleslaw and cilantro for a crunchy, sweet-savory appetizer.",
-        tableDescription: "Crispy wonton tacos with chile-marinated chicken, coleslaw, and cilantro.",
+        description: "Sweet Asian chile-marinated grilled chicken in crispy wonton shells, finished with crunchy Asian slaw and fresh cilantro.",
+        tableDescription: "Crispy wonton tacos with chile-marinated chicken, slaw, and cilantro.",
         image: "/apple-bees-menu/applebees-chicken-wonton-tacos-appetizer.webp"
       },
       { 
-        id: "a5", name: "Brew Pub Pretzels & Beer Cheese Dip", calories: "1190 Cals", price: "$10.99",
-        description: "Soft Bavarian-style pretzel sticks are served with Blue Moon white Cheddar beer cheese and honey Dijon mustard, giving this Applebee’s appetizer both creamy and tangy dipping options.",
-        tableDescription: "Bavarian-style pretzel sticks with beer cheese and honey Dijon.",
-        image: "/apple-bees-menu/applebees-brew-pub-pretzels-beer-cheese-dip.webp"
-      },
-      { 
-        id: "a6", name: "Chicken Quesadilla", calories: "1330 Cals", price: "$11.99",
-        description: "Applebee’s Chicken Quesadilla fills grilled tortillas with chipotle lime chicken, house-made pico de gallo, and melted Cheddar cheeses for a warm, shareable appetizer.",
-        tableDescription: "Grilled tortillas with chipotle chicken, pico de gallo, and Cheddar.",
-        image: "/apple-bees-menu/applebees-chicken-quesadilla-appetizer.webp"
-      },
-      { 
-        id: "a1", name: "Spinach & Artichoke Dip", calories: "960 Cals", price: "$10.49",
-        description: "Applebee’s Spinach & Artichoke Dip combines creamy spinach and artichoke with Parmesan, served alongside white corn tortilla chips and chipotle lime salsa.",
-        tableDescription: "Creamy spinach-artichoke dip with Parmesan, chips, and salsa.",
-        image: "/apple-bees-menu/applebees-spinach-artichoke-dip-appetizer.webp"
-      },
-      { 
-        id: "a2", name: "Mozzarella Sticks", calories: "910 Cals", price: "$9.99",
-        description: "Applebee’s Mozzarella Sticks are crisp on the outside with melted mozzarella inside and are served with marinara sauce for dipping.",
+        id: "a2", name: "Mozzarella Sticks", calories: "860 Cals", price: "$9.99",
+        description: "Eight thick-cut mozzarella cheese sticks coated in Italian breadcrumbs and fried golden, served with warm marinara dipping sauce.",
         tableDescription: "Crispy mozzarella sticks served with marinara sauce.",
         image: "/apple-bees-menu/applebees-mozzarella-sticks-with-marinara.webp"
       },
       { 
-        id: "a3", name: "Boneless Wings", calories: "1160 Cals", price: "$12.99",
-        description: "Applebee’s Boneless Wings are crispy breaded chicken pieces tossed in a choice of wing sauce and served with a dipping sauce, making flavor selection the main point of comparison.",
+        id: "a1", name: "Spinach & Artichoke Dip", calories: "990 Cals", price: "$10.49",
+        description: "Creamy warm spinach and artichoke dip baked with Parmesan and mozzarella, served with fresh tortilla chips and chipotle lime salsa.",
+        tableDescription: "Creamy spinach-artichoke dip with Parmesan, chips, and salsa.",
+        image: "/apple-bees-menu/applebees-spinach-artichoke-dip-appetizer.webp"
+      },
+      { 
+        id: "a3", name: "Boneless Wings", calories: "1080 Cals", price: "$12.99",
+        description: "Crispy breaded all-white-meat chicken breast pieces tossed in your choice of signature sauce: Classic Hot Buffalo, Honey BBQ, Sweet Asian Chile, or Garlic Parmesan.",
         tableDescription: "Breaded boneless chicken tossed in a choice of wing sauce.",
         image: "/apple-bees-menu/applebees-boneless-wings-honey-bbq.webp"
+      },
+      { 
+        id: "a5", name: "Brew Pub Pretzels & Beer Cheese Dip", calories: "1160 Cals", price: "$10.99",
+        description: "Warm, soft Bavarian-style pretzel sticks brushed with butter and served with Blue Moon® white Cheddar beer cheese and honey Dijon mustard.",
+        tableDescription: "Bavarian-style pretzel sticks with beer cheese and honey Dijon.",
+        image: "/apple-bees-menu/applebees-brew-pub-pretzels-beer-cheese-dip.webp"
+      },
+      { 
+        id: "a6", name: "Chicken Quesadilla", calories: "1170 Cals", price: "$11.99",
+        description: "Grilled flour tortilla loaded with chipotle-lime chicken, melted Monterey Jack and Cheddar cheeses, bacon, and pico de gallo, served with sour cream and salsa.",
+        tableDescription: "Grilled tortillas with chipotle chicken, pico de gallo, and Cheddar.",
+        image: "/apple-bees-menu/applebees-chicken-quesadilla-appetizer.webp"
+      },
+      { 
+        id: "a7", name: "The Classic Combo", calories: "2200 Cals", price: "$18.99",
+        description: "A shareable four-item platter bringing together Boneless Wings, Spinach & Artichoke Dip with chips, Chicken Quesadilla wedges, and Mozzarella Sticks.",
+        tableDescription: "Four-item shareable sampler platter with wings, dip, quesadillas, and mozz sticks.",
+        image: "/apple-bees-menu/applebees-classic-combo-appetizer-trio-platter.webp"
       }
     ]
   },
