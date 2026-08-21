@@ -85,28 +85,104 @@
   flex-grow: 1;
 }
 
-.pdfButtons {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  flex-wrap: wrap;
+.pdfDownloadSection {
+  margin-top: 50px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 35px 30px;
+  box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.06);
+  border: 1px solid #e5e7eb;
 }
 
-.pdfButtons a {
-  background-color: #c53030;
-  color: #ffffff;
-  font-family: var(--font-roboto), sans-serif;
-  font-size: 15px;
+.pdfHeader {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.pdfHeader h3 {
+  font-family: var(--font-oswald), sans-serif;
+  font-size: 1.6rem;
   font-weight: 700;
-  text-decoration: none;
-  padding: 12px 24px;
-  border-radius: 4px;
-  transition: background-color 0.2s;
+  color: #1a2433;
   text-transform: uppercase;
+  margin-bottom: 8px;
+  letter-spacing: 0.5px;
 }
 
-.pdfButtons a:hover {
-  background-color: #9b2c2c;
+.pdfHeader p {
+  font-family: var(--font-roboto), sans-serif;
+  font-size: 0.98rem;
+  color: #64748b;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.pdfGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+.pdfCard {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background-color: #f8fafc;
+  border: 1.5px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 16px 20px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.pdfCard:hover {
+  background-color: #ffffff;
+  border-color: #c8102e;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px -2px rgba(200, 16, 46, 0.12);
+}
+
+.pdfIcon {
+  font-size: 2rem;
+  flex-shrink: 0;
+}
+
+.pdfInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  flex-grow: 1;
+}
+
+.pdfInfo strong {
+  font-family: var(--font-roboto), sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #1e293b;
+}
+
+.pdfInfo span {
+  font-family: var(--font-roboto), sans-serif;
+  font-size: 0.82rem;
+  color: #64748b;
+}
+
+.downloadBadge {
+  background-color: #c8102e;
+  color: #ffffff;
+  font-family: var(--font-oswald), sans-serif;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 6px 14px;
+  border-radius: 6px;
+  flex-shrink: 0;
+  transition: background-color 0.2s ease;
+}
+
+.pdfCard:hover .downloadBadge {
+  background-color: #991b1b;
 }
 
 @media (max-width: 992px) {
