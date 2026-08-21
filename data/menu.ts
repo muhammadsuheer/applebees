@@ -60,9 +60,9 @@ export const menuData: MenuCategory[] = [
     image: "/apple-bees-menu/applebees-sizzling-skillets-menu-category.webp",
     items: [
       { 
-        id: "sk1", name: "Bourbon Street Chicken & Shrimp", calories: "790 Cals", price: "$17.99",
-        description: "Applebee’s Bourbon Street Chicken & Shrimp combines Cajun-seasoned chicken and blackened shrimp with buttery garlic and parsley, sautéed mushrooms and onions, plus garlic mashed potatoes.",
-        tableDescription: "Cajun chicken and blackened shrimp with garlic, mushrooms, and mashed potatoes.",
+        id: "sk1", name: "Bourbon Street Chicken & Shrimp", calories: "1010 Cals", price: "$17.99",
+        description: "Cajun-seasoned chicken breast and blackened shrimp served over sautéed mushrooms and caramelized onions with garlic butter and garlic mashed potatoes on a sizzling cast-iron skillet.",
+        tableDescription: "Cajun chicken and blackened shrimp with garlic butter, mushrooms, and mashed potatoes.",
         image: "/apple-bees-menu/applebees-bourbon-street-chicken-and-shrimp-skillet.webp"
       }
     ]

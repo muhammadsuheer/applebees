@@ -1,119 +1,244 @@
 ---
-title: "Skillets"
+title: "Applebee's Bourbon Street Chicken & Shrimp: Price & Calories"
+description: "Applebee's Bourbon Street Chicken & Shrimp — Cajun chicken and blackened shrimp with garlic butter, mushrooms and onions. Price, calories, protein and allergens."
 ---
 
-## Applebee's Sizzling Skillets: A Feast for the Senses
+<div class="answerBlock">
+  <p>
+    Applebee's Bourbon Street Chicken & Shrimp is a sizzling skillet dish of Cajun-seasoned chicken breast and blackened shrimp served over sautéed mushrooms and onions with garlic butter and garlic mashed potatoes. It costs $17.99 and delivers 57g of protein — one of the highest protein counts on the menu.
+  </p>
+</div>
 
-When you are seated at your booth at Applebee's, perusing the menu for a hearty dinner, there is one sound that inevitably turns heads across the entire restaurant: the loud, aggressive, mouth-watering hiss of a hot skillet emerging from the kitchen. Applebee's **Sizzling Skillets** are more than just a meal; they are a full sensory experience. Long before the plate even reaches your table, you can hear it, and you can smell the rich, caramelized aromas of roasted garlic, melting butter, and seared meats.
+## What Comes with Bourbon Street Chicken & Shrimp
 
-The Skillets category represents Applebee's commitment to delivering bold, unapologetic flavors served at their absolute peak temperature. These dishes are hearty, deeply savory, and designed to satisfy serious cravings. In this ultimate guide, we will break down the legendary Skillets menu, exploring the iconic Bourbon Street Chicken & Shrimp, the colossal Bone-In Pork Chop, and what makes this cooking style so incredibly appealing.
+The dish is built in layers, and the layering is the point — everything above drips into everything below.
 
----
+- **The base:** Sautéed mushrooms and caramelised onions sit at the bottom of the skillet and absorb the juices from the proteins above, which is why they taste sweeter than sautéed onions usually do.
+- **The chicken:** A seasoned chicken breast, seared before it hits the skillet so it arrives with a savoury crust rather than steaming in the pan.
+- **The shrimp:** Blackened with the same Cajun seasoning blend and cooked quickly to keep their snappy texture.
+- **The finish:** Garlic butter, added so it melts on contact with the hot iron and bastes everything as it reaches your table.
 
-### Skillets At a Glance
+It is served with garlic mashed potatoes as the standard starch. See our [sides menu](/menu/sides) for swap options.
 
-| Item Name | Calories | Price | Flavor Profile |
-| :--- | :--- | :--- | :--- |
-| **Bourbon Street Chicken & Shrimp** | 790 Cals | $17.99 | Cajun, savory, smoky, with a hint of garlic |
-| **Sizzling Double Barrel Bone-In Pork Chop** | 1100 Cals | $19.99 | Rich, meaty, caramelized, deeply satisfying |
+![Cajun chicken and blackened shrimp sizzling on a cast-iron skillet with mushrooms and onions](/apple-bees-menu/applebees-bourbon-street-chicken-and-shrimp-skillet.webp)
 
----
+### Why it arrives sizzling
 
-### The Allure of the Sizzling Skillet
+Cast iron holds heat far longer than a plate, so the food keeps cooking on the way to the table. The juices and butter hit hot metal and caramelise, building the browned residue that coats everything in the pan.
 
-![A highly detailed shot of a sizzling hot cast-iron skillet on a wooden table in a warm casual dining restaurant.](/apple-bees-menu/sizzling-skillet-lifestyle.jpg)
+That is not presentation for its own sake — it is why the last bite is the same temperature as the first, and it is the practical reason this dish exists.
 
-Serving food on a cast-iron skillet is a timeless culinary tradition, but in the context of a bustling casual dining restaurant like Applebee's, it serves a very specific and brilliant purpose. 
-
-First, it is about **temperature control**. A thick cast-iron skillet retains heat far better than a standard ceramic plate. This means your food stays piping hot from the first bite to the last. There is nothing worse than a steak or a piece of chicken getting cold halfway through your meal. The skillet solves this problem entirely.
-
-Second, it is about **flavor development**. The food actually continues to cook slightly as it makes its way to your table. The juices from the meats, combined with butter, garlic, and onions, hit the blistering hot iron and immediately caramelize. This creates a fond (the delicious browned bits at the bottom of a pan) that coats the vegetables and proteins in a rich, savory glaze that simply cannot be replicated on a cold plate.
-
-Finally, it is about **the show**. We eat with our eyes (and our ears) first. The dramatic presentation of a smoking, sizzling platter immediately elevates the dining experience. It feels premium, exciting, and inherently celebratory. 
-
----
-
-### The undisputed Champion: Bourbon Street Chicken & Shrimp
-
-![Applebee's Bourbon Street Chicken and Shrimp](/apple-bees-menu/applebees-bourbon-street-chicken-and-shrimp-skillet.webp)
-
-If there is one dish that defines the Skillets category, it is the legendary **Bourbon Street Chicken & Shrimp**. This dish is an absolute powerhouse of Cajun-inspired flavor and is frequently cited as one of the best-selling items on the entire Applebee's menu.
-
-#### The Components
-The dish starts with a generous bed of sautéed mushrooms and deeply caramelized onions. These vegetables absorb the juices from the meats above them, becoming incredibly sweet and tender. 
-
-On top of the vegetables sits a large, juicy chicken breast. The chicken is heavily seasoned with a proprietary blend of blackened Cajun spices. It is seared on a flat top before being transferred to the hot skillet, ensuring a beautiful crust while remaining tender inside.
-
-Next to the chicken is a skewer of plump, blackened shrimp. The shrimp are cooked quickly to maintain their snappy texture and are seasoned with the same robust Cajun spice blend. 
-
-The entire dish is finished with a healthy pat of garlic butter that immediately melts upon hitting the hot skillet, basting the chicken and shrimp in rich, garlicky goodness. 
-
-#### Why People Love It
-The Bourbon Street Chicken & Shrimp succeeds because it offers an incredible variety of textures and a deeply satisfying umami flavor profile. The slight heat from the Cajun seasoning is perfectly balanced by the sweet caramelized onions and the rich garlic butter. 
-
-Furthermore, at **790 calories**, it is surprisingly lean for how decadent it tastes. It provides a massive hit of protein without the heavy carbohydrates found in pasta dishes or the deep-fried calories of the appetizer menu. It is served with a side of crispy garlic mashed potatoes, making it a complete, balanced, and incredibly flavorful dinner.
+**Safety note:** The skillet is genuinely hot. It arrives on a protective wooden underliner and should not be touched directly.
 
 ---
 
-### The Heavyweight: Sizzling Double Barrel Bone-In Pork Chop
+## Bourbon Street Chicken & Shrimp Calories and Protein
 
-![Applebee's Sizzling Bone-In Pork Chop](/apple-bees-menu/applebees-sizzling-bone-in-pork-chop-dinner.webp)
+<div class="tableCard">
+  <div class="tableResponsive">
+    <table class="customTable">
+      <caption>Applebee's Bourbon Street Chicken & Shrimp Complete Nutritional Breakdown</caption>
+      <thead>
+        <tr>
+          <th scope="col">Nutritional Metric</th>
+          <th scope="col" style="text-align: center;">Value</th>
+          <th scope="col">Menu Context</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row"><strong>Calories</strong></th>
+          <td style="text-align: center; font-weight: 700; color: #c8102e;">1,010 Cal</td>
+          <td>Substantial dinner entrée portion</td>
+        </tr>
+        <tr>
+          <th scope="row"><strong>Protein</strong></th>
+          <td style="text-align: center; font-weight: 700; color: #166534;">57g</td>
+          <td>One of the highest protein counts on the menu</td>
+        </tr>
+        <tr>
+          <th scope="row"><strong>Total Fat</strong></th>
+          <td style="text-align: center;">66g</td>
+          <td>14g saturated fat (primarily from garlic butter)</td>
+        </tr>
+        <tr>
+          <th scope="row"><strong>Carbohydrates</strong></th>
+          <td style="text-align: center;">49g</td>
+          <td>Far lower than pasta dishes (49g vs 102g for penne)</td>
+        </tr>
+        <tr>
+          <th scope="row"><strong>Dietary Fiber</strong></th>
+          <td style="text-align: center;">7g</td>
+          <td>From mushrooms, onions, and potatoes</td>
+        </tr>
+        <tr>
+          <th scope="row"><strong>Sugar</strong></th>
+          <td style="text-align: center;">8g</td>
+          <td>Naturally occurring in caramelized onions</td>
+        </tr>
+        <tr>
+          <th scope="row"><strong>Sodium</strong></th>
+          <td style="text-align: center;">2,910mg</td>
+          <td>High concentration from Cajun blackened seasoning</td>
+        </tr>
+        <tr>
+          <th scope="row"><strong>Cholesterol</strong></th>
+          <td style="text-align: center;">235mg</td>
+          <td>Combination of poultry, shellfish, and butter</td>
+        </tr>
+        <tr>
+          <th scope="row"><strong>Common Allergens</strong></th>
+          <td style="text-align: center;">Milk, Soy, Shellfish</td>
+          <td>Dairy in butter and potatoes; shellfish in shrimp</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
 
-For those days when you need a truly massive, deeply comforting meal, Applebee's offers the **Sizzling Double Barrel Bone-In Pork Chop**. This dish is a carnivore's dream and a testament to the restaurant's ability to handle premium cuts of meat.
+### Where this sits on the menu
 
-#### The Meat
-Pork chops can notoriously be dry if not cooked properly. Applebee's avoids this by using a thick-cut, bone-in chop. The bone helps insulate the meat during cooking, keeping the interior juicy and tender. 
+At **57g of protein**, this is among the highest-protein entrées Applebee's serves, behind only the Three-Cheese Chicken Penne at 77g and the Bourbon Street Steak at 71g. Against the pasta dishes it carries far less carbohydrate — 49g versus 102g for the penne.
 
-The chop is aggressively seared to build a deeply caramelized crust. It is seasoned simply but effectively, allowing the natural, sweet flavor of the pork to shine through. 
+The trade-off is fat and sodium: **66g of fat**, most of it from the garlic butter, and **2,910mg of sodium** from the Cajun seasoning. That sodium figure is close to a full day's recommended intake in one plate.
 
-#### The Accompaniments
-Like the Bourbon Street Chicken, the pork chop is served on a bed of sautéed onions and mushrooms. However, the pork chop is often paired with a rich, savory brown gravy or a sweet apple chutney (depending on seasonal menu variations). 
+### Ordering it lighter
 
-When the juices of the pork mix with the gravy and the caramelized onions on the blistering hot skillet, it creates a sauce that is begging to be soaked up by the accompanying side of garlic mashed potatoes. 
+- **Garlic butter on the side** is the single biggest change available. It is the largest fat contributor on the plate and adding it yourself lets you control how much coats your food.
+- **Swap the mashed potatoes** for steamed broccoli and the carbohydrate figure drops substantially.
+- **Ask for lighter seasoning** if sodium is your primary concern. The Cajun blend is where most of the 2,910mg originates.
 
-At **1100 calories**, this is a heavy, substantial meal designed for serious appetites. It is the kind of dish that warms you up from the inside out on a cold winter evening. 
+Full comparison across the menu is available on our [nutrition and calories](/nutrition) reference guide.
+
+### The allergen most people miss
+
+This dish contains shellfish, which is obvious once you see the shrimp — but it also contains milk, from the garlic butter and the mashed potatoes.
+
+Anyone avoiding shellfish should note that ordering the dish without the shrimp does not make it shellfish-free, because it is cooked in a shared kitchen and often on shared grill surfaces. For a serious allergy, review our [nutrition and allergens page](/nutrition) and speak with the restaurant manager directly.
 
 ---
 
-### Perfect Beverage Pairings for Skillets
+## Bourbon Street Chicken & Shrimp vs Bourbon Street Steak
 
-Because the dishes in the Skillets category are intensely savory, slightly spicy, and rich in umami, they require beverages that can stand up to their bold flavor profiles.
+Two items on the Applebee's menu carry the Bourbon Street name, and they are frequently mixed up by diners.
 
-#### Beer Pairings
-- **Amber Ales or Brown Ales:** The malty, slightly sweet profile of a darker ale pairs beautifully with the caramelized onions and the rich sear on the pork chop or chicken.
-- **Crisp Pilsners:** If you want something to cool down the Cajun spices of the Bourbon Street Chicken & Shrimp, a highly carbonated, ice-cold pilsner will scrub your palate clean after every bite.
+<div class="tableCard">
+  <div class="tableResponsive">
+    <table class="customTable">
+      <caption>Comparison: Bourbon Street Chicken & Shrimp vs. Bourbon Street Steak</caption>
+      <thead>
+        <tr>
+          <th scope="col">Feature</th>
+          <th scope="col" style="text-align: center;">Bourbon Street Chicken & Shrimp</th>
+          <th scope="col" style="text-align: center;">Bourbon Street Steak</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row"><strong>Protein Source</strong></th>
+          <td style="text-align: center;">Chicken breast + Blackened shrimp</td>
+          <td style="text-align: center;">8oz USDA Select Top Sirloin</td>
+        </tr>
+        <tr>
+          <th scope="row"><strong>Price</strong></th>
+          <td style="text-align: center; font-weight: 700; color: #c8102e;">$17.99</td>
+          <td style="text-align: center; font-weight: 700; color: #c8102e;">$19.99</td>
+        </tr>
+        <tr>
+          <th scope="row"><strong>Calories</strong></th>
+          <td style="text-align: center;">1,010 Cal</td>
+          <td style="text-align: center;">1,430 Cal</td>
+        </tr>
+        <tr>
+          <th scope="row"><strong>Protein (g)</strong></th>
+          <td style="text-align: center;">57g</td>
+          <td style="text-align: center;">71g</td>
+        </tr>
+        <tr>
+          <th scope="row"><strong>Sodium</strong></th>
+          <td style="text-align: center;">2,910mg</td>
+          <td style="text-align: center;">3,430mg</td>
+        </tr>
+        <tr>
+          <th scope="row"><strong>Standard Side</strong></th>
+          <td style="text-align: center;">Garlic mashed potatoes</td>
+          <td style="text-align: center;">Garlic mashed potatoes + mushrooms/onions</td>
+        </tr>
+        <tr>
+          <th scope="row"><strong>Menu Category</strong></th>
+          <td style="text-align: center;">Skillets</td>
+          <td style="text-align: center;"><a href="/menu/steaks-and-ribs">Steaks & Ribs</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
 
-#### Cocktail Pairings
-- **Whiskey Smash or Old Fashioned:** The smoky, sweet notes of a bourbon-based cocktail are the perfect thematic and flavorful companion to the Bourbon Street skillet. The sweetness of the whiskey enhances the savory garlic and onions.
-- **Classic Margarita (Dollarita):** The sharp acidity of the lime juice in a margarita is an excellent palate cleanser when dealing with the heavy, rich butter and gravies found on the skillets.
+![Cajun-seasoned sirloin steak with sautéed mushrooms and onions](/apple-bees-menu/applebees-bourbon-street-steak-dinner.webp)
+
+Both use Cajun seasoning and garlic butter over sautéed mushrooms and onions, which is where the confusion comes from. The steak is 420 calories heavier and carries more protein; the chicken and shrimp version is lighter and cheaper.
+
+If you want the bold Cajun garlic flavor profile with fewer total calories on the plate, the chicken and shrimp is the pick. If you want the most protein, choose the steak.
 
 ---
 
-### Nutritional Considerations
+## What to Drink with a Sizzling Skillet
 
-While the Skillets are known for being hearty and filling, they actually offer some of the more balanced nutritional options on the menu, provided you make smart choices with your sides.
+Cajun seasoning and garlic butter are assertive, so the most effective drink pairings either cut through the richness or cool down the spice:
 
-The **Bourbon Street Chicken & Shrimp** is a fantastic choice for those looking for a high-protein, relatively low-calorie dinner. At 790 calories, it provides a massive amount of food volume and flavor without breaking the calorie bank. If you want to reduce the calories further, you can ask for the garlic butter on the side, or swap the mashed potatoes for a side of steamed broccoli.
-
-The **Bone-In Pork Chop** is significantly heavier at 1100 calories, primarily due to the size of the cut and the richer sauces. It is a fantastic option for a splurge meal or a post-workout protein refuel.
-
----
-
-### Frequently Asked Questions (FAQ)
-
-**Can I get the Bourbon Street Chicken & Shrimp without the onions and mushrooms?**
-Yes, all Applebee's skillets are made to order. You can easily request the dish without the vegetable bed, though be aware that you will be missing out on some of the caramelized flavor that makes the dish so special!
-
-**Is the Cajun seasoning very spicy?**
-The blackened Cajun seasoning used on the chicken and shrimp provides a robust, smoky flavor with a mild-to-medium heat. It is flavorful rather than overwhelmingly spicy. If you are very sensitive to heat, you may want to ask for the seasoning to be applied lightly.
-
-**Are the skillets actually hot when they arrive?**
-Yes! The cast-iron skillets are heated to very high temperatures in the kitchen. You should never touch the black iron pan when it arrives at your table, as it can cause burns. The server will always place it on a wooden underliner. 
+- **To cut through the butter:** Choose something bright and acidic. A classic margarita from the [cocktail menu](/menu/signature-cocktails) works for the exact same reason fresh lime is paired with rich foods.
+- **To cool the Cajun heat:** A crisp, cold, highly carbonated draft lager clears the palate between bites better than heavier ales.
+- **To lean into the profile:** A bourbon-based cocktail. The sweetness in the whiskey balances against the savoury garlic and charred onion fond.
+- **Non-alcoholic option:** Freshly brewed unsweetened iced tea at zero calories, compared to several hundred calories for frozen sweet drinks. On a 1,010-calorie plate that is a meaningful saving. See our [non-alcoholic drinks](/menu/non-alcoholic-beverages) guide.
 
 ---
 
-### Conclusion
+## Does Bourbon Street Chicken & Shrimp Travel Well?
 
-The Applebee's Skillets category is a triumph of casual dining engineering. By utilizing screaming-hot cast iron, the restaurant is able to deliver meals that are not only visually and audibly spectacular but also incredibly flavorful. 
+This dish travels better than most items on the Applebee's menu, with one practical caveat:
 
-Whether you opt for the fan-favorite Cajun spice of the Bourbon Street Chicken & Shrimp or the immense, savory satisfaction of the Bone-In Pork Chop, ordering a skillet guarantees that your food will be hot, your tastebuds will be happy, and the tables around you will definitely be dealing with some food envy.
+- **The proteins hold up well:** Chicken and shrimp maintain their moisture and texture inside sealed containers, and the mushrooms and onions travel safely in their natural pan juices.
+- **The sizzle does not:** Cast iron is what makes this dish arrive piping hot at your table, and a takeout box cannot replicate that heat retention. Ordered to go, it is a high-quality Cajun chicken and shrimp plate — but the sizzle stays at the restaurant.
+- **Eat the shrimp first:** Shrimp overcooks faster than chicken when reheated. If you are splitting the portion across two meals, enjoy the shrimp during the first sitting.
+
+For reheating guidance and curbside pickup mechanics, see our [Carside To Go](/takeout) and [delivery](/delivery) guides.
+
+---
+
+## Frequently Asked Questions
+
+### What is in Applebee's Bourbon Street Chicken & Shrimp?
+Cajun-seasoned chicken breast and blackened shrimp served over sautéed mushrooms and caramelised onions with garlic butter, alongside garlic mashed potatoes. It is served on a hot cast-iron skillet.
+
+### How many calories are in Bourbon Street Chicken & Shrimp?
+1,010 calories, with 57g of protein, 66g of fat and 2,910mg of sodium. Asking for garlic butter on the side reduces the fat figure meaningfully.
+
+### How much is Applebee's Bourbon Street Chicken & Shrimp?
+$17.99. Prices vary slightly by location, since Applebee's restaurants are independently franchised.
+
+### Is Bourbon Street Chicken & Shrimp spicy?
+The Cajun seasoning is more smoky and savoury than hot — mild to medium heat. If you are sensitive to spice, asking for lighter seasoning is a standard request.
+
+### What is the difference between Bourbon Street Chicken & Shrimp and Bourbon Street Steak?
+Same Cajun seasoning and garlic butter treatment, different protein. The chicken and shrimp version is $17.99 and 1,010 calories; the steak is $19.99 and 1,430 calories with 71g of protein.
+
+### Can I order it without the mushrooms and onions?
+Yes, skillets are made to order. Removing the vegetable bed also removes some of the caramelised flavour, since those vegetables absorb the juices from the proteins above them.
+
+### Does Bourbon Street Chicken & Shrimp contain allergens?
+Yes — shellfish from the shrimp, plus milk from the garlic butter and mashed potatoes, and soy. Shared kitchen surfaces mean cross-contact is possible.
+
+### Are Applebee's skillets served hot?
+Yes. Cast-iron skillets come out of the kitchen at high temperature on a wooden underliner. The pan itself should not be touched.
+
+### Which Applebee's dish has the most protein?
+Three-Cheese Chicken Penne leads at 77g, followed by Bourbon Street Steak at 71g and Bourbon Street Chicken & Shrimp at 57g.
+
+---
+
+## Related Menu Categories
+
+- **Higher-Protein Alternative:** The other Bourbon Street entrée, and the higher-protein version of the same flavor profile: [steaks and ribs](/menu/steaks-and-ribs).
+- **Seafood Selections:** For grilled seafood without the skillet treatment, the Blackened Cajun Salmon on the [seafood menu](/menu/seafood) is a lighter option at 850 calories.
+- **Custom Sides:** To swap the garlic mashed potatoes for broccoli or fries, see [sides](/menu/sides).
+- Return to the [full menu](/menu) to view all options.
