@@ -159,28 +159,40 @@ export const menuData: MenuCategory[] = [
     image: "/apple-bees-menu/applebees-steaks-and-ribs-menu-category.webp",
     items: [
       { 
-        id: "sr3", name: "Bourbon Street Steak", calories: "790 Cals", price: "$19.99",
-        description: "Applebee’s Bourbon Street Steak is a grilled top sirloin seasoned with Cajun spices and garlic butter, served sizzling with sautéed mushrooms and onions.",
+        id: "sr5", name: "Applebee's Riblets", calories: "1080 Cals", price: "$17.99",
+        description: "Signature tender pork riblets slow-cooked until fall-apart tender, tossed in signature barbecue sauce and served as a hearty platter with classic fries and coleslaw.",
+        tableDescription: "Slow-cooked pork riblet platter tossed in honey BBQ sauce with fries and slaw.",
+        image: "/apple-bees-menu/applebees-applewood-smoked-baby-back-ribs.webp"
+      },
+      { 
+        id: "sr1", name: "8 oz. Top Sirloin", calories: "830 Cals", price: "$18.99",
+        description: "USDA Select 8 ounce top sirloin steak, lightly seasoned and grilled to order. Best protein-to-calorie ratio on the menu (55g protein).",
+        tableDescription: "Grilled 8 oz. top sirloin steak delivering 55g protein with sides.",
+        image: "/apple-bees-menu/applebees-8oz-top-sirloin-steak-dinner.webp"
+      },
+      { 
+        id: "sr6", name: "6 oz. Top Sirloin", calories: "760 Cals", price: "$16.99",
+        description: "A smaller cut of USDA Select top sirloin delivering 43g of protein for 760 calories, grilled to order.",
+        tableDescription: "Lean 6 oz. grilled top sirloin steak with garlic mashed potatoes and broccoli.",
+        image: "/apple-bees-menu/applebees-8oz-top-sirloin-steak-dinner.webp"
+      },
+      { 
+        id: "sr3", name: "Bourbon Street Steak", calories: "1430 Cals", price: "$19.99",
+        description: "Grilled top sirloin seasoned with bold Cajun spices and garlic butter, served sizzling over sautéed mushrooms and caramelized onions (71g protein).",
         tableDescription: "Cajun-seasoned top sirloin with garlic butter, mushrooms, and onions.",
         image: "/apple-bees-menu/applebees-bourbon-street-steak-dinner.webp"
       },
       { 
-        id: "sr4", name: "Ribeye Steak", calories: "930 Cals", price: "$23.99",
-        description: "A marbled ribeye steak grilled to order and paired with side choices.",
-        tableDescription: "Marbled grilled ribeye served with side selections.",
-        image: "/apple-bees-menu/applebees-ribeye-steak-dinner.webp"
-      },
-      { 
-        id: "sr1", name: "8 oz. Top Sirloin", calories: "630 Cals", price: "$18.99",
-        description: "Applebee’s 8 oz. Top Sirloin is a lightly seasoned USDA Select steak cooked to order and commonly paired with garlic mashed potatoes and broccoli.",
-        tableDescription: "Lightly seasoned 8 oz. USDA Select top sirloin with sides.",
-        image: "/apple-bees-menu/applebees-8oz-top-sirloin-steak-dinner.webp"
-      },
-      { 
-        id: "sr2", name: "Double-Glazed Baby Back Ribs", calories: "1400 Cals", price: "$22.99",
-        description: "Applebee's Double-Glazed Baby Back Ribs are slow-cooked to fall-off-the-bone tenderness and slathered in tangy BBQ sauce.",
-        tableDescription: "Slow-cooked ribs slathered in tangy BBQ sauce.",
+        id: "sr2", name: "Double-Glazed Baby Back Ribs (Half Rack)", calories: "760 Cals", price: "$22.99",
+        description: "Slow-cooked pork baby back ribs finished with caramelized barbecue glaze. Lowest sodium entrée in category (1,300mg) with 44g protein.",
+        tableDescription: "Slow-cooked baby back ribs with caramelized barbecue glaze.",
         image: "/apple-bees-menu/applebees-applewood-smoked-baby-back-ribs.webp"
+      },
+      { 
+        id: "sr4", name: "Ribeye Steak (12 oz.)", calories: "930 Cals", price: "$23.99",
+        description: "Richly marbled 12 oz. USDA Select ribeye steak grilled over open flame for maximum tenderness and natural juiciness.",
+        tableDescription: "Richly marbled grilled 12 oz. ribeye steak.",
+        image: "/apple-bees-menu/applebees-ribeye-steak-dinner.webp"
       }
     ]
   },
