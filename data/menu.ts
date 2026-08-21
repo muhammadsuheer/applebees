@@ -282,22 +282,28 @@ export const menuData: MenuCategory[] = [
     image: "/apple-bees-menu/applebees-pasta-dishes-menu-category.webp",
     items: [
       { 
-        id: "p3", name: "Four Cheese Mac & Cheese with Honey Pepper Chicken", calories: "1540 Cals", price: "$17.49",
-        description: "Applebee’s Four-Cheese Mac & Cheese with Honey Pepper Chicken Tenders combines four-cheese penne mac and cheese, Applewood-smoked bacon, and crispy tenders tossed in honey pepper sauce.",
-        tableDescription: "Four-cheese penne with bacon and honey-pepper chicken tenders.",
-        image: "/apple-bees-menu/applebees-four-cheese-mac-and-cheese-with-honey-pepper-chicken.webp"
-      },
-      { 
         id: "p1", name: "Three-Cheese Chicken Penne", calories: "1350 Cals", price: "$15.99",
-        description: "Applebee’s Three-Cheese Chicken Penne combines Asiago, Parmesan, and white Cheddar with penne in Parmesan cream sauce, then adds grilled chicken and bruschetta tomatoes.",
+        description: "Penne tossed in Asiago, Parmesan, and white Cheddar cream sauce, topped with grilled chicken breast and fresh bruschetta tomatoes (77g protein, highest on menu).",
         tableDescription: "Penne in three-cheese cream sauce with grilled chicken and bruschetta tomatoes.",
         image: "/apple-bees-menu/applebees-three-cheese-chicken-penne-pasta.webp"
       },
       { 
+        id: "p3", name: "Four Cheese Mac & Cheese with Honey Pepper Chicken", calories: "1360 Cals", price: "$17.49",
+        description: "Four-cheese penne mac and cheese topped with crispy chicken tenders tossed in honey pepper sauce and Applewood-smoked bacon (160g carbs, 44g sugar).",
+        tableDescription: "Four-cheese penne with bacon and honey-pepper chicken tenders.",
+        image: "/apple-bees-menu/applebees-four-cheese-mac-and-cheese-with-honey-pepper-chicken.webp"
+      },
+      { 
         id: "p2", name: "Classic Broccoli Chicken Alfredo", calories: "1410 Cals", price: "$16.49",
-        description: "Applebee’s Classic Broccoli Chicken Alfredo serves grilled chicken over fettuccine tossed with broccoli and rich Alfredo sauce, finished with Parmesan cheese.",
+        description: "Grilled chicken over fettuccine tossed with broccoli florets and rich Alfredo sauce, finished with shaved Parmesan cheese.",
         tableDescription: "Fettuccine Alfredo with grilled chicken, broccoli, and Parmesan.",
         image: "/apple-bees-menu/applebees-broccoli-chicken-alfredo-pasta.webp"
+      },
+      { 
+        id: "p4", name: "Chicken Parmesan Fettuccine", calories: "1390 Cals", price: "$16.99",
+        description: "Crispy breaded chicken parmesan cutlet smothered in warm marinara and melted mozzarella, served over a bed of fettuccine pasta with a garlic breadstick.",
+        tableDescription: "Breaded chicken parmesan over fettuccine with marinara and melted mozzarella.",
+        image: "/apple-bees-menu/applebees-pasta-dishes-menu-category.webp"
       }
     ]
   },
