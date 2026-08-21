@@ -245,22 +245,34 @@ export const menuData: MenuCategory[] = [
     image: "/apple-bees-menu/applebees-chicken-entrees-menu-category.webp",
     items: [
       { 
-        id: "ch3", name: "Honey Pepper Chicken Tenders", calories: "1610 Cals", price: "$15.49",
-        description: "Crispy chicken tenders coated in a sweet-and-savory honey pepper sauce.",
-        tableDescription: "Crispy chicken tenders coated in honey pepper sauce.",
-        image: "/apple-bees-menu/applebees-honey-pepper-chicken-tenders.webp"
+        id: "ch1", name: "Fiesta Lime Chicken", calories: "1190 Cals", price: "$16.49",
+        description: "Grilled chicken breast glazed with lime-cilantro sauce, topped with Mexi-ranch and melted Jack-cheddar cheese over tortilla strips, Spanish rice, and pico de gallo (61g protein).",
+        tableDescription: "Lime-glazed grilled chicken with Mexi-ranch, melted cheese, rice, and pico de gallo.",
+        image: "/apple-bees-menu/applebees-fiesta-lime-chicken-entree.webp"
       },
       { 
-        id: "ch1", name: "Fiesta Lime Chicken", calories: "1140 Cals", price: "$16.49",
-        description: "Applebee’s Fiesta Lime Chicken features grilled chicken glazed with zesty lime sauce, Mexi-ranch, Cheddar cheeses, and tortilla strips, served with Spanish rice and pico de gallo.",
-        tableDescription: "Lime-glazed grilled chicken with Mexi-ranch, Cheddar, rice, and pico.",
+        id: "ch4", name: "Grilled Chicken Breast", calories: "760 Cals", price: "$15.49",
+        description: "A lean, seasoned grilled chicken breast delivering 50g of high-quality protein for only 760 calories. Best protein-to-calorie ratio on the chicken menu.",
+        tableDescription: "Lean grilled chicken breast delivering 50g protein with choice of sides.",
         image: "/apple-bees-menu/applebees-fiesta-lime-chicken-entree.webp"
       },
       { 
         id: "ch2", name: "Chicken Tenders Platter", calories: "1450 Cals", price: "$14.99",
-        description: "Applebee’s Chicken Tenders Platter serves crispy breaded chicken tenders with a choice of dipping sauce and sides, shown on the current menu with coleslaw and classic fries.",
-        tableDescription: "Crispy chicken tenders with dipping sauce and side choices.",
+        description: "Crispy craggy-breaded all-white-meat chicken tenders served with honey mustard dipping sauce, classic fries, and creamy coleslaw.",
+        tableDescription: "Crispy breaded chicken tenders with honey mustard, fries, and coleslaw.",
         image: "/apple-bees-menu/applebees-crispy-chicken-tenders-platter.webp"
+      },
+      { 
+        id: "ch5", name: "Chicken Fajita Rollup", calories: "1020 Cals", price: "$13.99",
+        description: "Chipotle-lime grilled chicken rolled in a warm flour tortilla with sauteed fajita peppers, onions, melted cheeses, and Mexi-ranch.",
+        tableDescription: "Grilled chicken fajita wrap with sauteed peppers, onions, and Mexi-ranch.",
+        image: "/apple-bees-menu/applebees-chicken-entrees-menu-category.webp"
+      },
+      { 
+        id: "ch3", name: "Honey Pepper Chicken Tenders", calories: "1610 Cals", price: "$15.49",
+        description: "Crispy hand-breaded chicken tenders tossed in a sweet and savoury honey cracked-pepper glaze.",
+        tableDescription: "Crispy chicken tenders coated in honey pepper glaze.",
+        image: "/apple-bees-menu/applebees-honey-pepper-chicken-tenders.webp"
       }
     ]
   },

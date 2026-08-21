@@ -1,97 +1,232 @@
 ---
-title: "Chicken"
+title: "Applebee's Chicken Menu: Prices, Calories & Grilled Options"
+description: "Applebee's chicken menu with prices and calories — Fiesta Lime Chicken, chicken tenders, grilled chicken breast and fajita rollup, plus protein and sodium data."
 ---
 
-## Applebee's Chicken Entrées: The Ultimate Comfort Food
+<div class="answerBlock">
+  <p>
+    Applebee's chicken entrées run from $14.99 to $16.49 and 760 to 1,610 calories, covering grilled, breaded and glazed preparations. Fiesta Lime Chicken is the signature dish at 1,190 calories with 61g of protein. A plain grilled chicken breast is the lightest option at 760 calories and 50g of protein — the leanest way to eat chicken on the menu.
+  </p>
+</div>
 
-When it comes to crowd-pleasing comfort food, very few proteins offer the versatility and universal appeal of chicken. Whether it is breaded and fried to a golden crisp, marinated and grilled to perfection, or smothered in rich, zesty sauces, chicken is the cornerstone of casual dining. At Applebee's, the **Chicken** category is not just a safe choice; it is home to some of the most iconic, best-selling, and deeply beloved dishes on the entire menu. 
+## What's on Applebee's Chicken Menu
 
-Applebee's has mastered the art of elevating simple chicken dishes into crave-worthy meals. In this comprehensive guide, we will explore the legend of the Fiesta Lime Chicken, break down the addictive nature of their Honey Pepper glaze, and look at the nutritional profiles that make chicken such a fantastic option for a balanced dinner out.
+Chicken is where the Applebee's menu splits most sharply between light and heavy, and the gap is bigger than any other category:
 
----
+- **The range is 850 calories wide.** A plain grilled chicken breast is 760 calories. The heaviest glazed tender dish reaches over 1,600. Same protein, same menu, twice the intake — the difference is entirely preparation and sauce.
+- **Grilled beats breaded by a wide margin here.** Not marginally: grilled preparations sit 400 to 800 calories below their breaded equivalents while delivering similar or better protein.
+- **Sodium is the number to watch.** Fiesta Lime Chicken carries 3,630mg — the second-highest of any item on the Applebee's menu, behind only the Classic Hot Buffalo boneless wings. That comes from the Mexi-ranch dressing and the seasoned cheese layer, not the chicken.
+- **Protein is strong across the category.** Most chicken entrées deliver 50g or more, which puts this section behind only [steaks and ribs](/menu/steaks-and-ribs) for total protein return.
 
-### Chicken Entrées At a Glance
-
-| Item Name | Calories | Price | Best For |
-| :--- | :--- | :--- | :--- |
-| **Fiesta Lime Chicken** | 1140 Cals | $16.49 | Lovers of zesty, southwestern flavors |
-| **Honey Pepper Chicken Tenders**| 1610 Cals | $15.49 | Those craving a sweet, savory, and sticky crunch |
-| **Chicken Tenders Platter** | 1450 Cals | $14.99 | Families and traditional comfort food seekers |
-
----
-
-### The Legend of the Fiesta Lime Chicken
-
-![A high-end food photography shot of a perfectly grilled chicken breast smothered in melted cheese and ranch dressing on crispy tortilla strips.](/apple-bees-menu/chicken-lifestyle.jpg)
-
-![Applebee's Fiesta Lime Chicken](/apple-bees-menu/applebees-fiesta-lime-chicken-entree.webp)
-
-If you were to ask any Applebee's regular to name the restaurant's signature dish, there is a very high probability they would say the **Fiesta Lime Chicken**. This entrée has achieved near-mythical status in the casual dining world. It is vibrant, flavorful, and incredibly satisfying, perfectly representing the bold, Southwestern-inspired flavor profiles that Applebee's often explores.
-
-#### The Marinade and Grill
-The dish begins with a generous, high-quality chicken breast. The key to the chicken's incredible flavor is a zesty lime and cilantro marinade. The acidity of the lime juice not only seasons the meat but also tenderizes it, ensuring that it remains juicy during the grilling process. The chicken is grilled over an open flame, picking up a slight char that adds a necessary smoky element to the dish.
-
-#### The Mexi-Ranch and Cheese
-Once the chicken is perfectly grilled, the real magic happens. The breast is smothered in Applebee's proprietary **Mexi-ranch dressing**. This sauce is a legendary concoctiona blend of cool, creamy buttermilk ranch and spicy, tangy southwestern seasoning. 
-
-After the Mexi-ranch is applied, the chicken is blanketed in a thick layer of Jack-cheddar cheese and broiled until the cheese is bubbling, gooey, and slightly browned on the edges. The combination of the tangy lime marinade, the spicy/creamy ranch, and the rich, melted cheese creates a flavor profile that is utterly addictive.
-
-#### The Base
-To complete the meal, the cheesy, saucy chicken breast is served atop a bed of crispy tortilla strips for a necessary textural crunch, alongside a side of seasoned Spanish rice and fresh house-made pico de gallo. The acidity of the pico de gallo perfectly cuts through the heavy richness of the cheese and ranch, making the Fiesta Lime Chicken a masterclass in flavor balance. At 1140 calories, it is a hearty meal that hits every single craving.
+![Selection of grilled and breaded chicken entrées with sides](/apple-bees-menu/applebees-chicken-entrees-menu-category.webp)
 
 ---
 
-### Sweet Heat: Honey Pepper Chicken Tenders
+## Chicken Entrées Comparison: Calories, Prices & Macros
 
-![Applebee's Honey Pepper Chicken Tenders](/apple-bees-menu/applebees-honey-pepper-chicken-tenders.webp)
+<div class="tableCard">
+  <div class="tableResponsive">
+    <table class="customTable">
+      <caption>Applebee's chicken entrées — prices, calories and macros, sorted by calories</caption>
+      <thead>
+        <tr>
+          <th scope="col">Chicken Entrée</th>
+          <th scope="col" style="text-align: center;">Calories</th>
+          <th scope="col" style="text-align: center;">Price</th>
+          <th scope="col" style="text-align: center;">Protein</th>
+          <th scope="col" style="text-align: center;">Sodium</th>
+          <th scope="col">Preparation Style</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row"><strong>Grilled Chicken Breast</strong></th>
+          <td style="text-align: center;">760</td>
+          <td style="text-align: center; font-weight: 700; color: #c8102e;">$15.49</td>
+          <td style="text-align: center; font-weight: 700; color: #166534;">50g</td>
+          <td style="text-align: center;">1,680mg</td>
+          <td>Flame-grilled, seasoned</td>
+        </tr>
+        <tr>
+          <th scope="row"><strong>Fiesta Lime Chicken</strong></th>
+          <td style="text-align: center;">1,190</td>
+          <td style="text-align: center; font-weight: 700; color: #c8102e;">$16.49</td>
+          <td style="text-align: center; font-weight: 700; color: #166534;">61g</td>
+          <td style="text-align: center;">3,630mg</td>
+          <td>Grilled, glazed with Mexi-ranch & cheese</td>
+        </tr>
+        <tr>
+          <th scope="row"><strong>Chicken Tenders Platter</strong></th>
+          <td style="text-align: center;">1,450</td>
+          <td style="text-align: center; font-weight: 700; color: #c8102e;">$14.99</td>
+          <td style="text-align: center;">48g</td>
+          <td style="text-align: center;">2,840mg</td>
+          <td>Breaded, deep-fried with fries & slaw</td>
+        </tr>
+        <tr>
+          <th scope="row"><strong>Honey Pepper Chicken Tenders</strong></th>
+          <td style="text-align: center;">1,610</td>
+          <td style="text-align: center; font-weight: 700; color: #c8102e;">$15.49</td>
+          <td style="text-align: center;">52g</td>
+          <td style="text-align: center;">3,120mg</td>
+          <td>Breaded, tossed in honey pepper glaze</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
 
-While standard chicken tenders are a staple of every casual dining menu, Applebee's decided to elevate this humble classic by tossing them in one of their most addictive sauces: the **Honey Pepper Glaze**. 
+### Reading the table
 
-#### The Tenders
-The foundation of the dish is Applebee's classic chicken tenders. These are made from premium white meat chicken breast, heavily breaded, and deep-fried. The breading is specifically designed to be craggy and thick, providing an incredibly satisfying crunch and creating nooks and crannies for sauces to cling to.
+- **The grilled chicken breast is the standout for anyone eating by the numbers:** 50g of protein for 760 calories — about 15 calories per gram, matching the [8 oz. Top Sirloin](/menu/steaks-and-ribs) for the best ratio on the menu.
+- **Fiesta Lime Chicken delivers the most protein at 61g**, but the sodium figure is where the trade sits. At 3,630mg it is close to a day and a half of the recommended intake in one plate, almost all of it from the Mexi-ranch and cheese rather than the chicken.
+- **Breaded adds roughly 400 calories over grilled for the same protein.** If you want tenders, that is the cost — and it is worth knowing rather than guessing.
 
-#### The Honey Pepper Sauce
-The Honey Pepper sauce is a brilliant study in culinary contrasts. It starts with a base of real honey, providing a thick, sticky, and floral sweetness. This sweetness is immediately countered by a heavy dose of cracked black pepper and savory soy notes. The result is a glaze that is sweet, salty, savory, and slightly spicy all at once. 
-
-When the hot, crispy tenders are tossed in this glaze, the sauce caramelizes slightly. The crunch of the breading gives way to the juicy chicken inside, while the sticky, complex sauce coats your palate. Often served with a side of fries and extra ranch for dipping, the Honey Pepper Chicken Tenders are a massive hit. (Note: This flavor profile became so popular that Applebee's eventually added it as a topping for their Four Cheese Mac & Cheese!).
+Full macros and allergens: see our [nutrition and calories](/nutrition) reference guide.
 
 ---
 
-### The Classic: Chicken Tenders Platter
+## Detailed Chicken Dish Breakdowns
 
-![Applebee's Chicken Tenders Platter](/apple-bees-menu/applebees-crispy-chicken-tenders-platter.webp)
+### Fiesta Lime Chicken
 
-Sometimes, you don't want fusion flavors, zesty marinades, or sweet glazes. Sometimes, you just want pure, unadulterated comfort food. Enter the **Chicken Tenders Platter**.
+![Grilled chicken breast topped with melted cheese and ranch over tortilla strips with rice](/apple-bees-menu/applebees-fiesta-lime-chicken-entree.webp)
 
-This is the gold standard for picky eaters, kids, and adults who just want a reliable, delicious meal. You receive a massive portion of golden-fried chicken tenders served over a mountain of classic French fries. The unsung hero of this dish, however, is the **Signature Honey Mustard**. 
+Applebee's signature chicken dish and the most searched item in this category.
 
-Applebee's honey mustard is famous in its own right. It is thick, incredibly creamy, and perfectly balances the sharp tang of mustard with the smooth sweetness of honey. It is the ultimate dipping sauce for both the crispy tenders and the salty fries. At 1450 calories, the platter is a substantial, filling meal that delivers pure nostalgia and satisfaction.
+A grilled chicken breast marinated in lime and cilantro, then finished with Mexi-ranch dressing and a layer of Jack-cheddar cheese, broiled until the cheese browns at the edges. Served over crispy tortilla strips with Spanish rice and house-made pico de gallo.
+
+The lime marinade does two things — it seasons and it tenderises, which is why the chicken stays juicy through grilling. The pico de gallo is there for acidity, cutting the richness of the cheese and ranch.
+
+**On the numbers:** 61g of protein is the highest in the category. The 3,630mg of sodium is the second-highest figure on the entire Applebee's menu.
+
+**To order it lighter:** Mexi-ranch on the side is the single biggest change — it is the main contributor to both the fat and the sodium. Swapping the Spanish rice for [steamed vegetables](/menu/sides) drops the 98g carbohydrate figure substantially.
+
+- **Price & Nutrition:** $16.49 · 1,190 calories · 61g protein · contains milk, wheat and soy
+
+### Grilled Chicken Breast
+
+The lightest chicken option on the menu, and the one most people do not realise is available as a standalone order.
+
+A seasoned grilled chicken breast, available as an entrée protein and as an option across salads and bowls. At **760 calories with 50g of protein**, it is the leanest way to eat chicken here by a wide margin — 430 calories below Fiesta Lime Chicken with only 11g less protein.
+
+This is the base for building a light meal. Grilled chicken breast paired with [steamed broccoli or green beans](/menu/sides) comes in well under 1,000 calories with 50g+ of protein, and it is the closest thing on the Applebee's menu to a straightforward high-protein plate. Ordering it without butter removes a meaningful share of the fat on grilled items.
+
+- **Price & Nutrition:** $15.49 · 760 calories · 50g protein
+
+### Chicken Tenders Platter
+
+![Breaded chicken tenders served with fries, coleslaw and dipping sauce](/apple-bees-menu/applebees-crispy-chicken-tenders-platter.webp)
+
+The comfort order, and the most family-friendly item in the category.
+
+Breaded white-meat chicken tenders served with classic fries, coleslaw and a choice of dipping sauce. The breading is thick and craggy by design — it holds sauce better than a smooth coating would. Honey mustard is the sauce most associated with this dish, and it can be requested alongside other orders as a side.
+
+At 1,450 calories including fries, it is a full meal rather than a light plate. Substituting the fries changes that figure more than any other single adjustment. For smaller portions, the [kids menu](/menu/kids-menu) version comes in at 420 calories with 24g of protein.
+
+- **Price & Nutrition:** $14.99 · 1,450 calories
+
+### Chicken Fajita Rollup
+
+A wrap-format chicken dish that carries real search volume and bridges the entrée and sandwich sections.
+
+Chipotle-lime grilled chicken rolled in a warm flour tortilla with sautéed fajita peppers, onions, melted Monterey Jack and cheddar cheeses, and Mexi-ranch dressing. Served with classic fries or a side of your choice.
+
+- **Price & Nutrition:** $13.99 · ~1,020 calories · contains milk, wheat and soy
+
+### Honey Pepper Chicken Tenders
+
+![Breaded chicken tenders tossed in honey pepper glaze](/apple-bees-menu/applebees-honey-pepper-chicken-tenders.webp)
+
+Breaded tenders tossed in a honey pepper glaze — sweet from the honey, savoury from cracked black pepper and soy notes.
+
+**Worth knowing:** On the current Applebee's menu, this preparation appears most prominently as part of the [Four-Cheese Mac & Cheese](/menu/pasta) entrée rather than as a standalone plate. If you want the flavour, that dish is where it reliably appears. Standalone availability varies by franchise location.
 
 ---
 
-### Health and Customization
+## Where to Get Grilled Chicken Near You
 
-Chicken is naturally one of the healthiest proteins available, but the final calorie count depends heavily on preparation and sauces. 
+<div class="answerBlock">
+  <p>
+    Grilled chicken is available at essentially every Applebee's location — it is core menu rather than a regional item. A plain grilled chicken breast runs 760 calories with 50g of protein, and it is available as an entrée protein and across salads and bowls.
+  </p>
+</div>
 
-If you are looking for a highly nutritious, low-calorie option, the **Grilled Chicken Breast** (often available as a standard protein option for salads or as a customizable entrée) is an excellent choice. By swapping heavy sides like fries or mashed potatoes for steamed broccoli, you can easily build a high-protein dinner that falls well under 600 calories.
+What varies by location is local pricing and whether that restaurant is running a promotion that includes it. Availability of the dish itself does not.
 
-Even dishes like the Fiesta Lime Chicken can be modified for dietary needs. You can request the Mexi-ranch on the side, or substitute the Spanish rice for a side salad to reduce the overall carbohydrate intake while still enjoying the fantastic lime marinade.
+If you are looking for a grilled chicken meal specifically rather than a fried one, the practical options are:
+1. **The grilled chicken breast** as a standalone entrée with vegetables
+2. **Fiesta Lime Chicken** if you want it sauced with southwestern flavours
+3. **Grilled chicken breast added to a fresh [salad](/menu/salads)**
+4. **A chipotle-lime chicken [bowl](/menu/irresist-a-bowls)**
 
----
-
-### Frequently Asked Questions (FAQ)
-
-**Can I get the Fiesta Lime Chicken without cheese?**
-Absolutely. All Applebee's dishes are made to order. If you are dairy-free, you can order the Fiesta Lime Chicken without the Jack-cheddar cheese and the Mexi-ranch, though it significantly changes the intended flavor profile of the dish.
-
-**Are the Honey Pepper Tenders very spicy?**
-No, they are not traditionally "hot." The pepper provides a savory, aromatic warmth that balances the extreme sweetness of the honey, rather than the burning heat you would get from a buffalo sauce or cayenne pepper.
-
-**Can I order the signature Honey Mustard with other dishes?**
-Yes! The signature honey mustard is a fan favorite. You can ask your server for a side of it to dip your fries, onion rings, or even a classic burger. 
+For ordering ahead or checking open dining rooms nearby, use our interactive [location finder](/locations). Exact operating times vary by restaurant — check [operating hours](/operating-hours).
 
 ---
 
-### Conclusion
+## Dietary Notes
 
-The Chicken category at Applebee's proves that familiar ingredients don't have to be boring. Through creative marinades like the zesty lime and cilantro, and innovative sauces like the sweet and savory honey pepper, Applebee's has transformed the humble chicken breast into some of the most iconic dishes in casual dining history. Whether you are seeking the comforting crunch of a classic tender or the bold, cheesy explosion of the Fiesta Lime Chicken, you will find exactly what you are craving on this menu.
+- **Highest protein:** Fiesta Lime Chicken at 61g.
+- **Best protein-to-calorie ratio:** Grilled chicken breast at 50g of protein for 760 calories.
+- **Highest sodium:** Fiesta Lime Chicken at 3,630mg — the second-highest sodium figure on the entire menu.
+- **For lower calories:** Choose grilled over breaded, ask for sauce on the side, and swap fries or rice for a vegetable side. Those three changes together can remove several hundred calories from a chicken order.
+- **For lower carbohydrate:** The grilled chicken breast carries almost none on its own. The carbohydrate in Fiesta Lime Chicken (98g) comes from the rice and tortilla strips.
+- **Allergens:** Fiesta Lime Chicken contains milk, wheat and soy. Breaded items contain wheat, and shared fryers mean cross-contact is possible even where an ingredient list looks clear.
+
+Full allergen data: see our [nutrition and allergens](/nutrition) guide.
+
+---
+
+## How Applebee's Chicken Travels
+
+- **Grilled chicken travels well:** It holds heat and moisture better than anything breaded and is one of the most reliable takeout orders on the menu.
+- **Breaded tenders need one adjustment:** Ask for dipping sauce on the side. Tenders glazed at the restaurant sit in warm sauce during transit and the coating softens — tossing at home preserves the crunch you paid for.
+- **Fiesta Lime Chicken travels reasonably:** Request the Mexi-ranch separately. The melted cheese layer holds up, but the sauce underneath softens the tortilla strips.
+- **Side selection:** Fries lose texture in sealed boxes. [Steamed vegetables or mashed potatoes](/menu/sides) arrive in the condition they left.
+
+More on packaging and ordering: see [Carside To Go](/takeout) and [delivery](/delivery).
+
+---
+
+## Frequently Asked Questions
+
+### What chicken dishes does Applebee's have?
+Applebee's chicken entrées include Fiesta Lime Chicken, the Chicken Tenders Platter, grilled chicken breast, and the Chicken Fajita Rollup. Chicken also appears across salads, bowls, pasta dishes and appetizers. Entrée prices run $14.99 to $16.49.
+
+### What is Applebee's Fiesta Lime Chicken?
+A lime and cilantro marinated grilled chicken breast topped with Mexi-ranch dressing and Jack-cheddar cheese, broiled and served over crispy tortilla strips with Spanish rice and pico de gallo. It is 1,190 calories with 61g of protein.
+
+### How many calories are in Fiesta Lime Chicken?
+1,190 calories, with 61g of protein, 62g of fat and 3,630mg of sodium. Requesting the Mexi-ranch on the side reduces both the fat and the sodium meaningfully.
+
+### What is the healthiest chicken dish at Applebee's?
+A plain grilled chicken breast at 760 calories with 50g of protein. Paired with steamed vegetables instead of a starch side it is the leanest full plate in the category.
+
+### Can I get grilled chicken at Applebee's?
+Yes. Grilled chicken breast is available as an entrée protein and across salads and bowls at essentially every location. It is core menu rather than a regional item.
+
+### Which Applebee's chicken dish has the most protein?
+Fiesta Lime Chicken at 61g, followed by the grilled chicken breast at 50g. The grilled breast has the better ratio, delivering 50g for 430 fewer calories.
+
+### Can I order Fiesta Lime Chicken without cheese?
+Yes, dishes are made to order. Removing the Jack-cheddar cheese and Mexi-ranch changes the dish substantially — those two components carry most of its flavour, its fat and its sodium.
+
+### Are Applebee's chicken tenders spicy?
+The standard breaded tenders are not spicy. The honey pepper preparation is sweet with a savoury warmth from cracked black pepper rather than chilli heat.
+
+### How much are Applebee's chicken entrées?
+Between $14.99 and $16.49. The Chicken Tenders Platter is the cheapest at $14.99 and Fiesta Lime Chicken the most expensive at $16.49. Prices vary by location.
+
+### Does Applebee's have grilled chicken salad?
+Yes. Grilled chicken can be added across the [salads menu](/menu/salads), including the Grilled Chicken Caesar Salad at 820 calories with 57g of protein.
+
+---
+
+## Related Menu Categories
+
+- **Wings & Appetizers:** For wings, including Boneless Wings and National Chicken Wing Day promotions, explore [appetizers](/menu/appetizers).
+- **Pasta Dishes:** Chicken appears prominently in [pasta](/menu/pasta) entrées, including the Four-Cheese Mac with honey pepper tenders and the Three-Cheese Chicken Penne.
+- **Salads:** Discover lighter poultry salads on our [salads menu](/menu/salads).
+- **Skillets:** For Cajun chicken and shrimp, explore the [skillets](/menu/skillets) category.
+- **Steaks & Ribs:** For the highest protein-per-calorie plate on the menu, visit [steaks and ribs](/menu/steaks-and-ribs).
+- Return to the [full menu](/menu) to view all offerings.
