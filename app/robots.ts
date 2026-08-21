@@ -7,6 +7,9 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: ['/private/', '/_next/', '/api/'],
     },
-    sitemap: 'https://applebees-menus.us/sitemap.xml',
+    sitemap: [
+      'https://applebees-menus.us/sitemap.xml',
+      'https://applebees-menus.us/image-sitemap.xml',
+    ],
   };
 }

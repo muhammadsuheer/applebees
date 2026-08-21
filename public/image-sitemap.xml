@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://applebees-menus.us/</loc>
+    <lastmod>2026-08-20</lastmod>
+    <image:image>
+      <image:loc>https://applebees-menus.us/logo.png</image:loc>
+      <image:title>Applebee&apos;s Menu Guide Logo</image:title>
+      <image:caption>Independent guide to Applebee&apos;s menu prices, calories, and specials</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/friends-sharing-appetizers.jpg</image:loc>
+      <image:title>Applebee&apos;s Appetizers &amp; Dining Experience</image:title>
+      <image:caption>Friends sharing popular Applebee&apos;s appetizers and drinks</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/burger-lifestyle.jpg</image:loc>
+      <image:title>Applebee&apos;s Handcrafted Cheeseburger &amp; Classic Fries</image:title>
+      <image:caption>Juicy handcrafted bacon cheeseburger with crispy seasoned fries</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/steaks-and-ribs-lifestyle.jpg</image:loc>
+      <image:title>Applebee&apos;s Top Sirloin Steak &amp; Baby Back Ribs</image:title>
+      <image:caption>USDA Choice top sirloin steak dinner with garlic mashed potatoes and steamed broccoli</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/two-for-25-lifestyle.jpg</image:loc>
+      <image:title>Applebee&apos;s 2 for $25 Value Meal Deal</image:title>
+      <image:caption>Two full-size entrees and one shared appetizer for $25</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/pasta-lifestyle.jpg</image:loc>
+      <image:title>Applebee&apos;s Chicken Penne &amp; Alfredo Pasta</image:title>
+      <image:caption>Creamy Four-Cheese Mac &amp; Cheese and Three-Cheese Chicken Penne pasta</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/desserts-lifestyle.jpg</image:loc>
+      <image:title>Applebee&apos;s Triple Chocolate Meltdown Dessert</image:title>
+      <image:caption>Warm rich fudge-filled chocolate cake topped with vanilla ice cream and hot fudge</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://applebees-menus.us/menu</loc>
+    <lastmod>2026-08-20</lastmod>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-new-menu-items-2026-category.webp</image:loc>
+      <image:title>Applebee&apos;s New Items Category Menu</image:title>
+      <image:caption>Explore the full New Items menu selection at Applebee&apos;s with updated prices and calories</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-ultimate-trio-appetizer-category.webp</image:loc>
+      <image:title>Applebee&apos;s Ultimate Trio Category Menu</image:title>
+      <image:caption>Explore the full Ultimate Trio menu selection at Applebee&apos;s with updated prices and calories</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-sizzling-skillets-menu-category.webp</image:loc>
+      <image:title>Applebee&apos;s SKILLETS Category Menu</image:title>
+      <image:caption>Explore the full SKILLETS menu selection at Applebee&apos;s with updated prices and calories</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-signature-cocktails-drinks-category.webp</image:loc>
+      <image:title>Applebee&apos;s Signature Cocktails To Go Category Menu</image:title>
+      <image:caption>Explore the full Signature Cocktails To Go menu selection at Applebee&apos;s with updated prices and calories</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-appetizers-starters-menu-category.webp</image:loc>
+      <image:title>Applebee&apos;s APPETIZERS Category Menu</image:title>
+      <image:caption>Explore the full APPETIZERS menu selection at Applebee&apos;s with updated prices and calories</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-steaks-and-ribs-menu-category.webp</image:loc>
+      <image:title>Applebee&apos;s STEAKS &amp; RIBS Category Menu</image:title>
+      <image:caption>Explore the full STEAKS &amp; RIBS menu selection at Applebee&apos;s with updated prices and calories</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-handcrafted-burgers-menu-category.webp</image:loc>
+      <image:title>Applebee&apos;s HANDCRAFTED BURGERS Category Menu</image:title>
+      <image:caption>Explore the full HANDCRAFTED BURGERS menu selection at Applebee&apos;s with updated prices and calories</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-chicken-entrees-menu-category.webp</image:loc>
+      <image:title>Applebee&apos;s CHICKEN Category Menu</image:title>
+      <image:caption>Explore the full CHICKEN menu selection at Applebee&apos;s with updated prices and calories</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-pasta-dishes-menu-category.webp</image:loc>
+      <image:title>Applebee&apos;s PASTA Category Menu</image:title>
+      <image:caption>Explore the full PASTA menu selection at Applebee&apos;s with updated prices and calories</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-seafood-menu-category.webp</image:loc>
+      <image:title>Applebee&apos;s SEAFOOD Category Menu</image:title>
+      <image:caption>Explore the full SEAFOOD menu selection at Applebee&apos;s with updated prices and calories</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-fresh-salads-menu-category.webp</image:loc>
+      <image:title>Applebee&apos;s SALADS Category Menu</image:title>
+      <image:caption>Explore the full SALADS menu selection at Applebee&apos;s with updated prices and calories</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-desserts-sweet-treats-menu-category.webp</image:loc>
+      <image:title>Applebee&apos;s DESSERTS Category Menu</image:title>
+      <image:caption>Explore the full DESSERTS menu selection at Applebee&apos;s with updated prices and calories</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-sauces-and-sides-menu-category.webp</image:loc>
+      <image:title>Applebee&apos;s SAUCES &amp; SIDES Category Menu</image:title>
+      <image:caption>Explore the full SAUCES &amp; SIDES menu selection at Applebee&apos;s with updated prices and calories</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-dirty-fountain-sodas-drinks-category.webp</image:loc>
+      <image:title>Applebee&apos;s NEW Dirty Fountain Sodas Category Menu</image:title>
+      <image:caption>Explore the full NEW Dirty Fountain Sodas menu selection at Applebee&apos;s with updated prices and calories</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-irresist-a-bowls-menu-category.webp</image:loc>
+      <image:title>Applebee&apos;s Irresist-A-Bowls Category Menu</image:title>
+      <image:caption>Explore the full Irresist-A-Bowls menu selection at Applebee&apos;s with updated prices and calories</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-sandwiches-wraps-menu-category.webp</image:loc>
+      <image:title>Applebee&apos;s SANDWICHES &amp; MORE Category Menu</image:title>
+      <image:caption>Explore the full SANDWICHES &amp; MORE menu selection at Applebee&apos;s with updated prices and calories</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-2-for-25-value-meal-deal-category.webp</image:loc>
+      <image:title>Applebee&apos;s 2 FOR $25 Category Menu</image:title>
+      <image:caption>Explore the full 2 FOR $25 menu selection at Applebee&apos;s with updated prices and calories</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-really-big-meal-deal-category.webp</image:loc>
+      <image:title>Applebee&apos;s The Really BIG Meal Deal Category Menu</image:title>
+      <image:caption>Explore the full The Really BIG Meal Deal menu selection at Applebee&apos;s with updated prices and calories</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-non-alcoholic-beverages-category.webp</image:loc>
+      <image:title>Applebee&apos;s NON-ALCOHOLIC BEVERAGES Category Menu</image:title>
+      <image:caption>Explore the full NON-ALCOHOLIC BEVERAGES menu selection at Applebee&apos;s with updated prices and calories</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://applebees-menus.us/menu/new-items</loc>
+    <lastmod>2026-08-20</lastmod>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-new-menu-items-2026-category.webp</image:loc>
+      <image:title>Applebee&apos;s New Items Menu</image:title>
+      <image:caption>Full selection of Applebee&apos;s New Items items with verified prices and calorie counts</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-whole-lotta-bacon-burger-menu-item.webp</image:loc>
+      <image:title>Applebee&apos;s Whole Lotta Bacon Burger</image:title>
+      <image:caption>Whole Lotta Bacon Burger (1150 Cals) - A bacon-forward burger built around an all-beef patty and Applewood-smoked bacon. Keep this description neutral until the item’s current toppings, ava</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-sweet-spicy-crispy-chicken-sandwich.webp</image:loc>
+      <image:title>Applebee&apos;s Sweet &amp; Spicy Chicken Sandwich</image:title>
+      <image:caption>Sweet &amp; Spicy Chicken Sandwich (980 Cals) - A crispy chicken sandwich with a sweet-and-spicy flavor profile. Applebee’s current naming appears as Sweet &amp; Spicy Chicken Sandwich, so update the it</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://applebees-menus.us/menu/ultimate-trio</loc>
+    <lastmod>2026-08-20</lastmod>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-ultimate-trio-appetizer-category.webp</image:loc>
+      <image:title>Applebee&apos;s Ultimate Trio Menu</image:title>
+      <image:caption>Full selection of Applebee&apos;s Ultimate Trio items with verified prices and calorie counts</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-classic-combo-appetizer-trio-platter.webp</image:loc>
+      <image:title>Applebee&apos;s Classic Combo</image:title>
+      <image:caption>Classic Combo (2200 Cals) - The Applebee’s Classic Combo brings several core appetizers into one shareable order, including Boneless Wings, Spinach &amp; Artichoke Dip, Chicken Quesa</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-appetizer-sampler-platter.webp</image:loc>
+      <image:title>Applebee&apos;s Ultimate Trio</image:title>
+      <image:caption>Ultimate Trio (1850 Cals) - The Ultimate Trio lets guests choose three appetizers and pair them with three dipping sauces.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://applebees-menus.us/menu/skillets</loc>
+    <lastmod>2026-08-20</lastmod>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-sizzling-skillets-menu-category.webp</image:loc>
+      <image:title>Applebee&apos;s SKILLETS Menu</image:title>
+      <image:caption>Full selection of Applebee&apos;s SKILLETS items with verified prices and calorie counts</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-bourbon-street-chicken-and-shrimp-skillet.webp</image:loc>
+      <image:title>Applebee&apos;s Bourbon Street Chicken &amp; Shrimp</image:title>
+      <image:caption>Bourbon Street Chicken &amp; Shrimp (790 Cals) - Applebee’s Bourbon Street Chicken &amp; Shrimp combines Cajun-seasoned chicken and blackened shrimp with buttery garlic and parsley, sautéed mushrooms and</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://applebees-menus.us/menu/signature-cocktails</loc>
+    <lastmod>2026-08-20</lastmod>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-signature-cocktails-drinks-category.webp</image:loc>
+      <image:title>Applebee&apos;s Signature Cocktails To Go Menu</image:title>
+      <image:caption>Full selection of Applebee&apos;s Signature Cocktails To Go items with verified prices and calorie counts</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-mucho-blue-hawaiian-cocktail.webp</image:loc>
+      <image:title>Applebee&apos;s Mucho Blue Hawaiian</image:title>
+      <image:caption>Mucho Blue Hawaiian (350 Cals) - A tropical blue cocktail from Applebee’s bar menu.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-shark-bowl-signature-drink.webp</image:loc>
+      <image:title>Applebee&apos;s Shark Bowl</image:title>
+      <image:caption>Shark Bowl (420 Cals) - A colorful specialty cocktail known for its playful presentation and fruit-forward profile.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-dollarita-house-margarita-cocktail.webp</image:loc>
+      <image:title>Applebee&apos;s Dollarita (House Margarita)</image:title>
+      <image:caption>Dollarita (House Margarita) (310 Cals) - Applebee’s DOLLARITA is a promotional $1 margarita that returns for limited campaigns rather than a permanent everyday menu price.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-top-shelf-long-island-iced-tea.webp</image:loc>
+      <image:title>Applebee&apos;s Top Shelf Long Island Iced Tea</image:title>
+      <image:caption>Top Shelf Long Island Iced Tea (380 Cals) - A Long Island-style cocktail made with a higher-tier spirit blend and citrus-style mixers.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-bacardi-blushing-dragon-mucho-cocktail.webp</image:loc>
+      <image:title>Applebee&apos;s Bacardí Blushing Dragon Mucho</image:title>
+      <image:caption>Bacardí Blushing Dragon Mucho (330 Cals) - A Bacardí-based Mucho cocktail with dragon fruit, lemon-sour and lemonade flavors.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://applebees-menus.us/menu/appetizers</loc>
+    <lastmod>2026-08-20</lastmod>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-appetizers-starters-menu-category.webp</image:loc>
+      <image:title>Applebee&apos;s APPETIZERS Menu</image:title>
+      <image:caption>Full selection of Applebee&apos;s APPETIZERS items with verified prices and calorie counts</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-chicken-wonton-tacos-appetizer.webp</image:loc>
+      <image:title>Applebee&apos;s Chicken Wonton Tacos</image:title>
+      <image:caption>Chicken Wonton Tacos (590 Cals) - Applebee’s Chicken Wonton Tacos feature Sweet Asian chile-marinated grilled chicken in crispy wonton shells, finished with coleslaw and cilantro for a</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-brew-pub-pretzels-beer-cheese-dip.webp</image:loc>
+      <image:title>Applebee&apos;s Brew Pub Pretzels &amp; Beer Cheese Dip</image:title>
+      <image:caption>Brew Pub Pretzels &amp; Beer Cheese Dip (1190 Cals) - Soft Bavarian-style pretzel sticks are served with Blue Moon white Cheddar beer cheese and honey Dijon mustard, giving this Applebee’s appetizer both </image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-chicken-quesadilla-appetizer.webp</image:loc>
+      <image:title>Applebee&apos;s Chicken Quesadilla</image:title>
+      <image:caption>Chicken Quesadilla (1330 Cals) - Applebee’s Chicken Quesadilla fills grilled tortillas with chipotle lime chicken, house-made pico de gallo, and melted Cheddar cheeses for a warm, sha</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-spinach-artichoke-dip-appetizer.webp</image:loc>
+      <image:title>Applebee&apos;s Spinach &amp; Artichoke Dip</image:title>
+      <image:caption>Spinach &amp; Artichoke Dip (960 Cals) - Applebee’s Spinach &amp; Artichoke Dip combines creamy spinach and artichoke with Parmesan, served alongside white corn tortilla chips and chipotle lime s</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-mozzarella-sticks-with-marinara.webp</image:loc>
+      <image:title>Applebee&apos;s Mozzarella Sticks</image:title>
+      <image:caption>Mozzarella Sticks (910 Cals) - Applebee’s Mozzarella Sticks are crisp on the outside with melted mozzarella inside and are served with marinara sauce for dipping.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-boneless-wings-honey-bbq.webp</image:loc>
+      <image:title>Applebee&apos;s Boneless Wings</image:title>
+      <image:caption>Boneless Wings (1160 Cals) - Applebee’s Boneless Wings are crispy breaded chicken pieces tossed in a choice of wing sauce and served with a dipping sauce, making flavor selection </image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://applebees-menus.us/menu/steaks-and-ribs</loc>
+    <lastmod>2026-08-20</lastmod>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-steaks-and-ribs-menu-category.webp</image:loc>
+      <image:title>Applebee&apos;s STEAKS &amp; RIBS Menu</image:title>
+      <image:caption>Full selection of Applebee&apos;s STEAKS &amp; RIBS items with verified prices and calorie counts</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-bourbon-street-steak-dinner.webp</image:loc>
+      <image:title>Applebee&apos;s Bourbon Street Steak</image:title>
+      <image:caption>Bourbon Street Steak (790 Cals) - Applebee’s Bourbon Street Steak is a grilled top sirloin seasoned with Cajun spices and garlic butter, served sizzling with sautéed mushrooms and onio</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-ribeye-steak-dinner.webp</image:loc>
+      <image:title>Applebee&apos;s Ribeye Steak</image:title>
+      <image:caption>Ribeye Steak (930 Cals) - A marbled ribeye steak grilled to order and paired with side choices.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-8oz-top-sirloin-steak-dinner.webp</image:loc>
+      <image:title>Applebee&apos;s 8 oz. Top Sirloin</image:title>
+      <image:caption>8 oz. Top Sirloin (630 Cals) - Applebee’s 8 oz. Top Sirloin is a lightly seasoned USDA Select steak cooked to order and commonly paired with garlic mashed potatoes and broccoli.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://applebees-menus.us/menu/handcrafted-burgers</loc>
+    <lastmod>2026-08-20</lastmod>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-handcrafted-burgers-menu-category.webp</image:loc>
+      <image:title>Applebee&apos;s HANDCRAFTED BURGERS Menu</image:title>
+      <image:caption>Full selection of Applebee&apos;s HANDCRAFTED BURGERS items with verified prices and calorie counts</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-quesadilla-burger-signature.webp</image:loc>
+      <image:title>Applebee&apos;s Quesadilla Burger</image:title>
+      <image:caption>Quesadilla Burger (1620 Cals) - The Applebee’s Quesadilla Burger combines an all-beef burger with Pepper Jack cheese, Mexi-ranch, Applewood-smoked bacon, pico de gallo, and shredded </image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-impossible-burger-plant-based.webp</image:loc>
+      <image:title>Applebee&apos;s Impossible™ Cheeseburger</image:title>
+      <image:caption>Impossible™ Cheeseburger (1050 Cals) - The plant-based Impossible burger patty is topped with American cheese and served with lettuce, tomato, onion, and pickles on a brioche bun.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-classic-bacon-cheeseburger-with-fries.webp</image:loc>
+      <image:title>Applebee&apos;s Classic Bacon Cheeseburger</image:title>
+      <image:caption>Classic Bacon Cheeseburger (1230 Cals) - Applebee’s Classic Bacon Cheeseburger pairs an all-beef patty with American cheese and Applewood-smoked bacon, finished with lettuce, tomato, onion, a</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-whiskey-bacon-burger-premium.webp</image:loc>
+      <image:title>Applebee&apos;s Whisky Bacon Burger</image:title>
+      <image:caption>Whisky Bacon Burger (1480 Cals) - The Whisky Bacon Burger combines an all-beef patty with Pepper Jack cheese, crispy onions, Applewood-smoked bacon, and Fireball whisky-infused steak s</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://applebees-menus.us/menu/chicken</loc>
+    <lastmod>2026-08-20</lastmod>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-chicken-entrees-menu-category.webp</image:loc>
+      <image:title>Applebee&apos;s CHICKEN Menu</image:title>
+      <image:caption>Full selection of Applebee&apos;s CHICKEN items with verified prices and calorie counts</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-honey-pepper-chicken-tenders.webp</image:loc>
+      <image:title>Applebee&apos;s Honey Pepper Chicken Tenders</image:title>
+      <image:caption>Honey Pepper Chicken Tenders (1610 Cals) - Crispy chicken tenders coated in a sweet-and-savory honey pepper sauce.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-fiesta-lime-chicken-entree.webp</image:loc>
+      <image:title>Applebee&apos;s Fiesta Lime Chicken</image:title>
+      <image:caption>Fiesta Lime Chicken (1140 Cals) - Applebee’s Fiesta Lime Chicken features grilled chicken glazed with zesty lime sauce, Mexi-ranch, Cheddar cheeses, and tortilla strips, served with Sp</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-crispy-chicken-tenders-platter.webp</image:loc>
+      <image:title>Applebee&apos;s Chicken Tenders Platter</image:title>
+      <image:caption>Chicken Tenders Platter (1450 Cals) - Applebee’s Chicken Tenders Platter serves crispy breaded chicken tenders with a choice of dipping sauce and sides, shown on the current menu with cole</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://applebees-menus.us/menu/pasta</loc>
+    <lastmod>2026-08-20</lastmod>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-pasta-dishes-menu-category.webp</image:loc>
+      <image:title>Applebee&apos;s PASTA Menu</image:title>
+      <image:caption>Full selection of Applebee&apos;s PASTA items with verified prices and calorie counts</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-four-cheese-mac-and-cheese-with-honey-pepper-chicken.webp</image:loc>
+      <image:title>Applebee&apos;s Four Cheese Mac &amp; Cheese with Honey Pepper Chicken</image:title>
+      <image:caption>Four Cheese Mac &amp; Cheese with Honey Pepper Chicken (1540 Cals) - Applebee’s Four-Cheese Mac &amp; Cheese with Honey Pepper Chicken Tenders combines four-cheese penne mac and cheese, Applewood-smoked bacon, and crispy te</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-three-cheese-chicken-penne-pasta.webp</image:loc>
+      <image:title>Applebee&apos;s Three-Cheese Chicken Penne</image:title>
+      <image:caption>Three-Cheese Chicken Penne (1350 Cals) - Applebee’s Three-Cheese Chicken Penne combines Asiago, Parmesan, and white Cheddar with penne in Parmesan cream sauce, then adds grilled chicken and b</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-broccoli-chicken-alfredo-pasta.webp</image:loc>
+      <image:title>Applebee&apos;s Classic Broccoli Chicken Alfredo</image:title>
+      <image:caption>Classic Broccoli Chicken Alfredo (1410 Cals) - Applebee’s Classic Broccoli Chicken Alfredo serves grilled chicken over fettuccine tossed with broccoli and rich Alfredo sauce, finished with Parmesan</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://applebees-menus.us/menu/seafood</loc>
+    <lastmod>2026-08-20</lastmod>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-seafood-menu-category.webp</image:loc>
+      <image:title>Applebee&apos;s SEAFOOD Menu</image:title>
+      <image:caption>Full selection of Applebee&apos;s SEAFOOD items with verified prices and calorie counts</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-double-crunch-shrimp-platter.webp</image:loc>
+      <image:title>Applebee&apos;s Double Crunch Shrimp</image:title>
+      <image:caption>Double Crunch Shrimp (1210 Cals) - Applebee’s Double Crunch Shrimp features crispy battered shrimp fried golden brown and served with cocktail sauce, with sides depending on the selecte</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-blackened-cajun-salmon-fillet.webp</image:loc>
+      <image:title>Applebee&apos;s Blackened Cajun Salmon</image:title>
+      <image:caption>Blackened Cajun Salmon (640 Cals) - Applebee’s Blackened Cajun Salmon features a blackened grilled salmon fillet served with garlic mashed potatoes and broccoli for a straightforward sea</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://applebees-menus.us/menu/salads</loc>
+    <lastmod>2026-08-20</lastmod>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-fresh-salads-menu-category.webp</image:loc>
+      <image:title>Applebee&apos;s SALADS Menu</image:title>
+      <image:caption>Full selection of Applebee&apos;s SALADS items with verified prices and calorie counts</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-oriental-chicken-salad-bowl.webp</image:loc>
+      <image:title>Applebee&apos;s Oriental Chicken Salad</image:title>
+      <image:caption>Oriental Chicken Salad (1420 Cals) - Applebee’s Oriental Chicken Salad tops fresh Asian greens with crispy breaded chicken tenders, crunchy noodles, almonds, and Oriental vinaigrette.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-grilled-chicken-caesar-salad.webp</image:loc>
+      <image:title>Applebee&apos;s Grilled Chicken Caesar Salad</image:title>
+      <image:caption>Grilled Chicken Caesar Salad (820 Cals) - Applebee’s Grilled Chicken Caesar Salad combines crisp romaine, garlic Caesar dressing, grilled chicken, croutons, and shaved Parmesan.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://applebees-menus.us/menu/desserts</loc>
+    <lastmod>2026-08-20</lastmod>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-desserts-sweet-treats-menu-category.webp</image:loc>
+      <image:title>Applebee&apos;s DESSERTS Menu</image:title>
+      <image:caption>Full selection of Applebee&apos;s DESSERTS items with verified prices and calorie counts</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-triple-chocolate-meltdown-dessert.webp</image:loc>
+      <image:title>Applebee&apos;s Triple Chocolate Meltdown</image:title>
+      <image:caption>Triple Chocolate Meltdown (860 Cals) - Applebee’s Triple Chocolate Meltdown is a warm fudge-filled chocolate cake drizzled with hot fudge and served with vanilla ice cream.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://applebees-menus.us/menu/sides</loc>
+    <lastmod>2026-08-20</lastmod>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-sauces-and-sides-menu-category.webp</image:loc>
+      <image:title>Applebee&apos;s SAUCES &amp; SIDES Menu</image:title>
+      <image:caption>Full selection of Applebee&apos;s SAUCES &amp; SIDES items with verified prices and calorie counts</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-garlic-mashed-potatoes-side.webp</image:loc>
+      <image:title>Applebee&apos;s Garlic Mashed Potatoes</image:title>
+      <image:caption>Garlic Mashed Potatoes (260 Cals) - Creamy garlic mashed potatoes served as a savory side.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-loaded-baked-potato-side.webp</image:loc>
+      <image:title>Applebee&apos;s Loaded Baked Potato</image:title>
+      <image:caption>Loaded Baked Potato (450 Cals) - A baked potato served with loaded-style toppings such as cheese, bacon, sour cream, and chives.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-steamed-broccoli-side.webp</image:loc>
+      <image:title>Applebee&apos;s Steamed Broccoli</image:title>
+      <image:caption>Steamed Broccoli (100 Cals) - Applebee’s Steamed Broccoli is a simple vegetable side of steamed broccoli florets, useful for diners comparing side options and calories.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-classic-french-fries-side.webp</image:loc>
+      <image:title>Applebee&apos;s Classic Fries</image:title>
+      <image:caption>Classic Fries (430 Cals) - Golden seasoned fries served as a standard side with many Applebee’s burgers, sandwiches, chicken, and rib entrées.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-coleslaw-side.webp</image:loc>
+      <image:title>Applebee&apos;s Coleslaw</image:title>
+      <image:caption>Coleslaw (230 Cals) - A creamy shredded-cabbage side commonly paired with fried seafood, ribs, wings, and other Applebee’s entrées.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://applebees-menus.us/menu/dirty-fountain-sodas</loc>
+    <lastmod>2026-08-20</lastmod>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-dirty-fountain-sodas-drinks-category.webp</image:loc>
+      <image:title>Applebee&apos;s NEW Dirty Fountain Sodas Menu</image:title>
+      <image:caption>Full selection of Applebee&apos;s NEW Dirty Fountain Sodas items with verified prices and calorie counts</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-passion-blue-dew-soda-drink.webp</image:loc>
+      <image:title>Applebee&apos;s Passion Blue Dew</image:title>
+      <image:caption>Passion Blue Dew (150 Cals) - Passion Blue Dew combines Mountain Dew Dark Berry Bash with passion fruit, blue raspberry, and blackberry flavors, finished with the Dirty Fountain So</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-cherry-charmed-pepsi-drink.webp</image:loc>
+      <image:title>Applebee&apos;s Cherry Charmed Pepsi</image:title>
+      <image:caption>Cherry Charmed Pepsi (170 Cals) - Cherry Charmed Pepsi mixes classic Pepsi with grenadine for a sweet-tart cherry-style flavor, finished with the Dirty Fountain Soda creamy topping.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-mango-dream-dew-drink.webp</image:loc>
+      <image:title>Applebee&apos;s Mango Dream Dew</image:title>
+      <image:caption>Mango Dream Dew (160 Cals) - Mango Dream Dew pairs Mountain Dew’s citrus profile with a tangy mango flavor and the creamy topping used across Applebee’s Dirty Fountain Sodas.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://applebees-menus.us/menu/irresist-a-bowls</loc>
+    <lastmod>2026-08-20</lastmod>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-irresist-a-bowls-menu-category.webp</image:loc>
+      <image:title>Applebee&apos;s Irresist-A-Bowls Menu</image:title>
+      <image:caption>Full selection of Applebee&apos;s Irresist-A-Bowls items with verified prices and calorie counts</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-southwest-chicken-bowl-entree.webp</image:loc>
+      <image:title>Applebee&apos;s Southwest Chicken Bowl</image:title>
+      <image:caption>Southwest Chicken Bowl (820 Cals) - Applebee’s Southwest Chicken Bowl layers grilled chipotle lime chicken over greens and cilantro rice with pico de gallo, black bean corn salsa, guacam</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-tex-mex-shrimp-bowl-entree.webp</image:loc>
+      <image:title>Applebee&apos;s Tex-Mex Shrimp Bowl</image:title>
+      <image:caption>Tex-Mex Shrimp Bowl (710 Cals) - Applebee’s Tex-Mex Shrimp Bowl features grilled chipotle lime shrimp over fresh greens and cilantro rice with pico de gallo, black bean corn salsa, an</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://applebees-menus.us/menu/sandwiches-and-more</loc>
+    <lastmod>2026-08-20</lastmod>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-sandwiches-wraps-menu-category.webp</image:loc>
+      <image:title>Applebee&apos;s SANDWICHES &amp; MORE Menu</image:title>
+      <image:caption>Full selection of Applebee&apos;s SANDWICHES &amp; MORE items with verified prices and calorie counts</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-clubhouse-grille-sandwich.webp</image:loc>
+      <image:title>Applebee&apos;s Clubhouse Grille</image:title>
+      <image:caption>Clubhouse Grille (1120 Cals) - Applebee’s Clubhouse Grille stacks sliced ham and turkey with Cheddar, Swiss, Applewood-smoked bacon, lettuce, tomato, mayo, and honey BBQ sauce on to</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-bacon-ranch-crispy-chicken-sandwich.webp</image:loc>
+      <image:title>Applebee&apos;s Bacon Ranch Chicken Sandwich</image:title>
+      <image:caption>Bacon Ranch Chicken Sandwich (1050 Cals) - The Bacon Ranch Chicken Sandwich features crispy hand-breaded chicken, Applewood-smoked bacon, ranch, pickles, lettuce, and tomato on a brioche bun.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-classic-chicken-sandwich.webp</image:loc>
+      <image:title>Applebee&apos;s Classic Chicken Sandwich</image:title>
+      <image:caption>Classic Chicken Sandwich (820 Cals) - A chicken sandwich served on a brioche-style bun with fresh toppings.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://applebees-menus.us/menu/2-for-25</loc>
+    <lastmod>2026-08-20</lastmod>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-2-for-25-value-meal-deal-category.webp</image:loc>
+      <image:title>Applebee&apos;s 2 FOR $25 Menu</image:title>
+      <image:caption>Full selection of Applebee&apos;s 2 FOR $25 items with verified prices and calorie counts</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-2-for-25-value-meal.webp</image:loc>
+      <image:title>Applebee&apos;s 2 For $25 Value Meal</image:title>
+      <image:caption>2 For $25 Value Meal (Varies) - Applebee’s 2 for $25 pairs one full-size appetizer with two full-size entrées.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://applebees-menus.us/menu/really-big-meal-deal</loc>
+    <lastmod>2026-08-20</lastmod>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-really-big-meal-deal-category.webp</image:loc>
+      <image:title>Applebee&apos;s The Really BIG Meal Deal Menu</image:title>
+      <image:caption>Full selection of Applebee&apos;s The Really BIG Meal Deal items with verified prices and calorie counts</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-really-big-meal-deal-spread.webp</image:loc>
+      <image:title>Applebee&apos;s The Really BIG Meal Deal</image:title>
+      <image:caption>The Really BIG Meal Deal (Varies) - The current Really Big Meal Deal centers on a qualifying burger or chicken sandwich with fries and a fountain drink, with promotional availability and</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://applebees-menus.us/menu/non-alcoholic-beverages</loc>
+    <lastmod>2026-08-20</lastmod>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-non-alcoholic-beverages-category.webp</image:loc>
+      <image:title>Applebee&apos;s NON-ALCOHOLIC BEVERAGES Menu</image:title>
+      <image:caption>Full selection of Applebee&apos;s NON-ALCOHOLIC BEVERAGES items with verified prices and calorie counts</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-flavored-strawberry-lemonade.webp</image:loc>
+      <image:title>Applebee&apos;s Flavored Lemonade</image:title>
+      <image:caption>Flavored Lemonade (150 Cals) - A fruit-flavored lemonade option for diners looking for a sweet, non-alcoholic drink.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-fresh-brewed-iced-tea.webp</image:loc>
+      <image:title>Applebee&apos;s Fresh Brewed Iced Tea</image:title>
+      <image:caption>Fresh Brewed Iced Tea (0 Cals) - Fresh-brewed iced tea served as a straightforward non-alcoholic beverage, with sweetener and flavor additions depending on the selected restaurant’s m</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-fountain-drink-pepsi.webp</image:loc>
+      <image:title>Applebee&apos;s Fountain Drinks</image:title>
+      <image:caption>Fountain Drinks (0-200 Cals) - A selection of fountain soft drinks from the brands available at the selected Applebee’s restaurant. Exact choices and calorie counts vary by beverage</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://applebees-menus.us/specials-and-deals</loc>
+    <lastmod>2026-08-20</lastmod>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-2-for-25-value-meal.webp</image:loc>
+      <image:title>Applebee&apos;s 2 for $25 Dinner Deal</image:title>
+      <image:caption>One appetizer and two full-size entrees including Fiesta Lime Chicken and Cheeseburgers</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/really-big-meal-deal-lifestyle.jpg</image:loc>
+      <image:title>Applebee&apos;s Really Big Meal Deal</image:title>
+      <image:caption>Great value bundle with burger or sandwich, fries, drink, and appetizer</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-appetizer-sampler-platter.webp</image:loc>
+      <image:title>Applebee&apos;s Half Price Appetizers</image:title>
+      <image:caption>Late night and afternoon happy hour half-price appetizers selection</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://applebees-menus.us/happy-hour</loc>
+    <lastmod>2026-08-20</lastmod>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-dollarita-house-margarita-cocktail.webp</image:loc>
+      <image:title>Applebee&apos;s Dollarita &amp; House Margarita</image:title>
+      <image:caption>Legendary Applebee&apos;s cocktail specials and happy hour drinks</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-mucho-blue-hawaiian-cocktail.webp</image:loc>
+      <image:title>Applebee&apos;s Mucho Blue Hawaiian Cocktail</image:title>
+      <image:caption>Signature oversized 18oz Mucho cocktail with premium spirits</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-boneless-wings-honey-bbq.webp</image:loc>
+      <image:title>Applebee&apos;s Half Price Boneless Wings</image:title>
+      <image:caption>Crispy boneless chicken wings tossed in Honey BBQ sauce during happy hour</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-mozzarella-sticks-with-marinara.webp</image:loc>
+      <image:title>Applebee&apos;s Mozzarella Sticks with Marinara</image:title>
+      <image:caption>Golden-fried mozzarella cheese sticks served warm with house marinara</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-brew-pub-pretzels-beer-cheese-dip.webp</image:loc>
+      <image:title>Applebee&apos;s Brew Pub Pretzels with Beer Cheese Dip</image:title>
+      <image:caption>Warm soft pretzel sticks served with Blue Moon white cheddar cheese dip</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://applebees-menus.us/catering</loc>
+    <lastmod>2026-08-20</lastmod>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-classic-combo-appetizer-trio-platter.webp</image:loc>
+      <image:title>Applebee&apos;s Catering Party Platters</image:title>
+      <image:caption>Large-format party platters serving 6-8 guests for events and office lunches</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-applewood-smoked-baby-back-ribs.webp</image:loc>
+      <image:title>Applebee&apos;s Catering Rib Platter</image:title>
+      <image:caption>Slow-cooked tender baby back ribs platter for corporate catering and parties</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-three-cheese-chicken-penne-pasta.webp</image:loc>
+      <image:title>Applebee&apos;s Catering Pasta Pan</image:title>
+      <image:caption>Three-Cheese Chicken Penne bulk catering pan serving 6-8 people</image:caption>
+    </image:image>
+  </url>
+</urlset>
