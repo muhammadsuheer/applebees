@@ -1,126 +1,241 @@
 ---
-title: "Ultimate Trio"
+title: "Applebee's Ultimate Trio: Price, Calories & What's Included"
+description: "The Applebee's Ultimate Trio lets you pick three appetizers with three sauces for $16.99. How it differs from the Classic Combo, and which one is better value."
 ---
 
-## The Applebee's Ultimate Trio: The Undisputed King of Appetizers
+<div class="answerBlock">
+  <p>
+    The Applebee's Ultimate Trio is a shareable appetizer platter that lets you choose three appetizers and pair them with three dipping sauces, priced at $16.99 and coming in around 1,850 calories. It differs from the Classic Combo, which is a fixed four-item platter at $18.99 and 2,200 calories.
+  </p>
+</div>
 
-When it comes to casual dining, few menu items have achieved the legendary, culturally iconic status of the Applebee's Classic Combo, often referred to by fans and featured in promotions as the **Ultimate Trio**. If you have ever visited an Applebee's with a group of friends, chances are high that this massive platter was the first thing you ordered. It is the perfect solution for the indecisive, the hungry, and the social diner. 
+## Ultimate Trio or Classic Combo: What's the Difference?
 
-The Ultimate Trio is not just a dish; it is an experience. It represents the very core of Applebee's philosophy: bringing people together over great, comforting food. In this comprehensive guide, we will break down exactly what makes the Ultimate Trio the ultimate crowd-pleaser. We will explore each of its components in exhaustive detail, discuss its nutritional profile, offer pairing suggestions, and explain why it remains one of the best-selling items in the history of casual dining.
+This is the question people are actually asking, and the two platters get confused constantly because they look similar on the menu.
 
----
+<div class="tableCard">
+  <div class="tableResponsive">
+    <table class="customTable">
+      <caption>Comparison: Applebee's Ultimate Trio vs. The Classic Combo</caption>
+      <thead>
+        <tr>
+          <th scope="col">Feature</th>
+          <th scope="col" style="text-align: center;">Ultimate Trio</th>
+          <th scope="col" style="text-align: center;">The Classic Combo</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row"><strong>Price</strong></th>
+          <td style="text-align: center; font-weight: 700; color: #c8102e;">$16.99</td>
+          <td style="text-align: center; font-weight: 700; color: #c8102e;">$18.99</td>
+        </tr>
+        <tr>
+          <th scope="row"><strong>Calories</strong></th>
+          <td style="text-align: center;">~1,850 Cal</td>
+          <td style="text-align: center;">~2,200 Cal</td>
+        </tr>
+        <tr>
+          <th scope="row"><strong>Format</strong></th>
+          <td style="text-align: center;">Three items (Your choice)</td>
+          <td style="text-align: center;">Four items (Fixed selection)</td>
+        </tr>
+        <tr>
+          <th scope="row"><strong>Dipping Sauces</strong></th>
+          <td style="text-align: center;">Three dipping sauces included</td>
+          <td style="text-align: center;">Standard accompaniments</td>
+        </tr>
+        <tr>
+          <th scope="row"><strong>Best For</strong></th>
+          <td style="text-align: center;">Tables that want to pick favorites</td>
+          <td style="text-align: center;">Tables that want everything</td>
+        </tr>
+        <tr>
+          <th scope="row"><strong>Serving Size</strong></th>
+          <td style="text-align: center;">Serves 3–4</td>
+          <td style="text-align: center;">Serves 3–4</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
 
-### Ultimate Trio At a Glance
+### Which one to order
 
-| Platter Components | Calorie Range | Price | Best Shared With |
-| :--- | :--- | :--- | :--- |
-| **Spinach & Artichoke Dip** | ~320 Cals (per person) | Included | Tortilla Chips |
-| **Mozzarella Sticks** | ~300 Cals (per person) | Included | Marinara Sauce |
-| **Boneless Wings** | ~400 Cals (per person) | Included | Ranch / Blue Cheese |
-| **Full Platter Total** | ~2,200 Cals (Total) | $16.99 | 3-4 Friends |
+**Choose the Ultimate Trio if the table has preferences.** The value is in the choosing. If nobody wants the quesadilla, or two people want wings and one wants dip, the Trio lets you build to that. The three sauces matter more than they sound — they let one platter cover several tastes.
 
----
+**Choose the Classic Combo if nobody can decide.** It is $2 more, 350 calories heavier, and includes a fourth item. If the answer to "what should we get" is "everything," this is the one.
 
-### What is the Ultimate Trio?
+**On value:** The Combo delivers more food per dollar in raw terms. The Trio delivers more of the food you actually want. Which is better depends entirely on whether your table has opinions.
 
-![Applebee's Ultimate Trio Classic Combo Platter](/apple-bees-menu/applebees-ultimate-trio-appetizer-category.webp)
-
-At its core, the Ultimate Trio (or Classic Combo) is a sampler platter designed to eliminate the age-old argument of "what should we get for the table?" Instead of forcing a group to choose between creamy dips, crispy cheese, or savory chicken, the trio provides generous portions of all three. 
-
-Historically, the platter has featured different variations, but the standard, universally beloved trio consists of three absolute powerhouses from the Applebee's appetizer menu: Spinach & Artichoke Dip, Mozzarella Sticks, and Boneless Wings. Let's dive deep into each of these legendary components.
-
----
-
-### Component 1: The Spinach & Artichoke Dip
-
-![Spinach and Artichoke Dip Close Up](/apple-bees-menu/applebees-spinach-and-artichoke-dip-appetizer.webp)
-
-If the Ultimate Trio is a crown, the Spinach & Artichoke Dip is its shining jewel. This dip is arguably the most famous item Applebee's has ever produced. It is rich, decadent, and incredibly comforting.
-
-#### Flavor Profile and Ingredients
-The base of the dip is a blend of rich, creamy cheesestypically cream cheese, Parmesan, and Romanomelted down to a smooth, velvety consistency. Folded into this cheese base are generous amounts of tender spinach leaves and slightly tart, earthy artichoke hearts. The slight acidity of the artichokes perfectly cuts through the heavy richness of the cheese, ensuring that every bite is balanced. 
-
-It is seasoned lightly with garlic and a touch of black pepper, baked until bubbling hot, and often finished with an extra sprinkle of Parmesan on top to create a slight crust.
-
-#### The Delivery Vehicle: Tortilla Chips
-A dip is only as good as what you use to eat it, and Applebee's delivers with freshly fried white corn tortilla chips. These chips are served warm, lightly salted, and are thick enough to hold a massive scoop of the heavy dip without breaking. The contrast between the cold, crisp crunch of the chip and the warm, gooey dip is a textural masterpiece.
-
----
-
-### Component 2: Mozzarella Sticks
-
-![Applebee's Mozzarella Sticks](/apple-bees-menu/applebees-mozzarella-sticks-appetizer.webp)
-
-While Spinach & Artichoke Dip offers creamy sophistication, the Mozzarella Sticks bring pure, unadulterated, deep-fried joy. They are the quintessential American appetizer, and Applebee's executes them flawlessly.
-
-#### The Perfect Crunch
-The secret to a great mozzarella stick lies in the breading. Applebee's uses an Italian-seasoned breadcrumb coating that fries to a beautiful golden brown. The breading is thick enough to provide a substantial, satisfying crunch, but not so thick that it overpowers the cheese. 
-
-#### The Cheese Pull
-When executed correctlyand they almost always arebreaking an Applebee's mozzarella stick in half results in the glorious, Instagram-worthy "cheese pull." The cheese inside is mild, salty, and incredibly stretchy. Because mozzarella is a relatively mild cheese, it serves as the perfect canvas for the seasoned breading and the dipping sauce.
-
-#### The Marinara Sauce
-Served alongside the sticks is a zesty, robust marinara sauce. The sauce is tomato-forward, slightly sweet, and heavily seasoned with oregano and basil. The acidity of the tomatoes provides the necessary contrast to the heavy, fried cheese, making it impossible to eat just one.
-
----
-
-### Component 3: Boneless Wings
-
-![Applebee's Boneless Wings](/apple-bees-menu/applebees-boneless-wings-appetizer.webp)
-
-To round out the trio, Applebee's includes a hearty, protein-packed option: Boneless Wings. These are essentially premium, bite-sized chicken breast chunks, breaded and fried until incredibly crispy.
-
-#### The Chicken
-Unlike traditional bone-in wings which can be messy and require effort to eat, boneless wings are convenient and fork-friendly. The white meat chicken remains juicy on the inside while the heavily seasoned, craggy breading on the outside holds onto sauce brilliantly.
-
-#### The Sauces
-The true magic of the boneless wings lies in the sauce. When ordering the Ultimate Trio, the table usually gets to choose their preferred sauce for the wings. The three most popular options are:
-1. **Classic Hot Buffalo:** A traditional, vinegar-based hot sauce that provides a sharp, tangy heat. It pairs perfectly with the side of cool, creamy ranch or blue cheese dressing.
-2. **Honey BBQ:** A sweet, smoky, and slightly tangy sauce that is universally loved. It is thick, sticky, and coats the chicken beautifully.
-3. **Sweet Asian Chile:** A fan-favorite that offers a complex blend of sweet, sticky, and spicy flavors, often garnished with sesame seeds or green onions. 
+![Four-item appetizer platter with wings, dip, quesadilla and mozzarella sticks](/apple-bees-menu/applebees-classic-combo-appetizer-trio-platter.webp)
 
 ---
 
-### Why the Ultimate Trio Works So Well
+## Ultimate Trio Appetizer Choices
 
-The brilliance of the Ultimate Trio lies in its contrasts. It is a masterclass in menu engineering, hitting every single craving a diner might have before their main course.
+The Trio draws directly from the core [appetizer menu](/menu/appetizers). The standard candidates include:
 
-1. **Textural Variety:** You have the smooth, gooey creaminess of the dip, the hard crunch of the tortilla chips, the crispy exterior and stretchy interior of the mozzarella sticks, and the meaty, saucy bite of the wings. 
-2. **Flavor Balance:** The earthy, garlic-forward dip contrasts with the sweet and acidic marinara of the cheese sticks, which in turn contrasts with the spicy or sweet sauce of the wings. 
-3. **Social Dining:** The platter is physically large and visually impressive. It invites everyone to reach in, share, and discuss. It breaks the ice and gets the table talking.
+<div class="tableCard">
+  <div class="tableResponsive">
+    <table class="customTable">
+      <caption>Candidate Appetizers Available for the Ultimate Trio</caption>
+      <thead>
+        <tr>
+          <th scope="col">Appetizer</th>
+          <th scope="col" style="text-align: center;">Calories (Full Order)</th>
+          <th scope="col" style="text-align: center;">Protein</th>
+          <th scope="col">Key Ordering Note</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row"><strong>Chicken Wonton Tacos</strong></th>
+          <td style="text-align: center;">590</td>
+          <td style="text-align: center;">—</td>
+          <td>Lightest option by a wide margin</td>
+        </tr>
+        <tr>
+          <th scope="row"><strong>Mozzarella Sticks</strong></th>
+          <td style="text-align: center;">860</td>
+          <td style="text-align: center;">41g</td>
+          <td>Best protein-to-calorie ratio</td>
+        </tr>
+        <tr>
+          <th scope="row"><strong>Spinach & Artichoke Dip</strong></th>
+          <td style="text-align: center;">990</td>
+          <td style="text-align: center;">21g</td>
+          <td>Lowest sodium; most shareable</td>
+        </tr>
+        <tr>
+          <th scope="row"><strong>Boneless Wings</strong></th>
+          <td style="text-align: center;">1,080–1,260</td>
+          <td style="text-align: center;">40–42g</td>
+          <td>Sauce choice changes sodium sharply</td>
+        </tr>
+        <tr>
+          <th scope="row"><strong>Brew Pub Pretzels</strong></th>
+          <td style="text-align: center;">1,160</td>
+          <td style="text-align: center;">34g</td>
+          <td>Highest carbohydrate content</td>
+        </tr>
+        <tr>
+          <th scope="row"><strong>Chicken Quesadilla</strong></th>
+          <td style="text-align: center;">1,170</td>
+          <td style="text-align: center;">49g</td>
+          <td>Most protein of any single starter</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
 
-![Friends sharing an Ultimate Trio Appetizer Platter at a casual restaurant](/apple-bees-menu/friends-sharing-appetizers.jpg)
+*(Note: Figures above describe full individual orders; Trio portions are scaled for sharing.)*
+
+Availability of specific items in the Trio varies by location. For full item descriptions, allergens, and complete macro tables, see our [appetizers guide](/menu/appetizers) and [nutrition reference](/nutrition).
+
+### Building a balanced trio
+
+- **For the most protein:** Chicken Quesadilla, Boneless Wings, Mozzarella Sticks. Delivers roughly 130g of protein across the platter.
+- **For the lightest platter:** Chicken Wonton Tacos, Mozzarella Sticks, Spinach & Artichoke Dip. Lands around 2,440 calories at full order scale, compared to 3,500+ for the heaviest combination.
+- **For texture variety:** One dip, one fried, one grilled. The spinach dip, mozzarella sticks, and wonton tacos combination gives creamy, crisp, and fresh textures in a single order — which is the entire point of a sampler.
+- **For a mixed table:** Pick items with different sauces rather than three fried items. Three breaded, sauced appetizers taste more similar than they look on the menu.
 
 ---
 
-### Nutritional Profile
+## The Three Dipping Sauces
 
-It is no secret that the Ultimate Trio is an indulgence. Because it combines three highly caloric, cheese-heavy, and fried components, the calorie count is significant. The Classic Combo platter generally clocks in at around **2,200 calories**.
+The three sauces are the part of this platter people underuse. They come included with the order, and they change what each appetizer tastes like — which effectively widens a three-item platter into more than three distinct flavours.
 
-However, it is crucial to remember that this dish is designed to be shared among 3 to 4 people. When split four ways, a serving size comes out to roughly 550 caloriesa perfectly reasonable appetizer portion for a night out. 
+Standard dipping options span **House Ranch**, **Bleu Cheese**, **Warm Marinara**, **Honey Dijon Mustard**, and the signature wing sauces (Classic Hot Buffalo, Honey BBQ, Sweet Asian Chile, Garlic Parmesan). Availability varies by franchise location.
 
-If you are watching your intake but still want to partake in the Trio, here are a few tips:
-- Avoid drinking heavy, sugary sodas or cocktails alongside it. Opt for water or unsweetened iced tea.
-- Use a fork to eat the wings rather than dipping them heavily in the extra ranch or blue cheese dressing.
-- Limit yourself to a set number of chips for the dip.
+**Practical ordering tip:** If the Trio includes Boneless Wings, choosing a wing toss sauce and a separate dipping sauce gives more variety than doubling up. Classic Hot Buffalo with ranch on the side is the common pairing, and it also lets people at the table control how much heat they take.
 
 ---
 
-### Frequently Asked Questions (FAQ)
+## Ultimate Trio Calories and Nutrition
 
-**Can you customize the Ultimate Trio?**
-Typically, you can customize the sauce on the boneless wings, but substituting the core items (the dip or the mozzarella sticks) is up to the manager's discretion and may incur an upcharge. 
+The Ultimate Trio comes in at roughly **1,850 calories** for the full platter. Split between four people that is around **460 calories each** — a normal, sensible appetizer portion. Split between two people, it becomes a substantial meal.
 
-**Is the Ultimate Trio available during Half-Price Apps?**
-Usually, no. The Ultimate Trio is already heavily discounted as a combo platter, so it is often excluded from the Late Night Half-Price promotion. However, you can order the individual components (wings, mozzarella sticks, spinach dip) separately for half price during those hours!
+That framing matters more than the headline number. Shareable platters are built for tables, and the calorie figure only makes sense divided.
 
-**Does the Ultimate Trio come with a Quesadilla?**
-If you order the "Classic Combo", it often includes a Chicken Quesadilla alongside the wings, dip, and cheese sticks. The "Trio" usually limits it to just three items.
+The variables that move the numbers most:
+- **Fried versus grilled:** The Chicken Wonton Tacos use grilled chicken in a fried shell, which is why they land at 590 calories against 1,080+ for the fully fried options.
+- **Sauce selection:** On wings specifically, Classic Hot Buffalo carries 4,720mg of sodium against 2,710mg for Garlic Parmesan — despite Garlic Parmesan having more calories. Sauce choice moves sodium more than item choice does.
+- **Dipping sauces:** The three included sauces add on top of the base platter figure. Ranch and bleu cheese dressings are the heaviest.
+
+Full macro and allergen data for every component is available on our [nutrition and calories guide](/nutrition).
 
 ---
 
-### Conclusion
+## Is the Ultimate Trio Half Price During Happy Hour?
 
-The Ultimate Trio is more than just a combination of three popular menu items. It is a carefully curated symphony of flavors, textures, and temperatures that has defined casual dining for decades. It provides something for everyone, ensuring that no one at the table is left wanting.
+<div class="answerBlock">
+  <p>
+    Combination platters including the Ultimate Trio and Classic Combo are typically excluded from Applebee's half price appetizer promotion. They are already priced as bundles, so they do not receive a second discount.
+  </p>
+</div>
 
-Whether you are craving the rich comfort of the Spinach & Artichoke Dip, the nostalgic crunch of the Mozzarella Sticks, or the spicy, meaty satisfaction of the Boneless Wings, the Ultimate Trio delivers. It remains the undisputed king of the Applebee's menu, and a must-order for any group looking to start their meal off right.
+**The workaround:** Order the components individually. Boneless Wings, Mozzarella Sticks, Spinach & Artichoke Dip, and Chicken Quesadilla are all reliably included in the half price promotion on their own. During those windows, ordering two or three individual appetizers at half price usually beats a bundled platter at full price.
+
+Outside those happy hour windows, the bundled platter is the better deal — which is exactly how the pricing model is designed.
+
+Full promotional times, state rules, and discount details are covered on our [happy hour guide](/happy-hour).
+
+---
+
+## Can You Customise the Ultimate Trio?
+
+Choice is the entire point of this platter, so the appetizer selection is the customization:
+- **Wing sauces are selectable,** and this is the change that affects the platter's flavor profile most.
+- **Substitutions outside the standard list** depend on the location and the manager on duty, and may carry a small upcharge. Franchise discretion applies here as it does everywhere else.
+- **Sauce swaps are straightforward** — asking for an extra marinara or honey mustard is a smaller request than swapping a protein.
+- **Dietary builds:** If you have a vegetarian preference, building the Trio around it works cleanly. Mozzarella Sticks, Spinach & Artichoke Dip, and Brew Pub Pretzels are all meat-free, meaning a 100% vegetarian Trio is fully possible.
+
+---
+
+## Ordering the Ultimate Trio To Go
+
+Sampler platters are among the harder items to transport, because they combine items with different textures and moisture levels in one container.
+
+- **Ask for sauces separately:** This applies to the wing sauce especially. Wings tossed at the restaurant soften on the way home; tossed at the table they do not.
+- **The dip travels best:** There is no breading to lose crunch, and the chips are packed separately.
+- **Fried components are the weak point:** Mozzarella sticks and breaded items lose texture fastest. If the drive is more than fifteen minutes, eat them first.
+
+Note that half price appetizer pricing does not apply to takeout or delivery orders. For more details on packaging physics, visit our [Carside To Go](/takeout) and [delivery](/delivery) guides.
+
+---
+
+## Frequently Asked Questions
+
+### What is the Applebee's Ultimate Trio?
+The Ultimate Trio is a shareable appetizer platter where you choose three appetizers and receive three dipping sauces, priced at $16.99 and around 1,850 calories. It serves three to four people as a starter.
+
+### What is the difference between the Ultimate Trio and the Classic Combo?
+The Ultimate Trio lets you pick three appetizers and comes with three sauces, at $16.99 and roughly 1,850 calories. The Classic Combo is a fixed four-item platter at $18.99 and 2,200 calories. The Trio is about choice; the Combo is about getting everything.
+
+### How many calories are in the Applebee's Ultimate Trio?
+Around 1,850 calories for the full platter. Shared between four people that works out at roughly 460 calories each. The exact figure depends on which three appetizers you choose.
+
+### How much is the Applebee's Ultimate Trio?
+The Ultimate Trio is $16.99. The Classic Combo is $18.99. Prices vary slightly by location, since Applebee's restaurants are independently franchised.
+
+### Is the Ultimate Trio half price during happy hour?
+Generally no. Combination platters are typically excluded because they are already discounted as bundles. Ordering the individual appetizers during a half price window is usually the cheaper route.
+
+### Can you choose what goes in the Ultimate Trio?
+Yes — choosing three appetizers is the format of the platter. Wing sauces are also selectable. Substitutions outside the standard list depend on the location.
+
+### How many people does the Ultimate Trio serve?
+Three to four as a shared starter. For two people it works as a full meal rather than an appetizer.
+
+### Is there a vegetarian Ultimate Trio?
+Yes. Mozzarella Sticks, Spinach & Artichoke Dip, and Brew Pub Pretzels are all vegetarian, which is enough for a full three-item platter. None are vegan — all contain dairy.
+
+---
+
+## Related Menu Categories
+
+- **Individual Starters:** The full range each Trio component comes from: [appetizers menu](/menu/appetizers).
+- **Larger Events:** For a group larger than four, [catering party platters](/catering) are priced for volume and work out cheaper than multiple sampler platters.
+- **Full Selection:** Return to the [full menu](/menu) to view all entrées, burgers, and drinks.
