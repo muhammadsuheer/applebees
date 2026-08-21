@@ -38,10 +38,9 @@ table {
 }
 
 caption {
-  display: block;
-  width: 100%;
+  caption-side: top;
+  text-align: center;
   box-sizing: border-box;
-  text-align: left;
 }
 
 /* Prevent container blowouts */
@@ -67,5 +66,6 @@ main {
     display: block !important;
     width: 100% !important;
     box-sizing: border-box !important;
+    text-align: center !important;
   }
 }
