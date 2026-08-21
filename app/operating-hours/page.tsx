@@ -144,14 +144,14 @@ export default function OperatingHoursPage() {
                 </thead>
                 <tbody>
                   <tr>
-                    <td><strong>Sunday – Thursday</strong></td>
-                    <td style={{ textAlign: 'center', fontWeight: 600 }}>11:00 AM</td>
-                    <td style={{ textAlign: 'center', fontWeight: 600 }}>11:00 PM</td>
+                    <td data-label="Days"><strong>Sunday – Thursday</strong></td>
+                    <td data-label="Opens" style={{ textAlign: 'center', fontWeight: 600 }}>11:00 AM</td>
+                    <td data-label="Closes" style={{ textAlign: 'center', fontWeight: 600 }}>11:00 PM</td>
                   </tr>
                   <tr>
-                    <td><strong>Friday – Saturday</strong></td>
-                    <td style={{ textAlign: 'center', fontWeight: 600 }}>11:00 AM</td>
-                    <td style={{ textAlign: 'center', fontWeight: 600 }}>12:00 AM (Midnight)</td>
+                    <td data-label="Days"><strong>Friday – Saturday</strong></td>
+                    <td data-label="Opens" style={{ textAlign: 'center', fontWeight: 600 }}>11:00 AM</td>
+                    <td data-label="Closes" style={{ textAlign: 'center', fontWeight: 600 }}>12:00 AM (Midnight)</td>
                   </tr>
                 </tbody>
               </table>
@@ -219,32 +219,32 @@ export default function OperatingHoursPage() {
                 </thead>
                 <tbody>
                   <tr>
-                    <td><strong>Thanksgiving</strong></td>
-                    <td>Many locations open, reduced hours</td>
+                    <td data-label="Holiday"><strong>Thanksgiving</strong></td>
+                    <td data-label="Status">Many locations open, reduced hours</td>
                   </tr>
                   <tr>
-                    <td><strong>Christmas Eve</strong></td>
-                    <td>Open, closing early</td>
+                    <td data-label="Holiday"><strong>Christmas Eve</strong></td>
+                    <td data-label="Status">Open, closing early</td>
                   </tr>
                   <tr>
-                    <td><strong>Christmas Day</strong></td>
-                    <td>Most locations closed</td>
+                    <td data-label="Holiday"><strong>Christmas Day</strong></td>
+                    <td data-label="Status">Most locations closed</td>
                   </tr>
                   <tr>
-                    <td><strong>New Year's Eve</strong></td>
-                    <td>Open, often later than usual</td>
+                    <td data-label="Holiday"><strong>New Year's Eve</strong></td>
+                    <td data-label="Status">Open, often later than usual</td>
                   </tr>
                   <tr>
-                    <td><strong>New Year's Day</strong></td>
-                    <td>Usually standard hours</td>
+                    <td data-label="Holiday"><strong>New Year's Day</strong></td>
+                    <td data-label="Status">Usually standard hours</td>
                   </tr>
                   <tr>
-                    <td><strong>Easter</strong></td>
-                    <td>Varies widely by franchise</td>
+                    <td data-label="Holiday"><strong>Easter</strong></td>
+                    <td data-label="Status">Varies widely by franchise</td>
                   </tr>
                   <tr>
-                    <td><strong>Memorial Day, July 4th, Labor Day</strong></td>
-                    <td>Usually standard hours</td>
+                    <td data-label="Holiday"><strong>Memorial Day, July 4th, Labor Day</strong></td>
+                    <td data-label="Status">Usually standard hours</td>
                   </tr>
                 </tbody>
               </table>

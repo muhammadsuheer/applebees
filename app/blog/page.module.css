@@ -319,11 +319,18 @@
 }
 
 @media (max-width: 768px) {
+  .blogContainer {
+    padding: 35px 16px;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
   .postHero h1 {
     font-size: 32px;
   }
   .postBody {
-    padding: 30px 20px;
+    padding: 30px 16px;
   }
   .postBody h2 {
     font-size: 24px;

@@ -217,22 +217,22 @@ export default function TakeoutPage() {
                 </thead>
                 <tbody>
                   <tr>
-                    <td><strong>Takeout / Carside To Go</strong></td>
-                    <td style={{ textAlign: 'center', color: '#16a34a', fontWeight: 700 }}>In-restaurant</td>
-                    <td style={{ textAlign: 'center' }}>None</td>
-                    <td style={{ textAlign: 'right' }}>None</td>
+                    <td data-label="Ordering Channel"><strong>Takeout / Carside To Go</strong></td>
+                    <td data-label="Menu Price" style={{ textAlign: 'center', color: '#16a34a', fontWeight: 700 }}>In-restaurant</td>
+                    <td data-label="Delivery Fee" style={{ textAlign: 'center' }}>None</td>
+                    <td data-label="Service Fee" style={{ textAlign: 'right' }}>None</td>
                   </tr>
                   <tr>
-                    <td><strong>Direct Delivery (App/Site)</strong></td>
-                    <td style={{ textAlign: 'center', color: '#16a34a', fontWeight: 700 }}>In-restaurant</td>
-                    <td style={{ textAlign: 'center' }}>Yes</td>
-                    <td style={{ textAlign: 'right' }}>Usually none</td>
+                    <td data-label="Ordering Channel"><strong>Direct Delivery (App/Site)</strong></td>
+                    <td data-label="Menu Price" style={{ textAlign: 'center', color: '#16a34a', fontWeight: 700 }}>In-restaurant</td>
+                    <td data-label="Delivery Fee" style={{ textAlign: 'center' }}>Yes</td>
+                    <td data-label="Service Fee" style={{ textAlign: 'right' }}>Usually none</td>
                   </tr>
                   <tr>
-                    <td><strong>Third-Party Apps (DoorDash/Uber)</strong></td>
-                    <td style={{ textAlign: 'center', color: '#dc2626', fontWeight: 700 }}>Marked up</td>
-                    <td style={{ textAlign: 'center' }}>Yes</td>
-                    <td style={{ textAlign: 'right', color: '#dc2626', fontWeight: 700 }}>Yes</td>
+                    <td data-label="Ordering Channel"><strong>Third-Party Apps (DoorDash/Uber)</strong></td>
+                    <td data-label="Menu Price" style={{ textAlign: 'center', color: '#dc2626', fontWeight: 700 }}>Marked up</td>
+                    <td data-label="Delivery Fee" style={{ textAlign: 'center' }}>Yes</td>
+                    <td data-label="Service Fee" style={{ textAlign: 'right', color: '#dc2626', fontWeight: 700 }}>Yes</td>
                   </tr>
                 </tbody>
               </table>

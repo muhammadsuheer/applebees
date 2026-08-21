@@ -139,11 +139,24 @@
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
+  .section {
+    padding: 50px 16px;
+  }
   .grid {
     grid-template-columns: 1fr;
+    gap: 20px;
   }
   .container h2 {
     font-size: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .section {
+    padding: 35px 12px;
+  }
+  .container h2 {
+    font-size: 26px;
   }
 }

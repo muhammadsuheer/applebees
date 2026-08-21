@@ -43,19 +43,37 @@ export default function OperatingHours() {
           </thead>
           <tbody>
             <tr>
-              <th scope="row">Monday - Thursday</th>
-              <td>11:00 AM</td>
-              <td>11:00 PM</td>
+              <th scope="row" className={styles.dayCell}>Monday - Thursday</th>
+              <td data-label="Opening Time">
+                <span className={styles.mobileLabel}>Opens:</span>
+                <span className={styles.timeValue}>11:00 AM</span>
+              </td>
+              <td data-label="Closing Time">
+                <span className={styles.mobileLabel}>Closes:</span>
+                <span className={styles.timeValue}>11:00 PM</span>
+              </td>
             </tr>
             <tr>
-              <th scope="row">Friday - Saturday</th>
-              <td>11:00 AM</td>
-              <td>12:00 AM (Midnight)</td>
+              <th scope="row" className={styles.dayCell}>Friday - Saturday</th>
+              <td data-label="Opening Time">
+                <span className={styles.mobileLabel}>Opens:</span>
+                <span className={styles.timeValue}>11:00 AM</span>
+              </td>
+              <td data-label="Closing Time">
+                <span className={styles.mobileLabel}>Closes:</span>
+                <span className={styles.timeValue}>12:00 AM (Midnight)</span>
+              </td>
             </tr>
             <tr>
-              <th scope="row">Sunday</th>
-              <td>11:00 AM</td>
-              <td>11:00 PM</td>
+              <th scope="row" className={styles.dayCell}>Sunday</th>
+              <td data-label="Opening Time">
+                <span className={styles.mobileLabel}>Opens:</span>
+                <span className={styles.timeValue}>11:00 AM</span>
+              </td>
+              <td data-label="Closing Time">
+                <span className={styles.mobileLabel}>Closes:</span>
+                <span className={styles.timeValue}>11:00 PM</span>
+              </td>
             </tr>
           </tbody>
         </table>

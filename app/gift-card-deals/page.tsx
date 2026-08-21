@@ -169,20 +169,20 @@ export default function GiftCardPage() {
                 </thead>
                 <tbody>
                   <tr>
-                    <td>You have the card in hand and a location nearby</td>
-                    <td style={{ textAlign: 'right', fontWeight: 600 }}>In-restaurant</td>
+                    <td data-label="Situation">You have the card in hand and a location nearby</td>
+                    <td data-label="Best Method" style={{ textAlign: 'right', fontWeight: 600 }}>In-restaurant</td>
                   </tr>
                   <tr>
-                    <td>You want to check right now from home</td>
-                    <td style={{ textAlign: 'right', fontWeight: 600 }}>Official site link</td>
+                    <td data-label="Situation">You want to check right now from home</td>
+                    <td data-label="Best Method" style={{ textAlign: 'right', fontWeight: 600 }}>Official site link</td>
                   </tr>
                   <tr>
-                    <td>You are unsure whether a site is genuine</td>
-                    <td style={{ textAlign: 'right', fontWeight: 600 }}>Phone (1-800-252-6722)</td>
+                    <td data-label="Situation">You are unsure whether a site is genuine</td>
+                    <td data-label="Best Method" style={{ textAlign: 'right', fontWeight: 600 }}>Phone (1-800-252-6722)</td>
                   </tr>
                   <tr>
-                    <td>The card is lost or stolen</td>
-                    <td style={{ textAlign: 'right', fontWeight: 700, color: '#c8102e' }}>Phone, immediately</td>
+                    <td data-label="Situation">The card is lost or stolen</td>
+                    <td data-label="Best Method" style={{ textAlign: 'right', fontWeight: 700, color: '#c8102e' }}>Phone, immediately</td>
                   </tr>
                 </tbody>
               </table>

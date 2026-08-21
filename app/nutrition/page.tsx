@@ -218,18 +218,18 @@ export default function NutritionPage() {
                 <tbody>
                   {nutritionData[0].items.map((item) => (
                     <tr key={item.id}>
-                      <td className={styles.nameCell}><strong>{item.name}</strong></td>
-                      <td className={styles.calCell}>{item.calories}</td>
-                      <td>{item.fat}g</td>
-                      <td>{item.satFat}g</td>
-                      <td>{item.transFat}g</td>
-                      <td>{item.cholesterol}mg</td>
-                      <td className={styles.sodiumCell}>{item.sodium.toLocaleString()}mg</td>
-                      <td>{item.carbs}g</td>
-                      <td>{item.fiber}g</td>
-                      <td>{item.sugars}g</td>
-                      <td className={styles.proteinCell}>{item.protein}g</td>
-                      <td className={styles.allergenCell}>
+                      <td className={styles.nameCell} data-label="Item"><strong>{item.name}</strong></td>
+                      <td className={styles.calCell} data-label="Calories">{item.calories}</td>
+                      <td data-label="Fat">{item.fat}g</td>
+                      <td data-label="Saturated Fat">{item.satFat}g</td>
+                      <td data-label="Trans Fat">{item.transFat}g</td>
+                      <td data-label="Cholesterol">{item.cholesterol}mg</td>
+                      <td className={styles.sodiumCell} data-label="Sodium">{item.sodium.toLocaleString()}mg</td>
+                      <td data-label="Carbs">{item.carbs}g</td>
+                      <td data-label="Fiber">{item.fiber}g</td>
+                      <td data-label="Sugar">{item.sugars}g</td>
+                      <td className={styles.proteinCell} data-label="Protein">{item.protein}g</td>
+                      <td className={styles.allergenCell} data-label="Allergens & Flags">
                         {item.dietaryTags?.map(t => <span key={t} className={styles.dietTag}>{t}</span>)}
                         {item.allergens?.join(', ')}
                       </td>
@@ -272,18 +272,18 @@ export default function NutritionPage() {
                 <tbody>
                   {nutritionData[1].items.map((item) => (
                     <tr key={item.id}>
-                      <td className={styles.nameCell}><strong>{item.name}</strong></td>
-                      <td className={styles.calCell}>{item.calories}</td>
-                      <td>{item.fat}g</td>
-                      <td>{item.satFat}g</td>
-                      <td>{item.transFat}g</td>
-                      <td>{item.cholesterol}mg</td>
-                      <td className={styles.sodiumCell}>{item.sodium.toLocaleString()}mg</td>
-                      <td>{item.carbs}g</td>
-                      <td>{item.fiber}g</td>
-                      <td>{item.sugars}g</td>
-                      <td className={styles.proteinCell}>{item.protein}g</td>
-                      <td className={styles.allergenCell}>
+                      <td className={styles.nameCell} data-label="Item"><strong>{item.name}</strong></td>
+                      <td className={styles.calCell} data-label="Calories">{item.calories}</td>
+                      <td data-label="Fat">{item.fat}g</td>
+                      <td data-label="Saturated Fat">{item.satFat}g</td>
+                      <td data-label="Trans Fat">{item.transFat}g</td>
+                      <td data-label="Cholesterol">{item.cholesterol}mg</td>
+                      <td className={styles.sodiumCell} data-label="Sodium">{item.sodium.toLocaleString()}mg</td>
+                      <td data-label="Carbs">{item.carbs}g</td>
+                      <td data-label="Fiber">{item.fiber}g</td>
+                      <td data-label="Sugar">{item.sugars}g</td>
+                      <td className={styles.proteinCell} data-label="Protein">{item.protein}g</td>
+                      <td className={styles.allergenCell} data-label="Allergens & Flags">
                         {item.dietaryTags?.map(t => <span key={t} className={styles.dietTag}>{t}</span>)}
                         {item.allergens?.length ? item.allergens.join(', ') : 'None'}
                       </td>
@@ -326,18 +326,18 @@ export default function NutritionPage() {
                 <tbody>
                   {nutritionData[2].items.map((item) => (
                     <tr key={item.id}>
-                      <td className={styles.nameCell}><strong>{item.name}</strong></td>
-                      <td className={styles.calCell}>{item.calories}</td>
-                      <td>{item.fat}g</td>
-                      <td>{item.satFat}g</td>
-                      <td>{item.transFat}g</td>
-                      <td>{item.cholesterol}mg</td>
-                      <td className={styles.sodiumCell}>{item.sodium.toLocaleString()}mg</td>
-                      <td>{item.carbs}g</td>
-                      <td>{item.fiber}g</td>
-                      <td>{item.sugars}g</td>
-                      <td className={styles.proteinCell}>{item.protein}g</td>
-                      <td className={styles.allergenCell}>
+                      <td className={styles.nameCell} data-label="Item"><strong>{item.name}</strong></td>
+                      <td className={styles.calCell} data-label="Calories">{item.calories}</td>
+                      <td data-label="Fat">{item.fat}g</td>
+                      <td data-label="Saturated Fat">{item.satFat}g</td>
+                      <td data-label="Trans Fat">{item.transFat}g</td>
+                      <td data-label="Cholesterol">{item.cholesterol}mg</td>
+                      <td className={styles.sodiumCell} data-label="Sodium">{item.sodium.toLocaleString()}mg</td>
+                      <td data-label="Carbs">{item.carbs}g</td>
+                      <td data-label="Fiber">{item.fiber}g</td>
+                      <td data-label="Sugar">{item.sugars}g</td>
+                      <td className={styles.proteinCell} data-label="Protein">{item.protein}g</td>
+                      <td className={styles.allergenCell} data-label="Allergens & Flags">
                         {item.dietaryTags?.map(t => <span key={t} className={styles.dietTag}>{t}</span>)}
                         {item.allergens?.join(', ')}
                       </td>
@@ -380,18 +380,18 @@ export default function NutritionPage() {
                 <tbody>
                   {nutritionData[3].items.map((item) => (
                     <tr key={item.id}>
-                      <td className={styles.nameCell}><strong>{item.name}</strong></td>
-                      <td className={styles.calCell}>{item.calories}</td>
-                      <td>{item.fat}g</td>
-                      <td>{item.satFat}g</td>
-                      <td>{item.transFat}g</td>
-                      <td>{item.cholesterol}mg</td>
-                      <td className={styles.sodiumCell}>{item.sodium.toLocaleString()}mg</td>
-                      <td>{item.carbs}g</td>
-                      <td>{item.fiber}g</td>
-                      <td>{item.sugars}g</td>
-                      <td className={styles.proteinCell}>{item.protein}g</td>
-                      <td className={styles.allergenCell}>
+                      <td className={styles.nameCell} data-label="Item"><strong>{item.name}</strong></td>
+                      <td className={styles.calCell} data-label="Calories">{item.calories}</td>
+                      <td data-label="Fat">{item.fat}g</td>
+                      <td data-label="Saturated Fat">{item.satFat}g</td>
+                      <td data-label="Trans Fat">{item.transFat}g</td>
+                      <td data-label="Cholesterol">{item.cholesterol}mg</td>
+                      <td className={styles.sodiumCell} data-label="Sodium">{item.sodium.toLocaleString()}mg</td>
+                      <td data-label="Carbs">{item.carbs}g</td>
+                      <td data-label="Fiber">{item.fiber}g</td>
+                      <td data-label="Sugar">{item.sugars}g</td>
+                      <td className={styles.proteinCell} data-label="Protein">{item.protein}g</td>
+                      <td className={styles.allergenCell} data-label="Allergens & Flags">
                         {item.dietaryTags?.map(t => <span key={t} className={styles.dietTag}>{t}</span>)}
                         {item.allergens?.join(', ')}
                       </td>
@@ -434,18 +434,18 @@ export default function NutritionPage() {
                 <tbody>
                   {nutritionData[4].items.map((item) => (
                     <tr key={item.id}>
-                      <td className={styles.nameCell}><strong>{item.name}</strong></td>
-                      <td className={styles.calCell}>{item.calories}</td>
-                      <td>{item.fat}g</td>
-                      <td>{item.satFat}g</td>
-                      <td>{item.transFat}g</td>
-                      <td>{item.cholesterol}mg</td>
-                      <td className={styles.sodiumCell}>{item.sodium.toLocaleString()}mg</td>
-                      <td>{item.carbs}g</td>
-                      <td>{item.fiber}g</td>
-                      <td>{item.sugars}g</td>
-                      <td className={styles.proteinCell}>{item.protein}g</td>
-                      <td className={styles.allergenCell}>
+                      <td className={styles.nameCell} data-label="Item"><strong>{item.name}</strong></td>
+                      <td className={styles.calCell} data-label="Calories">{item.calories}</td>
+                      <td data-label="Fat">{item.fat}g</td>
+                      <td data-label="Saturated Fat">{item.satFat}g</td>
+                      <td data-label="Trans Fat">{item.transFat}g</td>
+                      <td data-label="Cholesterol">{item.cholesterol}mg</td>
+                      <td className={styles.sodiumCell} data-label="Sodium">{item.sodium.toLocaleString()}mg</td>
+                      <td data-label="Carbs">{item.carbs}g</td>
+                      <td data-label="Fiber">{item.fiber}g</td>
+                      <td data-label="Sugar">{item.sugars}g</td>
+                      <td className={styles.proteinCell} data-label="Protein">{item.protein}g</td>
+                      <td className={styles.allergenCell} data-label="Allergens & Flags">
                         {item.dietaryTags?.map(t => <span key={t} className={styles.dietTag}>{t}</span>)}
                         {item.allergens?.join(', ')}
                       </td>
@@ -488,18 +488,18 @@ export default function NutritionPage() {
                 <tbody>
                   {nutritionData[5].items.map((item) => (
                     <tr key={item.id}>
-                      <td className={styles.nameCell}><strong>{item.name}</strong></td>
-                      <td className={styles.calCell}>{item.calories}</td>
-                      <td>{item.fat}g</td>
-                      <td>{item.satFat}g</td>
-                      <td>{item.transFat}g</td>
-                      <td>{item.cholesterol}mg</td>
-                      <td className={styles.sodiumCell}>{item.sodium.toLocaleString()}mg</td>
-                      <td>{item.carbs}g</td>
-                      <td>{item.fiber}g</td>
-                      <td>{item.sugars}g</td>
-                      <td className={styles.proteinCell}>{item.protein}g</td>
-                      <td className={styles.allergenCell}>
+                      <td className={styles.nameCell} data-label="Item"><strong>{item.name}</strong></td>
+                      <td className={styles.calCell} data-label="Calories">{item.calories}</td>
+                      <td data-label="Fat">{item.fat}g</td>
+                      <td data-label="Saturated Fat">{item.satFat}g</td>
+                      <td data-label="Trans Fat">{item.transFat}g</td>
+                      <td data-label="Cholesterol">{item.cholesterol}mg</td>
+                      <td className={styles.sodiumCell} data-label="Sodium">{item.sodium.toLocaleString()}mg</td>
+                      <td data-label="Carbs">{item.carbs}g</td>
+                      <td data-label="Fiber">{item.fiber}g</td>
+                      <td data-label="Sugar">{item.sugars}g</td>
+                      <td className={styles.proteinCell} data-label="Protein">{item.protein}g</td>
+                      <td className={styles.allergenCell} data-label="Allergens & Flags">
                         {item.dietaryTags?.map(t => <span key={t} className={styles.dietTag}>{t}</span>)}
                         {item.allergens?.length ? item.allergens.join(', ') : 'None'}
                       </td>
@@ -716,10 +716,10 @@ export default function NutritionPage() {
               <tbody>
                 {kidsMenuData.map((k, idx) => (
                   <tr key={idx}>
-                    <td className={styles.nameCell}><strong>{k.name}</strong></td>
-                    <td className={styles.calCell}>{k.calories}</td>
-                    <td className={styles.proteinCell}>{k.protein}</td>
-                    <td className={styles.sodiumCell}>{k.sodium}</td>
+                    <td className={styles.nameCell} data-label="Item"><strong>{k.name}</strong></td>
+                    <td className={styles.calCell} data-label="Calories">{k.calories}</td>
+                    <td className={styles.proteinCell} data-label="Protein">{k.protein}</td>
+                    <td className={styles.sodiumCell} data-label="Sodium">{k.sodium}</td>
                   </tr>
                 ))}
               </tbody>
@@ -754,10 +754,10 @@ export default function NutritionPage() {
               <tbody>
                 {drinkCaloriesData.map((d, idx) => (
                   <tr key={idx}>
-                    <td className={styles.nameCell}><strong>{d.name}</strong></td>
-                    <td className={styles.calCell}>{d.calories}</td>
-                    <td style={{ textAlign: 'center', color: '#4b5563', fontWeight: 600 }}>{d.sugars}</td>
-                    <td style={{ textAlign: 'right', color: '#4b5563', fontWeight: 600 }}>{d.abv}</td>
+                    <td className={styles.nameCell} data-label="Drink"><strong>{d.name}</strong></td>
+                    <td className={styles.calCell} data-label="Calories">{d.calories}</td>
+                    <td data-label="Sugar" style={{ textAlign: 'center', color: '#4b5563', fontWeight: 600 }}>{d.sugars}</td>
+                    <td data-label="ABV" style={{ textAlign: 'right', color: '#4b5563', fontWeight: 600 }}>{d.abv}</td>
                   </tr>
                 ))}
               </tbody>

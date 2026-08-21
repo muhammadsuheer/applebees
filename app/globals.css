@@ -31,10 +31,17 @@ img, picture, video, canvas, svg {
   overflow-wrap: break-word;
 }
 
-/* Make tables fill their container properly */
+/* Make tables fill their container properly and prevent horizontal page blowout */
 table {
   width: 100%;
   border-collapse: collapse;
+}
+
+caption {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: left;
 }
 
 /* Prevent container blowouts */
@@ -42,4 +49,23 @@ main {
   width: 100%;
   max-width: 100vw;
   overflow-x: hidden;
+}
+
+@media (max-width: 768px) {
+  html, body {
+    overflow-x: hidden;
+    width: 100%;
+    position: relative;
+  }
+
+  table {
+    display: block;
+    width: 100%;
+  }
+
+  caption {
+    display: block !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
 }

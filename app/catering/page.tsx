@@ -185,39 +185,39 @@ export default function CateringPage() {
                 </thead>
                 <tbody>
                   <tr>
-                    <td><strong>10 Guests</strong></td>
-                    <td style={{ textAlign: 'center' }}>1</td>
-                    <td style={{ textAlign: 'center' }}>2</td>
-                    <td style={{ textAlign: 'center' }}>1</td>
-                    <td style={{ textAlign: 'right', fontWeight: 700, color: '#c8102e' }}>4 platters</td>
+                    <td data-label="Guests"><strong>10 Guests</strong></td>
+                    <td data-label="Appetizers" style={{ textAlign: 'center' }}>1</td>
+                    <td data-label="Entrées" style={{ textAlign: 'center' }}>2</td>
+                    <td data-label="Sides / Salads" style={{ textAlign: 'center' }}>1</td>
+                    <td data-label="Rough Total" style={{ textAlign: 'right', fontWeight: 700, color: '#c8102e' }}>4 platters</td>
                   </tr>
                   <tr>
-                    <td><strong>15 Guests</strong></td>
-                    <td style={{ textAlign: 'center' }}>2</td>
-                    <td style={{ textAlign: 'center' }}>2</td>
-                    <td style={{ textAlign: 'center' }}>2</td>
-                    <td style={{ textAlign: 'right', fontWeight: 700, color: '#c8102e' }}>6 platters</td>
+                    <td data-label="Guests"><strong>15 Guests</strong></td>
+                    <td data-label="Appetizers" style={{ textAlign: 'center' }}>2</td>
+                    <td data-label="Entrées" style={{ textAlign: 'center' }}>2</td>
+                    <td data-label="Sides / Salads" style={{ textAlign: 'center' }}>2</td>
+                    <td data-label="Rough Total" style={{ textAlign: 'right', fontWeight: 700, color: '#c8102e' }}>6 platters</td>
                   </tr>
                   <tr>
-                    <td><strong>20 Guests</strong></td>
-                    <td style={{ textAlign: 'center' }}>2</td>
-                    <td style={{ textAlign: 'center' }}>3</td>
-                    <td style={{ textAlign: 'center' }}>2</td>
-                    <td style={{ textAlign: 'right', fontWeight: 700, color: '#c8102e' }}>7 platters</td>
+                    <td data-label="Guests"><strong>20 Guests</strong></td>
+                    <td data-label="Appetizers" style={{ textAlign: 'center' }}>2</td>
+                    <td data-label="Entrées" style={{ textAlign: 'center' }}>3</td>
+                    <td data-label="Sides / Salads" style={{ textAlign: 'center' }}>2</td>
+                    <td data-label="Rough Total" style={{ textAlign: 'right', fontWeight: 700, color: '#c8102e' }}>7 platters</td>
                   </tr>
                   <tr>
-                    <td><strong>30 Guests</strong></td>
-                    <td style={{ textAlign: 'center' }}>3</td>
-                    <td style={{ textAlign: 'center' }}>4</td>
-                    <td style={{ textAlign: 'center' }}>3</td>
-                    <td style={{ textAlign: 'right', fontWeight: 700, color: '#c8102e' }}>10 platters</td>
+                    <td data-label="Guests"><strong>30 Guests</strong></td>
+                    <td data-label="Appetizers" style={{ textAlign: 'center' }}>3</td>
+                    <td data-label="Entrées" style={{ textAlign: 'center' }}>4</td>
+                    <td data-label="Sides / Salads" style={{ textAlign: 'center' }}>3</td>
+                    <td data-label="Rough Total" style={{ textAlign: 'right', fontWeight: 700, color: '#c8102e' }}>10 platters</td>
                   </tr>
                   <tr>
-                    <td><strong>50 Guests</strong></td>
-                    <td style={{ textAlign: 'center' }}>5</td>
-                    <td style={{ textAlign: 'center' }}>7</td>
-                    <td style={{ textAlign: 'center' }}>5</td>
-                    <td style={{ textAlign: 'right', fontWeight: 700, color: '#c8102e' }}>17 platters</td>
+                    <td data-label="Guests"><strong>50 Guests</strong></td>
+                    <td data-label="Appetizers" style={{ textAlign: 'center' }}>5</td>
+                    <td data-label="Entrées" style={{ textAlign: 'center' }}>7</td>
+                    <td data-label="Sides / Salads" style={{ textAlign: 'center' }}>5</td>
+                    <td data-label="Rough Total" style={{ textAlign: 'right', fontWeight: 700, color: '#c8102e' }}>17 platters</td>
                   </tr>
                 </tbody>
               </table>

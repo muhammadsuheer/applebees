@@ -128,3 +128,45 @@
   padding-top: 16px;
   font-style: italic;
 }
+
+@media (max-width: 768px) {
+  .menuSection {
+    padding: 45px 16px;
+  }
+  .sectionTitle {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+  .sectionTitle::after {
+    margin: 12px auto 25px;
+  }
+  .sectionDescription {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .imageWrapper {
+    height: 200px;
+  }
+  .cardContent {
+    padding: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .menuSection {
+    padding: 35px 12px;
+  }
+  .sectionTitle {
+    font-size: 24px;
+  }
+  .grid {
+    gap: 16px;
+  }
+  .imageWrapper {
+    height: 180px;
+  }
+}

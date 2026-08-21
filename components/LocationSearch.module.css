@@ -284,11 +284,25 @@
   cursor: pointer;
 }
 
+@media (max-width: 768px) {
+  .locationsGrid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+}
+
 @media (max-width: 640px) {
   .searchHeader {
-    padding: 20px;
+    padding: 20px 16px;
   }
   .cardActions {
     flex-direction: column;
+  }
+  .statePillsContainer {
+    gap: 6px;
+  }
+  .statePill {
+    padding: 6px 12px;
+    font-size: 12px;
   }
 }

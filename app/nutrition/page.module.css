@@ -391,4 +391,115 @@
   .faqItem {
     padding: 16px;
   }
+
+  .tableResponsive {
+    overflow-x: visible;
+    width: 100%;
+  }
+
+  .nutritionTable {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    box-sizing: border-box !important;
+  }
+
+  .nutritionTable caption {
+    display: block !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  .nutritionTable thead {
+    display: none !important;
+  }
+
+  .nutritionTable tbody {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+    gap: 14px;
+    padding: 12px;
+    background-color: #f8fafc;
+  }
+
+  .nutritionTable tbody tr {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 16px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+    gap: 6px;
+  }
+
+  .nameCell {
+    display: block;
+    width: 100%;
+    padding: 0 0 8px 0 !important;
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: #111827 !important;
+    border-bottom: 1px solid #e2e8f0;
+    text-align: left !important;
+  }
+
+  .nutritionTable tbody td:not(.nameCell) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 0 !important;
+    border: none;
+    font-size: 0.92rem;
+    border-bottom: 1px dashed #f1f5f9;
+    text-align: right;
+  }
+
+  .nutritionTable tbody td:not(.nameCell)::before {
+    content: attr(data-label) ":";
+    font-family: var(--font-roboto), sans-serif;
+    font-weight: 600;
+    color: #64748b;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .calCell {
+    font-weight: 700;
+    color: #111827;
+    font-size: 0.98rem;
+  }
+
+  .sodiumCell {
+    color: #dc2626;
+    font-weight: 700;
+  }
+
+  .proteinCell {
+    color: #16a34a;
+    font-weight: 700;
+  }
+
+  .allergenCell {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 6px;
+    padding-top: 8px !important;
+    border-bottom: none !important;
+    text-align: left !important;
+  }
+
+  .allergenCell::before {
+    content: "Allergens & Dietary Flags:" !important;
+    font-weight: 700;
+    color: #475569;
+    font-size: 0.85rem;
+  }
 }

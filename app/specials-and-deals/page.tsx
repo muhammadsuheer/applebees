@@ -165,24 +165,24 @@ export default function SpecialsPage() {
                 </thead>
                 <tbody>
                   <tr>
-                    <td><strong>Boneless Wings + 2× Fiesta Lime Chicken</strong></td>
-                    <td style={{ textAlign: 'center', fontWeight: 600 }}>3,460</td>
-                    <td style={{ textAlign: 'right', fontWeight: 700, color: '#16a34a' }}>162g</td>
+                    <td data-label="Combination"><strong>Boneless Wings + 2× Fiesta Lime Chicken</strong></td>
+                    <td data-label="Calories" style={{ textAlign: 'center', fontWeight: 600 }}>3,460</td>
+                    <td data-label="Protein" style={{ textAlign: 'right', fontWeight: 700, color: '#16a34a' }}>162g</td>
                   </tr>
                   <tr>
-                    <td><strong>Boneless Wings + 2× Three-Cheese Chicken Penne</strong></td>
-                    <td style={{ textAlign: 'center', fontWeight: 600 }}>3,780</td>
-                    <td style={{ textAlign: 'right', fontWeight: 700, color: '#16a34a' }}>194g</td>
+                    <td data-label="Combination"><strong>Boneless Wings + 2× Three-Cheese Chicken Penne</strong></td>
+                    <td data-label="Calories" style={{ textAlign: 'center', fontWeight: 600 }}>3,780</td>
+                    <td data-label="Protein" style={{ textAlign: 'right', fontWeight: 700, color: '#16a34a' }}>194g</td>
                   </tr>
                   <tr>
-                    <td><strong>Mozzarella Sticks + 2× Classic Cheeseburger</strong></td>
-                    <td style={{ textAlign: 'center', fontWeight: 600 }}>3,300</td>
-                    <td style={{ textAlign: 'right', fontWeight: 700, color: '#16a34a' }}>141g</td>
+                    <td data-label="Combination"><strong>Mozzarella Sticks + 2× Classic Cheeseburger</strong></td>
+                    <td data-label="Calories" style={{ textAlign: 'center', fontWeight: 600 }}>3,300</td>
+                    <td data-label="Protein" style={{ textAlign: 'right', fontWeight: 700, color: '#16a34a' }}>141g</td>
                   </tr>
                   <tr>
-                    <td><strong>Spinach & Artichoke Dip + 2× 8 oz. Sirloin (upgrade)</strong></td>
-                    <td style={{ textAlign: 'center', fontWeight: 600 }}>2,650</td>
-                    <td style={{ textAlign: 'right', fontWeight: 700, color: '#16a34a' }}>131g</td>
+                    <td data-label="Combination"><strong>Spinach & Artichoke Dip + 2× 8 oz. Sirloin (upgrade)</strong></td>
+                    <td data-label="Calories" style={{ textAlign: 'center', fontWeight: 600 }}>2,650</td>
+                    <td data-label="Protein" style={{ textAlign: 'right', fontWeight: 700, color: '#16a34a' }}>131g</td>
                   </tr>
                 </tbody>
               </table>

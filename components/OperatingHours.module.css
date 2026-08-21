@@ -61,3 +61,90 @@
   color: #6b7280;
   text-align: center;
 }
+
+.mobileLabel {
+  display: none;
+}
+
+.timeValue {
+  display: inline-block;
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 40px 16px;
+  }
+
+  .title {
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+
+  .hoursTable {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    box-sizing: border-box !important;
+    border: none;
+  }
+
+  .hoursTable thead {
+    display: none !important;
+  }
+
+  .hoursTable tbody {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+    gap: 12px;
+  }
+
+  .hoursTable tbody tr {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+    background-color: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+    gap: 8px;
+  }
+
+  .hoursTable th,
+  .hoursTable td {
+    padding: 0;
+    border: none;
+  }
+
+  .dayCell {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #1a2433 !important;
+    border-bottom: 1px solid #f1f5f9 !important;
+    padding-bottom: 8px !important;
+  }
+
+  .hoursTable tbody td {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.95rem;
+  }
+
+  .mobileLabel {
+    display: inline-block;
+    font-weight: 600;
+    color: #64748b;
+    font-size: 0.88rem;
+    text-transform: uppercase;
+  }
+
+  .timeValue {
+    font-weight: 600;
+    color: #111827;
+  }
+}

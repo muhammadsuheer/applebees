@@ -99,9 +99,17 @@ export default function FullMenu() {
                       {category.items.map((item) => (
                         <tr key={`table-${item.id}`}>
                           <th scope="row" className={styles.nameCell}>{item.name}</th>
-                          <td className={styles.calorieCell}>{item.calories}</td>
-                          <td className={styles.priceCell}>{item.price}</td>
-                          <td className={styles.descCell}>{item.tableDescription}</td>
+                          <td className={styles.calorieCell} data-label="Calories">
+                            <span className={styles.mobileLabel}>Calories:</span>
+                            <span className={styles.cellValue}>{item.calories}</span>
+                          </td>
+                          <td className={styles.priceCell} data-label="Price">
+                            <span className={styles.mobileLabel}>Price:</span>
+                            <span className={styles.cellValue}>{item.price}</span>
+                          </td>
+                          <td className={styles.descCell} data-label="Description">
+                            <span className={styles.descValue}>{item.tableDescription}</span>
+                          </td>
                         </tr>
                       ))}
                     </tbody>

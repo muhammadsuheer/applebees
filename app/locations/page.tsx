@@ -227,14 +227,14 @@ export default function LocationsPage() {
                 </thead>
                 <tbody>
                   <tr>
-                    <td><strong>Sunday – Thursday</strong></td>
-                    <td>11:00 AM</td>
-                    <td>11:00 PM</td>
+                    <td data-label="Days"><strong>Sunday – Thursday</strong></td>
+                    <td data-label="Opens">11:00 AM</td>
+                    <td data-label="Closes">11:00 PM</td>
                   </tr>
                   <tr>
-                    <td><strong>Friday – Saturday</strong></td>
-                    <td>11:00 AM</td>
-                    <td>12:00 AM or later</td>
+                    <td data-label="Days"><strong>Friday – Saturday</strong></td>
+                    <td data-label="Opens">11:00 AM</td>
+                    <td data-label="Closes">12:00 AM or later</td>
                   </tr>
                 </tbody>
               </table>

@@ -224,4 +224,80 @@
   .faqItem {
     padding: 16px;
   }
+
+  .tableResponsive {
+    overflow-x: visible;
+    width: 100%;
+  }
+
+  .customTable {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    box-sizing: border-box !important;
+  }
+
+  .customTable caption {
+    display: block !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  .customTable thead {
+    display: none !important;
+  }
+
+  .customTable tbody {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+    gap: 12px;
+    padding: 12px;
+    background-color: #f8fafc;
+  }
+
+  .customTable tbody tr {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    padding: 14px 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
+    gap: 6px;
+  }
+
+  .customTable tbody td {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 0 !important;
+    border: none;
+    font-size: 0.95rem;
+    text-align: right;
+  }
+
+  .customTable tbody td:first-child {
+    display: block;
+    width: 100%;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #111827;
+    border-bottom: 1px solid #f1f5f9;
+    padding-bottom: 6px !important;
+    text-align: left;
+  }
+
+  .customTable tbody td:not(:first-child)::before {
+    content: attr(data-label) ":";
+    font-weight: 600;
+    color: #64748b;
+    font-size: 0.88rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
 }

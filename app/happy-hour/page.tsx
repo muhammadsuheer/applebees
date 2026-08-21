@@ -144,14 +144,14 @@ export default function HappyHourPage() {
                 </thead>
                 <tbody>
                   <tr>
-                    <td><strong>Afternoon</strong></td>
-                    <td>3:00 PM – 6:00 PM</td>
-                    <td>Varies; often not offered</td>
+                    <td data-label="Window"><strong>Afternoon</strong></td>
+                    <td data-label="Weekdays">3:00 PM – 6:00 PM</td>
+                    <td data-label="Weekends">Varies; often not offered</td>
                   </tr>
                   <tr>
-                    <td><strong>Late night</strong></td>
-                    <td>From 9:00 PM until close</td>
-                    <td>From 10:00 PM until close</td>
+                    <td data-label="Window"><strong>Late night</strong></td>
+                    <td data-label="Weekdays">From 9:00 PM until close</td>
+                    <td data-label="Weekends">From 10:00 PM until close</td>
                   </tr>
                 </tbody>
               </table>
@@ -240,28 +240,28 @@ export default function HappyHourPage() {
                 </thead>
                 <tbody>
                   <tr>
-                    <td><strong>Massachusetts</strong></td>
-                    <td>Banned since 1984  the first state to do so.</td>
+                    <td data-label="State"><strong>Massachusetts</strong></td>
+                    <td data-label="Constraint">Banned since 1984  the first state to do so.</td>
                   </tr>
                   <tr>
-                    <td><strong>Rhode Island</strong></td>
-                    <td>Banned since 1985; daily specials allowed, timed discounts not.</td>
+                    <td data-label="State"><strong>Rhode Island</strong></td>
+                    <td data-label="Constraint">Banned since 1985; daily specials allowed, timed discounts not.</td>
                   </tr>
                   <tr>
-                    <td><strong>Utah</strong></td>
-                    <td>Banned since 2011.</td>
+                    <td data-label="State"><strong>Utah</strong></td>
+                    <td data-label="Constraint">Banned since 2011.</td>
                   </tr>
                   <tr>
-                    <td><strong>Alaska</strong></td>
-                    <td>Prices cannot fall below the rate charged in the same calendar week.</td>
+                    <td data-label="State"><strong>Alaska</strong></td>
+                    <td data-label="Constraint">Prices cannot fall below the rate charged in the same calendar week.</td>
                   </tr>
                   <tr>
-                    <td><strong>North Carolina</strong></td>
-                    <td>A discounted price must apply for a full business day.</td>
+                    <td data-label="State"><strong>North Carolina</strong></td>
+                    <td data-label="Constraint">A discounted price must apply for a full business day.</td>
                   </tr>
                   <tr>
-                    <td><strong>Vermont</strong></td>
-                    <td>Timed alcohol discounts prohibited.</td>
+                    <td data-label="State"><strong>Vermont</strong></td>
+                    <td data-label="Constraint">Timed alcohol discounts prohibited.</td>
                   </tr>
                 </tbody>
               </table>
@@ -308,40 +308,40 @@ export default function HappyHourPage() {
                 </thead>
                 <tbody>
                   <tr>
-                    <td><strong>Chicken Wonton Tacos</strong></td>
-                    <td style={{ textAlign: 'center' }}>590</td>
-                    <td style={{ textAlign: 'center' }}></td>
-                    <td style={{ textAlign: 'right' }}></td>
+                    <td data-label="Appetizer"><strong>Chicken Wonton Tacos</strong></td>
+                    <td data-label="Calories" style={{ textAlign: 'center' }}>590</td>
+                    <td data-label="Protein" style={{ textAlign: 'center' }}>-</td>
+                    <td data-label="Sodium" style={{ textAlign: 'right' }}>-</td>
                   </tr>
                   <tr>
-                    <td><strong>Mozzarella Sticks</strong></td>
-                    <td style={{ textAlign: 'center' }}>860</td>
-                    <td style={{ textAlign: 'center', fontWeight: 700, color: '#16a34a' }}>41g</td>
-                    <td style={{ textAlign: 'right' }}>2,440mg</td>
+                    <td data-label="Appetizer"><strong>Mozzarella Sticks</strong></td>
+                    <td data-label="Calories" style={{ textAlign: 'center' }}>860</td>
+                    <td data-label="Protein" style={{ textAlign: 'center', fontWeight: 700, color: '#16a34a' }}>41g</td>
+                    <td data-label="Sodium" style={{ textAlign: 'right' }}>2,440mg</td>
                   </tr>
                   <tr>
-                    <td><strong>Spinach & Artichoke Dip</strong></td>
-                    <td style={{ textAlign: 'center' }}>990</td>
-                    <td style={{ textAlign: 'center' }}>21g</td>
-                    <td style={{ textAlign: 'right' }}>2,340mg</td>
+                    <td data-label="Appetizer"><strong>Spinach & Artichoke Dip</strong></td>
+                    <td data-label="Calories" style={{ textAlign: 'center' }}>990</td>
+                    <td data-label="Protein" style={{ textAlign: 'center' }}>21g</td>
+                    <td data-label="Sodium" style={{ textAlign: 'right' }}>2,340mg</td>
                   </tr>
                   <tr>
-                    <td><strong>Boneless Wings (Classic Hot Buffalo)</strong></td>
-                    <td style={{ textAlign: 'center' }}>1,080</td>
-                    <td style={{ textAlign: 'center', fontWeight: 700, color: '#16a34a' }}>40g</td>
-                    <td style={{ textAlign: 'right', color: '#dc2626', fontWeight: 700 }}>4,720mg</td>
+                    <td data-label="Appetizer"><strong>Boneless Wings (Classic Hot Buffalo)</strong></td>
+                    <td data-label="Calories" style={{ textAlign: 'center' }}>1,080</td>
+                    <td data-label="Protein" style={{ textAlign: 'center', fontWeight: 700, color: '#16a34a' }}>40g</td>
+                    <td data-label="Sodium" style={{ textAlign: 'right', color: '#dc2626', fontWeight: 700 }}>4,720mg</td>
                   </tr>
                   <tr>
-                    <td><strong>Brew Pub Pretzels & Beer Cheese Dip</strong></td>
-                    <td style={{ textAlign: 'center' }}>1,160</td>
-                    <td style={{ textAlign: 'center' }}>34g</td>
-                    <td style={{ textAlign: 'right' }}>3,540mg</td>
+                    <td data-label="Appetizer"><strong>Brew Pub Pretzels & Beer Cheese Dip</strong></td>
+                    <td data-label="Calories" style={{ textAlign: 'center' }}>1,160</td>
+                    <td data-label="Protein" style={{ textAlign: 'center' }}>34g</td>
+                    <td data-label="Sodium" style={{ textAlign: 'right' }}>3,540mg</td>
                   </tr>
                   <tr>
-                    <td><strong>Chicken Quesadilla</strong></td>
-                    <td style={{ textAlign: 'center' }}>1,170</td>
-                    <td style={{ textAlign: 'center', fontWeight: 700, color: '#16a34a' }}>49g</td>
-                    <td style={{ textAlign: 'right' }}>2,590mg</td>
+                    <td data-label="Appetizer"><strong>Chicken Quesadilla</strong></td>
+                    <td data-label="Calories" style={{ textAlign: 'center' }}>1,170</td>
+                    <td data-label="Protein" style={{ textAlign: 'center', fontWeight: 700, color: '#16a34a' }}>49g</td>
+                    <td data-label="Sodium" style={{ textAlign: 'right' }}>2,590mg</td>
                   </tr>
                 </tbody>
               </table>

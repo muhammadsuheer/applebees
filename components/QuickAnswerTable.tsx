@@ -41,13 +41,19 @@ export default function QuickAnswerTable() {
               <tbody>
                 {summaryData.map((row, index) => (
                   <tr key={index}>
-                    <td className={styles.categoryCell}>
+                    <td className={styles.categoryCell} data-label="Category">
                       <Link href={row.link} className={styles.categoryLink}>
                         {row.category}
                       </Link>
                     </td>
-                    <td className={styles.priceCell}>{row.price}</td>
-                    <td className={styles.calorieCell}>{row.calories}</td>
+                    <td className={styles.priceCell} data-label="Estimated Price">
+                      <span className={styles.mobileLabel}>Estimated Price:</span>
+                      <span className={styles.cellValue}>{row.price}</span>
+                    </td>
+                    <td className={styles.calorieCell} data-label="Calorie Range">
+                      <span className={styles.mobileLabel}>Calorie Range:</span>
+                      <span className={styles.cellValue}>{row.calories}</span>
+                    </td>
                   </tr>
                 ))}
               </tbody>
