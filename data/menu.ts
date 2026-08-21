@@ -203,26 +203,38 @@ export const menuData: MenuCategory[] = [
     items: [
       { 
         id: "b3", name: "Quesadilla Burger", calories: "1620 Cals", price: "$15.99",
-        description: "The Applebee’s Quesadilla Burger combines an all-beef burger with Pepper Jack cheese, Mexi-ranch, Applewood-smoked bacon, pico de gallo, and shredded lettuce inside a quesadilla-style tortilla.",
-        tableDescription: "Burger with Pepper Jack, bacon, Mexi-ranch, pico, and lettuce in a quesadilla.",
+        description: "All-beef patty with Pepper Jack cheese, Applewood-smoked bacon, pico de gallo, shredded lettuce, and Mexi-ranch served in two warm grilled flour tortillas.",
+        tableDescription: "Signature burger served in grilled tortillas with Pepper Jack, bacon, and Mexi-ranch.",
         image: "/apple-bees-menu/applebees-quesadilla-burger-signature.webp"
       },
       { 
-        id: "b4", name: "Impossible™ Cheeseburger", calories: "1050 Cals", price: "$15.49",
-        description: "The plant-based Impossible burger patty is topped with American cheese and served with lettuce, tomato, onion, and pickles on a brioche bun.",
-        tableDescription: "Plant-based Impossible patty with cheese and classic burger toppings.",
-        image: "/apple-bees-menu/applebees-impossible-burger-plant-based.webp"
-      },
-      { 
-        id: "b1", name: "Classic Bacon Cheeseburger", calories: "1230 Cals", price: "$14.49",
-        description: "Applebee’s Classic Bacon Cheeseburger pairs an all-beef patty with American cheese and Applewood-smoked bacon, finished with lettuce, tomato, onion, and pickles on a brioche bun.",
-        tableDescription: "All-beef cheeseburger with Applewood-smoked bacon and classic toppings.",
+        id: "b5", name: "O-M-Cheese Burger", calories: "1340 Cals", price: "$15.49",
+        description: "A cheese-forward handcrafted burger centered around rich melted American and cheddar cheeses layered over a juicy seared beef patty.",
+        tableDescription: "Cheese-forward handcrafted burger layered with melted cheeses.",
         image: "/apple-bees-menu/applebees-classic-bacon-cheeseburger-with-fries.webp"
       },
       { 
-        id: "b2", name: "Whisky Bacon Burger", calories: "1480 Cals", price: "$15.99",
-        description: "The Whisky Bacon Burger combines an all-beef patty with Pepper Jack cheese, crispy onions, Applewood-smoked bacon, and Fireball whisky-infused steak sauce.",
-        tableDescription: "Burger with Pepper Jack, bacon, crispy onions, and whisky-infused sauce.",
+        id: "b6", name: "Grilled Cheese Cheeseburger", calories: "1480 Cals", price: "$15.99",
+        description: "A decadent specialty burger featuring an all-beef patty served between two melted grilled cheese sandwiches instead of a standard bun.",
+        tableDescription: "All-beef patty served between two golden grilled cheese sandwiches.",
+        image: "/apple-bees-menu/applebees-handcrafted-burgers-menu-category.webp"
+      },
+      { 
+        id: "b1", name: "Classic Bacon Cheeseburger", calories: "1220 Cals", price: "$14.49",
+        description: "All-beef patty with two slices of American cheese, Applewood-smoked bacon, lettuce, tomato, onion, and pickles on a toasted brioche bun with fries.",
+        tableDescription: "All-beef cheeseburger with Applewood-smoked bacon, American cheese, and fries.",
+        image: "/apple-bees-menu/applebees-classic-bacon-cheeseburger-with-fries.webp"
+      },
+      { 
+        id: "b4", name: "Impossible™ Cheeseburger", calories: "1090 Cals", price: "$15.49",
+        description: "Plant-based Impossible patty with American cheese, lettuce, tomato, onion, and pickles on a brioche bun. Highest fiber (12g) on the burger menu.",
+        tableDescription: "Plant-based Impossible patty with cheese, vegetables, and 12g fiber.",
+        image: "/apple-bees-menu/applebees-impossible-burger-plant-based.webp"
+      },
+      { 
+        id: "b2", name: "Whisky Bacon Burger", calories: "1590 Cals", price: "$15.99",
+        description: "All-beef patty with Pepper Jack cheese, crispy onions, Applewood-smoked bacon, and sweet-savory whisky-infused steak sauce glaze (63g protein).",
+        tableDescription: "Burger with Pepper Jack, bacon, crispy onions, and whisky-infused glaze.",
         image: "/apple-bees-menu/applebees-whiskey-bacon-burger-premium.webp"
       }
     ]

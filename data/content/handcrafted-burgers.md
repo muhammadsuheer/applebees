@@ -1,116 +1,243 @@
 ---
-title: "Handcrafted Burgers"
+title: "Applebee's Burgers: Menu, Prices & Calories (2026)"
+description: "Applebee's handcrafted burgers menu — Quesadilla Burger, O-M-Cheese Burger, Classic Bacon Cheeseburger and Impossible. Prices, calories, protein and burger deals."
 ---
 
-## Applebee's Handcrafted Burgers: Elevated Classics and Bold Innovations
+<div class="answerBlock">
+  <p>
+    Applebee's handcrafted burgers cost between $14.49 and $15.99 and run 1,090 to 1,620 calories, served on a toasted brioche bun with fries. Every burger on the menu exceeds 1,000 calories. The Quesadilla Burger is the heaviest at 1,620, and the plant-based Impossible Cheeseburger — despite being the lightest — carries more sodium than the beef Classic Cheeseburger.
+  </p>
+</div>
 
-The hamburger is the undisputed heavyweight champion of American cuisine. It is a symbol of comfort, a staple of backyard barbecues, and the cornerstone of the casual dining industry. At Applebee's, the burger is not just an afterthought; it is treated with the respect and culinary creativity it deserves. The **Handcrafted Burgers** menu at Applebee's is a testament to the belief that a great burger is greater than the sum of its parts. 
+## What's on Applebee's Burger Menu
 
-From the nostalgic perfection of a classic bacon cheeseburger to wild, fusion-inspired creations that push the boundaries of what a burger can be, Applebee's has crafted a lineup that caters to every conceivable craving. In this extensive guide, we will break down the anatomy of an Applebee's burger, explore their most famous signature items, and examine their commitment to providing delicious plant-based alternatives.
+Every burger here clears 1,000 calories. That is not a warning, it is a planning fact — these are full meals with fries included, not sandwiches. The range runs 530 calories from lightest to heaviest, which is a bigger gap than most people expect within one category.
 
----
+- **Sodium does not follow calories.** The Impossible Cheeseburger is the lightest burger on the menu at 1,090 calories and carries 2,910mg of sodium — more than the beef Classic Cheeseburger's 2,640mg. Plant-based does not mean lower sodium here.
+- **Protein varies more than the menu suggests.** The Whisky Bacon Burger delivers 63g; the Impossible 39g. That is a 60% difference between two items at similar prices.
+- **Standard format:** All burgers come on a toasted brioche bun with classic seasoned fries, unless the build says otherwise — the Quesadilla Burger being the obvious format-breaking exception.
 
-### Handcrafted Burgers At a Glance
-
-| Item Name | Calories | Price | Best For |
-| :--- | :--- | :--- | :--- |
-| **Quesadilla Burger** | 1620 Cals | $15.99 | Adventurous eaters and massive appetites |
-| **Whiskey Bacon Burger** | 1480 Cals | $15.99 | Lovers of sweet, savory, and smoky flavors |
-| **Classic Bacon Cheeseburger** | 1230 Cals | $14.49 | Traditionalists who want the perfect classic |
-| **The Impossible Burger** | 1050 Cals | $15.49 | Vegetarians and flexitarians |
-
----
-
-### The Anatomy of an Applebee's Burger
-
-![A towering, juicy bacon cheeseburger with melted cheese dripping down, served with fries in a restaurant setting.](/apple-bees-menu/burger-lifestyle.jpg)
-
-Before we dive into the specific menu items, it is important to understand what makes an Applebee's burger inherently good. The foundation of any great sandwich lies in the quality of its components.
-
-#### The Beef
-Applebee's prides itself on using 100% pure beef for its burger patties. The patties are generously sized, ensuring a substantial meat-to-bun ratio. They are smashed and seared on a screaming-hot flat top grill. This cooking method, known as the Maillard reaction, creates a deeply caramelized, savory crust on the outside of the patty while locking in the rich, beefy juices on the inside. 
-
-#### The Bun
-A burger is only as good as the bun that holds it together. Applebee's primarily uses a soft, slightly sweet Brioche bun. The bun is buttered and toasted on the grill before assembly. This crucial step prevents the bread from becoming soggy under the weight of the juicy patty and heavy sauces, ensuring structural integrity from the first bite to the last.
-
-#### The Fries
-Every Handcrafted Burger at Applebee's is served with a generous side of classic, golden-fried French fries. These fries are cut medium-thick, fried until crispy on the outside and fluffy on the inside, and lightly salted. They are the perfect, humble companion to the star of the show.
+![Selection of handcrafted burgers with fries](/apple-bees-menu/applebees-handcrafted-burgers-menu-category.webp)
 
 ---
 
-### The Signature Showstopper: The Quesadilla Burger
+## Handcrafted Burgers Comparison: Calories, Prices & Macros
 
-![Applebee's Quesadilla Burger](/apple-bees-menu/applebees-quesadilla-burger-signature.webp)
+<div class="tableCard">
+  <div class="tableResponsive">
+    <table class="customTable">
+      <caption>Applebee's burger prices, calories and macros, sorted by calories</caption>
+      <thead>
+        <tr>
+          <th scope="col">Burger</th>
+          <th scope="col" style="text-align: center;">Calories</th>
+          <th scope="col" style="text-align: center;">Price</th>
+          <th scope="col" style="text-align: center;">Protein</th>
+          <th scope="col" style="text-align: center;">Sodium</th>
+          <th scope="col" style="text-align: center;">Fiber</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row"><strong>Impossible Cheeseburger</strong></th>
+          <td style="text-align: center;">1,090</td>
+          <td style="text-align: center; font-weight: 700; color: #c8102e;">$15.49</td>
+          <td style="text-align: center;">39g</td>
+          <td style="text-align: center;">2,910mg</td>
+          <td style="text-align: center;">12g</td>
+        </tr>
+        <tr>
+          <th scope="row"><strong>Classic Bacon Cheeseburger</strong></th>
+          <td style="text-align: center;">1,220</td>
+          <td style="text-align: center; font-weight: 700; color: #c8102e;">$14.49</td>
+          <td style="text-align: center;">50g</td>
+          <td style="text-align: center;">2,640mg</td>
+          <td style="text-align: center;">7g</td>
+        </tr>
+        <tr>
+          <th scope="row"><strong>Whisky Bacon Burger</strong></th>
+          <td style="text-align: center;">1,590</td>
+          <td style="text-align: center; font-weight: 700; color: #c8102e;">$15.99</td>
+          <td style="text-align: center;">63g</td>
+          <td style="text-align: center;">3,050mg</td>
+          <td style="text-align: center;">9g</td>
+        </tr>
+        <tr>
+          <th scope="row"><strong>Quesadilla Burger</strong></th>
+          <td style="text-align: center;">1,620</td>
+          <td style="text-align: center; font-weight: 700; color: #c8102e;">$15.99</td>
+          <td style="text-align: center;">—</td>
+          <td style="text-align: center;">—</td>
+          <td style="text-align: center;">—</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
 
-If there is one item on the Applebee's menu that perfectly encapsulates the brand's willingness to experiment and create fun, over-the-top dishes, it is the legendary **Quesadilla Burger**. This is a burger that breaks all the rules and succeeds brilliantly because of it.
+### Reading the table
 
-#### The Concept
-As the name suggests, this dish is a fusion of a classic American cheeseburger and a Mexican-style quesadilla. Instead of a traditional brioche bun, the massive beef patty is sandwiched between two warm, grilled flour tortillas. 
+- **The Impossible is the lightest and the highest in sodium:** 1,090 calories against the Classic's 1,220, but 2,910mg of sodium against 2,640mg. If sodium is your primary constraint, the beef burger is the better order — which is the opposite of what most people assume when they choose plant-based.
+- **It also carries the most fiber on the entire menu at 12g**, and the lowest cholesterol of any burger at 35mg. Those are the metrics where the plant-based option genuinely wins.
+- **The Whisky Bacon Burger is the protein leader at 63g** — but it comes with 97g of fat and 32g of saturated fat, the highest in the category.
+- **The Classic Bacon Cheeseburger is the balanced order:** Cheapest at $14.49, 50g of protein, lowest sodium of the four, and 400 fewer calories than the Quesadilla Burger.
 
-#### The Fillings
-Inside the quesadilla "bun," you will find the seared beef patty topped with a slice of sharp, melted Pepper Jack cheese for a slight kick. It is then piled high with crispy applewood-smoked bacon, fresh pico de gallo, and shredded lettuce. 
-
-The secret weapon of the Quesadilla Burger, however, is the **Mexi-ranch sauce**. This proprietary sauce is a blend of cool, creamy buttermilk ranch and spicy, tangy southwestern seasonings. It binds the entire burger together, providing a creamy counterpoint to the heavy beef and crispy tortillas. 
-
-At 1620 calories, it is the heaviest burger on the menu and an absolute indulgence. It is messy, flavorful, and incredibly satisfying. 
-
----
-
-### The Flavor Powerhouse: Whiskey Bacon Burger
-
-![Applebee's Whiskey Bacon Burger](/apple-bees-menu/applebees-whiskey-bacon-burger-premium.webp)
-
-For diners who prefer intense, complex, and slightly sweet flavor profiles, the **Whiskey Bacon Burger** is an absolute must-order. This burger elevates the classic bacon cheeseburger by introducing a rich, boozy glaze that completely transforms the sandwich.
-
-#### The Whiskey Glaze
-The star of this burger is the house-made whiskey-infused steak sauce. It is thick, sticky, and deeply savory with a noticeable, smoky sweetness derived from real whiskey. This glaze is slathered generously over the beef patty as it finishes cooking on the grill, allowing it to caramelize and bake into the meat.
-
-#### The Toppings
-The glazed patty is topped with melted Pepper Jack cheese, two thick strips of applewood-smoked bacon, and crispy, golden-fried onion tanglers. The onion tanglers provide a necessary, savory crunch that cuts through the soft texture of the bun and the rich, sticky glaze. Served with fresh lettuce and tomato on a toasted brioche bun, the Whiskey Bacon Burger is a premium, steakhouse-quality sandwich. 
-
----
-
-### The Undefeated Standard: Classic Bacon Cheeseburger
-
-![Applebee's Classic Bacon Cheeseburger](/apple-bees-menu/applebees-classic-bacon-cheeseburger-with-fries.webp)
-
-While fusion creations and whiskey glazes are exciting, sometimes you just want a burger that tastes exactly how a burger should taste. The **Classic Bacon Cheeseburger** is Applebee's love letter to traditional American diner food.
-
-There are no tricks or gimmicks here. You get a perfectly seared 100% beef patty, topped with two slices of melted American cheese. American cheese is chosen specifically for its superior melting qualities, blanketing the patty in a gooey, salty hug. It is topped with two strips of crispy bacon, crisp iceberg lettuce, fresh tomato slices, red onions, and pickles, all served on a toasted Brioche bun. 
-
-It is familiar, comforting, and executed flawlessly. At 1230 calories, it is exactly what you expect when you order a great bacon cheeseburger. 
-
----
-
-### The Modern Alternative: The Impossible™ Burger
-
-![Applebee's Impossible Burger](/apple-bees-menu/applebees-impossible-burger-plant-based.webp)
-
-Recognizing the growing demand for plant-based alternatives and the rise of flexitarian diets, Applebee's introduced **The Impossible™ Burger** to their Handcrafted Burgers lineup. 
-
-#### What is The Impossible Burger?
-The Impossible Burger is a marvel of modern food science. It is a completely plant-based patty made primarily from soy and potato proteins. However, unlike traditional veggie burgers that taste like mashed beans and vegetables, the Impossible Burger is engineered to look, cook, smell, and taste exactly like real ground beef. It even "bleeds" slightly when cooked, thanks to the inclusion of heme, an iron-containing molecule found in both plants and animals.
-
-#### How Applebee's Serves It
-Applebee's treats the Impossible patty with the same respect as their traditional beef. It is seared on the flat top, placed on a toasted brioche bun, and topped with American cheese, lettuce, tomato, onion, and pickles. 
-
-For vegetarians, vegans (if ordered without cheese and on a non-dairy bun), or simply diners looking to reduce their red meat intake without sacrificing the experience of eating a great burger, the Impossible Burger at Applebee's is a revelation. 
-
----
-
-### Frequently Asked Questions (FAQ)
-
-**Can I substitute a chicken breast for a burger patty?**
-Yes! Applebee's is happy to customize your meal. You can substitute a grilled or crispy chicken breast on any of the signature burger builds (like the Whiskey Bacon or Quesadilla) if you prefer poultry over beef.
-
-**How are the Applebee's burgers cooked?**
-By default, Applebee's cooks all of their ground beef burger patties to a safe internal temperature of 158°F (Medium Well to Well Done) to adhere to food safety standards. If you strongly prefer a pink center, you must explicitly request it, though policies may vary slightly by location.
-
-**Can I get a burger without a bun?**
-Absolutely. If you are following a low-carb or Keto diet, you can order any Applebee's burger "protein style" or wrapped in lettuce instead of a traditional brioche bun.
+Full macros and allergen data: see our [nutrition and calories](/nutrition) reference guide.
 
 ---
 
-### Conclusion
+## Detailed Burger Breakdowns
 
-The Handcrafted Burgers menu at Applebee's proves that you do not need to go to a specialized burger joint to get an incredible sandwich. By starting with high-quality ingredients and offering a diverse range of buildsfrom the nostalgic comfort of the Classic Bacon Cheeseburger to the wild, boundary-pushing Quesadilla BurgerApplebee's ensures that every burger craving is not just met, but exceeded. Next time you are in the mood for a juicy, satisfying meal, dive into the Handcrafted Burgers section; you won't be disappointed.
+### Quesadilla Burger
+
+![Beef patty served between grilled flour tortillas with bacon and pico de gallo](/apple-bees-menu/applebees-quesadilla-burger-signature.webp)
+
+The item most people search this menu for.
+
+Applebee's most recognisable burger, and the one that breaks the traditional format: instead of a brioche bun, the juicy beef patty is served between two warm, grilled flour tortillas, quesadilla-style.
+
+Inside, the patty is topped with melted Pepper Jack cheese, Applewood-smoked bacon, fresh pico de gallo, and crisp shredded lettuce. The Mexi-ranch sauce is what holds it together — a creamy, tangy counterpoint that prevents the grilled tortilla build from feeling dry.
+
+At **1,620 calories**, it is the heaviest burger on the menu, and the tortilla construction is why: two grilled tortillas carry more total calories and fat than a standard brioche bun.
+
+- **Price & Nutrition:** $15.99 · 1,620 calories
+
+*(Note: The appetizer menu features a separate [Chicken Quesadilla](/menu/appetizers) — a different starter that shares the name.)*
+
+### O-M-Cheese Burger
+
+A cheese-forward burger built around rich, layered melted cheeses rather than a tall stack of miscellaneous toppings.
+
+The name is doing the heavy lifting here, and it has become one of the most searched Applebee's burgers by name — often typed into search engines as "om cheeseburger" or "o m cheese burger" without the hyphens.
+
+The build centres on cheese as the main event rather than as an afterthought. Applebee's has updated the item since its initial debut, featuring a thick layer of melted American and cheddar cheeses smothering an all-beef patty. Availability and exact build rotations vary by location.
+
+### Grilled Cheese Cheeseburger
+
+A burger where the bun is replaced entirely by two golden grilled cheese sandwiches.
+
+Another format-breaking specialty build that carries substantial search demand under variants like "grilled cheese cheeseburger" and "applebee's grilled cheese burger."
+
+Same culinary principle as the Quesadilla Burger: replacing the standard bread with melted sandwiches changes the texture and calorie profile substantially, creating an indulgent comfort-food heavyweight. Availability rotates seasonally at participating restaurants.
+
+### Classic Bacon Cheeseburger
+
+![Bacon cheeseburger with American cheese, lettuce and tomato, served with fries](/apple-bees-menu/applebees-classic-bacon-cheeseburger-with-fries.webp)
+
+The balanced order in this category, and the best value.
+
+An all-beef patty with two slices of American cheese, Applewood-smoked bacon, lettuce, tomato, onion, and pickles on a toasted brioche bun.
+
+American cheese is used specifically because it melts more evenly than harder cheeses — it blankets the patty rather than sitting on it in rigid slices.
+
+On the numbers it is the most sensible order here: **$14.49, 50g of protein, 2,640mg of sodium** (lowest of the four), and 400 fewer calories than the Quesadilla Burger.
+
+- **Price & Nutrition:** $14.49 · 1,220 calories · 50g protein · contains milk, wheat and soy
+
+### Impossible™ Cheeseburger
+
+![Plant-based burger patty with cheese, lettuce, tomato and pickles on a brioche bun](/apple-bees-menu/applebees-impossible-burger-plant-based.webp)
+
+The plant-based option, and the one with the most surprising nutritional numbers.
+
+A plant-based patty made primarily from soy and potato protein, seared and served with American cheese, lettuce, tomato, onion, and pickles on a toasted brioche bun with fries.
+
+- **Where it genuinely wins:** **12g of fiber** — the most of any item on the entire Applebee's menu — and **35mg of cholesterol** against 120mg for the beef Classic. It is also the lightest burger at 1,090 calories.
+- **Where it does not:** Sodium. At **2,910mg**, it exceeds the beef Classic Cheeseburger's 2,640mg. Anyone choosing plant-based for health reasons should know the primary trade is cholesterol and fiber, not sodium reduction.
+- **Dietary note:** Vegetarian, but not vegan as served — the American cheese and the brioche bun both contain dairy.
+
+- **Price & Nutrition:** $15.49 · 1,090 calories · 39g protein · 12g fiber · vegetarian · contains milk, wheat and soy
+
+### Whisky Bacon Burger
+
+![Burger with bacon, crispy onions and whisky-glazed sauce](/apple-bees-menu/applebees-whiskey-bacon-burger-premium.webp)
+
+The protein leader at **63g of protein**, and the heaviest on fat.
+
+An all-beef patty with Pepper Jack cheese, crispy fried onions, Applewood-smoked bacon, and a sweet-savory whisky-infused steak sauce glaze that caramelises directly on the patty as it finishes on the grill.
+
+The crispy fried onions do real work here — they provide the only textural crunch in an otherwise soft, saucy build. At 97g of fat and 32g of saturated fat, it is the heaviest burger in those columns, with 20g of sugar originating from the whisky glaze.
+
+- **Price & Nutrition:** $15.99 · 1,590 calories · 63g protein · contains milk, wheat and soy *(Note spelling: Whisky, not Whiskey)*.
+
+---
+
+## Applebee's National Cheeseburger Day Deals
+
+<div class="answerBlock">
+  <p>
+    National Cheeseburger Day falls on 18 September each year, and Applebee's typically runs a major burger promotion around it. Offers change annually and participation varies by location, since restaurants are independently franchised.
+  </p>
+</div>
+
+**What to expect:** The pattern across the casual dining sector is a deeply discounted burger (such as a $8.99 Classic Burger with fries) or a burger-and-drink bundle on the day, sometimes extended across the surrounding week. Applebee's promotions in this window historically focus on the core [handcrafted burgers](/menu/handcrafted-burgers) lineup.
+
+- **How to find the active offer:** Check our [specials and deals](/specials-and-deals) page closer to September, and confirm with your [local restaurant](/locations), since promotional participation is set per franchise.
+- **Ordering terms:** Burger promotions on National Cheeseburger Day are usually dine-in and direct-order only, in the same way [half price appetizers](/happy-hour) are structured. Third-party delivery apps rarely support promotional pricing.
+
+---
+
+## How to Order an Applebee's Burger
+
+- **Cooking temperature:** Applebee's cooks ground beef patties through by default as standard food-safety practice. A pink medium center is a custom request, and whether it can be accommodated varies by franchise policy.
+- **Protein swaps:** Grilled or crispy chicken breast can generally be substituted on any signature burger build. The sauces and toppings carry the flavor profile, making poultry substitutions surprisingly effective.
+- **Low carb:** Any burger can be ordered "protein style" without the bun. This is the largest single carbohydrate reduction available — the bun and fries together account for most of the meal's carbs. Swapping fries for [steamed vegetables](/menu/sides) reduces it further.
+- **Sauce on the side:** Requesting glaze or Mexi-ranch on the side lets you control sugar and calorie intake directly.
+
+---
+
+## Do Applebee's Burgers Travel Well?
+
+Within about twenty minutes, yes. Past that window, the brioche bun begins absorbing moisture from the warm patty and the build softens.
+
+- **The Quesadilla Burger travels best:** Grilled flour tortillas hold up against trapped steam significantly better than a soft brioche bun.
+- **Fries are the weak point:** French fries lose crispness quickly in sealed containers. Swapping to [mashed potatoes or steamed vegetables](/menu/sides) ensures your side arrives in hot, appetizing condition.
+- **Reheating tip:** Separate the components. Reheat the beef patty in a hot skillet, toast the bun in an oven or toaster, and reassemble with fresh vegetables. Reheating an assembled burger in a microwave steams the bun.
+
+For pickup and delivery details, visit our [Carside To Go](/takeout) and [delivery](/delivery) guides.
+
+---
+
+## Frequently Asked Questions
+
+### What burgers does Applebee's have?
+Applebee's handcrafted burgers include the Quesadilla Burger, O-M-Cheese Burger, Classic Bacon Cheeseburger, Whisky Bacon Burger and the plant-based Impossible Cheeseburger. Prices run $14.49 to $15.99, and all are served with fries.
+
+### What is Applebee's Quesadilla Burger?
+A beef patty served between two grilled flour tortillas instead of a bun, with Pepper Jack cheese, Applewood-smoked bacon, pico de gallo, shredded lettuce and Mexi-ranch sauce. At 1,620 calories it is the heaviest burger on the menu.
+
+### What is the O-M-Cheese Burger at Applebee's?
+A cheese-forward burger built around melted American cheese rather than a stack of toppings. It is one of the most searched Applebee's burgers by name, often typed as "om cheeseburger." Applebee's has updated the build since launch.
+
+### How many calories are in Applebee's burgers?
+Between 1,090 and 1,620 calories including fries. The Impossible Cheeseburger is the lightest at 1,090; the Quesadilla Burger the heaviest at 1,620.
+
+### Is the Impossible Burger healthier than a beef burger at Applebee's?
+It depends on the metric. It is lighter at 1,090 calories, carries 12g of fiber — the most on the menu — and has 35mg of cholesterol against 120mg for the beef Classic. But it carries more sodium at 2,910mg against 2,640mg.
+
+### Is the Applebee's Impossible Burger vegan?
+No. As served it includes American cheese and a brioche bun, both containing dairy. Removing the cheese addresses part of it, but the bun does not.
+
+### How much are Applebee's burgers?
+Between $14.49 and $15.99. The Classic Bacon Cheeseburger is the cheapest; the Quesadilla and Whisky Bacon Burgers the most expensive. Prices vary by location.
+
+### Which Applebee's burger has the most protein?
+The Whisky Bacon Burger at 63g, followed by the Classic Bacon Cheeseburger at 50g and the Impossible Cheeseburger at 39g.
+
+### Can I get an Applebee's burger without a bun?
+Yes. Any burger can be ordered without the bun, which removes most of the carbohydrate. Swapping the fries for a vegetable side reduces it further.
+
+### Does Applebee's have burger deals?
+Applebee's runs burger promotions periodically, including around National Cheeseburger Day on 18 September. Current offers are on the specials page, and participation varies by location.
+
+### How does Applebee's cook its burgers?
+Ground beef patties are cooked through by default, as standard practice for ground meat. A pink centre must be requested and may not be available at every location.
+
+---
+
+## Related Menu Categories
+
+- **Chicken Sandwiches & Wraps:** For crispy poultry and clubhouse stacks, explore [sandwiches and more](/menu/sandwiches-and-more).
+- **Appetizer Quesadillas:** If the Quesadilla Burger caught your eye, the starter menu features the standalone [Chicken Quesadilla](/menu/appetizers).
+- **Higher-Protein Entrées:** For higher protein with fewer carbohydrates, browse the [steaks and ribs](/menu/steaks-and-ribs) lineup.
+- Return to the [full menu](/menu) to view all options.
