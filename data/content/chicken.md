@@ -1,11 +1,11 @@
 ---
 title: "Applebee's Chicken Menu: Prices, Calories & Grilled Options"
-description: "Applebee's chicken menu with prices and calories — Fiesta Lime Chicken, chicken tenders, grilled chicken breast and fajita rollup, plus protein and sodium data."
+description: "Applebee's chicken menu with prices and calories  Fiesta Lime Chicken, chicken tenders, grilled chicken breast and fajita rollup, plus protein and sodium data."
 ---
 
 <div class="answerBlock">
   <p>
-    Applebee's chicken entrées run from $14.99 to $16.49 and 760 to 1,610 calories, covering grilled, breaded and glazed preparations. Fiesta Lime Chicken is the signature dish at 1,190 calories with 61g of protein. A plain grilled chicken breast is the lightest option at 760 calories and 50g of protein — the leanest way to eat chicken on the menu.
+    Applebee's chicken entrées run from $14.99 to $16.49 and 760 to 1,610 calories, covering grilled, breaded and glazed preparations. Fiesta Lime Chicken is the signature dish at 1,190 calories with 61g of protein. A plain grilled chicken breast is the lightest option at 760 calories and 50g of protein  the leanest way to eat chicken on the menu.
   </p>
 </div>
 
@@ -13,9 +13,9 @@ description: "Applebee's chicken menu with prices and calories — Fiesta Lime C
 
 Chicken is where the Applebee's menu splits most sharply between light and heavy, and the gap is bigger than any other category:
 
-- **The range is 850 calories wide.** A plain grilled chicken breast is 760 calories. The heaviest glazed tender dish reaches over 1,600. Same protein, same menu, twice the intake — the difference is entirely preparation and sauce.
+- **The range is 850 calories wide.** A plain grilled chicken breast is 760 calories. The heaviest glazed tender dish reaches over 1,600. Same protein, same menu, twice the intake  the difference is entirely preparation and sauce.
 - **Grilled beats breaded by a wide margin here.** Not marginally: grilled preparations sit 400 to 800 calories below their breaded equivalents while delivering similar or better protein.
-- **Sodium is the number to watch.** Fiesta Lime Chicken carries 3,630mg — the second-highest of any item on the Applebee's menu, behind only the Classic Hot Buffalo boneless wings. That comes from the Mexi-ranch dressing and the seasoned cheese layer, not the chicken.
+- **Sodium is the number to watch.** Fiesta Lime Chicken carries 3,630mg  the second-highest of any item on the Applebee's menu, behind only the Classic Hot Buffalo boneless wings. That comes from the Mexi-ranch dressing and the seasoned cheese layer, not the chicken.
 - **Protein is strong across the category.** Most chicken entrées deliver 50g or more, which puts this section behind only [steaks and ribs](/menu/steaks-and-ribs) for total protein return.
 
 ![Selection of grilled and breaded chicken entrées with sides](/apple-bees-menu/applebees-chicken-entrees-menu-category.webp)
@@ -27,7 +27,7 @@ Chicken is where the Applebee's menu splits most sharply between light and heavy
 <div class="tableCard">
   <div class="tableResponsive">
     <table class="customTable">
-      <caption>Applebee's chicken entrées — prices, calories and macros, sorted by calories</caption>
+      <caption>Applebee's chicken entrées  prices, calories and macros, sorted by calories</caption>
       <thead>
         <tr>
           <th scope="col">Chicken Entrée</th>
@@ -78,9 +78,9 @@ Chicken is where the Applebee's menu splits most sharply between light and heavy
 
 ### Reading the table
 
-- **The grilled chicken breast is the standout for anyone eating by the numbers:** 50g of protein for 760 calories — about 15 calories per gram, matching the [8 oz. Top Sirloin](/menu/steaks-and-ribs) for the best ratio on the menu.
+- **The grilled chicken breast is the standout for anyone eating by the numbers:** 50g of protein for 760 calories  about 15 calories per gram, matching the [8 oz. Top Sirloin](/menu/steaks-and-ribs) for the best ratio on the menu.
 - **Fiesta Lime Chicken delivers the most protein at 61g**, but the sodium figure is where the trade sits. At 3,630mg it is close to a day and a half of the recommended intake in one plate, almost all of it from the Mexi-ranch and cheese rather than the chicken.
-- **Breaded adds roughly 400 calories over grilled for the same protein.** If you want tenders, that is the cost — and it is worth knowing rather than guessing.
+- **Breaded adds roughly 400 calories over grilled for the same protein.** If you want tenders, that is the cost  and it is worth knowing rather than guessing.
 
 Full macros and allergens: see our [nutrition and calories](/nutrition) reference guide.
 
@@ -96,11 +96,11 @@ Applebee's signature chicken dish and the most searched item in this category.
 
 A grilled chicken breast marinated in lime and cilantro, then finished with Mexi-ranch dressing and a layer of Jack-cheddar cheese, broiled until the cheese browns at the edges. Served over crispy tortilla strips with Spanish rice and house-made pico de gallo.
 
-The lime marinade does two things — it seasons and it tenderises, which is why the chicken stays juicy through grilling. The pico de gallo is there for acidity, cutting the richness of the cheese and ranch.
+The lime marinade does two things  it seasons and it tenderises, which is why the chicken stays juicy through grilling. The pico de gallo is there for acidity, cutting the richness of the cheese and ranch.
 
 **On the numbers:** 61g of protein is the highest in the category. The 3,630mg of sodium is the second-highest figure on the entire Applebee's menu.
 
-**To order it lighter:** Mexi-ranch on the side is the single biggest change — it is the main contributor to both the fat and the sodium. Swapping the Spanish rice for [steamed vegetables](/menu/sides) drops the 98g carbohydrate figure substantially.
+**To order it lighter:** Mexi-ranch on the side is the single biggest change  it is the main contributor to both the fat and the sodium. Swapping the Spanish rice for [steamed vegetables](/menu/sides) drops the 98g carbohydrate figure substantially.
 
 - **Price & Nutrition:** $16.49 · 1,190 calories · 61g protein · contains milk, wheat and soy
 
@@ -108,7 +108,7 @@ The lime marinade does two things — it seasons and it tenderises, which is why
 
 The lightest chicken option on the menu, and the one most people do not realise is available as a standalone order.
 
-A seasoned grilled chicken breast, available as an entrée protein and as an option across salads and bowls. At **760 calories with 50g of protein**, it is the leanest way to eat chicken here by a wide margin — 430 calories below Fiesta Lime Chicken with only 11g less protein.
+A seasoned grilled chicken breast, available as an entrée protein and as an option across salads and bowls. At **760 calories with 50g of protein**, it is the leanest way to eat chicken here by a wide margin  430 calories below Fiesta Lime Chicken with only 11g less protein.
 
 This is the base for building a light meal. Grilled chicken breast paired with [steamed broccoli or green beans](/menu/sides) comes in well under 1,000 calories with 50g+ of protein, and it is the closest thing on the Applebee's menu to a straightforward high-protein plate. Ordering it without butter removes a meaningful share of the fat on grilled items.
 
@@ -120,7 +120,7 @@ This is the base for building a light meal. Grilled chicken breast paired with [
 
 The comfort order, and the most family-friendly item in the category.
 
-Breaded white-meat chicken tenders served with classic fries, coleslaw and a choice of dipping sauce. The breading is thick and craggy by design — it holds sauce better than a smooth coating would. Honey mustard is the sauce most associated with this dish, and it can be requested alongside other orders as a side.
+Breaded white-meat chicken tenders served with classic fries, coleslaw and a choice of dipping sauce. The breading is thick and craggy by design  it holds sauce better than a smooth coating would. Honey mustard is the sauce most associated with this dish, and it can be requested alongside other orders as a side.
 
 At 1,450 calories including fries, it is a full meal rather than a light plate. Substituting the fries changes that figure more than any other single adjustment. For smaller portions, the [kids menu](/menu/kids-menu) version comes in at 420 calories with 24g of protein.
 
@@ -138,7 +138,7 @@ Chipotle-lime grilled chicken rolled in a warm flour tortilla with sautéed faji
 
 ![Breaded chicken tenders tossed in honey pepper glaze](/apple-bees-menu/applebees-honey-pepper-chicken-tenders.webp)
 
-Breaded tenders tossed in a honey pepper glaze — sweet from the honey, savoury from cracked black pepper and soy notes.
+Breaded tenders tossed in a honey pepper glaze  sweet from the honey, savoury from cracked black pepper and soy notes.
 
 **Worth knowing:** On the current Applebee's menu, this preparation appears most prominently as part of the [Four-Cheese Mac & Cheese](/menu/pasta) entrée rather than as a standalone plate. If you want the flavour, that dish is where it reliably appears. Standalone availability varies by franchise location.
 
@@ -148,7 +148,7 @@ Breaded tenders tossed in a honey pepper glaze — sweet from the honey, savoury
 
 <div class="answerBlock">
   <p>
-    Grilled chicken is available at essentially every Applebee's location — it is core menu rather than a regional item. A plain grilled chicken breast runs 760 calories with 50g of protein, and it is available as an entrée protein and across salads and bowls.
+    Grilled chicken is available at essentially every Applebee's location  it is core menu rather than a regional item. A plain grilled chicken breast runs 760 calories with 50g of protein, and it is available as an entrée protein and across salads and bowls.
   </p>
 </div>
 
@@ -160,7 +160,7 @@ If you are looking for a grilled chicken meal specifically rather than a fried o
 3. **Grilled chicken breast added to a fresh [salad](/menu/salads)**
 4. **A chipotle-lime chicken [bowl](/menu/irresist-a-bowls)**
 
-For ordering ahead or checking open dining rooms nearby, use our interactive [location finder](/locations). Exact operating times vary by restaurant — check [operating hours](/operating-hours).
+For ordering ahead or checking open dining rooms nearby, use our interactive [location finder](/locations). Exact operating times vary by restaurant  check [operating hours](/operating-hours).
 
 ---
 
@@ -168,7 +168,7 @@ For ordering ahead or checking open dining rooms nearby, use our interactive [lo
 
 - **Highest protein:** Fiesta Lime Chicken at 61g.
 - **Best protein-to-calorie ratio:** Grilled chicken breast at 50g of protein for 760 calories.
-- **Highest sodium:** Fiesta Lime Chicken at 3,630mg — the second-highest sodium figure on the entire menu.
+- **Highest sodium:** Fiesta Lime Chicken at 3,630mg  the second-highest sodium figure on the entire menu.
 - **For lower calories:** Choose grilled over breaded, ask for sauce on the side, and swap fries or rice for a vegetable side. Those three changes together can remove several hundred calories from a chicken order.
 - **For lower carbohydrate:** The grilled chicken breast carries almost none on its own. The carbohydrate in Fiesta Lime Chicken (98g) comes from the rice and tortilla strips.
 - **Allergens:** Fiesta Lime Chicken contains milk, wheat and soy. Breaded items contain wheat, and shared fryers mean cross-contact is possible even where an ingredient list looks clear.
@@ -180,7 +180,7 @@ Full allergen data: see our [nutrition and allergens](/nutrition) guide.
 ## How Applebee's Chicken Travels
 
 - **Grilled chicken travels well:** It holds heat and moisture better than anything breaded and is one of the most reliable takeout orders on the menu.
-- **Breaded tenders need one adjustment:** Ask for dipping sauce on the side. Tenders glazed at the restaurant sit in warm sauce during transit and the coating softens — tossing at home preserves the crunch you paid for.
+- **Breaded tenders need one adjustment:** Ask for dipping sauce on the side. Tenders glazed at the restaurant sit in warm sauce during transit and the coating softens  tossing at home preserves the crunch you paid for.
 - **Fiesta Lime Chicken travels reasonably:** Request the Mexi-ranch separately. The melted cheese layer holds up, but the sauce underneath softens the tortilla strips.
 - **Side selection:** Fries lose texture in sealed boxes. [Steamed vegetables or mashed potatoes](/menu/sides) arrive in the condition they left.
 
@@ -209,7 +209,7 @@ Yes. Grilled chicken breast is available as an entrée protein and across salads
 Fiesta Lime Chicken at 61g, followed by the grilled chicken breast at 50g. The grilled breast has the better ratio, delivering 50g for 430 fewer calories.
 
 ### Can I order Fiesta Lime Chicken without cheese?
-Yes, dishes are made to order. Removing the Jack-cheddar cheese and Mexi-ranch changes the dish substantially — those two components carry most of its flavour, its fat and its sodium.
+Yes, dishes are made to order. Removing the Jack-cheddar cheese and Mexi-ranch changes the dish substantially  those two components carry most of its flavour, its fat and its sodium.
 
 ### Are Applebee's chicken tenders spicy?
 The standard breaded tenders are not spicy. The honey pepper preparation is sweet with a savoury warmth from cracked black pepper rather than chilli heat.

@@ -1,11 +1,11 @@
 ---
 title: "Applebee's Drink Menu: Cocktails, Dollarita & Prices (2026)"
-description: "Applebee's drink menu — signature cocktails, the Dollarita promotion, Mucho-size drinks and cocktails to go. Prices, calories and what's actually running now."
+description: "Applebee's drink menu  signature cocktails, the Dollarita promotion, Mucho-size drinks and cocktails to go. Prices, calories and what's actually running now."
 ---
 
 <div class="answerBlock">
   <p>
-    Applebee's signature cocktails range from about $9.99 to $11.99 and 310 to 420 calories, served in oversized Mucho-style glassware. The menu rotates through a drink of the month programme, and the Dollarita — a $1 house margarita — returns as a limited promotion rather than a standing menu price. Cocktails to go are available where state law permits.
+    Applebee's signature cocktails range from about $9.99 to $11.99 and 310 to 420 calories, served in oversized Mucho-style glassware. The menu rotates through a drink of the month programme, and the Dollarita  a $1 house margarita  returns as a limited promotion rather than a standing menu price. Cocktails to go are available where state law permits.
   </p>
 </div>
 
@@ -90,7 +90,7 @@ Applebee's bar menu covers four primary groups. Which specific drinks appear dep
 
 ### Reading the table
 
-- **The frozen versions are the outlier:** A frozen margarita runs **650 calories** against **310 calories** for the exact same drink served over ice — the difference is syrup and mix, not alcohol. That is a bigger calorie swing than any food substitution on the entire menu.
+- **The frozen versions are the outlier:** A frozen margarita runs **650 calories** against **310 calories** for the exact same drink served over ice  the difference is syrup and mix, not alcohol. That is a bigger calorie swing than any food substitution on the entire menu.
 - **Draft beer is the lowest-calorie alcoholic option:** A 16 oz light draft at 130 calories is less than half the calories of the lightest signature cocktail.
 - **Signature cocktails cluster tightly:** Between 310 and 420 calories, the choice between cocktails is about flavor preference rather than caloric intake. Complete beverage data: [nutrition and calories](/nutrition).
 
@@ -100,11 +100,11 @@ Applebee's bar menu covers four primary groups. Which specific drinks appear dep
 
 <div class="answerBlock">
   <p>
-    Mucho is Applebee's name for its oversized cocktail format — signature drinks served in large goblet-style glassware rather than a standard cocktail glass. The size comes largely from ice and mixers; the spirit measure is standard.
+    Mucho is Applebee's name for its oversized cocktail format  signature drinks served in large goblet-style glassware rather than a standard cocktail glass. The size comes largely from ice and mixers; the spirit measure is standard.
   </p>
 </div>
 
-That last point is the one worth understanding: **a larger glass does not mean a stronger drink.** The extra volume is mix, juice, and crushed ice, which is also why the calorie figures land where they do — the sugar scales with the glass while the alcohol volume remains constant.
+That last point is the one worth understanding: **a larger glass does not mean a stronger drink.** The extra volume is mix, juice, and crushed ice, which is also why the calorie figures land where they do  the sugar scales with the glass while the alcohol volume remains constant.
 
 **What it does mean:** These are drinks built to share a table with food and to last through an entire meal, rather than to be finished quickly. For anyone tracking sugar intake, a Mucho-size cocktail is nutritionally closer to a dessert than to a standard glass of wine.
 
@@ -116,7 +116,7 @@ That last point is the one worth understanding: **a larger glass does not mean a
 
 <div class="answerBlock">
   <p>
-    The Dollarita is Applebee's house margarita offered at $1.00 as a limited-time promotion. It is not a permanent menu price — it returns periodically, usually for a defined promotional window, rather than running year-round.
+    The Dollarita is Applebee's house margarita offered at $1.00 as a limited-time promotion. It is not a permanent menu price  it returns periodically, usually for a defined promotional window, rather than running year-round.
   </p>
 </div>
 
@@ -145,7 +145,7 @@ Featured cocktails rotate throughout the year. The drinks below represent recurr
 
 A tropical rum cocktail made with rum, pineapple juice, and blue curaçao, served in the oversized Mucho glass. Sweet and fruit-forward, it is the most visually recognisable drink in the lineup because of its bright electric blue colour.
 
-At **350 calories**, it sits mid-range for the category. The sweetness works well against spicy dishes — it is a common pairing with the Cajun and chile-glazed entrées on the [chicken menu](/menu/chicken).
+At **350 calories**, it sits mid-range for the category. The sweetness works well against spicy dishes  it is a common pairing with the Cajun and chile-glazed entrées on the [chicken menu](/menu/chicken).
 
 - **Price & Nutrition:** $9.99 · 350 calories
 
@@ -224,10 +224,10 @@ A house margarita offered at $1.00 as a limited-time promotion rather than a sta
 It runs as a recurring promotion rather than continuously. The drink of the month programme runs year-round, and the $1 margarita is one entry that returns periodically. Check with your local restaurant for what is currently featured.
 
 ### What does Mucho mean at Applebee's?
-Mucho is the name for Applebee's oversized cocktail format — signature drinks in large goblet-style glassware. The additional volume comes from ice and mixers rather than from a larger spirit measure.
+Mucho is the name for Applebee's oversized cocktail format  signature drinks in large goblet-style glassware. The additional volume comes from ice and mixers rather than from a larger spirit measure.
 
 ### How many calories are in Applebee's cocktails?
-Signature cocktails run 310 to 420 calories. The house margarita is lightest at 310; the Shark Bowl heaviest at 420. Frozen versions are substantially higher — a frozen margarita reaches around 650 calories.
+Signature cocktails run 310 to 420 calories. The house margarita is lightest at 310; the Shark Bowl heaviest at 420. Frozen versions are substantially higher  a frozen margarita reaches around 650 calories.
 
 ### How much are Applebee's cocktails?
 Signature cocktails cost about $9.99 to $11.99. The Dollarita is $1.00 when the promotion is running. Prices vary by location, since restaurants are independently franchised.

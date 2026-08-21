@@ -1,21 +1,21 @@
 ---
 title: "Applebee's Burgers: Menu, Prices & Calories (2026)"
-description: "Applebee's handcrafted burgers menu — Quesadilla Burger, O-M-Cheese Burger, Classic Bacon Cheeseburger and Impossible. Prices, calories, protein and burger deals."
+description: "Applebee's handcrafted burgers menu  Quesadilla Burger, O-M-Cheese Burger, Classic Bacon Cheeseburger and Impossible. Prices, calories, protein and burger deals."
 ---
 
 <div class="answerBlock">
   <p>
-    Applebee's handcrafted burgers cost between $14.49 and $15.99 and run 1,090 to 1,620 calories, served on a toasted brioche bun with fries. Every burger on the menu exceeds 1,000 calories. The Quesadilla Burger is the heaviest at 1,620, and the plant-based Impossible Cheeseburger — despite being the lightest — carries more sodium than the beef Classic Cheeseburger.
+    Applebee's handcrafted burgers cost between $14.49 and $15.99 and run 1,090 to 1,620 calories, served on a toasted brioche bun with fries. Every burger on the menu exceeds 1,000 calories. The Quesadilla Burger is the heaviest at 1,620, and the plant-based Impossible Cheeseburger  despite being the lightest  carries more sodium than the beef Classic Cheeseburger.
   </p>
 </div>
 
 ## What's on Applebee's Burger Menu
 
-Every burger here clears 1,000 calories. That is not a warning, it is a planning fact — these are full meals with fries included, not sandwiches. The range runs 530 calories from lightest to heaviest, which is a bigger gap than most people expect within one category.
+Every burger here clears 1,000 calories. That is not a warning, it is a planning fact  these are full meals with fries included, not sandwiches. The range runs 530 calories from lightest to heaviest, which is a bigger gap than most people expect within one category.
 
-- **Sodium does not follow calories.** The Impossible Cheeseburger is the lightest burger on the menu at 1,090 calories and carries 2,910mg of sodium — more than the beef Classic Cheeseburger's 2,640mg. Plant-based does not mean lower sodium here.
+- **Sodium does not follow calories.** The Impossible Cheeseburger is the lightest burger on the menu at 1,090 calories and carries 2,910mg of sodium  more than the beef Classic Cheeseburger's 2,640mg. Plant-based does not mean lower sodium here.
 - **Protein varies more than the menu suggests.** The Whisky Bacon Burger delivers 63g; the Impossible 39g. That is a 60% difference between two items at similar prices.
-- **Standard format:** All burgers come on a toasted brioche bun with classic seasoned fries, unless the build says otherwise — the Quesadilla Burger being the obvious format-breaking exception.
+- **Standard format:** All burgers come on a toasted brioche bun with classic seasoned fries, unless the build says otherwise  the Quesadilla Burger being the obvious format-breaking exception.
 
 ![Selection of handcrafted burgers with fries](/apple-bees-menu/applebees-handcrafted-burgers-menu-category.webp)
 
@@ -66,9 +66,9 @@ Every burger here clears 1,000 calories. That is not a warning, it is a planning
           <th scope="row"><strong>Quesadilla Burger</strong></th>
           <td style="text-align: center;">1,620</td>
           <td style="text-align: center; font-weight: 700; color: #c8102e;">$15.99</td>
-          <td style="text-align: center;">—</td>
-          <td style="text-align: center;">—</td>
-          <td style="text-align: center;">—</td>
+          <td style="text-align: center;"></td>
+          <td style="text-align: center;"></td>
+          <td style="text-align: center;"></td>
         </tr>
       </tbody>
     </table>
@@ -77,9 +77,9 @@ Every burger here clears 1,000 calories. That is not a warning, it is a planning
 
 ### Reading the table
 
-- **The Impossible is the lightest and the highest in sodium:** 1,090 calories against the Classic's 1,220, but 2,910mg of sodium against 2,640mg. If sodium is your primary constraint, the beef burger is the better order — which is the opposite of what most people assume when they choose plant-based.
+- **The Impossible is the lightest and the highest in sodium:** 1,090 calories against the Classic's 1,220, but 2,910mg of sodium against 2,640mg. If sodium is your primary constraint, the beef burger is the better order  which is the opposite of what most people assume when they choose plant-based.
 - **It also carries the most fiber on the entire menu at 12g**, and the lowest cholesterol of any burger at 35mg. Those are the metrics where the plant-based option genuinely wins.
-- **The Whisky Bacon Burger is the protein leader at 63g** — but it comes with 97g of fat and 32g of saturated fat, the highest in the category.
+- **The Whisky Bacon Burger is the protein leader at 63g**  but it comes with 97g of fat and 32g of saturated fat, the highest in the category.
 - **The Classic Bacon Cheeseburger is the balanced order:** Cheapest at $14.49, 50g of protein, lowest sodium of the four, and 400 fewer calories than the Quesadilla Burger.
 
 Full macros and allergen data: see our [nutrition and calories](/nutrition) reference guide.
@@ -96,19 +96,19 @@ The item most people search this menu for.
 
 Applebee's most recognisable burger, and the one that breaks the traditional format: instead of a brioche bun, the juicy beef patty is served between two warm, grilled flour tortillas, quesadilla-style.
 
-Inside, the patty is topped with melted Pepper Jack cheese, Applewood-smoked bacon, fresh pico de gallo, and crisp shredded lettuce. The Mexi-ranch sauce is what holds it together — a creamy, tangy counterpoint that prevents the grilled tortilla build from feeling dry.
+Inside, the patty is topped with melted Pepper Jack cheese, Applewood-smoked bacon, fresh pico de gallo, and crisp shredded lettuce. The Mexi-ranch sauce is what holds it together  a creamy, tangy counterpoint that prevents the grilled tortilla build from feeling dry.
 
 At **1,620 calories**, it is the heaviest burger on the menu, and the tortilla construction is why: two grilled tortillas carry more total calories and fat than a standard brioche bun.
 
 - **Price & Nutrition:** $15.99 · 1,620 calories
 
-*(Note: The appetizer menu features a separate [Chicken Quesadilla](/menu/appetizers) — a different starter that shares the name.)*
+*(Note: The appetizer menu features a separate [Chicken Quesadilla](/menu/appetizers)  a different starter that shares the name.)*
 
 ### O-M-Cheese Burger
 
 A cheese-forward burger built around rich, layered melted cheeses rather than a tall stack of miscellaneous toppings.
 
-The name is doing the heavy lifting here, and it has become one of the most searched Applebee's burgers by name — often typed into search engines as "om cheeseburger" or "o m cheese burger" without the hyphens.
+The name is doing the heavy lifting here, and it has become one of the most searched Applebee's burgers by name  often typed into search engines as "om cheeseburger" or "o m cheese burger" without the hyphens.
 
 The build centres on cheese as the main event rather than as an afterthought. Applebee's has updated the item since its initial debut, featuring a thick layer of melted American and cheddar cheeses smothering an all-beef patty. Availability and exact build rotations vary by location.
 
@@ -128,7 +128,7 @@ The balanced order in this category, and the best value.
 
 An all-beef patty with two slices of American cheese, Applewood-smoked bacon, lettuce, tomato, onion, and pickles on a toasted brioche bun.
 
-American cheese is used specifically because it melts more evenly than harder cheeses — it blankets the patty rather than sitting on it in rigid slices.
+American cheese is used specifically because it melts more evenly than harder cheeses  it blankets the patty rather than sitting on it in rigid slices.
 
 On the numbers it is the most sensible order here: **$14.49, 50g of protein, 2,640mg of sodium** (lowest of the four), and 400 fewer calories than the Quesadilla Burger.
 
@@ -142,9 +142,9 @@ The plant-based option, and the one with the most surprising nutritional numbers
 
 A plant-based patty made primarily from soy and potato protein, seared and served with American cheese, lettuce, tomato, onion, and pickles on a toasted brioche bun with fries.
 
-- **Where it genuinely wins:** **12g of fiber** — the most of any item on the entire Applebee's menu — and **35mg of cholesterol** against 120mg for the beef Classic. It is also the lightest burger at 1,090 calories.
+- **Where it genuinely wins:** **12g of fiber**  the most of any item on the entire Applebee's menu  and **35mg of cholesterol** against 120mg for the beef Classic. It is also the lightest burger at 1,090 calories.
 - **Where it does not:** Sodium. At **2,910mg**, it exceeds the beef Classic Cheeseburger's 2,640mg. Anyone choosing plant-based for health reasons should know the primary trade is cholesterol and fiber, not sodium reduction.
-- **Dietary note:** Vegetarian, but not vegan as served — the American cheese and the brioche bun both contain dairy.
+- **Dietary note:** Vegetarian, but not vegan as served  the American cheese and the brioche bun both contain dairy.
 
 - **Price & Nutrition:** $15.49 · 1,090 calories · 39g protein · 12g fiber · vegetarian · contains milk, wheat and soy
 
@@ -156,7 +156,7 @@ The protein leader at **63g of protein**, and the heaviest on fat.
 
 An all-beef patty with Pepper Jack cheese, crispy fried onions, Applewood-smoked bacon, and a sweet-savory whisky-infused steak sauce glaze that caramelises directly on the patty as it finishes on the grill.
 
-The crispy fried onions do real work here — they provide the only textural crunch in an otherwise soft, saucy build. At 97g of fat and 32g of saturated fat, it is the heaviest burger in those columns, with 20g of sugar originating from the whisky glaze.
+The crispy fried onions do real work here  they provide the only textural crunch in an otherwise soft, saucy build. At 97g of fat and 32g of saturated fat, it is the heaviest burger in those columns, with 20g of sugar originating from the whisky glaze.
 
 - **Price & Nutrition:** $15.99 · 1,590 calories · 63g protein · contains milk, wheat and soy *(Note spelling: Whisky, not Whiskey)*.
 
@@ -181,7 +181,7 @@ The crispy fried onions do real work here — they provide the only textural cru
 
 - **Cooking temperature:** Applebee's cooks ground beef patties through by default as standard food-safety practice. A pink medium center is a custom request, and whether it can be accommodated varies by franchise policy.
 - **Protein swaps:** Grilled or crispy chicken breast can generally be substituted on any signature burger build. The sauces and toppings carry the flavor profile, making poultry substitutions surprisingly effective.
-- **Low carb:** Any burger can be ordered "protein style" without the bun. This is the largest single carbohydrate reduction available — the bun and fries together account for most of the meal's carbs. Swapping fries for [steamed vegetables](/menu/sides) reduces it further.
+- **Low carb:** Any burger can be ordered "protein style" without the bun. This is the largest single carbohydrate reduction available  the bun and fries together account for most of the meal's carbs. Swapping fries for [steamed vegetables](/menu/sides) reduces it further.
 - **Sauce on the side:** Requesting glaze or Mexi-ranch on the side lets you control sugar and calorie intake directly.
 
 ---
@@ -213,7 +213,7 @@ A cheese-forward burger built around melted American cheese rather than a stack 
 Between 1,090 and 1,620 calories including fries. The Impossible Cheeseburger is the lightest at 1,090; the Quesadilla Burger the heaviest at 1,620.
 
 ### Is the Impossible Burger healthier than a beef burger at Applebee's?
-It depends on the metric. It is lighter at 1,090 calories, carries 12g of fiber — the most on the menu — and has 35mg of cholesterol against 120mg for the beef Classic. But it carries more sodium at 2,910mg against 2,640mg.
+It depends on the metric. It is lighter at 1,090 calories, carries 12g of fiber  the most on the menu  and has 35mg of cholesterol against 120mg for the beef Classic. But it carries more sodium at 2,910mg against 2,640mg.
 
 ### Is the Applebee's Impossible Burger vegan?
 No. As served it includes American cheese and a brioche bun, both containing dairy. Removing the cheese addresses part of it, but the bun does not.

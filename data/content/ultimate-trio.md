@@ -62,7 +62,7 @@ This is the question people are actually asking, and the two platters get confus
 
 ### Which one to order
 
-**Choose the Ultimate Trio if the table has preferences.** The value is in the choosing. If nobody wants the quesadilla, or two people want wings and one wants dip, the Trio lets you build to that. The three sauces matter more than they sound — they let one platter cover several tastes.
+**Choose the Ultimate Trio if the table has preferences.** The value is in the choosing. If nobody wants the quesadilla, or two people want wings and one wants dip, the Trio lets you build to that. The three sauces matter more than they sound  they let one platter cover several tastes.
 
 **Choose the Classic Combo if nobody can decide.** It is $2 more, 350 calories heavier, and includes a fourth item. If the answer to "what should we get" is "everything," this is the one.
 
@@ -92,7 +92,7 @@ The Trio draws directly from the core [appetizer menu](/menu/appetizers). The st
         <tr>
           <th scope="row"><strong>Chicken Wonton Tacos</strong></th>
           <td style="text-align: center;">590</td>
-          <td style="text-align: center;">—</td>
+          <td style="text-align: center;"></td>
           <td>Lightest option by a wide margin</td>
         </tr>
         <tr>
@@ -138,14 +138,14 @@ Availability of specific items in the Trio varies by location. For full item des
 
 - **For the most protein:** Chicken Quesadilla, Boneless Wings, Mozzarella Sticks. Delivers roughly 130g of protein across the platter.
 - **For the lightest platter:** Chicken Wonton Tacos, Mozzarella Sticks, Spinach & Artichoke Dip. Lands around 2,440 calories at full order scale, compared to 3,500+ for the heaviest combination.
-- **For texture variety:** One dip, one fried, one grilled. The spinach dip, mozzarella sticks, and wonton tacos combination gives creamy, crisp, and fresh textures in a single order — which is the entire point of a sampler.
+- **For texture variety:** One dip, one fried, one grilled. The spinach dip, mozzarella sticks, and wonton tacos combination gives creamy, crisp, and fresh textures in a single order  which is the entire point of a sampler.
 - **For a mixed table:** Pick items with different sauces rather than three fried items. Three breaded, sauced appetizers taste more similar than they look on the menu.
 
 ---
 
 ## The Three Dipping Sauces
 
-The three sauces are the part of this platter people underuse. They come included with the order, and they change what each appetizer tastes like — which effectively widens a three-item platter into more than three distinct flavours.
+The three sauces are the part of this platter people underuse. They come included with the order, and they change what each appetizer tastes like  which effectively widens a three-item platter into more than three distinct flavours.
 
 Standard dipping options span **House Ranch**, **Bleu Cheese**, **Warm Marinara**, **Honey Dijon Mustard**, and the signature wing sauces (Classic Hot Buffalo, Honey BBQ, Sweet Asian Chile, Garlic Parmesan). Availability varies by franchise location.
 
@@ -155,13 +155,13 @@ Standard dipping options span **House Ranch**, **Bleu Cheese**, **Warm Marinara*
 
 ## Ultimate Trio Calories and Nutrition
 
-The Ultimate Trio comes in at roughly **1,850 calories** for the full platter. Split between four people that is around **460 calories each** — a normal, sensible appetizer portion. Split between two people, it becomes a substantial meal.
+The Ultimate Trio comes in at roughly **1,850 calories** for the full platter. Split between four people that is around **460 calories each**  a normal, sensible appetizer portion. Split between two people, it becomes a substantial meal.
 
 That framing matters more than the headline number. Shareable platters are built for tables, and the calorie figure only makes sense divided.
 
 The variables that move the numbers most:
 - **Fried versus grilled:** The Chicken Wonton Tacos use grilled chicken in a fried shell, which is why they land at 590 calories against 1,080+ for the fully fried options.
-- **Sauce selection:** On wings specifically, Classic Hot Buffalo carries 4,720mg of sodium against 2,710mg for Garlic Parmesan — despite Garlic Parmesan having more calories. Sauce choice moves sodium more than item choice does.
+- **Sauce selection:** On wings specifically, Classic Hot Buffalo carries 4,720mg of sodium against 2,710mg for Garlic Parmesan  despite Garlic Parmesan having more calories. Sauce choice moves sodium more than item choice does.
 - **Dipping sauces:** The three included sauces add on top of the base platter figure. Ranch and bleu cheese dressings are the heaviest.
 
 Full macro and allergen data for every component is available on our [nutrition and calories guide](/nutrition).
@@ -178,7 +178,7 @@ Full macro and allergen data for every component is available on our [nutrition 
 
 **The workaround:** Order the components individually. Boneless Wings, Mozzarella Sticks, Spinach & Artichoke Dip, and Chicken Quesadilla are all reliably included in the half price promotion on their own. During those windows, ordering two or three individual appetizers at half price usually beats a bundled platter at full price.
 
-Outside those happy hour windows, the bundled platter is the better deal — which is exactly how the pricing model is designed.
+Outside those happy hour windows, the bundled platter is the better deal  which is exactly how the pricing model is designed.
 
 Full promotional times, state rules, and discount details are covered on our [happy hour guide](/happy-hour).
 
@@ -189,7 +189,7 @@ Full promotional times, state rules, and discount details are covered on our [ha
 Choice is the entire point of this platter, so the appetizer selection is the customization:
 - **Wing sauces are selectable,** and this is the change that affects the platter's flavor profile most.
 - **Substitutions outside the standard list** depend on the location and the manager on duty, and may carry a small upcharge. Franchise discretion applies here as it does everywhere else.
-- **Sauce swaps are straightforward** — asking for an extra marinara or honey mustard is a smaller request than swapping a protein.
+- **Sauce swaps are straightforward**  asking for an extra marinara or honey mustard is a smaller request than swapping a protein.
 - **Dietary builds:** If you have a vegetarian preference, building the Trio around it works cleanly. Mozzarella Sticks, Spinach & Artichoke Dip, and Brew Pub Pretzels are all meat-free, meaning a 100% vegetarian Trio is fully possible.
 
 ---
@@ -224,13 +224,13 @@ The Ultimate Trio is $16.99. The Classic Combo is $18.99. Prices vary slightly b
 Generally no. Combination platters are typically excluded because they are already discounted as bundles. Ordering the individual appetizers during a half price window is usually the cheaper route.
 
 ### Can you choose what goes in the Ultimate Trio?
-Yes — choosing three appetizers is the format of the platter. Wing sauces are also selectable. Substitutions outside the standard list depend on the location.
+Yes  choosing three appetizers is the format of the platter. Wing sauces are also selectable. Substitutions outside the standard list depend on the location.
 
 ### How many people does the Ultimate Trio serve?
 Three to four as a shared starter. For two people it works as a full meal rather than an appetizer.
 
 ### Is there a vegetarian Ultimate Trio?
-Yes. Mozzarella Sticks, Spinach & Artichoke Dip, and Brew Pub Pretzels are all vegetarian, which is enough for a full three-item platter. None are vegan — all contain dairy.
+Yes. Mozzarella Sticks, Spinach & Artichoke Dip, and Brew Pub Pretzels are all vegetarian, which is enough for a full three-item platter. None are vegan  all contain dairy.
 
 ---
 

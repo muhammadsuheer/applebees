@@ -1,17 +1,17 @@
 ---
 title: "Applebee's Bourbon Street Chicken & Shrimp: Price & Calories"
-description: "Applebee's Bourbon Street Chicken & Shrimp — Cajun chicken and blackened shrimp with garlic butter, mushrooms and onions. Price, calories, protein and allergens."
+description: "Applebee's Bourbon Street Chicken & Shrimp  Cajun chicken and blackened shrimp with garlic butter, mushrooms and onions. Price, calories, protein and allergens."
 ---
 
 <div class="answerBlock">
   <p>
-    Applebee's Bourbon Street Chicken & Shrimp is a sizzling skillet dish of Cajun-seasoned chicken breast and blackened shrimp served over sautéed mushrooms and onions with garlic butter and garlic mashed potatoes. It costs $17.99 and delivers 57g of protein — one of the highest protein counts on the menu.
+    Applebee's Bourbon Street Chicken & Shrimp is a sizzling skillet dish of Cajun-seasoned chicken breast and blackened shrimp served over sautéed mushrooms and onions with garlic butter and garlic mashed potatoes. It costs $17.99 and delivers 57g of protein  one of the highest protein counts on the menu.
   </p>
 </div>
 
 ## What Comes with Bourbon Street Chicken & Shrimp
 
-The dish is built in layers, and the layering is the point — everything above drips into everything below.
+The dish is built in layers, and the layering is the point  everything above drips into everything below.
 
 - **The base:** Sautéed mushrooms and caramelised onions sit at the bottom of the skillet and absorb the juices from the proteins above, which is why they taste sweeter than sautéed onions usually do.
 - **The chicken:** A seasoned chicken breast, seared before it hits the skillet so it arrives with a savoury crust rather than steaming in the pan.
@@ -26,7 +26,7 @@ It is served with garlic mashed potatoes as the standard starch. See our [sides 
 
 Cast iron holds heat far longer than a plate, so the food keeps cooking on the way to the table. The juices and butter hit hot metal and caramelise, building the browned residue that coats everything in the pan.
 
-That is not presentation for its own sake — it is why the last bite is the same temperature as the first, and it is the practical reason this dish exists.
+That is not presentation for its own sake  it is why the last bite is the same temperature as the first, and it is the practical reason this dish exists.
 
 **Safety note:** The skillet is genuinely hot. It arrives on a protective wooden underliner and should not be touched directly.
 
@@ -98,7 +98,7 @@ That is not presentation for its own sake — it is why the last bite is the sam
 
 ### Where this sits on the menu
 
-At **57g of protein**, this is among the highest-protein entrées Applebee's serves, behind only the Three-Cheese Chicken Penne at 77g and the Bourbon Street Steak at 71g. Against the pasta dishes it carries far less carbohydrate — 49g versus 102g for the penne.
+At **57g of protein**, this is among the highest-protein entrées Applebee's serves, behind only the Three-Cheese Chicken Penne at 77g and the Bourbon Street Steak at 71g. Against the pasta dishes it carries far less carbohydrate  49g versus 102g for the penne.
 
 The trade-off is fat and sodium: **66g of fat**, most of it from the garlic butter, and **2,910mg of sodium** from the Cajun seasoning. That sodium figure is close to a full day's recommended intake in one plate.
 
@@ -112,7 +112,7 @@ Full comparison across the menu is available on our [nutrition and calories](/nu
 
 ### The allergen most people miss
 
-This dish contains shellfish, which is obvious once you see the shrimp — but it also contains milk, from the garlic butter and the mashed potatoes.
+This dish contains shellfish, which is obvious once you see the shrimp  but it also contains milk, from the garlic butter and the mashed potatoes.
 
 Anyone avoiding shellfish should note that ordering the dish without the shrimp does not make it shellfish-free, because it is cooked in a shared kitchen and often on shared grill surfaces. For a serious allergy, review our [nutrition and allergens page](/nutrition) and speak with the restaurant manager directly.
 
@@ -198,7 +198,7 @@ Cajun seasoning and garlic butter are assertive, so the most effective drink pai
 This dish travels better than most items on the Applebee's menu, with one practical caveat:
 
 - **The proteins hold up well:** Chicken and shrimp maintain their moisture and texture inside sealed containers, and the mushrooms and onions travel safely in their natural pan juices.
-- **The sizzle does not:** Cast iron is what makes this dish arrive piping hot at your table, and a takeout box cannot replicate that heat retention. Ordered to go, it is a high-quality Cajun chicken and shrimp plate — but the sizzle stays at the restaurant.
+- **The sizzle does not:** Cast iron is what makes this dish arrive piping hot at your table, and a takeout box cannot replicate that heat retention. Ordered to go, it is a high-quality Cajun chicken and shrimp plate  but the sizzle stays at the restaurant.
 - **Eat the shrimp first:** Shrimp overcooks faster than chicken when reheated. If you are splitting the portion across two meals, enjoy the shrimp during the first sitting.
 
 For reheating guidance and curbside pickup mechanics, see our [Carside To Go](/takeout) and [delivery](/delivery) guides.
@@ -217,7 +217,7 @@ Cajun-seasoned chicken breast and blackened shrimp served over sautéed mushroom
 $17.99. Prices vary slightly by location, since Applebee's restaurants are independently franchised.
 
 ### Is Bourbon Street Chicken & Shrimp spicy?
-The Cajun seasoning is more smoky and savoury than hot — mild to medium heat. If you are sensitive to spice, asking for lighter seasoning is a standard request.
+The Cajun seasoning is more smoky and savoury than hot  mild to medium heat. If you are sensitive to spice, asking for lighter seasoning is a standard request.
 
 ### What is the difference between Bourbon Street Chicken & Shrimp and Bourbon Street Steak?
 Same Cajun seasoning and garlic butter treatment, different protein. The chicken and shrimp version is $17.99 and 1,010 calories; the steak is $19.99 and 1,430 calories with 71g of protein.
@@ -226,7 +226,7 @@ Same Cajun seasoning and garlic butter treatment, different protein. The chicken
 Yes, skillets are made to order. Removing the vegetable bed also removes some of the caramelised flavour, since those vegetables absorb the juices from the proteins above them.
 
 ### Does Bourbon Street Chicken & Shrimp contain allergens?
-Yes — shellfish from the shrimp, plus milk from the garlic butter and mashed potatoes, and soy. Shared kitchen surfaces mean cross-contact is possible.
+Yes  shellfish from the shrimp, plus milk from the garlic butter and mashed potatoes, and soy. Shared kitchen surfaces mean cross-contact is possible.
 
 ### Are Applebee's skillets served hot?
 Yes. Cast-iron skillets come out of the kitchen at high temperature on a wooden underliner. The pan itself should not be touched.

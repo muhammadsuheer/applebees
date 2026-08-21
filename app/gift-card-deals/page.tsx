@@ -56,7 +56,7 @@ const faqData = [
   },
   {
     question: "Someone asked me to pay them with Applebee's gift cards. Is that legitimate?",
-    answer: "No. Applebee's gift cards can only be spent at Applebee's. No government body, utility, hospital or debt collector accepts them. Any such request is a scam — report it at reportfraud.ftc.gov."
+    answer: "No. Applebee's gift cards can only be spent at Applebee's. No government body, utility, hospital or debt collector accepts them. Any such request is a scam  report it at reportfraud.ftc.gov."
   }
 ];
 
@@ -118,7 +118,7 @@ export default function GiftCardPage() {
       <Breadcrumb items={[{ label: 'Gift Card Deals', href: '/gift-card-deals' }]} />
 
       <main className={styles.main}>
-        {/* H1 & §1 — OPENING */}
+        {/* H1 & §1  OPENING */}
         <header className={styles.hero} role="banner" aria-label="Gift Cards Header">
           <h1>Applebee's Gift Card Balance and How to Check It</h1>
           <p className={styles.heroLead}>
@@ -129,7 +129,7 @@ export default function GiftCardPage() {
           </p>
         </header>
 
-        {/* §2 — CHECKING YOUR BALANCE */}
+        {/* §2  CHECKING YOUR BALANCE */}
         <section className={styles.clusterSection} id="check-balance">
           <h2>How to Check an Applebee's Gift Card Balance</h2>
 
@@ -141,7 +141,7 @@ export default function GiftCardPage() {
             <strong>Important, and this catches people out:</strong> The balance checker does not run on applebees.com. It opens on a third-party payments domain, because Applebee's gift cards are powered by CashStar and the balance system sits with its stored-value provider.
           </p>
           <p>
-            That is expected and legitimate — but it means "only trust applebees.com URLs" is advice that will make you distrust the real tool. The safe rule is not the domain, it is the path: always start at applebees.com and follow the link from there. Never arrive at a balance checker from a search ad or an emailed link.
+            That is expected and legitimate  but it means "only trust applebees.com URLs" is advice that will make you distrust the real tool. The safe rule is not the domain, it is the path: always start at applebees.com and follow the link from there. Never arrive at a balance checker from a search ad or an emailed link.
           </p>
 
           <h3>By phone</h3>
@@ -154,7 +154,7 @@ export default function GiftCardPage() {
 
           <h3>In a restaurant</h3>
           <p>
-            Any Applebee's can run the card at the till and tell you the balance. No account, no website, no typing a number into anything. If you are near a location, this is the simplest option — and the only one where you never enter your card details online at all.
+            Any Applebee's can run the card at the till and tell you the balance. No account, no website, no typing a number into anything. If you are near a location, this is the simplest option  and the only one where you never enter your card details online at all.
           </p>
 
           <h3>Which method to use</h3>
@@ -190,7 +190,7 @@ export default function GiftCardPage() {
           </div>
         </section>
 
-        {/* §3 — SCAMS */}
+        {/* §3  SCAMS */}
         <section className={styles.clusterSection} id="gift-card-scams">
           <h2>Applebee's Gift Card Scams to Know About</h2>
           <p>
@@ -221,7 +221,7 @@ export default function GiftCardPage() {
             </li>
           </ul>
           <p className={styles.alertBox}>
-            <strong>The universal rule:</strong> An Applebee's gift card can only be spent at Applebee's. Nobody — not a utility company, not a hospital, not a debt collector, not a court — takes them as payment. Any request to pay a bill with them is a scam, without exception.
+            <strong>The universal rule:</strong> An Applebee's gift card can only be spent at Applebee's. Nobody  not a utility company, not a hospital, not a debt collector, not a court  takes them as payment. Any request to pay a bill with them is a scam, without exception.
           </p>
 
           <h3>Fake balance-check sites</h3>
@@ -231,7 +231,7 @@ export default function GiftCardPage() {
 
           <h3>Tampered cards on the rack</h3>
           <p>
-            Applebee's advises checking the packaging before buying. If it looks opened, resealed, torn, or the PIN panel has been scratched, do not buy it — take it to store management. Cards are sometimes recorded in-store and then drained the moment they are activated.
+            Applebee's advises checking the packaging before buying. If it looks opened, resealed, torn, or the PIN panel has been scratched, do not buy it  take it to store management. Cards are sometimes recorded in-store and then drained the moment they are activated.
           </p>
 
           <h3>"Free" or discounted gift card offers</h3>
@@ -241,11 +241,11 @@ export default function GiftCardPage() {
 
           <h3>If you have been targeted</h3>
           <p>
-            Report it to the Federal Trade Commission at <a href="https://reportfraud.ftc.gov" target="_blank" rel="noopener noreferrer">reportfraud.ftc.gov</a>. Call <strong>1-800-252-6722</strong> about the card itself. Move fast — the window between a scammer getting the number and the balance disappearing is short.
+            Report it to the Federal Trade Commission at <a href="https://reportfraud.ftc.gov" target="_blank" rel="noopener noreferrer">reportfraud.ftc.gov</a>. Call <strong>1-800-252-6722</strong> about the card itself. Move fast  the window between a scammer getting the number and the balance disappearing is short.
           </p>
         </section>
 
-        {/* §4 — EXPIRY AND VALUE */}
+        {/* §4  EXPIRY AND VALUE */}
         <section className={styles.clusterSection} id="expiry-and-value">
           <h2>Do Applebee's Gift Cards Expire?</h2>
 
@@ -267,14 +267,14 @@ export default function GiftCardPage() {
             During holiday promotions, buying a gift card sometimes comes with an additional bonus card. That bonus card is not the same thing.
           </p>
           <p>
-            A purchased gift card is money you paid for, and the protections above apply. A bonus card was given away as part of a promotion, which makes it a promotional voucher rather than purchased value — and promotional vouchers carry their own expiry dates and their own terms.
+            A purchased gift card is money you paid for, and the protections above apply. A bonus card was given away as part of a promotion, which makes it a promotional voucher rather than purchased value  and promotional vouchers carry their own expiry dates and their own terms.
           </p>
           <p>
             <strong>Practical rule:</strong> Spend the bonus card first, keep the purchased card as long as you like. The bonus card is the one with a deadline, and the deadline is printed on it or in the promotion terms. Once it passes, it cannot be reinstated at the till.
           </p>
         </section>
 
-        {/* §5 — WHERE CARDS WORK */}
+        {/* §5  WHERE CARDS WORK */}
         <section className={styles.clusterSection} id="where-cards-work">
           <h2>Where You Can Use an Applebee's Gift Card</h2>
           <p><strong>Works:</strong></p>
@@ -287,7 +287,7 @@ export default function GiftCardPage() {
           <p><strong>Does not work:</strong></p>
           <ul className={styles.textList}>
             <li>
-              <strong>Third-party delivery platforms:</strong> Applebee's states directly that delivery service providers do not accept its gift cards. If you want to pay with a gift card for food at home, order through Applebee's own site or app — see <Link href="/delivery">delivery</Link> and <Link href="/takeout">takeout</Link>.
+              <strong>Third-party delivery platforms:</strong> Applebee's states directly that delivery service providers do not accept its gift cards. If you want to pay with a gift card for food at home, order through Applebee's own site or app  see <Link href="/delivery">delivery</Link> and <Link href="/takeout">takeout</Link>.
             </li>
             <li>
               <strong>Any other business:</strong> Applebee's cards are only redeemable at Applebee's.
@@ -309,31 +309,31 @@ export default function GiftCardPage() {
 
           <h3>Not reloadable</h3>
           <p>
-            Once a card's balance is spent, it cannot be topped up. Applebee's does not offer reloading — a new card is the only route. Worth knowing before you plan to keep one card as a running balance.
+            Once a card's balance is spent, it cannot be topped up. Applebee's does not offer reloading  a new card is the only route. Worth knowing before you plan to keep one card as a running balance.
           </p>
         </section>
 
-        {/* §6 — BUYING */}
+        {/* §6  BUYING */}
         <section className={styles.clusterSection} id="how-to-buy">
           <h2>How to Buy an Applebee's Gift Card</h2>
           <ul className={styles.textList}>
             <li><strong>In a restaurant:</strong> Available at any location, for any amount.</li>
             <li><strong>Online, digital:</strong> Sent by email, delivered within minutes or scheduled for a future date. Can also be printed immediately and taken into a restaurant.</li>
-            <li><strong>Online, physical:</strong> Orders process and ship within two days, with delivery options from standard mail to overnight. Cards shipped by UPS cannot be delivered to a PO Box — use a street address.</li>
+            <li><strong>Online, physical:</strong> Orders process and ship within two days, with delivery options from standard mail to overnight. Cards shipped by UPS cannot be delivered to a PO Box  use a street address.</li>
             <li><strong>In bulk:</strong> A separate business ordering route exists for larger volumes, with better value at higher quantities.</li>
             <li><strong>Not by phone:</strong> Applebee's does not take gift card orders over the phone, for security reasons. Anyone calling to sell you one is not Applebee's.</li>
           </ul>
 
           <h3>Buying from other retailers</h3>
           <p>
-            Applebee's gift cards are sold through authorised retail partners as well as directly. Buying from a supermarket or warehouse club rack is legitimate — just check the packaging for tampering first, as covered in §3.
+            Applebee's gift cards are sold through authorised retail partners as well as directly. Buying from a supermarket or warehouse club rack is legitimate  just check the packaging for tampering first, as covered in §3.
           </p>
           <p>
-            The value in buying elsewhere depends on whatever promotion that retailer is running at the time. It is worth checking before a large purchase, since a gift card bought at a discount is spendable at full face value, including on <Link href="/specials-and-deals">promotional deals</Link> — the discount and the promotion do not conflict, because one is a payment method and the other is a menu offer.
+            The value in buying elsewhere depends on whatever promotion that retailer is running at the time. It is worth checking before a large purchase, since a gift card bought at a discount is spendable at full face value, including on <Link href="/specials-and-deals">promotional deals</Link>  the discount and the promotion do not conflict, because one is a payment method and the other is a menu offer.
           </p>
         </section>
 
-        {/* §7 — LOST OR STOLEN */}
+        {/* §7  LOST OR STOLEN */}
         <section className={styles.clusterSection} id="lost-or-stolen">
           <h2>What to Do If You Lose an Applebee's Gift Card</h2>
 
@@ -345,7 +345,7 @@ export default function GiftCardPage() {
 
           <h3>Why the receipt matters</h3>
           <p>
-            A gift card is a bearer instrument. Whoever holds it can use it, and there is no name attached to it. That is why Applebee's asks for the card number or the receipt — without one of them there is no way to identify which card is yours among millions in circulation.
+            A gift card is a bearer instrument. Whoever holds it can use it, and there is no name attached to it. That is why Applebee's asks for the card number or the receipt  without one of them there is no way to identify which card is yours among millions in circulation.
           </p>
           <p>
             Keep the activation receipt for any card you are not spending immediately, or photograph it. It costs nothing and it is the only thing standing between a lost card and lost money.
@@ -357,9 +357,9 @@ export default function GiftCardPage() {
           </p>
         </section>
 
-        {/* §8 — FAQ */}
+        {/* §8  FAQ */}
         <section className={styles.clusterSection} id="faqs">
-          <h2>Applebee's Gift Cards — Frequently Asked Questions</h2>
+          <h2>Applebee's Gift Cards  Frequently Asked Questions</h2>
           <div className={styles.faqList}>
             {faqData.map((faq, index) => (
               <article key={index} className={styles.faqItem}>
@@ -367,7 +367,7 @@ export default function GiftCardPage() {
                 <p>
                   {faq.answer.includes("reportfraud.ftc.gov") ? (
                     <>
-                      No. Applebee's gift cards can only be spent at Applebee's. No government body, utility, hospital or debt collector accepts them. Any such request is a scam — report it at <a href="https://reportfraud.ftc.gov" target="_blank" rel="noopener noreferrer">reportfraud.ftc.gov</a>.
+                      No. Applebee's gift cards can only be spent at Applebee's. No government body, utility, hospital or debt collector accepts them. Any such request is a scam  report it at <a href="https://reportfraud.ftc.gov" target="_blank" rel="noopener noreferrer">reportfraud.ftc.gov</a>.
                     </>
                   ) : (
                     faq.answer

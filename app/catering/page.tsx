@@ -32,7 +32,7 @@ const faqData = [
   },
   {
     question: "Does Applebee's catering include plates and cutlery?",
-    answer: "Yes. Plates, serving utensils and cutlery are included in catering orders — you do not need to request them separately."
+    answer: "Yes. Plates, serving utensils and cutlery are included in catering orders  you do not need to request them separately."
   },
   {
     question: "Does Applebee's deliver catering orders?",
@@ -48,7 +48,7 @@ const faqData = [
   },
   {
     question: "How much food should I order for 20 people?",
-    answer: "Roughly seven platters — two appetizers, three entrées and two salads or sides. Adjust upward for younger or heavier-eating groups."
+    answer: "Roughly seven platters  two appetizers, three entrées and two salads or sides. Adjust upward for younger or heavier-eating groups."
   },
   {
     question: "Is Applebee's catering available at every location?",
@@ -146,21 +146,21 @@ export default function CateringPage() {
       <Breadcrumb items={[{ label: 'Catering', href: '/catering' }]} />
 
       <main className={styles.main}>
-        {/* H1 & §1 — OPENING */}
+        {/* H1 & §1  OPENING */}
         <header className={styles.hero} role="banner" aria-label="Catering Header">
           <h1>Applebee's Catering: Platters, Pricing and How Much to Order</h1>
           <p className={styles.heroLead}>
             Applebee's catering works on a platter model. Each dish serves 6 to 8 people, pricing lands at roughly $10 per person for a balanced spread, and there is no minimum order.
           </p>
           <p className={styles.heroSub}>
-            Orders can be placed up to two weeks ahead or, depending on size, with as little as two hours' notice. Plates, cutlery and serving utensils are included — you do not need to ask for them.
+            Orders can be placed up to two weeks ahead or, depending on size, with as little as two hours' notice. Plates, cutlery and serving utensils are included  you do not need to ask for them.
           </p>
           <p className={styles.heroHighlight}>
             The hard part is not ordering. It is working out how much to order. This page covers the platter math for common headcounts, what holds heat and what does not, lead times that actually work, and how to keep food safe across a two-hour event.
           </p>
         </header>
 
-        {/* §2 — THE ORDERING MATH */}
+        {/* §2  THE ORDERING MATH */}
         <section className={styles.clusterSection} id="ordering-math">
           <h2>How Much Applebee's Catering to Order</h2>
           <p>
@@ -247,7 +247,7 @@ export default function CateringPage() {
           </p>
         </section>
 
-        {/* §3 — PRICING */}
+        {/* §3  PRICING */}
         <section className={styles.clusterSection} id="catering-prices">
           <h2>Applebee's Catering Prices</h2>
 
@@ -264,7 +264,7 @@ export default function CateringPage() {
           <ul className={styles.textList}>
             <li><strong>Premium items raise it:</strong> Rib platters and multiple appetizer trays push the per-head cost above the baseline.</li>
             <li><strong>Pasta and rice-based trays lower it:</strong> These are the highest-yield items per dollar, which is why they anchor most catering orders.</li>
-            <li><strong>Location changes it:</strong> Franchise pricing varies the same way it does on the <Link href="/menu">regular menu</Link> — a metro location costs more than a rural one.</li>
+            <li><strong>Location changes it:</strong> Franchise pricing varies the same way it does on the <Link href="/menu">regular menu</Link>  a metro location costs more than a rural one.</li>
           </ul>
 
           <h3>Getting an accurate quote</h3>
@@ -273,7 +273,7 @@ export default function CateringPage() {
           </p>
         </section>
 
-        {/* §4 — WHAT HOLDS UP AND WHAT DOESN'T */}
+        {/* §4  WHAT HOLDS UP AND WHAT DOESN'T */}
         <section className={styles.clusterSection} id="what-holds-up">
           <h2>Which Applebee's Catering Items Travel and Hold Heat</h2>
           <p>
@@ -289,7 +289,7 @@ export default function CateringPage() {
 
           <h3>Needs handling</h3>
           <ul className={styles.textList}>
-            <li><strong>Fried appetizers:</strong> Boneless wings and mozzarella sticks lose their texture in a sealed container, because trapped steam softens the coating. Sauce on the side is the fix — toss just before serving rather than at the restaurant.</li>
+            <li><strong>Fried appetizers:</strong> Boneless wings and mozzarella sticks lose their texture in a sealed container, because trapped steam softens the coating. Sauce on the side is the fix  toss just before serving rather than at the restaurant.</li>
             <li><strong>Salads:</strong> Order dressing separately. ezCater listings flag this directly, suggesting extra dressing be purchased as a side. Dressed salads sitting in a tray for an hour wilt.</li>
           </ul>
 
@@ -304,7 +304,7 @@ export default function CateringPage() {
           </p>
         </section>
 
-        {/* §5 — LEAD TIMES */}
+        {/* §5  LEAD TIMES */}
         <section className={styles.clusterSection} id="lead-times">
           <h2>How Much Notice Does Applebee's Catering Need?</h2>
 
@@ -319,14 +319,14 @@ export default function CateringPage() {
             Two hours works for a small order dropped into a quiet kitchen. It does not work for a large order dropped into a dinner rush.
           </p>
           <p>
-            A catering order competes for the same grill and fryer space as every dine-in table. Placed at 10:00 AM on a Tuesday, there is capacity. Placed at 5:00 PM on a Friday, there is not — and a manager who accepts it either delays your food or the dining room's.
+            A catering order competes for the same grill and fryer space as every dine-in table. Placed at 10:00 AM on a Tuesday, there is capacity. Placed at 5:00 PM on a Friday, there is not  and a manager who accepts it either delays your food or the dining room's.
           </p>
 
           <h3>What notice actually buys you</h3>
           <ul className={styles.textList}>
             <li><strong>24 hours:</strong> Lets the restaurant adjust its stock order so it does not run short mid-prep, and schedule prep time for your platters.</li>
             <li><strong>A few days:</strong> The right window for anything over about 10 platters, or anything on a weekend.</li>
-            <li><strong>Two weeks:</strong> The maximum booking window and worth using for dated events — holiday parties, graduations, game days — when every restaurant in the area is under the same pressure.</li>
+            <li><strong>Two weeks:</strong> The maximum booking window and worth using for dated events  holiday parties, graduations, game days  when every restaurant in the area is under the same pressure.</li>
           </ul>
 
           <h3>The practical rule</h3>
@@ -335,11 +335,11 @@ export default function CateringPage() {
           </p>
         </section>
 
-        {/* §6 — PICKUP VS DELIVERY */}
+        {/* §6  PICKUP VS DELIVERY */}
         <section className={styles.clusterSection} id="pickup-vs-delivery">
           <h2>Getting Applebee's Catering to Your Event</h2>
           <p>
-            <strong>Pickup:</strong> Order direct and collect, often through <Link href="/takeout">Carside To Go</Link>. Cheapest route, and you control the timing — food leaves the kitchen and goes straight to your event rather than sitting in a queue.
+            <strong>Pickup:</strong> Order direct and collect, often through <Link href="/takeout">Carside To Go</Link>. Cheapest route, and you control the timing  food leaves the kitchen and goes straight to your event rather than sitting in a queue.
           </p>
           <p>
             <strong>Direct delivery:</strong> Availability depends on the location. Some restaurants deliver catering orders; many prefer pickup for larger ones. Ask when ordering.
@@ -348,11 +348,11 @@ export default function CateringPage() {
             <strong>ezCater:</strong> Applebee's catering is listed on ezCater, the business catering marketplace, which handles delivery through catering-specific couriers rather than standard food delivery drivers. Relevant differences: couriers carry insulated equipment sized for platters, delivery windows are scheduled rather than as-soon-as-possible, and business accounts handle tax exemption at the platform level.
           </p>
           <p>
-            <strong>Which to use:</strong> For a personal event, direct pickup is cheapest. For an office order that needs to arrive at a scheduled time in a building with a reception desk, the corporate platform is built for that and the fee buys real logistics. Standard delivery apps are the wrong tool here — see our guide on <Link href="/delivery">delivery</Link> for why per-item markups make large orders expensive.
+            <strong>Which to use:</strong> For a personal event, direct pickup is cheapest. For an office order that needs to arrive at a scheduled time in a building with a reception desk, the corporate platform is built for that and the fee buys real logistics. Standard delivery apps are the wrong tool here  see our guide on <Link href="/delivery">delivery</Link> for why per-item markups make large orders expensive.
           </p>
         </section>
 
-        {/* §7 — KEEPING FOOD HOT AND SAFE */}
+        {/* §7  KEEPING FOOD HOT AND SAFE */}
         <section className={styles.clusterSection} id="keeping-food-hot">
           <h2>How to Keep Applebee's Catering Hot</h2>
           <p>
@@ -364,7 +364,7 @@ export default function CateringPage() {
 
           <h3>The time limit on containers</h3>
           <p>
-            Insulated containers hold serving temperature for a short window — enough to travel and serve immediately. For an event running longer than about forty-five minutes of open service, transfer to chafing dishes.
+            Insulated containers hold serving temperature for a short window  enough to travel and serve immediately. For an event running longer than about forty-five minutes of open service, transfer to chafing dishes.
           </p>
 
           <h3>Chafing dish setup</h3>
@@ -383,17 +383,17 @@ export default function CateringPage() {
             Hot food should be held above 135°F. Below that, a buffet enters the danger zone where bacteria multiply, and time starts counting.
           </p>
           <p>
-            A correctly set chafing dish with a water bath holds food safely for a couple of hours. What it will not do is reheat food that has already gone cold — chafing dishes maintain temperature, they do not restore it. Food that has dropped in temperature should be reheated properly before it goes on the line.
+            A correctly set chafing dish with a water bath holds food safely for a couple of hours. What it will not do is reheat food that has already gone cold  chafing dishes maintain temperature, they do not restore it. Food that has dropped in temperature should be reheated properly before it goes on the line.
           </p>
         </section>
 
-        {/* §8 — ORDERING BY EVENT TYPE */}
+        {/* §8  ORDERING BY EVENT TYPE */}
         <section className={styles.clusterSection} id="event-types">
           <h2>What to Order for Different Events</h2>
 
           <h3>Office lunch</h3>
           <p>
-            Fork-friendly wins. Pasta trays, a salad with dressing on the side, and a sandwich or wrap platter. Avoid anything requiring both hands or generating mess — people eat at desks and go back to work.
+            Fork-friendly wins. Pasta trays, a salad with dressing on the side, and a sandwich or wrap platter. Avoid anything requiring both hands or generating mess  people eat at desks and go back to work.
           </p>
           <p>
             <strong>For 20 people:</strong> Two pasta trays, one salad, one sandwich platter, one appetizer. Add a dessert platter if it is a celebration rather than a working lunch.
@@ -404,12 +404,12 @@ export default function CateringPage() {
             Finger food, minimal cutlery. Multiple wing platters in different sauces, mozzarella sticks, and a rib platter. Salads mostly go untouched at these events.
           </p>
           <p>
-            Sauce on the side matters more here than anywhere else, because the food sits out across a long window. Order napkins generously — they are included, but the standard quantity assumes a seated meal.
+            Sauce on the side matters more here than anywhere else, because the food sits out across a long window. Order napkins generously  they are included, but the standard quantity assumes a seated meal.
           </p>
 
           <h3>Family gathering or party</h3>
           <p>
-            The most mixed group, so the widest spread. Two or three appetizers, three or four entrées across chicken and pasta, plus a salad and a side. Something for children matters — <Link href="/menu/kids-menu">kids menu</Link> items are ordered individually rather than as platters.
+            The most mixed group, so the widest spread. Two or three appetizers, three or four entrées across chicken and pasta, plus a salad and a side. Something for children matters  <Link href="/menu/kids-menu">kids menu</Link> items are ordered individually rather than as platters.
           </p>
 
           <h3>Graduation, holiday parties and dated events</h3>
@@ -418,7 +418,7 @@ export default function CateringPage() {
           </p>
         </section>
 
-        {/* §9 — CORPORATE AND TAX-EXEMPT ORDERS */}
+        {/* §9  CORPORATE AND TAX-EXEMPT ORDERS */}
         <section className={styles.clusterSection} id="corporate-tax-exemption">
           <h2>Corporate Catering and Tax Exemption</h2>
           <p>
@@ -426,7 +426,7 @@ export default function CateringPage() {
           </p>
           <ul className={styles.textList}>
             <li>
-              <strong>Ordering directly:</strong> Bring a printed copy of your organisation's tax exemption certificate to the restaurant. The manager needs the document to record against the transaction — telling them verbally is not enough, because the exemption has to be evidenced for the franchise's own accounting.
+              <strong>Ordering directly:</strong> Bring a printed copy of your organisation's tax exemption certificate to the restaurant. The manager needs the document to record against the transaction  telling them verbally is not enough, because the exemption has to be evidenced for the franchise's own accounting.
             </li>
             <li>
               <strong>Ordering through a business catering platform:</strong> The certificate is uploaded once to the account profile and applied automatically to future orders. For anyone ordering repeatedly, this removes the paperwork from every individual order.
@@ -437,9 +437,9 @@ export default function CateringPage() {
           </p>
         </section>
 
-        {/* §10 — FAQ */}
+        {/* §10  FAQ */}
         <section className={styles.clusterSection} id="faqs">
-          <h2>Applebee's Catering — Frequently Asked Questions</h2>
+          <h2>Applebee's Catering  Frequently Asked Questions</h2>
           <div className={styles.faqList}>
             {faqData.map((faq, index) => (
               <article key={index} className={styles.faqItem}>
