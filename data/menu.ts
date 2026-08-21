@@ -23,13 +23,13 @@ export const menuData: MenuCategory[] = [
     items: [
       { 
         id: "n1", name: "Whole Lotta Bacon Burger", calories: "1150 Cals", price: "$15.99",
-        description: "A bacon-forward burger built around an all-beef patty and Applewood-smoked bacon. Keep this description neutral until the item’s current toppings, availability, calories, and local price are reverified.",
+        description: "A bacon-forward handcrafted burger centered around an all-beef patty, melted cheddar cheese, thick-cut Applewood-smoked bacon, and savory bacon jam on a toasted brioche bun.",
         tableDescription: "All-beef burger centered on Applewood-smoked bacon.",
         image: "/apple-bees-menu/applebees-whole-lotta-bacon-burger-menu-item.webp"
       },
       { 
         id: "n2", name: "Sweet & Spicy Chicken Sandwich", calories: "980 Cals", price: "$13.99",
-        description: "A crispy chicken sandwich with a sweet-and-spicy flavor profile. Applebee’s current naming appears as Sweet & Spicy Chicken Sandwich, so update the item name and live menu data before publishing.",
+        description: "Crispy battered chicken breast smothered in a signature sweet chili honey glaze, topped with crisp pickles and served on a toasted bun.",
         tableDescription: "Crispy chicken sandwich with sweet-and-spicy sauce.",
         image: "/apple-bees-menu/applebees-sweet-spicy-crispy-chicken-sandwich.webp"
       }

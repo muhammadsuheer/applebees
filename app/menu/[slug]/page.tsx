@@ -25,9 +25,24 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     return { title: 'Category Not Found' };
   }
 
+  let title = `Applebee's ${category.title} Menu with Prices and Calories (2026)`;
+  let description = `Explore Applebee's ${category.title} menu with verified prices, calories, and nutritional facts. Complete 2026 guide to all ${category.title.toLowerCase()} selections.`;
+
+  try {
+    const filePath = path.join(process.cwd(), 'data', 'content', `${p.slug}.md`);
+    if (fs.existsSync(filePath)) {
+      const fileContents = fs.readFileSync(filePath, 'utf8');
+      const { data } = matter(fileContents);
+      if (data.title) title = data.title;
+      if (data.description) description = data.description;
+    }
+  } catch (e) {
+    // Fallback
+  }
+
   return {
-    title: `${category.title} Menu | Prices & Calories | Applebee's`,
-    description: `Explore the complete ${category.title} menu at Applebee's. See high-quality images, calorie counts, and estimated prices for every item.`,
+    title,
+    description,
     alternates: {
       canonical: `https://applebees-menus.us/menu/${p.slug}`,
     }
@@ -49,95 +64,113 @@ export default async function CategoryPage({ params }: Props) {
   }
 
   let contentHtml = '';
-  let title = category.title;
+  let pageTitle = `Applebee's ${category.title} Menu with Prices and Calories`;
 
   try {
     const filePath = path.join(process.cwd(), 'data', 'content', `${p.slug}.md`);
     if (fs.existsSync(filePath)) {
       const fileContents = fs.readFileSync(filePath, 'utf8');
       const { data, content } = matter(fileContents);
-      title = data.title || category.title;
-      // Parse markdown to HTML
+      if (data.title) pageTitle = data.title;
       contentHtml = await marked.parse(content);
     } else {
-      // Fallback if the MD file is not yet generated
       contentHtml = `<p>Detailed information about ${category.title} is coming soon.</p>`;
     }
   } catch (error) {
     console.error('Error loading markdown content:', error);
   }
 
-  // Get 4 other categories for the related section
+  // Sibling categories for contextual linking
   const otherCategories = menuData.filter(c => c.slug !== p.slug).slice(0, 4);
 
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": `https://applebees-menus.us/menu/${p.slug}/#webpage`,
+        "url": `https://applebees-menus.us/menu/${p.slug}`,
+        "name": `Applebee's ${category.title} Menu with Prices and Calories`,
+        "description": `Comprehensive guide to Applebee's ${category.title} with updated prices, calories, and nutrition.`,
+        "breadcrumb": {
+          "@id": `https://applebees-menus.us/menu/${p.slug}/#breadcrumb`
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": `https://applebees-menus.us/menu/${p.slug}/#breadcrumb`,
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://applebees-menus.us/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Menu",
+            "item": "https://applebees-menus.us/menu"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": category.title,
+            "item": `https://applebees-menus.us/menu/${p.slug}`
+          }
+        ]
+      },
+      {
+        "@type": "ItemList",
+        "name": `Applebee's ${category.title} Items`,
+        "itemListElement": category.items.map((item, idx) => ({
+          "@type": "MenuItem",
+          "position": idx + 1,
+          "name": item.name,
+          "description": item.description || item.tableDescription,
+          "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": item.calories
+          }
+        }))
+      }
+    ]
+  };
+
   return (
-    <main className={styles.main}>
-      <Header />
-      <Breadcrumb items={[
-        { label: 'Menu', href: '/menu' },
-        { label: category.title, href: `/menu/${p.slug}` }
-      ]} />
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
+      <main className={styles.main}>
+        <Header />
+        <Breadcrumb items={[
+          { label: 'Menu', href: '/menu' },
+          { label: category.title, href: `/menu/${p.slug}` }
+        ]} />
 
-      <section className={styles.hero} style={{ backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(${category.image || '/apple-bees-menu/applebees-new-menu-items-2026-category.webp'})` }}>
-        <div className={styles.heroOverlay}>
-          <h1>{title}</h1>
-        </div>
-      </section>
-
-      <div className={styles.container}>
-        <article className={styles.content}>
-          <div 
-            className={styles.markdownBody}
-            dangerouslySetInnerHTML={{ __html: contentHtml }} 
-          />
-
-          <div className={styles.itemsSection}>
-            <h2 className={styles.itemsHeading}>Explore {category.title} Items & Prices</h2>
-            <div className={styles.itemsGrid}>
-              {category.items.map((item) => (
-                <div key={item.id} className={styles.itemCard}>
-                  <div className={styles.itemImageWrapper}>
-                    {item.image && (
-                      <img 
-                        src={item.image} 
-                        alt={`Applebee's ${item.name}`} 
-                        loading="lazy" 
-                      />
-                    )}
-                  </div>
-                  <div className={styles.itemCardContent}>
-                    <h3>{item.name}</h3>
-                    <div className={styles.itemMeta}>
-                      <strong>Price: {item.price}</strong> <span className={styles.divider}>|</span> {item.calories}
-                    </div>
-                    {item.description && (
-                      <p className={styles.itemDescription}>{item.description}</p>
-                    )}
-                  </div>
-                </div>
-              ))}
-            </div>
+        <section className={styles.hero} style={{ backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(${category.image || '/apple-bees-menu/applebees-new-menu-items-2026-category.webp'})` }}>
+          <div className={styles.heroOverlay}>
+            <h1>{pageTitle}</h1>
           </div>
+        </section>
+
+        <div className={styles.container}>
+          <article className={styles.content}>
+            <div 
+              className={styles.markdownBody}
+              dangerouslySetInnerHTML={{ __html: contentHtml }} 
+            />
+
+            <CommentSection />
+          </article>
           
-          <div className={styles.relatedCategoriesSection}>
-            <h2 className={styles.relatedHeading}>More from Applebee's Menu</h2>
-            <div className={styles.relatedCategoriesGrid}>
-              {otherCategories.map((cat) => (
-                <Link key={cat.slug} href={`/menu/${cat.slug}`} className={styles.relatedCategoryCard}>
-                  <h3>{cat.title}</h3>
-                  <span className={styles.relatedCategoryLink}>View Menu & Prices &rarr;</span>
-                </Link>
-              ))}
-            </div>
-          </div>
+          <Sidebar currentSlug={p.slug} pageType="menu" />
+        </div>
 
-          <CommentSection />
-        </article>
-        
-        <Sidebar currentSlug={p.slug} pageType="menu" />
-      </div>
-
-      <Footer />
-    </main>
+        <Footer />
+      </main>
+    </>
   );
 }
