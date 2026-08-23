@@ -1,12 +1,12 @@
 ---
 title: "Applebee's Salads: Menu, Prices and Calories (2026)"
 h1: "Applebee's Salads Menu with Prices and Calories"
-description: "Every Applebee's salad with prices and calories — Oriental Chicken, Caesar, Quesadilla Chicken and more, plus the swap that saves 530 calories on one order."
+description: "Every Applebee's salad with prices and calories  Oriental Chicken, Caesar, Quesadilla Chicken and more, plus the swap that saves 530 calories on one order."
 ---
 
 <div class="answerBlock">
   <p>
-    Applebee's serves seven to eight salads, available as half-size lunch or full-size dinner portions, with prices roughly $5 to $15. The range runs from a House Side Salad at 160 calories to the crispy Oriental Chicken Salad at around 1,560 — the widest spread of any category on the menu. Ordering the Oriental Chicken Salad grilled instead of crispy saves roughly 530 calories.
+    Applebee's serves seven to eight salads, available as half-size lunch or full-size dinner portions, with prices roughly $5 to $15. The range runs from a House Side Salad at 160 calories to the crispy Oriental Chicken Salad at around 1,560  the widest spread of any category on the menu. Ordering the Oriental Chicken Salad grilled instead of crispy saves roughly 530 calories.
   </p>
 </div>
 
@@ -16,7 +16,7 @@ This is the honest framing, and it is what makes the page worth reading rather t
 
 - **The crispy Oriental Chicken Salad is one of the heaviest items on the entire Applebee's menu:** Heavier than most burgers, heavier than every steak. Around 1,560 calories with 45g of sugar, which is more than the Brownie Bite dessert.
 - **The grilled version changes everything:** The same salad ordered grilled is roughly 900 calories. Same greens, same almonds, same crunchy noodles, same vinaigrette. The breading on the chicken accounts for the difference.
-- **The lightest item Applebee's serves:** The House Side Salad is 160 calories — the lowest-calorie item Applebee's serves, and the only one flagged vegan.
+- **The lightest item Applebee's serves:** The House Side Salad is 160 calories  the lowest-calorie item Applebee's serves, and the only one flagged vegan.
 - **A 1,400-calorie category spread:** That is wider than any other section of the menu, and it means "I'll have a salad" tells you almost nothing about what you are actually ordering.
 - **The unlogged breadstick:** The Oriental Chicken Salad is served with a golden brown garlic and parsley breadstick, which is not included in the published salad calorie figure.
 
@@ -29,7 +29,7 @@ This is the honest framing, and it is what makes the page worth reading rather t
 <div class="tableCard">
   <div class="tableResponsive">
     <table class="customTable">
-      <caption>Applebee's salads — calories, protein, and description</caption>
+      <caption>Applebee's salads  calories, protein, and description</caption>
       <thead>
         <tr>
           <th scope="col">Salad</th>
@@ -49,7 +49,7 @@ This is the honest framing, and it is what makes the page worth reading rather t
           <th scope="row"><strong>Grilled Oriental Chicken Salad</strong></th>
           <td style="text-align: center; font-weight: 700; color: #166534;">~900</td>
           <td style="text-align: center;">42g</td>
-          <td>The grilled version — a separate menu item (saves 530 Cals)</td>
+          <td>The grilled version  a separate menu item (saves 530 Cals)</td>
         </tr>
         <tr>
           <th scope="row"><strong>Grilled Chicken Caesar Salad</strong></th>
@@ -106,10 +106,10 @@ The signature salad, also widely searched as Chinese Chicken Salad and Asian Chi
 
 Crispy breaded chicken tenders over Asian greens and cabbage with crunchy noodles and toasted almonds, tossed in Oriental vinaigrette. Served with a golden brown garlic and parsley breadstick.
 
-The cabbage is doing structural work — it holds texture under dressing in a way lettuce does not, which is why this salad survives being tossed.
+The cabbage is doing structural work  it holds texture under dressing in a way lettuce does not, which is why this salad survives being tossed.
 
 - **On the numbers:** Around 1,560 calories with 40g of protein and 45g of sugar. The sugar comes from the honey-based vinaigrette and the coating on the tenders, not from the greens. Sodium at 1,650mg is actually the lower figure among the full-size heavy salads.
-- **Allergen warning:** Contains tree nuts — the almonds are mixed throughout, so this is not a salad to modify around a nut allergy.
+- **Allergen warning:** Contains tree nuts  the almonds are mixed throughout, so this is not a salad to modify around a nut allergy.
 
 ### Grilled Oriental Chicken Salad
 
@@ -117,7 +117,7 @@ The cabbage is doing structural work — it holds texture under dressing in a wa
 
 The same salad with grilled chicken instead of crispy, and it is a separate item on the menu rather than a modification.
 
-Around 900 calories against roughly 1,560 for the crispy version. Everything else is identical — greens, cabbage, almonds, crunchy noodles, Oriental vinaigrette.
+Around 900 calories against roughly 1,560 for the crispy version. Everything else is identical  greens, cabbage, almonds, crunchy noodles, Oriental vinaigrette.
 
 If you like this salad and have been ordering the crispy version by default, this is the single most effective change available anywhere on the Applebee's menu. You lose the warm crunchy chicken coating; you keep every other element the salad is known for while saving roughly 530 calories.
 
@@ -125,7 +125,7 @@ If you like this salad and have been ordering the crispy version by default, thi
 
 ![Romaine with grilled chicken, croutons and shaved Parmesan](/apple-bees-menu/applebees-grilled-chicken-caesar-salad.webp)
 
-The highest-protein salad on the menu at 57g for 950 calories — the best ratio in the category and comparable to the steaks.
+The highest-protein salad on the menu at 57g for 950 calories  the best ratio in the category and comparable to the steaks.
 
 Romaine with garlic Caesar dressing, grilled chicken, croutons and shaved Parmesan.
 
@@ -135,7 +135,7 @@ Romaine with garlic Caesar dressing, grilled chicken, croutons and shaved Parmes
 
 Fresh greens with tomatoes, red onions, strawberries and grilled chicken, topped with sliced almonds, balsamic glaze and a sweet lemon olive vinaigrette served on the side.
 
-The dressing on the side is the default here, which is unusual and worth knowing — it means the published calorie figure reflects a salad you control.
+The dressing on the side is the default here, which is unusual and worth knowing  it means the published calorie figure reflects a salad you control.
 
 Around 900 calories. The lightest of the full-size chicken salads alongside the grilled Oriental.
 
@@ -143,13 +143,13 @@ Around 900 calories. The lightest of the full-size chicken salads alongside the 
 
 Mixed greens with crispy chicken tenders, shredded cheddar and tomatoes, with honey Dijon dressing on the side.
 
-Around 1,220 calories. Simpler than the Oriental — no noodles, no almonds — which makes it the easier one to modify.
+Around 1,220 calories. Simpler than the Oriental  no noodles, no almonds  which makes it the easier one to modify.
 
 ### Quesadilla Chicken Salad
 
 Capturing 1,390 monthly search volume at KD 22, this is a distinct Tex-Mex salad build:
 
-A salad served with warm cheese quesadilla wedges — crispy chicken, lettuce, corn, black beans, pico de gallo, creamy Mexi-ranch dressing and tortilla strips.
+A salad served with warm cheese quesadilla wedges  crispy chicken, lettuce, corn, black beans, pico de gallo, creamy Mexi-ranch dressing and tortilla strips.
 
 The quesadilla gives it the warm-and-cold contrast the Oriental gets from crispy tenders, in a Tex-Mex build rather than an Asian one. Not to be confused with the [Chicken Quesadilla](/menu/appetizers) appetizer or the [Quesadilla Burger](/menu/handcrafted-burgers).
 
@@ -183,9 +183,9 @@ Salads are available in half-size lunch portions and full-size dinner portions a
 
 This changes the arithmetic more than almost any other choice:
 
-- **Why it matters more than the dressing swap:** Halving the portion halves everything — the chicken, the dressing, the noodles, the almonds. Dressing on the side reduces one component; a half portion reduces all of them.
+- **Why it matters more than the dressing swap:** Halving the portion halves everything  the chicken, the dressing, the noodles, the almonds. Dressing on the side reduces one component; a half portion reduces all of them.
 - **Where it fits best:** The heavier salads. A half Oriental Chicken Salad is a normal lunch. A full one is a 1,560-calorie dinner.
-- **Lunch combinations:** Many locations pair a half salad with a soup or a half sandwich. Availability varies — see [specials and deals](/specials-and-deals).
+- **Lunch combinations:** Many locations pair a half salad with a soup or a half sandwich. Availability varies  see [specials and deals](/specials-and-deals).
 
 ---
 
@@ -205,7 +205,7 @@ Grilled chicken · crispy chicken · blackened shrimp · grilled shrimp · grill
 
 - **The grilled-versus-crispy choice:** Saves roughly 530 calories on the Oriental Chicken Salad alone, with no protein lost.
 - **Shrimp:** A lighter swap than chicken in most builds. See [seafood](/menu/seafood).
-- **Steak:** Raises protein and price. The leanest cut is the 6 oz. Top Sirloin — see [steaks and ribs](/menu/steaks-and-ribs).
+- **Steak:** Raises protein and price. The leanest cut is the 6 oz. Top Sirloin  see [steaks and ribs](/menu/steaks-and-ribs).
 
 ### Side Additions
 
@@ -218,10 +218,10 @@ Fresh fruit · a cup of soup · extra vegetables · croutons or tortilla strips
 Three connections worth knowing, and the third is the one nobody publishes:
 
 1. **Oriental Chicken Salad:** A recurring 2 for $25 entrée. If it is what you planned to order anyway, taking it on the deal brings the effective price down significantly.
-2. **California Grilled Chicken Salad:** A new 2 for $25 entrée — the lightest of the current additions.
+2. **California Grilled Chicken Salad:** A new 2 for $25 entrée  the lightest of the current additions.
 3. **Two Side Salads replace the shared appetizer:** This is official and almost nobody mentions it. Instead of splitting a 1,000-calorie fried starter, each person gets their own side salad at the same price.
 
-Why that last one matters: on a deal where both entrées already clear 1,000 calories, swapping the appetizer for two side salads is the difference between a heavy meal and a normal one — and it solves the problem of two people wanting different things from one shared plate.
+Why that last one matters: on a deal where both entrées already clear 1,000 calories, swapping the appetizer for two side salads is the difference between a heavy meal and a normal one  and it solves the problem of two people wanting different things from one shared plate.
 
 Full detail: explore the [2 for $25](/menu/2-for-25) guide.
 
@@ -233,7 +233,7 @@ In order of actual mathematical impact:
 
 1. **Grilled instead of crispy:** Roughly **530 calories saved** on the Oriental Chicken Salad, with no protein lost. Nothing else comes close.
 2. **Half portion:** Halves every component rather than just one.
-3. **Dressing on the side:** The standard advice, and it works — but it is third, not first.
+3. **Dressing on the side:** The standard advice, and it works  but it is third, not first.
 4. **Skip the croutons, noodles or tortilla strips:** Small, effortless reduction in refined carbs.
 5. **Order a House Side Salad instead of an appetizer:** 160 calories against roughly 1,000. The largest single starter swap on the Applebee's menu.
 
@@ -245,7 +245,7 @@ In order of actual mathematical impact:
 
 - **Only vegan item on the menu:** House Side Salad with fat-free Italian (160 calories).
 - **Highest protein:** Grilled Chicken Caesar at 57g.
-- **Highest sugar in a savoury dish:** Crispy Oriental Chicken Salad at 45g — more than the Brownie Bite dessert.
+- **Highest sugar in a savoury dish:** Crispy Oriental Chicken Salad at 45g  more than the Brownie Bite dessert.
 - **Tree nuts:** Both Oriental Chicken Salads contain sliced almonds, mixed through rather than as a removable topping.
 - **Fish:** Caesar dressing contains anchovy. That applies to the Grilled Chicken Caesar and the Blackened Shrimp Caesar, meaning neither is vegetarian even without the meat.
 - **Gluten:** Croutons, crispy chicken and tortilla strips all contain wheat, and shared fryers mean cross-contact on anything crispy. Grilled salads without croutons are the safest option.
@@ -257,7 +257,7 @@ Full allergen data: see our comprehensive [nutrition and allergens](/nutrition) 
 
 ## Do Applebee's Salads Travel Well?
 
-Only with the dressing separate — and it is not always separate by default, so be sure to request it:
+Only with the dressing separate  and it is not always separate by default, so be sure to request it:
 
 - **A dressed salad wilts:** Greens soften, croutons and crunchy noodles absorb moisture, and after twenty minutes the crisp texture the salad is built on is ruined.
 - **The Strawberry Balsamic exception:** Its dressing comes on the side as standard.
@@ -274,7 +274,7 @@ More on what survives the journey: [Carside To Go](/takeout) and [delivery](/del
 Applebee's serves seven to eight salads including the Oriental Chicken Salad in crispy and grilled versions, Grilled Chicken Caesar, Blackened Shrimp Caesar, Quesadilla Chicken Salad, Strawberry Balsamic Chicken Salad, Crispy Chicken Tender Salad, California Grilled Chicken Salad and a House Side Salad.
 
 ### How many calories are in Applebee's Oriental Chicken Salad?
-The crispy version runs around 1,560 calories with 40g of protein and 45g of sugar. The grilled version, a separate menu item, is roughly 900 — a difference of around 530 calories for the same salad.
+The crispy version runs around 1,560 calories with 40g of protein and 45g of sugar. The grilled version, a separate menu item, is roughly 900  a difference of around 530 calories for the same salad.
 
 ### Is the Oriental Chicken Salad healthy?
 The crispy version is one of the heaviest items on the Applebee's menu, heavier than most burgers. The grilled version at around 900 calories is a genuinely different dish nutritionally, with everything else identical.
@@ -283,7 +283,7 @@ The crispy version is one of the heaviest items on the Applebee's menu, heavier 
 The House Side Salad with fat-free Italian at 160 calories. It is the lightest item on the Applebee's menu and the only one flagged as vegan.
 
 ### Which Applebee's salad has the most protein?
-The Grilled Chicken Caesar Salad at 57g for 950 calories — the best protein-to-calorie ratio in the category, comparable to the steaks on the menu.
+The Grilled Chicken Caesar Salad at 57g for 950 calories  the best protein-to-calorie ratio in the category, comparable to the steaks on the menu.
 
 ### Does the Oriental Chicken Salad come with anything?
 Yes. It is served with a garlic and parsley breadstick, which is not included in the published calorie figure.
@@ -314,7 +314,7 @@ It is not sold in grocery stores. An extra side can be ordered with a takeout or
 ## Related Menu Categories
 
 - **Protein Options:** To add or swap protein, explore [chicken](/menu/chicken), [seafood](/menu/seafood) and [steaks and ribs](/menu/steaks-and-ribs).
-- **Appetizer Starters:** A House Side Salad as a starter runs 160 calories against roughly 1,000 for most [appetizers](/menu/appetizers) — the largest calorie swap on the menu.
+- **Appetizer Starters:** A House Side Salad as a starter runs 160 calories against roughly 1,000 for most [appetizers](/menu/appetizers)  the largest calorie swap on the menu.
 - **Value Meals:** Salads on the deal, including the two-side-salad option: [2 for $25](/menu/2-for-25).
 - **Plant-Based Dining:** To build a plant-based plate, browse [sides](/menu/sides).
 - Return to the [full menu](/menu).

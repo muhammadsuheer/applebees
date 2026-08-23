@@ -555,25 +555,25 @@ export const menuData: MenuCategory[] = [
     title: "SANDWICHES & MORE",
     slug: "sandwiches-and-more",
     image: "/apple-bees-menu/applebees-sandwiches-wraps-menu-category.webp",
-    descriptor: "$12.99–$14.49",
+    descriptor: "$13.99–$15.99 · always served with classic fries",
     items: [
       {
         id: "sw1", name: "Clubhouse Grille", calories: "1120 Cals", price: "$13.99",
-        description: "Applebee’s Clubhouse Grille stacks sliced ham and turkey with Cheddar, Swiss, Applewood-smoked bacon, lettuce, tomato, mayo, and honey BBQ sauce on toasted potato bread.",
-        tableDescription: "Ham, turkey, two cheeses, bacon, vegetables, mayo, and honey BBQ.",
+        description: "Sliced warm ham and turkey with melted Cheddar and Swiss, Applewood-smoked bacon, lettuce, tomato, mayo, and honey BBQ sauce on toasted potato bread.",
+        tableDescription: "Ham, turkey, cheddar, Swiss, bacon, lettuce, tomato, mayo, and honey BBQ.",
         image: "/apple-bees-menu/applebees-clubhouse-grille-sandwich.webp"
       },
       {
-        id: "sw2", name: "Bacon Ranch Chicken Sandwich", calories: "1050 Cals", price: "$14.49",
-        description: "The Bacon Ranch Chicken Sandwich features crispy hand-breaded chicken, Applewood-smoked bacon, ranch, pickles, lettuce, and tomato on a brioche bun.",
-        tableDescription: "Crispy chicken with bacon, ranch, pickles, lettuce, and tomato.",
+        id: "sw2", name: "Bacon Ranch Crispy Chicken", calories: "1050 Cals", price: "$14.49",
+        description: "Crispy hand-breaded chicken breast with Applewood-smoked bacon, creamy ranch, dill pickles, lettuce, and tomato on a brioche bun (64g protein).",
+        tableDescription: "Crispy chicken with bacon, ranch, pickles, and lettuce (64g protein).",
         image: "/apple-bees-menu/applebees-bacon-ranch-crispy-chicken-sandwich.webp"
       },
       {
-        id: "sw3", name: "Classic Chicken Sandwich", calories: "820 Cals", price: "$12.99",
-        description: "A chicken sandwich served on a brioche-style bun with fresh toppings.",
-        tableDescription: "Chicken sandwich with classic fresh toppings.",
-        image: "/apple-bees-menu/applebees-classic-chicken-sandwich.webp"
+        id: "sw3", name: "The Prime Rib Dipper", calories: "1100 Cals", price: "$15.99",
+        description: "Tender sliced warm prime rib piled on a toasted roll with melted provolone cheese, served with hot savory au jus for dipping.",
+        tableDescription: "Sliced prime rib on toasted roll with hot au jus for dipping.",
+        image: "/apple-bees-menu/applebees-prime-rib-dipper-sandwich.webp"
       }
     ]
   },
