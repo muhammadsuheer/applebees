@@ -228,7 +228,7 @@ The Whisky Bacon Burger at 63g, followed by the Classic Bacon Cheeseburger at 50
 Yes. Any burger can be ordered without the bun, which removes most of the carbohydrate. Swapping the fries for a vegetable side reduces it further.
 
 ### Does Applebee's have burger deals?
-Applebee's runs burger promotions periodically, including around National Cheeseburger Day on 18 September. Current offers are on the specials page, and participation varies by location.
+Yes. The $9.99 [Really BIG Meal Deal](/menu/really-big-meal-deal) offers the BIG Classic Bacon Cheeseburger and the sweet & spicy Big Bangin' Burger with endless fries and endless drinks. Applebee's also runs burger promotions periodically, including around National Cheeseburger Day on 18 September. Current offers are on [specials and deals](/specials-and-deals).
 
 ### How does Applebee's cook its burgers?
 Ground beef patties are cooked through by default, as standard practice for ground meat. A pink centre must be requested and may not be available at every location.

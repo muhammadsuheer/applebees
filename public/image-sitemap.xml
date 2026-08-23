@@ -367,21 +367,26 @@
   </url>
   <url>
     <loc>https://applebees-menus.us/menu/seafood</loc>
-    <lastmod>2026-08-20</lastmod>
+    <lastmod>2026-08-21</lastmod>
     <image:image>
       <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-seafood-menu-category.webp</image:loc>
       <image:title>Applebee&apos;s SEAFOOD Menu</image:title>
       <image:caption>Full selection of Applebee&apos;s SEAFOOD items with verified prices and calorie counts</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-double-crunch-shrimp-platter.webp</image:loc>
-      <image:title>Applebee&apos;s Double Crunch Shrimp</image:title>
-      <image:caption>Double Crunch Shrimp (1210 Cals) - Applebee’s Double Crunch Shrimp features crispy battered shrimp fried golden brown and served with cocktail sauce, with sides depending on the selecte</image:caption>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-hand-battered-fish-and-chips.webp</image:loc>
+      <image:title>Applebee&apos;s Hand-Battered Fish &amp; Chips</image:title>
+      <image:caption>Hand-Battered Fish &amp; Chips (1680 Cals) - Applebee’s Hand-Battered Fish &amp; Chips features crispy golden-battered white fish fillets fried to order and served with classic french fries and tartar sauce.</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-blackened-cajun-salmon-fillet.webp</image:loc>
       <image:title>Applebee&apos;s Blackened Cajun Salmon</image:title>
-      <image:caption>Blackened Cajun Salmon (640 Cals) - Applebee’s Blackened Cajun Salmon features a blackened grilled salmon fillet served with garlic mashed potatoes and broccoli for a straightforward sea</image:caption>
+      <image:caption>Blackened Cajun Salmon (850 Cals) - Applebee’s Blackened Cajun Salmon features a blackened grilled salmon fillet served with garlic mashed potatoes and broccoli for a straightforward seafood entrée.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-double-crunch-shrimp-platter.webp</image:loc>
+      <image:title>Applebee&apos;s Double Crunch Shrimp</image:title>
+      <image:caption>Double Crunch Shrimp (1210 Cals) - Applebee’s Double Crunch Shrimp features crispy battered shrimp fried golden brown and served with cocktail sauce, fries and coleslaw.</image:caption>
     </image:image>
   </url>
   <url>
@@ -405,7 +410,7 @@
   </url>
   <url>
     <loc>https://applebees-menus.us/menu/desserts</loc>
-    <lastmod>2026-08-20</lastmod>
+    <lastmod>2026-08-22</lastmod>
     <image:image>
       <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-desserts-sweet-treats-menu-category.webp</image:loc>
       <image:title>Applebee&apos;s DESSERTS Menu</image:title>
@@ -414,12 +419,22 @@
     <image:image>
       <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-triple-chocolate-meltdown-dessert.webp</image:loc>
       <image:title>Applebee&apos;s Triple Chocolate Meltdown</image:title>
-      <image:caption>Triple Chocolate Meltdown (860 Cals) - Applebee’s Triple Chocolate Meltdown is a warm fudge-filled chocolate cake drizzled with hot fudge and served with vanilla ice cream.</image:caption>
+      <image:caption>Triple Chocolate Meltdown (910 Cals) - Applebee’s Triple Chocolate Meltdown is a warm fudge-filled chocolate cake drizzled with hot fudge and served with vanilla ice cream.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-brownie-bite-dessert.webp</image:loc>
+      <image:title>Applebee&apos;s Brownie Bite</image:title>
+      <image:caption>Brownie Bite (330 Cals) - A bite-sized warm dark chocolate brownie served with vanilla ice cream and drizzled with hot fudge.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-sizzling-caramel-apple-blondie-dessert.webp</image:loc>
+      <image:title>Applebee&apos;s Sizzling Caramel Apple Blondie</image:title>
+      <image:caption>Sizzling Caramel Apple Blondie (990 Cals) - A warm blondie topped with cinnamon-spiced apples and vanilla ice cream, served on a hot cast-iron skillet with caramel.</image:caption>
     </image:image>
   </url>
   <url>
     <loc>https://applebees-menus.us/menu/sides</loc>
-    <lastmod>2026-08-20</lastmod>
+    <lastmod>2026-08-22</lastmod>
     <image:image>
       <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-sauces-and-sides-menu-category.webp</image:loc>
       <image:title>Applebee&apos;s SAUCES &amp; SIDES Menu</image:title>
@@ -428,32 +443,37 @@
     <image:image>
       <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-garlic-mashed-potatoes-side.webp</image:loc>
       <image:title>Applebee&apos;s Garlic Mashed Potatoes</image:title>
-      <image:caption>Garlic Mashed Potatoes (260 Cals) - Creamy garlic mashed potatoes served as a savory side.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-loaded-baked-potato-side.webp</image:loc>
-      <image:title>Applebee&apos;s Loaded Baked Potato</image:title>
-      <image:caption>Loaded Baked Potato (450 Cals) - A baked potato served with loaded-style toppings such as cheese, bacon, sour cream, and chives.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-steamed-broccoli-side.webp</image:loc>
-      <image:title>Applebee&apos;s Steamed Broccoli</image:title>
-      <image:caption>Steamed Broccoli (100 Cals) - Applebee’s Steamed Broccoli is a simple vegetable side of steamed broccoli florets, useful for diners comparing side options and calories.</image:caption>
+      <image:caption>Garlic Mashed Potatoes (260 Cals) - Creamy garlic mashed potatoes blended with butter, cream, and roasted garlic.</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-classic-french-fries-side.webp</image:loc>
       <image:title>Applebee&apos;s Classic Fries</image:title>
-      <image:caption>Classic Fries (430 Cals) - Golden seasoned fries served as a standard side with many Applebee’s burgers, sandwiches, chicken, and rib entrées.</image:caption>
+      <image:caption>Classic Fries (400 Cals) - Golden seasoned fries served as a standard side with burgers, sandwiches, and entrées.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-steamed-broccoli-side.webp</image:loc>
+      <image:title>Applebee&apos;s Steamed Broccoli</image:title>
+      <image:caption>Steamed Broccoli (100 Cals) - Tender-crisp steamed broccoli florets served as a vegetable side.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-garlicky-green-beans-side.webp</image:loc>
+      <image:title>Applebee&apos;s Garlicky Green Beans</image:title>
+      <image:caption>Garlicky Green Beans (150 Cals) - Tender whole green beans sautéed with savory garlic butter.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-loaded-baked-potato-side.webp</image:loc>
+      <image:title>Applebee&apos;s Loaded Baked Potato</image:title>
+      <image:caption>Loaded Baked Potato (450 Cals) - Baked potato with cheddar, bacon, sour cream, and chives.</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-coleslaw-side.webp</image:loc>
       <image:title>Applebee&apos;s Coleslaw</image:title>
-      <image:caption>Coleslaw (230 Cals) - A creamy shredded-cabbage side commonly paired with fried seafood, ribs, wings, and other Applebee’s entrées.</image:caption>
+      <image:caption>Coleslaw (230 Cals) - Creamy shredded cabbage coleslaw served with select entrées.</image:caption>
     </image:image>
   </url>
   <url>
     <loc>https://applebees-menus.us/menu/dirty-fountain-sodas</loc>
-    <lastmod>2026-08-20</lastmod>
+    <lastmod>2026-08-23</lastmod>
     <image:image>
       <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-dirty-fountain-sodas-drinks-category.webp</image:loc>
       <image:title>Applebee&apos;s NEW Dirty Fountain Sodas Menu</image:title>
@@ -520,7 +540,7 @@
   </url>
   <url>
     <loc>https://applebees-menus.us/menu/2-for-25</loc>
-    <lastmod>2026-08-20</lastmod>
+    <lastmod>2026-08-23</lastmod>
     <image:image>
       <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-2-for-25-value-meal-deal-category.webp</image:loc>
       <image:title>Applebee&apos;s 2 FOR $25 Menu</image:title>
@@ -529,12 +549,32 @@
     <image:image>
       <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-2-for-25-value-meal.webp</image:loc>
       <image:title>Applebee&apos;s 2 For $25 Value Meal</image:title>
-      <image:caption>2 For $25 Value Meal (Varies) - Applebee’s 2 for $25 pairs one full-size appetizer with two full-size entrées.</image:caption>
+      <image:caption>2 For $25 Value Meal ($25.00) - Choose one full-size appetizer or two side salads plus two full-size entrées.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-bacon-cheeseburger-wonton-tacos.webp</image:loc>
+      <image:title>Applebee&apos;s Bacon Cheeseburger Wonton Tacos</image:title>
+      <image:caption>Bacon Cheeseburger Wonton Tacos (640 Cals) - Crispy wonton tacos filled with seasoned beef, bacon, cheddar, and honey mustard drizzle.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-chicken-parmesan-fettuccine.webp</image:loc>
+      <image:title>Applebee&apos;s Chicken Parmesan Fettuccine</image:title>
+      <image:caption>Chicken Parmesan Fettuccine (1480 Cals) - Breaded chicken parmesan over fettuccine with melted mozzarella.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-grilled-cheese-cheeseburger.webp</image:loc>
+      <image:title>Applebee&apos;s Grilled Cheese Cheeseburger</image:title>
+      <image:caption>Grilled Cheese Cheeseburger (1420 Cals) - Beef patty served between two golden grilled cheese sandwiches with fries.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-california-grilled-chicken-salad.webp</image:loc>
+      <image:title>Applebee&apos;s California Grilled Chicken Salad</image:title>
+      <image:caption>California Grilled Chicken Salad (920 Cals) - Grilled chicken salad with avocado salsa, bacon, and balsamic glaze.</image:caption>
     </image:image>
   </url>
   <url>
     <loc>https://applebees-menus.us/menu/really-big-meal-deal</loc>
-    <lastmod>2026-08-20</lastmod>
+    <lastmod>2026-08-23</lastmod>
     <image:image>
       <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-really-big-meal-deal-category.webp</image:loc>
       <image:title>Applebee&apos;s The Really BIG Meal Deal Menu</image:title>
@@ -543,31 +583,90 @@
     <image:image>
       <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-really-big-meal-deal-spread.webp</image:loc>
       <image:title>Applebee&apos;s The Really BIG Meal Deal</image:title>
-      <image:caption>The Really BIG Meal Deal (Varies) - The current Really Big Meal Deal centers on a qualifying burger or chicken sandwich with fries and a fountain drink, with promotional availability and</image:caption>
+      <image:caption>The Really BIG Meal Deal ($9.99) - One entrée with endless classic fries and endless fountain drink when dining in.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-big-cluckin-chicken-sandwich.webp</image:loc>
+      <image:title>Applebee&apos;s Big Cluckin&apos; Chicken Sandwich</image:title>
+      <image:caption>Big Cluckin&apos; Chicken Sandwich (~1100 Cals) - Hand-breaded crispy chicken fillet with lettuce, tomato, pickles, and mayo on brioche with endless fries and drink.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-big-classic-bacon-cheeseburger.webp</image:loc>
+      <image:title>Applebee&apos;s BIG Classic Bacon Cheeseburger</image:title>
+      <image:caption>BIG Classic Bacon Cheeseburger (~1150 Cals) - Large beef patty with two slices American cheese, Applewood-smoked bacon, and toppings with endless fries and drink.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-big-bangin-burger.webp</image:loc>
+      <image:title>Applebee&apos;s Big Bangin&apos; Burger</image:title>
+      <image:caption>Big Bangin&apos; Burger (~1200 Cals) - Beef patty with two cheese slices and sweet &amp; spicy jalapeño-bacon sauce with endless fries and drink.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://applebees-menus.us/menu/kids-menu</loc>
+    <lastmod>2026-08-23</lastmod>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-kids-menu-meals-category.webp</image:loc>
+      <image:title>Applebee&apos;s KID&apos;S MENU Menu</image:title>
+      <image:caption>Full selection of Applebee&apos;s KID&apos;S MENU items with verified prices and calorie counts</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-kids-grilled-chicken-meal.webp</image:loc>
+      <image:title>Applebee&apos;s Kids Grilled Chicken</image:title>
+      <image:caption>Kids Grilled Chicken (180 Cals) - Lean grilled chicken breast portion delivering 32g protein with choice of side and drink.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-kids-chicken-tenders-meal.webp</image:loc>
+      <image:title>Applebee&apos;s Kids Chicken Tenders</image:title>
+      <image:caption>Kids Chicken Tenders (420 Cals) - Three crispy chicken tenders with choice of side and drink.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-kids-macaroni-and-cheese.webp</image:loc>
+      <image:title>Applebee&apos;s Kids Macaroni &amp; Cheese</image:title>
+      <image:caption>Kids Macaroni &amp; Cheese (510 Cals) - Creamy kids mac and cheese with choice of side and drink.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-kids-cheeseburger-meal.webp</image:loc>
+      <image:title>Applebee&apos;s Kids Classic Cheeseburger</image:title>
+      <image:caption>Kids Classic Cheeseburger (680 Cals) - Kids cheeseburger with American cheese, side, and drink.</image:caption>
     </image:image>
   </url>
   <url>
     <loc>https://applebees-menus.us/menu/non-alcoholic-beverages</loc>
-    <lastmod>2026-08-20</lastmod>
+    <lastmod>2026-08-23</lastmod>
     <image:image>
       <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-non-alcoholic-beverages-category.webp</image:loc>
       <image:title>Applebee&apos;s NON-ALCOHOLIC BEVERAGES Menu</image:title>
       <image:caption>Full selection of Applebee&apos;s NON-ALCOHOLIC BEVERAGES items with verified prices and calorie counts</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-flavored-strawberry-lemonade.webp</image:loc>
-      <image:title>Applebee&apos;s Flavored Lemonade</image:title>
-      <image:caption>Flavored Lemonade (150 Cals) - A fruit-flavored lemonade option for diners looking for a sweet, non-alcoholic drink.</image:caption>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-fountain-drink-pepsi.webp</image:loc>
+      <image:title>Applebee&apos;s Fountain Drinks</image:title>
+      <image:caption>Fountain Drinks (0-200 Cals) - PepsiCo fountain lineup including Pepsi, Diet Pepsi, Mountain Dew, Starry, and Dr Pepper with free refills.</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-fresh-brewed-iced-tea.webp</image:loc>
       <image:title>Applebee&apos;s Fresh Brewed Iced Tea</image:title>
-      <image:caption>Fresh Brewed Iced Tea (0 Cals) - Fresh-brewed iced tea served as a straightforward non-alcoholic beverage, with sweetener and flavor additions depending on the selected restaurant’s m</image:caption>
+      <image:caption>Fresh Brewed Iced Tea (Effectively 0 Cals) - Fresh-brewed black iced tea served unsweetened with lemon and free refills.</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-fountain-drink-pepsi.webp</image:loc>
-      <image:title>Applebee&apos;s Fountain Drinks</image:title>
-      <image:caption>Fountain Drinks (0-200 Cals) - A selection of fountain soft drinks from the brands available at the selected Applebee’s restaurant. Exact choices and calorie counts vary by beverage</image:caption>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-flavored-strawberry-lemonade.webp</image:loc>
+      <image:title>Applebee&apos;s Flavored Lemonade</image:title>
+      <image:caption>Flavored Lemonade (150 Cals) - Tart lemonade infused with strawberry, mango, or raspberry fruit purees.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-triple-cherry-shirley-drink.webp</image:loc>
+      <image:title>Applebee&apos;s Triple Cherry Shirley</image:title>
+      <image:caption>Triple Cherry Shirley (160 Cals) - Applebee&apos;s signature mocktail with Starry lemon-lime soda, grenadine, and cherries.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-fruit-smoothie-drink.webp</image:loc>
+      <image:title>Applebee&apos;s Fruit Smoothies</image:title>
+      <image:caption>Fruit Smoothies (280 Cals) - Blended real fruit smoothies in strawberry and mango flavors.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-gallon-beverage-jug.webp</image:loc>
+      <image:title>Applebee&apos;s 1-Gallon Beverages</image:title>
+      <image:caption>1-Gallon Beverages - One-gallon takeaway jugs of brewed iced tea and lemonade for party catering and group meals.</image:caption>
     </image:image>
   </url>
   <url>

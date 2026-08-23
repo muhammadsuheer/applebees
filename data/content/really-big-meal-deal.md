@@ -1,86 +1,209 @@
 ---
-title: "The Really BIG Meal Deal"
+title: "Applebee's Really BIG Meal Deal: $9.99 Entrée, Fries & Drink"
+h1: "Applebee's Really BIG Meal Deal: What's Included and What It Costs"
+description: "Applebee's Really BIG Meal Deal is $9.99 — one entrée with endless fries and a fountain drink. What's included, the three entrée choices, and how it compares."
 ---
 
-## Applebee's "The Really BIG Meal Deal": The Ultimate Value Breakdown
+<div class="answerBlock">
+  <p>
+    Applebee's Really BIG Meal Deal costs $9.99 and includes one entrée, classic fries and a fountain drink. Dine in and the fries and soda are unlimited. Three entrées are on the deal: the Big Cluckin' Chicken Sandwich, the BIG Classic Bacon Cheeseburger and the Big Bangin' Burger. It launched in November 2024 and has been extended repeatedly since.
+  </p>
+</div>
 
-When searching online for "the best restaurant deals near me" or "cheap date night ideas," one offer consistently rises to the top of the results: Applebee's **The Really BIG Meal Deal**. As dining out becomes increasingly expensive, consumers are hyper-focused on finding exact, transparent pricing without sacrificing the full-service restaurant experience. 
+## What's Included in the $9.99 Really BIG Meal Deal
 
-In this comprehensive guide, we are eliminating all assumptions. We will break down exactly what this deal is, what it costs, what items are included, and why it might just be the most aggressive value promotion currently available in the casual dining industry. If you are looking to maximize your budget while enjoying a massive feast, here is everything you need to know.
+<div class="answerBlock">
+  <p>
+    The Really BIG Meal Deal is $9.99 for one person and includes a choice of one entrée, classic fries and a fountain drink. Ordered dine-in, the fries and the drink are unlimited. It is available for takeout, but the endless refills apply in the restaurant.
+  </p>
+</div>
 
----
+The three components:
+- **One entrée from three options:** Two burgers and a chicken sandwich, all in larger-format versions of Applebee's standards.
+- **Classic fries:** Endless when dining in.
+- **A fountain drink:** Endless refills when dining in.
+- **Calories:** Roughly 1,100 calories for the combination, before refills.
 
-![A high-end food photography spread featuring a massive meal deal: boneless wings, bacon cheeseburger, chicken penne pasta, and fountain sodas on a rustic table.](/apple-bees-menu/really-big-meal-deal-lifestyle.jpg)
+### Why the "Endless" Part Is the Actual Deal
 
-### What Exactly Is "The Really BIG Meal Deal"?
+At $9.99 the entrée alone would be reasonable value. The unlimited fries and unlimited soda are what make it unusual.
 
-At its core, The Really BIG Meal Deal is a bundled, multi-course feast designed for two people. It expands upon the highly successful "2 For $25" framework by adding beverages and slightly expanding the entrée options, creating a complete, all-inclusive dining package.
+This is the reason to eat in rather than take out. Ordered to go, you get one portion of fries and one drink for the same $9.99. Ordered at a table, both refill. On a longer meal that difference is the whole margin.
 
-#### The Price
-Let's address the most searched question first: **How much does it cost?**
-The base price for The Really BIG Meal Deal is exactly **$29.99** (excluding local taxes and gratuity). For under thirty dollars, you are receiving a massive volume of food and drinks intended to fully satisfy two adults.
+If you are choosing between collecting an order and sitting down, this deal is the one item on the menu where dining in is measurably better value rather than just more convenient. See [takeout](/takeout) for the wider comparison.
 
-#### What Is Included for $29.99?
-When you order this deal, your $29.99 unlocks three specific tiers of the menu:
-1. **One (1) Full-Sized Appetizer to Share:** You are not getting a miniature "sampler" size. You receive a standard, full-sized appetizer plate.
-2. **Two (2) Full-Sized Entrées:** Each diner gets to choose their own main course from a specific list of Applebee's classics.
-3. **Two (2) Fountain Drinks:** Unlike the 2 For $25 deal, this package includes two non-alcoholic fountain beverages (like Pepsi, Diet Pepsi, or Iced Tea), making it a true, complete meal.
-
----
-
-### Breaking Down the Menu Options
-
-To fully understand the value of this $29.99 deal, we need to look at exactly what you can order. *Note: While options can vary slightly by seasonal promotion or specific location, the following represents the standard, nationwide structure of the deal.*
-
-#### Tier 1: The Shared Appetizer
-The appetizer is designed to be split between two people. If you were to order these items a la carte, they would typically cost between $9.00 and $12.00 on their own. Options frequently include:
-
-- **Spinach & Artichoke Dip:** Served hot and bubbly with an endless supply of tortilla chips.
-- **Boneless Wings:** A generous portion of crispy breaded chicken pieces, tossed in your choice of sauce (Honey BBQ, Sweet Asian Chile, or Classic Buffalo).
-- **Mozzarella Sticks:** Classic, golden-fried cheese sticks served with marinara dipping sauce.
-
-#### Tier 2: The Two Entrées
-This is where the bulk of the meal's value lies. You each get to pick one of the following classic entrées (which typically range from $13.99 to $16.99 a la carte):
-
-- **Classic Bacon Cheeseburger:** A 100% beef patty topped with American cheese and Applewood-smoked bacon, served with classic fries.
-- **Fiesta Lime Chicken:** The iconic zesty chicken breast smothered in Mexi-ranch and Jack-cheddar cheese, served over tortilla strips and Spanish rice.
-- **Three-Cheese Chicken Penne:** A massive, heavy bowl of pasta featuring grilled chicken, diced tomatoes, and a rich Asiago-Parmesan cream sauce, served with a signature garlic breadstick.
-- **Chicken Tenders Platter:** A mountain of crispy, golden-fried chicken tenders served with French fries and signature honey mustard.
-
-#### Tier 3: The Beverages
-The inclusion of drinks is what separates this from the 2 For $25 deal. A standard fountain drink at a sit-down restaurant typically costs between $2.99 and $3.49. By including two fountain drinks, the deal automatically absorbs roughly $6.00 to $7.00 of additional value.
+![Burger with fries and a fountain drink](/apple-bees-menu/applebees-really-big-meal-deal-spread.webp)
 
 ---
 
-### The Mathematical Value (Is it Worth It?)
+## Really BIG Meal Deal Entrée Options
 
-Let's do the math to see exactly how much money this deal saves compared to ordering a la carte. Let's assume you and a partner order the following:
+### Big Cluckin' Chicken Sandwich
 
-1. Spinach & Artichoke Dip (A la carte: ~$10.49)
-2. Classic Bacon Cheeseburger (A la carte: ~$14.49)
-3. Fiesta Lime Chicken (A la carte: ~$16.49)
-4. Two Fountain Drinks (A la carte: ~$6.00 total)
+![Hand-breaded chicken sandwich with lettuce, tomato and pickles on a brioche bun](/apple-bees-menu/applebees-big-cluckin-chicken-sandwich.webp)
 
-**Total A La Carte Price:** ~$47.47
-**The Really BIG Meal Deal Price:** $29.99
+A hand-breaded chicken breast — the "big" is about the size of the fillet — with shredded lettuce, tomato, pickles and mayo on a toasted brioche bun.
 
-**Total Savings:** You are saving approximately **$17.48** (nearly a 37% discount) just by ordering these exact same items as a bundle. 
+This was one of the two launch items when the deal debuted in November 2024, and it is the chicken option throughout. If you want the crispy chicken sandwich format rather than a burger, this is the only route on the deal.
+
+### BIG Classic Bacon Cheeseburger
+
+![Bacon cheeseburger with two cheese slices and fries](/apple-bees-menu/applebees-big-classic-bacon-cheeseburger.webp)
+
+An all-beef patty with two slices of American cheese and two strips of Applewood-smoked bacon, with lettuce, tomato, onion and pickles on a brioche bun.
+
+The doubling is the point — this is a larger build than the standard [Classic Bacon Cheeseburger](/menu/handcrafted-burgers) on the regular menu, which is what earns it a place on a deal named after size.
+
+### Big Bangin' Burger
+
+![Burger with jalapeño bacon sauce, cheese and fries](/apple-bees-menu/applebees-big-bangin-burger.webp)
+
+The newest addition to the deal, and the one with heat.
+
+An all-beef patty with two slices of American cheese and a sweet and spicy sauce made with jalapeños and bacon, finished with lettuce, tomato, onion and pickles on a brioche bun.
+
+This is the one to order if you want something that is not on the regular menu. The other two are large-format versions of familiar items; the Big Bangin' Burger's sauce is specific to this deal.
 
 ---
 
-### Why the Really BIG Meal Deal Dominates Search Results
+## Really BIG Meal Deal vs Ordering Separately
 
-When diners search for "Applebee's deals," they are looking for transparency. The Really BIG Meal Deal is highly successful because it offers a rare level of economic certainty in the casual dining space. 
+The honest arithmetic, using standard Applebee's menu prices:
 
-If you have exactly $40 in your pocket, you know that you can walk into an Applebee's, order a massive appetizer, two heavy entrées, and two drinks for $29.99, leaving you with exactly $10 for tax and a generous tip. There are no surprise upcharges unless you specifically request premium add-ons (like swapping a burger for a steak or upgrading a fountain soda to a cocktail).
+A [Classic Bacon Cheeseburger](/menu/handcrafted-burgers) on the regular menu is $14.49, and it comes with fries. A fountain drink is around $2.29 to $2.99.
+
+- **Regular menu:** Roughly $17 for a burger, fries and a drink.
+- **Really BIG Meal Deal:** $9.99 for a larger burger, endless fries and endless drink.
+
+That is around a **$7 difference on a single meal** — before accounting for refills.
+
+### Against the 2 for $25 Deal
+
+This comparison is worth doing properly, because the two deals suit different situations:
+
+<div class="tableCard">
+  <div class="tableResponsive">
+    <table class="customTable">
+      <caption>Really BIG Meal Deal vs 2 for $25 Comparison</caption>
+      <thead>
+        <tr>
+          <th scope="col">Scenario</th>
+          <th scope="col" style="text-align: center;">Cost</th>
+          <th scope="col">What You Get</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row"><strong>One person, Really BIG Meal Deal</strong></th>
+          <td style="text-align: center; font-weight: 700; color: #166534;">$9.99</td>
+          <td>Entrée + endless fries + endless drink</td>
+        </tr>
+        <tr>
+          <th scope="row"><strong>Two people, two Really BIG Meal Deals</strong></th>
+          <td style="text-align: center; font-weight: 700; color: #166534;">$19.98</td>
+          <td>Two entrées, endless fries and drinks</td>
+        </tr>
+        <tr>
+          <th scope="row"><strong>Two people, 2 for $25</strong></th>
+          <td style="text-align: center; font-weight: 700; color: #b45309;">$25.00</td>
+          <td>Shared appetizer + two entrées, drinks extra</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+Two Really BIG Meal Deals cost roughly $5 less than [2 for $25](/menu/2-for-25) — and include drinks. The 2 for $25 wins if you want the shared appetizer and a wider entrée choice. The Really BIG Meal Deal wins on pure cost.
+
+The deciding question is the appetizer. If you want one, 2 for $25 is the better structure. If you do not, two $9.99 deals beat it on price and include the drinks.
+
+### Where the Deals Stack
+
+Half price appetizers during [happy hour](/happy-hour) run alongside these deals rather than replacing them. Ordering a Really BIG Meal Deal during a half-price window and adding a discounted appetizer is the cheapest way to get a starter and a main at Applebee's.
 
 ---
 
-### Final Thoughts: Who is this deal for?
+## When the Really BIG Meal Deal Makes Sense
 
-The Really BIG Meal Deal is the ultimate "inflation-buster." It is perfectly engineered for:
-- **Date Nights on a Budget:** Enjoy a full, multi-course sit-down meal without stressing over the bill.
-- **Families with Teenagers:** Two teenagers can easily split this massive volume of food.
-- **The "Leftovers" Strategy:** Many single diners order the deal for $29.99, eat half the food in the restaurant, and take an entire second meal home for the next day, bringing the cost-per-meal down to a staggering $15. 
+- **Eating alone:** This is the cheapest complete meal on the Applebee's menu. Nothing else gets you an entrée, a side and a drink under $10.
+- **A quick lunch:** Applebee's has run this as a lunch offer specifically, and at $9.99 with unlimited refills it competes directly with fast food on price while giving you a full-service table.
+- **A big appetite:** Endless fries is a genuine perk if you will use it. If you eat one portion, you are paying for a feature you did not need — the 2 for $25 shared appetizer might suit you better.
+- **Two people who don't want a starter:** Two of these at $19.98 beats 2 for $25 and includes drinks.
+- **Where it does not fit:** If you want variety, a steak, pasta or seafood. The deal is three sandwich-format entrées. Everything else on the [full menu](/menu) is priced normally.
 
-If you want the absolute maximum amount of food and value for a flat $29.99, this is the definitive order to make.
+---
+
+## Is the Really BIG Meal Deal Still Available?
+
+<div class="answerBlock">
+  <p>
+    The Really BIG Meal Deal launched in November 2024 as a limited-time offer and has been extended repeatedly since, remaining available through 2026 at participating locations. As with every Applebee's promotion, participation is decided by individual franchise owners.
+  </p>
+</div>
+
+What to know:
+- **It is a promotion, not a permanent menu item:** It has run continuously through extensions rather than being added to the standard menu, so it could end. Verified via the [Dine Brands launch announcement](https://www.dinebrands.com/) and Applebee's official specials.
+- **Participation varies by location:** Applebee's restaurants are independently franchised. Most participate in a promotion this prominent, but not all.
+- **No substitutions:** The deal is structured as-is. Upgrades are available at additional cost.
+- **Endless refills are dine-in:** Available to go, but without the unlimited element.
+
+Check current availability at your [nearest restaurant](/locations), or see all running offers on [specials and deals](/specials-and-deals).
+
+---
+
+## Really BIG Meal Deal Calories
+
+The combination runs around 1,100 calories for an entrée with a standard portion of fries and a regular fountain drink.
+
+Two things to note:
+- **Refills are not in that figure:** Unlimited fries and unlimited soda mean the actual total depends entirely on how much you have. A second portion of fries adds around 400 calories; a refill of regular soda adds up to around 200.
+- **Zero-calorie drink option:** Choosing a diet soda makes the drink free of calories and refills stay free of them too. On a deal built around unlimited refills, that is the single largest choice available — see our [non-alcoholic beverages](/menu/non-alcoholic-beverages) guide.
+
+For the individual burger and sandwich figures on the regular menu, see [handcrafted burgers](/menu/handcrafted-burgers) and our complete [nutrition and calories](/nutrition) breakdown.
+
+---
+
+## Frequently Asked Questions
+
+### How much is Applebee's Really BIG Meal Deal?
+$9.99 for one entrée, classic fries and a fountain drink. Prices exclude tax and gratuity and may vary slightly by location, since Applebee's restaurants are independently franchised.
+
+### What's included in the Really BIG Meal Deal?
+One entrée from three options, classic fries and a fountain drink. Dining in, the fries and drink are unlimited. It is a single-person combo rather than a shared deal.
+
+### What entrées are on the Really BIG Meal Deal?
+The Big Cluckin' Chicken Sandwich, the BIG Classic Bacon Cheeseburger and the Big Bangin' Burger — a hand-breaded chicken sandwich and two larger-format burgers.
+
+### Does the Really BIG Meal Deal come with endless fries?
+Yes, when dining in. Fries and fountain drink both refill at no extra cost. Ordered for takeout you receive one portion of each.
+
+### Is the Really BIG Meal Deal for one person or two?
+One person. It is a complete single meal — entrée, side and drink. For two people sharing an appetizer, the 2 for $25 deal is the equivalent offer.
+
+### Is the Really BIG Meal Deal better than 2 for $25?
+For two people without an appetizer, two Really BIG Meal Deals cost $19.98 against $25.00 and include drinks. If you want a shared appetizer and a wider entrée choice, 2 for $25 is the better structure.
+
+### What is the Big Bangin' Burger?
+The newest entrée on the Really BIG Meal Deal — an all-beef patty with two slices of American cheese and a sweet and spicy sauce made with jalapeños and bacon, on a brioche bun with lettuce, tomato, onion and pickles.
+
+### Can I get the Really BIG Meal Deal for takeout?
+Yes, for dine-in or to go. The unlimited fries and drink refills apply in the restaurant only.
+
+### Can I substitute items in the Really BIG Meal Deal?
+No. The deal is offered without substitutions, though upgrades are available for an additional charge.
+
+### How many calories are in the Really BIG Meal Deal?
+Around 1,100 calories for an entrée with a standard portion of fries and a regular fountain drink. Refills add to that — choosing a diet soda keeps the drink at zero regardless of how many you have.
+
+### Is the Really BIG Meal Deal still available in 2026?
+It launched in November 2024 and has been extended repeatedly, remaining available at participating locations. Since it runs as a promotion rather than a permanent menu item, checking with your local restaurant is worthwhile.
+
+---
+
+## Related Menu Categories
+
+- **Standard Burger Lineup:** The regular-menu versions of these burgers, explore [handcrafted burgers](/menu/handcrafted-burgers).
+- **Two-Person Value Bundle:** For two people wanting a shared appetizer, see [2 for $25](/menu/2-for-25).
+- **Discount Appetizer Windows:** To stack a half-price starter on top, check [happy hour](/happy-hour).
+- **Current Promotions & Specials:** All current offers, visit [specials and deals](/specials-and-deals).
+- Return to the [full menu](/menu).

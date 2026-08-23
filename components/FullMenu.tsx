@@ -3,44 +3,8 @@ import { menuData } from '@/data/menu';
 import styles from './FullMenu.module.css';
 
 export default function FullMenu() {
-  const schemaData = {
-    "@context": "https://schema.org",
-    "@type": "Menu",
-    "name": "Applebees Full Menu",
-    "hasMenuSection": menuData.map(category => ({
-      "@type": "MenuSection",
-      "name": category.title,
-      "hasMenuItem": category.items.map(item => {
-        const menuItemData: any = {
-          "@type": "MenuItem",
-          "name": item.name,
-          "description": item.description,
-          "offers": {
-            "@type": "Offer",
-            "price": item.price.replace('$', ''),
-            "priceCurrency": "USD"
-          },
-          "nutrition": {
-            "@type": "NutritionInformation",
-            "calories": item.calories
-          }
-        };
-
-        if (item.image) {
-          menuItemData.image = "https://applebees-menus.us" + item.image;
-        }
-
-        return menuItemData;
-      })
-    }))
-  };
-
   return (
     <section className={styles.section}>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-      />
 
       {menuData.map((category) => (
         <div key={category.title} className={styles.categoryBlock} id={category.slug}>

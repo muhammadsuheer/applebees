@@ -72,7 +72,8 @@ export default async function CategoryPage({ params }: Props) {
     if (fs.existsSync(filePath)) {
       const fileContents = fs.readFileSync(filePath, 'utf8');
       const { data, content } = matter(fileContents);
-      if (data.title) pageTitle = data.title;
+      if (data.h1) pageTitle = data.h1;
+      else if (data.title) pageTitle = data.title;
       contentHtml = await marked.parse(content);
 
       // Extract FAQs for Schema

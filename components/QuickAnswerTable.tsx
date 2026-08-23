@@ -7,10 +7,10 @@ const summaryData = [
   { category: "Steaks & Ribs", price: "$18.99 - $23.99", calories: "630 - 1400 Cals", link: "/menu/steaks-and-ribs" },
   { category: "Chicken", price: "$14.99 - $16.49", calories: "1140 - 1610 Cals", link: "/menu/chicken" },
   { category: "Pasta", price: "$17.49", calories: "1540 Cals", link: "/menu/pasta" },
-  { category: "Seafood", price: "$16.49 - $17.49", calories: "820 - 920 Cals", link: "/menu/seafood" },
+  { category: "Seafood", price: "$15.99 - $18.99", calories: "850 - 1680 Cals", link: "/menu/seafood" },
   { category: "Salads", price: "$14.99", calories: "1220 Cals", link: "/menu/salads" },
-  { category: "Desserts", price: "$8.99", calories: "860 Cals", link: "/menu/desserts" },
-  { category: "Kids Menu", price: "$6.49 - $7.49", calories: "450 - 680 Cals", link: "/menu/kids-menu" },
+  { category: "Desserts", price: "$2.49 - $9.49", calories: "330 - 990 Cals", link: "/menu/desserts" },
+  { category: "Kids Menu", price: "$6.49 - $7.49", calories: "180 - 680 Cals", link: "/menu/kids-menu" },
   { category: "Drinks & Cocktails", price: "$1.00 - $11.99", calories: "0 - 420 Cals", link: "/menu/signature-cocktails" },
 ];
 
