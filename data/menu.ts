@@ -535,18 +535,18 @@ export const menuData: MenuCategory[] = [
     title: "Irresist-A-Bowls",
     slug: "irresist-a-bowls",
     image: "/apple-bees-menu/applebees-irresist-a-bowls-menu-category.webp",
-    descriptor: "Grilled protein bowls, 710–820 calories",
+    descriptor: "$14.99–$15.99 · lightest entrées on the menu (710–820 cals)",
     items: [
       {
         id: "ib1", name: "Southwest Chicken Bowl", calories: "820 Cals", price: "$14.99",
-        description: "Applebee’s Southwest Chicken Bowl layers grilled chipotle lime chicken over greens and cilantro rice with pico de gallo, black bean corn salsa, guacamole, and additional Southwest-style toppings.",
-        tableDescription: "Chipotle lime chicken bowl with rice, greens, salsa, pico, and guacamole.",
+        description: "Grilled chipotle lime chicken layered over cilantro rice and fresh greens with house-made pico de gallo, black bean corn salsa, guacamole, chimichurri, and tortilla strips.",
+        tableDescription: "Chipotle lime chicken with cilantro rice, greens, pico, black bean corn salsa, guacamole, and chimichurri.",
         image: "/apple-bees-menu/applebees-southwest-chicken-bowl-entree.webp"
       },
       {
         id: "ib2", name: "Tex-Mex Shrimp Bowl", calories: "710 Cals", price: "$15.99",
-        description: "Applebee’s Tex-Mex Shrimp Bowl features grilled chipotle lime shrimp over fresh greens and cilantro rice with pico de gallo, black bean corn salsa, and guacamole.",
-        tableDescription: "Chipotle lime shrimp with cilantro rice, greens, salsa, and guacamole.",
+        description: "The lightest full entrée on Applebee’s menu (710 Cals) — grilled chipotle lime shrimp over cilantro rice and greens with pico de gallo, black bean corn salsa, guacamole, and chimichurri.",
+        tableDescription: "Grilled chipotle lime shrimp with cilantro rice, greens, salsa, guacamole, and chimichurri (710 Cals).",
         image: "/apple-bees-menu/applebees-tex-mex-shrimp-bowl-entree.webp"
       }
     ]
