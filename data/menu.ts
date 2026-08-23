@@ -21,19 +21,37 @@ export const menuData: MenuCategory[] = [
     title: "New Items",
     slug: "new-items",
     image: "/apple-bees-menu/applebees-new-menu-items-2026-category.webp",
-    descriptor: "Current limited-time additions",
+    descriptor: "Live log of current limited-time additions and recently ended items",
     items: [
       { 
-        id: "n1", name: "Whole Lotta Bacon Burger", calories: "1150 Cals", price: "$15.99",
-        description: "A bacon-forward handcrafted burger centered around an all-beef patty, melted cheddar cheese, thick-cut Applewood-smoked bacon, and savory bacon jam on a toasted brioche bun.",
-        tableDescription: "All-beef burger centered on Applewood-smoked bacon.",
-        image: "/apple-bees-menu/applebees-whole-lotta-bacon-burger-menu-item.webp"
+        id: "n1", name: "Grilled Cheese Cheeseburger", calories: "1420 Cals", price: "$14.99 / 2 for $25",
+        description: "An all-beef patty stacked with four slices of American cheese and sweet & savory jam on toasted potato bread, served with tomato basil soup for dipping.",
+        tableDescription: "Four-cheese burger on potato bread served with tomato basil soup.",
+        image: "/apple-bees-menu/applebees-grilled-cheese-cheeseburger.webp"
       },
       { 
-        id: "n2", name: "Sweet & Spicy Chicken Sandwich", calories: "980 Cals", price: "$13.99",
-        description: "Crispy battered chicken breast smothered in a signature sweet chili honey glaze, topped with crisp pickles and served on a toasted bun.",
-        tableDescription: "Crispy chicken sandwich with sweet-and-spicy sauce.",
-        image: "/apple-bees-menu/applebees-sweet-spicy-crispy-chicken-sandwich.webp"
+        id: "n2", name: "Chicken Parmesan Fettuccine", calories: "1480 Cals", price: "$15.99 / 2 for $25",
+        description: "Breaded chicken parmesan over fettuccine with rich marinara sauce and melted mozzarella, served with a garlic breadstick.",
+        tableDescription: "Breaded chicken parmesan over fettuccine with marinara and mozzarella.",
+        image: "/apple-bees-menu/applebees-chicken-parmesan-fettuccine.webp"
+      },
+      { 
+        id: "n3", name: "Crispy Pickle Fries", calories: "590 Cals", price: "Ultimate Trio / Side",
+        description: "Golden fried pickle fries tossed in TAJÍN and chile lime seasoning, served with Mexi-ranch dipping sauce.",
+        tableDescription: "Crispy pickle fries tossed in TAJÍN and chile lime seasoning.",
+        image: "/apple-bees-menu/applebees-pickle-fries-side.webp"
+      },
+      { 
+        id: "n4", name: "$10 Don Julio Mucho Margarita", calories: "320 Cals", price: "$10.00",
+        description: "Premium Mucho-sized margarita crafted with Don Julio Reposado tequila, citrus, and triple sec in a signature glass.",
+        tableDescription: "Premium Mucho margarita made with Don Julio tequila.",
+        image: "/apple-bees-menu/applebees-new-menu-items-2026-category.webp"
+      },
+      { 
+        id: "n5", name: "$6 Bacardi Rum Cocktail", calories: "240 Cals", price: "$6.00",
+        description: "Refreshing rum cocktail made with Bacardi Superior rum and tropical fruit juices.",
+        tableDescription: "Tropical rum cocktail crafted with Bacardi Superior rum.",
+        image: "/apple-bees-menu/applebees-new-menu-items-2026-category.webp"
       }
     ]
   },
