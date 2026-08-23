@@ -39,7 +39,7 @@ table {
 
 caption {
   caption-side: top;
-  text-align: center;
+  text-align: left;
   box-sizing: border-box;
 }
 
@@ -66,6 +66,6 @@ main {
     display: block !important;
     width: 100% !important;
     box-sizing: border-box !important;
-    text-align: center !important;
+    text-align: left !important;
   }
 }

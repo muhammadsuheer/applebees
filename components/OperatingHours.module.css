@@ -17,7 +17,7 @@
   font-weight: 700;
   color: #1a2433;
   margin-bottom: 30px;
-  text-align: center;
+  text-align: left;
   text-transform: uppercase;
 }
 
@@ -59,7 +59,7 @@
   font-family: var(--font-roboto), sans-serif;
   font-size: 14px;
   color: #6b7280;
-  text-align: center;
+  text-align: left;
 }
 
 .mobileLabel {

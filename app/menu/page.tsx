@@ -10,7 +10,7 @@ import styles from './page.module.css';
 
 export const metadata: Metadata = {
   title: "Applebee's Menu with Prices and Calories (2026)",
-  description: "The full Applebee's menu with prices and calories — 20 categories from appetizers and burgers to steaks, pasta, desserts and drinks, plus current specials.",
+  description: "The full Applebee's menu with prices and calories  20 categories from appetizers and burgers to steaks, pasta, desserts and drinks, plus current specials.",
   alternates: {
     canonical: 'https://applebees-menus.us/menu',
   }
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 const faqData = [
   {
     question: "What is on the Applebee's menu?",
-    answer: "Applebee's serves around 60 items across 20 categories — appetizers, burgers, steaks and ribs, chicken, pasta, seafood, salads, bowls, sandwiches, sides, desserts, kids meals and a full drinks range. Prices run from $2.99 to $29.99."
+    answer: "Applebee's serves around 60 items across 20 categories  appetizers, burgers, steaks and ribs, chicken, pasta, seafood, salads, bowls, sandwiches, sides, desserts, kids meals and a full drinks range. Prices run from $2.99 to $29.99."
   },
   {
     question: "What are Applebee's menu specials today?",
@@ -35,11 +35,11 @@ const faqData = [
   },
   {
     question: "What is the healthiest thing on the Applebee's menu?",
-    answer: "Among entrées, the 8 oz. Top Sirloin delivers 55g of protein for 830 calories — the best ratio on the menu. The lightest items overall are Steamed Broccoli at 100 calories and the House Salad at 160."
+    answer: "Among entrées, the 8 oz. Top Sirloin delivers 55g of protein for 830 calories  the best ratio on the menu. The lightest items overall are Steamed Broccoli at 100 calories and the House Salad at 160."
   },
   {
     question: "What is the highest calorie item at Applebee's?",
-    answer: "The Classic Combo appetizer platter at 2,200 calories — higher than any entrée. Among entrées, the Hand-Battered Fish & Chips is the heaviest."
+    answer: "The Classic Combo appetizer platter at 2,200 calories  higher than any entrée. Among entrées, the Hand-Battered Fish & Chips is the heaviest."
   },
   {
     question: "Does Applebee's menu have prices?",
@@ -165,16 +165,16 @@ export default function MenuPage() {
         <h1>Applebee&apos;s Menu with Prices and Calories</h1>
         <div className={styles.answerBlock}>
           <p>
-            The full Applebee&apos;s menu spans 20 categories and roughly 60 items, from $2.99 fountain drinks to a $29.99 meal deal, and 0 to 2,200 calories. Every item below shows its price and calorie count. The lightest item is Steamed Broccoli at 100 calories; the heaviest is The Classic Combo appetizer platter at 2,200 — more than any entrée on the menu.
+            The full Applebee&apos;s menu spans 20 categories and roughly 60 items, from $2.99 fountain drinks to a $29.99 meal deal, and 0 to 2,200 calories. Every item below shows its price and calorie count. The lightest item is Steamed Broccoli at 100 calories; the heaviest is The Classic Combo appetizer platter at 2,200  more than any entrée on the menu.
           </p>
         </div>
         <p className={styles.locationNotice}>
-          Prices and availability vary by location — Applebee&apos;s restaurants are independently franchised. Use the <Link href="/locations">location finder</Link> to check your nearest restaurant.
+          Prices and availability vary by location  Applebee&apos;s restaurants are independently franchised. Use the <Link href="/locations">location finder</Link> to check your nearest restaurant.
         </p>
       </section>
 
       <div className={styles.contentContainer}>
-        {/* §2 — Current Specials */}
+        {/* §2  Current Specials */}
         <section className={styles.contentSection} id="specials">
           <h2>Applebee&apos;s Menu Specials Today</h2>
           <div className={styles.sectionAnswerBlock}>
@@ -226,18 +226,18 @@ export default function MenuPage() {
           </p>
         </section>
 
-        {/* §3 — Seasonal Menu Updates */}
+        {/* §3  Seasonal Menu Updates */}
         <section className={styles.contentSection} id="seasonal-updates">
           <h2>New and Seasonal Items on the Applebee&apos;s Menu</h2>
           <p className={styles.textParagraph}>
             Applebee&apos;s rotates limited-time items through the year alongside its permanent menu. Current additions:
           </p>
           <ul className={styles.infoList}>
-            <li><strong>Whole Lotta Bacon Burger</strong> — 1,150 calories, $15.99</li>
-            <li><strong>Sweet &amp; Spicy Chicken Sandwich</strong> — 980 calories, $13.99</li>
+            <li><strong>Whole Lotta Bacon Burger</strong>  1,150 calories, $15.99</li>
+            <li><strong>Sweet &amp; Spicy Chicken Sandwich</strong>  980 calories, $13.99</li>
           </ul>
           <p className={styles.textParagraph}>
-            Seasonal rotations typically bring new drinks more often than new food — the drink of the month programme changes continuously while food LTOs appear a few times a year.
+            Seasonal rotations typically bring new drinks more often than new food  the drink of the month programme changes continuously while food LTOs appear a few times a year.
           </p>
           <p className={styles.textParagraph}>
             What tends to change and when: lighter and fruit-forward drinks in spring and summer, heavier comfort items and warmer drinks in autumn and winter, and a value-offer push in the slower months after the holidays.
@@ -247,7 +247,7 @@ export default function MenuPage() {
           </p>
         </section>
 
-        {/* §4 — Veterans Day */}
+        {/* §4  Veterans Day */}
         <section className={styles.contentSection} id="veterans-day">
           <h2>Applebee&apos;s Veterans Day Menu</h2>
           <div className={styles.sectionAnswerBlock}>
@@ -258,7 +258,7 @@ export default function MenuPage() {
 
           <p className={styles.textParagraph}><strong>How it usually works:</strong></p>
           <ul className={styles.infoList}>
-            <li><strong>A limited menu, not the full menu:</strong> The free-meal offer covers a selected list of entrées rather than anything on the menu — typically including items from the <Link href="/menu/chicken">chicken</Link>, <Link href="/menu/handcrafted-burgers">burgers</Link> and <Link href="/menu/pasta">pasta</Link> sections.</li>
+            <li><strong>A limited menu, not the full menu:</strong> The free-meal offer covers a selected list of entrées rather than anything on the menu  typically including items from the <Link href="/menu/chicken">chicken</Link>, <Link href="/menu/handcrafted-burgers">burgers</Link> and <Link href="/menu/pasta">pasta</Link> sections.</li>
             <li><strong>Dine-in only:</strong> These offers historically do not extend to <Link href="/takeout">takeout</Link> or <Link href="/delivery">delivery</Link>.</li>
             <li><strong>Proof of service required:</strong> A military ID, discharge paperwork, or similar documentation.</li>
             <li><strong>Beverages and extras:</strong> Not usually included, and gratuity is separate.</li>
@@ -267,14 +267,14 @@ export default function MenuPage() {
         </section>
       </div>
 
-      {/* §5 — The Menu by Category (Category Grid) */}
+      {/* §5  The Menu by Category (Category Grid) */}
       <MenuGrid />
 
       {/* The Full Detailed Categorized Menu Blocks */}
       <FullMenu />
 
       <div className={styles.contentContainer}>
-        {/* §6 — Menu Highlights */}
+        {/* §6  Menu Highlights */}
         <section className={styles.contentSection} id="highlights">
           <h2>Applebee&apos;s Menu at a Glance</h2>
           <p className={styles.textParagraph}>
@@ -308,7 +308,7 @@ export default function MenuPage() {
           <p className={styles.textParagraph}><strong>Three key insights this comparison reveals:</strong></p>
           <ul className={styles.infoList}>
             <li><strong>The heaviest thing on the menu is an appetizer, not an entrée.</strong> The Classic Combo at 2,200 calories exceeds every burger, steak and pasta dish.</li>
-            <li><strong>A pasta dish carries the most protein, at 77g</strong> — more than any steak on the menu.</li>
+            <li><strong>A pasta dish carries the most protein, at 77g</strong>  more than any steak on the menu.</li>
             <li><strong>Sodium does not track with calories.</strong> The highest-sodium item is a 1,080-calorie appetizer; the lowest-sodium entrée is a rack of barbecue ribs.</li>
           </ul>
           <p className={styles.textParagraph}>
@@ -316,13 +316,13 @@ export default function MenuPage() {
           </p>
         </section>
 
-        {/* §7 — How to Order */}
+        {/* §7  How to Order */}
         <section className={styles.contentSection} id="ordering">
           <h2>Ordering from the Applebee&apos;s Menu</h2>
           <div className={styles.orderingGrid}>
             <article className={styles.orderingCard}>
               <h3>Dine-In</h3>
-              <p>The full menu experience, plus promotions that are strictly dine-in only — including half price appetizers during happy hour.</p>
+              <p>The full menu experience, plus promotions that are strictly dine-in only  including half price appetizers during happy hour.</p>
             </article>
 
             <article className={styles.orderingCard}>
@@ -353,7 +353,7 @@ export default function MenuPage() {
         </section>
       </div>
 
-      {/* §8 — Downloadable Menus (Moved below menu content) */}
+      {/* §8  Downloadable Menus (Moved below menu content) */}
       <section className={styles.pdfSection} id="downloads">
         <h2>Applebee&apos;s Menu PDF Downloads</h2>
         <p className={styles.pdfSubtitle}>
@@ -399,7 +399,7 @@ export default function MenuPage() {
         </div>
       </section>
 
-      {/* §9 — Frequently Asked Questions */}
+      {/* §9  Frequently Asked Questions */}
       <section className={styles.faqSection} id="faq">
         <h2>Frequently Asked Questions</h2>
         <div className={styles.faqList}>

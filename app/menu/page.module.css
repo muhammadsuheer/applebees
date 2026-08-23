@@ -309,7 +309,7 @@
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  text-align: center;
+  text-align: left;
   color: #ffffff;
   margin-bottom: 12px;
 }
@@ -318,9 +318,9 @@
   font-family: var(--font-roboto), sans-serif;
   font-size: 15px;
   color: #cbd5e1;
-  text-align: center;
+  text-align: left;
   max-width: 650px;
-  margin: 0 auto 35px;
+  margin: 0 0 35px;
   line-height: 1.6;
 }
 
@@ -404,7 +404,7 @@
   font-weight: 700;
   color: #1a2433;
   text-transform: uppercase;
-  text-align: center;
+  text-align: left;
   letter-spacing: 0.5px;
   margin-bottom: 35px;
 }
@@ -414,7 +414,7 @@
   flex-direction: column;
   gap: 16px;
   max-width: 900px;
-  margin: 0 auto;
+  margin: 0;
 }
 
 .faqCard {

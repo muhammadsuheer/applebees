@@ -16,7 +16,7 @@
   font-family: var(--font-oswald), sans-serif;
   font-size: 38px;
   font-weight: 700;
-  text-align: center;
+  text-align: left;
   color: #1a2433;
   margin-bottom: 20px;
   text-transform: uppercase;
@@ -24,9 +24,9 @@
 }
 
 .sectionDescription {
-  text-align: center;
+  text-align: left;
   max-width: 800px;
-  margin: 0 auto 40px auto;
+  margin: 0 0 40px 0;
   color: #4b5563;
   font-size: 16px;
   line-height: 1.6;

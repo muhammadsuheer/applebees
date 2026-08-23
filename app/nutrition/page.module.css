@@ -156,7 +156,7 @@
 
 .tableIntro {
   margin-bottom: 40px;
-  text-align: center;
+  text-align: left;
 }
 
 .tableIntro h2 {
@@ -174,7 +174,7 @@
   line-height: 1.7;
   color: #4b5563;
   max-width: 850px;
-  margin: 0 auto;
+  margin: 0 0 16px 0;
 }
 
 .categoryBlock {

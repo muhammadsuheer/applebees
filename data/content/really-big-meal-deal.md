@@ -1,7 +1,7 @@
 ---
 title: "Applebee's Really BIG Meal Deal: $9.99 Entrée, Fries & Drink"
 h1: "Applebee's Really BIG Meal Deal: What's Included and What It Costs"
-description: "Applebee's Really BIG Meal Deal is $9.99 — one entrée with endless fries and a fountain drink. What's included, the three entrée choices, and how it compares."
+description: "Applebee's Really BIG Meal Deal is $9.99  one entrée with endless fries and a fountain drink. What's included, the three entrée choices, and how it compares."
 ---
 
 <div class="answerBlock">
@@ -42,7 +42,7 @@ If you are choosing between collecting an order and sitting down, this deal is t
 
 ![Hand-breaded chicken sandwich with lettuce, tomato and pickles on a brioche bun](/apple-bees-menu/applebees-big-cluckin-chicken-sandwich.webp)
 
-A hand-breaded chicken breast — the "big" is about the size of the fillet — with shredded lettuce, tomato, pickles and mayo on a toasted brioche bun.
+A hand-breaded chicken breast  the "big" is about the size of the fillet  with shredded lettuce, tomato, pickles and mayo on a toasted brioche bun.
 
 This was one of the two launch items when the deal debuted in November 2024, and it is the chicken option throughout. If you want the crispy chicken sandwich format rather than a burger, this is the only route on the deal.
 
@@ -52,7 +52,7 @@ This was one of the two launch items when the deal debuted in November 2024, and
 
 An all-beef patty with two slices of American cheese and two strips of Applewood-smoked bacon, with lettuce, tomato, onion and pickles on a brioche bun.
 
-The doubling is the point — this is a larger build than the standard [Classic Bacon Cheeseburger](/menu/handcrafted-burgers) on the regular menu, which is what earns it a place on a deal named after size.
+The doubling is the point  this is a larger build than the standard [Classic Bacon Cheeseburger](/menu/handcrafted-burgers) on the regular menu, which is what earns it a place on a deal named after size.
 
 ### Big Bangin' Burger
 
@@ -75,7 +75,7 @@ A [Classic Bacon Cheeseburger](/menu/handcrafted-burgers) on the regular menu is
 - **Regular menu:** Roughly $17 for a burger, fries and a drink.
 - **Really BIG Meal Deal:** $9.99 for a larger burger, endless fries and endless drink.
 
-That is around a **$7 difference on a single meal** — before accounting for refills.
+That is around a **$7 difference on a single meal**  before accounting for refills.
 
 ### Against the 2 for $25 Deal
 
@@ -113,7 +113,7 @@ This comparison is worth doing properly, because the two deals suit different si
   </div>
 </div>
 
-Two Really BIG Meal Deals cost roughly $5 less than [2 for $25](/menu/2-for-25) — and include drinks. The 2 for $25 wins if you want the shared appetizer and a wider entrée choice. The Really BIG Meal Deal wins on pure cost.
+Two Really BIG Meal Deals cost roughly $5 less than [2 for $25](/menu/2-for-25)  and include drinks. The 2 for $25 wins if you want the shared appetizer and a wider entrée choice. The Really BIG Meal Deal wins on pure cost.
 
 The deciding question is the appetizer. If you want one, 2 for $25 is the better structure. If you do not, two $9.99 deals beat it on price and include the drinks.
 
@@ -127,7 +127,7 @@ Half price appetizers during [happy hour](/happy-hour) run alongside these deals
 
 - **Eating alone:** This is the cheapest complete meal on the Applebee's menu. Nothing else gets you an entrée, a side and a drink under $10.
 - **A quick lunch:** Applebee's has run this as a lunch offer specifically, and at $9.99 with unlimited refills it competes directly with fast food on price while giving you a full-service table.
-- **A big appetite:** Endless fries is a genuine perk if you will use it. If you eat one portion, you are paying for a feature you did not need — the 2 for $25 shared appetizer might suit you better.
+- **A big appetite:** Endless fries is a genuine perk if you will use it. If you eat one portion, you are paying for a feature you did not need  the 2 for $25 shared appetizer might suit you better.
 - **Two people who don't want a starter:** Two of these at $19.98 beats 2 for $25 and includes drinks.
 - **Where it does not fit:** If you want variety, a steak, pasta or seafood. The deal is three sandwich-format entrées. Everything else on the [full menu](/menu) is priced normally.
 
@@ -157,7 +157,7 @@ The combination runs around 1,100 calories for an entrée with a standard portio
 
 Two things to note:
 - **Refills are not in that figure:** Unlimited fries and unlimited soda mean the actual total depends entirely on how much you have. A second portion of fries adds around 400 calories; a refill of regular soda adds up to around 200.
-- **Zero-calorie drink option:** Choosing a diet soda makes the drink free of calories and refills stay free of them too. On a deal built around unlimited refills, that is the single largest choice available — see our [non-alcoholic beverages](/menu/non-alcoholic-beverages) guide.
+- **Zero-calorie drink option:** Choosing a diet soda makes the drink free of calories and refills stay free of them too. On a deal built around unlimited refills, that is the single largest choice available  see our [non-alcoholic beverages](/menu/non-alcoholic-beverages) guide.
 
 For the individual burger and sandwich figures on the regular menu, see [handcrafted burgers](/menu/handcrafted-burgers) and our complete [nutrition and calories](/nutrition) breakdown.
 
@@ -172,19 +172,19 @@ $9.99 for one entrée, classic fries and a fountain drink. Prices exclude tax an
 One entrée from three options, classic fries and a fountain drink. Dining in, the fries and drink are unlimited. It is a single-person combo rather than a shared deal.
 
 ### What entrées are on the Really BIG Meal Deal?
-The Big Cluckin' Chicken Sandwich, the BIG Classic Bacon Cheeseburger and the Big Bangin' Burger — a hand-breaded chicken sandwich and two larger-format burgers.
+The Big Cluckin' Chicken Sandwich, the BIG Classic Bacon Cheeseburger and the Big Bangin' Burger  a hand-breaded chicken sandwich and two larger-format burgers.
 
 ### Does the Really BIG Meal Deal come with endless fries?
 Yes, when dining in. Fries and fountain drink both refill at no extra cost. Ordered for takeout you receive one portion of each.
 
 ### Is the Really BIG Meal Deal for one person or two?
-One person. It is a complete single meal — entrée, side and drink. For two people sharing an appetizer, the 2 for $25 deal is the equivalent offer.
+One person. It is a complete single meal  entrée, side and drink. For two people sharing an appetizer, the 2 for $25 deal is the equivalent offer.
 
 ### Is the Really BIG Meal Deal better than 2 for $25?
 For two people without an appetizer, two Really BIG Meal Deals cost $19.98 against $25.00 and include drinks. If you want a shared appetizer and a wider entrée choice, 2 for $25 is the better structure.
 
 ### What is the Big Bangin' Burger?
-The newest entrée on the Really BIG Meal Deal — an all-beef patty with two slices of American cheese and a sweet and spicy sauce made with jalapeños and bacon, on a brioche bun with lettuce, tomato, onion and pickles.
+The newest entrée on the Really BIG Meal Deal  an all-beef patty with two slices of American cheese and a sweet and spicy sauce made with jalapeños and bacon, on a brioche bun with lettuce, tomato, onion and pickles.
 
 ### Can I get the Really BIG Meal Deal for takeout?
 Yes, for dine-in or to go. The unlimited fries and drink refills apply in the restaurant only.
@@ -193,7 +193,7 @@ Yes, for dine-in or to go. The unlimited fries and drink refills apply in the re
 No. The deal is offered without substitutions, though upgrades are available for an additional charge.
 
 ### How many calories are in the Really BIG Meal Deal?
-Around 1,100 calories for an entrée with a standard portion of fries and a regular fountain drink. Refills add to that — choosing a diet soda keeps the drink at zero regardless of how many you have.
+Around 1,100 calories for an entrée with a standard portion of fries and a regular fountain drink. Refills add to that  choosing a diet soda keeps the drink at zero regardless of how many you have.
 
 ### Is the Really BIG Meal Deal still available in 2026?
 It launched in November 2024 and has been extended repeatedly, remaining available at participating locations. Since it runs as a promotion rather than a permanent menu item, checking with your local restaurant is worthwhile.

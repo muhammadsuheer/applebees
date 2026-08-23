@@ -23,31 +23,31 @@ export const menuData: MenuCategory[] = [
     image: "/apple-bees-menu/applebees-new-menu-items-2026-category.webp",
     descriptor: "Live log of current limited-time additions and recently ended items",
     items: [
-      { 
+      {
         id: "n1", name: "Grilled Cheese Cheeseburger", calories: "1420 Cals", price: "$14.99 / 2 for $25",
         description: "An all-beef patty stacked with four slices of American cheese and sweet & savory jam on toasted potato bread, served with tomato basil soup for dipping.",
         tableDescription: "Four-cheese burger on potato bread served with tomato basil soup.",
         image: "/apple-bees-menu/applebees-grilled-cheese-cheeseburger.webp"
       },
-      { 
+      {
         id: "n2", name: "Chicken Parmesan Fettuccine", calories: "1480 Cals", price: "$15.99 / 2 for $25",
         description: "Breaded chicken parmesan over fettuccine with rich marinara sauce and melted mozzarella, served with a garlic breadstick.",
         tableDescription: "Breaded chicken parmesan over fettuccine with marinara and mozzarella.",
         image: "/apple-bees-menu/applebees-chicken-parmesan-fettuccine.webp"
       },
-      { 
+      {
         id: "n3", name: "Crispy Pickle Fries", calories: "590 Cals", price: "Ultimate Trio / Side",
         description: "Golden fried pickle fries tossed in TAJÍN and chile lime seasoning, served with Mexi-ranch dipping sauce.",
         tableDescription: "Crispy pickle fries tossed in TAJÍN and chile lime seasoning.",
         image: "/apple-bees-menu/applebees-pickle-fries-side.webp"
       },
-      { 
+      {
         id: "n4", name: "$10 Don Julio Mucho Margarita", calories: "320 Cals", price: "$10.00",
         description: "Premium Mucho-sized margarita crafted with Don Julio Reposado tequila, citrus, and triple sec in a signature glass.",
         tableDescription: "Premium Mucho margarita made with Don Julio tequila.",
         image: "/apple-bees-menu/applebees-new-menu-items-2026-category.webp"
       },
-      { 
+      {
         id: "n5", name: "$6 Bacardi Rum Cocktail", calories: "240 Cals", price: "$6.00",
         description: "Refreshing rum cocktail made with Bacardi Superior rum and tropical fruit juices.",
         tableDescription: "Tropical rum cocktail crafted with Bacardi Superior rum.",
@@ -61,13 +61,13 @@ export const menuData: MenuCategory[] = [
     image: "/apple-bees-menu/applebees-ultimate-trio-appetizer-category.webp",
     descriptor: "Choose three appetizers with three sauces",
     items: [
-      { 
+      {
         id: "u1", name: "Classic Combo", calories: "2200 Cals", price: "$18.99",
         description: "The Applebee’s Classic Combo brings several core appetizers into one shareable order, including Boneless Wings, Spinach & Artichoke Dip, Chicken Quesadilla, and Mozzarella Sticks.",
         tableDescription: "Shareable combo with wings, dip, quesadilla, and mozzarella sticks.",
         image: "/apple-bees-menu/applebees-classic-combo-appetizer-trio-platter.webp"
       },
-      { 
+      {
         id: "u2", name: "Ultimate Trio", calories: "1850 Cals", price: "$16.99",
         description: "The Ultimate Trio lets guests choose three appetizers and pair them with three dipping sauces.",
         tableDescription: "Choose three appetizers and three dipping sauces.",
@@ -81,7 +81,7 @@ export const menuData: MenuCategory[] = [
     image: "/apple-bees-menu/applebees-sizzling-skillets-menu-category.webp",
     descriptor: "Sizzling cast-iron entrées",
     items: [
-      { 
+      {
         id: "sk1", name: "Bourbon Street Chicken & Shrimp", calories: "1010 Cals", price: "$17.99",
         description: "Cajun-seasoned chicken breast and blackened shrimp served over sautéed mushrooms and caramelized onions with garlic butter and garlic mashed potatoes on a sizzling cast-iron skillet.",
         tableDescription: "Cajun chicken and blackened shrimp with garlic butter, mushrooms, and mashed potatoes.",
@@ -95,31 +95,31 @@ export const menuData: MenuCategory[] = [
     image: "/apple-bees-menu/applebees-signature-cocktails-drinks-category.webp",
     descriptor: "$9.99–$11.99 · Mucho-size glassware",
     items: [
-      { 
+      {
         id: "c1", name: "Mucho Blue Hawaiian", calories: "350 Cals", price: "$9.99",
         description: "A tropical blue cocktail from Applebee’s bar menu.",
         tableDescription: "Tropical blue cocktail; recipe and availability can rotate.",
         image: "/apple-bees-menu/applebees-mucho-blue-hawaiian-cocktail.webp"
       },
-      { 
+      {
         id: "c2", name: "Shark Bowl", calories: "420 Cals", price: "$10.99",
         description: "A colorful specialty cocktail known for its playful presentation and fruit-forward profile.",
         tableDescription: "Fruit-forward specialty cocktail with a playful presentation.",
         image: "/apple-bees-menu/applebees-shark-bowl-signature-drink.webp"
       },
-      { 
+      {
         id: "c3", name: "Dollarita (House Margarita)", calories: "310 Cals", price: "Limited Promo ($1.00)",
         description: "Applebee’s DOLLARITA is a promotional $1 margarita that returns for limited campaigns rather than a permanent everyday menu price.",
         tableDescription: "Limited-time promotional house margarita; verify active dates.",
         image: "/apple-bees-menu/applebees-dollarita-house-margarita-cocktail.webp"
       },
-      { 
+      {
         id: "c4", name: "Top Shelf Long Island Iced Tea", calories: "380 Cals", price: "$11.99",
         description: "A Long Island-style cocktail made with a higher-tier spirit blend and citrus-style mixers.",
         tableDescription: "Long Island-style cocktail using a premium spirit blend.",
         image: "/apple-bees-menu/applebees-top-shelf-long-island-iced-tea.webp"
       },
-      { 
+      {
         id: "c5", name: "Bacardí Blushing Dragon Mucho", calories: "330 Cals", price: "$10.00",
         description: "A Bacardí-based Mucho cocktail with dragon fruit, lemon-sour and lemonade flavors.",
         tableDescription: "Bacardí cocktail with dragon fruit, lemon-sour, and lemonade flavors.",
@@ -133,43 +133,43 @@ export const menuData: MenuCategory[] = [
     image: "/apple-bees-menu/applebees-appetizers-starters-menu-category.webp",
     descriptor: "Seven shareable starters, $9.99–$18.99 · most are half price during happy hour",
     items: [
-      { 
+      {
         id: "a4", name: "Chicken Wonton Tacos", calories: "590 Cals", price: "$11.49",
         description: "Sweet Asian chile-marinated grilled chicken in crispy wonton shells, finished with crunchy Asian slaw and fresh cilantro.",
         tableDescription: "Crispy wonton tacos with chile-marinated chicken, slaw, and cilantro.",
         image: "/apple-bees-menu/applebees-chicken-wonton-tacos-appetizer.webp"
       },
-      { 
+      {
         id: "a2", name: "Mozzarella Sticks", calories: "860 Cals", price: "$9.99",
         description: "Eight thick-cut mozzarella cheese sticks coated in Italian breadcrumbs and fried golden, served with warm marinara dipping sauce.",
         tableDescription: "Crispy mozzarella sticks served with marinara sauce.",
         image: "/apple-bees-menu/applebees-mozzarella-sticks-with-marinara.webp"
       },
-      { 
+      {
         id: "a1", name: "Spinach & Artichoke Dip", calories: "990 Cals", price: "$10.49",
         description: "Creamy warm spinach and artichoke dip baked with Parmesan and mozzarella, served with fresh tortilla chips and chipotle lime salsa.",
         tableDescription: "Creamy spinach-artichoke dip with Parmesan, chips, and salsa.",
         image: "/apple-bees-menu/applebees-spinach-artichoke-dip-appetizer.webp"
       },
-      { 
+      {
         id: "a3", name: "Boneless Wings", calories: "1080 Cals", price: "$12.99",
         description: "Crispy breaded all-white-meat chicken breast pieces tossed in your choice of signature sauce: Classic Hot Buffalo, Honey BBQ, Sweet Asian Chile, or Garlic Parmesan.",
         tableDescription: "Breaded boneless chicken tossed in a choice of wing sauce.",
         image: "/apple-bees-menu/applebees-boneless-wings-honey-bbq.webp"
       },
-      { 
+      {
         id: "a5", name: "Brew Pub Pretzels & Beer Cheese Dip", calories: "1160 Cals", price: "$10.99",
         description: "Warm, soft Bavarian-style pretzel sticks brushed with butter and served with Blue Moon® white Cheddar beer cheese and honey Dijon mustard.",
         tableDescription: "Bavarian-style pretzel sticks with beer cheese and honey Dijon.",
         image: "/apple-bees-menu/applebees-brew-pub-pretzels-beer-cheese-dip.webp"
       },
-      { 
+      {
         id: "a6", name: "Chicken Quesadilla", calories: "1170 Cals", price: "$11.99",
         description: "Grilled flour tortilla loaded with chipotle-lime chicken, melted Monterey Jack and Cheddar cheeses, bacon, and pico de gallo, served with sour cream and salsa.",
         tableDescription: "Grilled tortillas with chipotle chicken, pico de gallo, and Cheddar.",
         image: "/apple-bees-menu/applebees-chicken-quesadilla-appetizer.webp"
       },
-      { 
+      {
         id: "a7", name: "The Classic Combo", calories: "2200 Cals", price: "$18.99",
         description: "A shareable four-item platter bringing together Boneless Wings, Spinach & Artichoke Dip with chips, Chicken Quesadilla wedges, and Mozzarella Sticks.",
         tableDescription: "Four-item shareable sampler platter with wings, dip, quesadillas, and mozz sticks.",
@@ -183,37 +183,37 @@ export const menuData: MenuCategory[] = [
     image: "/apple-bees-menu/applebees-steaks-and-ribs-menu-category.webp",
     descriptor: "Riblets, sirloin and ribs · best protein-per-calorie on the menu",
     items: [
-      { 
+      {
         id: "sr5", name: "Applebee's Riblets", calories: "1080 Cals", price: "$17.99",
         description: "Signature tender pork riblets slow-cooked until fall-apart tender, tossed in signature barbecue sauce and served as a hearty platter with classic fries and coleslaw.",
         tableDescription: "Slow-cooked pork riblet platter tossed in honey BBQ sauce with fries and slaw.",
         image: "/apple-bees-menu/applebees-applewood-smoked-baby-back-ribs.webp"
       },
-      { 
+      {
         id: "sr1", name: "8 oz. Top Sirloin", calories: "830 Cals", price: "$18.99",
         description: "USDA Select 8 ounce top sirloin steak, lightly seasoned and grilled to order. Best protein-to-calorie ratio on the menu (55g protein).",
         tableDescription: "Grilled 8 oz. top sirloin steak delivering 55g protein with sides.",
         image: "/apple-bees-menu/applebees-8oz-top-sirloin-steak-dinner.webp"
       },
-      { 
+      {
         id: "sr6", name: "6 oz. Top Sirloin", calories: "760 Cals", price: "$16.99",
         description: "A smaller cut of USDA Select top sirloin delivering 43g of protein for 760 calories, grilled to order.",
         tableDescription: "Lean 6 oz. grilled top sirloin steak with garlic mashed potatoes and broccoli.",
         image: "/apple-bees-menu/applebees-8oz-top-sirloin-steak-dinner.webp"
       },
-      { 
+      {
         id: "sr3", name: "Bourbon Street Steak", calories: "1430 Cals", price: "$19.99",
         description: "Grilled top sirloin seasoned with bold Cajun spices and garlic butter, served sizzling over sautéed mushrooms and caramelized onions (71g protein).",
         tableDescription: "Cajun-seasoned top sirloin with garlic butter, mushrooms, and onions.",
         image: "/apple-bees-menu/applebees-bourbon-street-steak-dinner.webp"
       },
-      { 
+      {
         id: "sr2", name: "Double-Glazed Baby Back Ribs (Half Rack)", calories: "760 Cals", price: "$22.99",
         description: "Slow-cooked pork baby back ribs finished with caramelized barbecue glaze. Lowest sodium entrée in category (1,300mg) with 44g protein.",
         tableDescription: "Slow-cooked baby back ribs with caramelized barbecue glaze.",
         image: "/apple-bees-menu/applebees-applewood-smoked-baby-back-ribs.webp"
       },
-      { 
+      {
         id: "sr4", name: "Ribeye Steak (12 oz.)", calories: "930 Cals", price: "$23.99",
         description: "Richly marbled 12 oz. USDA Select ribeye steak grilled over open flame for maximum tenderness and natural juiciness.",
         tableDescription: "Richly marbled grilled 12 oz. ribeye steak.",
@@ -227,37 +227,37 @@ export const menuData: MenuCategory[] = [
     image: "/apple-bees-menu/applebees-handcrafted-burgers-menu-category.webp",
     descriptor: "Six burgers, $14.49–$15.99 · all served with fries",
     items: [
-      { 
+      {
         id: "b3", name: "Quesadilla Burger", calories: "1620 Cals", price: "$15.99",
         description: "All-beef patty with Pepper Jack cheese, Applewood-smoked bacon, pico de gallo, shredded lettuce, and Mexi-ranch served in two warm grilled flour tortillas.",
         tableDescription: "Signature burger served in grilled tortillas with Pepper Jack, bacon, and Mexi-ranch.",
         image: "/apple-bees-menu/applebees-quesadilla-burger-signature.webp"
       },
-      { 
+      {
         id: "b5", name: "O-M-Cheese Burger", calories: "1340 Cals", price: "$15.49",
         description: "A cheese-forward handcrafted burger centered around rich melted American and cheddar cheeses layered over a juicy seared beef patty.",
         tableDescription: "Cheese-forward handcrafted burger layered with melted cheeses.",
         image: "/apple-bees-menu/applebees-classic-bacon-cheeseburger-with-fries.webp"
       },
-      { 
+      {
         id: "b6", name: "Grilled Cheese Cheeseburger", calories: "1480 Cals", price: "$15.99",
         description: "A decadent specialty burger featuring an all-beef patty served between two melted grilled cheese sandwiches instead of a standard bun.",
         tableDescription: "All-beef patty served between two golden grilled cheese sandwiches.",
         image: "/apple-bees-menu/applebees-handcrafted-burgers-menu-category.webp"
       },
-      { 
+      {
         id: "b1", name: "Classic Bacon Cheeseburger", calories: "1220 Cals", price: "$14.49",
         description: "All-beef patty with two slices of American cheese, Applewood-smoked bacon, lettuce, tomato, onion, and pickles on a toasted brioche bun with fries.",
         tableDescription: "All-beef cheeseburger with Applewood-smoked bacon, American cheese, and fries.",
         image: "/apple-bees-menu/applebees-classic-bacon-cheeseburger-with-fries.webp"
       },
-      { 
+      {
         id: "b4", name: "Impossible™ Cheeseburger", calories: "1090 Cals", price: "$15.49",
         description: "Plant-based Impossible patty with American cheese, lettuce, tomato, onion, and pickles on a brioche bun. Highest fiber (12g) on the burger menu.",
         tableDescription: "Plant-based Impossible patty with cheese, vegetables, and 12g fiber.",
         image: "/apple-bees-menu/applebees-impossible-burger-plant-based.webp"
       },
-      { 
+      {
         id: "b2", name: "Whisky Bacon Burger", calories: "1590 Cals", price: "$15.99",
         description: "All-beef patty with Pepper Jack cheese, crispy onions, Applewood-smoked bacon, and sweet-savory whisky-infused steak sauce glaze (63g protein).",
         tableDescription: "Burger with Pepper Jack, bacon, crispy onions, and whisky-infused glaze.",
@@ -271,31 +271,31 @@ export const menuData: MenuCategory[] = [
     image: "/apple-bees-menu/applebees-chicken-entrees-menu-category.webp",
     descriptor: "Grilled and breaded, $13.99–$16.49",
     items: [
-      { 
+      {
         id: "ch1", name: "Fiesta Lime Chicken", calories: "1190 Cals", price: "$16.49",
         description: "Grilled chicken breast glazed with lime-cilantro sauce, topped with Mexi-ranch and melted Jack-cheddar cheese over tortilla strips, Spanish rice, and pico de gallo (61g protein).",
         tableDescription: "Lime-glazed grilled chicken with Mexi-ranch, melted cheese, rice, and pico de gallo.",
         image: "/apple-bees-menu/applebees-fiesta-lime-chicken-entree.webp"
       },
-      { 
+      {
         id: "ch4", name: "Grilled Chicken Breast", calories: "760 Cals", price: "$15.49",
         description: "A lean, seasoned grilled chicken breast delivering 50g of high-quality protein for only 760 calories. Best protein-to-calorie ratio on the chicken menu.",
         tableDescription: "Lean grilled chicken breast delivering 50g protein with choice of sides.",
         image: "/apple-bees-menu/applebees-fiesta-lime-chicken-entree.webp"
       },
-      { 
+      {
         id: "ch2", name: "Chicken Tenders Platter", calories: "1450 Cals", price: "$14.99",
         description: "Crispy craggy-breaded all-white-meat chicken tenders served with honey mustard dipping sauce, classic fries, and creamy coleslaw.",
         tableDescription: "Crispy breaded chicken tenders with honey mustard, fries, and coleslaw.",
         image: "/apple-bees-menu/applebees-crispy-chicken-tenders-platter.webp"
       },
-      { 
+      {
         id: "ch5", name: "Chicken Fajita Rollup", calories: "1020 Cals", price: "$13.99",
         description: "Chipotle-lime grilled chicken rolled in a warm flour tortilla with sauteed fajita peppers, onions, melted cheeses, and Mexi-ranch.",
         tableDescription: "Grilled chicken fajita wrap with sauteed peppers, onions, and Mexi-ranch.",
         image: "/apple-bees-menu/applebees-chicken-entrees-menu-category.webp"
       },
-      { 
+      {
         id: "ch3", name: "Honey Pepper Chicken Tenders", calories: "1610 Cals", price: "$15.49",
         description: "Crispy hand-breaded chicken tenders tossed in a sweet and savoury honey cracked-pepper glaze.",
         tableDescription: "Crispy chicken tenders coated in honey pepper glaze.",
@@ -309,25 +309,25 @@ export const menuData: MenuCategory[] = [
     image: "/apple-bees-menu/applebees-pasta-dishes-menu-category.webp",
     descriptor: "Four dishes with a garlic breadstick · highest protein on the menu",
     items: [
-      { 
+      {
         id: "p1", name: "Three-Cheese Chicken Penne", calories: "1350 Cals", price: "$15.99",
         description: "Penne tossed in Asiago, Parmesan, and white Cheddar cream sauce, topped with grilled chicken breast and fresh bruschetta tomatoes (77g protein, highest on menu).",
         tableDescription: "Penne in three-cheese cream sauce with grilled chicken and bruschetta tomatoes.",
         image: "/apple-bees-menu/applebees-three-cheese-chicken-penne-pasta.webp"
       },
-      { 
+      {
         id: "p3", name: "Four Cheese Mac & Cheese with Honey Pepper Chicken", calories: "1360 Cals", price: "$17.49",
         description: "Four-cheese penne mac and cheese topped with crispy chicken tenders tossed in honey pepper sauce and Applewood-smoked bacon (160g carbs, 44g sugar).",
         tableDescription: "Four-cheese penne with bacon and honey-pepper chicken tenders.",
         image: "/apple-bees-menu/applebees-four-cheese-mac-and-cheese-with-honey-pepper-chicken.webp"
       },
-      { 
+      {
         id: "p2", name: "Classic Broccoli Chicken Alfredo", calories: "1410 Cals", price: "$16.49",
         description: "Grilled chicken over fettuccine tossed with broccoli florets and rich Alfredo sauce, finished with shaved Parmesan cheese.",
         tableDescription: "Fettuccine Alfredo with grilled chicken, broccoli, and Parmesan.",
         image: "/apple-bees-menu/applebees-broccoli-chicken-alfredo-pasta.webp"
       },
-      { 
+      {
         id: "p4", name: "Chicken Parmesan Fettuccine", calories: "1390 Cals", price: "$16.99",
         description: "Crispy breaded chicken parmesan cutlet smothered in warm marinara and melted mozzarella, served over a bed of fettuccine pasta with a garlic breadstick.",
         tableDescription: "Breaded chicken parmesan over fettuccine with marinara and melted mozzarella.",
@@ -341,19 +341,19 @@ export const menuData: MenuCategory[] = [
     image: "/apple-bees-menu/applebees-seafood-menu-category.webp",
     descriptor: "Salmon, shrimp and fish and chips",
     items: [
-      { 
+      {
         id: "sf1", name: "Hand-Battered Fish & Chips", calories: "1680 Cals", price: "Varies",
         description: "Applebee’s Hand-Battered Fish & Chips features crispy golden-battered white fish fillets fried to order and served with classic french fries and tartar sauce.",
         tableDescription: "Hand-battered white fish fillets fried crisp with french fries.",
         image: "/apple-bees-menu/applebees-hand-battered-fish-and-chips.webp"
       },
-      { 
+      {
         id: "sf2", name: "Blackened Cajun Salmon", calories: "850 Cals", price: "$18.99",
         description: "Applebee’s Blackened Cajun Salmon features a blackened grilled salmon fillet served with garlic mashed potatoes and broccoli for a straightforward seafood entrée.",
         tableDescription: "Blackened grilled salmon with garlic mashed potatoes and broccoli.",
         image: "/apple-bees-menu/applebees-blackened-cajun-salmon-fillet.webp"
       },
-      { 
+      {
         id: "sf3", name: "Double Crunch Shrimp", calories: "1210 Cals", price: "$15.99",
         description: "Applebee’s Double Crunch Shrimp features crispy battered shrimp fried golden brown and served with cocktail sauce, fries and coleslaw.",
         tableDescription: "Golden-fried battered shrimp served with cocktail sauce, fries and coleslaw.",
@@ -365,31 +365,55 @@ export const menuData: MenuCategory[] = [
     title: "SALADS",
     slug: "salads",
     image: "/apple-bees-menu/applebees-fresh-salads-menu-category.webp",
-    descriptor: "160 to 1,560 calories · the widest range on the menu",
+    descriptor: "160 to 1,560 calories · $4.99–$15.49 · lunch & dinner sizes",
     items: [
-      { 
-        id: "s1", name: "Oriental Chicken Salad", calories: "1560 Cals", price: "$14.99",
-        description: "Applebee’s Oriental Chicken Salad tops fresh Asian greens with crispy breaded chicken tenders, crunchy noodles, almonds, and Oriental vinaigrette.",
-        tableDescription: "Asian greens with crispy chicken, noodles, almonds, and vinaigrette.",
+      {
+        id: "s1", name: "Oriental Chicken Salad (Crispy)", calories: "1560 Cals", price: "$14.99",
+        description: "Fresh Asian greens and cabbage with crispy breaded chicken tenders, crunchy chow mein noodles, toasted almonds, Oriental vinaigrette, and signature garlic breadstick.",
+        tableDescription: "Asian greens with crispy chicken, noodles, almonds, vinaigrette, and breadstick.",
         image: "/apple-bees-menu/applebees-oriental-chicken-salad-bowl.webp"
       },
-      { 
-        id: "s2", name: "Grilled Chicken Caesar Salad", calories: "950 Cals", price: "$13.49",
-        description: "Applebee’s Grilled Chicken Caesar Salad combines crisp romaine, garlic Caesar dressing, grilled chicken, croutons, and shaved Parmesan.",
-        tableDescription: "Romaine with grilled chicken, Caesar dressing, croutons, and Parmesan.",
+      {
+        id: "s2", name: "Grilled Oriental Chicken Salad", calories: "900 Cals", price: "$14.99",
+        description: "The lighter grilled version of Applebee’s signature salad: Asian greens, cabbage, almonds, crunchy noodles, and Oriental vinaigrette with grilled chicken (saves ~530 calories).",
+        tableDescription: "Grilled chicken over Asian greens with almonds, crunchy noodles, and vinaigrette.",
+        image: "/apple-bees-menu/applebees-grilled-oriental-chicken-salad.webp"
+      },
+      {
+        id: "s3", name: "Grilled Chicken Caesar Salad", calories: "950 Cals", price: "$13.49",
+        description: "Crisp romaine lettuce tossed in garlic Caesar dressing with grilled chicken, garlic croutons, and shaved Parmesan cheese (57g protein).",
+        tableDescription: "Romaine with grilled chicken, Caesar dressing, croutons, and Parmesan (57g protein).",
         image: "/apple-bees-menu/applebees-grilled-chicken-caesar-salad.webp"
       },
-      { 
-        id: "s3", name: "Quesadilla Chicken Salad", calories: "1400 Cals", price: "$15.49",
-        description: "Grilled chipotle-lime chicken over fresh greens with Mexi-ranch dressing, cilantro, corn & black bean salsa, and warm cheese quesadilla wedges.",
-        tableDescription: "Chipotle chicken over greens with cheese quesadilla wedges and Mexi-ranch.",
-        image: "/apple-bees-menu/applebees-fresh-salads-menu-category.webp"
+      {
+        id: "s4", name: "Strawberry Balsamic Chicken Salad", calories: "900 Cals", price: "$14.49",
+        description: "Fresh mixed garden greens topped with sliced grilled chicken, ripe strawberries, red onions, tomatoes, sliced almonds, balsamic glaze, and lemon olive vinaigrette on the side.",
+        tableDescription: "Garden greens with grilled chicken, strawberries, almonds, and balsamic glaze.",
+        image: "/apple-bees-menu/applebees-strawberry-balsamic-chicken-salad.webp"
       },
-      { 
-        id: "s4", name: "House Salad", calories: "160 Cals", price: "$4.99",
-        description: "Fresh mixed greens with cucumber, shredded cheddar, diced tomatoes, croutons, and choice of dressing.",
-        tableDescription: "Fresh mixed greens with cucumber, tomatoes, and choice of dressing.",
-        image: "/apple-bees-menu/applebees-fresh-salads-menu-category.webp"
+      {
+        id: "s5", name: "Crispy Chicken Tender Salad", calories: "1220 Cals", price: "$14.49",
+        description: "Fresh greens with golden crispy chicken tenders, shredded cheddar cheese, and diced tomatoes, served with honey Dijon mustard dressing on the side.",
+        tableDescription: "Crispy chicken tenders over fresh greens with cheddar and honey Dijon.",
+        image: "/apple-bees-menu/applebees-crispy-chicken-tender-salad.webp"
+      },
+      {
+        id: "s6", name: "Quesadilla Chicken Salad", calories: "1400 Cals", price: "$15.49",
+        description: "Seasoned chicken over fresh greens with Mexi-ranch dressing, corn & black bean salsa, pico de gallo, and warm cheese quesadilla wedges.",
+        tableDescription: "Chipotle chicken over greens with cheese quesadilla wedges and Mexi-ranch.",
+        image: "/apple-bees-menu/applebees-quesadilla-chicken-salad.webp"
+      },
+      {
+        id: "s7", name: "California Grilled Chicken Salad", calories: "920 Cals", price: "$14.99",
+        description: "Grilled chicken breast over mixed greens with avocado cucumber salsa, tomatoes, bacon, shaved Parmesan, lite Italian dressing, and balsamic glaze.",
+        tableDescription: "Grilled chicken salad with avocado salsa, bacon, and balsamic glaze.",
+        image: "/apple-bees-menu/applebees-california-grilled-chicken-salad.webp"
+      },
+      {
+        id: "s8", name: "House Side Salad", calories: "160 Cals", price: "$4.99",
+        description: "Fresh mixed greens with cucumber, diced tomatoes, croutons, and choice of dressing. 160 calories and vegan with fat-free Italian dressing.",
+        tableDescription: "Fresh mixed greens with cucumber, tomatoes, and choice of dressing (160 Cals).",
+        image: "/apple-bees-menu/applebees-house-salad-side.webp"
       }
     ]
   },
@@ -399,19 +423,19 @@ export const menuData: MenuCategory[] = [
     image: "/apple-bees-menu/applebees-desserts-sweet-treats-menu-category.webp",
     descriptor: "Warm desserts and lighter options",
     items: [
-      { 
+      {
         id: "d1", name: "Triple Chocolate Meltdown", calories: "910 Cals", price: "$8.99",
         description: "Applebee’s Triple Chocolate Meltdown is a warm fudge-filled chocolate cake drizzled with hot fudge and served with vanilla ice cream.",
         tableDescription: "Warm fudge-filled chocolate cake with hot fudge and vanilla ice cream.",
         image: "/apple-bees-menu/applebees-triple-chocolate-meltdown-dessert.webp"
       },
-      { 
+      {
         id: "d2", name: "Brownie Bite", calories: "330 Cals", price: "$2.49",
         description: "A bite-sized warm dark chocolate brownie served with vanilla ice cream and drizzled with hot fudge.",
         tableDescription: "Warm chocolate brownie bite served with vanilla ice cream and hot fudge.",
         image: "/apple-bees-menu/applebees-brownie-bite-dessert.webp"
       },
-      { 
+      {
         id: "d3", name: "Sizzling Caramel Apple Blondie", calories: "990 Cals", price: "$9.49",
         description: "A warm blondie topped with cinnamon-spiced apples and vanilla ice cream, served on a hot cast-iron skillet with caramel poured over at the table.",
         tableDescription: "Warm blondie with cinnamon apples, vanilla ice cream, and sizzling caramel.",
@@ -425,55 +449,55 @@ export const menuData: MenuCategory[] = [
     image: "/apple-bees-menu/applebees-sauces-and-sides-menu-category.webp",
     descriptor: "$3.49–$4.49 · 100 to 450 calories",
     items: [
-      { 
+      {
         id: "sd1", name: "Garlic Mashed Potatoes", calories: "260 Cals", price: "$3.49",
         description: "Creamy garlic mashed potatoes blended with butter, cream, and roasted garlic.",
         tableDescription: "Creamy mashed potatoes seasoned with roasted garlic.",
         image: "/apple-bees-menu/applebees-garlic-mashed-potatoes-side.webp"
       },
-      { 
+      {
         id: "sd2", name: "Classic Fries", calories: "400 Cals", price: "$3.99",
         description: "Medium-thick cut golden french fries fried crisp with seasoned salt.",
         tableDescription: "Golden seasoned french fries served crisp.",
         image: "/apple-bees-menu/applebees-classic-french-fries-side.webp"
       },
-      { 
+      {
         id: "sd3", name: "Steamed Broccoli", calories: "100 Cals", price: "$3.49",
         description: "Tender-crisp steamed broccoli florets prepared with seasoned butter.",
         tableDescription: "Steamed broccoli florets served as a vegetable side.",
         image: "/apple-bees-menu/applebees-steamed-broccoli-side.webp"
       },
-      { 
+      {
         id: "sd4", name: "Garlicky Green Beans", calories: "150 Cals", price: "$3.49",
         description: "Tender whole green beans sautéed with savory garlic butter.",
         tableDescription: "Tender green beans sautéed in savory garlic butter.",
         image: "/apple-bees-menu/applebees-garlicky-green-beans-side.webp"
       },
-      { 
+      {
         id: "sd5", name: "Loaded Baked Potato", calories: "450 Cals", price: "$4.49",
         description: "A large Idaho baked potato topped with melted cheddar, bacon bits, sour cream, and fresh chives.",
         tableDescription: "Baked potato with cheddar, bacon, sour cream, and chives.",
         image: "/apple-bees-menu/applebees-loaded-baked-potato-side.webp"
       },
-      { 
+      {
         id: "sd6", name: "Coleslaw", calories: "230 Cals", price: "$3.49",
         description: "A creamy shredded-cabbage side commonly paired with fried seafood, ribs, tenders, and burgers.",
         tableDescription: "Creamy shredded-cabbage coleslaw.",
         image: "/apple-bees-menu/applebees-coleslaw-side.webp"
       },
-      { 
+      {
         id: "sd7", name: "Pickle Fries", calories: "Varies", price: "Varies",
         description: "Crispy thin-cut fried dill pickle spears in seasoned cornmeal breading, served with dipping sauce.",
         tableDescription: "Crispy fried dill pickle fries with dipping sauce.",
         image: "/apple-bees-menu/applebees-pickle-fries-side.webp"
       },
-      { 
+      {
         id: "sd8", name: "Waffle Fries", calories: "Varies", price: "Varies",
         description: "Crispy lattice-cut waffle fries seasoned and fried golden brown.",
         tableDescription: "Lattice-cut seasoned waffle fries fried golden.",
         image: "/apple-bees-menu/applebees-waffle-fries-side.webp"
       },
-      { 
+      {
         id: "sd9", name: "Onion Rings", calories: "Varies", price: "Varies",
         description: "Thick-cut golden beer-battered onion rings fried crisp.",
         tableDescription: "Thick-cut golden beer-battered crispy onion rings.",
@@ -487,23 +511,23 @@ export const menuData: MenuCategory[] = [
     image: "/apple-bees-menu/applebees-dirty-fountain-sodas-drinks-category.webp",
     descriptor: "Dirty up any fountain soda for about $1, or choose a preset",
     items: [
-      { 
-        id: "ds1", name: "Passion Blue Dew", calories: "150 Cals", price: "$3.99", 
+      {
+        id: "ds1", name: "Passion Blue Dew", calories: "150 Cals", price: "$3.99",
         description: "Passion Blue Dew combines Mountain Dew Dark Berry Bash with passion fruit, blue raspberry, and blackberry flavors, finished with the Dirty Fountain Soda creamy topping and cherry.",
         tableDescription: "Dark Berry Mountain Dew with passion fruit, blue raspberry, and blackberry.",
-        image: "/apple-bees-menu/applebees-passion-blue-dew-soda-drink.webp" 
+        image: "/apple-bees-menu/applebees-passion-blue-dew-soda-drink.webp"
       },
-      { 
-        id: "ds2", name: "Cherry Charmed Pepsi", calories: "170 Cals", price: "$3.99", 
+      {
+        id: "ds2", name: "Cherry Charmed Pepsi", calories: "170 Cals", price: "$3.99",
         description: "Cherry Charmed Pepsi mixes classic Pepsi with grenadine for a sweet-tart cherry-style flavor, finished with the Dirty Fountain Soda creamy topping.",
         tableDescription: "Pepsi mixed with grenadine and a creamy Dirty Soda finish.",
-        image: "/apple-bees-menu/applebees-cherry-charmed-pepsi-drink.webp" 
+        image: "/apple-bees-menu/applebees-cherry-charmed-pepsi-drink.webp"
       },
-      { 
-        id: "ds3", name: "Mango Dream Dew", calories: "160 Cals", price: "$3.99", 
+      {
+        id: "ds3", name: "Mango Dream Dew", calories: "160 Cals", price: "$3.99",
         description: "Mango Dream Dew pairs Mountain Dew’s citrus profile with a tangy mango flavor and the creamy topping used across Applebee’s Dirty Fountain Sodas.",
         tableDescription: "Mountain Dew with tangy mango and a creamy Dirty Soda finish.",
-        image: "/apple-bees-menu/applebees-mango-dream-dew-drink.webp" 
+        image: "/apple-bees-menu/applebees-mango-dream-dew-drink.webp"
       }
     ]
   },
@@ -513,17 +537,17 @@ export const menuData: MenuCategory[] = [
     image: "/apple-bees-menu/applebees-irresist-a-bowls-menu-category.webp",
     descriptor: "Grilled protein bowls, 710–820 calories",
     items: [
-      { 
-        id: "ib1", name: "Southwest Chicken Bowl", calories: "820 Cals", price: "$14.99", 
+      {
+        id: "ib1", name: "Southwest Chicken Bowl", calories: "820 Cals", price: "$14.99",
         description: "Applebee’s Southwest Chicken Bowl layers grilled chipotle lime chicken over greens and cilantro rice with pico de gallo, black bean corn salsa, guacamole, and additional Southwest-style toppings.",
         tableDescription: "Chipotle lime chicken bowl with rice, greens, salsa, pico, and guacamole.",
-        image: "/apple-bees-menu/applebees-southwest-chicken-bowl-entree.webp" 
+        image: "/apple-bees-menu/applebees-southwest-chicken-bowl-entree.webp"
       },
-      { 
-        id: "ib2", name: "Tex-Mex Shrimp Bowl", calories: "710 Cals", price: "$15.99", 
+      {
+        id: "ib2", name: "Tex-Mex Shrimp Bowl", calories: "710 Cals", price: "$15.99",
         description: "Applebee’s Tex-Mex Shrimp Bowl features grilled chipotle lime shrimp over fresh greens and cilantro rice with pico de gallo, black bean corn salsa, and guacamole.",
         tableDescription: "Chipotle lime shrimp with cilantro rice, greens, salsa, and guacamole.",
-        image: "/apple-bees-menu/applebees-tex-mex-shrimp-bowl-entree.webp" 
+        image: "/apple-bees-menu/applebees-tex-mex-shrimp-bowl-entree.webp"
       }
     ]
   },
@@ -533,23 +557,23 @@ export const menuData: MenuCategory[] = [
     image: "/apple-bees-menu/applebees-sandwiches-wraps-menu-category.webp",
     descriptor: "$12.99–$14.49",
     items: [
-      { 
-        id: "sw1", name: "Clubhouse Grille", calories: "1120 Cals", price: "$13.99", 
+      {
+        id: "sw1", name: "Clubhouse Grille", calories: "1120 Cals", price: "$13.99",
         description: "Applebee’s Clubhouse Grille stacks sliced ham and turkey with Cheddar, Swiss, Applewood-smoked bacon, lettuce, tomato, mayo, and honey BBQ sauce on toasted potato bread.",
         tableDescription: "Ham, turkey, two cheeses, bacon, vegetables, mayo, and honey BBQ.",
-        image: "/apple-bees-menu/applebees-clubhouse-grille-sandwich.webp" 
+        image: "/apple-bees-menu/applebees-clubhouse-grille-sandwich.webp"
       },
-      { 
-        id: "sw2", name: "Bacon Ranch Chicken Sandwich", calories: "1050 Cals", price: "$14.49", 
+      {
+        id: "sw2", name: "Bacon Ranch Chicken Sandwich", calories: "1050 Cals", price: "$14.49",
         description: "The Bacon Ranch Chicken Sandwich features crispy hand-breaded chicken, Applewood-smoked bacon, ranch, pickles, lettuce, and tomato on a brioche bun.",
         tableDescription: "Crispy chicken with bacon, ranch, pickles, lettuce, and tomato.",
-        image: "/apple-bees-menu/applebees-bacon-ranch-crispy-chicken-sandwich.webp" 
+        image: "/apple-bees-menu/applebees-bacon-ranch-crispy-chicken-sandwich.webp"
       },
-      { 
-        id: "sw3", name: "Classic Chicken Sandwich", calories: "820 Cals", price: "$12.99", 
+      {
+        id: "sw3", name: "Classic Chicken Sandwich", calories: "820 Cals", price: "$12.99",
         description: "A chicken sandwich served on a brioche-style bun with fresh toppings.",
         tableDescription: "Chicken sandwich with classic fresh toppings.",
-        image: "/apple-bees-menu/applebees-classic-chicken-sandwich.webp" 
+        image: "/apple-bees-menu/applebees-classic-chicken-sandwich.webp"
       }
     ]
   },
@@ -559,35 +583,35 @@ export const menuData: MenuCategory[] = [
     image: "/apple-bees-menu/applebees-2-for-25-value-meal-deal-category.webp",
     descriptor: "$25.00 · one appetizer (or 2 side salads) plus two full entrées",
     items: [
-      { 
-        id: "2f1", name: "2 For $25 Value Meal Deal", calories: "1,200–2,500 Cals/person", price: "$25.00", 
+      {
+        id: "2f1", name: "2 For $25 Value Meal Deal", calories: "1,200–2,500 Cals/person", price: "$25.00",
         description: "Choose one full-size appetizer (or two individual side salads) plus two full-size entrées for $25.00.",
         tableDescription: "One full-size appetizer or 2 side salads plus two full-size entrées.",
-        image: "/apple-bees-menu/applebees-2-for-25-value-meal.webp" 
+        image: "/apple-bees-menu/applebees-2-for-25-value-meal.webp"
       },
-      { 
-        id: "2f2", name: "Bacon Cheeseburger Wonton Tacos", calories: "640 Cals", price: "Included", 
+      {
+        id: "2f2", name: "Bacon Cheeseburger Wonton Tacos", calories: "640 Cals", price: "Included",
         description: "Crispy wonton taco shells filled with seasoned ground beef, cheddar, Applewood-smoked bacon, pickles, and spicy honey mustard drizzle.",
         tableDescription: "Crispy wonton tacos filled with seasoned beef, bacon, and cheddar.",
-        image: "/apple-bees-menu/applebees-bacon-cheeseburger-wonton-tacos.webp" 
+        image: "/apple-bees-menu/applebees-bacon-cheeseburger-wonton-tacos.webp"
       },
-      { 
-        id: "2f3", name: "Chicken Parmesan Fettuccine", calories: "1,480 Cals", price: "Included", 
+      {
+        id: "2f3", name: "Chicken Parmesan Fettuccine", calories: "1,480 Cals", price: "Included",
         description: "Crispy breaded chicken breast topped with melted mozzarella and marinara sauce over fettuccine with garlic breadstick.",
         tableDescription: "Breaded chicken parmesan over fettuccine with melted mozzarella.",
-        image: "/apple-bees-menu/applebees-chicken-parmesan-fettuccine.webp" 
+        image: "/apple-bees-menu/applebees-chicken-parmesan-fettuccine.webp"
       },
-      { 
-        id: "2f4", name: "Grilled Cheese Cheeseburger", calories: "1,420 Cals", price: "Included", 
+      {
+        id: "2f4", name: "Grilled Cheese Cheeseburger", calories: "1,420 Cals", price: "Included",
         description: "All-beef burger patty served between two golden grilled cheese sandwiches with classic fries.",
         tableDescription: "Beef patty served between two buttery grilled cheese sandwiches.",
-        image: "/apple-bees-menu/applebees-grilled-cheese-cheeseburger.webp" 
+        image: "/apple-bees-menu/applebees-grilled-cheese-cheeseburger.webp"
       },
-      { 
-        id: "2f5", name: "California Grilled Chicken Salad", calories: "920 Cals", price: "Included", 
+      {
+        id: "2f5", name: "California Grilled Chicken Salad", calories: "920 Cals", price: "Included",
         description: "Grilled chicken breast over mixed greens with avocado cucumber salsa, tomatoes, bacon, shaved Parmesan, and balsamic glaze.",
         tableDescription: "Grilled chicken salad with avocado salsa, bacon, and balsamic glaze.",
-        image: "/apple-bees-menu/applebees-california-grilled-chicken-salad.webp" 
+        image: "/apple-bees-menu/applebees-california-grilled-chicken-salad.webp"
       }
     ]
   },
@@ -597,23 +621,23 @@ export const menuData: MenuCategory[] = [
     image: "/apple-bees-menu/applebees-really-big-meal-deal-category.webp",
     descriptor: "$9.99 · one entrée, endless fries and fountain drink",
     items: [
-      { 
-        id: "rb1", name: "Big Cluckin' Chicken Sandwich", calories: "~1100 Cals", price: "$9.99", 
+      {
+        id: "rb1", name: "Big Cluckin' Chicken Sandwich", calories: "~1100 Cals", price: "$9.99",
         description: "Hand-breaded crispy chicken breast fillet with lettuce, tomato, pickles, and mayo on a toasted brioche bun, served with endless fries and fountain drink.",
         tableDescription: "Hand-breaded crispy chicken sandwich with endless fries and drink.",
-        image: "/apple-bees-menu/applebees-big-cluckin-chicken-sandwich.webp" 
+        image: "/apple-bees-menu/applebees-big-cluckin-chicken-sandwich.webp"
       },
-      { 
-        id: "rb2", name: "BIG Classic Bacon Cheeseburger", calories: "~1150 Cals", price: "$9.99", 
+      {
+        id: "rb2", name: "BIG Classic Bacon Cheeseburger", calories: "~1150 Cals", price: "$9.99",
         description: "Large all-beef patty with two slices of American cheese, Applewood-smoked bacon, lettuce, tomato, onion, and pickles on a brioche bun with endless fries and drink.",
         tableDescription: "Double-cheese bacon burger with endless fries and drink.",
-        image: "/apple-bees-menu/applebees-big-classic-bacon-cheeseburger.webp" 
+        image: "/apple-bees-menu/applebees-big-classic-bacon-cheeseburger.webp"
       },
-      { 
-        id: "rb3", name: "Big Bangin' Burger", calories: "~1200 Cals", price: "$9.99", 
+      {
+        id: "rb3", name: "Big Bangin' Burger", calories: "~1200 Cals", price: "$9.99",
         description: "All-beef patty with two slices of American cheese and a sweet & spicy jalapeño-bacon sauce on a brioche bun with endless fries and drink.",
         tableDescription: "Spicy jalapeño bacon burger with endless fries and drink.",
-        image: "/apple-bees-menu/applebees-big-bangin-burger.webp" 
+        image: "/apple-bees-menu/applebees-big-bangin-burger.webp"
       }
     ]
   },
@@ -623,29 +647,29 @@ export const menuData: MenuCategory[] = [
     image: "/apple-bees-menu/applebees-kids-menu-meals-category.webp",
     descriptor: "$6–$8 · includes entrée, side and drink for 12 & under",
     items: [
-      { 
-        id: "k4", name: "Kids Grilled Chicken", calories: "180 Cals", price: "$6.99", 
+      {
+        id: "k4", name: "Kids Grilled Chicken", calories: "180 Cals", price: "$6.99",
         description: "Juicy grilled chicken breast portion delivering 32g protein with choice of side and drink.",
         tableDescription: "Lean grilled chicken breast delivering 32g protein with side and drink.",
-        image: "/apple-bees-menu/applebees-kids-grilled-chicken-meal.webp" 
+        image: "/apple-bees-menu/applebees-kids-grilled-chicken-meal.webp"
       },
-      { 
-        id: "k1", name: "Kids Chicken Tenders", calories: "420 Cals", price: "$6.99", 
+      {
+        id: "k1", name: "Kids Chicken Tenders", calories: "420 Cals", price: "$6.99",
         description: "Three crispy breaded white-meat chicken tenders with dipping sauce, choice of side and drink.",
         tableDescription: "Three crispy chicken tenders with choice of side and drink.",
-        image: "/apple-bees-menu/applebees-kids-chicken-tenders-meal.webp" 
+        image: "/apple-bees-menu/applebees-kids-chicken-tenders-meal.webp"
       },
-      { 
-        id: "k2", name: "Kids Macaroni & Cheese", calories: "510 Cals", price: "$6.49", 
+      {
+        id: "k2", name: "Kids Macaroni & Cheese", calories: "510 Cals", price: "$6.49",
         description: "Creamy macaroni smothered in rich cheese sauce with choice of side and drink.",
         tableDescription: "Creamy kids mac and cheese with choice of side and drink.",
-        image: "/apple-bees-menu/applebees-kids-macaroni-and-cheese.webp" 
+        image: "/apple-bees-menu/applebees-kids-macaroni-and-cheese.webp"
       },
-      { 
-        id: "k3", name: "Kids Classic Cheeseburger", calories: "680 Cals", price: "$7.49", 
+      {
+        id: "k3", name: "Kids Classic Cheeseburger", calories: "680 Cals", price: "$7.49",
         description: "All-beef burger patty with American cheese on a toasted bun, with choice of side and drink.",
         tableDescription: "Kids cheeseburger with American cheese, side, and drink.",
-        image: "/apple-bees-menu/applebees-kids-cheeseburger-meal.webp" 
+        image: "/apple-bees-menu/applebees-kids-cheeseburger-meal.webp"
       }
     ]
   },
@@ -655,47 +679,47 @@ export const menuData: MenuCategory[] = [
     image: "/apple-bees-menu/applebees-non-alcoholic-beverages-category.webp",
     descriptor: "$2.29–$4.99 · free refills on fountain sodas & brewed tea",
     items: [
-      { 
-        id: "na3", name: "Fountain Drinks", calories: "0-200 Cals", price: "$2.29–$2.99", 
+      {
+        id: "na3", name: "Fountain Drinks", calories: "0-200 Cals", price: "$2.29–$2.99",
         description: "PepsiCo fountain lineup including Pepsi, Diet Pepsi, Mountain Dew, Starry, and Dr Pepper with free refills.",
         tableDescription: "PepsiCo fountain sodas with unlimited free refills.",
-        image: "/apple-bees-menu/applebees-fountain-drink-pepsi.webp" 
+        image: "/apple-bees-menu/applebees-fountain-drink-pepsi.webp"
       },
-      { 
-        id: "na2", name: "Fresh Brewed Iced Tea", calories: "Effectively 0 Cals", price: "$2.29–$2.99", 
+      {
+        id: "na2", name: "Fresh Brewed Iced Tea", calories: "Effectively 0 Cals", price: "$2.29–$2.99",
         description: "Fresh-brewed black iced tea served unsweetened with lemon and unlimited free refills (Sweet Tea available in select regions).",
         tableDescription: "Fresh-brewed unsweetened iced tea with free refills.",
-        image: "/apple-bees-menu/applebees-fresh-brewed-iced-tea.webp" 
+        image: "/apple-bees-menu/applebees-fresh-brewed-iced-tea.webp"
       },
-      { 
-        id: "na1", name: "Flavored Lemonade", calories: "150 Cals", price: "$3.49", 
+      {
+        id: "na1", name: "Flavored Lemonade", calories: "150 Cals", price: "$3.49",
         description: "Tart lemonade infused with fruit purees including strawberry, mango, and raspberry.",
         tableDescription: "Tart lemonade infused with strawberry, mango, or raspberry.",
-        image: "/apple-bees-menu/applebees-flavored-strawberry-lemonade.webp" 
+        image: "/apple-bees-menu/applebees-flavored-strawberry-lemonade.webp"
       },
-      { 
-        id: "na4", name: "Triple Cherry Shirley", calories: "160 Cals", price: "$3.99", 
+      {
+        id: "na4", name: "Triple Cherry Shirley", calories: "160 Cals", price: "$3.99",
         description: "Applebee’s signature mocktail made with Starry lemon-lime soda, grenadine, and three maraschino cherries in bar glassware.",
         tableDescription: "Starry lemon-lime soda with grenadine and three cherries.",
-        image: "/apple-bees-menu/applebees-triple-cherry-shirley-drink.webp" 
+        image: "/apple-bees-menu/applebees-triple-cherry-shirley-drink.webp"
       },
-      { 
-        id: "na5", name: "Fruit Smoothies", calories: "280 Cals", price: "$4.49", 
+      {
+        id: "na5", name: "Fruit Smoothies", calories: "280 Cals", price: "$4.49",
         description: "Thick, blended real fruit smoothies available in strawberry and mango flavors.",
         tableDescription: "Blended real fruit smoothie in strawberry or mango.",
-        image: "/apple-bees-menu/applebees-fruit-smoothie-drink.webp" 
+        image: "/apple-bees-menu/applebees-fruit-smoothie-drink.webp"
       },
-      { 
-        id: "na6", name: "1-Gallon Beverages", calories: "0-1200 Cals", price: "$11.99", 
+      {
+        id: "na6", name: "1-Gallon Beverages", calories: "0-1200 Cals", price: "$11.99",
         description: "One-gallon takeaway jugs of freshly brewed iced tea or flavored lemonade for families, parties, and catering orders.",
         tableDescription: "1-gallon takeaway jugs of brewed iced tea or lemonade.",
-        image: "/apple-bees-menu/applebees-gallon-beverage-jug.webp" 
+        image: "/apple-bees-menu/applebees-gallon-beverage-jug.webp"
       },
-      { 
-        id: "na7", name: "Fresh Brewed Hot Coffee", calories: "0 Cals", price: "$2.49", 
-        description: "Hot freshly brewed black coffee, served with cream and sweetener — ideal paired with rich desserts.",
+      {
+        id: "na7", name: "Fresh Brewed Hot Coffee", calories: "0 Cals", price: "$2.49",
+        description: "Hot freshly brewed black coffee, served with cream and sweetener  ideal paired with rich desserts.",
         tableDescription: "Fresh-brewed hot black coffee with free refills.",
-        image: "/apple-bees-menu/applebees-non-alcoholic-beverages-category.webp" 
+        image: "/apple-bees-menu/applebees-non-alcoholic-beverages-category.webp"
       }
     ]
   }

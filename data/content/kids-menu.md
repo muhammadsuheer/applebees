@@ -1,12 +1,12 @@
 ---
 title: "Applebee's Kids Menu: Prices, Calories & Kids Eat Free"
 h1: "Applebee's Kids Menu with Prices and Calories"
-description: "Applebee's kids menu with prices and calories — meals include entrée, side and drink. Which options are healthiest, and how Kids Eat Free nights actually work."
+description: "Applebee's kids menu with prices and calories  meals include entrée, side and drink. Which options are healthiest, and how Kids Eat Free nights actually work."
 ---
 
 <div class="answerBlock">
   <p>
-    Applebee's kids meals cost roughly $6 to $8 and include an entrée, a side and a drink, for children 12 and under. Options run from Kids Grilled Chicken at 180 calories to a cheeseburger at around 680. The grilled chicken carries the most protein of any kids entrée at 32g — more than the chicken tenders, for less than half the calories.
+    Applebee's kids meals cost roughly $6 to $8 and include an entrée, a side and a drink, for children 12 and under. Options run from Kids Grilled Chicken at 180 calories to a cheeseburger at around 680. The grilled chicken carries the most protein of any kids entrée at 32g  more than the chicken tenders, for less than half the calories.
   </p>
 </div>
 
@@ -21,7 +21,7 @@ description: "Applebee's kids menu with prices and calories — meals include en
 <div class="tableCard">
   <div class="tableResponsive">
     <table class="customTable">
-      <caption>Applebee's kids entrées — calories, protein and sodium where published</caption>
+      <caption>Applebee's kids entrées  calories, protein and sodium where published</caption>
       <thead>
         <tr>
           <th scope="col">Entrée</th>
@@ -52,38 +52,38 @@ description: "Applebee's kids menu with prices and calories — meals include en
         <tr>
           <th scope="row"><strong>Kids Cheeseburger</strong></th>
           <td style="text-align: center; font-weight: 700; color: #c8102e;">~680</td>
-          <td style="text-align: center;">—</td>
-          <td style="text-align: center;">—</td>
+          <td style="text-align: center;"></td>
+          <td style="text-align: center;"></td>
         </tr>
         <tr>
           <th scope="row">Cheese Quesadilla</th>
-          <td style="text-align: center;">—</td>
-          <td style="text-align: center;">—</td>
-          <td style="text-align: center;">—</td>
+          <td style="text-align: center;"></td>
+          <td style="text-align: center;"></td>
+          <td style="text-align: center;"></td>
         </tr>
         <tr>
           <th scope="row">Spaghetti with Marinara</th>
-          <td style="text-align: center;">—</td>
-          <td style="text-align: center;">—</td>
-          <td style="text-align: center;">—</td>
+          <td style="text-align: center;"></td>
+          <td style="text-align: center;"></td>
+          <td style="text-align: center;"></td>
         </tr>
         <tr>
           <th scope="row">Mini Corn Dogs</th>
-          <td style="text-align: center;">—</td>
-          <td style="text-align: center;">—</td>
-          <td style="text-align: center;">—</td>
+          <td style="text-align: center;"></td>
+          <td style="text-align: center;"></td>
+          <td style="text-align: center;"></td>
         </tr>
         <tr>
           <th scope="row">Hot Dog</th>
-          <td style="text-align: center;">—</td>
-          <td style="text-align: center;">—</td>
-          <td style="text-align: center;">—</td>
+          <td style="text-align: center;"></td>
+          <td style="text-align: center;"></td>
+          <td style="text-align: center;"></td>
         </tr>
         <tr>
           <th scope="row">Grilled Cheese</th>
-          <td style="text-align: center;">—</td>
-          <td style="text-align: center;">—</td>
-          <td style="text-align: center;">—</td>
+          <td style="text-align: center;"></td>
+          <td style="text-align: center;"></td>
+          <td style="text-align: center;"></td>
         </tr>
       </tbody>
     </table>
@@ -92,7 +92,7 @@ description: "Applebee's kids menu with prices and calories — meals include en
 
 ### Reading the Table
 
-- **The grilled chicken is the standout:** 32g of protein for 180 calories beats every other kids entrée on both counts. The chicken tenders deliver 24g for 420 calories — less protein, more than double the calories.
+- **The grilled chicken is the standout:** 32g of protein for 180 calories beats every other kids entrée on both counts. The chicken tenders deliver 24g for 420 calories  less protein, more than double the calories.
 - **Sodium is where the gap widens further:** The mac and cheese carries 1,350mg and the tenders 1,150mg. The grilled chicken is 650mg. For a young child, guidance suggests limiting sodium to around 1,500mg a day, so a single mac and cheese approaches that on its own.
 - **Context for parents:** That is not a reason to never order it. It is a reason to know that if a child has a mac and cheese at lunch, the rest of the day has very little room left.
 - **Applesauce is the lightest side:** 90 calories and 10mg of sodium.
@@ -123,7 +123,7 @@ If you are choosing a kids meal on nutrition rather than on what will definitely
 
 The reliable order, and the one most children pick. Breaded white-meat chicken tenders with a dipping sauce.
 
-At 420 calories with 24g of protein it is a reasonable meal. The trade against the grilled version is 240 extra calories, 8g less protein, and 500mg more sodium — all from the breading.
+At 420 calories with 24g of protein it is a reasonable meal. The trade against the grilled version is 240 extra calories, 8g less protein, and 500mg more sodium  all from the breading.
 
 *Worth knowing:* If your child will eat grilled chicken, that is the better order. If they will only eat tenders, this is a perfectly normal children's meal and the side choice is where you have room to adjust.
 
@@ -135,7 +135,7 @@ At 420 calories with 24g of protein it is a reasonable meal. The trade against t
 
 The comfort order, and the most popular item on most children's menus anywhere.
 
-On the numbers it is the heaviest kids entrée at 510 calories with 18g of protein — the least protein of the three published items — and 1,350mg of sodium, the highest.
+On the numbers it is the heaviest kids entrée at 510 calories with 18g of protein  the least protein of the three published items  and 1,350mg of sodium, the highest.
 
 The sodium figure is the one worth noting. It is more than double the grilled chicken and approaches a young child's full daily guidance in a single dish.
 
@@ -145,7 +145,7 @@ The sodium figure is the one worth noting. It is more than double the grilled ch
 
 ![Kids cheeseburger with American cheese on a toasted bun](/apple-bees-menu/applebees-kids-cheeseburger-meal.webp)
 
-A scaled-down version of the adult burger — beef patty with American cheese on a toasted bun. Cooked through, as ground beef is everywhere.
+A scaled-down version of the adult burger  beef patty with American cheese on a toasted bun. Cooked through, as ground beef is everywhere.
 
 At around 680 calories it is the largest kids entrée, which suits an older child with an adult-sized appetite. For a younger child it is likely more food than a meal needs.
 
@@ -176,7 +176,7 @@ Every kids meal includes a side and a drink, both chosen at no extra cost. This 
       <tbody>
         <tr>
           <th scope="row"><strong>Applesauce</strong></th>
-          <td>90 calories, 10mg sodium — the lightest option</td>
+          <td>90 calories, 10mg sodium  the lightest option</td>
         </tr>
         <tr>
           <th scope="row"><strong>Steamed Broccoli</strong></th>
@@ -195,13 +195,13 @@ Every kids meal includes a side and a drink, both chosen at no extra cost. This 
   </div>
 </div>
 
-Swapping fries for applesauce or broccoli is free and changes the meal more than the entrée choice does — the same principle that applies across the whole [sides menu](/menu/sides).
+Swapping fries for applesauce or broccoli is free and changes the meal more than the entrée choice does  the same principle that applies across the whole [sides menu](/menu/sides).
 
 ### Drink Options
 
 Milk, juice or a fountain drink, included in the price.
 
-The drink swap is the single largest sugar reduction available on a children's order — larger than any change to the food. A fountain soda against milk or water is the difference between a meal with significant added sugar and one with none.
+The drink swap is the single largest sugar reduction available on a children's order  larger than any change to the food. A fountain soda against milk or water is the difference between a meal with significant added sugar and one with none.
 
 Full drinks range: see our [non-alcoholic beverages](/menu/non-alcoholic-beverages) guide.
 
@@ -248,11 +248,11 @@ Rather than free, some restaurants offer kids meals at a reduced price (such as 
 
 Useful arithmetic for anyone planning a visit:
 
-- **All-inclusive kids pricing:** Kids meals include entrée, side and drink at roughly $6 to $8 — so there are no add-ons to budget for.
-- **Family of four combination:** Pairing with the [2 for $25](/menu/2-for-25) deal gives two adults a shared appetizer and two entrées. A family of four — two adults on 2 for $25, two children on the kids menu — lands somewhere around $38 to $41 before tax and tip.
+- **All-inclusive kids pricing:** Kids meals include entrée, side and drink at roughly $6 to $8  so there are no add-ons to budget for.
+- **Family of four combination:** Pairing with the [2 for $25](/menu/2-for-25) deal gives two adults a shared appetizer and two entrées. A family of four  two adults on 2 for $25, two children on the kids menu  lands somewhere around $38 to $41 before tax and tip.
 - **On a Kids Eat Free night:** Where available, the same family is paying only for the two adult entrées.
 - **Large gatherings:** For a larger group, [catering](/catering) platters serve 6–8 each at around $10 per person, which works out below individual ordering past about six people.
-- **Compared to fast food:** A kids meal at a drive-thru typically runs a few dollars less. The difference buys table service, a side and drink included, and somewhere to sit — which for a family with young children is often the point.
+- **Compared to fast food:** A kids meal at a drive-thru typically runs a few dollars less. The difference buys table service, a side and drink included, and somewhere to sit  which for a family with young children is often the point.
 
 ---
 
@@ -264,7 +264,7 @@ For a serious allergy: tell the server it is an allergy rather than a preference
 
 ### Practical Notes for Parents
 
-- **Grilled chicken:** The simplest item to modify — fewer components, no breading, no sauce by default.
+- **Grilled chicken:** The simplest item to modify  fewer components, no breading, no sauce by default.
 - **Breaded items & fries:** Breaded items contain wheat, and fries share fryer oil with breaded chicken, so they are not a safe gluten-free choice for celiac disease.
 - **Dairy:** Present in the mac and cheese, the cheeseburger and the quesadilla by definition.
 

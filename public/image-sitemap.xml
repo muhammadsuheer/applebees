@@ -396,7 +396,7 @@
   </url>
   <url>
     <loc>https://applebees-menus.us/menu/salads</loc>
-    <lastmod>2026-08-20</lastmod>
+    <lastmod>2026-08-23</lastmod>
     <image:image>
       <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-fresh-salads-menu-category.webp</image:loc>
       <image:title>Applebee&apos;s SALADS Menu</image:title>
@@ -404,13 +404,43 @@
     </image:image>
     <image:image>
       <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-oriental-chicken-salad-bowl.webp</image:loc>
-      <image:title>Applebee&apos;s Oriental Chicken Salad</image:title>
-      <image:caption>Oriental Chicken Salad (1420 Cals) - Applebee’s Oriental Chicken Salad tops fresh Asian greens with crispy breaded chicken tenders, crunchy noodles, almonds, and Oriental vinaigrette.</image:caption>
+      <image:title>Applebee&apos;s Oriental Chicken Salad (Crispy)</image:title>
+      <image:caption>Oriental Chicken Salad (Crispy) (1560 Cals) - Fresh Asian greens with crispy chicken, noodles, almonds, vinaigrette, and garlic breadstick.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-grilled-oriental-chicken-salad.webp</image:loc>
+      <image:title>Applebee&apos;s Grilled Oriental Chicken Salad</image:title>
+      <image:caption>Grilled Oriental Chicken Salad (900 Cals) - The grilled version of the Oriental Chicken Salad saving ~530 calories.</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-grilled-chicken-caesar-salad.webp</image:loc>
       <image:title>Applebee&apos;s Grilled Chicken Caesar Salad</image:title>
-      <image:caption>Grilled Chicken Caesar Salad (820 Cals) - Applebee’s Grilled Chicken Caesar Salad combines crisp romaine, garlic Caesar dressing, grilled chicken, croutons, and shaved Parmesan.</image:caption>
+      <image:caption>Grilled Chicken Caesar Salad (950 Cals) - Crisp romaine with grilled chicken, Caesar dressing, croutons, and Parmesan (57g protein).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-strawberry-balsamic-chicken-salad.webp</image:loc>
+      <image:title>Applebee&apos;s Strawberry Balsamic Chicken Salad</image:title>
+      <image:caption>Strawberry Balsamic Chicken Salad (900 Cals) - Fresh greens with grilled chicken, strawberries, almonds, and balsamic glaze.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-crispy-chicken-tender-salad.webp</image:loc>
+      <image:title>Applebee&apos;s Crispy Chicken Tender Salad</image:title>
+      <image:caption>Crispy Chicken Tender Salad (1220 Cals) - Fresh greens with golden crispy tenders, cheddar, and honey Dijon dressing.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-quesadilla-chicken-salad.webp</image:loc>
+      <image:title>Applebee&apos;s Quesadilla Chicken Salad</image:title>
+      <image:caption>Quesadilla Chicken Salad (1400 Cals) - Seasoned chicken over greens with cheese quesadilla wedges and Mexi-ranch.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-california-grilled-chicken-salad.webp</image:loc>
+      <image:title>Applebee&apos;s California Grilled Chicken Salad</image:title>
+      <image:caption>California Grilled Chicken Salad (920 Cals) - Grilled chicken salad with avocado salsa, bacon, and balsamic glaze.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://applebees-menus.us/apple-bees-menu/applebees-house-salad-side.webp</image:loc>
+      <image:title>Applebee&apos;s House Side Salad</image:title>
+      <image:caption>House Side Salad (160 Cals) - Fresh mixed greens with cucumber, tomatoes, and fat-free Italian dressing (vegan).</image:caption>
     </image:image>
   </url>
   <url>

@@ -72,7 +72,7 @@
   margin-top: 50px;
   margin-bottom: 25px;
   text-transform: none;
-  text-align: center;
+  text-align: left;
   position: relative;
   padding-bottom: 8px;
 }
@@ -83,7 +83,7 @@
   width: 80px;
   height: 4px;
   background-color: #c53030;
-  margin: 12px auto 0;
+  margin: 12px 0 0;
   border-radius: 2px;
 }
 
@@ -214,7 +214,7 @@
   font-weight: 700;
   color: #1a2433;
   padding: 16px 20px;
-  text-align: center;
+  text-align: left;
   background-color: #f1f5f9;
   border-bottom: 2px solid #e2e8f0;
   text-transform: uppercase;
@@ -300,7 +300,7 @@
     border-radius: 10px 10px 0 0 !important;
     background-color: #f1f5f9 !important;
     border-bottom: 1px solid #e2e8f0 !important;
-    text-align: center !important;
+    text-align: left !important;
   }
 
   .markdownBody :global(.customTable thead),
@@ -431,7 +431,7 @@
   color: #1a2433;
   margin-bottom: 30px;
   text-transform: uppercase;
-  text-align: center;
+  text-align: left;
 }
 
 .itemsGrid {
@@ -524,7 +524,7 @@
   font-size: 28px;
   color: #1a2433;
   margin-bottom: 30px;
-  text-align: center;
+  text-align: left;
 }
 
 .relatedCategoriesGrid {
@@ -541,7 +541,7 @@
   border: 1px solid #e2e8f0;
   text-decoration: none;
   transition: all 0.3s ease;
-  text-align: center;
+  text-align: left;
 }
 
 .relatedCategoryCard:hover {
