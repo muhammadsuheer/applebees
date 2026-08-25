@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import { Oswald, Inter } from "next/font/google";
 import "./globals.css";
 
@@ -47,6 +48,21 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       className={`${oswald.variable} ${inter.variable} h-full antialiased`}
       suppressHydrationWarning
     >
+      <head>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-8JCLDJLP8J"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-8JCLDJLP8J');
+          `}
+        </Script>
+      </head>
       <body className={`${oswald.variable} ${inter.variable} min-h-full flex flex-col font-sans`} suppressHydrationWarning>
         <SuppressHydrationOverlay />
         {children}
