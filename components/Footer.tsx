@@ -33,6 +33,7 @@ export default function Footer() {
             <li><Link href="/about-us">About Us</Link></li>
             <li><Link href="/contact-us">Contact Us</Link></li>
             <li><Link href="/gift-card-deals">Gift Cards</Link></li>
+            <li><Link href="/sitemap">HTML Sitemap</Link></li>
           </ul>
         </div>
 
