@@ -545,7 +545,7 @@ export const menuData: MenuCategory[] = [
       },
       {
         id: "ib2", name: "Tex-Mex Shrimp Bowl", calories: "710 Cals", price: "$15.99",
-        description: "The lightest full entrée on Applebee’s menu (710 Cals) — grilled chipotle lime shrimp over cilantro rice and greens with pico de gallo, black bean corn salsa, guacamole, and chimichurri.",
+        description: "The lightest full entrée on Applebee’s menu (710 Cals)  grilled chipotle lime shrimp over cilantro rice and greens with pico de gallo, black bean corn salsa, guacamole, and chimichurri.",
         tableDescription: "Grilled chipotle lime shrimp with cilantro rice, greens, salsa, guacamole, and chimichurri (710 Cals).",
         image: "/apple-bees-menu/applebees-tex-mex-shrimp-bowl-entree.webp"
       }

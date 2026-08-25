@@ -1,0 +1,104 @@
+og-home
+16:9, Ultra-premium commercial food photography. A cinematic, mouth-watering overhead shot of a dark rustic oak table. On the left: sizzling steak fajitas with rising steam, a gourmet smashed burger with dripping cheese, and an icy craft cocktail. The right side of the image fades smoothly into a sleek, deep burgundy negative space. In the negative space, flawless, elegant, modern sans-serif typography reads: "Applebee's Menu & Prices 2026". Shot on Hasselblad H6D, 8k, hyper-detailed, studio lighting.
+
+og-specials
+16:9, High-end magazine editorial layout. Left side: A macro, shallow depth-of-field shot of a perfectly seared steak and gourmet pasta illuminated by warm, inviting restaurant lighting. Right side: A sophisticated, clean cream-colored background with bold, luxury serif typography reading "2 for $25 Deals". No neon, no clutter. Sophisticated, Michelin-star aesthetic, ultra-photorealistic, 8k.
+
+og-happy-hour
+16:9, Moody and premium nightlife photography. A close-up of a frosty craft beer glass and a vibrant, icy blue margarita glowing under subtle neon bar lighting. In the blurred background (bokeh), golden crispy mozzarella sticks. The composition is off-center to leave dark, elegant negative space on the right. In the dark space, sleek minimalist white typography reads: "Late Night Happy Hour". Cinematic, moody, 35mm lens, f/1.4.
+
+og-menu-burgers
+16:9, The ultimate gourmet burger shot. Macro food photography. A towering, ultra-juicy double smashed burger with perfectly melted artisan cheddar, glistening bacon, and fresh crisp lettuce on a toasted brioche bun. Dark, moody background with subtle smoke. Exquisite lighting highlighting the moisture on the meat. In the bottom right corner, discrete and elegant typography reads: "Handcrafted Burgers". 8k, photorealistic, masterpiece.
+
+og-menu-chicken
+16:9, Premium culinary photography. A sizzling cast-iron skillet of Fiesta Lime Chicken. The melted cheese is bubbling and glistening with mouth-watering specular highlights. Fresh vibrant green cilantro and crispy tortilla strips add texture. Soft, diffused studio lighting, deep rich colors. 85mm macro lens.
+
+og-menu-steaks
+16:9, Luxury steakhouse photography. A thick-cut, perfectly seared sirloin steak, sliced to reveal a flawless, juicy medium-rare pink center. Melting garlic herb butter cascades down the side. Dark slate background, dramatic directional rim lighting to emphasize texture. Ultra-premium, appetizing, 8k resolution.
+
+og-menu-salads
+16:9, Bright, high-end lifestyle food photography. An overhead flat-lay of a vibrant Asian chicken salad in a beautiful matte ceramic bowl. Golden crispy chicken, bright purple cabbage, and toasted almonds popping with color. Crisp, natural, sunlit window lighting. Clean, fresh, organic aesthetic.
+
+og-menu-appetizers
+16:9, Dynamic and crave-able commercial shot. A premium appetizer sampler. A hand pulling a mozzarella stick, creating a massive, perfect cheese stretch in sharp focus. Golden boneless wings glistening with buffalo sauce in the soft-focus background. High-speed photography, dynamic, appetizing, ultra-detailed.
+
+og-menu-desserts
+16:9, Decadent dessert macro photography. A rich, dark chocolate lava cake with molten fudge oozing out. A perfect scoop of vanilla bean ice cream on top, slightly melting, with a glossy hot fudge drizzle. Moody, dramatic lighting highlighting the textures. Indulgent, luxurious, 8k.
+
+og-menu-dirty-fountain-sodas
+16:9, Refreshing commercial beverage photography. A tall, frosty glass filled with a sparkling, bubbly fountain soda, cascading with ice cubes. Tiny droplets of condensation on the glass. Slices of fresh lime and cherry garnish. Bright, crisp backlighting, highly refreshing, 8k resolution.
+
+og-menu-irresist-a-bowls
+16:9, Gourmet healthy food bowl photography. A deep rustic ceramic bowl filled with Southwest chicken, black bean corn salsa, fresh avocado slices, and vibrant cilantro over a bed of warm rice. Overhead shot, high-contrast colors, soft studio box lighting. Organic and premium.
+
+og-menu-kids-menu
+16:9, Fun and vibrant commercial food photography. A playful spread featuring a perfect mini cheeseburger, golden curly fries, and a bright red apple slice. Warm, cheerful lighting. Clean, white and light blue gradient background in negative space. Appetizing and family-friendly.
+
+og-menu-new-items
+16:9, Exclusive premium launch photography. A mysterious, dramatic shot of a brand new signature dish (e.g., a glazed glazed salmon or a towering new burger) emerging from dark shadows. Single spotlight illumination. Text area in negative space reads "New Items" in sleek modern font. 
+
+og-menu-non-alcoholic-beverages
+16:9, Crisp and vibrant mocktail photography. A gorgeous, icy strawberry lemonade in a tall glass, bursting with fresh sliced strawberries and mint leaves. Natural sunlight streaming through a window, creating beautiful light rays and refractions. Extremely refreshing.
+
+og-menu-pasta
+16:9, Rustic Italian comfort food photography. A steaming bowl of creamy parmesan chicken fettuccine. The sauce is perfectly glossy, with cracked black pepper and fresh parsley. A piece of toasted garlic bread rests on the side. Warm, inviting, cozy lighting. Highly craveable.
+
+og-menu-really-big-meal-deal
+16:9, Grand feast layout. A massive overhead flat-lay shot showcasing an entire family meal: a huge platter of burgers, a giant bowl of salad, and unlimited fries. The table looks incredibly abundant. Crisp lighting, rich warm colors, professional advertising style.
+
+og-menu-sandwiches-and-more
+16:9, Gourmet sandwich photography. A perfectly sliced club sandwich stacked high with premium roasted turkey, crispy bacon, fresh lettuce, and ripe tomatoes. The cross-section is sharp and detailed. A side of perfectly golden fries. Clean, modern, bright lighting.
+
+og-menu-seafood
+16:9, Elegant coastal dining photography. A beautifully plated blackened shrimp Caesar salad next to a crispy golden fish fillet. Garnished with fresh lemon wedges. Crisp, cool, airy lighting with subtle blue and white tones in the background. Premium seafood restaurant vibe.
+
+og-menu-sides
+16:9, Irresistible comfort food macro shot. Extreme close-up of golden, crispy seasoned fries and a ramekin of thick, creamy macaroni and cheese with a golden baked crust. Steaming hot. High definition, macro lens, emphasizing the crunchy and creamy textures.
+
+og-menu-signature-cocktails
+16:9, High-end mixology photography. A gorgeous, icy "Perfect Margarita" in an elegant shaker, being poured into a salt-rimmed glass. The liquid is frozen in mid-air (high-speed photography). Dramatic, moody bar lighting with subtle blue and purple neon reflections.
+
+og-menu-skillets
+16:9, Sizzling hot food photography. A smoking-hot cast-iron skillet filled with a sizzling Bourbon Street Steak, caramelized onions, and roasted mushrooms. The steam is rising beautifully. Dark, rustic background. Intensely appetizing, 8k.
+
+og-menu-ultimate-trio
+16:9, Premium sampler platter shot. Three distinct, beautifully plated mini-dishes (a slider, a mini pasta, and a small side salad) arranged elegantly on a long rectangular white plate. Michelin-star presentation, clean white background, soft diffused lighting.
+
+og-nutrition
+16:9, Clean, modern tech-editorial design. Left side: A pristine, hyper-realistic shot of a vibrant grilled salmon salad on a white marble countertop. Right side: A sleek, minimalist dark slate background with crisp, modern typography reading "Nutrition & Calories". Professional, trustworthy.
+
+og-locations
+16:9, Premium architectural photography. A gorgeous exterior shot of a modern Applebee's restaurant at "magic hour" (twilight). The sky is a deep blue, and warm, inviting amber light spills from the large windows. The Applebee's logo glows subtly. Cinematic, high dynamic range (HDR), inviting.
+
+og-catering
+16:9, Premium event photography. A beautifully arranged corporate catering spread on a long white table. Massive, perfect platters of assorted sandwiches, wraps, and colorful salads. Bright, professional, well-lit environment. Communicates abundance and reliability.
+
+og-delivery
+16:9, Lifestyle convenience photography. A pristine, branded brown paper takeout bag sitting on a clean modern kitchen island. Next to it, a premium plate of fresh, hot food just unpacked. Natural sunlight, warm, comforting aesthetic.
+
+og-takeout
+16:9, Urban on-the-go photography. A person's hand holding a high-quality takeout box out the window of a car, with the glowing Applebee's "Carside To Go" sign slightly blurred in the background. Cinematic, modern, dynamic lighting.
+
+og-operating-hours
+16:9, Welcoming establishment photography. A beautifully lit shot of an "Open" neon sign glowing warmly behind the glass door of a restaurant, with a blurred, bustling dining room in the background. Cozy, inviting, 35mm lens.
+
+og-gift-cards
+16:9, Luxury retail photography. A sleek, beautifully designed Applebee's gift card resting on a premium dark velvet surface, surrounded by subtle, blurred fairy lights or festive decorations. High-end, premium gift aesthetic.
+
+og-contact-us
+16:9, Clean corporate photography. A sleek, modern smartphone resting on a minimalist desk next to a hot cup of coffee. The screen glows slightly. Very clean, bright, professional, and inviting. Dark blue gradient negative space for text.
+
+og-sitemap
+16:9, Abstract tech/navigation design. A beautifully stylized, glowing 3D wireframe or network map connecting different glowing nodes. Sleek, dark mode aesthetic, very clean and professional. Represents organization and discovery.
+
+og-blog-secret-menu
+16:9, Moody, exclusive underground vibe. An incredibly unique, custom-built burger that looks highly exclusive, sitting in a dimly lit, luxurious leather booth. Illuminated by a single dramatic spotlight. In the dark negative space, sleek, classified-style typography reads: "Secret Menu Hacks".
+
+og-blog-dollarita
+16:9, High-end cocktail photography. A stunning, macro shot of a vibrant, icy margarita in a salt-rimmed glass. The ice crystals are hyper-detailed and glistening. A subtle, blurred pink neon glow in the background. Ultra-premium, refreshing, 8k.
+
+og-careers
+16:9, Authentic, high-end commercial lifestyle photography. A bright, sunlit restaurant interior. A well-dressed, genuinely smiling restaurant server confidently holding a tray, looking directly at the camera. Soft, blurred background of a happy dining room. Optimistic, premium employer branding.
+
+og-legal
+16:9, Ultra-minimalist luxury design. A deep, rich charcoal grey gradient background with extremely subtle, elegant geometric textures. Centered, flawless, modern sans-serif typography in pure white reading: "Privacy & Terms". Professional, sleek, authoritative.

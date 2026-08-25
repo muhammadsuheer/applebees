@@ -1,12 +1,12 @@
 ---
 title: "Applebee's Irresist-A-Bowls: Menu, Prices and Calories"
 h1: "Applebee's Irresist-A-Bowls Menu with Prices and Calories"
-description: "Applebee's Irresist-A-Bowls with prices and calories — Southwest Chicken and Tex-Mex Shrimp, built on cilantro rice with guacamole, salsa and chimichurri."
+description: "Applebee's Irresist-A-Bowls with prices and calories  Southwest Chicken and Tex-Mex Shrimp, built on cilantro rice with guacamole, salsa and chimichurri."
 ---
 
 <div class="answerBlock">
   <p>
-    Applebee's Irresist-A-Bowls are built on cilantro rice and fresh greens with chipotle lime chicken or shrimp, house-made pico de gallo, black bean corn salsa, guacamole, chimichurri and tortilla strips. Prices run around $14.99 to $15.99. The Tex-Mex Shrimp Bowl at 710 calories is the lightest full entrée on the entire Applebee's menu — lighter than any steak, salad or grilled chicken plate.
+    Applebee's Irresist-A-Bowls are built on cilantro rice and fresh greens with chipotle lime chicken or shrimp, house-made pico de gallo, black bean corn salsa, guacamole, chimichurri and tortilla strips. Prices run around $14.99 to $15.99. The Tex-Mex Shrimp Bowl at 710 calories is the lightest full entrée on the entire Applebee's menu  lighter than any steak, salad or grilled chicken plate.
   </p>
 </div>
 
@@ -17,7 +17,7 @@ Each bowl layers chipotle lime chicken or shrimp over cilantro rice and fresh gr
 Three things separate these from the rest of the menu:
 
 - **The only entrées with guacamole:** Nothing else on the Applebee's menu includes guacamole as a standard ingredient, making the bowls the one place you get avocado without paying an upcharge.
-- **The lightest full entrées Applebee's serves:** At 710 and 820 calories, they sit well below a menu where most mains clear 1,000 calories — achieved through grilling and fresh produce rather than reduced portion sizes.
+- **The lightest full entrées Applebee's serves:** At 710 and 820 calories, they sit well below a menu where most mains clear 1,000 calories  achieved through grilling and fresh produce rather than reduced portion sizes.
 - **The lime wedge is served on the side:** Squeezing fresh lime at the table delivers bright, immediate acidity rather than muted acidity that has sat in a sauce.
 
 ![Layered bowls with rice, greens, salsa and grilled protein](/apple-bees-menu/applebees-irresist-a-bowls-menu-category.webp)
@@ -26,7 +26,7 @@ Three things separate these from the rest of the menu:
 
 1. **Rice and greens at the base:** Fluffy cilantro rice provides an aromatic foundation that absorbs drippings from above; fresh greens keep the base light and refreshing.
 2. **Salsas and guacamole in the middle:** House-made pico de gallo supplies crisp acidity, black bean corn salsa adds texture and sweetness, and rich guacamole provides the healthy fats that carry the warm chipotle heat.
-3. **Protein and chimichurri on top:** Grilled protein rests on top, drizzled with chimichurri — an herb-and-garlic sauce rather than a heavy creamy dressing, preserving the light calorie profile.
+3. **Protein and chimichurri on top:** Grilled protein rests on top, drizzled with chimichurri  an herb-and-garlic sauce rather than a heavy creamy dressing, preserving the light calorie profile.
 4. **Tortilla strips last:** Added on top so they remain crisp against the warm and cool ingredients underneath.
 
 ---
@@ -36,7 +36,7 @@ Three things separate these from the rest of the menu:
 <div class="tableCard">
   <div class="tableResponsive">
     <table class="customTable">
-      <caption>Applebee's Irresist-A-Bowls — prices and calories</caption>
+      <caption>Applebee's Irresist-A-Bowls  prices and calories</caption>
       <thead>
         <tr>
           <th scope="col">Bowl</th>
@@ -97,12 +97,12 @@ Applebee's periodically rotates a third bowl through seasonal menus. Past limite
 
 Because bowl ingredients are layered rather than cooked into a single casserole, these are among the most modifiable entrées at Applebee's:
 
-- **Add sliced steak:** Add grilled sirloin steak for extra protein — see [steaks and ribs](/menu/steaks-and-ribs).
+- **Add sliced steak:** Add grilled sirloin steak for extra protein  see [steaks and ribs](/menu/steaks-and-ribs).
 - **Hold the rice, double the greens:** Turns the bowl into a massive loaded salad and cuts out the majority of carbohydrates.
 - **Skip the tortilla strips:** Saves refined carbohydrates and is recommended on [takeout](/takeout) orders where strips may soften in transit.
 - **Chimichurri on the side:** Gives you total control over dressing portions, though chimichurri is an olive-oil-and-herb sauce rather than a calorie-heavy cream.
 - **Order meatless for a complete vegetarian entrée:** Without meat, the bowl still offers cilantro rice, greens, black beans, corn, pico de gallo and guacamole. Review [nutrition and allergens](/nutrition) for dietary specifics.
-- **Extra guacamole:** The most popular upgrade — guacamole carries the smoky chipotle heat and provides rich creaminess.
+- **Extra guacamole:** The most popular upgrade  guacamole carries the smoky chipotle heat and provides rich creaminess.
 
 ---
 
@@ -110,7 +110,7 @@ Because bowl ingredients are layered rather than cooked into a single casserole,
 
 Irresist-A-Bowls appear on the [2 for $25 menu](/menu/2-for-25) at participating locations during rotating promotional cycles.
 
-Selecting a bowl on the deal, combined with swapping the shared appetizer for two individual side salads, creates the lightest, healthiest meal combination possible on the [2 for $25](/menu/2-for-25) offer — delivering grilled protein, fresh produce and guacamole without fried starters or burger buns.
+Selecting a bowl on the deal, combined with swapping the shared appetizer for two individual side salads, creates the lightest, healthiest meal combination possible on the [2 for $25](/menu/2-for-25) offer  delivering grilled protein, fresh produce and guacamole without fried starters or burger buns.
 
 ---
 
@@ -132,7 +132,7 @@ Irresist-A-Bowls travel better for takeout and delivery than almost any other it
 
 - **Layered vs. assembled:** Unlike burgers where buns absorb moisture or pasta where sauce congeals, bowl components sit stably alongside each other.
 - **Key takeout requests:** Ask for tortilla strips on the side so they stay crisp, and chimichurri on the side to prevent greens from wilting.
-- **Guacamole freshness:** Fresh avocado oxidizes and browns over time — eat within 20 to 30 minutes for optimal taste and appearance.
+- **Guacamole freshness:** Fresh avocado oxidizes and browns over time  eat within 20 to 30 minutes for optimal taste and appearance.
 - **Temperature balance:** These bowls are designed to be warm (rice and protein) and cool (greens, pico, guacamole). Reheating the entire bowl in a microwave wilts the greens and warms the guacamole.
 
 Explore more on [Carside To Go](/takeout) and [delivery](/delivery).
@@ -148,7 +148,7 @@ Layered bowls built on cilantro rice and fresh greens with chipotle lime chicken
 Grilled chipotle lime chicken on fresh greens and cilantro rice with house-made pico de gallo, black bean corn salsa and guacamole, topped with chimichurri, crispy tortilla strips and a fresh lime wedge. It is 820 calories.
 
 ### Which Applebee's entrée has the fewest calories?
-The Tex-Mex Shrimp Bowl at 710 calories — lighter than the 6 oz. Top Sirloin at 760, the Blackened Cajun Salmon at 850 and every salad on the menu.
+The Tex-Mex Shrimp Bowl at 710 calories  lighter than the 6 oz. Top Sirloin at 760, the Blackened Cajun Salmon at 850 and every salad on the menu.
 
 ### Do the bowls come with guacamole?
 Yes. Both bowls include guacamole as a standard component, and they are effectively the only place it appears on the Applebee's menu.
@@ -166,7 +166,7 @@ Yes. Holding the rice and doubling the greens turns the bowl into a large loaded
 Mildly. Chipotle is smoked jalapeño, so it brings smoke as much as heat, and the lime and guacamole temper it. It is closer to warm than hot.
 
 ### Are Applebee's bowls vegetarian?
-Ordered without the protein, the Southwest bowl is a complete vegetarian meal — rice, greens, black beans, corn, pico de gallo and guacamole. Check the rice and chimichurri if you are eating strictly plant-based.
+Ordered without the protein, the Southwest bowl is a complete vegetarian meal  rice, greens, black beans, corn, pico de gallo and guacamole. Check the rice and chimichurri if you are eating strictly plant-based.
 
 ### How much are Applebee's Irresist-A-Bowls?
 Around $14.99 to $15.99. Prices vary by location, since Applebee's restaurants are independently franchised.

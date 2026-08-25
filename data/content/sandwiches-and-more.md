@@ -1,12 +1,12 @@
 ---
 title: "Applebee's Sandwiches: Menu, Prices and Calories (2026)"
 h1: "Applebee's Sandwiches Menu with Prices and Calories"
-description: "Applebee's sandwiches with prices and calories — the Clubhouse Grille, Bacon Ranch Crispy Chicken and Prime Rib Dipper, all served with classic fries."
+description: "Applebee's sandwiches with prices and calories  the Clubhouse Grille, Bacon Ranch Crispy Chicken and Prime Rib Dipper, all served with classic fries."
 ---
 
 <div class="answerBlock">
   <p>
-    Applebee's sandwiches include the Clubhouse Grille, the Bacon Ranch Crispy Chicken and The Prime Rib Dipper, all served with classic fries. Prices run roughly $13 to $15 and calories from around 1,050 to 1,120. The Bacon Ranch Crispy Chicken carries 64g of protein — more than any burger on the Applebee's menu, including the Whisky Bacon Burger at 63g.
+    Applebee's sandwiches include the Clubhouse Grille, the Bacon Ranch Crispy Chicken and The Prime Rib Dipper, all served with classic fries. Prices run roughly $13 to $15 and calories from around 1,050 to 1,120. The Bacon Ranch Crispy Chicken carries 64g of protein  more than any burger on the Applebee's menu, including the Whisky Bacon Burger at 63g.
   </p>
 </div>
 
@@ -16,8 +16,8 @@ This is a focused section designed to bridge the gap between two larger categori
 
 - **Lighter than the burgers:** Every [handcrafted burger](/menu/handcrafted-burgers) clears 1,000 calories and most sit between 1,220 and 1,620. Sandwiches land around 1,050 to 1,120.
 - **Heavier than a plain grilled plate:** A [grilled chicken breast](/menu/chicken) is 760 calories with 50g of protein. Bread and sauce account for the difference.
-- **Higher in protein than either:** The Bacon Ranch Crispy Chicken delivers 64g of protein — more than any beef burger on the menu. A chicken sandwich out-proteining every beef burger is unexpected for most diners.
-- **Always served with classic fries:** Applebee's explicitly serves all sandwiches with classic fries. That means the largest calorie decision on this page is the side, not the sandwich — swapping fries for steamed vegetables removes around 300 calories at no extra cost. See [sides](/menu/sides).
+- **Higher in protein than either:** The Bacon Ranch Crispy Chicken delivers 64g of protein  more than any beef burger on the menu. A chicken sandwich out-proteining every beef burger is unexpected for most diners.
+- **Always served with classic fries:** Applebee's explicitly serves all sandwiches with classic fries. That means the largest calorie decision on this page is the side, not the sandwich  swapping fries for steamed vegetables removes around 300 calories at no extra cost. See [sides](/menu/sides).
 
 ![Sandwiches served with classic fries](/apple-bees-menu/applebees-sandwiches-wraps-menu-category.webp)
 
@@ -28,7 +28,7 @@ This is a focused section designed to bridge the gap between two larger categori
 <div class="tableCard">
   <div class="tableResponsive">
     <table class="customTable">
-      <caption>Applebee's sandwiches — prices, calories and protein</caption>
+      <caption>Applebee's sandwiches  prices, calories and protein</caption>
       <thead>
         <tr>
           <th scope="col">Sandwich</th>
@@ -65,7 +65,7 @@ This is a focused section designed to bridge the gap between two larger categori
 
 ![Hot club sandwich with ham, turkey, bacon and cheese on toasted potato bread](/apple-bees-menu/applebees-clubhouse-grille-sandwich.webp)
 
-Applebee's take on a club sandwich, served hot rather than cold — and that is the defining concept:
+Applebee's take on a club sandwich, served hot rather than cold  and that is the defining concept:
 
 Sliced warm ham and turkey with melted Cheddar and Swiss, Applewood-smoked bacon, lettuce, tomato, mayo and honey BBQ sauce on toasted potato bread.
 
@@ -85,7 +85,7 @@ The highest-protein sandwich or burger on the entire Applebee's menu:
 
 Crispy hand-breaded chicken breast with Applewood-smoked bacon, creamy buttermilk ranch, dill pickles, lettuce and tomato on a toasted brioche bun.
 
-- **Protein powerhouse:** 64g of protein puts it ahead of the [Whisky Bacon Burger](/menu/handcrafted-burgers) at 63g and every other burger on the menu, at 1,050 calories — lighter than all the handcrafted burgers too.
+- **Protein powerhouse:** 64g of protein puts it ahead of the [Whisky Bacon Burger](/menu/handcrafted-burgers) at 63g and every other burger on the menu, at 1,050 calories  lighter than all the handcrafted burgers too.
 - **The pickle factor:** Ranch and bacon are both rich; dill pickles supply the essential acidity that cuts through the creaminess.
 - **Grilled alternative:** Ordering grilled instead of crispy is available at most locations, significantly reducing calorie count while maintaining the full 64g of protein.
 - **Pricing:** $14.49 · 1,050 calories · 64g protein · served with classic fries.
@@ -106,7 +106,7 @@ Tender, thinly sliced prime rib warm on a toasted bakery roll with melted provol
 
 Grilled chipotle-lime chicken with sautéed fajita peppers and onions, melted cheese and Mexi-ranch in a warm flour tortilla.
 
-Applebee's classifies this under chicken entrées — see full nutrition and details on the [chicken menu](/menu/chicken).
+Applebee's classifies this under chicken entrées  see full nutrition and details on the [chicken menu](/menu/chicken).
 
 ---
 
@@ -157,10 +157,10 @@ Sliced ham and turkey with Cheddar and Swiss cheese, Applewood-smoked bacon, let
 Toasted potato bread. It is soft but sturdy enough to hold a hot, sauced filling without soaking through.
 
 ### What is The Prime Rib Dipper?
-Sliced prime rib on a roll served with jus for dipping — the only French-dip-format item on the Applebee's menu, and one of the two sandwiches Applebee's features by name on its own menu page.
+Sliced prime rib on a roll served with jus for dipping  the only French-dip-format item on the Applebee's menu, and one of the two sandwiches Applebee's features by name on its own menu page.
 
 ### Which Applebee's sandwich has the most protein?
-The Bacon Ranch Crispy Chicken at 64g — more than any burger on the menu, including the Whisky Bacon Burger at 63g, and at fewer calories than all of them.
+The Bacon Ranch Crispy Chicken at 64g  more than any burger on the menu, including the Whisky Bacon Burger at 63g, and at fewer calories than all of them.
 
 ### How much are Applebee's sandwiches?
 Roughly $13.99 to $14.49, served with classic fries. Prices vary by location, since Applebee's restaurants are independently franchised.
@@ -175,10 +175,10 @@ Yes. Sandwiches can be ordered without the bun or as a lettuce wrap where the bu
 No. It contains milk, wheat, eggs and soy, but no fish, shellfish, tree nuts, peanuts, sulfites or sesame. Shared prep surfaces mean cross-contact is still possible.
 
 ### Is the Chicken Fajita Rollup a sandwich or a chicken dish?
-Applebee's lists it under chicken. It is a wrap format — grilled chipotle-lime chicken with fajita peppers, onions, cheese and Mexi-ranch in a flour tortilla.
+Applebee's lists it under chicken. It is a wrap format  grilled chipotle-lime chicken with fajita peppers, onions, cheese and Mexi-ranch in a flour tortilla.
 
 ### What is the cheapest sandwich meal at Applebee's?
-The Big Cluckin' Chicken Sandwich on the $9.99 Really BIG Meal Deal, which includes fries and a fountain drink — both unlimited when dining in.
+The Big Cluckin' Chicken Sandwich on the $9.99 Really BIG Meal Deal, which includes fries and a fountain drink  both unlimited when dining in.
 
 ### Can I get grilled chicken instead of crispy?
 Where a sandwich uses breaded chicken, a grilled version is generally available. It lowers the calorie figure while keeping the protein, since the breading adds calories rather than protein.
