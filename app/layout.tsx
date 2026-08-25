@@ -20,6 +20,9 @@ export const metadata: Metadata = {
   description: "Browse the full Applebees menu with prices and calories for 2026  appetizers, burgers, steaks, pasta, desserts, drinks, kids menu and the 2 for $25 deal.",
   alternates: {
     canonical: 'https://applebees-menus.us/',
+    types: {
+      'application/rss+xml': 'https://applebees-menus.us/feed.xml',
+    },
   },
   robots: {
     index: true,
