@@ -17,7 +17,7 @@ export default function AboutPage() {
   return (
     <main>
       <Header />
-      <Breadcrumb items={[{ label: 'About Us', href: '/about' }]} />
+      <Breadcrumb items={[{ label: 'About Us', href: '/about-us' }]} />
       <section className={styles.hero}>
         <h1>About Us</h1>
         <p>Our mission is to bring transparency and organization to the chaotic world of restaurant menus.</p>

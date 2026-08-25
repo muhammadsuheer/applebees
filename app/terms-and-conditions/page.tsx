@@ -17,7 +17,7 @@ export default function TermsPage() {
   return (
     <main>
       <Header />
-      <Breadcrumb items={[{ label: 'Terms & Conditions', href: '/terms' }]} />
+      <Breadcrumb items={[{ label: 'Terms & Conditions', href: '/terms-and-conditions' }]} />
       <section className={styles.hero}>
         <h1>Terms & Conditions</h1>
         <p>Please read these terms and conditions carefully before using our service.</p>

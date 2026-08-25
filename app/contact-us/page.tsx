@@ -17,7 +17,7 @@ export default function ContactPage() {
   return (
     <main>
       <Header />
-      <Breadcrumb items={[{ label: 'Contact Us', href: '/contact' }]} />
+      <Breadcrumb items={[{ label: 'Contact Us', href: '/contact-us' }]} />
       <section className={styles.hero}>
         <h1>Contact Us</h1>
         <p>Have a question or need to report an inaccuracy? Reach out to our team.</p>
