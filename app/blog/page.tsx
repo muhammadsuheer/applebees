@@ -16,8 +16,20 @@ export const metadata: Metadata = {
 };
 
 export default function BlogIndexPage() {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Blog & News | Applebee's Menu Info",
+    "description": "Read our latest guides, news, and tips about Applebee's menu items, discounts, and secret menus.",
+    "url": "https://applebees-menus.us/blog"
+  };
+
   return (
     <main>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <Header />
       <Breadcrumb items={[{ label: 'Blog', href: '/blog' }]} />
       

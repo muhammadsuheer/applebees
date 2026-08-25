@@ -14,8 +14,20 @@ export const metadata: Metadata = {
 };
 
 export default function ContactPage() {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "ContactPage",
+    "name": "Contact Us | Applebee's Menu Info",
+    "description": "Get in touch with us for inquiries, corrections, or DMCA takedown requests.",
+    "url": "https://applebees-menus.us/contact-us"
+  };
+
   return (
     <main>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <Header />
       <Breadcrumb items={[{ label: 'Contact Us', href: '/contact-us' }]} />
       <section className={styles.hero}>

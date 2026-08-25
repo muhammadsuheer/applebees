@@ -14,8 +14,20 @@ export const metadata: Metadata = {
 };
 
 export default function DisclaimerPage() {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Disclaimer | Applebee's Menu Info",
+    "description": "Legal disclaimer. We are an independent informational resource and are not officially affiliated with Applebee's or Dine Brands Global.",
+    "url": "https://applebees-menus.us/disclaimer"
+  };
+
   return (
     <main>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <Header />
       <Breadcrumb items={[{ label: 'Disclaimer', href: '/disclaimer' }]} />
       <section className={styles.hero}>

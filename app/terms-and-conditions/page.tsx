@@ -14,8 +14,20 @@ export const metadata: Metadata = {
 };
 
 export default function TermsPage() {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Terms & Conditions | Applebee's Menu Info",
+    "description": "By accessing our website, you are agreeing to be bound by our Website Terms and Conditions of Use.",
+    "url": "https://applebees-menus.us/terms-and-conditions"
+  };
+
   return (
     <main>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <Header />
       <Breadcrumb items={[{ label: 'Terms & Conditions', href: '/terms-and-conditions' }]} />
       <section className={styles.hero}>

@@ -14,8 +14,20 @@ export const metadata: Metadata = {
 };
 
 export default function PrivacyPolicyPage() {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Privacy Policy | Applebee's Menu Info",
+    "description": "Our Privacy Policy details how we collect, use, and protect your data, including information on cookies, GDPR, and CCPA compliance.",
+    "url": "https://applebees-menus.us/privacy-policy"
+  };
+
   return (
     <main>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <Header />
       <Breadcrumb items={[{ label: 'Privacy Policy', href: '/privacy-policy' }]} />
       <section className={styles.hero}>

@@ -14,8 +14,20 @@ export const metadata: Metadata = {
 };
 
 export default function AboutPage() {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "AboutPage",
+    "name": "About Us | Applebee's Menu Info",
+    "description": "Learn about our mission to provide the most accurate, organized, and up-to-date restaurant menu pricing and nutritional data.",
+    "url": "https://applebees-menus.us/about-us"
+  };
+
   return (
     <main>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <Header />
       <Breadcrumb items={[{ label: 'About Us', href: '/about-us' }]} />
       <section className={styles.hero}>
