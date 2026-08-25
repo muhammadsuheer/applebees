@@ -34,6 +34,9 @@ export async function generateMetadata(
   return {
     title: `${blog.title} | Blog`,
     description: blog.excerpt,
+    alternates: {
+      canonical: `https://applebees-menus.us/blog/${blog.slug}`,
+    },
     openGraph: {
       title: blog.title,
       description: blog.excerpt,

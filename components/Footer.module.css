@@ -149,8 +149,15 @@
 }
 
 @media (max-width: 768px) {
+  .footer {
+    padding: 40px 20px 25px;
+  }
   .footer nav {
     flex-direction: column;
+    gap: 30px;
+  }
+  .footer nav > div {
+    min-width: 0;
   }
   .bottomRow {
     flex-direction: column;

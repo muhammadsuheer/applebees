@@ -141,7 +141,35 @@
 }
 
 @media (max-width: 768px) {
+  .section {
+    padding: 0 16px;
+    margin: 40px auto;
+  }
+
+  .heading {
+    font-size: 26px;
+    display: block;
+    padding: 4px 10px;
+  }
+
+  .description {
+    font-size: 14px;
+  }
+
+  .header {
+    margin-bottom: 30px;
+  }
+
   .grid {
     grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .cardContent {
+    padding: 18px;
+  }
+
+  .cardContent h3 {
+    font-size: 20px;
   }
 }

@@ -85,3 +85,26 @@
   text-decoration-color: #c53030;
 }
 
+@media (max-width: 768px) {
+  .section {
+    padding: 40px 20px;
+  }
+  .section h2 {
+    font-size: 26px;
+  }
+  .section h3 {
+    font-size: 22px;
+  }
+  .section h4 {
+    font-size: 18px;
+  }
+  .section p {
+    font-size: 16px;
+    line-height: 1.7;
+  }
+  .section ul {
+    font-size: 16px;
+    line-height: 1.7;
+    padding-left: 20px;
+  }
+}

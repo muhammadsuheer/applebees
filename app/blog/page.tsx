@@ -10,6 +10,9 @@ import heroStyles from '@/components/LegalHero.module.css';
 export const metadata: Metadata = {
   title: 'Blog & News | Applebee\'s Menu Info',
   description: 'Read our latest guides, news, and tips about Applebee\'s menu items, discounts, and secret menus.',
+  alternates: {
+    canonical: 'https://applebees-menus.us/blog',
+  },
 };
 
 export default function BlogIndexPage() {

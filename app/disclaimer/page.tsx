@@ -8,6 +8,9 @@ import { DisclaimerContent } from '@/components/LegalSections';
 export const metadata: Metadata = {
   title: 'Disclaimer | Applebee\'s Menu Info',
   description: 'Legal disclaimer. We are an independent informational resource and are not officially affiliated with Applebee\'s or Dine Brands Global.',
+  alternates: {
+    canonical: 'https://applebees-menus.us/disclaimer',
+  },
 };
 
 export default function DisclaimerPage() {

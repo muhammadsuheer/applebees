@@ -8,6 +8,9 @@ import { ContactContent } from '@/components/LegalSections';
 export const metadata: Metadata = {
   title: 'Contact Us | Applebee\'s Menu Info',
   description: 'Get in touch with us for inquiries, corrections, or DMCA takedown requests.',
+  alternates: {
+    canonical: 'https://applebees-menus.us/contact-us',
+  },
 };
 
 export default function ContactPage() {

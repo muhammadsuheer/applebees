@@ -8,6 +8,9 @@ import { AboutContent } from '@/components/LegalSections';
 export const metadata: Metadata = {
   title: 'About Us | Applebee\'s Menu Info',
   description: 'Learn about our mission to provide the most accurate, organized, and up-to-date restaurant menu pricing and nutritional data.',
+  alternates: {
+    canonical: 'https://applebees-menus.us/about-us',
+  },
 };
 
 export default function AboutPage() {

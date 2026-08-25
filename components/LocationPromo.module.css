@@ -70,11 +70,23 @@
 }
 
 @media (max-width: 768px) {
+  .section {
+    padding: 50px 20px;
+  }
   .section h2 {
     font-size: 28px;
   }
   .section p {
     font-size: 16px;
   }
+  .featureList li {
+    font-size: 15px;
+  }
+  .ctaButton {
+    padding: 14px 28px;
+    font-size: 15px;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+  }
 }
-

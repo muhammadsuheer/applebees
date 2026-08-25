@@ -8,6 +8,9 @@ import { PrivacyPolicyContent } from '@/components/LegalSections';
 export const metadata: Metadata = {
   title: 'Cookie Policy | Applebee\'s Menu Info',
   description: 'Our Cookie Policy and how we use data.',
+  alternates: {
+    canonical: 'https://applebees-menus.us/privacy-policy',
+  },
 };
 
 export default function CookiesPage() {

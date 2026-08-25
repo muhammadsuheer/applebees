@@ -8,6 +8,9 @@ import { TermsContent } from '@/components/LegalSections';
 export const metadata: Metadata = {
   title: 'Terms & Conditions | Applebee\'s Menu Info',
   description: 'By accessing our website, you are agreeing to be bound by our Website Terms and Conditions of Use.',
+  alternates: {
+    canonical: 'https://applebees-menus.us/terms-and-conditions',
+  },
 };
 
 export default function TermsPage() {

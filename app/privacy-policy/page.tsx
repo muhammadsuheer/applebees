@@ -8,6 +8,9 @@ import { PrivacyPolicyContent } from '@/components/LegalSections';
 export const metadata: Metadata = {
   title: 'Privacy Policy | Applebee\'s Menu Info',
   description: 'Our Privacy Policy details how we collect, use, and protect your data, including information on cookies, GDPR, and CCPA compliance.',
+  alternates: {
+    canonical: 'https://applebees-menus.us/privacy-policy',
+  },
 };
 
 export default function PrivacyPolicyPage() {

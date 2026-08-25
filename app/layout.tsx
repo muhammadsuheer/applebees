@@ -18,6 +18,9 @@ import { SuppressHydrationOverlay } from "@/components/SuppressHydrationOverlay"
 export const metadata: Metadata = {
   title: "Applebees Menu with Prices, Calories & 2 for $25 (Updated August 2026)",
   description: "Browse the full Applebees menu with prices and calories for 2026  appetizers, burgers, steaks, pasta, desserts, drinks, kids menu and the 2 for $25 deal.",
+  alternates: {
+    canonical: 'https://applebees-menus.us/',
+  },
   robots: {
     index: true,
     follow: true,

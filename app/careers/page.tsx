@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   title: 'Applebee\'s Careers 2026 | Salaries, Interviews & Benefits',
   description: 'The definitive 2026 guide to Applebee\'s jobs. We reveal the AI hiring process, the tipped minimum wage structure, and management salaries at Flynn Group.',
   alternates: {
-    canonical: 'https://applebees-menus.us/careers/',
+    canonical: 'https://applebees-menus.us/careers',
   }
 };
 

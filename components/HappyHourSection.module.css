@@ -129,5 +129,19 @@
   .section h2 {
     font-size: 28px;
   }
+  .section p {
+    font-size: 16px;
+    line-height: 1.7;
+  }
+  .section ul {
+    padding: 20px 20px 20px 36px;
+    font-size: 16px;
+    line-height: 1.7;
+  }
+  .faqItem h4 {
+    font-size: 18px;
+  }
+  .faqItem p {
+    font-size: 16px;
+  }
 }
-
