@@ -17,6 +17,22 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
+  openGraph: {
+    siteName: "Applebee's Menu Information",
+    images: [
+      {
+        url: '/og/og-sitemap.webp',
+        width: 1200,
+        height: 630,
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    images: ['/og/og-sitemap.webp'],
+  }
 };
 
 export default function HTMLSitemapPage() {

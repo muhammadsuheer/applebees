@@ -1,6 +1,7 @@
 import { Metadata, ResolvingMetadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
+import Image from 'next/image';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Breadcrumb from '@/components/Breadcrumb';
@@ -135,7 +136,7 @@ export default async function BlogPostPage({ params }: Props) {
             <section className={styles.postBody}>
               {/* CRITICAL FOR GOOGLE DISCOVER: Physical Image Tag */}
               <div className={styles.featuredImage}>
-                <img src={blog.imageUrl} alt={blog.title} loading="eager" width="1200" height="630" />
+                <Image src={blog.imageUrl} alt={blog.title} priority width={1200} height={630} />
               </div>
               
               <div dangerouslySetInnerHTML={{ __html: blog.content }} />
@@ -143,7 +144,7 @@ export default async function BlogPostPage({ params }: Props) {
               {/* E-E-A-T Author Box */}
               <div className={styles.authorBox}>
                 <div className={styles.authorImageWrapper}>
-                  <img src={blog.authorImage} alt={`Photo of ${blog.author}`} />
+                  <Image src={blog.authorImage} alt={`Photo of ${blog.author}`} fill sizes="90px" style={{ objectFit: 'cover' }} />
                 </div>
                 <div className={styles.authorInfo}>
                   <span className={styles.authorRole}>{blog.authorRole}</span>
@@ -174,7 +175,7 @@ export default async function BlogPostPage({ params }: Props) {
                     <Link href={`/blog/${related.slug}`} key={related.slug} style={{ textDecoration: 'none' }}>
                       <div className={styles.card} style={{ height: '100%' }}>
                         <div className={styles.imageWrapper}>
-                          <img src={related.imageUrl} alt={related.title} />
+                          <Image src={related.imageUrl} alt={related.title} fill sizes="(max-width: 768px) 100vw, 350px" style={{ objectFit: 'cover' }} />
                         </div>
                         <div className={styles.content}>
                           <div className={styles.meta}>{new Date(related.date).toLocaleDateString()}</div>

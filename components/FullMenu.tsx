@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { menuData } from '@/data/menu';
 import styles from './FullMenu.module.css';
 
@@ -17,7 +18,7 @@ export default function FullMenu() {
                   <article key={item.id}>
                     <div className={styles.imageContainer}>
                       {item.image ? (
-                        <img src={item.image} alt={item.name} loading="lazy" />
+                        <Image src={item.image} alt={item.name} fill sizes="(max-width: 768px) 100vw, (max-width: 992px) 50vw, 33vw" style={{ objectFit: 'cover' }} />
                       ) : (
                         <span>Item Image</span>
                       )}

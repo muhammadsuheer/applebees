@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Breadcrumb from '@/components/Breadcrumb';
@@ -13,6 +14,22 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://applebees-menus.us/blog',
   },
+  openGraph: {
+    siteName: "Applebee's Menu Information",
+    images: [
+      {
+        url: '/og/og-blog-secret-menu.webp',
+        width: 1200,
+        height: 630,
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    images: ['/og/og-blog-secret-menu.webp'],
+  }
 };
 
 export default function BlogIndexPage() {
@@ -45,7 +62,7 @@ export default function BlogIndexPage() {
               <article className={styles.card}>
                 <div className={styles.imageWrapper}>
                   {/* Using standard img for simplicity and robust external URL handling without config */}
-                  <img src={blog.imageUrl} alt={blog.title} />
+                  <Image src={blog.imageUrl} alt={blog.title} fill sizes="(max-width: 768px) 100vw, 350px" style={{ objectFit: 'cover' }} />
                 </div>
                 <div className={styles.content}>
                   <div className={styles.meta}>{blog.date} • By {blog.author}</div>

@@ -10,6 +10,22 @@ export const metadata: Metadata = {
   description: "Applebee's happy hour times, what's half price and what's excluded, plus the six states where drink discounts are illegal. Afternoon and late night windows.",
   alternates: {
     canonical: 'https://applebees-menus.us/happy-hour',
+  },
+  openGraph: {
+    siteName: "Applebee's Menu Information",
+    images: [
+      {
+        url: '/og/og-happy-hour.webp',
+        width: 1200,
+        height: 630,
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    images: ['/og/og-happy-hour.webp'],
   }
 };
 

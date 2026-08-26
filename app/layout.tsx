@@ -17,6 +17,7 @@ const inter = Inter({
 import { SuppressHydrationOverlay } from "@/components/SuppressHydrationOverlay";
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://applebees-menus.us'),
   title: "Applebees Menu with Prices, Calories & 2 for $25 (Updated August 2026)",
   description: "Browse the full Applebees menu with prices and calories for 2026  appetizers, burgers, steaks, pasta, desserts, drinks, kids menu and the 2 for $25 deal.",
   alternates: {
@@ -38,7 +39,23 @@ export const metadata: Metadata = {
     shortcut: '/favicon.ico',
     apple: '/apple-icon.png',
   },
-  manifest: '/manifest.json'
+  manifest: '/manifest.json',
+  openGraph: {
+    siteName: "Applebee's Menu Information",
+    images: [
+      {
+        url: '/og/og-home.webp',
+        width: 1200,
+        height: 630,
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    images: ['/og/og-home.webp'],
+  }
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

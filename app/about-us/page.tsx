@@ -11,6 +11,22 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://applebees-menus.us/about-us',
   },
+  openGraph: {
+    siteName: "Applebee's Menu Information",
+    images: [
+      {
+        url: '/og/og-home.webp',
+        width: 1200,
+        height: 630,
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    images: ['/og/og-home.webp'],
+  }
 };
 
 export default function AboutPage() {

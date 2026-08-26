@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { menuData } from '@/data/menu';
 import styles from './MenuGrid.module.css';
 
@@ -13,7 +14,7 @@ export default function MenuGrid() {
             <article>
               <div className={styles.imageContainer}>
                 {category.image ? (
-                  <img src={category.image} alt={`Applebee's ${category.title}`} loading="lazy" />
+                  <Image src={category.image} alt={`Applebee's ${category.title}`} fill sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw" style={{ objectFit: 'cover' }} />
                 ) : (
                   <span>Image</span>
                 )}

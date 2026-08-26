@@ -10,6 +10,22 @@ export const metadata: Metadata = {
   description: "Every Applebee's deal running in 2026  2 for $25, half price apps, happy hour times, All You Can Eat and lunch specials. What's included and what's excluded.",
   alternates: {
     canonical: 'https://applebees-menus.us/specials-and-deals',
+  },
+  openGraph: {
+    siteName: "Applebee's Menu Information",
+    images: [
+      {
+        url: '/og/og-specials.webp',
+        width: 1200,
+        height: 630,
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    images: ['/og/og-specials.webp'],
   }
 };
 

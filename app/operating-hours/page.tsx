@@ -10,6 +10,22 @@ export const metadata: Metadata = {
   description: "What time Applebee's opens and closes, why hours differ between locations, holiday schedules for Thanksgiving and Christmas, and how to check before you go.",
   alternates: {
     canonical: 'https://applebees-menus.us/operating-hours',
+  },
+  openGraph: {
+    siteName: "Applebee's Menu Information",
+    images: [
+      {
+        url: '/og/og-operating-hours.webp',
+        width: 1200,
+        height: 630,
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    images: ['/og/og-operating-hours.webp'],
   }
 };
 

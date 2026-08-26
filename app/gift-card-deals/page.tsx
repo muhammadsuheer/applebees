@@ -10,6 +10,22 @@ export const metadata: Metadata = {
   description: "Check your Applebee's gift card balance online, by phone or in-restaurant. Plus expiry rules, where cards work, and the scams Applebee's warns about.",
   alternates: {
     canonical: 'https://applebees-menus.us/gift-card-deals',
+  },
+  openGraph: {
+    siteName: "Applebee's Menu Information",
+    images: [
+      {
+        url: '/og/og-gift-cards.webp',
+        width: 1200,
+        height: 630,
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    images: ['/og/og-gift-cards.webp'],
   }
 };
 

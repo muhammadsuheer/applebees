@@ -40,11 +40,29 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     // Fallback
   }
 
+  const ogImage = fs.existsSync(path.join(process.cwd(), 'public', 'og', `og-menu-${p.slug}.webp`)) ? `/og/og-menu-${p.slug}.webp` : '/og/og-home.webp';
+
   return {
     title,
     description,
     alternates: {
       canonical: `https://applebees-menus.us/menu/${p.slug}`,
+    },
+    openGraph: {
+      siteName: "Applebee's Menu Information",
+      images: [
+        {
+          url: ogImage,
+          width: 1200,
+          height: 630,
+        },
+      ],
+      locale: 'en_US',
+      type: 'website',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      images: [ogImage],
     }
   };
 }

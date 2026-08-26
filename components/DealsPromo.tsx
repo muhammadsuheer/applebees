@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import styles from './DealsPromo.module.css';
 
 export default function DealsPromo() {
@@ -61,7 +62,7 @@ export default function DealsPromo() {
           {promos.map((promo) => (
             <Link href={promo.link} key={promo.id} className={styles.card}>
               <div className={styles.imageWrapper}>
-                <img src={promo.image} alt={promo.title} loading="lazy" />
+                <Image src={promo.image} alt={promo.title} fill sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 25vw" style={{ objectFit: 'cover' }} />
                 <span className={styles.badge}>{promo.badge}</span>
               </div>
               <div className={styles.content}>

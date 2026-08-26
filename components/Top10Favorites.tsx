@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import styles from './Top10Favorites.module.css';
 
 export default function Top10Favorites() {
@@ -106,10 +107,12 @@ export default function Top10Favorites() {
           <Link href={item.link} key={item.id} className={styles.card}>
             <article>
               <div className={styles.imageWrapper}>
-                <img 
+                <Image 
                   src={item.image} 
                   alt={`Applebee's ${item.name}`} 
-                  loading="lazy" 
+                  fill
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  style={{ objectFit: 'cover' }}
                 />
               </div>
               <div className={styles.cardContent}>

@@ -12,6 +12,22 @@ export const metadata: Metadata = {
   description: "Find Applebee's locations by state or ZIP code, with hours, phone numbers and directions. Plus what changes between restaurants  prices, deals and happy hour times.",
   alternates: {
     canonical: 'https://applebees-menus.us/locations',
+  },
+  openGraph: {
+    siteName: "Applebee's Menu Information",
+    images: [
+      {
+        url: '/og/og-locations.webp',
+        width: 1200,
+        height: 630,
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    images: ['/og/og-locations.webp'],
   }
 };
 
