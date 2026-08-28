@@ -73,7 +73,7 @@ export default function Sidebar({ currentSlug, pageType = 'menu' }: SidebarProps
             </li>
           ))}
           <li><Link href="/locations">Locations</Link></li>
-          <li><Link href="/menu">Nutrition & Diet</Link></li>
+          <li><Link href="/nutrition">Nutrition & Diet</Link></li>
         </ul>
       </div>
 
@@ -81,10 +81,10 @@ export default function Sidebar({ currentSlug, pageType = 'menu' }: SidebarProps
       <div className={styles.widget}>
         <h3 className={styles.widgetTitle}>PAGES</h3>
         <ul className={styles.widgetList}>
-          <li><Link href="#">About Us</Link></li>
-          <li><Link href="#">Contact Us</Link></li>
-          <li><Link href="#">Privacy Policy</Link></li>
-          <li><Link href="#">Terms and Conditions</Link></li>
+          <li><Link href="/about-us">About Us</Link></li>
+          <li><Link href="/contact-us">Contact Us</Link></li>
+          <li><Link href="/privacy-policy">Privacy Policy</Link></li>
+          <li><Link href="/terms-and-conditions">Terms and Conditions</Link></li>
         </ul>
       </div>
 

@@ -78,29 +78,98 @@ export default async function BlogPostPage({ params }: Props) {
   const publishDate = new Date(blog.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
   const modifiedDate = new Date(blog.modifiedDate).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
 
-  // Generate JSON-LD Schema
-  const jsonLd = {
-    '@context': 'https://schema.org',
-    '@type': 'NewsArticle',
-    headline: blog.title,
-    image: [blog.imageUrl],
-    datePublished: blog.date,
-    dateModified: blog.modifiedDate,
-    author: [{
-        '@type': 'Person',
-        name: blog.author,
-        jobTitle: blog.authorRole,
-        url: 'https://applebees-menus.us/about-us'
-    }],
-    publisher: {
-      '@type': 'Organization',
-      name: 'Applebees Menu Info',
-      logo: {
-        '@type': 'ImageObject',
-        name: 'Applebee\'s Menu Logo',
-        url: 'https://applebees-menus.us/logo.png' // Replace with actual logo URL when available
+  // Generate comprehensive @graph Schema for E-E-A-T, AEO & GEO
+  const graphSchema: any[] = [
+    {
+      '@type': 'WebPage',
+      '@id': `https://applebees-menus.us/blog/${blog.slug}/#webpage`,
+      url: `https://applebees-menus.us/blog/${blog.slug}`,
+      name: blog.title,
+      description: blog.excerpt,
+      inLanguage: 'en-US',
+      breadcrumb: {
+        '@id': `https://applebees-menus.us/blog/${blog.slug}/#breadcrumb`
+      }
+    },
+    {
+      '@type': 'BreadcrumbList',
+      '@id': `https://applebees-menus.us/blog/${blog.slug}/#breadcrumb`,
+      itemListElement: [
+        {
+          '@type': 'ListItem',
+          position: 1,
+          name: 'Home',
+          item: 'https://applebees-menus.us/'
+        },
+        {
+          '@type': 'ListItem',
+          position: 2,
+          name: 'Blog',
+          item: 'https://applebees-menus.us/blog'
+        },
+        {
+          '@type': 'ListItem',
+          position: 3,
+          name: blog.title,
+          item: `https://applebees-menus.us/blog/${blog.slug}`
+        }
+      ]
+    },
+    {
+      '@type': 'NewsArticle',
+      '@id': `https://applebees-menus.us/blog/${blog.slug}/#article`,
+      headline: blog.title,
+      description: blog.excerpt,
+      image: [blog.imageUrl.startsWith('http') ? blog.imageUrl : `https://applebees-menus.us${blog.imageUrl}`],
+      datePublished: blog.date,
+      dateModified: blog.modifiedDate,
+      inLanguage: 'en-US',
+      mainEntityOfPage: {
+        '@type': 'WebPage',
+        '@id': `https://applebees-menus.us/blog/${blog.slug}`
+      },
+      author: [
+        {
+          '@type': 'Person',
+          name: blog.author,
+          jobTitle: blog.authorRole,
+          image: `https://applebees-menus.us${blog.authorImage}`,
+          url: 'https://applebees-menus.us/about-us'
+        }
+      ],
+      publisher: {
+        '@type': 'Organization',
+        name: "Applebee's Menu Information",
+        url: 'https://applebees-menus.us/',
+        logo: {
+          '@type': 'ImageObject',
+          url: 'https://applebees-menus.us/apple-icon.png',
+          width: 512,
+          height: 512
+        }
       }
     }
+  ];
+
+  // Add FAQPage Schema if structured FAQs exist for AEO / Voice Search
+  if (blog.faqs && blog.faqs.length > 0) {
+    graphSchema.push({
+      '@type': 'FAQPage',
+      '@id': `https://applebees-menus.us/blog/${blog.slug}/#faq`,
+      mainEntity: blog.faqs.map(faq => ({
+        '@type': 'Question',
+        name: faq.question,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: faq.answer
+        }
+      }))
+    });
+  }
+
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@graph': graphSchema
   };
 
   // Get related blogs (excluding current)
@@ -150,7 +219,7 @@ export default async function BlogPostPage({ params }: Props) {
                   <span className={styles.authorRole}>{blog.authorRole}</span>
                   <span className={styles.authorName}>{blog.author}</span>
                   <p className={styles.authorBio}>
-                    {blog.author} is a dedicated food and beverage editor with over 10 years of experience analyzing chain restaurant trends, menus, and nutritional data.
+                    The Applebee&apos;s Menu Editorial Team is an independent collective of culinary researchers, restaurant pricing analysts, and nutrition specialists dedicated to verifying menu updates, happy hour specials, and dining deals across nationwide locations.
                   </p>
                 </div>
               </div>

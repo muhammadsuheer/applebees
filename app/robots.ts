@@ -5,7 +5,7 @@ export default function robots(): MetadataRoute.Robots {
     rules: {
       userAgent: '*',
       allow: '/',
-      disallow: ['/private/', '/_next/', '/api/'],
+      disallow: ['/private/', '/api/'],
     },
     sitemap: [
       'https://applebees-menus.us/sitemap.xml',

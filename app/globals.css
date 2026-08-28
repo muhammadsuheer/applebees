@@ -57,15 +57,12 @@ main {
     position: relative;
   }
 
-  table {
-    display: block;
+  /* Responsive table scroll wrapper default */
+  .table-responsive,
+  .tableWrapper {
     width: 100%;
-  }
-
-  caption {
-    display: block !important;
-    width: 100% !important;
-    box-sizing: border-box !important;
-    text-align: left !important;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin: 20px 0;
   }
 }
