@@ -27,8 +27,8 @@ export async function GET() {
       date: post.date,
       enclosure: post.imageUrl
         ? {
-            url: post.imageUrl,
-            type: 'image/jpeg', // Assuming jpeg/webp from Unsplash
+            url: post.imageUrl.startsWith('http') ? post.imageUrl : `https://applebees-menus.us${post.imageUrl}`,
+            type: 'image/webp',
           }
         : undefined,
     });
