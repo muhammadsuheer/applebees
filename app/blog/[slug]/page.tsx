@@ -32,14 +32,16 @@ export async function generateMetadata(
     return { title: 'Post Not Found' };
   }
 
+  const pageTitle = blog.metaTitle || blog.title;
+
   return {
-    title: `${blog.title} | Blog`,
+    title: pageTitle,
     description: blog.excerpt,
     alternates: {
       canonical: `https://applebees-menus.us/blog/${blog.slug}`,
     },
     openGraph: {
-      title: blog.title,
+      title: pageTitle,
       description: blog.excerpt,
       url: `https://applebees-menus.us/blog/${blog.slug}`,
       siteName: "Applebee's Menu Information",
@@ -59,7 +61,7 @@ export async function generateMetadata(
     },
     twitter: {
       card: 'summary_large_image', // Crucial for Discover / Twitter visibility
-      title: blog.title,
+      title: pageTitle,
       description: blog.excerpt,
       images: [blog.imageUrl],
     },

@@ -1,6 +1,7 @@
 export interface BlogPost {
   slug: string;
   title: string;
+  metaTitle?: string;  // Optimized <60 char title for Google SERP & CTR
   excerpt: string;
   content: string;
   date: string;       // Published date
@@ -15,7 +16,8 @@ export interface BlogPost {
 export const blogs: BlogPost[] = [
   {
     slug: 'legendary-dollarita-monthly-drink-specials',
-    title: "The Truth About the Applebee's Dollarita: Real Alcohol Content, 2026 Return Dates, History & Best Drink Hacks",
+    title: "Applebee's Dollarita Guide (2026): Real ABV, Price & Hacks",
+    metaTitle: "Applebee's Dollarita (2026): Real ABV, Price & Hacks",
     excerpt: "Is there real alcohol in a $1 margarita? We break down the true ABV, secret recipe, the 3-drink ordering limit, and the complete 2026 Drink of the Month calendar.",
     content: `
       <div class="quickAnswer">
@@ -287,7 +289,8 @@ export const blogs: BlogPost[] = [
   },
   {
     slug: 'applebees-secret-menu-hacks-revealed',
-    title: "Applebee's Secret Menu Hacks (2026): 10 Real Off-Menu Items, Exact Ordering Scripts & Value Tricks",
+    title: "Applebee's Secret Menu: 10 Tested Off-Menu Hacks (2026)",
+    metaTitle: "Applebee's Secret Menu: 10 Tested Off-Menu Hacks (2026)",
     excerpt: "Does Applebee's have a secret menu? We uncover 10 verified kitchen hacks, exact ordering scripts, modifier costs, and insider money-saving tricks.",
     content: `
       <div class="quickAnswer">
@@ -509,7 +512,8 @@ export const blogs: BlogPost[] = [
   },
   {
     slug: 'gluten-free-guide-applebees-menu',
-    title: "Applebee's Gluten-Free & Allergen Menu Guide (2026): Safe Orders, Celiac Warnings, Hidden Traps & Keto Hacks",
+    title: "Applebee's Gluten-Free Menu (2026): Safe Orders & Traps",
+    metaTitle: "Applebee's Gluten-Free Menu (2026): Safe Orders & Traps",
     excerpt: "Navigating Applebee's with gluten intolerance, Celiac disease, or a keto diet? Discover verified gluten-sensitive options, shared fryer warnings, and hidden traps.",
     content: `
       <div class="quickAnswer">
@@ -691,7 +695,8 @@ export const blogs: BlogPost[] = [
   },
   {
     slug: 'applebees-2-for-25-menu-value-guide',
-    title: "Applebee's 2 for $25 Deal Breakdown (2026): Exact Item Math, Best Protein Combos & Upcharge Traps",
+    title: "Applebee's 2 for $25 Deal: Exact Item Math & Best Combos",
+    metaTitle: "Applebee's 2 for $25 (2026): Exact Math & Best Combos",
     excerpt: "Is Applebee's 2 for $25 deal actually worth it? We calculate the exact à la carte savings, expose premium steak upcharges, and rank the best high-protein combos.",
     content: `
       <div class="quickAnswer">
