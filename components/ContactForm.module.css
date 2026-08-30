@@ -1,0 +1,240 @@
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 20px 80px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1.6fr 1fr;
+  gap: 40px;
+  align-items: start;
+}
+
+.formCard {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 40px;
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.05);
+  border: 1px solid #e2e8f0;
+}
+
+.formTitle {
+  font-family: var(--font-oswald), sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  color: #1a2433;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+.formSubtitle {
+  font-family: var(--font-roboto), sans-serif;
+  font-size: 15px;
+  color: #64748b;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+.formGroup {
+  margin-bottom: 22px;
+}
+
+.label {
+  display: block;
+  font-family: var(--font-roboto), sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #334155;
+  margin-bottom: 8px;
+}
+
+.label span {
+  color: #dc2626;
+}
+
+.input,
+.select,
+.textarea {
+  width: 100%;
+  padding: 14px 16px;
+  border-radius: 10px;
+  border: 1.5px solid #cbd5e1;
+  background-color: #f8fafc;
+  font-family: var(--font-roboto), sans-serif;
+  font-size: 16px;
+  color: #1e293b;
+  transition: all 0.2s ease;
+  outline: none;
+}
+
+.input:focus,
+.select:focus,
+.textarea:focus {
+  border-color: #c53030;
+  background-color: #ffffff;
+  box-shadow: 0 0 0 4px rgba(197, 48, 48, 0.1);
+}
+
+.textarea {
+  min-height: 140px;
+  resize: vertical;
+  line-height: 1.6;
+}
+
+.submitBtn {
+  width: 100%;
+  padding: 16px;
+  background: #c53030;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  font-family: var(--font-oswald), sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  box-shadow: 0 4px 15px rgba(197, 48, 48, 0.25);
+}
+
+.submitBtn:hover:not(:disabled) {
+  background: #9e1b1b;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(197, 48, 48, 0.35);
+}
+
+.submitBtn:disabled {
+  background: #94a3b8;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+/* Success Card */
+.successCard {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.successIcon {
+  width: 70px;
+  height: 70px;
+  background: #dcfce7;
+  color: #16a34a;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  margin: 0 auto 20px;
+}
+
+.successTitle {
+  font-family: var(--font-oswald), sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  color: #166534;
+  margin-bottom: 12px;
+}
+
+.successText {
+  font-family: var(--font-roboto), sans-serif;
+  font-size: 16px;
+  color: #4b5563;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.resetBtn {
+  padding: 10px 24px;
+  background: #f1f5f9;
+  color: #334155;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.resetBtn:hover {
+  background: #e2e8f0;
+  color: #0f172a;
+}
+
+/* Info Sidebar */
+.infoSidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.infoCard {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 30px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+}
+
+.infoCard h3 {
+  font-family: var(--font-oswald), sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #1a2433;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.infoCard p,
+.infoCard li {
+  font-family: var(--font-roboto), sans-serif;
+  font-size: 15px;
+  color: #475569;
+  line-height: 1.6;
+}
+
+.infoCard ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.infoCard li {
+  margin-bottom: 10px;
+}
+
+.emailBadge {
+  display: inline-block;
+  background: #fee2e2;
+  color: #991b1b;
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 15px;
+  margin-top: 8px;
+  text-decoration: none;
+  transition: background 0.2s ease;
+}
+
+.emailBadge:hover {
+  background: #fca5a5;
+}
+
+@media (max-width: 860px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  .formCard {
+    padding: 25px 20px;
+  }
+  .container {
+    padding: 30px 16px 60px;
+  }
+}

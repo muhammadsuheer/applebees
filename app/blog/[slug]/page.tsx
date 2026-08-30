@@ -43,7 +43,6 @@ export async function generateMetadata(
     openGraph: {
       title: pageTitle,
       description: blog.excerpt,
-      url: `https://applebees-menus.us/blog/${blog.slug}`,
       siteName: "Applebee's Menu Information",
       images: [
         {

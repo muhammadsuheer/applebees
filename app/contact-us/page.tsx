@@ -3,15 +3,17 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Breadcrumb from '@/components/Breadcrumb';
 import styles from '@/components/LegalHero.module.css';
-import { ContactContent } from '@/components/LegalSections';
+import ContactForm from '@/components/ContactForm';
 
 export const metadata: Metadata = {
   title: 'Contact Us | Applebee\'s Menu Info',
-  description: 'Get in touch with us for inquiries, corrections, or DMCA takedown requests.',
+  description: 'Get in touch with the Applebee\'s Menu Editorial Team for inquiries, price corrections, DMCA notices, or advertising.',
   alternates: {
     canonical: 'https://applebees-menus.us/contact-us',
   },
   openGraph: {
+    title: 'Contact Us | Applebee\'s Menu Info',
+    description: 'Get in touch with the Applebee\'s Menu Editorial Team for inquiries, price corrections, DMCA notices, or advertising.',
     siteName: "Applebee's Menu Information",
     images: [
       {
@@ -25,6 +27,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
+    title: 'Contact Us | Applebee\'s Menu Info',
+    description: 'Get in touch with the Applebee\'s Menu Editorial Team for inquiries, price corrections, DMCA notices, or advertising.',
     images: ['/og/og-contact-us.webp'],
   }
 };
@@ -34,7 +38,7 @@ export default function ContactPage() {
     "@context": "https://schema.org",
     "@type": "ContactPage",
     "name": "Contact Us | Applebee's Menu Info",
-    "description": "Get in touch with us for inquiries, corrections, or DMCA takedown requests.",
+    "description": "Get in touch with the Applebee's Menu Editorial Team for inquiries, price corrections, DMCA notices, or advertising.",
     "url": "https://applebees-menus.us/contact-us"
   };
 
@@ -48,9 +52,9 @@ export default function ContactPage() {
       <Breadcrumb items={[{ label: 'Contact Us', href: '/contact-us' }]} />
       <section className={styles.hero}>
         <h1>Contact Us</h1>
-        <p>Have a question or need to report an inaccuracy? Reach out to our team.</p>
+        <p>Have a question, menu price correction, or business inquiry? Reach out to our editorial team.</p>
       </section>
-      <ContactContent />
+      <ContactForm />
       <Footer />
     </main>
   );
