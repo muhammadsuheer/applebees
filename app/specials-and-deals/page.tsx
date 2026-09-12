@@ -3,121 +3,124 @@ import Link from 'next/link';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Breadcrumb from '@/components/Breadcrumb';
+import { PRICES_LAST_VERIFIED } from '@/data/site';
 import styles from './page.module.css';
 
+// Checked September 2026:
+//  - 2 for $25: one appetizer (or two side salads) + two entrées. O-M-Cheese-adilla Burger added
+//    Aug 31, 2026, dine-in only (Business Wire).
+//  - Really BIG Meal Deal $9.99 since Nov 2024, still $9.99 Aug 2026.
+//  - Half price apps: 3–6pm & 9pm–close, dine-in (Applebee's restaurant listing).
+//  - National Cheeseburger Day: $8.99 Classic Burger/Cheeseburger + fries, 9/18/26 only,
+//    dine-in or To Go via app/site (RestaurantNews.com, Sept 10, 2026).
+//  - Spooky Sips: $6 cocktails, $4 mocktail through 11/15/26 (applebees.com).
+//  - All You Can Eat: $15.99, announced May 11, 2026, summer limited time, dine-in (applebees.com news).
+// Remove or update a row the day a deal ends.
+
 export const metadata: Metadata = {
-  title: "Applebee's Deals & Specials 2026: 2 for $25, Happy Hour & AYCE",
-  description: "Every Applebee's deal running in 2026  2 for $25, half price apps, happy hour times, All You Can Eat and lunch specials. What's included and what's excluded.",
+  title: "Applebee's Specials & Deals 2026: 2 for $25, $9.99 Meal Deal & Happy Hour",
+  description:
+    "Every Applebee's deal running in fall 2026 with prices and end dates: 2 for $25, the $9.99 Really BIG Meal Deal, half price apps, $6 Spooky Sips and the $8.99 Cheeseburger Day deal.",
   alternates: {
     canonical: 'https://applebees-menus.us/specials-and-deals',
   },
   openGraph: {
-    siteName: "Applebee's Menu Information",
-    images: [
-      {
-        url: '/og/og-specials.webp',
-        width: 1200,
-        height: 630,
-      },
-    ],
+    siteName: 'Menu Almanac',
+    images: [{ url: '/og/og-specials.webp', width: 1200, height: 630 }],
     locale: 'en_US',
-    type: 'website',
+    type: 'article',
   },
   twitter: {
     card: 'summary_large_image',
     images: ['/og/og-specials.webp'],
-  }
+  },
 };
+
+const deals = [
+  { name: '2 for $25', price: '$25', when: 'Any time', how: 'Dine-in and To Go', ends: 'Ongoing', link: '/menu/2-for-25' },
+  { name: 'Really BIG Meal Deal', price: '$9.99', when: 'Any time', how: 'Dine-in (refills) and To Go', ends: 'Ongoing promotion', link: '/menu/really-big-meal-deal' },
+  { name: 'Half price apps', price: '50% off', when: '3–6 PM, 9 PM–close', how: 'Dine-in only', ends: 'Ongoing', link: '/happy-hour' },
+  { name: 'National Cheeseburger Day', price: '$8.99', when: 'Sept 18, 2026', how: 'Dine-in, or To Go on app/site', ends: 'One day', link: '#cheeseburger-day' },
+  { name: 'Spooky Sips', price: '$6 cocktails, $4 mocktail', when: 'Any time', how: 'Where alcohol is served', ends: 'Nov 15, 2026', link: '#spooky-sips' },
+  { name: 'All You Can Eat', price: '$15.99', when: 'Summer 2026', how: 'Dine-in only', ends: 'Limited time', link: '#all-you-can-eat' },
+];
 
 const faqData = [
   {
-    question: "What is included in Applebee's 2 for $25?",
-    answer: "One full-size shared appetizer plus two full-size entrées for $25. Portions match the regular menu. Appetizer and entrée options come from a rotating curated list, and a sirloin upgrade is usually available for a small premium."
+    question: "What specials does Applebee's have today?",
+    answer:
+      "The 2 for $25, the $9.99 Really BIG Meal Deal, and half price appetizers from 3:00 to 6:00 PM and 9:00 PM to close run every day. Through November 15, 2026 there are also $6 Spooky Sips cocktails. On September 18, 2026 only, a Classic Burger or Classic Cheeseburger with fries is $8.99.",
   },
   {
-    question: "What time are Applebee's half price apps?",
-    answer: "Two windows at participating locations: mid-afternoon, typically 3:00 PM to 6:00 PM, and late night, typically from 9:00 PM until close. Weekend start times often run later."
+    question: "What's included in Applebee's 2 for $25?",
+    answer:
+      "One appetizer, or two side salads instead, plus two full-size entrées for $25. Drinks, dessert, tax and tip aren't included.",
   },
   {
-    question: "Are all appetizers half price during happy hour?",
-    answer: "No. Combination platters like the Classic Combo are excluded, as are most premium and seasonal appetizers. The core classics  Boneless Wings, Mozzarella Sticks, Chicken Quesadilla and Spinach & Artichoke Dip  are the reliably included ones."
+    question: "Does Applebee's still have 2 for $20?",
+    answer:
+      "No. The deal used to be 2 for $20 and is now 2 for $25. Applebee's isn't running a national 2 for $20 in 2026.",
   },
   {
-    question: "Why is 2 for $25 priced higher at my location?",
-    answer: "Applebee's is franchised, and owners set pricing against local wage and property costs. The deal structure is national; the price is not. Higher-cost metros commonly print a higher figure."
+    question: "What is the cheapest meal at Applebee's?",
+    answer:
+      "The Really BIG Meal Deal at $9.99 for a burger or chicken sandwich, fries and a fountain drink. On September 18, 2026, the $8.99 Cheeseburger Day deal is a dollar cheaper but doesn't include a drink.",
   },
   {
-    question: "Can I get half price appetizers for takeout?",
-    answer: "Generally no. The promotion is built around dine-in traffic. Some locations extend it to direct orders; third-party delivery apps do not carry it."
+    question: "Is Applebee's All You Can Eat still going?",
+    answer:
+      "It came back in May 2026 as a summer deal at $15.99 for unlimited Boneless Wings, Riblets and Double Crunch Shrimp with endless fries. It's a limited-time offer, so call your restaurant before you go.",
   },
   {
-    question: "Can I use a coupon with the 2 for $25 deal?",
-    answer: "Usually not. Promotional items are already discounted and a second discount on top is typically blocked at the register."
+    question: "What's the National Cheeseburger Day deal at Applebee's?",
+    answer:
+      "On September 18, 2026 only, a Classic Burger or Classic Cheeseburger with fries costs $8.99. It's good for dine-in, or To Go when you order through the Applebee's app or website.",
   },
   {
-    question: "Does Applebee's have All You Can Eat right now?",
-    answer: "All You Can Eat runs as a limited-time promotion rather than permanently, appearing during slower parts of the year. Check current availability at your nearest location."
+    question: "Why is the 2 for $25 more expensive at my Applebee's?",
+    answer:
+      "Franchisees set their own prices. Franchise owners ran 1,439 of the 1,557 Applebee's at the end of June 2026, and a restaurant in a high-rent city can price the deal above $25.",
   },
   {
-    question: "What is the best value deal at Applebee's?",
-    answer: "For two people, 2 for $25 delivers the most food per dollar  a shared appetizer plus two full entrées. For one person, the half price appetizer window is the cheapest way to eat, and lunch specials are the best-value full plate."
+    question: 'Which Applebee\'s deal is best for two people?',
+    answer:
+      "Two Really BIG Meal Deals at $19.98 if neither of you wants an appetizer, since drinks are included. The 2 for $25 if you want a starter or an entrée that isn't a sandwich.",
   },
-  {
-    question: "Does Applebee's have a senior discount?",
-    answer: "Senior discounts are set by individual franchise locations rather than nationally. Asking your server is the only reliable way to find out whether a specific restaurant offers one."
-  },
-  {
-    question: "When is Applebee's happy hour?",
-    answer: "Monday through Friday at most participating locations, with an afternoon window and a late-night window. Weekend and holiday schedules vary by restaurant."
-  }
 ];
 
 export default function SpecialsPage() {
   const schemaData = {
-    "@context": "https://schema.org",
-    "@graph": [
+    '@context': 'https://schema.org',
+    '@graph': [
       {
-        "@type": "WebPage",
-        "@id": "https://applebees-menus.us/specials-and-deals/#webpage",
-        "url": "https://applebees-menus.us/specials-and-deals",
-        "name": "Applebee's Deals & Specials 2026: 2 for $25, Happy Hour & AYCE",
-        "description": "Every Applebee's deal running in 2026  2 for $25, half price apps, happy hour times, All You Can Eat and lunch specials. What's included and what's excluded.",
-        "breadcrumb": {
-          "@id": "https://applebees-menus.us/specials-and-deals/#breadcrumb"
-        }
+        '@type': 'WebPage',
+        '@id': 'https://applebees-menus.us/specials-and-deals/#webpage',
+        url: 'https://applebees-menus.us/specials-and-deals',
+        name: "Applebee's Specials & Deals 2026",
+        description:
+          "Every Applebee's deal running in fall 2026 with prices, times and end dates.",
+        dateModified: PRICES_LAST_VERIFIED,
+        publisher: { '@id': 'https://applebees-menus.us/#organization' },
+        breadcrumb: { '@id': 'https://applebees-menus.us/specials-and-deals/#breadcrumb' },
       },
       {
-        "@type": "FAQPage",
-        "@id": "https://applebees-menus.us/specials-and-deals/#faq",
-        "name": "Applebee's Deals & Specials Frequently Asked Questions",
-        "mainEntity": faqData.map(faq => ({
-          "@type": "Question",
-          "name": faq.question,
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": faq.answer
-          }
-        }))
+        '@type': 'FAQPage',
+        '@id': 'https://applebees-menus.us/specials-and-deals/#faq',
+        mainEntity: faqData.map((faq) => ({
+          '@type': 'Question',
+          name: faq.question,
+          acceptedAnswer: { '@type': 'Answer', text: faq.answer },
+        })),
       },
       {
-        "@type": "BreadcrumbList",
-        "@id": "https://applebees-menus.us/specials-and-deals/#breadcrumb",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Home",
-            "item": "https://applebees-menus.us/"
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Specials & Deals",
-            "item": "https://applebees-menus.us/specials-and-deals"
-          }
-        ]
-      }
-    ]
+        '@type': 'BreadcrumbList',
+        '@id': 'https://applebees-menus.us/specials-and-deals/#breadcrumb',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://applebees-menus.us/' },
+          { '@type': 'ListItem', position: 2, name: 'Specials & Deals', item: 'https://applebees-menus.us/specials-and-deals' },
+        ],
+      },
+    ],
   };
 
   return (
@@ -130,289 +133,212 @@ export default function SpecialsPage() {
       <Breadcrumb items={[{ label: 'Specials & Deals', href: '/specials-and-deals' }]} />
 
       <main className={styles.main}>
-        {/* H1 & §1  OPENING */}
-        <header className={styles.hero} role="banner" aria-label="Specials Header">
-          <h1>Applebee's Deals and Specials (2026)</h1>
+        <section className={styles.hero} aria-labelledby="deals-title">
+          <h1 id="deals-title">Applebee&apos;s Specials and Deals Today</h1>
           <p className={styles.heroLead}>
-            Applebee's built its identity on value, and the deals are the reason most people choose it over a competitor on a given night. There are five that run consistently: 2 for $25, half price appetizers, happy hour, All You Can Eat, and lunch specials.
+            Six Applebee&apos;s deals are worth knowing about this fall. Three run every day: the 2 for
+            $25, the $9.99 Really BIG Meal Deal and half price apps. Three have an end date: $6 Spooky
+            Sips until November 15, a one-day $8.99 burger on September 18, and All You Can Eat, which
+            ran as a summer deal.
           </p>
           <p className={styles.heroSub}>
-            Each one has rules that are not printed on the promotional insert  which appetizers are excluded, which windows the discount actually applies in, why the price on your table might not match the price in the advert. This page covers all of it, including which combinations give you the most food for the money.
+            For one person, the best of them is the Really BIG Meal Deal. For two, it depends on one
+            question: do you want an appetizer?
           </p>
-        </header>
+        </section>
 
-        {/* §2  2 FOR $25 */}
-        <section className={styles.clusterSection} id="2-for-25">
-          <h2>Applebee's 2 for $25 Menu</h2>
-
-          <div className={styles.answerBlock}>
-            <p>
-              The Applebee's 2 for $25 deal includes one full-size appetizer to share plus two full-size entrées, for $25 total. Portions are identical to the regular menu  this is not a reduced-size tasting menu. Appetizer and entrée options come from a curated selection that rotates.
-            </p>
-          </div>
-
-          <h3>What's on the appetizer list</h3>
-          <p>
-            The shared appetizer is chosen from a core group of classics. Boneless Wings, Mozzarella Sticks, and Spinach & Artichoke Dip appear consistently, with the selection rotating alongside the wider <Link href="/menu/appetizers">appetizer menu</Link>.
-          </p>
-          <p>
-            If you want the most food from this slot, Boneless Wings deliver the highest protein of the group at 40g per serving. Mozzarella Sticks are close at 41g for fewer calories. Spinach & Artichoke Dip is the heaviest per gram of protein  990 calories for 21g. Full figures on the <Link href="/nutrition">nutrition page</Link>.
-          </p>
-
-          <h3>What's on the entrée list</h3>
-          <p>
-            The entrée selection rotates more than the appetizers do. Long-running inclusions have been Fiesta Lime Chicken, the Classic Bacon Cheeseburger, and pasta dishes from the <Link href="/menu/pasta">pasta menu</Link>. A sirloin upgrade is usually available for a small per-steak premium.
-          </p>
-
-          <h3>Which combination gives you the most</h3>
-          <p>
-            This is the part nobody works out, so here it is using actual nutrition data:
-          </p>
-
+        <section className={styles.clusterSection} id="all-deals">
+          <h2>Every Applebee&apos;s Deal Running Now</h2>
           <div className={styles.tableCard}>
             <div className={styles.tableResponsive}>
               <table className={styles.customTable}>
+                <caption className="sr-only">Applebee&apos;s deals with prices, times and end dates</caption>
                 <thead>
                   <tr>
-                    <th scope="col">Combination</th>
-                    <th scope="col" style={{ textAlign: 'center' }}>Calories</th>
-                    <th scope="col" style={{ textAlign: 'right' }}>Protein</th>
+                    <th scope="col">Deal</th>
+                    <th scope="col">Price</th>
+                    <th scope="col">When</th>
+                    <th scope="col">How</th>
+                    <th scope="col">Ends</th>
                   </tr>
                 </thead>
                 <tbody>
-                  <tr>
-                    <td data-label="Combination"><strong>Boneless Wings + 2× Fiesta Lime Chicken</strong></td>
-                    <td data-label="Calories" style={{ textAlign: 'center', fontWeight: 600 }}>3,460</td>
-                    <td data-label="Protein" style={{ textAlign: 'right', fontWeight: 700, color: '#16a34a' }}>162g</td>
-                  </tr>
-                  <tr>
-                    <td data-label="Combination"><strong>Boneless Wings + 2× Three-Cheese Chicken Penne</strong></td>
-                    <td data-label="Calories" style={{ textAlign: 'center', fontWeight: 600 }}>3,780</td>
-                    <td data-label="Protein" style={{ textAlign: 'right', fontWeight: 700, color: '#16a34a' }}>194g</td>
-                  </tr>
-                  <tr>
-                    <td data-label="Combination"><strong>Mozzarella Sticks + 2× Classic Cheeseburger</strong></td>
-                    <td data-label="Calories" style={{ textAlign: 'center', fontWeight: 600 }}>3,300</td>
-                    <td data-label="Protein" style={{ textAlign: 'right', fontWeight: 700, color: '#16a34a' }}>141g</td>
-                  </tr>
-                  <tr>
-                    <td data-label="Combination"><strong>Spinach & Artichoke Dip + 2× 8 oz. Sirloin (upgrade)</strong></td>
-                    <td data-label="Calories" style={{ textAlign: 'center', fontWeight: 600 }}>2,650</td>
-                    <td data-label="Protein" style={{ textAlign: 'right', fontWeight: 700, color: '#16a34a' }}>131g</td>
-                  </tr>
+                  {deals.map((d) => (
+                    <tr key={d.name}>
+                      <td data-label="Deal">
+                        <strong>
+                          {d.link.startsWith('#') ? <a href={d.link}>{d.name}</a> : <Link href={d.link}>{d.name}</Link>}
+                        </strong>
+                      </td>
+                      <td data-label="Price">{d.price}</td>
+                      <td data-label="When">{d.when}</td>
+                      <td data-label="How">{d.how}</td>
+                      <td data-label="Ends">{d.ends}</td>
+                    </tr>
+                  ))}
                 </tbody>
               </table>
             </div>
           </div>
-
           <p>
-            <strong>For maximum protein per dollar:</strong> Boneless Wings with two Three-Cheese Chicken Penne  194g of protein across the table.
-          </p>
-          <p>
-            <strong>For the best protein-to-calorie ratio:</strong> the sirloin upgrade. Even with the premium, 131g of protein for 2,650 calories is the leanest way to run this deal, and it is the only version that comes in under 3,000 calories for two people. See <Link href="/menu/steaks-and-ribs">steaks and ribs</Link>.
-          </p>
-
-          <h3>Why your restaurant charges more than $25</h3>
-          <p>
-            "2 for $25" is a national marketing name, not a fixed national price. Applebee's is franchised  individual owners set pricing against local wage and rent costs. In higher-cost metros the same deal is commonly printed as 2 for $26 or more.
-          </p>
-          <p>
-            The deal structure stays the same. Only the number changes. Check the physical insert on your table before ordering, or confirm with your <Link href="/locations">local restaurant</Link>.
+            Every deal on this list is &quot;price and participation may vary.&quot; Franchisees can
+            charge more or skip a promotion. A 30-second call to your{' '}
+            <Link href="/locations">nearest Applebee&apos;s</Link> beats showing up for a deal that
+            isn&apos;t running there.
           </p>
         </section>
 
-        {/* §3  HALF PRICE APPETIZERS */}
+        <section className={styles.clusterSection} id="2-for-25">
+          <h2>Applebee&apos;s 2 for $25</h2>
+          <div className={styles.answerBlock}>
+            <p>
+              One appetizer and two full-size entrées for $25. You can swap the appetizer for two side
+              salads. Drinks and dessert cost extra.
+            </p>
+          </div>
+          <p>
+            The newest entrée is the O-M-Cheese-adilla Burger, added August 31, 2026: the Quesadilla
+            Burger served in a skillet of molten queso and Cheddar with tortilla chips. It&apos;s
+            dine-in only. Other entrées on the deal include the Grilled Cheese Cheeseburger, Chicken
+            Parmesan Fettuccine, California Grilled Chicken Salad and Fiesta Lime Chicken.
+          </p>
+          <p>
+            The saving is real. Spinach &amp; Artichoke Dip ($10.49), a Classic Bacon Cheeseburger
+            ($14.49) and Fiesta Lime Chicken ($16.49) come to $41.47 off the regular menu. On the deal
+            it&apos;s $25.00, a $16.47 saving. Every entrée choice, calorie counts and the lightest way
+            to order it are on the <Link href="/menu/2-for-25">2 for $25 page</Link>.
+          </p>
+          <p>
+            About the old 2 for $20: it&apos;s gone. The deal is $25 now, and there&apos;s no national
+            2 for $20 running in 2026.
+          </p>
+        </section>
+
+        <section className={styles.clusterSection} id="really-big-meal-deal">
+          <h2>The $9.99 Really BIG Meal Deal</h2>
+          <p>
+            A Big Cluckin&apos; Chicken Sandwich, BIG Classic Bacon Cheeseburger or Big Bangin&apos;
+            Burger, with Classic Fries and a fountain drink, for $9.99. Dine in and the fries and drink
+            refill.
+          </p>
+          <p>
+            It&apos;s the cheapest full meal on the menu. The regular Classic Bacon Cheeseburger with a
+            drink runs $16.78 to $17.48. And for two people who don&apos;t want a starter, two of these
+            cost $19.98 with drinks, which beats the 2 for $25 by $5.02 before you&apos;ve even ordered
+            a soda. <Link href="/menu/really-big-meal-deal">See all three entrées</Link>.
+          </p>
+        </section>
+
         <section className={styles.clusterSection} id="half-price-apps">
-          <h2>Applebee's Half Price Apps: Times and What's Included</h2>
-
-          <div className={styles.answerBlock}>
-            <p>
-              Applebee's half price appetizers run during two windows  mid-afternoon, typically 3:00 PM to 6:00 PM, and late night, typically from 9:00 PM until close. Select appetizers are 50% off during both. Times are set by each location.
-            </p>
-          </div>
-
-          <h3>The two windows</h3>
+          <h2>Half Price Apps</h2>
           <p>
-            <strong>Mid-afternoon (around 3–6 PM):</strong> Quieter, aimed at the after-work crowd. Easiest window to get a table without waiting.
+            3:00 to 6:00 PM and 9:00 PM to close, dine-in only. That puts Mozzarella Sticks at $5.00, a
+            Chicken Quesadilla at $6.00 and Boneless Wings at $6.50. The Chicken Quesadilla is the best
+            of them, with 49g of protein for $6.00.
           </p>
           <p>
-            <strong>Late night (from around 9 PM):</strong> The busier of the two, and the one the promotion is known for. Weekend start times often run later than weekdays.
-          </p>
-
-          <h3>What is not half price</h3>
-          <p>
-            This is where people get caught out. The discount does not cover every appetizer:
-          </p>
-          <ul className={styles.textList}>
-            <li>
-              <strong>Combination platters are excluded:</strong> The Classic Combo  the shareable platter that brings several appetizers together in one order  is not part of the promotion at most locations. It is already priced as a bundle, so discounting it again does not happen.
-            </li>
-            <li>
-              <strong>Premium and seasonal appetizers are usually excluded:</strong> Anything positioned above the core range, or running as a limited-time item, typically sits outside the deal.
-            </li>
-            <li>
-              <strong>What is reliably included:</strong> The core classics. Boneless Wings, Mozzarella Sticks, Chicken Quesadilla, and Spinach & Artichoke Dip are the workhorses of this promotion.
-            </li>
-          </ul>
-
-          <h3>Dine-in versus takeout</h3>
-          <p>
-            Half price appetizers are structured to drive dine-in traffic, and they generally do not carry over to third-party delivery platforms. If you want them, eating in is the reliable route. For <Link href="/takeout">takeout</Link> and <Link href="/delivery">delivery</Link> availability, check with your location directly  some run it for direct orders, none run it through third-party apps.
+            Two half price apps split between two people cost about $11, less than half a 2 for $25.
+            If you&apos;re not hungry enough for entrées, that&apos;s the cheapest way to eat at
+            Applebee&apos;s. Times, the full list and which states ban the drink side are on the{' '}
+            <Link href="/happy-hour">happy hour page</Link>.
           </p>
         </section>
 
-        {/* §4  HAPPY HOUR */}
-        <section className={styles.clusterSection} id="happy-hour">
-          <h2>Applebee's Happy Hour Times and Menu</h2>
-
-          <div className={styles.answerBlock}>
-            <p>
-              Applebee's happy hour runs at participating locations Monday through Friday, generally in an afternoon window around 3:00 PM to 6:00 PM and a late-night window from around 9:00 PM until close. It covers half price appetizers plus discounted drinks.
-            </p>
-          </div>
-
+        <section className={styles.clusterSection} id="cheeseburger-day">
+          <h2>National Cheeseburger Day: $8.99 on September 18</h2>
           <p>
-            Happy hour and half price apps run on the same schedule at most locations  the appetizer discount is one half of happy hour, discounted drinks are the other.
+            For one day, Friday, September 18, 2026, a Classic Burger or Classic Cheeseburger with fries
+            costs $8.99. You can eat in, or order To Go, but To Go has to go through the Applebee&apos;s
+            app or website.
           </p>
           <p>
-            On the drinks side: discounts typically apply to house margaritas, select cocktails, and draft beer. Applebee's also runs periodic promotional drink campaigns at a fixed low price, which appear as limited-time events rather than as standing menu items.
-          </p>
-          <p>
-            Weekend and holiday schedules vary more than weekday ones. Confirm times with your <Link href="/locations">local restaurant</Link> or see the full <Link href="/happy-hour">happy hour page</Link>.
-          </p>
-          <p>
-            Calorie note for anyone tracking: frozen and blended cocktails carry the highest calorie load on the drinks menu, largely from syrups rather than alcohol. Draft light beer is the lowest. Figures on the <Link href="/nutrition">nutrition page</Link>.
+            It&apos;s a dollar cheaper than the Really BIG Meal Deal and doesn&apos;t include a drink.
+            If you&apos;d buy a $2.29 soda anyway, the $9.99 deal is still the better value that day.
           </p>
         </section>
 
-        {/* §5  ALL YOU CAN EAT */}
+        <section className={styles.clusterSection} id="spooky-sips">
+          <h2>$6 Spooky Sips Halloween Drinks</h2>
+          <p>
+            Through November 15, 2026, two cocktails are $6: the Tipsy Zombie, with Bacardí Superior
+            rum, passion fruit, pineapple, cherry and lime, and Dracula&apos;s Juice, with Bacardí,
+            Cuervo Tradicional Blanco and prickly pear. This is the first year with a booze-free
+            option, the $4 Tropical Spell Mocktail, and there&apos;s a Graveyard Dirty Soda topped with
+            OREO cookie crumbles.
+          </p>
+          <p>
+            A regular signature cocktail costs $9.99 to $11.99, so the $6 price saves $4 to $6 a drink.
+            More on the <Link href="/menu/signature-cocktails">cocktail menu</Link>.
+          </p>
+        </section>
+
         <section className={styles.clusterSection} id="all-you-can-eat">
-          <h2>Applebee's All You Can Eat</h2>
-
-          <div className={styles.answerBlock}>
-            <p>
-              Applebee's All You Can Eat is a limited-time promotion offering unlimited refills across a rotating selection  most commonly riblets, boneless wings and shrimp  served with sides. It runs seasonally rather than year-round.
-            </p>
-          </div>
-
-          <h3>How it works</h3>
+          <h2>Applebee&apos;s All You Can Eat</h2>
           <p>
-            The value comes from the mix-and-match structure. You are not locked into refilling the same item. Starting with one and switching on the refill is standard, and refills come with sides included.
+            Applebee&apos;s brought All You Can Eat back on May 11, 2026: unlimited Boneless Wings,
+            Riblets and Double Crunch Shrimp with endless fries for $15.99, dine-in only. It was
+            announced as a summer deal, and we haven&apos;t seen an end date, so call before you plan a
+            night around it.
           </p>
           <p>
-            The promotion is used to drive traffic during slower periods, which means it appears and disappears through the year rather than running permanently. Current status: <Link href="/specials-and-deals">specials and deals</Link>.
-          </p>
-
-          <h3>Getting the most from it</h3>
-          <p>
-            The practical tip is straightforward: sides fill you up faster than the protein does, and the protein is the part you are paying for. Asking for refills without the side, or with a lighter side, leaves more room for the item you actually came for.
-          </p>
-          <p>
-            Riblets and shrimp are the two that most often anchor this promotion. See <Link href="/menu/steaks-and-ribs">steaks and ribs</Link> and <Link href="/menu/seafood">seafood</Link> for the standard menu versions.
+            If it&apos;s running, order the Riblets or shrimp first. The fries fill you up fastest, and
+            they&apos;re the cheapest thing on the plate.
           </p>
         </section>
 
-        {/* §6  LUNCH SPECIALS */}
-        <section className={styles.clusterSection} id="lunch-specials">
-          <h2>Applebee's Lunch Specials</h2>
-
-          <div className={styles.answerBlock}>
-            <p>
-              Applebee's lunch specials are reduced-price midday portions available during lunch hours at participating locations, typically covering sandwiches, salads and lighter entrées at a lower price point than the dinner menu.
-            </p>
-          </div>
-
-          <p>
-            Lunch pricing is one of the most location-dependent parts of the menu. Some restaurants run a dedicated lunch menu with its own combinations; others apply lunch pricing to standard items during set hours. Because Applebee's opens at 11:00 AM and does not serve breakfast, the lunch window starts at opening.
-          </p>
-          <p>
-            If you are comparing midday options, the lunch combinations are usually better value per plate than ordering the same items in the evening  the portion is smaller and the price drop is larger than the portion drop.
-          </p>
-          <p>
-            Check the current lunch offering at your <Link href="/locations">nearest location</Link>, and see the <Link href="/menu">full menu</Link> for standard pricing comparison.
-          </p>
-        </section>
-
-        {/* §7  GETTING MORE VALUE */}
-        <section className={styles.clusterSection} id="how-to-get-more-value">
-          <h2>How to Get the Most from Applebee's Deals</h2>
-
+        <section className={styles.clusterSection} id="more-ways-to-save">
+          <h2>More Ways to Save at Applebee&apos;s</h2>
           <div className={styles.valueTipsGrid}>
             <div className={styles.valueTipCard}>
-              <h3>Gift cards work as cash</h3>
+              <h3>Order To Go through the app</h3>
               <p>
-                Applebee's gift cards are treated as payment, not as a coupon, which means they can be used on promotional items. Warehouse clubs and retailers periodically sell restaurant gift cards below face value. When they do, buying at a discount and spending it on an already-discounted deal compounds the saving  the two do not conflict, because one is a promotion and the other is a payment method. See <Link href="/gift-card-deals">gift cards</Link>.
+                DoorDash and Uber Eats set their own item prices and add fees. Carside To Go through the
+                Applebee&apos;s app charges restaurant prices with no delivery fee. See{' '}
+                <Link href="/takeout">takeout</Link>.
               </p>
             </div>
-
             <div className={styles.valueTipCard}>
-              <h3>Coupons generally do not stack</h3>
+              <h3>Join the email club</h3>
               <p>
-                A promotional item is already discounted, so a second discount on top of it is usually blocked at the register. Use coupons on full-price orders and save the promotions for their own visits.
+                Club Applebee&apos;s is free and sends offers by email. We don&apos;t quote the birthday
+                reward, because its terms vary by restaurant and change from year to year.
               </p>
             </div>
-
             <div className={styles.valueTipCard}>
-              <h3>Join loyalty before sitting down</h3>
+              <h3>Buy discounted gift cards</h3>
               <p>
-                The loyalty programme is worth joining before you sit down. Signing up typically triggers a welcome offer, and it can be done on your phone while waiting to be seated.
+                Gift cards count as payment, not a coupon, so they work on deals. When a warehouse club
+                sells them below face value, that discount stacks on top of the 2 for $25. See{' '}
+                <Link href="/gift-card-deals">gift cards</Link>.
               </p>
             </div>
-
             <div className={styles.valueTipCard}>
-              <h3>Weeknight family promotions</h3>
+              <h3>Swap the drink</h3>
               <p>
-                Reduced-price or free kids meals on specific weeknights are run by individual franchises rather than nationally. Calling and asking directly is the only way to know  it is not published centrally. See the <Link href="/menu/kids-menu">kids menu</Link>.
-              </p>
-            </div>
-
-            <div className={styles.valueTipCard}>
-              <h3>Order direct, not third-party</h3>
-              <p>
-                Menu prices on third-party delivery platforms are usually higher than in-restaurant prices, because platform commission gets built into the listed price. Ordering through Applebee's own <Link href="/delivery">delivery</Link> or <Link href="/takeout">Carside To Go</Link> means paying the restaurant's actual menu price, and promotional deals are far more likely to be honoured.
+                A fountain drink costs $2.29 to $2.99. Water on a 2 for $25 for two saves up to $5.98,
+                which is most of what the Really BIG Meal Deal saves you.
               </p>
             </div>
           </div>
         </section>
 
-        {/* §8  EATING WELL ON THE DEALS */}
-        <section className={styles.clusterSection} id="healthy-deal-options">
-          <h2>Value Menu Options Without the Calorie Load</h2>
+        <section className={styles.clusterSection} id="lunch-specials">
+          <h2>Applebee&apos;s Lunch Specials</h2>
           <p>
-            Value menus lean heavy  fried appetizers and large entrées are inexpensive to produce and satisfying to eat. The deals still work if you are watching what you eat, with a few substitutions:
-          </p>
-          <ul className={styles.textList}>
-            <li>
-              <strong>On the appetizer:</strong> Side salads are often available as a substitution at the shared-appetizer slot. A House Salad is 160 calories against roughly 1,000 for most fried appetizers.
-            </li>
-            <li>
-              <strong>On the entrée:</strong> The sirloin upgrade is the strongest move. The 8 oz. Top Sirloin delivers 55g of protein for 830 calories, the best protein-to-calorie ratio on the menu. Substituting a starch side for steamed broccoli or green beans cuts further.
-            </li>
-            <li>
-              <strong>On the drink:</strong> This is the largest single swing available. Frozen cocktails run into the hundreds of calories from syrup alone; unsweetened iced tea is zero.
-            </li>
-          </ul>
-          <p>
-            Full figures: see our complete guide on <Link href="/nutrition">nutrition and calories</Link>.
+            We couldn&apos;t find a national Applebee&apos;s lunch menu with a set price for 2026.
+            Where lunch combos exist, the franchisee runs them, and they rarely show up online. At
+            lunch, the cheapest full meal you can count on is the $9.99 Really BIG Meal Deal. Call your{' '}
+            <Link href="/locations">restaurant</Link> to ask about local lunch pricing.
           </p>
         </section>
 
-        {/* §9  FAQ */}
         <section className={styles.clusterSection} id="faqs">
-          <h2>Applebee's Deals  Frequently Asked Questions</h2>
+          <h2>Applebee&apos;s Deals FAQs</h2>
           <div className={styles.faqList}>
-            {faqData.map((faq, index) => (
-              <article key={index} className={styles.faqItem}>
+            {faqData.map((faq) => (
+              <article key={faq.question} className={styles.faqItem}>
                 <h3>{faq.question}</h3>
-                <p>
-                  {faq.answer.includes("nearest location") ? (
-                    <>
-                      All You Can Eat runs as a limited-time promotion rather than permanently, appearing during slower parts of the year. Check current availability at your <Link href="/locations">nearest location</Link>.
-                    </>
-                  ) : (
-                    faq.answer
-                  )}
-                </p>
+                <p>{faq.answer}</p>
               </article>
             ))}
           </div>

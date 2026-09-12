@@ -1,24 +1,32 @@
 import Link from 'next/link';
 import styles from './LocationPromo.module.css';
 
+// Restaurant count: Dine Brands Q2 2026 results (quarter ended June 28, 2026):
+// 1,439 franchise + 118 company-owned Applebee's. VERIFY whether the release
+// labels these domestic-only before calling them "US restaurants".
+
 export default function LocationPromo() {
   return (
     <section className={styles.section} id="find-your-location">
-      <h2>Find an Applebee's Near You</h2>
+      <h2>Find an Applebee&apos;s Near You</h2>
       <p>
-        Applebee's operates nearly 1,600 locations across the United States. <strong>Please note that this site is an independent guide and we do not operate any Applebee's restaurants.</strong> 
+        Applebee&apos;s had 1,557 restaurants at the end of June 2026. Franchisees ran 1,439 of
+        them and the company owned 118, according to Dine Brands&apos; second-quarter report. We
+        don&apos;t run any of them.
       </p>
       <p>
-        Because menu items, prices, and specials can differ between independent franchise locations, we recommend checking directly with your local restaurant. If you are looking for the closest Applebee's, want to check if a location is open right now, or need a phone number before heading in, use our location directory.
+        That split explains why the Applebee&apos;s across town can open later, skip weekend happy
+        hour or charge a dollar more for the same burger. Our directory lists 129 restaurants in
+        Indiana, Michigan, New York, Ohio, California and Texas. Search it, then call before you go.
       </p>
       <ul className={styles.featureList}>
-        <li>Find the nearest Applebee's to your current location</li>
-        <li>Check restaurant hours, including holiday schedules</li>
-        <li>Confirm Happy Hour times and local specials for your area</li>
-        <li>Get directions, phone numbers, and ordering options by location</li>
+        <li>129 restaurants across 6 states</li>
+        <li>Search by city, ZIP code or state</li>
+        <li>A direct phone number for every listing</li>
+        <li>One tap for directions</li>
       </ul>
       <Link href="/locations" className={styles.ctaButton}>
-        Find Applebee's Near Me
+        Find Applebee&apos;s Near Me
       </Link>
     </section>
   );

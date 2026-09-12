@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import styles from './Header.module.css';
+import { SITE_NAME } from '@/data/site';
 
 export default function Header() {
   const pathname = usePathname();
@@ -42,10 +43,10 @@ export default function Header() {
   return (
     <header className={styles.header}>
       <Link href="/" className={styles.logo} aria-label="Home" onClick={closeMenu}>
-        <span aria-hidden="true">🍎</span>
+        <span aria-hidden="true">◈</span>
         <div>
-          <strong>Applebee's</strong>
-          <em>MENU</em>
+          <strong>{SITE_NAME}</strong>
+          <em>MENU RESEARCH</em>
         </div>
       </Link>
       
@@ -70,10 +71,10 @@ export default function Header() {
         {/* Mobile Sidebar Header (Logo + Close button placeholder area) */}
         <div className={styles.sidebarHeader}>
           <Link href="/" className={styles.sidebarLogo} aria-label="Home" onClick={closeMenu}>
-            <span aria-hidden="true">🍎</span>
+            <span aria-hidden="true">◈</span>
             <div>
-              <strong>Applebee's</strong>
-              <em>MENU</em>
+              <strong>{SITE_NAME}</strong>
+              <em>MENU RESEARCH</em>
             </div>
           </Link>
           <button 

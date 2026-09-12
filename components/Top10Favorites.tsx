@@ -2,88 +2,100 @@ import Link from 'next/link';
 import Image from 'next/image';
 import styles from './Top10Favorites.module.css';
 
+// Prices and calories match data/menu.ts. Update both together.
+
 export default function Top10Favorites() {
   const top10Items = [
     {
-      id: "fiesta-lime",
-      name: "Fiesta Lime Chicken",
-      description: "Grilled chicken served with Mexi-ranch dressing and Jack-cheddar cheese, with the listed sides and accompaniments.",
-      image: "/apple-bees-menu/applebees-fiesta-lime-chicken-entree.webp",
-      link: "/menu/chicken",
-      cta: "View Fiesta Lime Chicken"
+      id: 'chicken-quesadilla',
+      name: 'Chicken Quesadilla',
+      meta: '$11.99 · 1,170 calories',
+      description:
+        'The best half price app on the menu. At $6.00 during happy hour it carries 49g of protein, more than the Boneless Wings.',
+      image: '/apple-bees-menu/applebees-chicken-quesadilla-appetizer.webp',
+      link: '/menu/appetizers',
     },
     {
-      id: "quesadilla-burger",
-      name: "Quesadilla Burger",
-      description: "A burger served in a quesadilla-style combination with cheese and the item's listed toppings and sauce.",
-      image: "/apple-bees-menu/applebees-quesadilla-burger-signature.webp",
-      link: "/menu/handcrafted-burgers",
-      cta: "View Quesadilla Burger"
+      id: 'quesadilla-burger',
+      name: 'Quesadilla Burger',
+      meta: '$15.99 · 1,620 calories',
+      description:
+        "Applebee's heaviest burger: bacon, Pepper Jack and Mexi-ranch packed between grilled tortillas. It's the base of the new O-M-Cheese-adilla Burger.",
+      image: '/apple-bees-menu/applebees-quesadilla-burger-signature.webp',
+      link: '/menu/handcrafted-burgers',
     },
     {
-      id: "riblets",
+      id: 'top-sirloin',
+      name: '8 oz. Top Sirloin',
+      meta: '$18.99 · 830 calories',
+      description:
+        '55g of protein for 830 calories, the best ratio of any entrée. Swap the side for Steamed Broccoli and the plate stays under 1,000.',
+      image: '/apple-bees-menu/applebees-8oz-top-sirloin-steak-dinner.webp',
+      link: '/menu/steaks-and-ribs',
+    },
+    {
+      id: 'fiesta-lime',
+      name: 'Fiesta Lime Chicken',
+      meta: '$16.49 · 1,190 calories',
+      description:
+        'Grilled chicken under Mexi-ranch and melted cheese, with 61g of protein. It also has 3,630mg of sodium, so ask for the Mexi-ranch on the side.',
+      image: '/apple-bees-menu/applebees-fiesta-lime-chicken-entree.webp',
+      link: '/menu/chicken',
+    },
+    {
+      id: 'riblets',
       name: "Applebee's Riblets",
-      description: "Applebee's riblets are available in the steaks and ribs section, with serving options and sides depending on the menu selection.",
-      image: "/apple-bees-menu/applebees-applewood-smoked-baby-back-ribs.webp",
-      link: "/menu/steaks-and-ribs",
-      cta: "View Riblets"
+      meta: '$17.99 · 1,080 calories',
+      description:
+        'Slow-cooked pork riblets tossed in honey BBQ, with fries and slaw. One of the three proteins on the $15.99 All You Can Eat deal.',
+      image: '/apple-bees-menu/applebees-applewood-smoked-baby-back-ribs.webp',
+      link: '/menu/steaks-and-ribs',
     },
     {
-      id: "chicken-parm",
-      name: "Chicken Parmesan Fettuccine",
-      description: "A pasta entrée combining chicken parmesan with fettuccine and the listed sauce and toppings.",
-      image: "/apple-bees-menu/applebees-broccoli-chicken-alfredo-pasta.webp",
-      link: "/menu/pasta",
-      cta: "View Chicken Parmesan Fettuccine"
+      id: 'chicken-parm',
+      name: 'Chicken Parmesan Fettuccine',
+      meta: '$15.99 · 1,480 calories',
+      description:
+        'Breaded chicken, marinara and mozzarella over fettuccine with a garlic breadstick. It counts as an entrée on the 2 for $25.',
+      image: '/apple-bees-menu/applebees-chicken-parmesan-fettuccine.webp',
+      link: '/menu/new-items',
     },
     {
-      id: "boneless-wings",
-      name: "Boneless Wings",
-      description: "Boneless chicken wings available with Applebee's listed sauce options and accompaniments.",
-      image: "/apple-bees-menu/applebees-boneless-wings-honey-bbq.webp",
-      link: "/menu/appetizers",
-      cta: "View Boneless Wings"
+      id: 'boneless-wings',
+      name: 'Boneless Wings',
+      meta: '$12.99 · 1,080 calories',
+      description:
+        '$6.50 at happy hour. Pick the sauce carefully: Classic Hot Buffalo carries 4,720mg of sodium, Garlic Parmesan 2,710mg.',
+      image: '/apple-bees-menu/applebees-boneless-wings-honey-bbq.webp',
+      link: '/menu/appetizers',
     },
     {
-      id: "spinach-dip",
-      name: "Spinach & Artichoke Dip",
-      description: "A warm spinach and artichoke dip served with tortilla chips.",
-      image: "/apple-bees-menu/applebees-spinach-artichoke-dip-appetizer.webp",
-      link: "/menu/appetizers",
-      cta: "View Spinach & Artichoke Dip"
+      id: 'bourbon-steak',
+      name: 'Bourbon Street Steak',
+      meta: '$19.99 · 1,430 calories',
+      description:
+        'Cajun-seasoned sirloin with mushrooms and onions. The most protein of any steak at 71g, and 3,430mg of sodium to go with it.',
+      image: '/apple-bees-menu/applebees-bourbon-street-steak-dinner.webp',
+      link: '/menu/steaks-and-ribs',
     },
     {
-      id: "bourbon-steak",
-      name: "Bourbon Street Steak",
-      description: "A Bourbon Street-style steak entrée listed in Applebee's steaks and ribs menu.",
-      image: "/apple-bees-menu/applebees-bourbon-street-steak-dinner.webp",
-      link: "/menu/steaks-and-ribs",
-      cta: "View Bourbon Street Steak"
+      id: 'wonton-tacos',
+      name: 'Chicken Wonton Tacos',
+      meta: '$11.49 · 590 calories',
+      description:
+        'The lightest appetizer by a wide margin, about half the calories of anything else in the section.',
+      image: '/apple-bees-menu/applebees-chicken-wonton-tacos-appetizer.webp',
+      link: '/menu/appetizers',
     },
     {
-      id: "wonton-tacos",
-      name: "Chicken Wonton Tacos",
-      description: "Chicken-filled wonton tacos served with the toppings and sauce listed on the current menu.",
-      image: "/apple-bees-menu/applebees-chicken-wonton-tacos-appetizer.webp",
-      link: "/menu/appetizers",
-      cta: "View Chicken Wonton Tacos"
+      id: 'triple-chocolate',
+      name: 'Triple Chocolate Meltdown',
+      meta: '$8.99 · 910 calories',
+      description:
+        'Warm chocolate cake with a molten fudge center and vanilla ice cream. 87g of sugar, so bring a second spoon.',
+      image: '/apple-bees-menu/applebees-triple-chocolate-meltdown-dessert.webp',
+      link: '/menu/desserts',
     },
-    {
-      id: "classic-combo",
-      name: "The Classic Combo",
-      description: "An appetizer combination that brings several Applebee's appetizer choices together in one order.",
-      image: "/apple-bees-menu/applebees-classic-combo-appetizer-trio-platter.webp",
-      link: "/menu/appetizers",
-      cta: "View The Classic Combo"
-    },
-    {
-      id: "oriental-salad",
-      name: "Oriental Chicken Salad",
-      description: "A chicken salad with greens and the toppings and dressing included on the current Applebee's menu.",
-      image: "/apple-bees-menu/applebees-oriental-chicken-salad-bowl.webp",
-      link: "/menu/salads",
-      cta: "View Oriental Chicken Salad"
-    }
   ];
 
   return (
@@ -91,14 +103,15 @@ export default function Top10Favorites() {
       <div className={styles.header}>
         <div className={styles.subtitleWrapper}>
           <span className={styles.line}></span>
-          <span className={styles.subtitleText}>POPULAR MENU PICKS</span>
+          <span className={styles.subtitleText}>WHAT TO ORDER</span>
           <span className={styles.line}></span>
         </div>
         <h2 id="top-10-heading" className={styles.heading}>
-          Popular Applebee's Menu Items
+          Best Things to Order at Applebee&apos;s
         </h2>
         <p className={styles.description}>
-          Browse some of the most searched Applebee's dishes across chicken, burgers, appetizers, pasta, steaks, and salads. Select an item to check its current price, calories, and menu details.
+          Ten dishes, each with its price, calories and the one number that matters before you
+          order it.
         </p>
       </div>
 
@@ -107,9 +120,9 @@ export default function Top10Favorites() {
           <Link href={item.link} key={item.id} className={styles.card}>
             <article>
               <div className={styles.imageWrapper}>
-                <Image 
-                  src={item.image} 
-                  alt={`Applebee's ${item.name}`} 
+                <Image
+                  src={item.image}
+                  alt={`Applebee's ${item.name}`}
                   fill
                   sizes="(max-width: 768px) 100vw, 50vw"
                   style={{ objectFit: 'cover' }}
@@ -117,11 +130,9 @@ export default function Top10Favorites() {
               </div>
               <div className={styles.cardContent}>
                 <h3>{item.name}</h3>
-                <p className={styles.itemDescription}>
-                  {item.description}
-                </p>
+                <p className={styles.itemDescription}>{item.description}</p>
                 <div className={styles.itemMeta}>
-                  <strong>{item.cta}</strong>
+                  <strong>{item.meta}</strong>
                 </div>
               </div>
             </article>

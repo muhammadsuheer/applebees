@@ -1,173 +1,142 @@
 ---
-title: "Applebee's New Menu Items 2026: What's New Right Now"
-h1: "Applebee's New Menu Items: What's Available Right Now"
-description: "Every new Applebee's menu item running now, with launch dates  plus what recently ended and when. Updated monthly."
+title: "Applebee's New Menu Items Fall 2026: O-M-Cheese-adilla Burger & More"
+h1: "Applebee's New Menu Items (Fall 2026)"
+description: "What's new at Applebee's right now: the O-M-Cheese-adilla Burger and O-M-Cheese Chicken Nachos (Aug 31, 2026), $6 Spooky Sips through Nov 15, and which 2026 items have already ended."
 ---
 
-<p style="font-size: 0.95rem; color: #64748b; margin-top: -10px; margin-bottom: 20px; font-weight: 500;">
-  <strong>Last updated:</strong> August 23, 2026
-</p>
+<!--
+Checked September 2026:
+- O-M-Cheese-adilla Burger + O-M-Cheese Chicken Nachos: launched Aug 31, 2026, limited time, dine-in only
+  (Business Wire / Applebee's newsroom; nachos description via The Fast Food Post).
+- Spooky Sips: $6 Tipsy Zombie and Dracula's Juice, $4 Tropical Spell Mocktail, Graveyard Dirty Soda,
+  through 11/15/26 (applebees.com Halloween drinks page).
+- National Cheeseburger Day: $8.99 Classic Burger or Cheeseburger with fries, 9/18/26 only (RestaurantNews.com).
+- All You Can Eat: $15.99, announced May 11, 2026 (Applebee's newsroom).
+VERIFY: Bacon Cheeseburger Wonton Tacos end date (Aug 16, 2026) and Dollarita end date (Jul 31, 2026)
+come from our own tracking, not an Applebee's announcement.
+-->
 
 <div class="answerBlock">
   <p>
-    Applebee's rotates limited-time items through the year alongside its permanent menu. Currently running: the Grilled Cheese Cheeseburger and Chicken Parmesan Fettuccine on the 2 for $25 menu, Crispy Pickle Fries on the Ultimate Trio, and premium Don Julio and Bacardi cocktails. The Bacon Cheeseburger Wonton Tacos ended 16 August 2026 and the Dollarita ended 31 July 2026.
+    The newest items at Applebee's are the O-M-Cheese-adilla Burger and O-M-Cheese Chicken Nachos, both launched August 31, 2026, both dine-in only and both served in a skillet of molten queso. The $6 Spooky Sips cocktails run through November 15. Earlier 2026 additions still on the menu include the Grilled Cheese Cheeseburger and Chicken Parmesan Fettuccine. The $1 Dollarita and Bacon Cheeseburger Wonton Tacos have ended.
   </p>
 </div>
 
-## What's New on the Applebee's Menu Right Now
+## New at Applebee's Right Now
+
+### O-M-Cheese-adilla Burger
+
+![Burger served in a skillet of melted queso with tortilla chips](/apple-bees-menu/applebees-quesadilla-burger-signature.webp)
+
+Take the Quesadilla Burger, with its bacon and Pepper Jack, and set it in a sizzling skillet of molten queso and melted Cheddar. Add white corn tortilla chips topped with more queso, house-made pico and cilantro. That's the O-M-Cheese-adilla Burger.
+
+It launched August 31, 2026 as a limited-time item, and it's one of the entrées on the [2 for $25](/menu/2-for-25). It's dine-in only, which makes sense once you picture a skillet of queso in a to-go box.
+
+My take: the base Quesadilla Burger is already the heaviest burger on the menu at 1,620 calories before the queso skillet. Applebee's hasn't published calories for the skillet version, but order it to share, not as a solo lunch.
+
+### O-M-Cheese Chicken Nachos
+
+The appetizer version of the same idea. White corn tortilla chips topped with chipotle lime chicken, guacamole, sour cream, pico de gallo, jalapeños and cilantro, served in a sizzling skillet of queso and melted Cheddar, with extra chips on the side.
+
+Also launched August 31, 2026, also limited time, also dine-in only. If you're at [happy hour](/happy-hour), ask whether the nachos count as a half price app before you order. Applebee's hasn't said.
+
+### $6 Spooky Sips (through November 15, 2026)
+
+The Halloween drink menu is back, and for the first time it has booze-free options.
+
+- **Tipsy Zombie, $6:** Bacardí Superior rum with passion fruit, pineapple, cherry and lime, topped with gummy brains.
+- **Dracula's Juice, $6:** Bacardí Superior rum, Cuervo Tradicional Blanco, prickly pear and lemon sour.
+- **Tropical Spell Mocktail, $4:** pineapple, passion fruit, cherry, lime and dragon fruit, no alcohol.
+- **Graveyard Dirty Soda:** Mountain Dew with blue raspberry, a creamy swirl, whipped cream, grenadine and OREO cookie crumbles.
+
+You can add a Patrón Silver "Vibe Drop" to either cocktail. At $6, both cocktails cost $4 to $6 less than a regular [signature cocktail](/menu/signature-cocktails).
+
+### National Cheeseburger Day: $8.99 on September 18
+
+One day only. On Friday, September 18, 2026, a Classic Burger or Classic Cheeseburger with fries is $8.99, for dine-in or To Go through the Applebee's app or website. It's a dollar cheaper than the [$9.99 Really BIG Meal Deal](/menu/really-big-meal-deal), though that deal includes a drink.
+
+## Added Earlier in 2026 and Still Available
 
 ### Grilled Cheese Cheeseburger
 
 ![Beef patty with four cheese slices on toasted potato bread with tomato soup](/apple-bees-menu/applebees-grilled-cheese-cheeseburger.webp)
 
-The headline addition, and the details are more specific than most listings give:
-
-An all-beef patty stacked with four slices of American cheese and a sweet and savoury jam, on toasted potato bread rather than a bun  and served with tomato basil soup for dipping.
-
-The soup is the part that makes it work. A grilled cheese with tomato soup is a childhood pairing, and building a burger inside that format is why this reads as more than a novelty. The jam supplies sweetness against four slices of salty cheese.
-
-- **Where to find it:** On the [2 for $25 menu](/menu/2-for-25) as a limited-time entrée, and on the [burgers page](/menu/handcrafted-burgers).
+A beef patty with four slices of American cheese and a sweet and savory jam on toasted potato bread, served with tomato basil soup for dipping. The soup is what makes it more than a gimmick. It's grilled cheese and tomato soup with a burger inside. 1,420 calories, and it's on the [2 for $25](/menu/2-for-25).
 
 ### Chicken Parmesan Fettuccine
 
 ![Breaded chicken parmesan over fettuccine with marinara and mozzarella](/apple-bees-menu/applebees-chicken-parmesan-fettuccine.webp)
 
-Breaded chicken parmesan over fettuccine with marinara and melted mozzarella.
+Breaded chicken, marinara and melted mozzarella over fettuccine, with a garlic breadstick. It's the most ordinary of the 2026 additions, and I'd bet on it outlasting the rest. Every casual chain has a chicken parm for a reason. On the 2 for $25 and the [pasta menu](/menu/pasta).
 
-The most conventional of the new additions, and the one most likely to stay  chicken parmesan is a permanent fixture on most casual dining menus, and Applebee's has not had one in this format.
+### California Grilled Chicken Salad
 
-- **Where to find it:** The [2 for $25 menu](/menu/2-for-25) and the [pasta menu](/menu/pasta).
+Grilled chicken with avocado cucumber salsa, tomatoes, bacon and Parmesan. At 920 calories it's the lightest entrée on the 2 for $25. See [salads](/menu/salads).
 
 ### Crispy Pickle Fries
 
 ![Fried pickle fries with chile lime seasoning and dipping sauce](/apple-bees-menu/applebees-pickle-fries-side.webp)
 
-The one worth ordering if you want something genuinely new:
+Fried pickle fries tossed in TAJÍN and chile lime seasoning, with Mexi-ranch for dipping. 590 calories. Fried pickles aren't new; the TAJÍN is, and it adds a dry, citrusy heat. They're one of the picks on the [Ultimate Trio](/menu/ultimate-trio).
 
-Golden fried pickle fries tossed in TAJÍN and chile lime seasoning, served with Mexi-ranch for dipping.
+### Premium cocktails
 
-Fried pickles are not new; the TAJÍN and chile lime treatment is. It adds acidity and a low, dry heat on top of something already sharp, which is a more interesting build than a standard fried pickle.
+A $10 Mucho Margarita made with Don Julio Reposado and a $6 Bacardí cocktail both arrived over the summer. They're a step up from Applebee's usual price-first drink promotions.
 
-- **Where to find it:** Part of the new [Ultimate Trio](/menu/ultimate-trio) lineup, so it can be one of your three picks. Also available on [sides and appetizers](/menu/sides).
+## 2026 Items That Have Ended
 
-### New Premium Cocktails
+### $1 Dollarita (ended July 31, 2026)
 
-$10 Mucho Margaritas made with Don Julio tequila and a $6 Bacardi rum cocktail, both launched in July 2026.
+The $1 house margarita came back for July 2026 and ended July 31. It has returned in past years through Applebee's drink-of-the-month promotions, and nothing says it won't again. For now, the cheapest featured cocktails are the $6 Spooky Sips.
 
-These sit above the standard [signature cocktails](/menu/signature-cocktails) range, which is a shift  Applebee's drink promotions have historically competed on price rather than on the spirit. Premium tequila at $10 in a Mucho-size glass is a different proposition from a $1 margarita.
+### Bacon Cheeseburger Wonton Tacos (ended August 16, 2026)
 
-*Worth knowing:* These arrived as the Dollarita ended. If you were waiting for the $1 margarita to come back, this is what replaced it for now.
+Seasoned beef, cheddar, Applewood-smoked bacon and pickles with a spicy honey mustard drizzle in a crispy wonton shell. They launched July 13, 2026 as a 2 for $25 starter and lasted about five weeks. A few restaurants may still have them. The regular [Chicken Wonton Tacos](/menu/appetizers) use the same shell and are on the permanent menu.
 
-![Recent additions to the Applebee's menu](/apple-bees-menu/applebees-new-menu-items-2026-category.webp)
+### All You Can Eat (summer 2026)
 
----
+Applebee's brought back All You Can Eat on May 11, 2026: unlimited Boneless Wings, Riblets and Double Crunch Shrimp with endless fries for $15.99, dine-in only. It was billed as a summer deal. Call before you go.
 
-## Applebee's Limited-Time Items That Have Ended
+## How Applebee's Launches New Items
 
-The section nobody else publishes:
+Look at 2026 and a pattern shows. Nearly every new food item arrived attached to the 2 for $25: the Grilled Cheese Cheeseburger, Chicken Parmesan Fettuccine, the wonton tacos and now the O-M-Cheese-adilla Burger. A new item on a deal gets tried more, and the deal gets a reason to be ordered again.
 
-### Bacon Cheeseburger Wonton Tacos  ended 16 August 2026
+The other pattern is the mashup. Grilled cheese plus cheeseburger. Bacon cheeseburger plus wonton taco. Quesadilla burger plus a queso skillet. Applebee's rarely invents a dish from scratch. It combines two things people already order.
 
-Seasoned ground beef, melted cheddar, Applewood-smoked bacon and pickles with a spicy honey mustard drizzle, in Applebee's crispy wonton shell.
+Drinks move faster than food. There was a $1 margarita in July, premium cocktails over the summer, and Halloween drinks from September. Expect the holiday drinks to replace Spooky Sips once November 15 passes.
 
-Launched 13 July 2026 on the 2 for $25 menu and ran for roughly five weeks. It combined two existing fan favourites rather than introducing a new format, which is a pattern Applebee's returns to  so a comeback is plausible.
+## Is It Available at My Applebee's?
 
-- **If you wanted these:** The standard [Chicken Wonton Tacos](/menu/appetizers) use the same shell and remain on the menu permanently.
+Not always. Franchisees run 1,439 of Applebee's 1,557 restaurants, and each decides whether to carry a promotion. Rollouts can also be staggered by a few weeks between markets, and a restaurant can run out before the national end date.
 
-### Dollarita  ended 31 July 2026
-
-The $1 house margarita, Applebee's best-known drink promotion.
-
-It runs as a recurring campaign rather than a permanent price, and it has returned repeatedly since 2017. This run ended on 31 July 2026.
-
-- **What replaced it:** The $10 Don Julio Mucho Margarita and the $6 Bacardi cocktail  a move upmarket rather than a like-for-like replacement.
-- **Will it come back?** It has every time so far. Applebee's drink-of-the-month programme is the vehicle it returns through  see [signature cocktails](/menu/signature-cocktails) and [specials and deals](/specials-and-deals).
-
-### O-M-Cheese Burger  limited edition, still available
-
-Not ended, but flagged. Applebee's has described the O-M-Cheese Burger as a limited-edition item that may leave the menu despite its popularity.
-
-If you have been meaning to try it, that is the situation. Full detail on the [burgers page](/menu/handcrafted-burgers).
-
----
-
-## How Often Does Applebee's Add New Items?
-
-<div class="answerBlock">
-  <p>
-    Applebee's introduces limited-time items throughout the year, typically several times per quarter, with drinks rotating more frequently than food. Most new items launch on the 2 for $25 menu or as promotional bundles rather than as standalone menu additions, and they run for a few weeks to a few months.
-  </p>
-</div>
-
-The patterns worth knowing:
-- **Drinks rotate fastest:** The drink-of-the-month programme changes continuously. Food additions come a few times a year.
-- **New items usually launch attached to a deal:** The Grilled Cheese Cheeseburger, Chicken Parmesan Fettuccine and Bacon Cheeseburger Wonton Tacos all arrived on the 2 for $25 menu rather than as standalone items. That is deliberate  it drives trial of the deal and the item together.
-- **Mashups are the recurring format:** Bacon cheeseburger meets wonton taco. Grilled cheese meets cheeseburger. Applebee's tends to combine two things people already order rather than introduce unfamiliar dishes.
-- **Limited-time does not always mean short:** Some items run five weeks; the Really BIG Meal Deal launched in November 2024 as a limited-time offer and has been extended repeatedly since.
-- **Popular items sometimes stay:** Applebee's has said it rotates new entrées throughout the year tied to limited-time promotions, with strong performers occasionally moving to the permanent menu.
-- **Seasonality:** Lighter and fruit-forward drinks in spring and summer, heavier comfort food in autumn and winter, and value-led promotions in the slower months after the holidays.
-
----
-
-## Upcoming Applebee's Promotions
-
-Two dated events are worth planning around, both annual and both reliable:
-
-- **National Cheeseburger Day  18 September:** Applebee's typically runs a burger promotion around it. Terms change annually and participation varies by location. See [handcrafted burgers](/menu/handcrafted-burgers) and [specials and deals](/specials-and-deals).
-- **Veterans Day  11 November:** Applebee's has offered a free meal to veterans and active-duty military on 11 November for many years, from a limited menu, dine-in, with proof of service.
-- **Autumn Menu Changes:** Typically land between late September and November, and skew towards heavier comfort items.
-
-*Editorial note:* We update this section as announcements are made via Applebee's official newsroom.
-
----
-
-## Is the New Item Available Near Me?
-
-Limited-time items do not always launch everywhere at once. Applebee's restaurants are independently franchised, and rollout of a new item can be staggered.
-
-Three things that vary:
-1. **Whether your location carries it at all:** Most participate in national promotions, but not every location every time.
-2. **When it arrives:** Staggered rollouts mean a few weeks' difference between markets is normal.
-3. **When it ends:** A published end date is the national one. Some locations run out of stock earlier.
-
-The reliable check: check your [local restaurant](/locations) directly, or use the Applebee's app, where the menu shown is the one your selected restaurant actually serves.
-
----
+The Applebee's app is the quickest check. It shows the menu your chosen restaurant is actually serving. Or call through the [location finder](/locations).
 
 ## Frequently Asked Questions
 
-### What are the new items on the Applebee's menu?
-Currently running: the Grilled Cheese Cheeseburger and Chicken Parmesan Fettuccine on the 2 for $25 menu, Crispy Pickle Fries on the Ultimate Trio, and new premium Don Julio and Bacardi cocktails.
+### What's new at Applebee's right now?
+The O-M-Cheese-adilla Burger and O-M-Cheese Chicken Nachos, both launched August 31, 2026 and dine-in only, plus $6 Spooky Sips cocktails through November 15, 2026.
 
-### What is the Applebee's Grilled Cheese Cheeseburger?
-An all-beef patty with four slices of American cheese and a sweet and savoury jam on toasted potato bread, served with tomato basil soup for dipping. It is a limited-time entrée on the 2 for $25 menu.
+### What is the O-M-Cheese-adilla Burger?
+The Quesadilla Burger with bacon and Pepper Jack, served sizzling in a skillet of molten queso and melted Cheddar with tortilla chips, pico and cilantro. It's on the 2 for $25 and dine-in only.
+
+### What are the O-M-Cheese Chicken Nachos?
+Tortilla chips topped with chipotle lime chicken, guacamole, sour cream, pico, jalapeños and cilantro, served in a sizzling skillet of queso and Cheddar with extra chips. Limited time and dine-in only.
+
+### What are Applebee's Halloween drinks in 2026?
+The Spooky Sips: the $6 Tipsy Zombie and Dracula's Juice cocktails, the $4 Tropical Spell Mocktail and the Graveyard Dirty Soda, all through November 15, 2026.
+
+### Is the Dollarita back at Applebee's?
+No. It ran in July 2026 and ended July 31. It has come back in past years, so watch for it.
 
 ### Are the Bacon Cheeseburger Wonton Tacos still available?
-No. They launched on 13 July 2026 and ended on 16 August 2026. The standard Chicken Wonton Tacos remain on the permanent appetizer menu.
+They ended in mid-August 2026 at most restaurants. The Chicken Wonton Tacos, with the same shell, are still on the menu.
 
-### Is the Dollarita still available?
-No. That run ended on 31 July 2026. The Dollarita returns as a recurring promotion rather than a permanent price, so it may come back  the current featured drinks are the $10 Don Julio Mucho Margarita and a $6 Bacardi cocktail.
-
-### What are Applebee's Crispy Pickle Fries?
-Golden fried pickle fries tossed in TAJÍN and chile lime seasoning, served with Mexi-ranch for dipping. They are part of the new Ultimate Trio lineup, so they can be one of your three appetizer picks.
+### Does Applebee's have a National Cheeseburger Day deal in 2026?
+Yes. On September 18, 2026 only, a Classic Burger or Classic Cheeseburger with fries costs $8.99, dine-in or To Go through the app or website.
 
 ### How often does Applebee's add new menu items?
-Several times per quarter, with drinks rotating faster than food. New items usually launch attached to the 2 for $25 menu or a promotional bundle, and run from a few weeks to several months.
+In 2026, new food arrived roughly every two to three months, usually on the 2 for $25, and drinks changed almost monthly.
 
-### Do Applebee's limited-time items become permanent?
-Sometimes. Applebee's rotates new entrées throughout the year tied to promotions, and strong performers occasionally move to the permanent menu. The O-M-Cheese Burger remains a limited edition and may be withdrawn.
+## Where These Items Live on the Menu
 
-### Is the new item available at my Applebee's?
-Not always immediately. Rollouts can be staggered across markets and participation is decided by each franchise. Checking with your local restaurant or the Applebee's app is the reliable route.
-
-### What new Applebee's items are coming?
-National Cheeseburger Day falls on 18 September and Applebee's typically runs a burger promotion around it. Veterans Day on 11 November brings the annual free meal offer for veterans and active-duty military.
-
----
-
-## Related Menu Categories
-
-- **The Primary Launch Deal:** The deal most new items launch on, see [2 for $25](/menu/2-for-25).
-- **Core Category Lineups:** The categories current additions belong to: [burgers](/menu/handcrafted-burgers), [pasta](/menu/pasta), [Ultimate Trio](/menu/ultimate-trio) and [signature cocktails](/menu/signature-cocktails).
-- **Current Deals & Offers:** Every promotion running now, visit [specials and deals](/specials-and-deals).
-- Return to the [full menu](/menu).
+The deal most new items launch on is the [2 for $25](/menu/2-for-25). The permanent versions sit in [burgers](/menu/handcrafted-burgers), [pasta](/menu/pasta) and the [Ultimate Trio](/menu/ultimate-trio). Every current offer, with end dates, is on [specials and deals](/specials-and-deals).

@@ -19,7 +19,7 @@ export default function MenuBurgers() {
             <h3 className={styles.cardTitle}>The Quesadilla Burger</h3>
             <span className={styles.cardCalories}>Approx. 1,060 Cals</span>
             <p className={styles.cardDescription}>
-              A structural masterpiece that defies traditional culinary boundaries. This iconic item abandons the standard brioche bun entirely, replacing it with two warm, pepper-jack and cheddar-stuffed flour tortillas. Inside this cheesy fortress lies a juicy beef patty, fresh pico de gallo, crisp shredded lettuce, and a heavy drizzle of proprietary Mexi-ranch sauce. It is chaotic, messy, and absolutely brilliant.
+              A structural masterpiece that defies traditional culinary boundaries. This iconic item abandons the standard brioche bun entirely, replacing it with two warm, pepper-jack and cheddar-stuffed flour tortillas. Inside this cheesy fortress lies a juicy beef patty, fresh pico de gallo, crisp shredded lettuce, and a heavy drizzle of proprietary Mexi-ranch sauce. It&apos;s chaotic, messy, and absolutely brilliant.
             </p>
             <p className={styles.cardHistory}>
               <strong>The Architecture:</strong> The tortillas are pressed on the flat top just long enough to melt the cheese, effectively fusing the structure together to prevent the burger from disintegrating while eating.

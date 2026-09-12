@@ -3,16 +3,19 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Breadcrumb from '@/components/Breadcrumb';
 import styles from '@/components/LegalHero.module.css';
-import { PrivacyPolicyContent } from '@/components/LegalSections';
+import { CookiePolicyContent } from '@/components/LegalSections';
+
+const TITLE = 'Cookie Policy | Menu Almanac';
+const DESCRIPTION = 'The cookies Google Analytics and Google AdSense set on Menu Almanac, what each one does, how long it lasts, and how to turn them off.';
 
 export const metadata: Metadata = {
-  title: 'Cookie Policy | Applebee\'s Menu Info',
-  description: 'Our Cookie Policy and how we use data.',
+  title: TITLE,
+  description: DESCRIPTION,
   alternates: {
-    canonical: 'https://applebees-menus.us/privacy-policy',
+    canonical: 'https://applebees-menus.us/cookies',
   },
   openGraph: {
-    siteName: "Applebee's Menu Information",
+    siteName: "Menu Almanac",
     images: [
       {
         url: '/og/og-legal.webp',
@@ -33,8 +36,8 @@ export default function CookiesPage() {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Cookie Policy | Applebee's Menu Info",
-    "description": "Our Cookie Policy and how we use data.",
+    "name": TITLE,
+    "description": DESCRIPTION,
     "url": "https://applebees-menus.us/cookies"
   };
 
@@ -48,9 +51,9 @@ export default function CookiesPage() {
       <Breadcrumb items={[{ label: 'Cookies', href: '/cookies' }]} />
       <section className={styles.hero}>
         <h1>Cookie Policy</h1>
-        <p>Information on how we use cookies and tracking technologies.</p>
+        <p>Which cookies this site uses, what they do, and how to control them.</p>
       </section>
-      <PrivacyPolicyContent />
+      <CookiePolicyContent />
       <Footer />
     </main>
   );

@@ -49,7 +49,7 @@ export default function LocationSearch({ locationsData }: LocationSearchProps) {
         <p className={styles.searchSub}>Search by ZIP code, city, or filter by state below.</p>
         
         <div className={styles.searchInputWrapper}>
-          <span className={styles.searchIcon}>🔍</span>
+          <span className={styles.searchIcon} aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round"><circle cx="11" cy="11" r="7" /><path d="m20 20-3.5-3.5" /></svg></span>
           <input
             type="text"
             className={styles.searchInput}
@@ -98,14 +98,14 @@ export default function LocationSearch({ locationsData }: LocationSearchProps) {
                 <div key={idx} className={styles.locationCard}>
                   <div className={styles.cardTop}>
                     <span className={styles.cityBadge}>{loc.city}</span>
-                    <span className={styles.openBadge}>Open Today: 11 AM – 11 PM</span>
+                    <span className={styles.openBadge}>Call for today&apos;s hours</span>
                   </div>
                   
                   <p className={styles.address}>{loc.address}</p>
                   
                   <div className={styles.cardActions}>
                     <a href={`tel:${loc.phone.replace(/\D/g, '')}`} className={styles.phoneBtn} title="Call this location">
-                      📞 {loc.phone}
+                      Call {loc.phone}
                     </a>
                     <a 
                       href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(loc.address)}`} 
@@ -114,7 +114,7 @@ export default function LocationSearch({ locationsData }: LocationSearchProps) {
                       className={styles.directionsBtn}
                       title="Open in Google Maps"
                     >
-                      🧭 Get Directions
+                      Get directions
                     </a>
                   </div>
                 </div>

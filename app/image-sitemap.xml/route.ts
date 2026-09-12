@@ -28,8 +28,8 @@ export async function GET() {
     lastmod: '2026-08-20',
     images: [
       {
-        loc: `${baseUrl}/logo.png`,
-        title: "Applebee's Menu Guide Logo",
+        loc: `${baseUrl}/web-app-manifest-512x512.png`,
+        title: "Menu Almanac logo",
         caption: "Independent guide to Applebee's menu prices, calories, and specials"
       },
       {
@@ -92,7 +92,7 @@ export async function GET() {
       itemImages.push({
         loc: `${baseUrl}${cat.image}`,
         title: `Applebee's ${cat.title} Menu`,
-        caption: `Full selection of Applebee's ${cat.title} items with verified prices and calorie counts`
+        caption: `Full selection of Applebee's ${cat.title} items with reference prices and calorie counts`
       });
     }
 

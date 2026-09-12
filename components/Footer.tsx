@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import styles from './Footer.module.css';
+import { SITE_NAME, SITE_EMAIL, DISCLAIMER_SHORT } from '@/data/site';
 
 export default function Footer() {
   return (
@@ -13,7 +14,7 @@ export default function Footer() {
             <li><Link href="/delivery">Delivery</Link></li>
             <li><Link href="/locations">Restaurant List</Link></li>
             <li><Link href="/nutrition">Nutrition & Allergens</Link></li>
-            <li><Link href="/careers">Applebee's Careers</Link></li>
+            <li><Link href="/careers">Working at Applebee&apos;s</Link></li>
           </ul>
         </div>
 
@@ -38,27 +39,25 @@ export default function Footer() {
         </div>
 
         <div className={styles.logoColumn}>
-          <Link href="/" aria-label="Applebee's Home">
-            <span aria-hidden="true">🍎</span>
+          <Link href="/" aria-label={`${SITE_NAME} home`}>
+            <span aria-hidden="true">◈</span>
             <div>
-              <strong>Applebee's</strong>
-              <em>MENU</em>
+              <strong>{SITE_NAME}</strong>
+              <em>MENU RESEARCH</em>
             </div>
           </Link>
         </div>
         
       </nav>
 
+      <p className={styles.disclaimer}>{DISCLAIMER_SHORT}</p>
+
       <div className={styles.bottomRow}>
         <p>
-          applebees-menus.us © All Rights Are Reserved "2026"
+          &copy; 2026 {SITE_NAME}. All rights reserved.
         </p>
-        <ul aria-label="Social Media Links">
-          <li><a href="https://twitter.com" aria-label="Twitter">X</a></li>
-          <li><a href="https://instagram.com" aria-label="Instagram">In</a></li>
-          <li><a href="mailto:contact@applebees-menus.us" aria-label="Email">✉</a></li>
-          <li><a href="https://pinterest.com" aria-label="Pinterest">P</a></li>
-          <li><a href="https://tiktok.com" aria-label="TikTok">Tk</a></li>
+        <ul aria-label="Contact">
+          <li><a href={`mailto:${SITE_EMAIL}`}>{SITE_EMAIL}</a></li>
         </ul>
       </div>
     </footer>

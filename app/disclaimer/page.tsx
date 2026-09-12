@@ -6,13 +6,13 @@ import styles from '@/components/LegalHero.module.css';
 import { DisclaimerContent } from '@/components/LegalSections';
 
 export const metadata: Metadata = {
-  title: 'Disclaimer | Applebee\'s Menu Info',
-  description: 'Legal disclaimer. We are an independent informational resource and are not officially affiliated with Applebee\'s or Dine Brands Global.',
+  title: 'Disclaimer | Menu Almanac',
+  description: 'Legal disclaimer. We\'re an independent informational resource and aren\'t officially affiliated with Applebee\'s or Dine Brands Global.',
   alternates: {
     canonical: 'https://applebees-menus.us/disclaimer',
   },
   openGraph: {
-    siteName: "Applebee's Menu Information",
+    siteName: "Menu Almanac",
     images: [
       {
         url: '/og/og-legal.webp',
@@ -33,8 +33,8 @@ export default function DisclaimerPage() {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Disclaimer | Applebee's Menu Info",
-    "description": "Legal disclaimer. We are an independent informational resource and are not officially affiliated with Applebee's or Dine Brands Global.",
+    "name": "Disclaimer | Menu Almanac",
+    "description": "Legal disclaimer. We're an independent informational resource and aren't officially affiliated with Applebee's or Dine Brands Global.",
     "url": "https://applebees-menus.us/disclaimer"
   };
 
@@ -48,7 +48,7 @@ export default function DisclaimerPage() {
       <Breadcrumb items={[{ label: 'Disclaimer', href: '/disclaimer' }]} />
       <section className={styles.hero}>
         <h1>Legal Disclaimer</h1>
-        <p>We are an independent resource. Prices and availability are estimates and may vary by location.</p>
+        <p>We&apos;re an independent resource. Prices and availability are estimates and may vary by location.</p>
       </section>
       <DisclaimerContent />
       <Footer />

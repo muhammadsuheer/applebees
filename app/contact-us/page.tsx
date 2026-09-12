@@ -6,15 +6,15 @@ import styles from '@/components/LegalHero.module.css';
 import ContactForm from '@/components/ContactForm';
 
 export const metadata: Metadata = {
-  title: 'Contact Us | Applebee\'s Menu Info',
-  description: 'Get in touch with the Applebee\'s Menu Editorial Team for inquiries, price corrections, DMCA notices, or advertising.',
+  title: 'Contact Us | Menu Almanac',
+  description: 'Email Menu Almanac with a price or nutrition correction, a question about the site, or a copyright notice.',
   alternates: {
     canonical: 'https://applebees-menus.us/contact-us',
   },
   openGraph: {
-    title: 'Contact Us | Applebee\'s Menu Info',
-    description: 'Get in touch with the Applebee\'s Menu Editorial Team for inquiries, price corrections, DMCA notices, or advertising.',
-    siteName: "Applebee's Menu Information",
+    title: 'Contact Us | Menu Almanac',
+    description: 'Email Menu Almanac with a price or nutrition correction, a question about the site, or a copyright notice.',
+    siteName: "Menu Almanac",
     images: [
       {
         url: '/og/og-contact-us.webp',
@@ -27,8 +27,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Contact Us | Applebee\'s Menu Info',
-    description: 'Get in touch with the Applebee\'s Menu Editorial Team for inquiries, price corrections, DMCA notices, or advertising.',
+    title: 'Contact Us | Menu Almanac',
+    description: 'Email Menu Almanac with a price or nutrition correction, a question about the site, or a copyright notice.',
     images: ['/og/og-contact-us.webp'],
   }
 };
@@ -37,8 +37,8 @@ export default function ContactPage() {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "ContactPage",
-    "name": "Contact Us | Applebee's Menu Info",
-    "description": "Get in touch with the Applebee's Menu Editorial Team for inquiries, price corrections, DMCA notices, or advertising.",
+    "name": "Contact Us | Menu Almanac",
+    "description": "Email Menu Almanac with a price or nutrition correction, a question about the site, or a copyright notice.",
     "url": "https://applebees-menus.us/contact-us"
   };
 

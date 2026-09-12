@@ -1,227 +1,159 @@
 ---
-title: "Applebee's Pasta Menu: Prices, Calories & Protein (2026)"
-description: "Applebee's pasta menu with prices and calories  Four Cheese Mac & Cheese, Three-Cheese Chicken Penne, Chicken Alfredo and Chicken Parmesan Fettuccine."
+title: "Applebee's Pasta Menu 2026: Prices, Calories & Chicken Parmesan Fettuccine"
+h1: "Applebee's Pasta: Prices and Calories"
+description: "Applebee's pasta costs $15.99 to $17.49 and runs 1,350 to 1,480 calories. Three-Cheese Chicken Penne has 77g of protein, the most on the menu, and Chicken Parmesan Fettuccine is on the 2 for $25."
 ---
+
+<!--
+Checked September 2026. Prices and calories: data/menu.ts.
+Macros for Three-Cheese Chicken Penne and Four Cheese Mac & Cheese: data/nutrition.ts.
+We have no published macros for Classic Broccoli Chicken Alfredo or Chicken Parmesan Fettuccine, so none are stated.
+-->
 
 <div class="answerBlock">
   <p>
-    Applebee's pasta dishes cost between $15.99 and $17.49 and run 1,350 to 1,410 calories, all served with a garlic breadstick. This is the highest-protein category on the menu  the Three-Cheese Chicken Penne delivers 77g, more than any other item Applebee's serves. It also carries 40g of saturated fat, the highest figure on the menu.
+    Applebee's has four pasta dishes, $15.99 to $17.49 and 1,350 to 1,480 calories. The Three-Cheese Chicken Penne has 77g of protein, more than any other item on the menu, and also 40g of saturated fat, twice the Daily Value. Chicken Parmesan Fettuccine is the one to get on the 2 for $25. Pasta is also the best thing on the menu to take home.
   </p>
 </div>
 
-## What's on Applebee's Pasta Menu
-
-Pasta at Applebee's is the category with the most extreme numbers on the menu  in both directions:
-
-- **It has the highest-protein dish Applebee's serves.** The Three-Cheese Chicken Penne delivers 77g of protein, ahead of every steak on the menu. That is not what most people expect from a pasta section.
-- **It also has the highest saturated fat and the highest carbohydrate.** The same penne carries 40g of saturated fat, roughly double an adult's recommended daily limit in one bowl. The Four Cheese Mac carries 160g of carbohydrate, the most of any item Applebee's serves.
-- **Sugar is the hidden figure.** The Four Cheese Mac with Honey Pepper Chicken carries 44g of sugar  more than most items on the [dessert menu](/menu/desserts). It comes from the honey pepper glaze on the chicken tenders, not the pasta.
-- **Serving format:** All pasta entrées come with a warm garlic breadstick. Fresh side salads can be added to balance the meal.
-
-![Selection of pasta dishes in cream and cheese sauces](/apple-bees-menu/applebees-pasta-dishes-menu-category.webp)
-
----
-
-## Pasta Dishes Comparison: Calories, Prices & Macros
+## Applebee's Pasta Prices and Calories
 
 <div class="tableCard">
   <div class="tableResponsive">
     <table class="customTable">
-      <caption>Applebee's pasta dishes  prices, calories and macros, sorted by calories</caption>
+      <caption>Applebee's pasta dishes, sorted by calories</caption>
       <thead>
         <tr>
-          <th scope="col">Dish</th>
-          <th scope="col" style="text-align: center;">Calories</th>
-          <th scope="col" style="text-align: center;">Price</th>
-          <th scope="col" style="text-align: center;">Protein</th>
-          <th scope="col" style="text-align: center;">Sat Fat</th>
-          <th scope="col" style="text-align: center;">Carbs</th>
-          <th scope="col" style="text-align: center;">Sugar</th>
-          <th scope="col" style="text-align: center;">Sodium</th>
+          <th scope="col">Pasta</th>
+          <th scope="col" style="text-align: right;">Price</th>
+          <th scope="col" style="text-align: right;">Calories</th>
+          <th scope="col" style="text-align: right;">Protein</th>
+          <th scope="col" style="text-align: right;">Sat fat</th>
+          <th scope="col" style="text-align: right;">Carbs</th>
+          <th scope="col" style="text-align: right;">Sodium</th>
         </tr>
       </thead>
       <tbody>
         <tr>
           <th scope="row"><strong>Three-Cheese Chicken Penne</strong></th>
-          <td style="text-align: center;">1,350</td>
-          <td style="text-align: center; font-weight: 700; color: #c8102e;">$15.99</td>
-          <td style="text-align: center; font-weight: 700; color: #166534;">77g</td>
-          <td style="text-align: center;">40g</td>
-          <td style="text-align: center;">102g</td>
-          <td style="text-align: center;">12g</td>
-          <td style="text-align: center;">2,720mg</td>
+          <td style="text-align: right;">$15.99</td>
+          <td style="text-align: right;">1,350</td>
+          <td style="text-align: right;">77g</td>
+          <td style="text-align: right;">40g</td>
+          <td style="text-align: right;">102g</td>
+          <td style="text-align: right;">2,720mg</td>
         </tr>
         <tr>
-          <th scope="row"><strong>Four Cheese Mac & Cheese with Honey Pepper Chicken</strong></th>
-          <td style="text-align: center;">1,360</td>
-          <td style="text-align: center; font-weight: 700; color: #c8102e;">$17.49</td>
-          <td style="text-align: center;">55g</td>
-          <td style="text-align: center;">19g</td>
-          <td style="text-align: center; font-weight: 700; color: #b45309;">160g</td>
-          <td style="text-align: center; font-weight: 700; color: #b45309;">44g</td>
-          <td style="text-align: center;">3,300mg</td>
-        </tr>
-        <tr>
-          <th scope="row"><strong>Chicken Parmesan Fettuccine</strong></th>
-          <td style="text-align: center;">1,390</td>
-          <td style="text-align: center; font-weight: 700; color: #c8102e;">$16.99</td>
-          <td style="text-align: center;">64g</td>
-          <td style="text-align: center;">24g</td>
-          <td style="text-align: center;">118g</td>
-          <td style="text-align: center;">14g</td>
-          <td style="text-align: center;">2,890mg</td>
+          <th scope="row"><strong>Four Cheese Mac &amp; Cheese with Honey Pepper Chicken</strong></th>
+          <td style="text-align: right;">$17.49</td>
+          <td style="text-align: right;">1,360</td>
+          <td style="text-align: right;">55g</td>
+          <td style="text-align: right;">19g</td>
+          <td style="text-align: right;">160g</td>
+          <td style="text-align: right;">3,300mg</td>
         </tr>
         <tr>
           <th scope="row"><strong>Classic Broccoli Chicken Alfredo</strong></th>
-          <td style="text-align: center;">1,410</td>
-          <td style="text-align: center; font-weight: 700; color: #c8102e;">$16.49</td>
-          <td style="text-align: center;">58g</td>
-          <td style="text-align: center;">32g</td>
-          <td style="text-align: center;">95g</td>
-          <td style="text-align: center;">8g</td>
-          <td style="text-align: center;">2,640mg</td>
+          <td style="text-align: right;">$16.49</td>
+          <td style="text-align: right;">1,410</td>
+          <td style="text-align: right;">n/a</td>
+          <td style="text-align: right;">n/a</td>
+          <td style="text-align: right;">n/a</td>
+          <td style="text-align: right;">n/a</td>
+        </tr>
+        <tr>
+          <th scope="row"><strong>Chicken Parmesan Fettuccine</strong></th>
+          <td style="text-align: right;">$15.99</td>
+          <td style="text-align: right;">1,480</td>
+          <td style="text-align: right;">n/a</td>
+          <td style="text-align: right;">n/a</td>
+          <td style="text-align: right;">n/a</td>
+          <td style="text-align: right;">n/a</td>
         </tr>
       </tbody>
     </table>
   </div>
 </div>
 
-### Reading the table
+All four sit within 130 calories of each other, so calories won't help you choose. The macros will. Prices are reference figures, and your restaurant sets its own.
 
-- **The Three-Cheese Chicken Penne is the highest-protein item on the entire Applebee's menu at 77g**  more than the Bourbon Street Steak's 71g and the 8 oz. Top Sirloin's 55g. For anyone eating for protein, this is the unexpected answer.
-- **The same dish carries the highest saturated fat on the menu at 40g.** That is the trade, and it is worth stating plainly: 56% of its total fat is saturated, which is unusual even for a cream sauce.
-- **The Four Cheese Mac is the carbohydrate and sugar outlier:** 160g of carbohydrate and 44g of sugar  the sugar comes entirely from the honey pepper glaze on the chicken tenders, not from the pasta noodles. Anyone tracking sugar would not expect a mac and cheese to out-sugar a dessert brownie.
-- **Calories are almost identical across the category:** 1,350 to 1,410  a narrow 60-calorie spread. The dishes differ far more in their macro composition than in their total, which is the useful thing to know when choosing between them.
+## Which Applebee's Pasta to Order
 
-Full macros and allergens: see our [nutrition and calories](/nutrition) reference guide.
+**For protein, the Three-Cheese Chicken Penne.** 77g is more than the Bourbon Street Steak (71g) and the 8 oz. Top Sirloin (55g). Nobody walks into Applebee's expecting the pasta to beat the steaks on protein, and it does.
 
----
+**Unless saturated fat matters to you.** The same penne has 40g, twice the 20g Daily Value, and 56% of its 71g of fat is saturated. If your doctor has mentioned cholesterol, order anything else on this page.
 
-## Detailed Pasta Dish Breakdowns
+**For the best deal, Chicken Parmesan Fettuccine on the 2 for $25.** It's $15.99 on its own, and it's one of the entrées on the [2 for $25](/menu/2-for-25), where it comes with a second entrée and an appetizer.
+
+**Watch the Four Cheese Mac if you track sugar.** 44g of sugar and 160g of carbohydrate, the most carbs of any item in our data. That's more sugar than the Brownie Bite dessert.
+
+## Every Applebee's Pasta Dish
 
 ### Three-Cheese Chicken Penne
 
 ![Penne in three-cheese cream sauce with grilled chicken and tomatoes](/apple-bees-menu/applebees-three-cheese-chicken-penne-pasta.webp)
 
-The highest-protein dish on the Applebee's menu.
+Penne in a three-cheese cream sauce, topped with grilled chicken and bruschetta tomatoes. The tomatoes matter. Without their acid, a three-cheese cream sauce is one note from the first bite to the last.
 
-Penne pasta tossed in a rich Parmesan cream sauce built on Asiago, Parmesan, and white Cheddar cheeses, topped with grilled chicken breast and fresh bruschetta tomatoes. The tomatoes are structural rather than decorative  their natural acidity is what keeps a three-cheese cream sauce from feeling one-dimensional.
+- **$15.99** · 1,350 calories · 77g protein · 40g saturated fat · 2,720mg sodium · contains milk, wheat and soy
 
-**On the numbers:** 77g of protein is more than any steak, chicken dish, or burger on the menu. The counterweight is 40g of saturated fat, the highest figure Applebee's publishes for any item, along with 315mg of cholesterol.
-
-If protein is your primary goal and saturated fat is not a constraint, this is the most efficient order on the menu. If saturated fat is a constraint, it is the one to avoid.
-
-- **Price & Nutrition:** $15.99 · 1,350 calories · 77g protein · contains milk, wheat and soy
-
-### Four Cheese Mac & Cheese with Honey Pepper Chicken
+### Four Cheese Mac &amp; Cheese with Honey Pepper Chicken
 
 ![Four-cheese penne topped with glazed chicken tenders and bacon](/apple-bees-menu/applebees-four-cheese-mac-and-cheese-with-honey-pepper-chicken.webp)
 
-The most-searched mac and cheese on the menu, and the sugar outlier.
+Four-cheese mac and cheese topped with crispy chicken tenders in a honey pepper glaze, and bacon. Sweet glaze against a salty cheese sauce is the whole idea. It's the most expensive pasta at $17.49, and at 3,300mg it has the most sodium of the four we have figures for.
 
-Four-cheese penne mac and cheese topped with crispy chicken tenders tossed in honey pepper glaze, finished with Applewood-smoked bacon. The dish exists because two popular items were combined  the honey pepper preparation is now more prominent here than as a standalone plate.
-
-The honey pepper glaze is what makes it work: sweet honey against a heavy, salty cheese sauce. It is also where 44g of the dish's sugar originates, along with much of its 3,300mg of sodium.
-
-At **160g of carbohydrate**, this is the highest-carb item Applebee's serves. Worth knowing for anyone managing blood sugar  the combination of high carbohydrate and high sugar in one dish is unusual on a savoury menu.
-
-- **Price & Nutrition:** $17.49 · 1,360 calories · 55g protein · contains milk, wheat and soy
+- **$17.49** · 1,360 calories · 55g protein · 160g carbs · 44g sugar · 3,300mg sodium · contains milk, wheat and soy
 
 ### Classic Broccoli Chicken Alfredo
 
 ![Fettuccine alfredo with grilled chicken and broccoli florets](/apple-bees-menu/applebees-broccoli-chicken-alfredo-pasta.webp)
 
-The traditional order, and the only pasta dish with a vegetable built in.
+Grilled chicken over fettuccine with broccoli in Alfredo sauce, finished with Parmesan. It's the only pasta with a vegetable built in, and the broccoli's slight bitterness breaks up an otherwise uniformly rich bowl.
 
-Grilled chicken breast sliced over fettuccine tossed with fresh broccoli florets in a velvety Alfredo sauce, finished with shaved Parmesan cheese. Alfredo is a pure emulsion of heavy cream, butter, and Parmesan, seasoned with garlic.
-
-The broccoli does real work here beyond nutrition: its slight bitterness and firmer texture break up what would otherwise be a uniformly soft, rich bowl.
-
-- **Price & Nutrition:** $16.49 · 1,410 calories · 58g protein · contains milk, wheat and soy
+- **$16.49** · 1,410 calories
 
 ### Chicken Parmesan Fettuccine
 
-The largest search cluster in this category, at 4,500 monthly search volume across three variants.
+![Breaded chicken parmesan over fettuccine with marinara and mozzarella](/apple-bees-menu/applebees-chicken-parmesan-fettuccine.webp)
 
-Breaded crispy chicken cutlet smothered in warm marinara sauce and melted mozzarella cheese, served over a generous bed of fettuccine pasta with a garlic breadstick. It is the classic Italian-American comfort dish that casual dining guests seek most frequently.
+Breaded chicken with marinara and melted mozzarella over fettuccine, with a garlic breadstick. Added in 2026, it's the heaviest pasta at 1,480 calories and, tied with the penne, the cheapest at $15.99. It's also the one on the 2 for $25.
 
-- **Price & Nutrition:** $16.99 · ~1,390 calories · 64g protein · contains milk, wheat and soy
+- **$15.99** · 1,480 calories
 
----
+## Why Pasta Is the Best Takeout Order
 
-## How to Order Applebee's Pasta
+If you're taking Applebee's home, get pasta. Sauce holds heat, there's no crispy coating to steam soft in the box, and it reheats properly: a splash of milk or water in a pan over low heat brings a split cream sauce back. Fries, wings and anything battered can't do that.
 
-- **For a lighter plate:** Sauce on the side is not practical with baked or tossed pasta, so the useful adjustments are elsewhere: adding a crisp side salad displaces some of the heavy pasta, and the Broccoli Chicken Alfredo has fresh greens already built into the bowl.
-- **Going meatless:** Ordering any pasta without chicken or bacon turns these into cheese-forward vegetarian dishes. The Four Cheese Mac without tenders removes most of the sugar along with the protein, since the honey glaze goes with the chicken.
-- **Protein swaps:** Blackened or grilled shrimp can replace chicken on cream-sauce dishes for an additional charge. See our [seafood](/menu/seafood) guide for macro differences.
-- **Portion size:** Applebee's does not run half-portions on the standard dinner menu. Lunch combinations at participating restaurants pair a smaller pasta portion with a soup or salad  see [specials and deals](/specials-and-deals).
-- **Salad pairings:** Adding an acidic, cold salad alongside a heavy cream bowl balances the texture and richness. See our [salads](/menu/salads) section.
-
----
+The one weak spot is the breadstick. Eat it in the car, or crisp it in a toaster oven. More on [Carside To Go](/takeout).
 
 ## Dietary Notes
 
-- **Highest protein on the entire menu:** Three-Cheese Chicken Penne, 77g.
-- **Highest saturated fat on the entire menu:** Three-Cheese Chicken Penne, 40g.
-- **Highest carbohydrate on the entire menu:** Four Cheese Mac & Cheese, 160g.
-- **Highest sugar in a savoury dish:** Four Cheese Mac & Cheese, 44g.
-- **Vegetarian:** All pasta dishes can be ordered without meat, becoming rich vegetarian meals. None are vegan  every pasta sauce is dairy-based.
-- **Gluten:** All pasta dishes contain wheat. Applebee's does not operate a certified gluten-free kitchen and there is no gluten-free pasta noodle alternative available.
-- **Allergens:** Milk, wheat, and soy across all pasta offerings.
-
-Full allergen data: see our [nutrition and allergens](/nutrition) guide.
-
----
-
-## Pasta Is the Best Takeout Order on the Menu
-
-Of everything Applebee's serves, pasta travels best  and it is worth saying directly, because most diners assume fried food or sandwiches are safer choices:
-
-- **Cream sauce insulates:** A cream-sauced pasta bowl holds heat longer than a plate of french fries or a burger, and there is no crispy coating to lose to trapped steam.
-- **It reheats properly:** Adding a splash of water or milk while reheating gently in a skillet brings a separated cream sauce back to silky smoothness. Almost nothing else on the menu reheats this reliably.
-- **The breadstick is the exception:** Garlic breadsticks soften quickly in a closed steam container. Eat the breadstick first or reheat in a toaster oven.
-
-For pickup and delivery details, visit our [Carside To Go](/takeout) and [delivery](/delivery) guides.
-
----
+Every pasta with allergen data contains milk, wheat and soy. There's no gluten-free pasta that we've found, and no vegan pasta, since the sauces are dairy-based. You can ask for any of them without chicken to make it vegetarian. For the full allergen table, see the [allergen menu](/allergen-menu).
 
 ## Frequently Asked Questions
 
 ### What pasta does Applebee's have?
-Applebee's pasta menu includes Four Cheese Mac & Cheese with Honey Pepper Chicken, Three-Cheese Chicken Penne, Classic Broccoli Chicken Alfredo and Chicken Parmesan Fettuccine. Prices run $15.99 to $17.49 and all come with a garlic breadstick.
-
-### Which Applebee's dish has the most protein?
-The Three-Cheese Chicken Penne at 77g  more than any steak, burger or chicken entrée on the menu. It also carries the highest saturated fat at 40g.
-
-### How many calories are in Applebee's pasta?
-Between 1,350 and 1,410 calories. The dishes are close on total calories but differ substantially in macros  the penne is protein-heavy, the mac and cheese carbohydrate-heavy.
-
-### What is in Applebee's Four Cheese Mac & Cheese?
-Four-cheese penne mac and cheese topped with crispy chicken tenders in honey pepper glaze and finished with Applewood-smoked bacon. It carries 160g of carbohydrate and 44g of sugar, the highest of both on the menu.
-
-### Does Applebee's have vegetarian pasta?
-Yes, by ordering any of the pasta dishes without chicken or bacon. They become cheese-forward vegetarian meals. None are vegan  all the sauces contain dairy.
-
-### Does Applebee's have gluten-free pasta?
-No. All pasta dishes contain wheat, and Applebee's does not operate a certified gluten-free kitchen. See the [nutrition page](/nutrition) for options elsewhere on the menu.
+Four dishes: Three-Cheese Chicken Penne, Four Cheese Mac & Cheese with Honey Pepper Chicken, Classic Broccoli Chicken Alfredo and Chicken Parmesan Fettuccine.
 
 ### How much is pasta at Applebee's?
-Between $15.99 and $17.49. The Three-Cheese Chicken Penne is the cheapest and the Four Cheese Mac & Cheese the most expensive. Prices vary by location.
+$15.99 to $17.49. Three-Cheese Chicken Penne and Chicken Parmesan Fettuccine are $15.99; the Four Cheese Mac & Cheese is $17.49.
 
-### Do Applebee's pasta dishes come with bread?
-Yes, each pasta entrée is served with a garlic breadstick. Side salads can be added for an upcharge.
+### What is Applebee's Chicken Parmesan Fettuccine?
+Breaded chicken, marinara and mozzarella over fettuccine with a garlic breadstick. It's $15.99, 1,480 calories, and one of the entrées on the 2 for $25.
 
-### Can I add shrimp to Applebee's pasta?
-Shrimp can usually replace or supplement chicken on cream-sauce dishes for an additional charge. Availability varies by location.
+### Which Applebee's dish has the most protein?
+The Three-Cheese Chicken Penne at 77g, more than any steak or burger on the menu.
 
-### Which Applebee's pasta is the lightest?
-The three dishes sit within 60 calories of each other, so total calories are not the differentiator. The Broccoli Chicken Alfredo is the only one with a vegetable built in; the penne carries the most protein per calorie.
+### How many calories are in Applebee's pasta?
+1,350 for the Three-Cheese Chicken Penne up to 1,480 for the Chicken Parmesan Fettuccine.
 
----
+### Does Applebee's have gluten-free pasta?
+Not that we've found. Every pasta dish with allergen data contains wheat.
 
-## Related Menu Categories
+### Is Applebee's Four Cheese Mac & Cheese high in sugar?
+Yes. It has 44g of sugar and 160g of carbohydrate, more sugar than the Brownie Bite dessert.
 
-- **Chicken Entrées:** For the standalone poultry preparations that feature in these pastas, visit [chicken](/menu/chicken).
-- **Fresh Salads:** To pair something crisp and acidic with a rich pasta bowl, browse [salads](/menu/salads).
-- **Steaks & Ribs:** For the highest protein-per-calorie plates on the menu rather than the highest total, explore [steaks and ribs](/menu/steaks-and-ribs).
-- Return to the [full menu](/menu) to view all options.
+## Pasta on a Deal, or More Protein per Calorie
+
+For the most protein per calorie instead of the most protein, the [8 oz. Top Sirloin](/menu/steaks-and-ribs) has 55g for 830 calories. To pair a salad with your pasta, see [salads](/menu/salads). And for pasta on a deal, the [2 for $25](/menu/2-for-25).

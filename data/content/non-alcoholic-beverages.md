@@ -1,305 +1,175 @@
 ---
-title: "Applebee's Non-Alcoholic Drinks: Menu, Prices & Refills"
-h1: "Applebee's Non-Alcoholic Drinks Menu with Prices and Calories"
-description: "Applebee's non-alcoholic drinks  fountain sodas, flavored lemonades, brewed iced tea, smoothies and mocktails. Prices, calories and free refill guide."
+title: "Applebee's Drinks Menu 2026: Non-Alcoholic Drinks, Mocktails & Prices"
+h1: "Applebee's Non-Alcoholic Drinks: Prices and Calories"
+description: "Applebee's non-alcoholic drinks cost $2.29 to $4.49: fountain sodas, iced tea, lemonade, smoothies and the Triple Cherry Shirley. The $4 Tropical Spell Mocktail runs through Nov 15, 2026."
 ---
 
-<div class="answerBlock">
-  <p>
-    Applebee's non-alcoholic drinks cover fountain sodas, flavored lemonades, fresh-brewed iced tea, fruit smoothies, mocktails including the Triple Cherry Shirley, and Dirty Fountain Sodas. Most cost between $2.29 and $4.99 depending on the drink and location. Fountain sodas and brewed iced tea include free refills at most locations; specialty drinks generally do not.
-  </p>
-</div>
-
-## Which Applebee's Drinks Come with Free Refills?
+<!--
+Checked September 2026. Prices and calories: data/menu.ts. Oreo Cookie Shake 840 cal: drinkCaloriesData in data/nutrition.ts.
+Tropical Spell Mocktail $4 through 11/15/26: Spooky Sips 2026. Starry replaced Sierra Mist at Pepsi fountains in 2023.
+[VERIFY: refill policy for lemonade and smoothies at a named restaurant before stating it.]
+-->
 
 <div class="answerBlock">
   <p>
-    Fountain sodas and fresh-brewed iced tea include free refills at most Applebee's locations. Specialty drinks  flavored lemonades, smoothies, Dirty Fountain Sodas and mocktails  are prepared individually and generally do not include unlimited refills.
+    Applebee's non-alcoholic drinks cost $2.29 to $4.49. Fountain sodas and iced tea are the cheapest at $2.29 to $2.99, and the iced tea has no calories. Flavored lemonade is $3.49 and 150 calories. The Triple Cherry Shirley is $3.99, and fruit smoothies are the most expensive at $4.49 and 280 calories. Until November 15, 2026, the new $4 Tropical Spell Mocktail is on the menu too.
   </p>
 </div>
 
-The distinction is how the drink is made. Anything poured from the fountain is refillable because refilling costs the restaurant almost nothing. Anything built by hand with syrup, fruit or cream is priced as a single serving.
+## Non-Alcoholic Drink Prices and Calories
 
 <div class="tableCard">
   <div class="tableResponsive">
     <table class="customTable">
-      <caption>Applebee's Beverage Refill Policy at a Glance</caption>
+      <caption>Applebee's non-alcoholic drinks, sorted by price</caption>
       <thead>
         <tr>
           <th scope="col">Drink</th>
-          <th scope="col" style="text-align: center;">Free Refills</th>
+          <th scope="col" style="text-align: right;">Price</th>
+          <th scope="col" style="text-align: right;">Calories</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <th scope="row"><strong>Fountain Sodas</strong></th>
-          <td style="text-align: center; font-weight: 700; color: #166534;">Yes, at most locations</td>
+          <th scope="row"><strong>Fresh Brewed Iced Tea</strong></th>
+          <td style="text-align: right;">$2.29–$2.99</td>
+          <td style="text-align: right;">0</td>
         </tr>
         <tr>
-          <th scope="row"><strong>Fresh-Brewed Iced Tea</strong></th>
-          <td style="text-align: center; font-weight: 700; color: #166534;">Yes, at most locations</td>
+          <th scope="row"><strong>Fountain Drinks</strong></th>
+          <td style="text-align: right;">$2.29–$2.99</td>
+          <td style="text-align: right;">0–200</td>
         </tr>
         <tr>
-          <th scope="row"><strong>Flavored Lemonades</strong></th>
-          <td style="text-align: center; font-weight: 700; color: #b45309;">Generally no</td>
+          <th scope="row"><strong>Fresh Brewed Hot Coffee</strong></th>
+          <td style="text-align: right;">$2.49</td>
+          <td style="text-align: right;">0</td>
         </tr>
         <tr>
-          <th scope="row"><strong>Fruit Smoothies</strong></th>
-          <td style="text-align: center; font-weight: 700; color: #c8102e;">No</td>
+          <th scope="row"><strong>Flavored Lemonade</strong></th>
+          <td style="text-align: right;">$3.49</td>
+          <td style="text-align: right;">150</td>
         </tr>
         <tr>
-          <th scope="row"><strong>Dirty Fountain Sodas</strong></th>
-          <td style="text-align: center; font-weight: 700; color: #b45309;">Generally no</td>
+          <th scope="row"><strong>Triple Cherry Shirley</strong></th>
+          <td style="text-align: right;">$3.99</td>
+          <td style="text-align: right;">160</td>
         </tr>
         <tr>
-          <th scope="row"><strong>Mocktails (Triple Cherry Shirley)</strong></th>
-          <td style="text-align: center; font-weight: 700; color: #c8102e;">No</td>
+          <th scope="row"><strong>Tropical Spell Mocktail</strong> (through Nov 15)</th>
+          <td style="text-align: right;">$4.00</td>
+          <td style="text-align: right;">n/a</td>
         </tr>
         <tr>
-          <th scope="row"><strong>Bottled Water &amp; Red Bull</strong></th>
-          <td style="text-align: center; font-weight: 700; color: #c8102e;">No  single serve</td>
+          <th scope="row"><strong>Fruit Smoothie</strong></th>
+          <td style="text-align: right;">$4.49</td>
+          <td style="text-align: right;">280</td>
+        </tr>
+        <tr>
+          <th scope="row"><strong>1-Gallon Tea or Lemonade</strong> (to go)</th>
+          <td style="text-align: right;">$11.99</td>
+          <td style="text-align: right;">0–1,200</td>
         </tr>
       </tbody>
     </table>
   </div>
 </div>
 
-- **Why this matters over a meal:** A fountain drink at around $2.29 to $2.99 with unlimited refills is the cheapest way to drink at Applebee's by a wide margin. A specialty lemonade at $3.49 that you finish before the entrée arrives costs the same again to replace.
-- **Franchise policy:** Refill policy is set by each location, so it varies  but the fountain-versus-handmade split holds almost everywhere.
+Coffee and unsweetened tea are 0 before you add anything. Prices are reference figures, and your restaurant sets its own.
 
-![Selection of non-alcoholic drinks including soda, lemonade and iced tea](/apple-bees-menu/applebees-non-alcoholic-beverages-category.webp)
+## What to Order
 
----
+**Cheapest:** unsweetened iced tea. Same price as a soda, no calories.
 
-## Applebee's Fountain Drinks
+**Best for a kid:** the Triple Cherry Shirley. It feels like a treat and has 160 calories, less than a smoothie by 120.
 
-![Fountain cola served over ice in a glass](/apple-bees-menu/applebees-fountain-drink-pepsi.webp)
+**Most filling:** a fruit smoothie. At 280 calories, strawberry or mango, it's closer to a snack than a drink.
 
-Applebee's is a Pepsi restaurant, so the fountain lineup features PepsiCo products:
+**Watch out for the shake.** An Oreo Cookie Shake is 840 calories, more than the Southwest Chicken Bowl. If you order one, it's dessert.
 
-- **Pepsi**  The standard classic cola.
-- **Diet Pepsi**  Zero calories.
-- **Mountain Dew**  Citrus, caffeinated.
-- **Starry**  Lemon-lime, caffeine-free. This replaced Sierra Mist, which PepsiCo discontinued in 2023.
-- **Dr Pepper**  Available at many locations.
+![Assortment of lemonades, iced tea and fountain drinks](/apple-bees-menu/applebees-non-alcoholic-beverages-category.webp)
 
-- **Price:** Roughly $2.29 to $2.99 depending on location.
-- **Calories:** 0 for diet options, up to around 200 for regular depending on size.
-- **Refills:** Free at most locations.
+## Every Non-Alcoholic Drink
 
-### Zero-Calorie Fountain Options
+### Fountain Drinks
 
-Diet Pepsi is the zero-calorie cola. Any diet or zero-sugar option on the fountain carries no calories, and with free refills it is the only drink on the entire Applebee's menu you can have unlimited amounts of at zero calorie cost.
+Applebee's pours Pepsi products: Pepsi, Diet Pepsi, Mountain Dew and Starry, the lemon-lime soda that replaced Sierra Mist in 2023. Brands vary a little by restaurant. For $1 more, any of them can be turned into a [Dirty Fountain Soda](/menu/dirty-fountain-sodas).
 
-For anyone tracking intake alongside a heavy entrée, that is worth knowing  a [frozen cocktail](/menu/signature-cocktails) runs around 650 calories.
+- **$2.29–$2.99** · 0 to 200 calories
 
-### Turning a Fountain Soda into a Dirty Soda
+### Fresh Brewed Iced Tea
 
-Any fountain soda can be "dirtied up" for around $1 more  a swirl of half-and-half, whipped cream and a cherry. Applebee's also runs three preset combinations. Full detail: see our [Dirty Fountain Sodas](/menu/dirty-fountain-sodas) guide.
+Black tea, brewed and served unsweetened with lemon. Some restaurants also carry sweet tea. Ask, because it's regional.
 
-*Note:* Once you add the upcharge, it becomes a prepared drink, and free refills generally no longer apply.
+- **$2.29–$2.99** · 0 calories unsweetened
 
----
+### Flavored Lemonade
 
-## Applebee's Fresh Brewed Iced Tea
+Lemonade with fruit puree, usually strawberry, mango or raspberry. Tarter than a soda and 150 calories.
 
-![Fresh brewed iced tea served over ice with a lemon wedge](/apple-bees-menu/applebees-fresh-brewed-iced-tea.webp)
-
-Brewed fresh daily, served unsweetened by default with lemon, and sweetener provided at the table. Many locations, particularly in the South, also carry pre-sweetened Sweet Tea as a separate option.
-
-- **Calories:** Effectively zero unsweetened. Brewed tea contains only a trace, which is why some sources round to 0 and others to 5. Either way it is the lowest-calorie thing you can drink here other than water.
-- **Free refills:** Included at most locations, which makes it the best-value drink on the menu alongside the fountain sodas.
-- **Price:** Roughly $2.29 to $2.99.
-
-### Why It Works with This Food
-
-Unsweetened tea is slightly bitter, and bitterness cuts fat. Against the richest things on the menu  [Four Cheese Mac & Cheese](/menu/pasta), the Clubhouse Grille, and [fried appetizers](/menu/appetizers)  it resets the palate in a way a sweet drink does not.
-
-Sweet tea is a different drink nutritionally. Sugar takes it from near-zero to comparable with a regular soda, so if you order it by default in the South it is worth knowing the swap costs you nothing to reverse.
-
----
-
-## Applebee's Flavored Lemonades
-
-![Strawberry lemonade served over ice with fruit garnish](/apple-bees-menu/applebees-flavored-strawberry-lemonade.webp)
-
-A tart lemonade base with fruit syrup or purée added. Strawberry is the most commonly available, with mango and raspberry appearing at many locations. Seasonal flavours rotate.
-
-- **Price:** Around $3.49.
-- **Calories:** Around 150 depending on flavour and size.
-- **Refills:** Generally not included  these are made individually.
-
-### Where They Work Best
-
-Sweetness works against heat and salt rather than alongside sweetness. A strawberry lemonade against [Fiesta Lime Chicken](/menu/chicken) or the [Tex-Mex Shrimp Bowl](/menu/irresist-a-bowls) does the same job cream does in a dirty soda  it cools.
-
-### Where They Do Not
-
-Alongside dessert. A [Triple Chocolate Meltdown](/menu/desserts) carries 87g of sugar on its own; a sweet lemonade with it is doubling down.
-
-### Ordering Lighter
-
-Asking for less syrup is a standard request and brings the calorie figure down meaningfully, since the syrup is where nearly all of it sits.
-
----
-
-## Applebee's Smoothies and Mocktails
-
-The part of this category most menu pages miss entirely.
-
-### Fruit Smoothies
-
-![Blended fruit smoothie in a tall glass with whipped cream](/apple-bees-menu/applebees-fruit-smoothie-drink.webp)
-
-Blended fruit drinks, thicker than a lemonade and closer to a dessert in weight. Mango and strawberry are the commonly cited flavours. These are individually prepared, so no refills.
-
-*Worth knowing:* A smoothie is a meaningful number of calories, not a light drink. If you are treating it as a soft drink alternative, it is closer in weight to a milkshake than to an iced tea.
+- **$3.49** · 150 calories
 
 ### Triple Cherry Shirley
 
-![Triple Cherry Shirley mocktail with cherries and lime garnish](/apple-bees-menu/applebees-triple-cherry-shirley-drink.webp)
+![Lemon-lime soda with grenadine and three cherries](/apple-bees-menu/applebees-triple-cherry-shirley-drink.webp)
 
-Applebee's named mocktail  a cherry-forward non-alcoholic drink in the Shirley Temple tradition.
+Starry, grenadine and three maraschino cherries. It's Applebee's own Shirley Temple, and three cherries instead of one is the whole idea.
 
-The classic Shirley Temple is lemon-lime soda with grenadine and a maraschino cherry. At Applebee's the base is Starry rather than Sprite, since this is a Pepsi restaurant  a small detail most pages get wrong by describing it generically.
+- **$3.99** · 160 calories
 
-Why order a mocktail rather than a soda: For a designated driver, someone not drinking, or a child at a table where adults are ordering cocktails, a mocktail arrives in proper glassware and does the social job a fountain soda does not. Applebee's prepares these with the same presentation as the [signature cocktails](/menu/signature-cocktails).
+### Tropical Spell Mocktail
 
-### Other Non-Alcoholic Options
+New for Halloween 2026 and $4 through November 15: pineapple, passion fruit, cherry, lime and dragon fruit. It shares most of its fruit with the $6 Tipsy Zombie cocktail, so anyone skipping alcohol still gets a Halloween drink.
 
-- **Red Bull:** Available at many locations, single serve.
-- **Bottled water:** For anyone who wants nothing added.
-- **Coffee:** Hot brewed coffee is available at most locations even where it is not prominent on the digital menu. It is the standard pairing for [desserts](/menu/desserts), and bitterness against 87g of sugar is exactly why it works.
+- **$4.00** · through November 15, 2026
 
----
+### Fruit Smoothies
 
-## 1-Gallon Beverages for Groups
+![Blended fruit smoothie in a tall glass](/apple-bees-menu/applebees-fruit-smoothie-drink.webp)
 
-![1-Gallon beverage takeaway jugs for groups and catering](/apple-bees-menu/applebees-gallon-beverage-jug.webp)
+Blended strawberry or mango. The most expensive non-alcoholic drink, and the heaviest.
 
-Almost nobody covers this, and it is genuinely useful:
+- **$4.49** · 280 calories
 
-Applebee's offers beverages by the gallon for group orders and takeaway  typically covering iced tea and lemonade. For a family meal at home, a party, or an office order, a gallon works out considerably cheaper than individual drinks and removes the refill question entirely.
+### Hot Coffee
 
-- **Where this fits:** Alongside a [takeout](/takeout) order, or as part of a [catering](/catering) order for a larger group. Catering platters serve 6–8 each, and gallon beverages scale with them.
-- **Ordering tip:** Worth asking about rather than assuming  availability varies by location, and it is not always listed on the standard menu.
+Brewed black coffee with cream and sweetener on the side. It's the drink people forget to order with dessert, and $2.49 for a coffee beats adding a second dessert.
 
----
+- **$2.49** · 0 calories black
 
-## Applebee's Drink Calories
+### 1-Gallon Beverages
 
-<div class="tableCard">
-  <div class="tableResponsive">
-    <table class="customTable">
-      <caption>Calorie comparisons across Applebee's non-alcoholic and bar beverages</caption>
-      <thead>
-        <tr>
-          <th scope="col">Drink</th>
-          <th scope="col" style="text-align: center;">Calories</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th scope="row">Bottled Water</th>
-          <td style="text-align: center; font-weight: 700; color: #166534;">0</td>
-        </tr>
-        <tr>
-          <th scope="row">Diet Pepsi</th>
-          <td style="text-align: center; font-weight: 700; color: #166534;">0</td>
-        </tr>
-        <tr>
-          <th scope="row">Fresh Brewed Iced Tea (unsweetened)</th>
-          <td style="text-align: center; font-weight: 700; color: #166534;">Effectively 0</td>
-        </tr>
-        <tr>
-          <th scope="row">Regular Fountain Soda</th>
-          <td style="text-align: center; font-weight: 700; color: #b45309;">Up to ~200 by size</td>
-        </tr>
-        <tr>
-          <th scope="row">Dirty Fountain Sodas</th>
-          <td style="text-align: center; font-weight: 700; color: #b45309;">~150–170 standard serving</td>
-        </tr>
-        <tr>
-          <th scope="row">Flavored Lemonade</th>
-          <td style="text-align: center; font-weight: 700; color: #b45309;">~150</td>
-        </tr>
-        <tr>
-          <th scope="row">House Margarita</th>
-          <td style="text-align: center; font-weight: 700; color: #b45309;">310</td>
-        </tr>
-        <tr>
-          <th scope="row">Frozen Margarita</th>
-          <td style="text-align: center; font-weight: 700; color: #c8102e;">650</td>
-        </tr>
-        <tr>
-          <th scope="row">Oreo Cookie Shake</th>
-          <td style="text-align: center; font-weight: 700; color: #c8102e;">840</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-</div>
+A gallon jug of iced tea or lemonade for To Go and [catering](/catering) orders. A gallon holds 128 ounces, so it covers about eight 16-ounce glasses at $1.50 each.
 
-- **The big takeaway:** The gap between the top and bottom of this table is bigger than most food swaps on the menu. Choosing unsweetened iced tea over a frozen cocktail is a 650-calorie decision  larger than swapping [fries for steamed broccoli](/menu/sides), which is the biggest food-side change available.
-- **Where the calories sit:** In every case, syrup and cream drive the numbers. The soda base, the tea and the water are all near-zero on their own.
+- **$11.99** · 0 calories for unsweetened tea, up to 1,200 for lemonade
 
-Full drinks data: see our complete [nutrition and calories](/nutrition) guide.
+## Refills
 
----
-
-## Drink Pairings
-
-- **With rich, heavy food  Unsweetened iced tea:** Bitterness cuts fat, which is why it works against the [pasta](/menu/pasta) dishes and the Clubhouse Grille where a sweet drink would sit heavy.
-- **With spice  Flavored lemonade or a dirty soda:** Sweetness and cream both cool heat, which is why they work against Cajun and chile-glazed dishes on the [chicken menu](/menu/chicken).
-- **With a burger  Fountain cola:** Carbonation cuts fat and the pairing is a default for a reason. See [handcrafted burgers](/menu/handcrafted-burgers).
-- **With dessert  Coffee or unsweetened tea:** Anything sweet alongside a dessert that already carries 87g of sugar is a second dessert.
-- **For kids  Fountain drinks and lemonades:** Included with [kids meals](/menu/kids-menu). Swapping soda for milk or water is the single biggest sugar reduction available on a children's order, larger than any change to the food.
-
----
+Fountain drinks and iced tea usually come with refills at Applebee's. Specialty drinks, including smoothies, the Shirley and dirty sodas, generally don't. Refill rules are set by each restaurant, so ask your server before assuming a second lemonade is free.
 
 ## Frequently Asked Questions
 
-### What non-alcoholic drinks does Applebee's have?
-Fountain sodas including Pepsi, Diet Pepsi, Mountain Dew and Starry, plus fresh-brewed iced tea, flavored lemonades, fruit smoothies, Dirty Fountain Sodas, mocktails including the Triple Cherry Shirley, Red Bull, bottled water and coffee.
+### How much is a soda at Applebee's?
+$2.29 to $2.99, depending on the restaurant.
 
 ### Does Applebee's have free refills?
-Fountain sodas and fresh-brewed iced tea include free refills at most locations. Flavored lemonades, smoothies, Dirty Fountain Sodas and mocktails are prepared individually and generally do not.
+On fountain drinks and iced tea at most restaurants. Specialty drinks usually aren't refilled free.
 
-### How much are drinks at Applebee's?
-Most non-alcoholic drinks fall between $2.29 and $4.99. Fountain sodas and iced tea sit at the lower end; specialty lemonades, smoothies and dirty sodas at the higher. Pricing is set by each franchise location.
+### What soda brand does Applebee's serve?
+Pepsi: Pepsi, Diet Pepsi, Mountain Dew and Starry.
 
-### What sodas does Applebee's serve?
-Applebee's serves PepsiCo products  Pepsi, Diet Pepsi, Mountain Dew and Starry, with Dr Pepper at many locations. Starry replaced Sierra Mist, which was discontinued in 2023.
-
-### Does Applebee's have Coke or Sprite?
-No. Applebee's is a Pepsi restaurant, so Coca-Cola products including Coke and Sprite are not available. Starry is the lemon-lime option.
-
-### Is Applebee's iced tea sweetened?
-It is served unsweetened by default with lemon and sweetener at the table. Many locations, particularly in the South, also offer pre-sweetened Sweet Tea as a separate option.
-
-### What is the lowest calorie drink at Applebee's?
-Bottled water and Diet Pepsi at zero, with unsweetened fresh-brewed iced tea effectively zero. With free refills, unsweetened tea and diet soda are the only drinks you can have unlimited amounts of at no calorie cost.
+### What is a Triple Cherry Shirley?
+Applebee's version of a Shirley Temple: Starry lemon-lime soda, grenadine and three cherries. It's $3.99 and 160 calories.
 
 ### Does Applebee's have mocktails?
-Yes, including the Triple Cherry Shirley  a cherry-forward non-alcoholic drink served in proper glassware. Availability of specific mocktails varies by location.
+Yes. The Triple Cherry Shirley is on the regular menu, and the $4 Tropical Spell Mocktail is available through November 15, 2026.
 
-### Does Applebee's serve coffee?
-Yes. Hot brewed coffee is available at most locations even where it is not prominent on the digital menu, and it is the standard pairing for dessert.
+### What's the lowest calorie drink at Applebee's?
+Unsweetened iced tea, black coffee and diet fountain soda, all 0 calories.
 
-### Can I get drinks by the gallon at Applebee's?
-Gallon beverages are available at participating locations for group and takeaway orders, typically covering iced tea and lemonade. Availability varies, so it is worth confirming when ordering.
+### How much is a gallon of tea at Applebee's?
+$11.99 for a gallon of iced tea or lemonade.
 
-### Do kids meals come with a drink?
-Yes, Applebee's kids meals include a choice of side and drink. Swapping a fountain soda for milk or water is the largest single sugar reduction available on a children's order.
+## Dirty Sodas, Cocktails and Kids Meals
 
-### Can I get a dirty soda made with diet soda?
-The three preset flavours use specific bases, but since the treatment can be applied to any fountain soda, a diet base is worth asking about. Syrup availability varies by location.
-
----
-
-## Related Menu Categories
-
-- **Cream-Topped Soda Flavors:** For the cream-topped fountain drinks, check out [Dirty Fountain Sodas](/menu/dirty-fountain-sodas).
-- **Cocktails & Mucho Drinks:** For alcoholic drinks including the Mucho range and the Dollarita, explore [signature cocktails](/menu/signature-cocktails).
-- **Happy Hour Deals:** For discounted drink windows and which states cannot run them, see [happy hour](/happy-hour).
-- Return to the [full menu](/menu).
+To dress up a soda for $1, see [Dirty Fountain Sodas](/menu/dirty-fountain-sodas). For drinks with alcohol, see [signature cocktails](/menu/signature-cocktails). Ordering for kids? The [kids menu](/menu/kids-menu) lists meal prices and calories.

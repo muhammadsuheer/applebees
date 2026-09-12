@@ -33,12 +33,12 @@ export async function POST(req: Request) {
     doc.setTextColor(255, 255, 255);
     doc.setFontSize(26);
     doc.setFont('helvetica', 'bold');
-    doc.text("Applebee's Custom Macro Planner", 20, 22);
+    doc.text("Menu Almanac Macro Planner", 20, 22);
 
     doc.setTextColor(156, 163, 175); // Light Gray
     doc.setFontSize(12);
     doc.setFont('helvetica', 'normal');
-    doc.text("Your Personalized Nutrition & Diet Guide", 20, 32);
+    doc.text("Your Applebee's picks, with calories and macros", 20, 32);
 
     // --- Generation Info ---
     doc.setTextColor(75, 85, 99);
@@ -152,7 +152,7 @@ export async function POST(req: Request) {
     doc.setFontSize(8);
     doc.setFont('helvetica', 'italic');
     doc.setTextColor(156, 163, 175);
-    doc.text("Nutrition values are estimates. Check official Applebee's guides for allergies.", pageWidth / 2, pageHeight - 15, { align: 'center' });
+    doc.text("Independent guide, not affiliated with Applebee's. Figures are standard recipes; confirm allergies with the kitchen.", pageWidth / 2, pageHeight - 15, { align: 'center' });
 
     // Output binary PDF data
     const pdfBuffer = doc.output('arraybuffer');

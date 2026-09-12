@@ -19,7 +19,7 @@ export default function MenuSteaksAndRibs() {
             <h3 className={styles.cardTitle}>Bourbon Street Steak</h3>
             <span className={styles.cardCalories}>Approx. 760 Cals</span>
             <p className={styles.cardDescription}>
-              The undeniable crown jewel of the Applebee's entrée lineup. This massive, premium 8 oz. top sirloin is deeply marinated in a proprietary New Orleans-inspired Bourbon Street glaze, rendering it incredibly tender and infusing it with a rich, smoky, and slightly sweet flavor profile. It is aggressively seared and served sizzling alongside sautéed mushrooms, caramelized onions, and a massive portion of garlic mashed potatoes.
+              The undeniable crown jewel of the Applebee's entrée lineup. This massive, premium 8 oz. top sirloin is deeply marinated in a proprietary New Orleans-inspired Bourbon Street glaze, rendering it incredibly tender and infusing it with a rich, smoky, and slightly sweet flavor profile. It&apos;s aggressively seared and served sizzling alongside sautéed mushrooms, caramelized onions, and a massive portion of garlic mashed potatoes.
             </p>
             <p className={styles.cardHistory}>
               <strong>The Iron Skillet:</strong> The Bourbon Street line is famous for being served on a blistering hot cast-iron skillet, creating an auditory and olfactory spectacle that turns heads across the dining room.
@@ -36,7 +36,7 @@ export default function MenuSteaksAndRibs() {
             <h3 className={styles.cardTitle}>Double-Glazed Baby Back Ribs</h3>
             <span className={styles.cardCalories}>Approx. 1,180 Cals</span>
             <p className={styles.cardDescription}>
-              A colossal, slow-cooked rack of premium pork ribs. The secret to their "fall-off-the-bone" tenderness lies in a low-and-slow braising process, followed by a high-heat grilling phase where they are double-glazed with a thick, sticky, smoky Honey BBQ sauce. Served with classic coleslaw and an overflowing portion of crispy French fries. Available in both half-rack and full-rack portions.
+              A colossal, slow-cooked rack of premium pork ribs. The secret to their "fall-off-the-bone" tenderness lies in a low-and-slow braising process, followed by a high-heat grilling phase where they&apos;re double-glazed with a thick, sticky, smoky Honey BBQ sauce. Served with classic coleslaw and an overflowing portion of crispy French fries. Available in both half-rack and full-rack portions.
             </p>
             <p className={styles.cardHistory}>
               <strong>The Caramelization:</strong> The "double glaze" technique is critical; the first layer is brushed on early to penetrate the meat, while the second layer caramelizes over the open flame to create a slightly charred, sugary crust.

@@ -1,385 +1,337 @@
+// Builds the four printable PDFs in public/pdfs from the site's own data files.
+// Run: node scripts/build_menu_pdfs.mjs
+//
+// Every number comes from data/menu.ts and data/nutrition.ts, so the PDFs can't
+// drift from the website. Branding is the publisher's (Menu Almanac), never
+// Applebee's, and every page carries the independence disclaimer.
+
 import { jsPDF } from 'jspdf';
 import autoTable from 'jspdf-autotable';
 import fs from 'fs';
 
-// Ensure public/pdfs directory exists
-if (!fs.existsSync('public/pdfs')) {
-  fs.mkdirSync('public/pdfs', { recursive: true });
-}
+fs.mkdirSync('public/pdfs', { recursive: true });
 
-// ----------------------------------------------------
-// 1. Applebee's Full Menu with Prices & Calories PDF
-// ----------------------------------------------------
-function generateFullMenuPDF() {
-  const doc = new jsPDF({ orientation: 'portrait', unit: 'mm', format: 'a4' });
-  const pageWidth = doc.internal.pageSize.width;
-  const pageHeight = doc.internal.pageSize.height;
+// ---------------------------------------------------------------- data
+const siteSrc = fs.readFileSync('data/site.ts', 'utf8');
+const checkedIso = (siteSrc.match(/PRICES_LAST_VERIFIED = '([^']+)'/) || [])[1] || '2026-09-08';
+const CHECKED = new Date(checkedIso).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
 
-  // Header Banner
-  doc.setFillColor(26, 36, 51); // Dark Navy
-  doc.rect(0, 0, pageWidth, 35, 'F');
-  doc.setFillColor(200, 16, 46); // Applebee's Red Accent Line
-  doc.rect(0, 35, pageWidth, 2.5, 'F');
+const DISCLAIMER =
+  "Menu Almanac is an independent guide. Not affiliated with, endorsed by, or operated by Applebee's Neighborhood Grill + Bar or Dine Brands Global. " +
+  'Prices are reference figures; franchisees set their own. Calories and allergens come from Applebee\'s published nutrition information.';
 
-  doc.setTextColor(255, 255, 255);
-  doc.setFontSize(22);
-  doc.setFont('helvetica', 'bold');
-  doc.text("APPLEBEE'S GRILL + BAR", 15, 18);
+const LABELS = {
+  'new-items': 'New Items',
+  'ultimate-trio': 'Ultimate Trio',
+  skillets: 'Skillets',
+  'signature-cocktails': 'Signature Cocktails',
+  appetizers: 'Appetizers',
+  'steaks-and-ribs': 'Steaks & Ribs',
+  'handcrafted-burgers': 'Handcrafted Burgers',
+  chicken: 'Chicken',
+  pasta: 'Pasta',
+  seafood: 'Seafood',
+  salads: 'Salads',
+  desserts: 'Desserts',
+  sides: 'Sides',
+  'dirty-fountain-sodas': 'Dirty Fountain Sodas',
+  'irresist-a-bowls': 'Irresist-A-Bowls',
+  'sandwiches-and-more': 'Sandwiches & More',
+  '2-for-25': '2 for $25',
+  'really-big-meal-deal': 'Really BIG Meal Deal',
+  'kids-menu': 'Kids Menu',
+  'non-alcoholic-beverages': 'Non-Alcoholic Drinks',
+};
 
-  doc.setTextColor(220, 225, 230);
-  doc.setFontSize(11);
-  doc.setFont('helvetica', 'normal');
-  doc.text("Complete Menu with Prices, Calories & Specials (2026 Edition)", 15, 28);
+const menuSrc = fs.readFileSync('data/menu.ts', 'utf8').replace(/\r\n/g, '\n');
+const categories = [];
+// Anchor each category on its title + slug pair, then read items up to the next category.
+const starts = [...menuSrc.matchAll(/title: "([^"]+)",\s*slug: "([^"]+)"/g)];
+starts.forEach((start, idx) => {
+  const end = idx + 1 < starts.length ? starts[idx + 1].index : menuSrc.length;
+  const block = menuSrc.slice(start.index, end);
+  const items = [...block.matchAll(/name: "([^"]+)", calories: "([^"]*)", price: "([^"]*)"/g)]
+    .map((m) => ({ name: m[1], calories: m[2], price: m[3] }))
+    .filter((i) => !(i.calories === 'Varies' && i.price === 'Varies'));
+  categories.push({ slug: start[2], label: LABELS[start[2]] || start[1], items });
+});
+const bySlug = Object.fromEntries(categories.map((c) => [c.slug, c]));
 
-  doc.setTextColor(100, 116, 139);
-  doc.setFontSize(9);
-  doc.text("Official Reference Guide • Updated August 2026 • applebees-menus.us", 15, 43);
-
-  const menuRows = [
-    // APPETIZERS
-    ["APPETIZERS & STARTERS", "", "", ""],
-    ["Boneless Wings (Honey BBQ / Buffalo / Sweet Asian)", "860 - 1100 Cal", "$12.99", "Crispy tossed boneless chicken wings"],
-    ["Classic Combo (Wings, Mozzarella Sticks, Quesadilla, Dip)", "2200 Cal", "$18.99", "Large shareable appetizer sampler"],
-    ["Chicken Quesadilla", "1280 Cal", "$11.99", "Chipotle chicken, melted cheddar, salsa & sour cream"],
-    ["Spinach & Artichoke Dip", "960 Cal", "$10.99", "Warm creamy dip served with tortilla chips"],
-    ["Brew Pub Pretzels & Beer Cheese Dip", "1160 Cal", "$10.49", "Soft pretzel sticks with Blue Moon cheese dip"],
-    ["Mozzarella Sticks (8 pc)", "840 Cal", "$9.99", "Golden fried mozzarella with marinara sauce"],
-    
-    // STEAKS & RIBS
-    ["STEAKS & RIBS", "", "", ""],
-    ["8 oz. Top Sirloin Steak", "370 Cal", "$18.99", "USDA Choice sirloin with potatoes & broccoli"],
-    ["12 oz. Ribeye Steak Dinner", "640 Cal", "$24.99", "Marbled ribeye served with two classic sides"],
-    ["Bourbon Street Steak", "790 Cal", "$21.99", "Cajun-seasoned steak with sautéed onions & mushrooms"],
-    ["Double-Glazed Baby Back Ribs (Full Rack)", "1620 Cal", "$23.99", "Slow-cooked ribs with Honey BBQ or Spicy Texas glaze"],
-    ["Double-Glazed Baby Back Ribs (Half Rack)", "810 Cal", "$16.99", "Served with classic fries and coleslaw"],
-    ["Sizzling Bourbon Street Chicken & Shrimp", "780 Cal", "$18.49", "Cajun chicken breast, seasoned shrimp, potatoes"],
-
-    // HANDCRAFTED BURGERS
-    ["HANDCRAFTED BURGERS", "", "", ""],
-    ["Classic Bacon Cheeseburger", "1180 Cal", "$13.99", "All-beef patty, bacon, cheddar, lettuce, tomato"],
-    ["Whiskey Bacon Burger", "1310 Cal", "$14.99", "Pepper jack, crispy onions, whiskey bacon sauce"],
-    ["Quesadilla Burger", "1290 Cal", "$14.49", "Served on a warm cheddar quesadilla with Mexi-ranch"],
-    ["Whole Lotta Bacon Burger", "1150 Cal", "$15.99", "Bacon-forward burger with Applewood-smoked bacon"],
-    ["The Classic Cheeseburger", "980 Cal", "$12.49", "American cheese, lettuce, tomato, onion, pickles"],
-    ["Impossible™ Burger (Plant-Based)", "920 Cal", "$14.99", "100% plant-based patty with American cheese & fries"],
-
-    // CHICKEN & PASTA
-    ["CHICKEN & PASTA", "", "", ""],
-    ["Fiesta Lime Chicken®", "1140 Cal", "$16.49", "Grilled chicken, Mexi-ranch, melted cheese, rice"],
-    ["Crispy Chicken Tenders Platter", "1190 Cal", "$14.49", "Served with honey Dijon mustard, fries, coleslaw"],
-    ["Three-Cheese Chicken Penne", "1280 Cal", "$16.99", "Penne in Asiago-Parmesan sauce with bruschetta"],
-    ["Four-Cheese Mac & Cheese with Honey Pepper Chicken", "1350 Cal", "$17.49", "Crispy chicken tenders tossed in sweet honey pepper"],
-    ["Broccoli Chicken Alfredo", "1420 Cal", "$16.49", "Juicy grilled chicken, fresh broccoli, fettuccine alfredo"],
-
-    // DESSERTS & VALUE
-    ["DESSERTS & VALUE DEALS", "", "", ""],
-    ["2 for $25 Value Deal (1 App + 2 Entrees)", "Varies", "$25.00", "Includes Fiesta Lime Chicken, Burgers, Riblets"],
-    ["Triple Chocolate Meltdown®", "920 Cal", "$8.99", "Warm chocolate cake with molten center & vanilla ice cream"],
-    ["Sizzling Caramel Apple Blondie", "1040 Cal", "$8.99", "Baked blondie with nuts, apples, ice cream & caramel"]
-  ];
-
-  autoTable(doc, {
-    startY: 47,
-    head: [["Category / Menu Item", "Calories", "Price", "Description & Sides"]],
-    body: menuRows.map(row => {
-      if (row[1] === "" && row[2] === "") {
-        return [{ content: row[0], colSpan: 4, styles: { fillColor: [26, 36, 51], textColor: [255, 255, 255], fontStyle: 'bold', fontSize: 10 } }];
-      }
-      return row;
-    }),
-    theme: 'grid',
-    headStyles: {
-      fillColor: [200, 16, 46],
-      textColor: 255,
-      fontStyle: 'bold',
-      fontSize: 9,
-      cellPadding: 2.5
-    },
-    bodyStyles: {
-      fontSize: 8,
-      cellPadding: 2,
-      textColor: [40, 40, 40]
-    },
-    columnStyles: {
-      0: { cellWidth: 70, fontStyle: 'bold' },
-      1: { cellWidth: 30, halign: 'center' },
-      2: { cellWidth: 22, halign: 'center', fontStyle: 'bold', textColor: [200, 16, 46] },
-      3: { cellWidth: 'auto' }
-    }
-  });
-
-  const pageCount = doc.getNumberOfPages();
-  for (let i = 1; i <= pageCount; i++) {
-    doc.setPage(i);
-    doc.setFontSize(8);
-    doc.setTextColor(150, 150, 150);
-    doc.text(`Applebee's Complete Menu Guide • Page ${i} of ${pageCount} • applebees-menus.us`, pageWidth / 2, pageHeight - 8, { align: 'center' });
+const nutSrc = fs.readFileSync('data/nutrition.ts', 'utf8');
+const nutrition = [];
+let currentNut = null;
+for (const line of nutSrc.split('\n')) {
+  const t = line.match(/title: "([^"]+)"/);
+  if (t) {
+    currentNut = { title: t[1], items: [] };
+    nutrition.push(currentNut);
+    continue;
   }
-
-  const pdfData = doc.output('arraybuffer');
-  fs.writeFileSync('public/pdfs/applebees-full-menu-with-prices.pdf', Buffer.from(pdfData));
-  console.log("Created public/pdfs/applebees-full-menu-with-prices.pdf");
+  const n = line.match(/name: "([^"]+)"/);
+  if (!n || !currentNut) continue;
+  const num = (key) => {
+    const m = line.match(new RegExp('\\b' + key + ': ([\\d.]+)'));
+    return m ? Number(m[1]) : null;
+  };
+  const al = line.match(/allergens: \[([^\]]*)\]/);
+  currentNut.items.push({
+    name: n[1],
+    calories: num('calories'),
+    protein: num('protein'),
+    carbs: num('carbs'),
+    fat: num('fat'),
+    sodium: num('sodium'),
+    sugars: num('sugars'),
+    allergens: al ? [...al[1].matchAll(/"([^"]+)"/g)].map((x) => x[1]) : [],
+  });
 }
 
-// ----------------------------------------------------
-// 2. Applebee's Nutrition & Allergen Guide PDF
-// ----------------------------------------------------
-function generateNutritionPDF() {
-  const doc = new jsPDF({ orientation: 'landscape', unit: 'mm', format: 'a4' });
-  const pageWidth = doc.internal.pageSize.width;
-  const pageHeight = doc.internal.pageSize.height;
+// ---------------------------------------------------------------- helpers
+const NAVY = [26, 36, 51];
+const RED = [197, 48, 48];
 
-  doc.setFillColor(26, 36, 51);
-  doc.rect(0, 0, pageWidth, 28, 'F');
-  doc.setFillColor(200, 16, 46);
-  doc.rect(0, 28, pageWidth, 2, 'F');
+const cleanCalories = (c) => c.replace(/\s*Cals?(\/person)?/i, '').replace('Effectively ', '') || '—';
+const cleanPrice = (p) => {
+  if (/promo/i.test(p)) return 'Promo only';
+  if (/included/i.test(p)) return 'Included';
+  return p.replace(' / 2 for $25', ' (also on 2 for $25)');
+};
+const fmt = (n) => (n === null || n === undefined ? '—' : n.toLocaleString('en-US'));
+const money = (n) => `$${n.toFixed(2)}`;
 
+function header(doc, title, subtitle) {
+  const w = doc.internal.pageSize.width;
+  doc.setFillColor(...NAVY);
+  doc.rect(0, 0, w, 34, 'F');
+  doc.setFillColor(...RED);
+  doc.rect(0, 34, w, 1.5, 'F');
+  doc.setTextColor(200, 208, 220);
+  doc.setFont('helvetica', 'bold');
+  doc.setFontSize(8);
+  doc.text('MENU ALMANAC  ·  INDEPENDENT MENU RESEARCH', 14, 9);
   doc.setTextColor(255, 255, 255);
   doc.setFontSize(18);
-  doc.setFont('helvetica', 'bold');
-  doc.text("APPLEBEE'S NUTRITION & ALLERGEN REFERENCE GUIDE", 15, 14);
+  doc.text(title, 14, 20);
+  doc.setFont('helvetica', 'normal');
+  doc.setFontSize(10);
+  doc.setTextColor(210, 215, 222);
+  doc.text(subtitle, 14, 28);
+  doc.setTextColor(90, 100, 115);
+  doc.setFontSize(8.5);
+  doc.text(`Reference data checked ${CHECKED}  ·  applebees-menus.us`, 14, 42);
+  return 48;
+}
 
-  doc.setTextColor(220, 225, 230);
+function footers(doc) {
+  const pages = doc.getNumberOfPages();
+  const w = doc.internal.pageSize.width;
+  const h = doc.internal.pageSize.height;
+  for (let i = 1; i <= pages; i++) {
+    doc.setPage(i);
+    doc.setDrawColor(220, 224, 230);
+    doc.line(14, h - 17, w - 14, h - 17);
+    doc.setFont('helvetica', 'normal');
+    doc.setFontSize(7);
+    doc.setTextColor(110, 118, 130);
+    doc.text(DISCLAIMER, 14, h - 13, { maxWidth: w - 40 });
+    doc.text(`Page ${i} of ${pages}`, w - 14, h - 5, { align: 'right' });
+  }
+}
+
+const tableStyles = {
+  theme: 'grid',
+  styles: { font: 'helvetica', fontSize: 8.5, cellPadding: 1.8, lineColor: [226, 232, 240], lineWidth: 0.2 },
+  headStyles: { fillColor: NAVY, textColor: 255, fontStyle: 'bold' },
+  alternateRowStyles: { fillColor: [248, 250, 252] },
+  margin: { left: 14, right: 14, bottom: 22 },
+};
+
+function sectionTitle(doc, text, y) {
+  const h = doc.internal.pageSize.height;
+  if (y > h - 45) {
+    doc.addPage();
+    y = 16;
+  }
+  doc.setFont('helvetica', 'bold');
+  doc.setFontSize(12);
+  doc.setTextColor(...NAVY);
+  doc.text(text, 14, y);
+  return y + 3;
+}
+
+function save(doc, file) {
+  footers(doc);
+  fs.writeFileSync(`public/pdfs/${file}`, Buffer.from(doc.output('arraybuffer')));
+  console.log('wrote public/pdfs/' + file);
+}
+
+// ---------------------------------------------------------------- 1. full menu
+function fullMenu() {
+  const doc = new jsPDF({ orientation: 'portrait', unit: 'mm', format: 'letter' });
+  let y = header(doc, "Applebee's Menu: Reference Prices & Calories", `${categories.reduce((n, c) => n + c.items.length, 0)} items across ${categories.length} categories`);
+
+  const order = [
+    'appetizers', 'handcrafted-burgers', 'steaks-and-ribs', 'chicken', 'pasta', 'seafood', 'salads',
+    'irresist-a-bowls', 'sandwiches-and-more', 'skillets', 'ultimate-trio', 'sides', 'desserts',
+    'kids-menu', 'new-items', '2-for-25', 'really-big-meal-deal', 'signature-cocktails',
+    'dirty-fountain-sodas', 'non-alcoholic-beverages',
+  ];
+  for (const slug of order) {
+    const cat = bySlug[slug];
+    if (!cat || cat.items.length === 0) continue;
+    y = sectionTitle(doc, cat.label, y + 6);
+    autoTable(doc, {
+      ...tableStyles,
+      startY: y + 1,
+      head: [['Item', 'Calories', 'Reference price']],
+      body: cat.items.map((i) => [i.name, cleanCalories(i.calories), cleanPrice(i.price)]),
+      columnStyles: { 1: { halign: 'right', cellWidth: 34 }, 2: { halign: 'right', cellWidth: 48 } },
+    });
+    y = doc.lastAutoTable.finalY;
+  }
+  save(doc, 'applebees-full-menu-with-prices.pdf');
+}
+
+// ---------------------------------------------------------------- 2. nutrition
+function nutritionGuide() {
+  const doc = new jsPDF({ orientation: 'landscape', unit: 'mm', format: 'letter' });
+  let y = header(doc, "Applebee's Nutrition & Allergen Guide", 'Calories, macros, sodium, sugar and the major allergens by item');
+  for (const cat of nutrition) {
+    y = sectionTitle(doc, cat.title, y + 6);
+    autoTable(doc, {
+      ...tableStyles,
+      startY: y + 1,
+      head: [['Item', 'Calories', 'Protein', 'Carbs', 'Fat', 'Sodium', 'Sugar', 'Allergens']],
+      body: cat.items.map((i) => [
+        i.name,
+        fmt(i.calories),
+        i.protein === null ? '—' : `${i.protein}g`,
+        i.carbs === null ? '—' : `${i.carbs}g`,
+        i.fat === null ? '—' : `${i.fat}g`,
+        i.sodium === null ? '—' : `${fmt(i.sodium)}mg`,
+        i.sugars === null ? '—' : `${i.sugars}g`,
+        i.allergens.length ? i.allergens.join(', ') : 'None of the major allergens',
+      ]),
+      columnStyles: {
+        1: { halign: 'right' }, 2: { halign: 'right' }, 3: { halign: 'right' },
+        4: { halign: 'right' }, 5: { halign: 'right' }, 6: { halign: 'right' }, 7: { cellWidth: 62 },
+      },
+    });
+    y = doc.lastAutoTable.finalY;
+  }
+  y = sectionTitle(doc, 'Before you order with an allergy', y + 8);
+  doc.setFont('helvetica', 'normal');
+  doc.setFontSize(9);
+  doc.setTextColor(50, 60, 75);
+  doc.text(
+    "Applebee's kitchens share grills, fryers and prep surfaces. \"No wheat in the recipe\" is not the same as safe for celiac disease. Tell your server why you're asking, and confirm with the kitchen.",
+    14, y + 4, { maxWidth: doc.internal.pageSize.width - 28 },
+  );
+  save(doc, 'applebees-nutrition-and-allergen-guide.pdf');
+}
+
+// ---------------------------------------------------------------- 3. catering
+function cateringGuide() {
+  const doc = new jsPDF({ orientation: 'portrait', unit: 'mm', format: 'letter' });
+  let y = header(doc, "Applebee's Catering Planner", 'How many platters to order, and what to ask the restaurant');
+  const w = doc.internal.pageSize.width;
+
+  y = sectionTitle(doc, 'The basics', y + 6);
+  doc.setFont('helvetica', 'normal');
   doc.setFontSize(9.5);
-  doc.setFont('helvetica', 'normal');
-  doc.text("Complete Calorie, Macro Breakdown & Common Allergen Data (2026 Reference)", 15, 22);
-
-  const nutRows = [
-    ["Boneless Wings (Honey BBQ)", "1020", "48g", "12g", "115g", "38g", "2680mg", "Wheat, Soy, Milk"],
-    ["Classic Combo Platter", "2200", "134g", "42g", "168g", "84g", "4920mg", "Wheat, Milk, Soy, Egg"],
-    ["Spinach & Artichoke Dip", "960", "64g", "22g", "78g", "20g", "2140mg", "Milk, Soy"],
-    ["Mozzarella Sticks with Marinara", "840", "46g", "18g", "74g", "32g", "2210mg", "Wheat, Milk"],
-    ["8 oz. Top Sirloin Steak", "370", "14g", "5g", "2g", "58g", "1460mg", "Soy"],
-    ["Bourbon Street Steak", "790", "42g", "16g", "38g", "64g", "2480mg", "Soy, Milk"],
-    ["Baby Back Ribs (Full Rack)", "1620", "96g", "34g", "112g", "78g", "3120mg", "Soy"],
-    ["Classic Bacon Cheeseburger", "1180", "72g", "28g", "56g", "68g", "2340mg", "Wheat, Milk, Soy, Egg"],
-    ["Whiskey Bacon Burger", "1310", "84g", "32g", "72g", "74g", "2790mg", "Wheat, Milk, Soy, Egg"],
-    ["Quesadilla Burger", "1290", "82g", "34g", "48g", "76g", "2860mg", "Wheat, Milk, Soy"],
-    ["Fiesta Lime Chicken®", "1140", "62g", "19g", "76g", "69g", "3150mg", "Milk, Soy, Egg"],
-    ["Crispy Chicken Tenders", "1190", "66g", "12g", "96g", "54g", "2840mg", "Wheat, Egg, Soy"],
-    ["Three-Cheese Chicken Penne", "1280", "68g", "28g", "98g", "72g", "2640mg", "Wheat, Milk, Soy"],
-    ["Four-Cheese Mac & Cheese", "1350", "74g", "30g", "116g", "62g", "3280mg", "Wheat, Milk, Soy"],
-    ["Blackened Cajun Salmon", "520", "28g", "6g", "4g", "62g", "1580mg", "Fish, Soy"],
-    ["Grilled Chicken Caesar Salad", "860", "56g", "14g", "32g", "58g", "2140mg", "Milk, Fish, Egg, Wheat"],
-    ["Oriental Chicken Salad", "1240", "78g", "13g", "104g", "36g", "1980mg", "Wheat, Soy, Egg, Peanut/Tree Nut"],
-    ["Triple Chocolate Meltdown®", "920", "44g", "24g", "124g", "12g", "560mg", "Wheat, Milk, Egg, Soy"]
+  doc.setTextColor(50, 60, 75);
+  const basics = [
+    'Each platter feeds 6 to 8 adults as part of a spread with an appetizer and a side.',
+    'Plan on about $10 per person for a basic spread. Rib and wing platters push it higher.',
+    'No minimum order. Book up to two weeks ahead, or with as little as two hours notice for a small weekday order.',
+    'Plates, cutlery and serving utensils are included.',
+    "Applebee's doesn't publish national catering prices. Call your restaurant for a quote.",
   ];
+  basics.forEach((line, i) => doc.text(`•  ${line}`, 16, y + 5 + i * 6, { maxWidth: w - 32 }));
+  y += 5 + basics.length * 6;
 
+  y = sectionTitle(doc, 'Platters by headcount', y + 6);
+  const rows = [
+    [10, 1, 2, 1], [15, 2, 2, 2], [20, 2, 3, 2], [30, 3, 4, 3], [50, 5, 7, 5],
+  ].map(([g, a, e, s]) => [`${g} guests`, a, e, s, a + e + s, `$${g * 10}`]);
   autoTable(doc, {
-    startY: 34,
-    head: [["Menu Item", "Calories", "Total Fat", "Sat Fat", "Carbs", "Protein", "Sodium", "Allergens Contains"]],
-    body: nutRows,
-    theme: 'grid',
-    headStyles: {
-      fillColor: [200, 16, 46],
-      textColor: 255,
-      fontStyle: 'bold',
-      fontSize: 8.5,
-      cellPadding: 2
-    },
-    bodyStyles: {
-      fontSize: 7.5,
-      cellPadding: 1.8,
-      textColor: [40, 40, 40]
-    },
-    columnStyles: {
-      0: { cellWidth: 65, fontStyle: 'bold' },
-      1: { halign: 'center', fontStyle: 'bold' },
-      2: { halign: 'center' },
-      3: { halign: 'center' },
-      4: { halign: 'center' },
-      5: { halign: 'center', fontStyle: 'bold', textColor: [26, 36, 51] },
-      6: { halign: 'center' },
-      7: { cellWidth: 50, textColor: [180, 20, 20] }
-    }
+    ...tableStyles,
+    startY: y + 1,
+    head: [['Guests', 'Appetizers', 'Entrées', 'Salads / sides', 'Platters', 'At ~$10 a head']],
+    body: rows,
+    columnStyles: { 1: { halign: 'center' }, 2: { halign: 'center' }, 3: { halign: 'center' }, 4: { halign: 'center' }, 5: { halign: 'right' } },
   });
+  y = doc.lastAutoTable.finalY;
 
-  const pageCount = doc.getNumberOfPages();
-  for (let i = 1; i <= pageCount; i++) {
-    doc.setPage(i);
-    doc.setFontSize(7.5);
-    doc.setTextColor(150, 150, 150);
-    doc.text(`Applebee's Nutrition & Allergen Guide • Page ${i} of ${pageCount} • Consult restaurant manager for severe allergies • applebees-menus.us`, pageWidth / 2, pageHeight - 6, { align: 'center' });
-  }
-
-  const pdfData = doc.output('arraybuffer');
-  fs.writeFileSync('public/pdfs/applebees-nutrition-and-allergen-guide.pdf', Buffer.from(pdfData));
-  console.log("Created public/pdfs/applebees-nutrition-and-allergen-guide.pdf");
+  y = sectionTitle(doc, 'Adjust for your group', y + 8);
+  doc.setFont('helvetica', 'normal');
+  doc.setFontSize(9.5);
+  doc.setTextColor(50, 60, 75);
+  const adjust = [
+    'Sports teams and teenagers: plan 4 to 5 per platter, roughly 40% more food.',
+    'Office lunch: 8 per platter holds. Skip wings; choose pasta trays.',
+    'Evening event with drinks: add one more platter.',
+    'Fried food softens in closed containers. Order sauce and dressing on the side.',
+    'Hold hot food above 135°F. Never put the plastic containers in an oven.',
+  ];
+  adjust.forEach((line, i) => doc.text(`•  ${line}`, 16, y + 5 + i * 6, { maxWidth: w - 32 }));
+  save(doc, 'applebees-catering-party-platters-menu.pdf');
 }
 
-// ----------------------------------------------------
-// 3. Applebee's Catering Party Platters PDF
-// ----------------------------------------------------
-function generateCateringPDF() {
-  const doc = new jsPDF({ orientation: 'portrait', unit: 'mm', format: 'a4' });
-  const pageWidth = doc.internal.pageSize.width;
-  const pageHeight = doc.internal.pageSize.height;
+// ---------------------------------------------------------------- 4. drinks & happy hour
+function drinksGuide() {
+  const doc = new jsPDF({ orientation: 'portrait', unit: 'mm', format: 'letter' });
+  let y = header(doc, "Applebee's Drinks & Happy Hour", 'Happy hour times, half price apps and drink prices');
 
-  doc.setFillColor(26, 36, 51);
-  doc.rect(0, 0, pageWidth, 35, 'F');
-  doc.setFillColor(200, 16, 46);
-  doc.rect(0, 35, pageWidth, 2.5, 'F');
-
-  doc.setTextColor(255, 255, 255);
-  doc.setFontSize(22);
-  doc.setFont('helvetica', 'bold');
-  doc.text("APPLEBEE'S CATERING GUIDE", 15, 18);
-
-  doc.setTextColor(220, 225, 230);
-  doc.setFontSize(11);
-  doc.setFont('helvetica', 'normal');
-  doc.text("Party Platters, Ordering Math & Headcount Blueprint (2026)", 15, 28);
-
-  const cateringRows = [
-    ["10 Guests", "1 Platter", "2 Platters", "1 Platter", "4 Platters (~$100 total)"],
-    ["15 Guests", "2 Platters", "2 Platters", "2 Platters", "6 Platters (~$150 total)"],
-    ["20 Guests", "2 Platters", "3 Platters", "2 Platters", "7 Platters (~$190 total)"],
-    ["30 Guests", "3 Platters", "4 Platters", "3 Platters", "10 Platters (~$280 total)"],
-    ["50 Guests", "5 Platters", "7 Platters", "5 Platters", "17 Platters (~$480 total)"]
-  ];
-
+  y = sectionTitle(doc, 'Happy hour: 3:00–6:00 PM and 9:00 PM to close, dine-in', y + 6);
+  const apps = (bySlug.appetizers?.items || []).filter((i) => !/combo/i.test(i.name));
   autoTable(doc, {
-    startY: 45,
-    head: [["Event Headcount", "Appetizer Platters", "Entrée Platters", "Salads & Sides", "Recommended Total & Budget"]],
-    body: cateringRows,
-    theme: 'grid',
-    headStyles: {
-      fillColor: [200, 16, 46],
-      textColor: 255,
-      fontStyle: 'bold',
-      fontSize: 9
-    },
-    bodyStyles: {
-      fontSize: 8.5,
-      cellPadding: 3
-    }
-  });
-
-  const platterMenu = [
-    ["Boneless Wings Party Platter", "Serves 6 - 8", "Choice of Honey BBQ, Classic Buffalo, or Sweet Asian Chile."],
-    ["Classic Appetizer Sampler Pan", "Serves 6 - 8", "Wings, Mozzarella Sticks, and Spinach Artichoke Dip."],
-    ["Three-Cheese Chicken Penne Pan", "Serves 6 - 8", "Penne pasta, grilled chicken, parmesan cream sauce."],
-    ["Double-Glazed Baby Back Ribs Pan", "Serves 6 - 8", "Slow-cooked tender pork ribs cut into individual portions."],
-    ["House or Caesar Salad Party Bowl", "Serves 8 - 10", "Dressing served separately to maintain crisp freshness."]
-  ];
-
-  // @ts-ignore
-  const nextY = doc.lastAutoTable.finalY + 10;
-  doc.setTextColor(26, 36, 51);
-  doc.setFontSize(13);
-  doc.setFont('helvetica', 'bold');
-  doc.text("CORE CATERING PLATTER SELECTIONS", 15, nextY);
-
-  autoTable(doc, {
-    startY: nextY + 3,
-    head: [["Platter Name", "Yield", "Description & Serving Notes"]],
-    body: platterMenu,
-    theme: 'grid',
-    headStyles: {
-      fillColor: [26, 36, 51],
-      textColor: 255,
-      fontStyle: 'bold',
-      fontSize: 9
-    },
-    bodyStyles: {
-      fontSize: 8.5,
-      cellPadding: 2.5
-    }
-  });
-
-  const pageCount = doc.getNumberOfPages();
-  for (let i = 1; i <= pageCount; i++) {
-    doc.setPage(i);
-    doc.setFontSize(8);
-    doc.setTextColor(150, 150, 150);
-    doc.text(`Applebee's Catering Blueprint • Page ${i} of ${pageCount} • applebees-menus.us/catering`, pageWidth / 2, pageHeight - 8, { align: 'center' });
-  }
-
-  const pdfData = doc.output('arraybuffer');
-  fs.writeFileSync('public/pdfs/applebees-catering-party-platters-menu.pdf', Buffer.from(pdfData));
-  console.log("Created public/pdfs/applebees-catering-party-platters-menu.pdf");
-}
-
-// ----------------------------------------------------
-// 4. Applebee's Drinks & Cocktails PDF
-// ----------------------------------------------------
-function generateDrinksPDF() {
-  const doc = new jsPDF({ orientation: 'portrait', unit: 'mm', format: 'a4' });
-  const pageWidth = doc.internal.pageSize.width;
-  const pageHeight = doc.internal.pageSize.height;
-
-  doc.setFillColor(26, 36, 51);
-  doc.rect(0, 0, pageWidth, 35, 'F');
-  doc.setFillColor(200, 16, 46);
-  doc.rect(0, 35, pageWidth, 2.5, 'F');
-
-  doc.setTextColor(255, 255, 255);
-  doc.setFontSize(22);
-  doc.setFont('helvetica', 'bold');
-  doc.text("APPLEBEE'S DRINKS & COCKTAILS", 15, 18);
-
-  doc.setTextColor(220, 225, 230);
-  doc.setFontSize(11);
-  doc.setFont('helvetica', 'normal');
-  doc.text("Signature Cocktails, Mucho Drinks & Non-Alcoholic Beverages (2026)", 15, 28);
-
-  const drinkRows = [
-    ["SIGNATURE COCKTAILS & MUCHOS", "", "", ""],
-    ["The Legendary Dollarita®", "220 Cal", "$1.00 - $3.00", "Tequila, triple sec, signature margarita mix"],
-    ["Mucho Blue Hawaiian", "340 Cal", "$8.99", "Tito's vodka, Malibu coconut rum, Blue Curaçao, pineapple"],
-    ["Shark Bowl Mucho Cocktail", "410 Cal", "$9.49", "Rum punch cocktail served with gummy shark candy"],
-    ["Top Shelf Long Island Iced Tea", "290 Cal", "$8.99", "Vodka, rum, gin, tequila, triple sec, cola splash"],
-    ["Strawberry Lemonade Swirl Margarita", "320 Cal", "$8.49", "Tequila, strawberry purée, tart lemonade swirl"],
-    
-    ["DIRTY FOUNTAIN SODAS (NON-ALCOHOLIC)", "", "", ""],
-    ["Passion Blue Dew", "190 Cal", "$3.99", "Mountain Dew infused with blue raspberry & passionfruit"],
-    ["Cherry Charmed Pepsi", "210 Cal", "$3.99", "Pepsi with sweet cherry syrup and vanilla creamer"],
-    ["Mango Dream Dew", "200 Cal", "$3.99", "Mountain Dew infused with tropical mango and coconut cream"],
-    ["Flavored Strawberry Lemonade", "160 Cal", "$3.79", "Classic lemonade infused with real strawberry purée"]
-  ];
-
-  autoTable(doc, {
-    startY: 45,
-    head: [["Beverage Name", "Calories", "Price", "Ingredients & Flavor Profile"]],
-    body: drinkRows.map(row => {
-      if (row[1] === "" && row[2] === "") {
-        return [{ content: row[0], colSpan: 4, styles: { fillColor: [26, 36, 51], textColor: [255, 255, 255], fontStyle: 'bold', fontSize: 10 } }];
-      }
-      return row;
+    ...tableStyles,
+    startY: y + 1,
+    head: [['Half price appetizer', 'Calories', 'Regular', 'Half price']],
+    body: apps.map((i) => {
+      const p = Number((i.price.match(/\$(\d+\.\d\d)/) || [])[1] || 0);
+      return [i.name, cleanCalories(i.calories), money(p), money(Math.round(p * 50) / 100)];
     }),
-    theme: 'grid',
-    headStyles: {
-      fillColor: [200, 16, 46],
-      textColor: 255,
-      fontStyle: 'bold',
-      fontSize: 9
-    },
-    bodyStyles: {
-      fontSize: 8.5,
-      cellPadding: 2.5
-    },
-    columnStyles: {
-      0: { cellWidth: 65, fontStyle: 'bold' },
-      1: { cellWidth: 25, halign: 'center' },
-      2: { cellWidth: 25, halign: 'center', fontStyle: 'bold', textColor: [200, 16, 46] },
-      3: { cellWidth: 'auto' }
-    }
+    columnStyles: { 1: { halign: 'right' }, 2: { halign: 'right' }, 3: { halign: 'right', fontStyle: 'bold' } },
   });
+  y = doc.lastAutoTable.finalY;
 
-  const pageCount = doc.getNumberOfPages();
-  for (let i = 1; i <= pageCount; i++) {
-    doc.setPage(i);
-    doc.setFontSize(8);
-    doc.setTextColor(150, 150, 150);
-    doc.text(`Applebee's Drinks & Beverage Guide • Page ${i} of ${pageCount} • Must be 21+ for alcohol • applebees-menus.us`, pageWidth / 2, pageHeight - 8, { align: 'center' });
+  for (const slug of ['signature-cocktails', 'dirty-fountain-sodas', 'non-alcoholic-beverages']) {
+    const cat = bySlug[slug];
+    if (!cat) continue;
+    y = sectionTitle(doc, cat.label, y + 8);
+    autoTable(doc, {
+      ...tableStyles,
+      startY: y + 1,
+      head: [['Drink', 'Calories', 'Reference price']],
+      body: cat.items.map((i) => [i.name, cleanCalories(i.calories), cleanPrice(i.price)]),
+      columnStyles: { 1: { halign: 'right', cellWidth: 34 }, 2: { halign: 'right', cellWidth: 48 } },
+    });
+    y = doc.lastAutoTable.finalY;
   }
 
-  const pdfData = doc.output('arraybuffer');
-  fs.writeFileSync('public/pdfs/applebees-drinks-cocktails-happy-hour-menu.pdf', Buffer.from(pdfData));
-  console.log("Created public/pdfs/applebees-drinks-cocktails-happy-hour-menu.pdf");
+  y = sectionTitle(doc, 'Limited time: $6 Spooky Sips through November 15, 2026', y + 8);
+  doc.setFont('helvetica', 'normal');
+  doc.setFontSize(9.5);
+  doc.setTextColor(50, 60, 75);
+  doc.text(
+    "Tipsy Zombie and Dracula's Juice cocktails are $6. The Tropical Spell Mocktail is $4. The $1 Dollarita ended July 31, 2026.",
+    14, y + 5, { maxWidth: doc.internal.pageSize.width - 28 },
+  );
+  y += 14;
+
+  y = sectionTitle(doc, 'States that ban happy hour drink discounts', y + 4);
+  doc.setFont('helvetica', 'normal');
+  doc.setFontSize(9.5);
+  doc.text(
+    'Massachusetts, Rhode Island, Vermont, North Carolina, Alaska and Utah. Half price appetizers still run there. Oklahoma allows happy hour if prices stay at least 6% above cost; Indiana lifted its ban in 2024.',
+    14, y + 5, { maxWidth: doc.internal.pageSize.width - 28 },
+  );
+  save(doc, 'applebees-drinks-cocktails-happy-hour-menu.pdf');
 }
 
-generateFullMenuPDF();
-generateNutritionPDF();
-generateCateringPDF();
-generateDrinksPDF();
+fullMenu();
+nutritionGuide();
+cateringGuide();
+drinksGuide();

@@ -582,3 +582,17 @@
 }
 
 
+
+.byline {
+  font-size: 13px;
+  line-height: 1.7;
+  color: #64748b;
+  margin: 0 0 22px;
+  padding-left: 12px;
+  border-left: 3px solid #c53030;
+}
+
+.byline a {
+  color: #c53030;
+  text-underline-offset: 3px;
+}

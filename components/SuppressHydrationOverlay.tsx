@@ -12,7 +12,7 @@ export function SuppressHydrationOverlay() {
           typeof message === "string" &&
           (message.includes("A tree hydrated but some attributes of the server rendered HTML didn't match") ||
            message.includes("bis_skin_checked") ||
-           message.includes("Hydration failed because the initial UI does not match"))
+           message.includes("Hydration failed because the initial UI doesn't match"))
         ) {
           // Suppress hydration errors caused by browser extensions injecting bis_skin_checked
           return;

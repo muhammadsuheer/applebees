@@ -9,13 +9,13 @@ import styles from './page.module.css';
 import heroStyles from '@/components/LegalHero.module.css';
 
 export const metadata: Metadata = {
-  title: 'Blog & News | Applebee\'s Menu Info',
+  title: 'Blog & News | Menu Almanac',
   description: 'Read our latest guides, news, and tips about Applebee\'s menu items, discounts, and secret menus.',
   alternates: {
     canonical: 'https://applebees-menus.us/blog',
   },
   openGraph: {
-    siteName: "Applebee's Menu Information",
+    siteName: "Menu Almanac",
     images: [
       {
         url: '/og/og-blog-secret-menu.webp',
@@ -36,7 +36,7 @@ export default function BlogIndexPage() {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
-    "name": "Blog & News | Applebee's Menu Info",
+    "name": "Blog & News | Menu Almanac",
     "description": "Read our latest guides, news, and tips about Applebee's menu items, discounts, and secret menus.",
     "url": "https://applebees-menus.us/blog"
   };

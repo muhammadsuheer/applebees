@@ -6,24 +6,24 @@ import styles from './page.module.css';
 import {
   CareersOverview,
   FranchiseReality,
-  FrontOfHouse,
-  BackOfHouse,
-  AIHiringProcess,
-  ManagementFastTrack,
-  CompensationTips,
-  BenefitsPerks,
+  JobRoles,
+  HiringProcess,
+  PayAndTips,
   AgeRequirements,
   CareersFAQ
 } from '@/components/CareersSections';
 
+const TITLE = "Applebee's Careers 2026: Jobs, Hiring Age, Pay & How to Apply";
+const DESCRIPTION = "Applebee's hires hosts and cooks from 16. About 98% of restaurants are franchised, so your employer sets pay and benefits. Jobs, tipped wage rules and how to apply in 2026.";
+
 export const metadata: Metadata = {
-  title: 'Applebee\'s Careers 2026 | Salaries, Interviews & Benefits',
-  description: 'The definitive 2026 guide to Applebee\'s jobs. We reveal the AI hiring process, the tipped minimum wage structure, and management salaries at Flynn Group.',
+  title: TITLE,
+  description: DESCRIPTION,
   alternates: {
     canonical: 'https://applebees-menus.us/careers',
   },
   openGraph: {
-    siteName: "Applebee's Menu Information",
+    siteName: "Menu Almanac",
     images: [
       {
         url: '/og/og-careers.webp',
@@ -44,8 +44,8 @@ export default function CareersPage() {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Applebee's Careers 2026 | Salaries, Interviews & Benefits",
-    "description": "The definitive 2026 guide to Applebee's jobs. We reveal the AI hiring process, the tipped minimum wage structure, and management salaries at Flynn Group.",
+    "name": TITLE,
+    "description": DESCRIPTION,
     "url": "https://applebees-menus.us/careers"
   };
 
@@ -57,22 +57,19 @@ export default function CareersPage() {
       />
       <Header />
       <Breadcrumb items={[{ label: 'Careers', href: '/careers' }]} />
-      
+
       <section className={styles.hero}>
-        <h1>Applebee's Careers: The 2026 Survival Guide</h1>
+        <h1>Applebee&apos;s Careers: Jobs, Hiring Age and Pay</h1>
         <p>
-          Before you apply, read this. We expose the intense reality of the Friday night dinner rush, the AI text-bot that will interview you, and exactly how the complicated "Tip-Out" structure will affect your paycheck. This is the ultimate insider guide to working under the neighborhood roof.
+          Applebee&apos;s hires hosts, dishwashers and prep cooks from 16, servers usually from 18 and bartenders from 21. Before you apply, know that about 98% of Applebee&apos;s are owned by franchisees. The company that owns your restaurant, not Applebee&apos;s, sets your pay and benefits. This is an independent guide, not an Applebee&apos;s job site.
         </p>
       </section>
 
       <CareersOverview />
       <FranchiseReality />
-      <FrontOfHouse />
-      <BackOfHouse />
-      <AIHiringProcess />
-      <ManagementFastTrack />
-      <CompensationTips />
-      <BenefitsPerks />
+      <JobRoles />
+      <HiringProcess />
+      <PayAndTips />
       <AgeRequirements />
       <CareersFAQ />
 

@@ -5,151 +5,117 @@ import Footer from '@/components/Footer';
 import Breadcrumb from '@/components/Breadcrumb';
 import styles from './page.module.css';
 
+// Checked September 2026 (applebees.com catering page summaries and catering listings):
+//  - each catering dish serves 6–8 guests; about $10 per person for a basic spread
+//  - order up to two weeks ahead, or with as little as two hours' notice; no minimum
+//  - plates, serving utensils and cutlery included
+// Applebee's doesn't publish national catering prices. Keep figures as ranges.
+
 export const metadata: Metadata = {
-  title: "Applebee's Catering: Party Platters, Prices & Ordering",
-  description: "Applebee's catering serves 6-8 per platter at about $10 per person. How much food to order for your headcount, lead times, delivery options and keeping it hot.",
+  title: "Applebee's Catering Menu 2026: Party Platters, Prices & How Much to Order",
+  description:
+    "Applebee's catering platters serve 6 to 8 people at about $10 a head, with no minimum and as little as two hours' notice. How many platters to order for 10, 20 or 50 guests.",
   alternates: {
     canonical: 'https://applebees-menus.us/catering',
   },
   openGraph: {
-    siteName: "Applebee's Menu Information",
-    images: [
-      {
-        url: '/og/og-catering.webp',
-        width: 1200,
-        height: 630,
-      },
-    ],
+    siteName: 'Menu Almanac',
+    images: [{ url: '/og/og-catering.webp', width: 1200, height: 630 }],
     locale: 'en_US',
-    type: 'website',
+    type: 'article',
   },
   twitter: {
     card: 'summary_large_image',
     images: ['/og/og-catering.webp'],
-  }
+  },
 };
+
+const headcounts = [
+  { guests: 10, apps: 1, entrees: 2, sides: 1 },
+  { guests: 15, apps: 2, entrees: 2, sides: 2 },
+  { guests: 20, apps: 2, entrees: 3, sides: 2 },
+  { guests: 30, apps: 3, entrees: 4, sides: 3 },
+  { guests: 50, apps: 5, entrees: 7, sides: 5 },
+];
 
 const faqData = [
   {
     question: "How many people does an Applebee's catering platter serve?",
-    answer: "Each catering dish is designed to serve 6 to 8 guests as part of a balanced spread. For teenagers, sports teams or heavy eaters, plan closer to 4 to 5 per platter."
+    answer:
+      "6 to 8 people, as one part of a spread with an appetizer and a side. For a sports team or a group of teenagers, plan on 4 to 5 per platter.",
   },
   {
-    question: "How much does Applebee's catering cost per person?",
-    answer: "About $10 per person for a balanced order of appetizers, entrées and sides. Premium items such as rib platters raise it. Pricing varies by location."
+    question: "How much is Applebee's catering per person?",
+    answer:
+      "About $10 a head for a basic mix of appetizers, entrées and sides. Rib platters and extra wing trays push it higher. Applebee's doesn't publish national catering prices, so call your restaurant for the real number.",
   },
   {
     question: "Is there a minimum order for Applebee's catering?",
-    answer: "No. There is no minimum order requirement."
+    answer: "No. You can order a single platter.",
   },
   {
-    question: "How much notice does Applebee's catering need?",
-    answer: "Orders can be placed up to two weeks ahead, and with as little as two hours' notice depending on size. Orders of three platters or more typically need 24 hours."
+    question: "How far ahead do I need to order Applebee's catering?",
+    answer:
+      "Anywhere from two weeks to two hours. Two hours works for a small weekday order. For 10 or more platters, or anything on a Friday night or a holiday weekend, give the restaurant at least a day.",
   },
   {
-    question: "Does Applebee's catering include plates and cutlery?",
-    answer: "Yes. Plates, serving utensils and cutlery are included in catering orders  you do not need to request them separately."
+    question: "Does Applebee's catering come with plates and utensils?",
+    answer: "Yes. Plates, cutlery and serving utensils are included. You don't have to ask for them.",
   },
   {
-    question: "Does Applebee's deliver catering orders?",
-    answer: "It varies by location. Some restaurants deliver, many prefer pickup for larger orders, and Applebee's catering is also available through business catering platforms that handle scheduled delivery."
+    question: "Does Applebee's deliver catering?",
+    answer:
+      "Some restaurants deliver it themselves and many prefer pickup for big orders. Applebee's catering is also listed on ezCater, which schedules delivery with catering couriers.",
+  },
+  {
+    question: "How much Applebee's catering do I need for 20 people?",
+    answer:
+      "Seven platters: two appetizers, three entrées and two salads or sides. Add one more entrée if the group is mostly teenagers or it's an evening event with drinks.",
   },
   {
     question: "Can Applebee's catering containers go in the oven?",
-    answer: "No. The containers are microwave safe but must not be placed in an oven. For extended events, transfer food into aluminium pans in a chafing dish setup."
-  },
-  {
-    question: "How do I keep Applebee's catering hot during an event?",
-    answer: "The insulated containers hold temperature for a short window. For anything longer than about forty-five minutes of service, transfer to chafing dishes over a hot water bath with fuel cans, holding food above 135°F."
-  },
-  {
-    question: "How much food should I order for 20 people?",
-    answer: "Roughly seven platters  two appetizers, three entrées and two salads or sides. Adjust upward for younger or heavier-eating groups."
-  },
-  {
-    question: "Is Applebee's catering available at every location?",
-    answer: "No. Catering availability, pricing and participation vary by location, since restaurants are independently owned. Check with your nearest restaurant."
+    answer:
+      "No. They're plastic. To keep food hot for longer than about 45 minutes, move it into aluminum pans over a chafing dish.",
   },
   {
     question: "Can I order Applebee's catering tax-exempt?",
-    answer: "Yes, for qualifying organisations. Ordering directly requires presenting a printed exemption certificate to the restaurant. Business catering platforms allow the certificate to be stored on the account and applied automatically."
-  }
+    answer:
+      "Yes, if your organization qualifies. Ordering direct, bring a printed exemption certificate to the restaurant. On ezCater, upload it to the account once and it applies to every order.",
+  },
 ];
 
 export default function CateringPage() {
   const schemaData = {
-    "@context": "https://schema.org",
-    "@graph": [
+    '@context': 'https://schema.org',
+    '@graph': [
       {
-        "@type": "WebPage",
-        "@id": "https://applebees-menus.us/catering/#webpage",
-        "url": "https://applebees-menus.us/catering",
-        "name": "Applebee's Catering: Party Platters, Prices & Ordering",
-        "description": "Applebee's catering serves 6-8 per platter at about $10 per person. How much food to order for your headcount, lead times, delivery options and keeping it hot.",
-        "breadcrumb": {
-          "@id": "https://applebees-menus.us/catering/#breadcrumb"
-        }
+        '@type': 'WebPage',
+        '@id': 'https://applebees-menus.us/catering/#webpage',
+        url: 'https://applebees-menus.us/catering',
+        name: "Applebee's Catering Menu 2026: Party Platters, Prices & How Much to Order",
+        description:
+          "How much Applebee's catering costs, how many platters to order by headcount, lead times, delivery options and keeping food hot.",
+        publisher: { '@id': 'https://applebees-menus.us/#organization' },
+        breadcrumb: { '@id': 'https://applebees-menus.us/catering/#breadcrumb' },
       },
       {
-        "@type": "HowTo",
-        "@id": "https://applebees-menus.us/catering/#chafing-dish-setup",
-        "name": "How to Set Up a Chafing Dish for Applebee's Catering",
-        "description": "Step-by-step instructions for safely setting up a water bath and sterno fuel to keep party platters hot above 135°F.",
-        "step": [
-          {
-            "@type": "HowToStep",
-            "name": "Position the Wire Rack",
-            "text": "Place the wire chafing rack on a stable, heat-tolerant buffet table or surface."
-          },
-          {
-            "@type": "HowToStep",
-            "name": "Add Hot Water to the Water Pan",
-            "text": "Drop in the full-size aluminium water pan and add roughly one inch of hot water."
-          },
-          {
-            "@type": "HowToStep",
-            "name": "Light the Gel Fuel Cans",
-            "text": "Uncap and ignite the gel fuel canisters placed safely underneath the water pan."
-          },
-          {
-            "@type": "HowToStep",
-            "name": "Transfer Food into Aluminium Pans",
-            "text": "Transfer hot food from the plastic catering containers into half-size aluminium food pans, then place them directly into the steaming water bath."
-          }
-        ]
+        '@type': 'FAQPage',
+        '@id': 'https://applebees-menus.us/catering/#faq',
+        mainEntity: faqData.map((faq) => ({
+          '@type': 'Question',
+          name: faq.question,
+          acceptedAnswer: { '@type': 'Answer', text: faq.answer },
+        })),
       },
       {
-        "@type": "FAQPage",
-        "@id": "https://applebees-menus.us/catering/#faq",
-        "name": "Applebee's Catering Frequently Asked Questions",
-        "mainEntity": faqData.map(faq => ({
-          "@type": "Question",
-          "name": faq.question,
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": faq.answer
-          }
-        }))
+        '@type': 'BreadcrumbList',
+        '@id': 'https://applebees-menus.us/catering/#breadcrumb',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://applebees-menus.us/' },
+          { '@type': 'ListItem', position: 2, name: 'Catering', item: 'https://applebees-menus.us/catering' },
+        ],
       },
-      {
-        "@type": "BreadcrumbList",
-        "@id": "https://applebees-menus.us/catering/#breadcrumb",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Home",
-            "item": "https://applebees-menus.us/"
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Catering",
-            "item": "https://applebees-menus.us/catering"
-          }
-        ]
-      }
-    ]
+    ],
   };
 
   return (
@@ -162,303 +128,245 @@ export default function CateringPage() {
       <Breadcrumb items={[{ label: 'Catering', href: '/catering' }]} />
 
       <main className={styles.main}>
-        {/* H1 & §1  OPENING */}
-        <header className={styles.hero} role="banner" aria-label="Catering Header">
-          <h1>Applebee's Catering: Platters, Pricing and How Much to Order</h1>
+        <section className={styles.hero} aria-labelledby="catering-title">
+          <h1 id="catering-title">Applebee&apos;s Catering: Platters, Prices and How Much to Order</h1>
           <p className={styles.heroLead}>
-            Applebee's catering works on a platter model. Each dish serves 6 to 8 people, pricing lands at roughly $10 per person for a balanced spread, and there is no minimum order.
+            Applebee&apos;s catering comes by the platter. Each one feeds 6 to 8 people, a basic spread
+            works out to about $10 a head, and there&apos;s no minimum order.
           </p>
           <p className={styles.heroSub}>
-            Orders can be placed up to two weeks ahead or, depending on size, with as little as two hours' notice. Plates, cutlery and serving utensils are included  you do not need to ask for them.
+            You can book up to two weeks out or order with two hours&apos; notice. Plates, cutlery
+            and serving utensils come with it.
           </p>
           <p className={styles.heroHighlight}>
-            The hard part is not ordering. It is working out how much to order. This page covers the platter math for common headcounts, what holds heat and what does not, lead times that actually work, and how to keep food safe across a two-hour event.
+            Ordering is the easy part. Working out how many platters 23 people need is where most
+            orders go wrong, so that&apos;s where this page starts.
           </p>
-        </header>
+        </section>
 
-        {/* §2  THE ORDERING MATH */}
         <section className={styles.clusterSection} id="ordering-math">
-          <h2>How Much Applebee's Catering to Order</h2>
+          <h2>How Much Applebee&apos;s Catering to Order</h2>
           <p>
-            This is the section competitors do not have. Everyone lists the menu. Nobody tells you how many trays to buy.
-          </p>
-          <p>
-            <strong>The base rule:</strong> One platter serves 6–8 adults as one component of a spread, not as the whole meal. A tray of pasta feeds 6–8 people only if there is also an appetizer and a salad. On its own it feeds fewer.
+            Start from one rule: a platter feeds 6 to 8 adults only when it&apos;s one part of a
+            spread. A pasta tray with an appetizer and a salad next to it covers eight. The same tray
+            on its own covers five.
           </p>
 
-          <h3>Platters by headcount</h3>
           <div className={styles.tableCard} style={{ maxWidth: '750px', margin: '20px auto' }}>
             <div className={styles.tableResponsive}>
               <table className={styles.customTable}>
+                <caption className="sr-only">Applebee&apos;s catering platters by headcount</caption>
                 <thead>
                   <tr>
                     <th scope="col">Guests</th>
                     <th scope="col" style={{ textAlign: 'center' }}>Appetizers</th>
                     <th scope="col" style={{ textAlign: 'center' }}>Entrées</th>
-                    <th scope="col" style={{ textAlign: 'center' }}>Sides / Salads</th>
-                    <th scope="col" style={{ textAlign: 'right' }}>Rough Total</th>
+                    <th scope="col" style={{ textAlign: 'center' }}>Salads / sides</th>
+                    <th scope="col" style={{ textAlign: 'right' }}>Platters</th>
+                    <th scope="col" style={{ textAlign: 'right' }}>At ~$10 a head</th>
                   </tr>
                 </thead>
                 <tbody>
-                  <tr>
-                    <td data-label="Guests"><strong>10 Guests</strong></td>
-                    <td data-label="Appetizers" style={{ textAlign: 'center' }}>1</td>
-                    <td data-label="Entrées" style={{ textAlign: 'center' }}>2</td>
-                    <td data-label="Sides / Salads" style={{ textAlign: 'center' }}>1</td>
-                    <td data-label="Rough Total" style={{ textAlign: 'right', fontWeight: 700, color: '#c8102e' }}>4 platters</td>
-                  </tr>
-                  <tr>
-                    <td data-label="Guests"><strong>15 Guests</strong></td>
-                    <td data-label="Appetizers" style={{ textAlign: 'center' }}>2</td>
-                    <td data-label="Entrées" style={{ textAlign: 'center' }}>2</td>
-                    <td data-label="Sides / Salads" style={{ textAlign: 'center' }}>2</td>
-                    <td data-label="Rough Total" style={{ textAlign: 'right', fontWeight: 700, color: '#c8102e' }}>6 platters</td>
-                  </tr>
-                  <tr>
-                    <td data-label="Guests"><strong>20 Guests</strong></td>
-                    <td data-label="Appetizers" style={{ textAlign: 'center' }}>2</td>
-                    <td data-label="Entrées" style={{ textAlign: 'center' }}>3</td>
-                    <td data-label="Sides / Salads" style={{ textAlign: 'center' }}>2</td>
-                    <td data-label="Rough Total" style={{ textAlign: 'right', fontWeight: 700, color: '#c8102e' }}>7 platters</td>
-                  </tr>
-                  <tr>
-                    <td data-label="Guests"><strong>30 Guests</strong></td>
-                    <td data-label="Appetizers" style={{ textAlign: 'center' }}>3</td>
-                    <td data-label="Entrées" style={{ textAlign: 'center' }}>4</td>
-                    <td data-label="Sides / Salads" style={{ textAlign: 'center' }}>3</td>
-                    <td data-label="Rough Total" style={{ textAlign: 'right', fontWeight: 700, color: '#c8102e' }}>10 platters</td>
-                  </tr>
-                  <tr>
-                    <td data-label="Guests"><strong>50 Guests</strong></td>
-                    <td data-label="Appetizers" style={{ textAlign: 'center' }}>5</td>
-                    <td data-label="Entrées" style={{ textAlign: 'center' }}>7</td>
-                    <td data-label="Sides / Salads" style={{ textAlign: 'center' }}>5</td>
-                    <td data-label="Rough Total" style={{ textAlign: 'right', fontWeight: 700, color: '#c8102e' }}>17 platters</td>
-                  </tr>
+                  {headcounts.map((h) => (
+                    <tr key={h.guests}>
+                      <td data-label="Guests"><strong>{h.guests} guests</strong></td>
+                      <td data-label="Appetizers" style={{ textAlign: 'center' }}>{h.apps}</td>
+                      <td data-label="Entrées" style={{ textAlign: 'center' }}>{h.entrees}</td>
+                      <td data-label="Salads / sides" style={{ textAlign: 'center' }}>{h.sides}</td>
+                      <td data-label="Platters" style={{ textAlign: 'right', fontWeight: 700 }}>
+                        {h.apps + h.entrees + h.sides}
+                      </td>
+                      <td data-label="Estimate" style={{ textAlign: 'right' }}>
+                        ${(h.guests * 10).toLocaleString('en-US')}
+                      </td>
+                    </tr>
+                  ))}
                 </tbody>
               </table>
             </div>
           </div>
 
-          <h3>Adjust for who is eating</h3>
+          <h3>Adjust for who&apos;s eating</h3>
           <p>
-            The 6–8 figure assumes mixed adults at a seated meal. Real groups vary:
+            The table assumes mixed adults at a sit-down meal. A high school football team is not
+            that. Plan on 4 to 5 per platter for athletes, teenagers and anyone who&apos;s been doing
+            physical work all day, which means roughly 40% more food than the table says.
           </p>
-          <ul className={styles.textList}>
-            <li><strong>Sports teams, teenagers, manual crews:</strong> Assume 4–5 per platter, not 6–8. Order about 40% more than the table suggests.</li>
-            <li><strong>Office lunch, mixed desk workers:</strong> 6–8 holds. People eat less at a desk than at a table.</li>
-            <li><strong>Standing events with no seating:</strong> People eat less overall but graze longer. Fewer entrées, more appetizers.</li>
-            <li><strong>Evening events where alcohol is served:</strong> People eat more, and later. Add a platter.</li>
-          </ul>
+          <p>
+            Office lunches go the other way. People eat less at a desk, and 8 per platter holds. At a
+            standing party with no seats, cut an entrée and add an appetizer, because guests graze.
+            Evening events with alcohol need one extra platter. Every time.
+          </p>
 
-          <h3>The ratio that works</h3>
+          <h3>The split that doesn&apos;t run out</h3>
           <p>
-            For most events, the split that avoids both waste and shortage is roughly one appetizer platter for every two entrée platters, plus one salad or side for every two entrées.
-          </p>
-          <p>
-            Skewing heavily to entrées is the common mistake. Pasta and chicken trays are filling, and a table with four entrées and no starter runs out of variety long before it runs out of food.
-          </p>
-          <p>
-            Browse the catering categories: <Link href="/menu/appetizers">appetizers</Link>, <Link href="/menu/chicken">chicken</Link>, <Link href="/menu/pasta">pasta</Link>, <Link href="/menu/salads">salads</Link>, and <Link href="/menu/sides">sides</Link>.
+            One appetizer platter for every two entrée platters, and one salad or side for every two
+            entrées. The common mistake is four entrée trays and nothing else. The table runs out of
+            variety long before it runs out of food.
           </p>
         </section>
 
-        {/* §3  PRICING */}
+        <section className={styles.clusterSection} id="catering-menu">
+          <h2>What&apos;s on the Applebee&apos;s Catering Menu</h2>
+          <p>
+            Catering menus are set by each restaurant, but the same items show up again and again:
+            Boneless Wings and Classic Wings platters, Mozzarella Sticks, Spinach &amp; Artichoke Dip,
+            a Chicken Quesadilla platter, Riblets, Chicken Alfredo and other pasta trays, and
+            cheeseburger sliders. Salads and desserts round it out.
+          </p>
+          <p>
+            Pasta is the best catering item on the menu. Sauce holds heat, the tray survives an hour
+            in a chafing dish, and nobody gets a dried-out portion at minute fifty. Riblets and sauced
+            chicken come second for the same reason.
+          </p>
+          <p>
+            Fried food is the one to manage. Wings and Mozzarella Sticks steam in a closed container,
+            and the coating goes soft on the drive over. Order sauce on the side and toss the wings
+            right before people eat. For salads, get the dressing separately or the greens will wilt
+            before the second round.
+          </p>
+          <p>
+            You won&apos;t find steaks or anything served sizzling. A steak that rides 30 minutes in a
+            container keeps cooking, and that&apos;s why they&apos;re left off.
+          </p>
+          <p>
+            Browse the regular-menu versions: <Link href="/menu/appetizers">appetizers</Link>,{' '}
+            <Link href="/menu/pasta">pasta</Link>, <Link href="/menu/steaks-and-ribs">riblets</Link>{' '}
+            and <Link href="/menu/salads">salads</Link>.
+          </p>
+        </section>
+
         <section className={styles.clusterSection} id="catering-prices">
-          <h2>Applebee's Catering Prices</h2>
-
+          <h2>Applebee&apos;s Catering Prices</h2>
           <div className={styles.answerBlock}>
             <p>
-              Applebee's catering costs about $10 per person for a balanced spread of appetizers, entrées and sides. There is no minimum order. Pricing and participation vary by location, since restaurants are independently franchised.
+              Plan on about $10 per person for a basic spread of appetizers, entrées and sides.
+              Lean on rib platters and extra wing trays and it climbs toward $20 a head. There&apos;s no
+              minimum.
             </p>
           </div>
-
-          <h3>What moves the number</h3>
           <p>
-            The $10 figure describes a balanced order. It goes up when the mix changes:
+            Applebee&apos;s doesn&apos;t publish a national catering price list, and any site that
+            prints exact platter prices is guessing at your restaurant. Franchisees price catering the
+            same way they price the <Link href="/menu">regular menu</Link>, so a platter in suburban
+            Ohio costs less than the same platter in Manhattan.
           </p>
-          <ul className={styles.textList}>
-            <li><strong>Premium items raise it:</strong> Rib platters and multiple appetizer trays push the per-head cost above the baseline.</li>
-            <li><strong>Pasta and rice-based trays lower it:</strong> These are the highest-yield items per dollar, which is why they anchor most catering orders.</li>
-            <li><strong>Location changes it:</strong> Franchise pricing varies the same way it does on the <Link href="/menu">regular menu</Link>  a metro location costs more than a rural one.</li>
-          </ul>
-
-          <h3>Getting an accurate quote</h3>
           <p>
-            Call the restaurant with three pieces of information: headcount, event type, and whether it is pickup or delivery. That gets a real number in a few minutes. Guessing from a published price list will be off, because the list does not know your location or your mix. Find your restaurant in our <Link href="/locations">location finder</Link>.
+            The fastest way to an accurate number is a phone call with three facts ready: headcount,
+            pickup or delivery, and the date. Find your restaurant&apos;s number in the{' '}
+            <Link href="/locations">location finder</Link>.
           </p>
         </section>
 
-        {/* §4  WHAT HOLDS UP AND WHAT DOESN'T */}
-        <section className={styles.clusterSection} id="what-holds-up">
-          <h2>Which Applebee's Catering Items Travel and Hold Heat</h2>
-          <p>
-            Catering menus differ from dine-in menus for one reason: some food survives bulk transport and holding, and some does not.
-          </p>
-
-          <h3>Holds heat well</h3>
-          <ul className={styles.textList}>
-            <li><strong>Pasta trays:</strong> The best-performing catering item on the menu. Sauce insulates, the dish holds temperature, and it survives an hour in a chafing dish without degrading. See <Link href="/menu/pasta">pasta</Link>.</li>
-            <li><strong>Braised and sauced proteins:</strong> Rib platters and sauced chicken hold heat far better than grilled cuts, because the sauce keeps moisture in.</li>
-            <li><strong>Rice-based dishes:</strong> Dense, high heat retention, reheats without damage.</li>
-          </ul>
-
-          <h3>Needs handling</h3>
-          <ul className={styles.textList}>
-            <li><strong>Fried appetizers:</strong> Boneless wings and mozzarella sticks lose their texture in a sealed container, because trapped steam softens the coating. Sauce on the side is the fix  toss just before serving rather than at the restaurant.</li>
-            <li><strong>Salads:</strong> Order dressing separately. ezCater listings flag this directly, suggesting extra dressing be purchased as a side. Dressed salads sitting in a tray for an hour wilt.</li>
-          </ul>
-
-          <h3>Not on the catering menu</h3>
-          <p>
-            Grilled steaks cooked to temperature and anything served sizzling do not appear on catering menus. A steak that arrives is a steak that has continued cooking in its own heat for thirty minutes. Their absence is deliberate, not an oversight.
-          </p>
-
-          <h3>Allergen note</h3>
-          <p>
-            Applebee's catering listings state that shared cooking and prep areas, including common fryer oil, mean items cannot be guaranteed free of animal products. The same applies to allergen cross-contact. For an event with a guest who has a serious allergy, speak to the restaurant directly rather than relying on menu descriptions. Full data: see <Link href="/nutrition">nutrition and allergens</Link>.
-          </p>
-        </section>
-
-        {/* §5  LEAD TIMES */}
         <section className={styles.clusterSection} id="lead-times">
-          <h2>How Much Notice Does Applebee's Catering Need?</h2>
-
+          <h2>How Far Ahead to Order Applebee&apos;s Catering</h2>
           <div className={styles.answerBlock}>
             <p>
-              Applebee's accepts catering orders up to two weeks in advance, and with as little as two hours' notice depending on order size. Orders of three platters or more typically require 24 hours.
+              As far as two weeks ahead, or with as little as two hours&apos; notice. The right answer
+              depends on the size of the order and the time of day you need it.
             </p>
           </div>
-
-          <h3>Why size changes the answer</h3>
           <p>
-            Two hours works for a small order dropped into a quiet kitchen. It does not work for a large order dropped into a dinner rush.
+            A catering order shares a kitchen with every table in the dining room. Four platters
+            ordered for 11:30 on a Tuesday is an easy yes. Twelve platters for 6:00 on a Friday lands
+            in the middle of the dinner rush, and something gives: your food or someone else&apos;s.
           </p>
           <p>
-            A catering order competes for the same grill and fryer space as every dine-in table. Placed at 10:00 AM on a Tuesday, there is capacity. Placed at 5:00 PM on a Friday, there is not  and a manager who accepts it either delays your food or the dining room's.
-          </p>
-
-          <h3>What notice actually buys you</h3>
-          <ul className={styles.textList}>
-            <li><strong>24 hours:</strong> Lets the restaurant adjust its stock order so it does not run short mid-prep, and schedule prep time for your platters.</li>
-            <li><strong>A few days:</strong> The right window for anything over about 10 platters, or anything on a weekend.</li>
-            <li><strong>Two weeks:</strong> The maximum booking window and worth using for dated events  holiday parties, graduations, game days  when every restaurant in the area is under the same pressure.</li>
-          </ul>
-
-          <h3>The practical rule</h3>
-          <p>
-            Small and midweek: two hours is genuinely fine. Large, weekend, or dated: give at least 24 hours and confirm by phone. Check <Link href="/locations">your nearest restaurant</Link> for direct numbers.
+            So give two hours for a small weekday order, a full day for 10 or more platters or
+            anything on a weekend, and the full two weeks for graduations, holiday parties and game
+            days, when every restaurant in town is getting the same calls. Then confirm by phone. An
+            online order nobody saw doesn&apos;t help anyone.
           </p>
         </section>
 
-        {/* §6  PICKUP VS DELIVERY */}
         <section className={styles.clusterSection} id="pickup-vs-delivery">
-          <h2>Getting Applebee's Catering to Your Event</h2>
+          <h2>Pickup, Delivery or ezCater</h2>
           <p>
-            <strong>Pickup:</strong> Order direct and collect, often through <Link href="/takeout">Carside To Go</Link>. Cheapest route, and you control the timing  food leaves the kitchen and goes straight to your event rather than sitting in a queue.
+            <strong>Pickup</strong> is the cheapest route and the one where you control timing. Order
+            direct and collect it, or use <Link href="/takeout">Carside To Go</Link> so staff bring it
+            to your car.
           </p>
           <p>
-            <strong>Direct delivery:</strong> Availability depends on the location. Some restaurants deliver catering orders; many prefer pickup for larger ones. Ask when ordering.
+            <strong>Direct delivery</strong> depends on the restaurant. Some deliver catering; plenty
+            don&apos;t for large orders. Ask when you call.
           </p>
           <p>
-            <strong>ezCater:</strong> Applebee's catering is listed on ezCater, the business catering marketplace, which handles delivery through catering-specific couriers rather than standard food delivery drivers. Relevant differences: couriers carry insulated equipment sized for platters, delivery windows are scheduled rather than as-soon-as-possible, and business accounts handle tax exemption at the platform level.
-          </p>
-          <p>
-            <strong>Which to use:</strong> For a personal event, direct pickup is cheapest. For an office order that needs to arrive at a scheduled time in a building with a reception desk, the corporate platform is built for that and the fee buys real logistics. Standard delivery apps are the wrong tool here  see our guide on <Link href="/delivery">delivery</Link> for why per-item markups make large orders expensive.
+            <strong>ezCater</strong> is the one to use for offices. Applebee&apos;s catering is listed
+            there, delivery windows are scheduled instead of as-soon-as-possible, the couriers carry
+            insulated gear sized for platters, and tax exemption lives on the account. It costs more
+            than pickup, and for a lunch that has to hit a reception desk at noon, the fee is worth it.
+            Regular delivery apps are the wrong tool for a big order. The <Link href="/delivery">delivery
+            page</Link> explains why.
           </p>
         </section>
 
-        {/* §7  KEEPING FOOD HOT AND SAFE */}
         <section className={styles.clusterSection} id="keeping-food-hot">
-          <h2>How to Keep Applebee's Catering Hot</h2>
-          <p>
-            Applebee's supplies insulated containers, and its own guidance confirms food can be held hot through chafing dish setups and sterno kits.
-          </p>
+          <h2>How to Keep Applebee&apos;s Catering Hot</h2>
           <p className={styles.warningBox}>
-            <strong>Important Safety Notice:</strong> The plastic catering containers are microwave safe but <strong>must never go in an oven</strong> or directly over a flame.
+            <strong>Don&apos;t put the catering containers in the oven.</strong> They&apos;re plastic.
           </p>
-
-          <h3>The time limit on containers</h3>
           <p>
-            Insulated containers hold serving temperature for a short window  enough to travel and serve immediately. For an event running longer than about forty-five minutes of open service, transfer to chafing dishes.
-          </p>
-
-          <h3>Chafing dish setup</h3>
-          <p>
-            What you need: a wire chafing rack, a full-size water pan, half-size aluminium food pans, and gel fuel cans. Party supply and warehouse stores carry all of it.
+            The containers keep food hot long enough to travel and serve. Past about 45 minutes of
+            open serving, move everything into a chafing dish. You&apos;ll need a wire rack, a full-size
+            water pan, half-size aluminum pans and gel fuel cans, all sold at party supply and
+            warehouse stores.
           </p>
           <ol className={styles.orderedList}>
-            <li>Place the wire chafing rack on a stable, heat-tolerant surface.</li>
-            <li>Drop in the full-size water pan and add about an inch of hot water.</li>
-            <li>Light the gel fuel cans underneath.</li>
-            <li>Transfer food from the catering containers into the aluminium food pans, then set those in the steaming water bath.</li>
+            <li>Set the rack on a steady, heat-safe table.</li>
+            <li>Put in the water pan with about an inch of hot water.</li>
+            <li>Light the fuel cans underneath.</li>
+            <li>Move the food into the aluminum pans and set them in the water bath.</li>
           </ol>
-
-          <h3>The temperature that matters</h3>
           <p>
-            Hot food should be held above 135°F. Below that, a buffet enters the danger zone where bacteria multiply, and time starts counting.
-          </p>
-          <p>
-            A correctly set chafing dish with a water bath holds food safely for a couple of hours. What it will not do is reheat food that has already gone cold  chafing dishes maintain temperature, they do not restore it. Food that has dropped in temperature should be reheated properly before it goes on the line.
+            Hold hot food above 135°F. Below that, bacteria start multiplying. A chafing dish keeps
+            food hot for a couple of hours, but it won&apos;t bring cold food back up. If a tray has
+            already cooled, reheat it properly before it goes back out.
           </p>
         </section>
 
-        {/* §8  ORDERING BY EVENT TYPE */}
         <section className={styles.clusterSection} id="event-types">
-          <h2>What to Order for Different Events</h2>
+          <h2>What to Order for Your Event</h2>
 
-          <h3>Office lunch</h3>
+          <h3>Office lunch for 20</h3>
           <p>
-            Fork-friendly wins. Pasta trays, a salad with dressing on the side, and a sandwich or wrap platter. Avoid anything requiring both hands or generating mess  people eat at desks and go back to work.
-          </p>
-          <p>
-            <strong>For 20 people:</strong> Two pasta trays, one salad, one sandwich platter, one appetizer. Add a dessert platter if it is a celebration rather than a working lunch.
+            Two pasta trays, one salad with dressing on the side, one slider platter and one
+            appetizer. Skip wings. Nobody wants barbecue sauce on a keyboard.
           </p>
 
           <h3>Game day or tailgate</h3>
           <p>
-            Finger food, minimal cutlery. Multiple wing platters in different sauces, mozzarella sticks, and a rib platter. Salads mostly go untouched at these events.
-          </p>
-          <p>
-            Sauce on the side matters more here than anywhere else, because the food sits out across a long window. Order napkins generously  they are included, but the standard quantity assumes a seated meal.
-          </p>
-
-          <h3>Family gathering or party</h3>
-          <p>
-            The most mixed group, so the widest spread. Two or three appetizers, three or four entrées across chicken and pasta, plus a salad and a side. Something for children matters  <Link href="/menu/kids-menu">kids menu</Link> items are ordered individually rather than as platters.
+            Go heavy on finger food: two wing platters in different sauces, Mozzarella Sticks and a
+            Riblets platter. Salads mostly go untouched at these. Bring extra napkins. The ones
+            included assume a seated meal.
           </p>
 
-          <h3>Graduation, holiday parties and dated events</h3>
+          <h3>Family party</h3>
           <p>
-            Every restaurant in the area is under the same pressure on these dates. Book early, use the two-week window, and confirm by phone rather than assuming an online order was seen.
+            The widest mix of eaters, so the widest spread: two or three appetizers, three or four
+            entrées across chicken and pasta, plus a salad and a side. Kids menu items aren&apos;t
+            sold as platters. Order those individually from the <Link href="/menu/kids-menu">kids
+            menu</Link>.
           </p>
         </section>
 
-        {/* §9  CORPORATE AND TAX-EXEMPT ORDERS */}
         <section className={styles.clusterSection} id="corporate-tax-exemption">
-          <h2>Corporate Catering and Tax Exemption</h2>
+          <h2>Tax-Exempt Catering Orders</h2>
           <p>
-            Schools, non-profits and government bodies can order without sales tax, but the process differs by route:
+            Schools, nonprofits and government offices can skip sales tax. Ordering direct, bring a
+            printed copy of your exemption certificate to the restaurant. Saying you&apos;re exempt
+            isn&apos;t enough, because the franchise has to keep the paperwork.
           </p>
-          <ul className={styles.textList}>
-            <li>
-              <strong>Ordering directly:</strong> Bring a printed copy of your organisation's tax exemption certificate to the restaurant. The manager needs the document to record against the transaction  telling them verbally is not enough, because the exemption has to be evidenced for the franchise's own accounting.
-            </li>
-            <li>
-              <strong>Ordering through a business catering platform:</strong> The certificate is uploaded once to the account profile and applied automatically to future orders. For anyone ordering repeatedly, this removes the paperwork from every individual order.
-            </li>
-          </ul>
           <p>
-            <strong>Practical tip for recurring orders:</strong> If your organisation caters regularly, setting up the business account once is worth more than the per-order saving. Repeat ordering, scheduled delivery windows, and consolidated invoicing all become simpler.
+            Ordering on ezCater, upload the certificate to the account once and it applies to every
+            future order. If your office caters monthly, set that up before the first order.
           </p>
         </section>
 
-        {/* §10  FAQ */}
         <section className={styles.clusterSection} id="faqs">
-          <h2>Applebee's Catering  Frequently Asked Questions</h2>
+          <h2>Applebee&apos;s Catering FAQs</h2>
           <div className={styles.faqList}>
-            {faqData.map((faq, index) => (
-              <article key={index} className={styles.faqItem}>
+            {faqData.map((faq) => (
+              <article key={faq.question} className={styles.faqItem}>
                 <h3>{faq.question}</h3>
                 <p>{faq.answer}</p>
               </article>

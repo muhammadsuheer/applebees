@@ -19,7 +19,7 @@ export function TwoForTwentyFiveDeepDive() {
       <h2>Deep Dive: The 2 for $25 Menu Explained</h2>
       <p>The crown jewel of the Applebee's value proposition is undoubtedly the <strong>2 for $25 deal</strong>. Originally launched as the 2 for $20 nearly a decade ago, inflation and rising food costs have nudged the baseline price upward. However, despite the price increase, it remains one of the most cost-effective ways for two people to enjoy a sit-down meal in a full-service restaurant.</p>
 
-      <p><strong>How the Deal Works:</strong> The structure is simple yet highly effective. A party of two selects one full-sized appetizer to share, followed by two individual, full-sized entrées from a specially curated menu. This is not a "tasting menu" or a reduced-portion gimmick; the items served are identical in size and preparation to those ordered off the standard, full-priced menu.</p>
+      <p><strong>How the Deal Works:</strong> The structure is simple yet highly effective. A party of two selects one full-sized appetizer to share, followed by two individual, full-sized entrées from a specially curated menu. This isn&apos;t a "tasting menu" or a reduced-portion gimmick; the items served are identical in size and preparation to those ordered off the standard, full-priced menu.</p>
 
       <h3>The 2026 Appetizer Selection</h3>
       <p>The appetizer is meant to be shared. The standard options typically include:</p>
@@ -41,7 +41,7 @@ export function TwoForTwentyFiveDeepDive() {
       </ul>
 
       <h3>The Franchise Factor: Why is it $26 or $28?</h3>
-      <p>It is crucial to understand that "2 for $25" is a national marketing term. When you sit down at an Applebee's in California, New York, or Seattlewhere minimum wage laws and commercial real estate costs are significantly higheryou will likely see the menu insert read "2 for $26" or even "2 for $28". The franchise owners have the contractual right to adjust the baseline price to ensure they do not operate at a loss. Always check the physical menu on your table before ordering.</p>
+      <p>It&apos;s crucial to understand that "2 for $25" is a national marketing term. When you sit down at an Applebee's in California, New York, or Seattlewhere minimum wage laws and commercial real estate costs are significantly higheryou will likely see the menu insert read "2 for $26" or even "2 for $28". The franchise owners have the contractual right to adjust the baseline price to ensure they don&apos;t operate at a loss. Always check the physical menu on your table before ordering.</p>
     </section>
   );
 }
@@ -53,7 +53,7 @@ export function CompetitorShowdown() {
       <p>To truly understand the value of Applebee's promotions, we must evaluate them against their fiercest rivals in the casual dining space: Chili's Grill & Bar and TGI Fridays. Each brand has adopted a unique strategy to capture the budget-conscious consumer in 2026.</p>
 
       <h3>Applebee's vs. Chili's "3 for Me"</h3>
-      <p>Chili's has heavily marketed its "3 for Me" deal, which starts at $10.99. The "3 for Me" includes a non-alcoholic beverage, a starter (chips and salsa, soup, or a side salad), and an entrée. <strong>The Verdict:</strong> Chili's is the undisputed winner for the <em>solo diner</em>. If you are eating alone, $10.99 for a three-course meal (including a drink) is mathematically superior. However, Applebee's wins the <em>couples battle</em>. The Applebee's 2 for $25 provides a massive, premium shared appetizer (like Boneless Wings, which are far more substantial than chips and salsa) and two heavy entrées. If you are dining with a partner, the Applebee's deal yields more total calories and a more substantial protein intake.</p>
+      <p>Chili's has heavily marketed its "3 for Me" deal, which starts at $10.99. The "3 for Me" includes a non-alcoholic beverage, a starter (chips and salsa, soup, or a side salad), and an entrée. <strong>The Verdict:</strong> Chili's is the undisputed winner for the <em>solo diner</em>. If you&apos;re eating alone, $10.99 for a three-course meal (including a drink) is mathematically superior. However, Applebee's wins the <em>couples battle</em>. The Applebee's 2 for $25 provides a massive, premium shared appetizer (like Boneless Wings, which are far more substantial than chips and salsa) and two heavy entrées. If you&apos;re dining with a partner, the Applebee's deal yields more total calories and a more substantial protein intake.</p>
 
       <h3>Applebee's vs. TGI Fridays</h3>
       <p>TGI Fridays has struggled to maintain a consistent national value proposition, relying instead on localized happy hours and temporary promotions (like their occasional "Endless Apps" runs). Because TGI Fridays' deals are highly fragmented and depend heavily on the specific franchise group, Applebee's offers a far more reliable experience. You know exactly what the 2 for $25 is before you even pull into the parking lot. <strong>The Verdict:</strong> Applebee's wins on consistency and national availability.</p>
@@ -68,9 +68,9 @@ export function HappyHourGuide() {
       <p>Outside of the 2 for $25, the most famous promotion at Applebee's is their Half-Price Appetizers deal. This promotion single-handedly drives the brand's late-night foot traffic, turning suburban restaurants into bustling social hubs after 9 PM. But there are strict rules and exclusions that every diner must know.</p>
 
       <h3>The Two Golden Windows</h3>
-      <p>The deal is not available all day. It is strictly limited to two distinct time windows:</p>
+      <p>The deal isn&apos;t available all day. It&apos;s strictly limited to two distinct time windows:</p>
       <ul>
-        <li><strong>Mid-Afternoon (Typically 3:00 PM – 6:00 PM):</strong> This is targeted at the after-work crowd and early diners. It is the perfect time to grab a cheap snack and a discounted draft beer before the dinner rush hits.</li>
+        <li><strong>Mid-Afternoon (Typically 3:00 PM – 6:00 PM):</strong> This is targeted at the after-work crowd and early diners. It&apos;s the perfect time to grab a cheap snack and a discounted draft beer before the dinner rush hits.</li>
         <li><strong>Late-Night (Typically 9:00 PM or 10:00 PM – Close):</strong> This is the flagship window. Most locations start the late-night happy hour at 9 PM on weekdays (Sunday-Thursday) and 10 PM on weekends (Friday-Saturday). The kitchen stays open specifically to pump out these discounted apps to the night crowd.</li>
       </ul>
 
@@ -84,7 +84,7 @@ export function DollaritaHistory() {
   return (
     <section className={styles.section} id="dollarita-history">
       <h2>The Cultural Phenomenon of the "Dollarita"</h2>
-      <p>You cannot discuss Applebee's specials without dedicating a chapter to the "Dollarita." Launched in October 2017 as part of a desperate, genius marketing pivot, the $1 margarita completely altered the trajectory of the company.</p>
+      <p>You can&apos;t discuss Applebee's specials without dedicating a chapter to the "Dollarita." Launched in October 2017 as part of a desperate, genius marketing pivot, the $1 margarita completely altered the trajectory of the company.</p>
 
       <p>Prior to 2017, Applebee's had attempted to rebrand itself to attract millennials by introducing expensive, wood-fired grills and sriracha-infused dishes. The pivot failed miserably, alienating their core, budget-conscious demographic. In response, leadership introduced the "Neighborhood Drink of the Month," starting with the Dollarita. The concept was simple: a basic margarita served in a 10 oz mug for exactly one dollar.</p>
 
@@ -99,9 +99,9 @@ export function AllYouCanEatSection() {
       <h2>All You Can Eat (AYCE) Tactics</h2>
       <p>When Applebee's needs to drive massive foot traffic during slower months, they deploy the "All You Can Eat" (AYCE) promotion. Historically, this has featured their signature Riblets, Boneless Wings, and Double Crunch Shrimp.</p>
 
-      <p>The current 2026 iteration usually prices the AYCE deal around $15.99. The true beauty of this promotion is the mix-and-match capability. You are not locked into eating three plates of wings. You can start with Riblets, request a refill of Shrimp, and finish with a plate of Boneless Wings. Every refill is accompanied by a fresh side of endless fries and coleslaw.</p>
+      <p>The current 2026 iteration usually prices the AYCE deal around $15.99. The true beauty of this promotion is the mix-and-match capability. You aren&apos;t locked into eating three plates of wings. You can start with Riblets, request a refill of Shrimp, and finish with a plate of Boneless Wings. Every refill is accompanied by a fresh side of endless fries and coleslaw.</p>
 
-      <p><strong>The Strategy:</strong> Do not fill up on the fries. The carbohydrates in the french fries are designed to trigger early satiety (making you feel full faster), which limits the amount of expensive protein you consume. To maximize your financial return on the $15.99 investment, politely ask your server to hold the fries on your refill plates and focus entirely on the Riblets and Shrimp.</p>
+      <p><strong>The Strategy:</strong> Don&apos;t fill up on the fries. The carbohydrates in the french fries are designed to trigger early satiety (making you feel full faster), which limits the amount of expensive protein you consume. To maximize your financial return on the $15.99 investment, politely ask your server to hold the fries on your refill plates and focus entirely on the Riblets and Shrimp.</p>
     </section>
   );
 }
@@ -116,10 +116,10 @@ export function MoneySavingHacks() {
       <p>Applebee's gift cards are essentially a liquid currency that can be purchased at a discount. Warehouse clubs like Costco and Sam's Club frequently sell bundles of Applebee's gift cards at a 20% discount (e.g., you pay $79.99 for $100 worth of gift cards). Because gift cards are treated exactly like cash at the restaurant, you can use a discounted gift card to pay for a 2 for $25 meal. This means your $25 meal actually only cost you $20 out of pocket. This is the ultimate "double-stack" savings technique.</p>
 
       <h3>Hack 2: The "Club Applebee's" Instant Reward</h3>
-      <p>If you are walking into an Applebee's and you are not a member of their email loyalty program, you are leaving money on the table. By signing up for "Club Applebee's" on your smartphone while waiting for a table, you will almost instantly receive a welcome email containing a barcode for a Free Appetizer (with the purchase of an entrée). You can immediately redeem this on your very first visit.</p>
+      <p>If you&apos;re walking into an Applebee's and you aren&apos;t a member of their email loyalty program, you&apos;re leaving money on the table. By signing up for "Club Applebee's" on your smartphone while waiting for a table, you will almost instantly receive a welcome email containing a barcode for a Free Appetizer (with the purchase of an entrée). You can immediately redeem this on your very first visit.</p>
 
       <h3>Hack 3: Kids Eat Free Days</h3>
-      <p>Families can save massively by targeting specific weekdays. While there is no national mandate, an estimated 60% of Applebee's franchises run a "Kids Eat Free" (or Kids Eat for $1.99) promotion on either Tuesdays or Wednesdays. This is designed to drive traffic on the slowest nights of the week. Call your local branch and explicitly ask, "Do you have a Kids Eat Free night?" If you time your visit correctly, a family of four can eat a full dinner for under $35.</p>
+      <p>Families can save massively by targeting specific weekdays. While there&apos;s no national mandate, an estimated 60% of Applebee's franchises run a "Kids Eat Free" (or Kids Eat for $1.99) promotion on either Tuesdays or Wednesdays. This is designed to drive traffic on the slowest nights of the week. Call your local branch and explicitly ask, "Do you have a Kids Eat Free night?" If you time your visit correctly, a family of four can eat a full dinner for under $35.</p>
     </section>
   );
 }
@@ -142,11 +142,11 @@ export function SpecialsFAQSection() {
   const faqData = [
     {
       question: "Are Applebee's Half-Price Appetizers available for takeout?",
-      answer: "Generally, no. The Half-Price Appetizer promotion is designed to drive dine-in traffic and beverage sales. However, Applebee's occasionally runs limited-time promotions allowing it for 'Carside To Go' orders placed directly through their official app. It is never valid on DoorDash or UberEats."
+      answer: "Generally, no. The Half-Price Appetizer promotion is designed to drive dine-in traffic and beverage sales. However, Applebee's occasionally runs limited-time promotions allowing it for 'Carside To Go' orders placed directly through their official app. It's never valid on DoorDash or UberEats."
     },
     {
       question: "Can I use two coupons at once at Applebee's?",
-      answer: "No. Applebee's point-of-sale system prevents 'coupon stacking'. You cannot use a Free Appetizer coupon in conjunction with the 2 for $25 deal, because the 2 for $25 is already considered a discounted promotional item."
+      answer: "No. Applebee's point-of-sale system prevents 'coupon stacking'. You can't use a Free Appetizer coupon in conjunction with the 2 for $25 deal, because the 2 for $25 is already considered a discounted promotional item."
     },
     {
       question: "Why is the 2 for $25 deal priced at $28 at my local restaurant?",
@@ -154,7 +154,7 @@ export function SpecialsFAQSection() {
     },
     {
       question: "Does Applebee's have a senior discount?",
-      answer: "There is no national corporate senior discount policy. However, many individual franchise locations offer a 10% to 15% discount for guests aged 60 and over. You must ask your server if their specific location honors a senior discount."
+      answer: "There's no national corporate senior discount policy. However, many individual franchise locations offer a 10% to 15% discount for guests aged 60 and over. You must ask your server if their specific location honors a senior discount."
     },
     {
       question: "What is the best value on the Applebee's menu?",

@@ -33,6 +33,27 @@
   color: #9b2c2c;
 }
 
+.lastUpdated {
+  font-size: 13px !important;
+  color: #6b7280 !important;
+  border-left: 3px solid #c53030;
+  padding-left: 12px;
+  margin-bottom: 22px !important;
+  line-height: 1.7 !important;
+}
+
+.heroLinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 22px;
+  margin-top: 4px;
+  font-weight: 600;
+}
+
+.heroLinks a {
+  white-space: nowrap;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .heroSection {

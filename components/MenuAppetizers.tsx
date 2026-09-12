@@ -19,7 +19,7 @@ export default function MenuAppetizers() {
             <h3 className={styles.cardTitle}>Double Crunch Boneless Wings</h3>
             <span className={styles.cardCalories}>Approx. 1,040 - 1,160 Cals</span>
             <p className={styles.cardDescription}>
-              The undisputed king of the Happy Hour menu. These aren't traditional wings; they are massive chunks of white-meat chicken breast, double-breaded for a deafening crunch, and fried to a golden mahogany. You have the choice to toss them in Classic Hot, Honey BBQ, Sweet Asian Chile, Garlic Parmesan, or Extra Hot sauce. Served with a side of creamy Bleu cheese or house-made ranch dressing for the ultimate cooling contrast.
+              The undisputed king of the Happy Hour menu. These aren't traditional wings; they&apos;re massive chunks of white-meat chicken breast, double-breaded for a deafening crunch, and fried to a golden mahogany. You have the choice to toss them in Classic Hot, Honey BBQ, Sweet Asian Chile, Garlic Parmesan, or Extra Hot sauce. Served with a side of creamy Bleu cheese or house-made ranch dressing for the ultimate cooling contrast.
             </p>
             <p className={styles.cardHistory}>
               <strong>Culinary Note:</strong> The "Double Crunch" breading technique was specifically engineered to withstand being submerged in heavy sauces without becoming soggy during a 20-minute Carside To Go journey.
@@ -36,7 +36,7 @@ export default function MenuAppetizers() {
             <h3 className={styles.cardTitle}>Spinach & Artichoke Dip</h3>
             <span className={styles.cardCalories}>Approx. 960 Cals</span>
             <p className={styles.cardDescription}>
-              A decadent, molten pool of melted Parmesan and Roman cheeses blended with fresh spinach and tender artichoke hearts. This bubbling crock of rich, savory comfort is served alongside an absolutely massive mountain of freshly fried white corn tortilla chips. It is heavy, it is salty, and it pairs perfectly with a cold, crisp draft beer.
+              A decadent, molten pool of melted Parmesan and Roman cheeses blended with fresh spinach and tender artichoke hearts. This bubbling crock of rich, savory comfort is served alongside an absolutely massive mountain of freshly fried white corn tortilla chips. It&apos;s heavy, it&apos;s salty, and it pairs perfectly with a cold, crisp draft beer.
             </p>
             <p className={styles.cardHistory}>
               <strong>Menu Legacy:</strong> This dish has survived over two decades of menu revisions. Franchise owners often cite it as the single most profitable and consistently ordered item across all 50 states.

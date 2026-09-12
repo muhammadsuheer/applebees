@@ -108,6 +108,29 @@
   font-style: normal;
 }
 
+
+.disclaimer {
+  margin: 34px 0 22px;
+  padding: 14px 16px;
+  border-left: 3px solid #64748b;
+  background: rgba(148, 163, 184, 0.08);
+  font-size: 13px;
+  line-height: 1.65;
+  color: #cbd5e1;
+  max-width: 78ch;
+}
+
+.bottomRow ul a {
+  font-size: 14px;
+  color: #94a3b8;
+  text-decoration: none;
+}
+
+.bottomRow ul a:hover {
+  color: #e2e8f0;
+  text-decoration: underline;
+}
+
 .bottomRow {
   display: flex;
   justify-content: space-between;

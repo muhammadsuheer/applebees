@@ -6,13 +6,13 @@ import styles from '@/components/LegalHero.module.css';
 import { TermsContent } from '@/components/LegalSections';
 
 export const metadata: Metadata = {
-  title: 'Terms & Conditions | Applebee\'s Menu Info',
-  description: 'By accessing our website, you are agreeing to be bound by our Website Terms and Conditions of Use.',
+  title: 'Terms & Conditions | Menu Almanac',
+  description: 'By accessing our website, you\'re agreeing to be bound by our Website Terms and Conditions of Use.',
   alternates: {
     canonical: 'https://applebees-menus.us/terms-and-conditions',
   },
   openGraph: {
-    siteName: "Applebee's Menu Information",
+    siteName: "Menu Almanac",
     images: [
       {
         url: '/og/og-legal.webp',
@@ -33,8 +33,8 @@ export default function TermsPage() {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Terms & Conditions | Applebee's Menu Info",
-    "description": "By accessing our website, you are agreeing to be bound by our Website Terms and Conditions of Use.",
+    "name": "Terms & Conditions | Menu Almanac",
+    "description": "By accessing our website, you're agreeing to be bound by our Website Terms and Conditions of Use.",
     "url": "https://applebees-menus.us/terms-and-conditions"
   };
 

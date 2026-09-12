@@ -76,7 +76,7 @@ export const menuData: MenuCategory[] = [
     ]
   },
   {
-    title: "SKILLETS",
+    title: "Skillets",
     slug: "skillets",
     image: "/apple-bees-menu/applebees-sizzling-skillets-menu-category.webp",
     descriptor: "Sizzling cast-iron entrées",
@@ -90,7 +90,7 @@ export const menuData: MenuCategory[] = [
     ]
   },
   {
-    title: "Signature Cocktails To Go",
+    title: "Signature Cocktails",
     slug: "signature-cocktails",
     image: "/apple-bees-menu/applebees-signature-cocktails-drinks-category.webp",
     descriptor: "$9.99–$11.99 · Mucho-size glassware",
@@ -109,8 +109,8 @@ export const menuData: MenuCategory[] = [
       },
       {
         id: "c3", name: "Dollarita (House Margarita)", calories: "310 Cals", price: "Limited Promo ($1.00)",
-        description: "Applebee’s DOLLARITA is a promotional $1 margarita that returns for limited campaigns rather than a permanent everyday menu price.",
-        tableDescription: "Limited-time promotional house margarita; verify active dates.",
+        description: "Applebee’s $1 house margarita of tequila, triple sec and lime. It last ran July 1 to 31, 2026, dine-in only for guests 21 and over, and has ended.",
+        tableDescription: "$1 house margarita promo. Last ran July 2026, now ended.",
         image: "/apple-bees-menu/applebees-dollarita-house-margarita-cocktail.webp"
       },
       {
@@ -128,10 +128,10 @@ export const menuData: MenuCategory[] = [
     ]
   },
   {
-    title: "APPETIZERS",
+    title: "Appetizers",
     slug: "appetizers",
     image: "/apple-bees-menu/applebees-appetizers-starters-menu-category.webp",
-    descriptor: "Seven shareable starters, $9.99–$18.99 · most are half price during happy hour",
+    descriptor: "Seven shareable starters, $9.99–$18.99 · 590 to 2,200 calories",
     items: [
       {
         id: "a4", name: "Chicken Wonton Tacos", calories: "590 Cals", price: "$11.49",
@@ -178,10 +178,10 @@ export const menuData: MenuCategory[] = [
     ]
   },
   {
-    title: "STEAKS & RIBS",
+    title: "Steaks & Ribs",
     slug: "steaks-and-ribs",
     image: "/apple-bees-menu/applebees-steaks-and-ribs-menu-category.webp",
-    descriptor: "Riblets, sirloin and ribs · best protein-per-calorie on the menu",
+    descriptor: "$16.99–$23.99 · Riblets, sirloin, ribeye and baby back ribs",
     items: [
       {
         id: "sr5", name: "Applebee's Riblets", calories: "1080 Cals", price: "$17.99",
@@ -222,7 +222,7 @@ export const menuData: MenuCategory[] = [
     ]
   },
   {
-    title: "HANDCRAFTED BURGERS",
+    title: "Handcrafted Burgers",
     slug: "handcrafted-burgers",
     image: "/apple-bees-menu/applebees-handcrafted-burgers-menu-category.webp",
     descriptor: "Six burgers, $14.49–$15.99 · all served with fries",
@@ -240,7 +240,7 @@ export const menuData: MenuCategory[] = [
         image: "/apple-bees-menu/applebees-classic-bacon-cheeseburger-with-fries.webp"
       },
       {
-        id: "b6", name: "Grilled Cheese Cheeseburger", calories: "1480 Cals", price: "$15.99",
+        id: "b6", name: "Grilled Cheese Cheeseburger", calories: "1420 Cals", price: "$14.99",
         description: "A decadent specialty burger featuring an all-beef patty served between two melted grilled cheese sandwiches instead of a standard bun.",
         tableDescription: "All-beef patty served between two golden grilled cheese sandwiches.",
         image: "/apple-bees-menu/applebees-handcrafted-burgers-menu-category.webp"
@@ -266,7 +266,7 @@ export const menuData: MenuCategory[] = [
     ]
   },
   {
-    title: "CHICKEN",
+    title: "Chicken",
     slug: "chicken",
     image: "/apple-bees-menu/applebees-chicken-entrees-menu-category.webp",
     descriptor: "Grilled and breaded, $13.99–$16.49",
@@ -297,17 +297,17 @@ export const menuData: MenuCategory[] = [
       },
       {
         id: "ch3", name: "Honey Pepper Chicken Tenders", calories: "1610 Cals", price: "$15.49",
-        description: "Crispy hand-breaded chicken tenders tossed in a sweet and savoury honey cracked-pepper glaze.",
+        description: "Crispy hand-breaded chicken tenders tossed in a sweet and savory honey cracked-pepper glaze.",
         tableDescription: "Crispy chicken tenders coated in honey pepper glaze.",
         image: "/apple-bees-menu/applebees-honey-pepper-chicken-tenders.webp"
       }
     ]
   },
   {
-    title: "PASTA",
+    title: "Pasta",
     slug: "pasta",
     image: "/apple-bees-menu/applebees-pasta-dishes-menu-category.webp",
-    descriptor: "Four dishes with a garlic breadstick · highest protein on the menu",
+    descriptor: "Four pastas, $15.99–$17.49 · 1,350 to 1,480 calories",
     items: [
       {
         id: "p1", name: "Three-Cheese Chicken Penne", calories: "1350 Cals", price: "$15.99",
@@ -328,7 +328,7 @@ export const menuData: MenuCategory[] = [
         image: "/apple-bees-menu/applebees-broccoli-chicken-alfredo-pasta.webp"
       },
       {
-        id: "p4", name: "Chicken Parmesan Fettuccine", calories: "1390 Cals", price: "$16.99",
+        id: "p4", name: "Chicken Parmesan Fettuccine", calories: "1480 Cals", price: "$15.99",
         description: "Crispy breaded chicken parmesan cutlet smothered in warm marinara and melted mozzarella, served over a bed of fettuccine pasta with a garlic breadstick.",
         tableDescription: "Breaded chicken parmesan over fettuccine with marinara and melted mozzarella.",
         image: "/apple-bees-menu/applebees-pasta-dishes-menu-category.webp"
@@ -336,7 +336,7 @@ export const menuData: MenuCategory[] = [
     ]
   },
   {
-    title: "SEAFOOD",
+    title: "Seafood",
     slug: "seafood",
     image: "/apple-bees-menu/applebees-seafood-menu-category.webp",
     descriptor: "Salmon, shrimp and fish and chips",
@@ -362,10 +362,10 @@ export const menuData: MenuCategory[] = [
     ]
   },
   {
-    title: "SALADS",
+    title: "Salads",
     slug: "salads",
     image: "/apple-bees-menu/applebees-fresh-salads-menu-category.webp",
-    descriptor: "160 to 1,560 calories · $4.99–$15.49 · lunch & dinner sizes",
+    descriptor: "Eight salads, $4.99–$15.49 · 160 to 1,560 calories",
     items: [
       {
         id: "s1", name: "Oriental Chicken Salad (Crispy)", calories: "1560 Cals", price: "$14.99",
@@ -418,7 +418,7 @@ export const menuData: MenuCategory[] = [
     ]
   },
   {
-    title: "DESSERTS",
+    title: "Desserts",
     slug: "desserts",
     image: "/apple-bees-menu/applebees-desserts-sweet-treats-menu-category.webp",
     descriptor: "Warm desserts and lighter options",
@@ -444,7 +444,7 @@ export const menuData: MenuCategory[] = [
     ]
   },
   {
-    title: "SAUCES & SIDES",
+    title: "Sides",
     slug: "sides",
     image: "/apple-bees-menu/applebees-sauces-and-sides-menu-category.webp",
     descriptor: "$3.49–$4.49 · 100 to 450 calories",
@@ -485,31 +485,13 @@ export const menuData: MenuCategory[] = [
         tableDescription: "Creamy shredded-cabbage coleslaw.",
         image: "/apple-bees-menu/applebees-coleslaw-side.webp"
       },
-      {
-        id: "sd7", name: "Pickle Fries", calories: "Varies", price: "Varies",
-        description: "Crispy thin-cut fried dill pickle spears in seasoned cornmeal breading, served with dipping sauce.",
-        tableDescription: "Crispy fried dill pickle fries with dipping sauce.",
-        image: "/apple-bees-menu/applebees-pickle-fries-side.webp"
-      },
-      {
-        id: "sd8", name: "Waffle Fries", calories: "Varies", price: "Varies",
-        description: "Crispy lattice-cut waffle fries seasoned and fried golden brown.",
-        tableDescription: "Lattice-cut seasoned waffle fries fried golden.",
-        image: "/apple-bees-menu/applebees-waffle-fries-side.webp"
-      },
-      {
-        id: "sd9", name: "Onion Rings", calories: "Varies", price: "Varies",
-        description: "Thick-cut golden beer-battered onion rings fried crisp.",
-        tableDescription: "Thick-cut golden beer-battered crispy onion rings.",
-        image: "/apple-bees-menu/applebees-onion-rings-side.webp"
-      }
     ]
   },
   {
-    title: "NEW Dirty Fountain Sodas",
+    title: "Dirty Fountain Sodas",
     slug: "dirty-fountain-sodas",
     image: "/apple-bees-menu/applebees-dirty-fountain-sodas-drinks-category.webp",
-    descriptor: "Dirty up any fountain soda for about $1, or choose a preset",
+    descriptor: "Three flavors at $3.99, or make any fountain soda dirty for $1",
     items: [
       {
         id: "ds1", name: "Passion Blue Dew", calories: "150 Cals", price: "$3.99",
@@ -545,14 +527,14 @@ export const menuData: MenuCategory[] = [
       },
       {
         id: "ib2", name: "Tex-Mex Shrimp Bowl", calories: "710 Cals", price: "$15.99",
-        description: "The lightest full entrée on Applebee’s menu (710 Cals)  grilled chipotle lime shrimp over cilantro rice and greens with pico de gallo, black bean corn salsa, guacamole, and chimichurri.",
+        description: "The lightest full entrée on Applebee’s menu (710 Cals), grilled chipotle lime shrimp over cilantro rice and greens with pico de gallo, black bean corn salsa, guacamole, and chimichurri.",
         tableDescription: "Grilled chipotle lime shrimp with cilantro rice, greens, salsa, guacamole, and chimichurri (710 Cals).",
         image: "/apple-bees-menu/applebees-tex-mex-shrimp-bowl-entree.webp"
       }
     ]
   },
   {
-    title: "SANDWICHES & MORE",
+    title: "Sandwiches & More",
     slug: "sandwiches-and-more",
     image: "/apple-bees-menu/applebees-sandwiches-wraps-menu-category.webp",
     descriptor: "$13.99–$15.99 · always served with classic fries",
@@ -565,8 +547,8 @@ export const menuData: MenuCategory[] = [
       },
       {
         id: "sw2", name: "Bacon Ranch Crispy Chicken", calories: "1050 Cals", price: "$14.49",
-        description: "Crispy hand-breaded chicken breast with Applewood-smoked bacon, creamy ranch, dill pickles, lettuce, and tomato on a brioche bun (64g protein).",
-        tableDescription: "Crispy chicken with bacon, ranch, pickles, and lettuce (64g protein).",
+        description: "Crispy hand-breaded chicken breast with Applewood-smoked bacon, creamy ranch, dill pickles, lettuce, and tomato on a brioche bun.",
+        tableDescription: "Crispy chicken with bacon, ranch, pickles, and lettuce.",
         image: "/apple-bees-menu/applebees-bacon-ranch-crispy-chicken-sandwich.webp"
       },
       {
@@ -578,7 +560,7 @@ export const menuData: MenuCategory[] = [
     ]
   },
   {
-    title: "2 FOR $25",
+    title: "2 for $25",
     slug: "2-for-25",
     image: "/apple-bees-menu/applebees-2-for-25-value-meal-deal-category.webp",
     descriptor: "$25.00 · one appetizer (or 2 side salads) plus two full entrées",
@@ -616,36 +598,36 @@ export const menuData: MenuCategory[] = [
     ]
   },
   {
-    title: "The Really BIG Meal Deal",
+    title: "Really BIG Meal Deal",
     slug: "really-big-meal-deal",
     image: "/apple-bees-menu/applebees-really-big-meal-deal-category.webp",
-    descriptor: "$9.99 · one entrée, endless fries and fountain drink",
+    descriptor: "$9.99 · burger or chicken sandwich, fries and a fountain drink (endless fries when you dine in)",
     items: [
       {
         id: "rb1", name: "Big Cluckin' Chicken Sandwich", calories: "~1100 Cals", price: "$9.99",
-        description: "Hand-breaded crispy chicken breast fillet with lettuce, tomato, pickles, and mayo on a toasted brioche bun, served with endless fries and fountain drink.",
-        tableDescription: "Hand-breaded crispy chicken sandwich with endless fries and drink.",
+        description: "Hand-breaded crispy chicken breast fillet with lettuce, tomato, pickles, and mayo on a toasted brioche bun, served with fries and a fountain drink. Fries are endless when you dine in.",
+        tableDescription: "Hand-breaded crispy chicken sandwich with fries and a fountain drink. Fries are endless when you dine in.",
         image: "/apple-bees-menu/applebees-big-cluckin-chicken-sandwich.webp"
       },
       {
         id: "rb2", name: "BIG Classic Bacon Cheeseburger", calories: "~1150 Cals", price: "$9.99",
-        description: "Large all-beef patty with two slices of American cheese, Applewood-smoked bacon, lettuce, tomato, onion, and pickles on a brioche bun with endless fries and drink.",
-        tableDescription: "Double-cheese bacon burger with endless fries and drink.",
+        description: "Large all-beef patty with two slices of American cheese, Applewood-smoked bacon, lettuce, tomato, onion, and pickles on a brioche bun with fries and a fountain drink. Fries are endless when you dine in.",
+        tableDescription: "Double-cheese bacon burger with fries and a fountain drink. Fries are endless when you dine in.",
         image: "/apple-bees-menu/applebees-big-classic-bacon-cheeseburger.webp"
       },
       {
         id: "rb3", name: "Big Bangin' Burger", calories: "~1200 Cals", price: "$9.99",
-        description: "All-beef patty with two slices of American cheese and a sweet & spicy jalapeño-bacon sauce on a brioche bun with endless fries and drink.",
-        tableDescription: "Spicy jalapeño bacon burger with endless fries and drink.",
+        description: "All-beef patty with two slices of American cheese and a sweet & spicy jalapeño-bacon sauce on a brioche bun with fries and a fountain drink. Fries are endless when you dine in.",
+        tableDescription: "Spicy jalapeño bacon burger with fries and a fountain drink. Fries are endless when you dine in.",
         image: "/apple-bees-menu/applebees-big-bangin-burger.webp"
       }
     ]
   },
   {
-    title: "KID'S MENU",
+    title: "Kids Menu",
     slug: "kids-menu",
     image: "/apple-bees-menu/applebees-kids-menu-meals-category.webp",
-    descriptor: "$6–$8 · includes entrée, side and drink for 12 & under",
+    descriptor: "$6.49–$7.49 · kids entrées from 180 calories",
     items: [
       {
         id: "k4", name: "Kids Grilled Chicken", calories: "180 Cals", price: "$6.99",
@@ -674,21 +656,21 @@ export const menuData: MenuCategory[] = [
     ]
   },
   {
-    title: "NON-ALCOHOLIC BEVERAGES",
+    title: "Non-Alcoholic Beverages",
     slug: "non-alcoholic-beverages",
     image: "/apple-bees-menu/applebees-non-alcoholic-beverages-category.webp",
-    descriptor: "$2.29–$4.99 · free refills on fountain sodas & brewed tea",
+    descriptor: "$2.29–$4.49 · sodas, iced tea, lemonade, smoothies and mocktails",
     items: [
       {
         id: "na3", name: "Fountain Drinks", calories: "0-200 Cals", price: "$2.29–$2.99",
-        description: "PepsiCo fountain lineup including Pepsi, Diet Pepsi, Mountain Dew, Starry, and Dr Pepper with free refills.",
-        tableDescription: "PepsiCo fountain sodas with unlimited free refills.",
+        description: "Pepsi fountain drinks, including Pepsi, Diet Pepsi, Mountain Dew and Starry. Refills at most restaurants.",
+        tableDescription: "Pepsi fountain sodas, including Starry and Mountain Dew.",
         image: "/apple-bees-menu/applebees-fountain-drink-pepsi.webp"
       },
       {
         id: "na2", name: "Fresh Brewed Iced Tea", calories: "Effectively 0 Cals", price: "$2.29–$2.99",
-        description: "Fresh-brewed black iced tea served unsweetened with lemon and unlimited free refills (Sweet Tea available in select regions).",
-        tableDescription: "Fresh-brewed unsweetened iced tea with free refills.",
+        description: "Fresh-brewed black iced tea, unsweetened, with lemon. Some restaurants also carry sweet tea.",
+        tableDescription: "Fresh-brewed unsweetened iced tea with lemon.",
         image: "/apple-bees-menu/applebees-fresh-brewed-iced-tea.webp"
       },
       {
@@ -711,14 +693,14 @@ export const menuData: MenuCategory[] = [
       },
       {
         id: "na6", name: "1-Gallon Beverages", calories: "0-1200 Cals", price: "$11.99",
-        description: "One-gallon takeaway jugs of freshly brewed iced tea or flavored lemonade for families, parties, and catering orders.",
-        tableDescription: "1-gallon takeaway jugs of brewed iced tea or lemonade.",
+        description: "One-gallon takeout jugs of freshly brewed iced tea or flavored lemonade for families, parties, and catering orders.",
+        tableDescription: "1-gallon takeout jugs of brewed iced tea or lemonade.",
         image: "/apple-bees-menu/applebees-gallon-beverage-jug.webp"
       },
       {
         id: "na7", name: "Fresh Brewed Hot Coffee", calories: "0 Cals", price: "$2.49",
-        description: "Hot freshly brewed black coffee, served with cream and sweetener  ideal paired with rich desserts.",
-        tableDescription: "Fresh-brewed hot black coffee with free refills.",
+        description: "Hot freshly brewed black coffee, served with cream and sweetener. Ideal paired with rich desserts.",
+        tableDescription: "Fresh-brewed hot black coffee with cream and sweetener.",
         image: "/apple-bees-menu/applebees-non-alcoholic-beverages-category.webp"
       }
     ]

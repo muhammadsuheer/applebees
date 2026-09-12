@@ -10,8 +10,14 @@ import Footer from '@/components/Footer';
 import Breadcrumb from '@/components/Breadcrumb';
 import Link from 'next/link';
 import Sidebar from '@/components/Sidebar';
-import CommentSection from '@/components/CommentSection';
 import styles from './page.module.css';
+import { BYLINE, PRICES_LAST_VERIFIED } from '@/data/site';
+
+const checkedLabel = new Date(PRICES_LAST_VERIFIED).toLocaleDateString('en-US', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+});
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -26,7 +32,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   let title = `Applebee's ${category.title} Menu with Prices and Calories (2026)`;
-  let description = `Explore Applebee's ${category.title} menu with verified prices, calories, and nutritional facts. Complete 2026 guide to all ${category.title.toLowerCase()} selections.`;
+  let description = `Explore Applebee's ${category.title} menu with reference prices, calories and nutrition facts. Complete 2026 guide to all ${category.title.toLowerCase()} selections.`;
 
   try {
     const filePath = path.join(process.cwd(), 'data', 'content', `${p.slug}.md`);
@@ -49,7 +55,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       canonical: `https://applebees-menus.us/menu/${p.slug}`,
     },
     openGraph: {
-      siteName: "Applebee's Menu Information",
+      siteName: "Menu Almanac",
       images: [
         {
           url: ogImage,
@@ -92,7 +98,8 @@ export default async function CategoryPage({ params }: Props) {
       const { data, content } = matter(fileContents);
       if (data.h1) pageTitle = data.h1;
       else if (data.title) pageTitle = data.title;
-      contentHtml = await marked.parse(content);
+      // Strip editorial notes (<!-- sources, VERIFY items -->) so they never reach the page source.
+      contentHtml = await marked.parse(content.replace(/<!--[\s\S]*?-->\s*/g, ''));
 
       // Extract FAQs for Schema
       const faqSection = content.split(/## Frequently Asked Questions/i)[1];
@@ -126,7 +133,7 @@ export default async function CategoryPage({ params }: Props) {
         "@id": `https://applebees-menus.us/menu/${p.slug}/#webpage`,
         "url": `https://applebees-menus.us/menu/${p.slug}`,
         "name": `Applebee's ${category.title} Menu with Prices and Calories`,
-        "description": `Comprehensive guide to Applebee's ${category.title} with updated prices, calories, and nutrition.`,
+        "description": `Applebee's ${category.title} with reference prices, calories and nutrition.`,
         "breadcrumb": {
           "@id": `https://applebees-menus.us/menu/${p.slug}/#breadcrumb`
         }
@@ -159,14 +166,9 @@ export default async function CategoryPage({ params }: Props) {
         "@type": "ItemList",
         "name": `Applebee's ${category.title} Items`,
         "itemListElement": category.items.map((item, idx) => ({
-          "@type": "MenuItem",
+          "@type": "ListItem",
           "position": idx + 1,
-          "name": item.name,
-          "description": item.description || item.tableDescription,
-          "nutrition": {
-            "@type": "NutritionInformation",
-            "calories": item.calories
-          }
+          "name": item.name
         }))
       }
     ]
@@ -209,12 +211,14 @@ export default async function CategoryPage({ params }: Props) {
 
         <div className={styles.container}>
           <article className={styles.content}>
-            <div 
+            <p className={styles.byline}>
+              By {BYLINE} &middot; updated {checkedLabel}
+            </p>
+            <div
               className={styles.markdownBody}
-              dangerouslySetInnerHTML={{ __html: contentHtml }} 
+              dangerouslySetInnerHTML={{ __html: contentHtml }}
             />
 
-            <CommentSection />
           </article>
           
           <Sidebar currentSlug={p.slug} pageType="menu" />

@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import styles from './ContactForm.module.css';
+import { SITE_EMAIL, SITE_NAME } from '@/data/site';
 
 export default function ContactForm() {
   const [formData, setFormData] = useState({
@@ -18,11 +19,23 @@ export default function ContactForm() {
     e.preventDefault();
     setIsSubmitting(true);
 
-    // Simulate reliable form submission
-    setTimeout(() => {
-      setIsSubmitting(false);
-      setIsSubmitted(true);
-    }, 800);
+    // There is no server here, so don't pretend there is. Hand the message to
+    // the reader's own mail client with everything pre-filled.
+    const subject = `[${formData.subject}] ${formData.name}`;
+    const body = [
+      formData.message,
+      '',
+      '---',
+      `From: ${formData.name}`,
+      `Reply to: ${formData.email}`,
+      `Topic: ${formData.subject}`,
+    ].join('\n');
+
+    window.location.href =
+      `mailto:${SITE_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+    setIsSubmitting(false);
+    setIsSubmitted(true);
   };
 
   const handleReset = () => {
@@ -43,12 +56,12 @@ export default function ContactForm() {
           {isSubmitted ? (
             <div className={styles.successCard}>
               <div className={styles.successIcon}>✓</div>
-              <h2 className={styles.successTitle}>Message Received!</h2>
+              <h2 className={styles.successTitle}>Your mail app should be open</h2>
               <p className={styles.successText}>
-                Thank you for reaching out, <strong>{formData.name}</strong>. Your inquiry regarding <em>&quot;{formData.subject}&quot;</em> has been logged in our editorial queue.
+                We&apos;ve pre-filled an email to <strong>{SITE_EMAIL}</strong> about <em>&quot;{formData.subject}&quot;</em>. Nothing is sent until you press send in your own mail app.
               </p>
               <p className={styles.successText} style={{ fontSize: '14px', color: '#6b7280' }}>
-                Our team reviews submissions and responds to verified emails within <strong>24 to 48 business hours</strong>.
+                If nothing opened, email <a href={`mailto:${SITE_EMAIL}`}>{SITE_EMAIL}</a> directly. {SITE_NAME} is a small operation, so replies take a few days rather than a few hours.
               </p>
               <button onClick={handleReset} className={styles.resetBtn}>
                 Send Another Message
@@ -58,7 +71,7 @@ export default function ContactForm() {
             <form onSubmit={handleSubmit}>
               <h2 className={styles.formTitle}>Send Us a Message</h2>
               <p className={styles.formSubtitle}>
-                Have a menu question, price correction, or general inquiry? Fill out the form below.
+                Menu question, price correction, or a takedown notice? Fill this in and it opens a pre-filled email in your own mail app.
               </p>
 
               <div className={styles.formGroup}>
@@ -103,7 +116,7 @@ export default function ContactForm() {
                 >
                   <option value="General Inquiry">General Inquiry / Feedback</option>
                   <option value="Menu Price / Calorie Correction">Menu Price or Calorie Correction</option>
-                  <option value="Advertising & Partnerships">Advertising & Sponsorship Opportunities</option>
+                  <option value="Business enquiry">Business enquiry</option>
                   <option value="DMCA & Copyright Takedown">DMCA & Copyright Takedown Request</option>
                   <option value="CCPA / GDPR Data Request">CCPA / GDPR Data Request</option>
                 </select>
@@ -125,7 +138,7 @@ export default function ContactForm() {
               </div>
 
               <button type="submit" disabled={isSubmitting} className={styles.submitBtn}>
-                {isSubmitting ? 'Sending Message...' : 'Submit Inquiry →'}
+                {isSubmitting ? 'Opening your mail app...' : 'Compose Email →'}
               </button>
             </form>
           )}
@@ -134,26 +147,26 @@ export default function ContactForm() {
         {/* Right Column: Direct Info & Support Badges */}
         <div className={styles.infoSidebar}>
           <div className={styles.infoCard}>
-            <h3>📬 Direct Editorial Contact</h3>
+            <h3>Direct editorial contact</h3>
             <p>For official correspondence, press inquiries, or corrections, reach us directly at:</p>
-            <a href="mailto:admin@applebees-menus.us" className={styles.emailBadge}>
-              admin@applebees-menus.us
+            <a href={`mailto:${SITE_EMAIL}`} className={styles.emailBadge}>
+              {SITE_EMAIL}
             </a>
           </div>
 
           <div className={styles.infoCard}>
-            <h3>⏱️ Response Times</h3>
+            <h3>Response times</h3>
             <ul>
-              <li><strong>General Inquiries:</strong> 24–48 Business Hours</li>
-              <li><strong>Price Corrections:</strong> Reviewed within 24 Hours</li>
-              <li><strong>DMCA / Legal Notices:</strong> Priority handling (24h)</li>
+              <li><strong>Price corrections:</strong> checked against our next sampling round</li>
+              <li><strong>General questions:</strong> a few working days</li>
+              <li><strong>DMCA and legal notices:</strong> handled first</li>
             </ul>
           </div>
 
           <div className={styles.infoCard}>
-            <h3>⚖️ Disclaimer & Notice</h3>
+            <h3>Disclaimer</h3>
             <p style={{ fontSize: '13.5px', color: '#64748b' }}>
-              This website is an independent community menu resource. We are not officially affiliated with or operated by Dine Brands Global, Inc.
+              {SITE_NAME} is an independent research site. It isn&apos;t affiliated with, endorsed by, or operated by Applebee&apos;s Neighborhood Grill + Bar or Dine Brands Global, Inc.
             </p>
           </div>
         </div>

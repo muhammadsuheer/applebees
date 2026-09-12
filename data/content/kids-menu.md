@@ -1,318 +1,166 @@
 ---
-title: "Applebee's Kids Menu: Prices, Calories & Kids Eat Free"
-h1: "Applebee's Kids Menu with Prices and Calories"
-description: "Applebee's kids menu with prices and calories  meals include entrée, side and drink. Which options are healthiest, and how Kids Eat Free nights actually work."
+title: "Applebee's Kids Menu 2026: Prices, Calories & Kids Eat Free Days"
+h1: "Applebee's Kids Menu: Prices and Calories"
+description: "Applebee's kids meals cost $6.49 to $7.49. Kids Grilled Chicken has 32g of protein for 180 calories. Whether Applebee's has Kids Eat Free, and how Flynn Group's July 4, 2026 deal worked."
 ---
 
+<!--
+Checked September 2026. Prices and calories: data/menu.ts. Protein and sodium: kidsMenuData in data/nutrition.ts.
+July 4, 2026 Kids Eat Free: two free kids meals per adult entrée dine-in, kids 12 and under; To Go one per adult entrée,
+up to four, with an online code. Run by franchisee Flynn Group, valid only at its restaurants in 24 states, not nationwide (KTLA, July 2026). Sodium limit for ages 4–8: 1,500mg (NASEM 2019).
+We have no verified list of other kids entrées, so only the four with data are listed.
+-->
+
 <div class="answerBlock">
   <p>
-    Applebee's kids meals cost roughly $6 to $8 and include an entrée, a side and a drink, for children 12 and under. Options run from Kids Grilled Chicken at 180 calories to a cheeseburger at around 680. The grilled chicken carries the most protein of any kids entrée at 32g  more than the chicken tenders, for less than half the calories.
+    Applebee's kids meals cost $6.49 to $7.49. The four entrées we have figures for run from Kids Grilled Chicken at 180 calories to the Kids Classic Cheeseburger at 680. Order the grilled chicken: it has 32g of protein, more than the tenders, for less than half the calories. Kids Eat Free isn't a national Applebee's deal. Franchisees run it: Flynn Group offered it at its restaurants in 24 states on July 4, 2026, and some others run their own weekly nights.
   </p>
 </div>
 
-## Applebee's Kids Menu Items
-
-<div class="answerBlock">
-  <p>
-    Applebee's kids meals include an entrée, a choice of side and a drink, for children aged 12 and under. Entrées typically include chicken tenders, macaroni and cheese, a cheeseburger, grilled chicken, a cheese quesadilla, spaghetti with marinara, mini corn dogs, a hot dog and grilled cheese. Availability varies by location.
-  </p>
-</div>
+## Applebee's Kids Menu Prices and Calories
 
 <div class="tableCard">
   <div class="tableResponsive">
     <table class="customTable">
-      <caption>Applebee's kids entrées  calories, protein and sodium where published</caption>
+      <caption>Applebee's kids entrées, sorted by calories</caption>
       <thead>
         <tr>
-          <th scope="col">Entrée</th>
-          <th scope="col" style="text-align: center;">Calories</th>
-          <th scope="col" style="text-align: center;">Protein</th>
-          <th scope="col" style="text-align: center;">Sodium</th>
+          <th scope="col">Kids entrée</th>
+          <th scope="col" style="text-align: right;">Price</th>
+          <th scope="col" style="text-align: right;">Calories</th>
+          <th scope="col" style="text-align: right;">Protein</th>
+          <th scope="col" style="text-align: right;">Sodium</th>
         </tr>
       </thead>
       <tbody>
         <tr>
           <th scope="row"><strong>Kids Grilled Chicken</strong></th>
-          <td style="text-align: center; font-weight: 700; color: #166534;">180</td>
-          <td style="text-align: center; font-weight: 700; color: #166534;">32g</td>
-          <td style="text-align: center; font-weight: 700; color: #166534;">650mg</td>
+          <td style="text-align: right;">$6.99</td>
+          <td style="text-align: right;">180</td>
+          <td style="text-align: right;">32g</td>
+          <td style="text-align: right;">650mg</td>
         </tr>
         <tr>
           <th scope="row"><strong>Kids Chicken Tenders</strong></th>
-          <td style="text-align: center; font-weight: 700; color: #b45309;">420</td>
-          <td style="text-align: center;">24g</td>
-          <td style="text-align: center; color: #c8102e;">1,150mg</td>
+          <td style="text-align: right;">$6.99</td>
+          <td style="text-align: right;">420</td>
+          <td style="text-align: right;">24g</td>
+          <td style="text-align: right;">1,150mg</td>
         </tr>
         <tr>
           <th scope="row"><strong>Kids Macaroni &amp; Cheese</strong></th>
-          <td style="text-align: center; font-weight: 700; color: #b45309;">510</td>
-          <td style="text-align: center;">18g</td>
-          <td style="text-align: center; font-weight: 700; color: #c8102e;">1,350mg</td>
+          <td style="text-align: right;">$6.49</td>
+          <td style="text-align: right;">510</td>
+          <td style="text-align: right;">18g</td>
+          <td style="text-align: right;">1,350mg</td>
         </tr>
         <tr>
-          <th scope="row"><strong>Kids Cheeseburger</strong></th>
-          <td style="text-align: center; font-weight: 700; color: #c8102e;">~680</td>
-          <td style="text-align: center;"></td>
-          <td style="text-align: center;"></td>
-        </tr>
-        <tr>
-          <th scope="row">Cheese Quesadilla</th>
-          <td style="text-align: center;"></td>
-          <td style="text-align: center;"></td>
-          <td style="text-align: center;"></td>
-        </tr>
-        <tr>
-          <th scope="row">Spaghetti with Marinara</th>
-          <td style="text-align: center;"></td>
-          <td style="text-align: center;"></td>
-          <td style="text-align: center;"></td>
-        </tr>
-        <tr>
-          <th scope="row">Mini Corn Dogs</th>
-          <td style="text-align: center;"></td>
-          <td style="text-align: center;"></td>
-          <td style="text-align: center;"></td>
-        </tr>
-        <tr>
-          <th scope="row">Hot Dog</th>
-          <td style="text-align: center;"></td>
-          <td style="text-align: center;"></td>
-          <td style="text-align: center;"></td>
-        </tr>
-        <tr>
-          <th scope="row">Grilled Cheese</th>
-          <td style="text-align: center;"></td>
-          <td style="text-align: center;"></td>
-          <td style="text-align: center;"></td>
+          <th scope="row"><strong>Kids Classic Cheeseburger</strong></th>
+          <td style="text-align: right;">$7.49</td>
+          <td style="text-align: right;">680</td>
+          <td style="text-align: right;">n/a</td>
+          <td style="text-align: right;">n/a</td>
         </tr>
       </tbody>
     </table>
   </div>
 </div>
 
-### Reading the Table
-
-- **The grilled chicken is the standout:** 32g of protein for 180 calories beats every other kids entrée on both counts. The chicken tenders deliver 24g for 420 calories  less protein, more than double the calories.
-- **Sodium is where the gap widens further:** The mac and cheese carries 1,350mg and the tenders 1,150mg. The grilled chicken is 650mg. For a young child, guidance suggests limiting sodium to around 1,500mg a day, so a single mac and cheese approaches that on its own.
-- **Context for parents:** That is not a reason to never order it. It is a reason to know that if a child has a mac and cheese at lunch, the rest of the day has very little room left.
-- **Applesauce is the lightest side:** 90 calories and 10mg of sodium.
-
-Full nutrition data: see our complete [nutrition and calories](/nutrition) breakdown.
+Prices are reference figures, and your restaurant sets its own. Kids menus also vary by franchise, so yours may carry items that aren't listed here. The lightest side we have data for is applesauce, at 90 calories and 10mg of sodium.
 
 ![Children's meals with entrée, side and drink](/apple-bees-menu/applebees-kids-menu-meals-category.webp)
 
----
+## The Best Kids Meal at Applebee's
 
-## Applebee's Kids Menu Items Breakdown
+Order the Kids Grilled Chicken if your child will eat it. It wins every column we have: the fewest calories (180), the most protein (32g) and the least sodium (650mg). Against the tenders, it's 240 fewer calories, 8g more protein and 500mg less sodium.
+
+If they'll only eat tenders, that's fine. At 420 calories the Kids Chicken Tenders are a normal child's dinner. The side and the drink are where you have room to adjust.
+
+The one to think about is the mac and cheese. It has 1,350mg of sodium, which is 90% of the 1,500mg daily limit for a child aged 4 to 8, in a single bowl. It isn't a reason never to order it. It's a reason to keep the rest of that day's food low in salt.
+
+## Every Applebee's Kids Entrée
 
 ### Kids Grilled Chicken
 
 ![Kids grilled chicken meal served with broccoli and applesauce](/apple-bees-menu/applebees-kids-grilled-chicken-meal.webp)
 
-The best-value item on the kids menu on every nutritional measure, and the one most parents do not know exists.
+A child-size grilled chicken breast. With applesauce, the whole plate is 270 calories.
 
-A plain grilled chicken breast portion, sized for children. At 180 calories with 32g of protein, it delivers more protein than any other kids entrée while being the lightest, and it carries 650mg of sodium against 1,150mg for the tenders.
-
-If you are choosing a kids meal on nutrition rather than on what will definitely get eaten, this is the answer. Paired with applesauce or steamed broccoli it comes to under 300 calories for a complete meal with substantial protein.
-
-- **Profile:** 180 calories · 32g protein · 650mg sodium
+- **$6.99** · 180 calories · 32g protein · 650mg sodium
 
 ### Kids Chicken Tenders
 
 ![Kids chicken tenders with fries and dipping sauce](/apple-bees-menu/applebees-kids-chicken-tenders-meal.webp)
 
-The reliable order, and the one most children pick. Breaded white-meat chicken tenders with a dipping sauce.
+Breaded chicken tenders with a dipping sauce. The order most kids pick.
 
-At 420 calories with 24g of protein it is a reasonable meal. The trade against the grilled version is 240 extra calories, 8g less protein, and 500mg more sodium  all from the breading.
+- **$6.99** · 420 calories · 24g protein · 1,150mg sodium
 
-*Worth knowing:* If your child will eat grilled chicken, that is the better order. If they will only eat tenders, this is a perfectly normal children's meal and the side choice is where you have room to adjust.
-
-- **Profile:** 420 calories · 24g protein · 1,150mg sodium
-
-### Kids Macaroni & Cheese
+### Kids Macaroni &amp; Cheese
 
 ![Kids macaroni and cheese served in a bowl](/apple-bees-menu/applebees-kids-macaroni-and-cheese.webp)
 
-The comfort order, and the most popular item on most children's menus anywhere.
+The cheapest kids meal, and the saltiest.
 
-On the numbers it is the heaviest kids entrée at 510 calories with 18g of protein  the least protein of the three published items  and 1,350mg of sodium, the highest.
+- **$6.49** · 510 calories · 18g protein · 1,350mg sodium
 
-The sodium figure is the one worth noting. It is more than double the grilled chicken and approaches a young child's full daily guidance in a single dish.
-
-- **Profile:** 510 calories · 18g protein · 1,350mg sodium
-
-### Kids Cheeseburger
+### Kids Classic Cheeseburger
 
 ![Kids cheeseburger with American cheese on a toasted bun](/apple-bees-menu/applebees-kids-cheeseburger-meal.webp)
 
-A scaled-down version of the adult burger  beef patty with American cheese on a toasted bun. Cooked through, as ground beef is everywhere.
+A smaller cheeseburger with American cheese. At 680 calories it's the biggest kids entrée, a good fit for an older kid with an adult appetite and a lot of food for a five-year-old.
 
-At around 680 calories it is the largest kids entrée, which suits an older child with an adult-sized appetite. For a younger child it is likely more food than a meal needs.
+- **$7.49** · 680 calories
 
-- **Profile:** ~680 calories
-
-### Other Kids Entrées
-
-Cheese Quesadilla, Spaghetti with Marinara, Mini Corn Dogs, Hot Dog and Grilled Cheese appear on Applebee's kids menus at many locations. Check with your local restaurant for current availability and preparation details.
-
----
-
-## Kids Meal Sides and Drinks
-
-Every kids meal includes a side and a drink, both chosen at no extra cost. This is where the meal is actually decided.
-
-### Side Options
-
-<div class="tableCard">
-  <div class="tableResponsive">
-    <table class="customTable">
-      <caption>Kids Meal Side Choices</caption>
-      <thead>
-        <tr>
-          <th scope="col">Side</th>
-          <th scope="col">Nutritional &amp; Practical Notes</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th scope="row"><strong>Applesauce</strong></th>
-          <td>90 calories, 10mg sodium  the lightest option</td>
-        </tr>
-        <tr>
-          <th scope="row"><strong>Steamed Broccoli</strong></th>
-          <td>Vegetable option; ask for no butter if that matters</td>
-        </tr>
-        <tr>
-          <th scope="row"><strong>French Fries</strong></th>
-          <td>The default most children pick</td>
-        </tr>
-        <tr>
-          <th scope="row"><strong>Side Salad</strong></th>
-          <td>For older children</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-</div>
-
-Swapping fries for applesauce or broccoli is free and changes the meal more than the entrée choice does  the same principle that applies across the whole [sides menu](/menu/sides).
-
-### Drink Options
-
-Milk, juice or a fountain drink, included in the price.
-
-The drink swap is the single largest sugar reduction available on a children's order  larger than any change to the food. A fountain soda against milk or water is the difference between a meal with significant added sugar and one with none.
-
-Full drinks range: see our [non-alcoholic beverages](/menu/non-alcoholic-beverages) guide.
-
----
-
-## Does Applebee's Do Kids Eat Free?
-
-This is the highest-intent question on the page, and the honest answer is more useful than a confident one.
+## Does Applebee's Have Kids Eat Free?
 
 <div class="answerBlock">
   <p>
-    Some Applebee's locations run Kids Eat Free promotions, but it is not a national programme. Applebee's restaurants are independently franchised, so individual owners decide whether to offer it, on which day, and on what terms. Confirming with your local restaurant is the only reliable way to know.
+    Not as a national program. Kids Eat Free is run by individual franchisees. The biggest, Flynn Group, offered it at its restaurants in 24 states on July 4, 2026. Some franchisees run a weekly Kids Eat Free night, and many don't. Call your restaurant to find out.
   </p>
 </div>
 
-### How the Promotion Usually Works
+Here's how Flynn Group's July 4, 2026 deal worked, which is a fair guide to what a holiday version looks like. Dine in and you got two free kids meals with each adult entrée, for children 12 and under, with a side and a drink. Order To Go online or by phone and you got one free kids meal per adult entrée, up to four, with a promo code.
 
-Where it runs, the structure is consistent across locations:
+The local nights are harder to pin down. A franchisee picks whatever night their restaurant is quietest, so it's Tuesday in one town and Monday in the next, and it can change without notice. Any website listing a set "Kids Eat Free day" for Applebee's is guessing about your restaurant. The [location finder](/locations) has the phone number.
 
-- **One free kids meal per adult entrée purchased:** Some locations allow two children per adult entrée.
-- **Children aged 12 and under:** Matching the standard kids menu age policy.
-- **Dine-in only:** These promotions are built to fill tables on quiet nights.
-- **A specific day of the week:** Tuesday is the most commonly reported, but Monday and other weeknights appear too. It is not standardised.
+## What a Family Meal at Applebee's Costs
 
-### Why It Varies So Much
+Two adults on the [2 for $25](/menu/2-for-25) plus two kids meals comes to about $38 to $40 before drinks, tax and tip. On a Kids Eat Free night, the same family pays $25.
 
-Kids Eat Free is a local traffic-driving tool rather than a corporate campaign. A franchise owner uses it on whichever night their restaurant is quietest, and that differs by market. A location near a school district may run it on a different night from one in a business area.
+For a cheaper adult option, two [$9.99 Really BIG Meal Deals](/menu/really-big-meal-deal) include drinks, which puts the whole family at about $33 to $35.
 
-Some locations run it year-round; others activate it around school holidays or specific seasons.
+## Sides and Drinks
 
-### Some Locations Run a Reduced Price Instead
+The drink changes a kids meal more than the entrée does. A fountain soda adds sugar that milk or water doesn't, and no entrée swap removes as much. Applesauce is the lightest side we have figures for at 90 calories. Ask which other sides your restaurant offers.
 
-Rather than free, some restaurants offer kids meals at a reduced price (such as $1.99) on a set night. Reported figures vary widely across sources, which is itself a sign of how location-dependent this is.
+## Allergies
 
-### How to Actually Find Out
-
-- Call your local restaurant and ask directly. Thirty seconds on the phone is more reliable than any published list, including this one, because the promotion is set locally and changes.
-- Check the Applebee's app, where location-specific offers appear.
-- The [location finder](/locations) has direct phone numbers for every restaurant.
-
----
-
-## What a Family Meal at Applebee's Actually Costs
-
-Useful arithmetic for anyone planning a visit:
-
-- **All-inclusive kids pricing:** Kids meals include entrée, side and drink at roughly $6 to $8  so there are no add-ons to budget for.
-- **Family of four combination:** Pairing with the [2 for $25](/menu/2-for-25) deal gives two adults a shared appetizer and two entrées. A family of four  two adults on 2 for $25, two children on the kids menu  lands somewhere around $38 to $41 before tax and tip.
-- **On a Kids Eat Free night:** Where available, the same family is paying only for the two adult entrées.
-- **Large gatherings:** For a larger group, [catering](/catering) platters serve 6–8 each at around $10 per person, which works out below individual ordering past about six people.
-- **Compared to fast food:** A kids meal at a drive-thru typically runs a few dollars less. The difference buys table service, a side and drink included, and somewhere to sit  which for a family with young children is often the point.
-
----
-
-## Kids Menu Allergens and Modifications
-
-Applebee's does not operate an allergen-free kitchen. Shared fryers and prep surfaces mean cross-contact is possible on any item, including ones whose ingredients look clear.
-
-For a serious allergy: tell the server it is an allergy rather than a preference, and ask for the manager. Most locations keep an allergen binder that a manager can bring to the table. That phrasing changes how the kitchen handles the order.
-
-### Practical Notes for Parents
-
-- **Grilled chicken:** The simplest item to modify  fewer components, no breading, no sauce by default.
-- **Breaded items & fries:** Breaded items contain wheat, and fries share fryer oil with breaded chicken, so they are not a safe gluten-free choice for celiac disease.
-- **Dairy:** Present in the mac and cheese, the cheeseburger and the quesadilla by definition.
-
-Full allergen data: see our [nutrition and allergens](/nutrition) guide.
-
----
+Applebee's kitchens share grills and fryers. The grilled chicken is the simplest kids item, with no breading. Tenders contain wheat, and the mac and cheese and cheeseburger contain dairy. For a serious allergy, ask for the manager and say it's an allergy, not a preference. The [allergen menu](/allergen-menu) covers the adult items we track.
 
 ## Frequently Asked Questions
 
-### What is on the Applebee's kids menu?
-Kids entrées typically include chicken tenders, macaroni and cheese, a cheeseburger, grilled chicken, a cheese quesadilla, spaghetti with marinara, mini corn dogs, a hot dog and grilled cheese. Every meal includes a side and a drink.
-
 ### How much is a kids meal at Applebee's?
-Roughly $6 to $8 depending on the item and location, including the entrée, a side and a drink. Prices are set by each franchise location, so they vary.
+$6.49 to $7.49. Kids Macaroni & Cheese is $6.49, Kids Grilled Chicken and Kids Chicken Tenders are $6.99, and the Kids Classic Cheeseburger is $7.49.
 
 ### Does Applebee's have Kids Eat Free?
-Some locations do, but it is not a national programme. Where it runs it is usually one free kids meal per adult entrée, dine-in, on a specific weeknight. The day and terms are set locally, so call your restaurant to confirm.
+Not nationwide. Individual franchisees run it, like Flynn Group's July 4, 2026 deal at its restaurants in 24 states. Call your restaurant.
 
-### What is the healthiest option on the Applebee's kids menu?
-Kids Grilled Chicken at 180 calories with 32g of protein and 650mg of sodium. It carries more protein than the chicken tenders for less than half the calories, and roughly half the sodium.
-
-### How many calories are in Applebee's kids meals?
-Entrées run from 180 calories for grilled chicken to around 680 for the cheeseburger, before sides. Applesauce adds 90 calories; fries add considerably more.
+### What day is Kids Eat Free at Applebee's?
+There's no national day. Each franchisee that runs it picks its own night, so ask your local restaurant.
 
 ### What age is the Applebee's kids menu for?
-Children aged 12 and under. Some locations allow adults to order from it, though that varies by restaurant.
+Kids 12 and under, which was the age limit on Flynn Group's July 4, 2026 Kids Eat Free deal. Some restaurants set their own rules.
 
-### Do kids meals come with a drink?
-Yes. Milk, juice or a fountain drink is included at no extra cost. Choosing milk or water over a fountain soda is the largest sugar reduction available on a children's order.
+### What's the healthiest kids meal at Applebee's?
+Kids Grilled Chicken: 180 calories, 32g of protein and 650mg of sodium.
 
-### Can I swap the fries in a kids meal?
-Yes, and it is free. Applesauce, steamed broccoli and a side salad are the usual alternatives. Applesauce is the lightest at 90 calories.
+### How many calories are in Applebee's kids chicken tenders?
+420, with 24g of protein and 1,150mg of sodium.
 
-### Which kids meal has the most sodium?
-The macaroni and cheese at 1,350mg, followed by the chicken tenders at 1,150mg. The grilled chicken is considerably lower at 650mg.
+### Which Applebee's kids meal has the most sodium?
+Kids Macaroni & Cheese at 1,350mg, then the tenders at 1,150mg.
 
-### Does Applebee's have gluten-free kids meals?
-Applebee's does not operate a certified gluten-free kitchen. Grilled chicken is the simplest item to modify, but shared fryers and prep surfaces mean cross-contact is possible. Speak to a manager for a serious allergy.
+## Deals and Drinks for the Whole Table
 
-### Is Applebee's good for families with young children?
-Kids meals include everything at one price, sides and drinks can be swapped free, and the dining room is set up for families. The main things worth checking before a visit are whether your location runs a Kids Eat Free night and what its hours are.
-
----
-
-## Related Menu Categories
-
-- **Side Dish Swaps:** To swap the included side, browse [sides](/menu/sides).
-- **Drink Options & Refills:** For beverage details and what's included, visit [non-alcoholic beverages](/menu/non-alcoholic-beverages).
-- **Family Meal Deals:** For adults at the same table, the [2 for $25](/menu/2-for-25) deal pairs well with kids meals for a family visit.
-- **Large Group Gatherings:** For larger family gatherings, check [catering](/catering).
-- Return to the [full menu](/menu).
+For the adults at the table, the [2 for $25](/menu/2-for-25) is the usual pairing. To see what's in the drinks, see [non-alcoholic beverages](/menu/non-alcoholic-beverages). For a birthday party, [catering](/catering) platters feed 6 to 8.

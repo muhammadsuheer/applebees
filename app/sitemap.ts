@@ -1,139 +1,70 @@
 import { MetadataRoute } from 'next';
+import fs from 'fs';
+import path from 'path';
 import { menuData } from '@/data/menu';
 import { blogs } from '@/data/blogs';
+import { SITE_URL, PRICES_LAST_VERIFIED } from '@/data/site';
+
+// Real modification times, not a hand-written ladder of sequential dates.
+// Google stops trusting lastmod from sites whose lastmod proves unreliable,
+// and "Aug 1, Aug 2, Aug 3..." is about as unreliable as it gets.
+function mtime(...relative: string[]): Date {
+  for (const rel of relative) {
+    try {
+      const full = path.join(/*turbopackIgnore: true*/ process.cwd(), rel);
+      if (fs.existsSync(full)) return fs.statSync(full).mtime;
+    } catch {
+      // fall through to the next candidate
+    }
+  }
+  return new Date(PRICES_LAST_VERIFIED);
+}
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://applebees-menus.us';
+  const page = (
+    route: string,
+    priority: number,
+    sources: string[],
+  ): MetadataRoute.Sitemap[number] => ({
+    url: `${SITE_URL}${route}`,
+    lastModified: mtime(...sources),
+    priority,
+  });
 
   const staticPages: MetadataRoute.Sitemap = [
-    {
-      url: `${baseUrl}/`,
-      lastModified: new Date('2026-08-01T12:00:00Z'),
-      changeFrequency: 'weekly',
-      priority: 1.0,
-    },
-    {
-      url: `${baseUrl}/happy-hour`,
-      lastModified: new Date('2026-08-02T12:00:00Z'),
-      changeFrequency: 'weekly',
-      priority: 0.9,
-    },
-    {
-      url: `${baseUrl}/catering`,
-      lastModified: new Date('2026-08-03T12:00:00Z'),
-      changeFrequency: 'weekly',
-      priority: 0.9,
-    },
-    {
-      url: `${baseUrl}/careers`,
-      lastModified: new Date('2026-08-04T12:00:00Z'),
-      changeFrequency: 'monthly',
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/takeout`,
-      lastModified: new Date('2026-08-05T12:00:00Z'),
-      changeFrequency: 'weekly',
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/delivery`,
-      lastModified: new Date('2026-08-06T12:00:00Z'),
-      changeFrequency: 'weekly',
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/operating-hours`,
-      lastModified: new Date('2026-08-07T12:00:00Z'),
-      changeFrequency: 'monthly',
-      priority: 0.9,
-    },
-    {
-      url: `${baseUrl}/locations`,
-      lastModified: new Date('2026-08-08T12:00:00Z'),
-      changeFrequency: 'monthly',
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/nutrition`,
-      lastModified: new Date('2026-08-09T12:00:00Z'),
-      changeFrequency: 'monthly',
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/specials-and-deals`,
-      lastModified: new Date('2026-08-10T12:00:00Z'),
-      changeFrequency: 'weekly',
-      priority: 0.9,
-    },
-    {
-      url: `${baseUrl}/gift-card-deals`,
-      lastModified: new Date('2026-08-11T12:00:00Z'),
-      changeFrequency: 'monthly',
-      priority: 0.7,
-    },
-    {
-      url: `${baseUrl}/disclaimer`,
-      lastModified: new Date('2026-08-12T12:00:00Z'),
-      changeFrequency: 'yearly',
-      priority: 0.5,
-    },
-    {
-      url: `${baseUrl}/terms-and-conditions`,
-      lastModified: new Date('2026-08-13T12:00:00Z'),
-      changeFrequency: 'yearly',
-      priority: 0.5,
-    },
-    {
-      url: `${baseUrl}/cookies`,
-      lastModified: new Date('2026-08-14T12:00:00Z'),
-      changeFrequency: 'yearly',
-      priority: 0.5,
-    },
-    {
-      url: `${baseUrl}/privacy-policy`,
-      lastModified: new Date('2026-08-15T12:00:00Z'),
-      changeFrequency: 'yearly',
-      priority: 0.5,
-    },
-    {
-      url: `${baseUrl}/contact-us`,
-      lastModified: new Date('2026-08-16T12:00:00Z'),
-      changeFrequency: 'yearly',
-      priority: 0.5,
-    },
-    {
-      url: `${baseUrl}/about-us`,
-      lastModified: new Date('2026-08-17T12:00:00Z'),
-      changeFrequency: 'yearly',
-      priority: 0.6,
-    },
-    {
-      url: `${baseUrl}/menu`,
-      lastModified: new Date('2026-08-18T12:00:00Z'),
-      changeFrequency: 'weekly',
-      priority: 1.0,
-    },
-    {
-      url: `${baseUrl}/blog`,
-      lastModified: new Date('2026-08-18T12:00:00Z'),
-      changeFrequency: 'weekly',
-      priority: 0.8,
-    },
+    page('/', 1.0, ['components/Hero.tsx', 'app/page.tsx']),
+    page('/menu', 1.0, ['data/menu.ts', 'app/menu/page.tsx']),
+    page('/happy-hour', 0.9, ['app/happy-hour/page.tsx']),
+    page('/specials-and-deals', 0.9, ['app/specials-and-deals/page.tsx']),
+    page('/nutrition', 0.9, ['data/nutrition.ts', 'app/nutrition/page.tsx']),
+    page('/allergen-menu', 0.9, ['app/allergen-menu/page.tsx']),
+    page('/catering', 0.8, ['app/catering/page.tsx']),
+    page('/operating-hours', 0.8, ['app/operating-hours/page.tsx']),
+    page('/locations', 0.8, ['data/locations.ts', 'app/locations/page.tsx']),
+    page('/takeout', 0.7, ['app/takeout/page.tsx']),
+    page('/delivery', 0.7, ['app/delivery/page.tsx']),
+    page('/gift-card-deals', 0.7, ['app/gift-card-deals/page.tsx']),
+    page('/careers', 0.7, ['app/careers/page.tsx']),
+    page('/blog', 0.7, ['data/blogs.ts']),
+    page('/about-us', 0.6, ['app/about-us/page.tsx']),
+    page('/sitemap', 0.4, ['app/sitemap/page.tsx']),
+    page('/contact-us', 0.4, ['app/contact-us/page.tsx']),
+    page('/disclaimer', 0.3, ['app/disclaimer/page.tsx']),
+    page('/terms-and-conditions', 0.3, ['app/terms-and-conditions/page.tsx']),
+    page('/privacy-policy', 0.3, ['components/LegalSections.tsx', 'app/privacy-policy/page.tsx']),
+    page('/cookies', 0.3, ['components/LegalSections.tsx', 'app/cookies/page.tsx']),
   ];
 
   const menuPages: MetadataRoute.Sitemap = menuData.map((category) => ({
-    url: `${baseUrl}/menu/${category.slug}`,
-    lastModified: new Date('2026-08-18T12:00:00Z'),
-    changeFrequency: 'weekly',
+    url: `${SITE_URL}/menu/${category.slug}`,
+    lastModified: mtime(`data/content/${category.slug}.md`, 'data/menu.ts'),
     priority: 0.9,
   }));
 
   const blogPages: MetadataRoute.Sitemap = blogs.map((blog) => ({
-    url: `${baseUrl}/blog/${blog.slug}`,
+    url: `${SITE_URL}/blog/${blog.slug}`,
     lastModified: new Date(blog.modifiedDate),
-    changeFrequency: 'weekly',
-    priority: 0.85,
+    priority: 0.6,
   }));
 
   return [...staticPages, ...menuPages, ...blogPages];

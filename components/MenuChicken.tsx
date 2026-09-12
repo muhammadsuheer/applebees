@@ -19,7 +19,7 @@ export default function MenuChicken() {
             <h3 className={styles.cardTitle}>Fiesta Lime Chicken®</h3>
             <span className={styles.cardCalories}>Approx. 1,140 Cals</span>
             <p className={styles.cardDescription}>
-              The dish that defined a generation of casual dining. A massive, tender chicken breast is marinated in a vibrant cilantro-lime glaze, grilled to perfection, and placed upon a bed of crispy tortilla strips. It is then smothered in a rich, tangy Mexi-ranch dressing and crowned with a thick layer of melted Cheddar-Jack cheese. Served with Spanish rice and house-made pico de gallo.
+              The dish that defined a generation of casual dining. A massive, tender chicken breast is marinated in a vibrant cilantro-lime glaze, grilled to perfection, and placed upon a bed of crispy tortilla strips. It&apos;s then smothered in a rich, tangy Mexi-ranch dressing and crowned with a thick layer of melted Cheddar-Jack cheese. Served with Spanish rice and house-made pico de gallo.
             </p>
             <p className={styles.cardHistory}>
               <strong>The Zesty Legacy:</strong> The cilantro-lime marinade physically tenderizes the chicken protein fibers, ensuring the breast remains incredibly juicy even when subjected to the extreme heat of the cheese-melting salamander oven.

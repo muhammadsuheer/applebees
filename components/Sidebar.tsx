@@ -21,18 +21,6 @@ export default function Sidebar({ currentSlug, pageType = 'menu' }: SidebarProps
   return (
     <aside className={styles.sidebar}>
       
-      {/* Search Widget */}
-      <div className={styles.widget}>
-        <form className={styles.searchForm}>
-          <input 
-            type="text" 
-            placeholder="Search..." 
-            className={styles.searchInput}
-          />
-          <button type="submit" className={styles.searchButton}>Search</button>
-        </form>
-      </div>
-
       {/* Recent Blogs Widget (Shown primarily on blogs, or as a cross-link) */}
       <div className={styles.widget}>
         <h3 className={styles.widgetTitle}>RECENT BLOGS</h3>

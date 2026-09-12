@@ -6,7 +6,7 @@ export function CateringOverview() {
       <h2>The 2026 Catering Landscape</h2>
       <p>Applebee's is globally recognized for its vibrant dine-in atmosphere and late-night bar culture. However, operating silently behind the scenes of the bustling dining room is a massive, high-volume Business-to-Business (B2B) catering operation. In 2026, the demand for affordable, crowd-pleasing food for corporate events, family reunions, and holiday parties has driven Applebee's to engineer a highly efficient off-premise catering model.</p>
 
-      <p>When you place a catering order for 100 people, you are not simply ordering 100 individual meals. You are tapping into a specialized logistical network designed to produce massive yields of food simultaneously, package them in insulated thermal containers, and coordinate delivery windows with pinpoint accuracy.</p>
+      <p>When you place a catering order for 100 people, you aren&apos;t simply ordering 100 individual meals. You&apos;re tapping into a specialized logistical network designed to produce massive yields of food simultaneously, package them in insulated thermal containers, and coordinate delivery windows with pinpoint accuracy.</p>
 
       <p>This 3,000-word comprehensive guide strips away the marketing fluff to explain the strict mechanics of Applebee's catering. We will break down the aggressive "$10 Per Person" economic strategy, the physical science behind their thermal packaging, the brutal reality of kitchen lead times, and how office managers can successfully execute tax-exempt orders through third-party platforms like ezCater.</p>
     </section>
@@ -77,7 +77,7 @@ export function DeliveryPickup() {
       <p>Historically, an Applebee's manager would load the food into their personal SUV and drive it to your office. In 2026, due to massive liability and insurance costs, almost zero Applebee's locations offer direct, in-house delivery. If you call the restaurant directly, they will mandate that you physically pick up the food via Carside To Go.</p>
 
       <h3>The ezCater Solution</h3>
-      <p>To solve the B2B delivery problem, Applebee's has heavily integrated with third-party corporate catering logistics platforms, most notably <strong>ezCater</strong>. When you order Applebee's through ezCater, the platform dispatches a professional, vetted catering courier. These couriers possess the massive insulated bags required to transport half-pans, and they are trained to physically bring the food into your building and set up the buffet line. This convenience comes at a premium, as ezCater orders typically include a delivery fee and an expected courier tip.</p>
+      <p>To solve the B2B delivery problem, Applebee's has heavily integrated with third-party corporate catering logistics platforms, most notably <strong>ezCater</strong>. When you order Applebee's through ezCater, the platform dispatches a professional, vetted catering courier. These couriers possess the massive insulated bags required to transport half-pans, and they&apos;re trained to physically bring the food into your building and set up the buffet line. This convenience comes at a premium, as ezCater orders typically include a delivery fee and an expected courier tip.</p>
     </section>
   );
 }
@@ -86,7 +86,7 @@ export function PackagingScience() {
   return (
     <section className={styles.section} id="packaging">
       <h2>Packaging & Temperature Control</h2>
-      <p>The defining metric of a successful catering event is temperature. If a tray of Three-Cheese Chicken Penne arrives at a corporate office lukewarm (below 135°F), the food is not only unappetizing but potentially dangerous due to bacterial growth.</p>
+      <p>The defining metric of a successful catering event is temperature. If a tray of Three-Cheese Chicken Penne arrives at a corporate office lukewarm (below 135°F), the food isn&apos;t only unappetizing but potentially dangerous due to bacterial growth.</p>
 
       <h3>The Thermal Architecture</h3>
       <p>Applebee's utilizes heavy-duty, injection-molded polypropylene (PP) half-pans with securely snapping lids. Unlike cheap aluminum foil trays that immediately bleed heat, these PP containers possess superior thermal retention properties. Furthermore, when an order is packaged, the hot trays are stacked together and immediately sealed inside thick, reusable insulated catering bags.</p>
@@ -108,7 +108,7 @@ export function SternoGuide() {
         <li><strong>Procure Equipment:</strong> Purchase standard wire chafing racks, full-size aluminum water pans, half-size aluminum food pans, and 2-hour gel Sterno cans (available at any party supply store).</li>
         <li><strong>The Water Bath:</strong> Place the wire rack on the table. Drop the full-size water pan into the rack. Fill it with exactly one inch of hot tap water. This creates the steam bath that gently warms the food without burning the bottom.</li>
         <li><strong>Ignite the Fuel:</strong> Pop the caps off two Sterno cans and place them directly under the water pan. Ignite them with a long lighter.</li>
-        <li><strong>The Transfer:</strong> Do not place the Applebee's plastic containers over the fire; they will melt and ruin the food. Instead, carefully slide the hot Applebee's food into the half-size aluminum food pans, and drop those into the steaming water bath.</li>
+        <li><strong>The Transfer:</strong> Don&apos;t place the Applebee's plastic containers over the fire; they will melt and ruin the food. Instead, carefully slide the hot Applebee's food into the half-size aluminum food pans, and drop those into the steaming water bath.</li>
       </ol>
       <p>With this setup, a tray of Fiesta Lime Chicken will remain at a perfect, food-safe 150°F for up to two hours.</p>
     </section>
@@ -122,10 +122,10 @@ export function CorporateTax() {
       <p>For non-profit organizations, schools, and government entities, paying the 8% to 10% local sales tax on a massive $1,000 catering order is a severe budget drain. Applebee's is fully equipped to process tax-exempt B2B orders, but it requires strict adherence to bureaucratic procedure.</p>
 
       <h3>The Physical Certificate Rule</h3>
-      <p>If you are picking up the order directly from the restaurant, you cannot simply tell the manager that your organization is tax-exempt. The POS system legally requires the manager to input a specific tax ID. You must physically bring a printed copy of your state-issued <strong>Tax Exemption Certificate (e.g., a 501(c)(3) form)</strong> and hand it to the manager. They will photocopy the certificate and attach it to the physical receipt for their franchise accounting department.</p>
+      <p>If you&apos;re picking up the order directly from the restaurant, you can&apos;t simply tell the manager that your organization is tax-exempt. The POS system legally requires the manager to input a specific tax ID. You must physically bring a printed copy of your state-issued <strong>Tax Exemption Certificate (e.g., a 501(c)(3) form)</strong> and hand it to the manager. They will photocopy the certificate and attach it to the physical receipt for their franchise accounting department.</p>
 
       <h3>The Third-Party Loophole</h3>
-      <p>If you order through ezCater, you do not deal with the restaurant's tax protocol. Instead, you upload your tax exemption certificate directly to your ezCater corporate account profile. The platform will automatically strip the sales tax from your Applebee's checkout screen, streamlining the entire process for office administrators.</p>
+      <p>If you order through ezCater, you don&apos;t deal with the restaurant's tax protocol. Instead, you upload your tax exemption certificate directly to your ezCater corporate account profile. The platform will automatically strip the sales tax from your Applebee's checkout screen, streamlining the entire process for office administrators.</p>
     </section>
   );
 }
@@ -134,10 +134,10 @@ export function EventSpecificOrdering() {
   return (
     <section className={styles.section} id="event-ordering">
       <h2>Event Specific Ordering Strategies</h2>
-      <p>Ordering the correct ratio of food is an art form. The type of event you are hosting drastically alters the required menu composition.</p>
+      <p>Ordering the correct ratio of food is an art form. The type of event you&apos;re hosting drastically alters the required menu composition.</p>
 
       <h3>The Corporate Office Lunch</h3>
-      <p>Office workers sitting at desks do not want messy, sauce-covered ribs. They require clean, fork-friendly options. The optimal order for a 20-person office meeting is two trays of Three-Cheese Chicken Penne, one massive House Salad tray with dressing on the side, and a platter of Club Sandwiches cut into quarters. This prevents messy keyboards and stained dress shirts.</p>
+      <p>Office workers sitting at desks don&apos;t want messy, sauce-covered ribs. They require clean, fork-friendly options. The optimal order for a 20-person office meeting is two trays of Three-Cheese Chicken Penne, one massive House Salad tray with dressing on the side, and a platter of Club Sandwiches cut into quarters. This prevents messy keyboards and stained dress shirts.</p>
 
       <h3>The Super Bowl / Tailgate Party</h3>
       <p>A sporting event demands aggressive, high-protein finger foods. Plates and forks should be optional. For a 20-person tailgate, abandon the salads entirely. Order three massive trays of Boneless Wings (one Hot, one Honey BBQ, one Garlic Parm), a tray of Mozzarella sticks, and a tray of Double-Glazed Baby Back Ribs. Ensure you request an excess supply of wet naps.</p>
@@ -147,7 +147,7 @@ export function EventSpecificOrdering() {
 
 export function CateringFAQ() {
   const faqData = [
-    { question: "How many people does an Applebee's catering tray serve?", answer: "A standard Applebee's catering platter (half-pan) is designed to serve 6 to 8 adult guests. If you are serving a group of teenagers or athletes, you should assume the tray will only serve 4 to 5 people." },
+    { question: "How many people does an Applebee's catering tray serve?", answer: "A standard Applebee's catering platter (half-pan) is designed to serve 6 to 8 adult guests. If you're serving a group of teenagers or athletes, you should assume the tray will only serve 4 to 5 people." },
     { question: "Does Applebee's deliver catering orders?", answer: "Generally, no. Most Applebee's locations require you to pick up catering orders via Carside To Go. However, you can secure professional delivery and setup by ordering Applebee's catering through third-party corporate platforms like ezCater." },
     { question: "Do catering orders include plates and silverware?", answer: "Yes, but you must explicitly request them. When placing your order, ask the manager to include 'Setup Supplies,' which will provide you with disposable plates, plastic cutlery sets, napkins, and serving tongs at no additional charge." },
     { question: "Can I cancel an Applebee's catering order?", answer: "Yes, but timing is critical. Because the restaurant orders bulk inventory specifically for your event, you must typically cancel at least 24 hours in advance to receive a full refund. Canceling two hours before the event will usually result in a 50% to 100% penalty charge." },

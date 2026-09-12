@@ -1,283 +1,215 @@
 ---
-title: "Applebee's Steaks & Ribs: Riblets, Sirloin & Prices (2026)"
-description: "Applebee's steaks and ribs menu  riblets, 8 oz top sirloin, Bourbon Street steak and baby back ribs. Prices, calories, protein and how to order your steak."
+title: "Applebee's Steaks & Ribs 2026: Riblets, 8 oz Sirloin Prices & Calories"
+h1: "Applebee's Steaks and Ribs: Prices and Calories"
+description: "Applebee's steaks and ribs from $16.99 to $23.99: Riblets, 6 oz and 8 oz Top Sirloin, Bourbon Street Steak, Baby Back Ribs and Ribeye. The 8 oz sirloin has the best protein per calorie on the menu."
 ---
+
+<!--
+Checked September 2026. Prices and calories: data/menu.ts. Protein, sodium, carbs, sugar, allergens: data/nutrition.ts.
+Riblets and Ribeye have no published macros in our data, so none are stated.
+All You Can Eat ($15.99 with Riblets): Applebee's newsroom, May 11, 2026.
+-->
 
 <div class="answerBlock">
   <p>
-    Applebee's steaks and ribs run from $18.99 to $23.99 and 630 to 1,430 calories, covering top sirloin, ribeye, the Bourbon Street steak and slow-cooked ribs. This is the highest protein-per-calorie category on the Applebee's menu  the 8 oz. Top Sirloin delivers 55g of protein, and the ribs carry the lowest sodium of any entrée here.
+    Applebee's steaks and ribs cost $16.99 to $23.99 and run 760 to 1,430 calories. The 8 oz. Top Sirloin is the best order in the section and on the whole menu by protein per calorie: 55g of protein for 830 calories at $18.99. The Bourbon Street Steak has the most protein at 71g. The half rack of Baby Back Ribs has the least sodium of any entrée we track.
   </p>
 </div>
 
-## What's on Applebee's Steaks and Ribs Menu
-
-This is the strongest section of the Applebee's menu for anyone eating by the numbers, and it is worth knowing why:
-
-- **Protein per calorie is the best on the menu here.** The 8 oz. Top Sirloin delivers 55g of protein for 830 calories  about 15 calories per gram. Compare that to the Oriental Chicken Salad at 39 calories per gram, and it reframes what a "light" order actually means.
-- **Carbohydrates are low relative to everything else.** Both sirloin cuts sit at 45g, against 102g for the three-cheese penne and 160g for the four-cheese mac. The sides do most of that work, so swapping them changes the figure substantially.
-- **The ribs are the sodium surprise.** At 1,300mg the Double-Glazed Baby Back Ribs carry the lowest sodium of any entrée in this category  less than half the Bourbon Street Steak's 3,430mg. Barbecue reading as the low-sodium option is not what most people would guess.
-
-![Grilled steaks and barbecue ribs with sides](/apple-bees-menu/applebees-steaks-and-ribs-menu-category.webp)
-
----
-
-## Steaks & Ribs Comparison: Calories, Prices & Macros
+## Applebee's Steak and Rib Prices
 
 <div class="tableCard">
   <div class="tableResponsive">
     <table class="customTable">
-      <caption>Applebee's steaks and ribs  prices, calories and macros, sorted by calories</caption>
+      <caption>Applebee's steaks and ribs, sorted by calories</caption>
       <thead>
         <tr>
           <th scope="col">Item</th>
-          <th scope="col" style="text-align: center;">Calories</th>
-          <th scope="col" style="text-align: center;">Price</th>
-          <th scope="col" style="text-align: center;">Protein</th>
-          <th scope="col" style="text-align: center;">Sodium</th>
-          <th scope="col" style="text-align: center;">Carbs</th>
+          <th scope="col" style="text-align: right;">Price</th>
+          <th scope="col" style="text-align: right;">Calories</th>
+          <th scope="col" style="text-align: right;">Protein</th>
+          <th scope="col" style="text-align: right;">Sodium</th>
         </tr>
       </thead>
       <tbody>
         <tr>
           <th scope="row"><strong>6 oz. Top Sirloin</strong></th>
-          <td style="text-align: center;">760</td>
-          <td style="text-align: center; font-weight: 700; color: #c8102e;">$16.99</td>
-          <td style="text-align: center;">43g</td>
-          <td style="text-align: center;">2,180mg</td>
-          <td style="text-align: center;">45g</td>
+          <td style="text-align: right;">$16.99</td>
+          <td style="text-align: right;">760</td>
+          <td style="text-align: right;">43g</td>
+          <td style="text-align: right;">2,180mg</td>
         </tr>
         <tr>
           <th scope="row"><strong>Double-Glazed Baby Back Ribs (half rack)</strong></th>
-          <td style="text-align: center;">760</td>
-          <td style="text-align: center; font-weight: 700; color: #c8102e;">$22.99</td>
-          <td style="text-align: center;">44g</td>
-          <td style="text-align: center;">1,300mg</td>
-          <td style="text-align: center;">53g</td>
+          <td style="text-align: right;">$22.99</td>
+          <td style="text-align: right;">760</td>
+          <td style="text-align: right;">44g</td>
+          <td style="text-align: right;">1,300mg</td>
         </tr>
         <tr>
           <th scope="row"><strong>8 oz. Top Sirloin</strong></th>
-          <td style="text-align: center;">830</td>
-          <td style="text-align: center; font-weight: 700; color: #c8102e;">$18.99</td>
-          <td style="text-align: center;">55g</td>
-          <td style="text-align: center;">2,310mg</td>
-          <td style="text-align: center;">45g</td>
+          <td style="text-align: right;">$18.99</td>
+          <td style="text-align: right;">830</td>
+          <td style="text-align: right;">55g</td>
+          <td style="text-align: right;">2,310mg</td>
         </tr>
         <tr>
           <th scope="row"><strong>Ribeye Steak (12 oz.)</strong></th>
-          <td style="text-align: center;">930</td>
-          <td style="text-align: center; font-weight: 700; color: #c8102e;">$23.99</td>
-          <td style="text-align: center;"></td>
-          <td style="text-align: center;"></td>
-          <td style="text-align: center;"></td>
+          <td style="text-align: right;">$23.99</td>
+          <td style="text-align: right;">930</td>
+          <td style="text-align: right;">n/a</td>
+          <td style="text-align: right;">n/a</td>
+        </tr>
+        <tr>
+          <th scope="row"><strong>Applebee's Riblets</strong></th>
+          <td style="text-align: right;">$17.99</td>
+          <td style="text-align: right;">1,080</td>
+          <td style="text-align: right;">n/a</td>
+          <td style="text-align: right;">n/a</td>
         </tr>
         <tr>
           <th scope="row"><strong>Bourbon Street Steak</strong></th>
-          <td style="text-align: center;">1,430</td>
-          <td style="text-align: center; font-weight: 700; color: #c8102e;">$19.99</td>
-          <td style="text-align: center;">71g</td>
-          <td style="text-align: center;">3,430mg</td>
-          <td style="text-align: center;">88g</td>
+          <td style="text-align: right;">$19.99</td>
+          <td style="text-align: right;">1,430</td>
+          <td style="text-align: right;">71g</td>
+          <td style="text-align: right;">3,430mg</td>
         </tr>
       </tbody>
     </table>
   </div>
 </div>
 
-### Reading the table
+Prices are reference figures, and your restaurant sets its own. Full macros and allergens are in the [nutrition guide](/nutrition).
 
-- **Best protein-to-calorie ratio on the entire menu:** The 8 oz. Top Sirloin, at 55g of protein for 830 calories.
-- **Most total protein:** The Bourbon Street Steak at 71g  but it carries 600 more calories and 1,120mg more sodium than the sirloin to get there.
-- **Lowest sodium:** The ribs at 1,300mg, roughly 40% of the Bourbon Street figure, with zero sugar despite the glaze.
-- **The two sirloin cuts are closer than the menu suggests:** 6 oz gives 43g of protein for 760 calories; 8 oz gives 55g for 830. Seventy calories more buys 12g more protein  the 8 oz is the better value of the two on every metric.
+## Which Steak to Order at Applebee's
 
-Full macros and allergen data: see our [nutrition and calories](/nutrition) reference guide.
+**Get the 8 oz. Top Sirloin, not the 6 oz.** The bigger cut costs $2 more and adds only 70 calories, but it gives you 12g more protein. At 55g for 830 calories, about 15 calories per gram, nothing else on the Applebee's menu beats it. Compare the crispy Oriental Chicken Salad, which needs 39 calories for every gram of protein.
 
----
+**Want the most protein on a plate? The Bourbon Street Steak, at 71g.** You pay for it with 600 more calories and 1,120mg more sodium than the 8 oz. sirloin.
 
-## Detailed Steaks and Ribs Item Breakdowns
+**Watching sodium? Order the ribs.** The half rack of Double-Glazed Baby Back Ribs has 1,300mg of sodium, the lowest of any entrée in our data and less than half the Bourbon Street Steak's 3,430mg. It also lists 0g of sugar despite the glaze. Nobody expects barbecue to be the low-sodium order.
+
+**The Ribeye is the splurge.** At $23.99 it's the most expensive item on the menu, and a 12 oz. ribeye has the marbling to stay juicy if you like your steak cooked further.
+
+## Every Applebee's Steak and Rib Dish
 
 ### Applebee's Riblets
 
 ![Barbecue-glazed pork riblets served with fries and coleslaw](/apple-bees-menu/applebees-applewood-smoked-baby-back-ribs.webp)
 
-The signature item of this category, and the one most people search by name.
+Riblets are short, meaty pieces of pork rib, slow-cooked and tossed in honey BBQ sauce, served with fries and slaw. They're easier to eat than a full rack because the pieces are small. Riblets are one of the three proteins on All You Can Eat, which came back on May 11, 2026 at $15.99 as a summer deal. If it's still running at your restaurant, unlimited riblets cost $2 less than one plate off the menu.
 
-Riblets are small pork rib portions cut from the rib section, slow-cooked until tender and finished with barbecue sauce. They have been an Applebee's fixture for decades and are one of the few items genuinely associated with the brand rather than with casual dining generally.
-
-**What makes them different from a rack of ribs:** The cut. Riblets are shorter, meatier portions rather than full bone-in ribs, which makes them easier to eat and easier to portion. They are served as a platter or plate, typically with fries and coleslaw, and they appear in Applebee's periodic All You Can Eat promotion  see our [specials and deals](/specials-and-deals) guide.
-
-If you have heard the name and never known what it meant: it is pork, it is barbecue, and it is the dish people come back to Applebee's for. Availability of specific rib formats varies by location.
+- **$17.99** · 1,080 calories
 
 ### 8 oz. Top Sirloin
 
 ![Grilled 8 ounce top sirloin steak with mashed potatoes and broccoli](/apple-bees-menu/applebees-8oz-top-sirloin-steak-dinner.webp)
 
-The best protein-per-calorie order on the entire Applebee's menu.
+An 8 ounce top sirloin, grilled to order. Sirloin is a lean cut, which is why the numbers look this good, and it's also why it dries out if you cook it too far. Order it medium. Swap the starchy side for Steamed Broccoli and the plate stays under 1,000 calories.
 
-An 8 ounce steak cut from the top sirloin  a lean cut with less marbling than a ribeye, which is exactly why the numbers work out as well as they do. USDA Select, seasoned simply and grilled to order.
-
-At **55g of protein for 830 calories**, it beats every other entrée on the menu for return per calorie. Carbohydrate sits at 45g, most of which comes from the sides rather than the steak.
-
-Because sirloin is lean, it does not have heavy intramuscular fat to protect it from overcooking. Ordered well done, a lean 8 oz steak firms up considerably  medium is generally where this cut holds its moisture and texture.
-
-Commonly served with garlic mashed potatoes and broccoli. Swapping to [steamed vegetables](/menu/sides) drops the carbohydrate figure further.
-
-- **Price & Nutrition:** $18.99 · 830 calories · 55g protein · gluten-free options · contains milk and soy
+- **$18.99** · 830 calories · 55g protein · 45g carbs · 2,310mg sodium · contains milk and soy
 
 ### 6 oz. Top Sirloin
 
-The smaller cut of the same steak  delivering **43g of protein for 760 calories**.
+The same steak, smaller. 43g of protein for 760 calories. Unless you want less food, the 8 oz. is the better buy.
 
-Worth comparing directly against the 8 oz version, because the gap is smaller than the size difference suggests. Seventy calories separates them, and the larger cut carries 12g more protein. Unless portion size is the constraint, the 8 oz is the better order.
-
-- **Price & Nutrition:** $16.99 · 760 calories · 43g protein · gluten-free options
+- **$16.99** · 760 calories · 43g protein · 2,180mg sodium · contains milk and soy
 
 ### Bourbon Street Steak
 
 ![Cajun-seasoned sirloin with sautéed mushrooms and onions](/apple-bees-menu/applebees-bourbon-street-steak-dinner.webp)
 
-Top sirloin seasoned with bold Cajun spices and garlic butter, served sizzling with sautéed mushrooms and caramelized onions.
+Cajun-seasoned sirloin with garlic butter, served sizzling with sautéed mushrooms and onions. The most protein in the section at 71g, and the heaviest plate at 1,430 calories and 3,430mg of sodium. Ask for the butter on the side if you want some control over both. [Bourbon Street Chicken &amp; Shrimp](/menu/skillets) uses the same treatment for 420 fewer calories.
 
-The most protein of any item in this category at **71g**  and the heaviest, at **1,430 calories with 3,430mg of sodium**. Most of both come from the garlic butter and the seasoning rather than from the beef.
-
-Asking for the butter on the side is the single change that moves the numbers most, and it lets you add it to taste rather than having it applied in the kitchen.
-
-- **Price & Nutrition:** $19.99 · 1,430 calories · 71g protein · contains milk and soy
-
-*(Note: Not to be confused with [Bourbon Street Chicken & Shrimp](/menu/skillets)  same seasoning treatment, different protein, 420 fewer calories.)*
+- **$19.99** · 1,430 calories · 71g protein · 88g carbs · 3,430mg sodium · contains milk and soy
 
 ### Double-Glazed Baby Back Ribs
 
-Slow-cooked pork ribs finished with a rich barbecue glaze that caramelises on the grill.
+Slow-cooked pork ribs with a barbecue glaze that caramelizes on the grill, with fries and coleslaw. The half rack is 760 calories, 44g of protein and 1,300mg of sodium. Swap the fries for a vegetable side to cut another 300 calories.
 
-The quiet standout on the nutrition table. A half rack carries **1,300mg of sodium**  the lowest of any entrée in this category and less than half the Bourbon Street Steak  with **44g of protein** and, despite the glaze, zero grams of sugar in the published figures.
+- **$22.99** (half rack) · 760 calories · 44g protein · 1,300mg sodium · contains soy
 
-Served with classic fries and coleslaw. Substituting a lighter side is the standard adjustment.
-
-- **Price & Nutrition:** $22.99 · 760 calories (half rack) · 44g protein
-
-### Ribeye Steak
+### Ribeye Steak (12 oz.)
 
 ![Grilled marbled ribeye steak with side dishes](/apple-bees-menu/applebees-ribeye-steak-dinner.webp)
 
-The richest cut on the menu. Ribeye carries heavy marbling, and that intramuscular fat melts during cooking, which is what makes it juicier and more forgiving than sirloin.
+The richest cut on the menu. Ribeye's marbling melts as it cooks, which keeps it juicier than sirloin at the same doneness. It's the most expensive item Applebee's sells, and not every restaurant carries it, so check before you set your heart on it.
 
-The trade-off is the numbers  it is the most expensive item in the category at $23.99, and the fat that makes it taste better is also what raises the calorie figure relative to a sirloin of similar weight.
+- **$23.99** · 930 calories
 
-- **Price & Nutrition:** $23.99 · 930 calories · Cut size and current availability vary by location.
-
----
-
-## Steak Temperatures at Applebee's
-
-Worth getting right, because the cut changes what the temperature does.
+## How to Order Your Steak
 
 <div class="tableCard">
   <div class="tableResponsive">
     <table class="customTable">
-      <caption>Applebee's Steak Doneness Temperature Reference</caption>
+      <caption>Steak doneness and which Applebee's cut suits it</caption>
       <thead>
         <tr>
-          <th scope="col">Temperature</th>
-          <th scope="col" style="text-align: center;">Centre Description</th>
-          <th scope="col">Best For</th>
+          <th scope="col">Doneness</th>
+          <th scope="col">Center</th>
+          <th scope="col">Best Applebee's cut</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <th scope="row"><strong>Rare</strong></th>
-          <td style="text-align: center;">Cool red</td>
-          <td>Very lean cuts, if you want maximum tenderness</td>
-        </tr>
-        <tr>
-          <th scope="row"><strong>Medium Rare</strong></th>
-          <td style="text-align: center;">Warm red</td>
-          <td>Most cuts  the standard chef recommendation</td>
+          <th scope="row"><strong>Medium rare</strong></th>
+          <td>Warm red</td>
+          <td>Any cut</td>
         </tr>
         <tr>
           <th scope="row"><strong>Medium</strong></th>
-          <td style="text-align: center;">Warm pink</td>
-          <td>Sirloin; holds moisture without being soft</td>
+          <td>Warm pink</td>
+          <td>6 oz. and 8 oz. Top Sirloin</td>
         </tr>
         <tr>
-          <th scope="row"><strong>Medium Well</strong></th>
-          <td style="text-align: center;">Trace of pink</td>
-          <td>Firmer texture, noticeably less juice</td>
+          <th scope="row"><strong>Medium well</strong></th>
+          <td>A trace of pink</td>
+          <td>Ribeye</td>
         </tr>
         <tr>
-          <th scope="row"><strong>Well Done</strong></th>
-          <td style="text-align: center;">No pink</td>
-          <td>Firm throughout; best on marbled ribeye</td>
+          <th scope="row"><strong>Well done</strong></th>
+          <td>No pink</td>
+          <td>Ribeye only</td>
         </tr>
       </tbody>
     </table>
   </div>
 </div>
 
-**The cut matters more than the preference:** A ribeye has enough marbling to survive being cooked further  the melted fat keeps it moist. A lean sirloin does not. The same "well done" instruction produces a very different result on a ribeye than on an 8 oz sirloin, and it is the most common reason people find a steak tough.
+The cut matters more than the preference. A ribeye has enough fat to survive being cooked through. A lean sirloin doesn't, and a well-done sirloin is the most common reason people call a steak tough. If you always order well done, order the ribeye.
 
-If you order steaks well done as a rule, the ribeye is the cut that will reward it. If you want the sirloin, medium is where it holds up best.
+## Steaks and Ribs To Go
 
----
+Ribs travel best: the sauce keeps them moist and there's no breading to go soft. Steaks keep cooking in a closed container, so order one step under your usual doneness for [Carside To Go](/takeout). Fries are the weak point on any plate; mashed potatoes or steamed vegetables hold up.
 
-## What to Drink with Steak and Ribs
-
-- **With the ribeye or ribs:** A full-bodied red wine. The tannins cut through fat, which is the whole reason the pairing is traditional.
-- **With the Bourbon Street Steak:** A whiskey-based cocktail from the [drinks menu](/menu/signature-cocktails) leans into the same flavour profile the glaze is built on.
-- **With the sirloin:** A crisp draft beer contrasts with the char without weighing the plate down. A 16 oz light draft is 130 calories  worth noting on a plate where the point is the lean protein figure.
-- **Non-alcoholic:** Freshly brewed unsweetened iced tea at zero calories, against 650 for a frozen cocktail. On an 830-calorie steak that is the difference between a lean meal and a heavy one.
-
----
-
-## Do Steaks and Ribs Travel Well?
-
-Steaks and ribs travel better than most of the menu, with one caveat and one simple fix:
-
-- **Ribs travel best in the category:** The rich barbecue sauce protects the meat from drying out, and there is no crispy breaded coating to lose.
-- **Steaks continue cooking in the container:** A steak that leaves the kitchen at medium arrives closer to medium well after twenty minutes in a closed container. **Ordering one temperature under what you normally would is the fix**  it is the most useful takeout adjustment on this part of the menu.
-- **Side selection:** Fries are the weak point for travel. [Steamed vegetables or mashed potatoes](/menu/sides) arrive in the condition they left.
-
-More on packaging and ordering: see our [Carside To Go](/takeout) and [delivery](/delivery) guides.
-
----
+For a drink, a 16 oz Miller Lite draft is 130 calories. A frozen Mucho Margarita is 650, which would nearly double an 830-calorie sirloin.
 
 ## Frequently Asked Questions
 
-### What are Applebee's riblets?
-Riblets are small pork rib portions cut from the rib section, slow-cooked and finished with barbecue sauce. They are one of Applebee's signature items, served as a platter or plate with sides, and they appear in the chain's periodic All You Can Eat promotion.
-
 ### How much is an 8 oz steak at Applebee's?
-The 8 oz. Top Sirloin is $18.99 and carries 830 calories with 55g of protein  the best protein-to-calorie ratio on the Applebee's menu. Prices vary by location.
+The 8 oz. Top Sirloin is $18.99, with 830 calories and 55g of protein.
 
-### Which Applebee's steak has the most protein?
-The Bourbon Street Steak, at 71g. The 8 oz. Top Sirloin delivers 55g for 600 fewer calories, which makes it the better ratio even though the total is lower.
-
-### How many calories are in Applebee's Bourbon Street Steak?
-1,430 calories with 71g of protein and 3,430mg of sodium. Much of the fat and sodium comes from the garlic butter and Cajun seasoning, so asking for butter on the side reduces both.
-
-### Are Applebee's steaks gluten-free?
-Both Top Sirloin cuts are flagged with gluten-free options. Applebee's does not operate a certified gluten-free kitchen, and shared surfaces mean cross-contact is possible. See our [nutrition and allergens](/nutrition) guide.
-
-### What is the healthiest steak at Applebee's?
-The 8 oz. Top Sirloin  55g of protein for 830 calories and 45g of carbohydrate. Swapping the potato side for steamed vegetables lowers it further.
-
-### Which item has the least sodium?
-The Double-Glazed Baby Back Ribs at 1,300mg per half rack, less than half the Bourbon Street Steak's 3,430mg  the opposite of what most people expect from barbecue.
-
-### What is the difference between Bourbon Street Steak and Bourbon Street Chicken & Shrimp?
-Same Cajun seasoning and garlic butter over mushrooms and onions, different protein. The steak is $19.99 with 1,430 calories and 71g of protein; the chicken and shrimp version is $17.99 with 1,010 calories and 57g.
+### What are Applebee's riblets?
+Short pieces of pork rib, slow-cooked and tossed in honey BBQ sauce, served with fries and slaw. They're $17.99 and 1,080 calories.
 
 ### Does Applebee's have all you can eat riblets?
-Riblets feature in Applebee's periodic All You Can Eat promotion, which runs seasonally rather than year-round. Check current availability on our [specials and deals](/specials-and-deals) guide.
+It did this summer. All You Can Eat came back May 11, 2026 at $15.99 for unlimited Riblets, Boneless Wings and Double Crunch Shrimp with endless fries, dine-in only. Call to check it's still running.
 
-### How should I order my steak at Applebee's?
-Medium suits the leaner sirloin cuts, which firm up quickly when cooked further. The ribeye has enough marbling to hold up at higher temperatures. For takeout, order one temperature under, since the steak keeps cooking in the container.
+### Which Applebee's steak has the most protein?
+The Bourbon Street Steak at 71g. The 8 oz. Top Sirloin has 55g for 600 fewer calories.
 
----
+### What's the healthiest steak at Applebee's?
+The 8 oz. Top Sirloin: 55g of protein for 830 calories, the best ratio on the menu. Pair it with Steamed Broccoli.
 
-## Related Menu Categories
+### How much is the Ribeye at Applebee's?
+$23.99 for a 12 oz. Ribeye, the most expensive item on the menu, at 930 calories.
 
-- **Lighter Cajun Skillets:** The same Cajun treatment on chicken and shrimp, 420 calories lighter: [skillets](/menu/skillets).
-- **Side Customization:** To swap the fries or mashed potatoes for steamed broccoli: [sides](/menu/sides).
-- **Seafood Alternates:** For a lighter protein-forward option, the Blackened Cajun Salmon on the [seafood menu](/menu/seafood) runs 850 calories with 44g of protein.
-- Return to the [full menu](/menu) to view all dining options.
+### Which Applebee's entrée has the least sodium?
+The half rack of Double-Glazed Baby Back Ribs at 1,300mg, less than half the Bourbon Street Steak's 3,430mg.
+
+### Are Applebee's steaks gluten-free?
+Both Top Sirloin cuts have no wheat in the standard build and are tagged as gluten-free options. The kitchen is shared, so they aren't safe for celiac disease. See the [allergen menu](/allergen-menu).
+
+## Cajun Skillets, Sides and a Lighter Salmon Plate
+
+For the same Cajun seasoning on chicken and shrimp, see [skillets](/menu/skillets). To swap your side, see [sides](/menu/sides). And for a lighter plate with nearly as much protein, the Blackened Cajun Salmon on the [seafood menu](/menu/seafood) has 44g for 850 calories.

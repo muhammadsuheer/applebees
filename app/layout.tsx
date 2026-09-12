@@ -15,11 +15,12 @@ const inter = Inter({
 });
 
 import { SuppressHydrationOverlay } from "@/components/SuppressHydrationOverlay";
+import { SITE_NAME } from "@/data/site";
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://applebees-menus.us'),
-  title: "Applebees Menu with Prices, Calories & 2 for $25 (Updated August 2026)",
-  description: "Browse the full Applebees menu with prices and calories for 2026  appetizers, burgers, steaks, pasta, desserts, drinks, kids menu and the 2 for $25 deal.",
+  title: "Applebee's Menu Prices & Calories 2026 | Menu Almanac",
+  description: "Every Applebee's price and calorie count, checked across 129 restaurants in 6 states. Includes the 2 for $25 line-up, happy hour times and the protein-per-dollar numbers nobody else publishes.",
   alternates: {
     canonical: 'https://applebees-menus.us/',
     types: {
@@ -41,7 +42,7 @@ export const metadata: Metadata = {
   },
   manifest: '/manifest.json',
   openGraph: {
-    siteName: "Applebee's Menu Information",
+    siteName: SITE_NAME,
     images: [
       {
         url: '/og/og-home.webp',
@@ -66,11 +67,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       suppressHydrationWarning
     >
       <head>
-        <Script
+        <meta name="google-adsense-account" content="ca-pub-3598591724087304" />
+        {/* Plain script tag so it is in the server-rendered HTML that AdSense's crawler reads. */}
+        <script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3598591724087304"
           crossOrigin="anonymous"
-          strategy="afterInteractive"
         />
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-8JCLDJLP8J"

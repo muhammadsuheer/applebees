@@ -1,29 +1,42 @@
+import Link from 'next/link';
 import styles from './Hero.module.css';
+import { MENU_FACTS, PRICES_LAST_VERIFIED, BYLINE } from '@/data/site';
+
+const checkedLabel = new Date(PRICES_LAST_VERIFIED).toLocaleDateString('en-US', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+});
 
 export default function Hero() {
-  const schemaData = {
-    "@context": "https://schema.org",
-    "@type": "WebPage",
-    "name": "Applebees Menu with Prices, Calories & 2 for $25 (2026)",
-    "description": "Browse the full Applebees menu with prices and calories for 2026  appetizers, burgers, steaks, pasta, desserts, drinks, kids menu and the 2 for $25 deal.",
-    "dateModified": "2026-08-01T00:00:00+00:00"
-  };
-
   return (
-    <header className={styles.heroSection} role="banner" aria-label="Main Applebee's Menu Banner">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-      />
-      <h1>Applebees Menu with Prices and Calories (2026)</h1>
-      <p className={styles.lastUpdated}>Last updated: August 2026</p>
-      <p>
-        This complete guide covers the full Applebee's menu with prices and calories. It includes over 90 items across 14 categories: appetizers, handcrafted burgers, steaks and ribs, chicken, pasta, seafood, salads, desserts, sides, signature cocktails, non-alcoholic beverages, and the kids menu. You will also find current details on the popular 2 for $25 deal, All You Can Eat promotions, and daily specials like half-price apps. All prices and nutrition data were verified in August 2026 by sampling live menus from franchise locations across the United States. Since Applebee's locations are independently operated, local prices and item availability will differ from these averages.
+    <section className={styles.heroSection} aria-labelledby="hero-heading">
+      <h1 id="hero-heading">Applebee&apos;s Menu Prices and Calories</h1>
+
+      <p className={styles.lastUpdated}>
+        Updated {checkedLabel} &middot; by {BYLINE}
       </p>
 
       <p>
-        Use the category links below to jump to a specific section, or scroll through the full menu for comprehensive pricing and calorie information.
+        There&apos;s no national Applebee&apos;s price list. Franchisees set their own
+        prices, so a 12 oz. Ribeye in Carmel, Indiana doesn&apos;t have to cost what it costs
+        in Evansville. What you get here is a reference price for all {MENU_FACTS.items}{' '}
+        items across {MENU_FACTS.categories} categories, sitting next to the calorie count
+        Applebee&apos;s publishes.
       </p>
-    </header>
+
+      <p>
+        Chicken entrées start at $13.99. The Ribeye tops the menu at $23.99. A fountain drink
+        is $2.29. And the 2 for $25 costs exactly what its name says, which is why it&apos;s
+        the one number on this page I&apos;d trust at any location.
+      </p>
+
+      <p className={styles.heroLinks}>
+        <Link href="/menu">Full menu with prices</Link>
+        <Link href="/specials-and-deals">Current deals</Link>
+        <Link href="/allergen-menu">Allergen menu</Link>
+        <Link href="/happy-hour">Happy hour times</Link>
+      </p>
+    </section>
   );
 }

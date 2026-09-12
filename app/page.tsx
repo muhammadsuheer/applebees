@@ -3,7 +3,6 @@ import Hero from '@/components/Hero';
 import QuickAnswerTable from '@/components/QuickAnswerTable';
 import DealsPromo from '@/components/DealsPromo';
 import MenuGrid from '@/components/MenuGrid';
-import FullMenu from '@/components/FullMenu';
 import HappyHourSection from '@/components/HappyHourSection';
 import { 
   DrinksAndCocktailsSection,
@@ -15,6 +14,10 @@ import LocationPromo from '@/components/LocationPromo';
 import Top10Favorites from '@/components/Top10Favorites';
 import FAQSection from '@/components/FAQSection';
 import Footer from '@/components/Footer';
+import Link from 'next/link';
+import { blogs } from '@/data/blogs';
+import sectionStyles from '@/components/ContentSections.module.css';
+import { SITE_NAME, SITE_URL, SITE_EMAIL, PRICES_LAST_VERIFIED } from '@/data/site';
 
 export default function Home() {
   const jsonLd = {
@@ -24,39 +27,41 @@ export default function Home() {
         "@type": "WebSite",
         "@id": "https://applebees-menus.us/#website",
         "url": "https://applebees-menus.us/",
-        "name": "Applebee's Menu with Prices & Calories (2026)",
-        "description": "Comprehensive Applebee's menu with prices, calories, and specials.",
-        "dateModified": "2026-08-01T00:00:00+00:00",
+        "name": SITE_NAME,
+        "description": "Applebee's menu prices, calories and allergens for all 88 items, published independently.",
+        "dateModified": PRICES_LAST_VERIFIED,
         "publisher": {
           "@id": "https://applebees-menus.us/#organization"
         },
-        "potentialAction": [{
-          "@type": "SearchAction",
-          "name": "Site Search",
-          "target": "https://applebees-menus.us/search?q={search_term_string}",
-          "query-input": "required name=search_term_string"
-        }],
         "inLanguage": "en-US"
       },
       {
         "@type": "Organization",
         "@id": "https://applebees-menus.us/#organization",
-        "name": "Applebee's Menu Guide",
+        "name": SITE_NAME,
         "url": "https://applebees-menus.us/",
         "logo": {
           "@type": "ImageObject",
-          "name": "Applebee's Menu Guide Logo",
+          "name": `${SITE_NAME} logo`,
           "inLanguage": "en-US",
           "@id": "https://applebees-menus.us/#logo",
-          "url": "https://applebees-menus.us/logo.png",
-          "contentUrl": "https://applebees-menus.us/logo.png",
+          "url": `${SITE_URL}/web-app-manifest-512x512.png`,
+          "contentUrl": `${SITE_URL}/web-app-manifest-512x512.png`,
           "width": 512,
           "height": 512,
-          "caption": "Applebee's Menu Guide"
+          "caption": SITE_NAME
         },
         "image": {
           "@id": "https://applebees-menus.us/#logo"
-        }
+        },
+        "email": SITE_EMAIL,
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "contactType": "corrections",
+          "email": SITE_EMAIL,
+          "url": `${SITE_URL}/contact-us`
+        },
+        "description": "Independent publisher of Applebee's price, calorie and allergen reference tables. Not affiliated with Applebee's or Dine Brands."
       },
       {
         "@type": "BreadcrumbList",
@@ -85,12 +90,21 @@ export default function Home() {
       <DealsPromo />
       <Top10Favorites />
       <MenuGrid />
-      <FullMenu />
       <HappyHourSection />
       <DrinksAndCocktailsSection />
       <NutritionAndCaloriesSection />
       <HowToOrderSection />
       <LocationPromo />
+      <section className={sectionStyles.section} id="guides">
+        <h2>Applebee&apos;s Guides Worth Reading</h2>
+        <ul>
+          {blogs.map((post) => (
+            <li key={post.slug}>
+              <Link href={`/blog/${post.slug}`}><strong>{post.title}</strong></Link>. {post.excerpt}
+            </li>
+          ))}
+        </ul>
+      </section>
       <FAQSection />
       <MethodologySection />
       <Footer />

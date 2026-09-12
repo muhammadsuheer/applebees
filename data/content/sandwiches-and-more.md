@@ -1,195 +1,131 @@
 ---
-title: "Applebee's Sandwiches: Menu, Prices and Calories (2026)"
-h1: "Applebee's Sandwiches Menu with Prices and Calories"
-description: "Applebee's sandwiches with prices and calories  the Clubhouse Grille, Bacon Ranch Crispy Chicken and Prime Rib Dipper, all served with classic fries."
+title: "Applebee's Sandwiches 2026: Clubhouse Grille, Prime Rib Dipper & Prices"
+h1: "Applebee's Sandwiches: Prices and Calories"
+description: "Applebee's sandwiches cost $13.99 to $15.99 with fries: the Clubhouse Grille (1,120 calories), Bacon Ranch Crispy Chicken (1,050) and Prime Rib Dipper (1,100). The cheapest sandwich meal is $9.99."
 ---
+
+<!--
+Checked September 2026. Prices, calories and descriptions: data/menu.ts.
+data/nutrition.ts lists a GRILLED Bacon Ranch Chicken Sandwich at 1,400 calories / 64g protein, which conflicts with
+the crispy sandwich at 1,050 calories in menu.ts. Until that's resolved against Applebee's nutrition information,
+this page states no protein or allergen figures for the sandwiches.
+-->
 
 <div class="answerBlock">
   <p>
-    Applebee's sandwiches include the Clubhouse Grille, the Bacon Ranch Crispy Chicken and The Prime Rib Dipper, all served with classic fries. Prices run roughly $13 to $15 and calories from around 1,050 to 1,120. The Bacon Ranch Crispy Chicken carries 64g of protein  more than any burger on the Applebee's menu, including the Whisky Bacon Burger at 63g.
+    Applebee's has three sandwiches, $13.99 to $15.99, each served with Classic Fries: the Clubhouse Grille, the Bacon Ranch Crispy Chicken and The Prime Rib Dipper. They run 1,050 to 1,120 calories, lighter than every burger on the menu. The cheapest sandwich meal isn't in this section, though. It's the Big Cluckin' Chicken Sandwich on the $9.99 Really BIG Meal Deal.
   </p>
 </div>
 
-## Applebee's Sandwiches and Wraps
-
-This is a focused section designed to bridge the gap between two larger categories on the menu:
-
-- **Lighter than the burgers:** Every [handcrafted burger](/menu/handcrafted-burgers) clears 1,000 calories and most sit between 1,220 and 1,620. Sandwiches land around 1,050 to 1,120.
-- **Heavier than a plain grilled plate:** A [grilled chicken breast](/menu/chicken) is 760 calories with 50g of protein. Bread and sauce account for the difference.
-- **Higher in protein than either:** The Bacon Ranch Crispy Chicken delivers 64g of protein  more than any beef burger on the menu. A chicken sandwich out-proteining every beef burger is unexpected for most diners.
-- **Always served with classic fries:** Applebee's explicitly serves all sandwiches with classic fries. That means the largest calorie decision on this page is the side, not the sandwich  swapping fries for steamed vegetables removes around 300 calories at no extra cost. See [sides](/menu/sides).
-
-![Sandwiches served with classic fries](/apple-bees-menu/applebees-sandwiches-wraps-menu-category.webp)
-
----
-
-## What's on Applebee's Sandwiches Menu
+## Applebee's Sandwich Prices and Calories
 
 <div class="tableCard">
   <div class="tableResponsive">
     <table class="customTable">
-      <caption>Applebee's sandwiches  prices, calories and protein</caption>
+      <caption>Applebee's sandwiches, sorted by calories</caption>
       <thead>
         <tr>
           <th scope="col">Sandwich</th>
-          <th scope="col" style="text-align: center;">Calories</th>
-          <th scope="col" style="text-align: center;">Price</th>
-          <th scope="col" style="text-align: center;">Protein</th>
+          <th scope="col" style="text-align: right;">Price</th>
+          <th scope="col" style="text-align: right;">Calories</th>
         </tr>
       </thead>
       <tbody>
         <tr>
           <th scope="row"><strong>Bacon Ranch Crispy Chicken</strong></th>
-          <td style="text-align: center; font-weight: 700; color: #166534;">1,050</td>
-          <td style="text-align: center; font-weight: 700; color: #c8102e;">$14.49</td>
-          <td style="text-align: center; font-weight: 700; color: #166534;">64g</td>
-        </tr>
-        <tr>
-          <th scope="row"><strong>Clubhouse Grille</strong></th>
-          <td style="text-align: center; font-weight: 700; color: #b45309;">1,120</td>
-          <td style="text-align: center; font-weight: 700; color: #c8102e;">$13.99</td>
-          <td style="text-align: center;">48g</td>
+          <td style="text-align: right;">$14.49</td>
+          <td style="text-align: right;">1,050</td>
         </tr>
         <tr>
           <th scope="row"><strong>The Prime Rib Dipper</strong></th>
-          <td style="text-align: center; font-weight: 700; color: #b45309;">~1,100</td>
-          <td style="text-align: center; font-weight: 700; color: #c8102e;">$15.99</td>
-          <td style="text-align: center;">52g</td>
+          <td style="text-align: right;">$15.99</td>
+          <td style="text-align: right;">1,100</td>
+        </tr>
+        <tr>
+          <th scope="row"><strong>Clubhouse Grille</strong></th>
+          <td style="text-align: right;">$13.99</td>
+          <td style="text-align: right;">1,120</td>
         </tr>
       </tbody>
     </table>
   </div>
 </div>
 
+Calories include Classic Fries, which are 400 of them. Prices are reference figures, and your restaurant sets its own.
+
+## Which Applebee's Sandwich to Order
+
+**For the cheapest sandwich meal, go off this page.** The Big Cluckin' Chicken Sandwich on the [Really BIG Meal Deal](/menu/really-big-meal-deal) is $9.99 with fries and a fountain drink. That's $4 less than the cheapest sandwich here, and it includes a drink.
+
+**For the best value in this section, the Clubhouse Grille.** It's the cheapest at $13.99 and has the most in it: two meats, two cheeses and bacon.
+
+**For something you can't get elsewhere, The Prime Rib Dipper.** It's the only French dip on the menu. It's also the most expensive sandwich at $15.99.
+
+**Swap the fries whatever you order.** Every sandwich comes with Classic Fries at 400 calories. Steamed Broccoli instead takes 300 calories off, which puts any of these sandwiches around 750 to 820.
+
+![Sandwiches served with classic fries](/apple-bees-menu/applebees-sandwiches-wraps-menu-category.webp)
+
+## Every Applebee's Sandwich
+
 ### Clubhouse Grille
 
 ![Hot club sandwich with ham, turkey, bacon and cheese on toasted potato bread](/apple-bees-menu/applebees-clubhouse-grille-sandwich.webp)
 
-Applebee's take on a club sandwich, served hot rather than cold  and that is the defining concept:
+A hot club: warm ham and turkey, melted Cheddar and Swiss, Applewood-smoked bacon, lettuce, tomato, mayo and honey BBQ sauce on toasted potato bread. The honey BBQ is what makes it taste like a grilled melt instead of a deli club. Toasting the potato bread stops the warm filling from soaking through.
 
-Sliced warm ham and turkey with melted Cheddar and Swiss, Applewood-smoked bacon, lettuce, tomato, mayo and honey BBQ sauce on toasted potato bread.
-
-Two things make it work:
-1. **Toasted potato bread:** Potato bread is soft yet structurally sturdy, and toasting gives it a protective barrier that stops hot, sauced meats from soaking through.
-2. **Honey BBQ sauce:** The honey BBQ adds gentle sweetness against the savory salt of the ham and bacon, which is why this reads as a savory grill melt rather than a cold deli club.
-
-- **On the numbers:** 1,120 calories, the most substantial sandwich in the section, driven by two meats, two cheeses and bacon.
-- **Allergens:** Contains milk, wheat, eggs and soy. It does not contain fish, shellfish, tree nuts, peanuts, sulfites or sesame.
-- **Pricing:** $13.99 · 1,120 calories · served with classic fries.
+- **$13.99** · 1,120 calories · with Classic Fries
 
 ### Bacon Ranch Crispy Chicken
 
 ![Crispy chicken sandwich with bacon, ranch, pickles and lettuce](/apple-bees-menu/applebees-bacon-ranch-crispy-chicken-sandwich.webp)
 
-The highest-protein sandwich or burger on the entire Applebee's menu:
+A crispy hand-breaded chicken breast with Applewood-smoked bacon, ranch, dill pickles, lettuce and tomato on a brioche bun. The pickles do the real work here: bacon and ranch are both rich, and the pickles cut through both. It's the lightest sandwich in the section.
 
-Crispy hand-breaded chicken breast with Applewood-smoked bacon, creamy buttermilk ranch, dill pickles, lettuce and tomato on a toasted brioche bun.
-
-- **Protein powerhouse:** 64g of protein puts it ahead of the [Whisky Bacon Burger](/menu/handcrafted-burgers) at 63g and every other burger on the menu, at 1,050 calories  lighter than all the handcrafted burgers too.
-- **The pickle factor:** Ranch and bacon are both rich; dill pickles supply the essential acidity that cuts through the creaminess.
-- **Grilled alternative:** Ordering grilled instead of crispy is available at most locations, significantly reducing calorie count while maintaining the full 64g of protein.
-- **Pricing:** $14.49 · 1,050 calories · 64g protein · served with classic fries.
+- **$14.49** · 1,050 calories · with Classic Fries
 
 ### The Prime Rib Dipper
 
 ![Sliced prime rib on a toasted roll with melted provolone and savory au jus for dipping](/apple-bees-menu/applebees-prime-rib-dipper-sandwich.webp)
 
-The only French-dip-format item on the Applebee's menu, and one of two sandwiches Applebee's highlights by name on its official menu page:
+Sliced warm prime rib on a toasted roll with melted provolone, served with hot au jus for dipping. The au jus keeps the beef and the bread from drying out as you go, and it comes in its own cup, which makes this one of the better sandwiches to take home.
 
-Tender, thinly sliced prime rib warm on a toasted bakery roll with melted provolone cheese, served with a side of hot au jus for dipping.
+- **$15.99** · 1,100 calories · with Classic Fries and au jus
 
-- **Why it stands out:** Unlike stacked burgers and chicken sandwiches, the au jus dipping broth keeps the beef and bread moist and flavorful with every bite.
-- **Handheld steak experience:** It provides the rich flavor profile of [steaks and ribs](/menu/steaks-and-ribs) in a convenient sandwich format.
-- **Pricing:** $15.99 · ~1,100 calories · served with hot au jus and classic fries.
+## Other Sandwiches on the Menu
 
-### Chicken Fajita Rollup
+**Big Cluckin' Chicken Sandwich:** a hand-breaded chicken breast with lettuce, tomato, pickles and mayo on a brioche bun. It's only sold on the $9.99 [Really BIG Meal Deal](/menu/really-big-meal-deal).
 
-Grilled chipotle-lime chicken with sautéed fajita peppers and onions, melted cheese and Mexi-ranch in a warm flour tortilla.
+**Chicken Fajita Rollup:** chipotle-lime chicken with fajita peppers, onions, cheese and Mexi-ranch in a flour tortilla. Applebee's lists it with the [chicken entrées](/menu/chicken). $13.99 and 1,020 calories.
 
-Applebee's classifies this under chicken entrées  see full nutrition and details on the [chicken menu](/menu/chicken).
+**The burgers:** the Quesadilla Burger uses grilled tortillas instead of a bun, and the Grilled Cheese Cheeseburger comes on toasted potato bread with four slices of American cheese. Both are on the [burgers page](/menu/handcrafted-burgers).
 
----
+## Sandwiches To Go
 
-## Other Applebee's Sandwiches
-
-Worth noting, as diners searching for sandwiches will often encounter these across other sections:
-
-- **Big Cluckin' Chicken Sandwich:** A large hand-breaded chicken breast on brioche, available exclusively as part of the [$9.99 Really BIG Meal Deal](/menu/really-big-meal-deal) with endless fries and fountain drink when dining in. At $9.99, it is the lowest-priced sandwich meal on the menu.
-- **Sweet & Spicy Chicken Sandwich:** Crispy chicken with a sweet chili honey glaze and pickles, featured under [new items](/menu/new-items).
-- **Handcrafted Burgers as Sandwiches:** The [Quesadilla Burger](/menu/handcrafted-burgers) utilizes grilled quesadilla tortillas instead of a bun, while the Grilled Cheese Cheeseburger replaces the bun with two buttery grilled cheese sandwiches.
-
----
-
-## How to Order an Applebee's Sandwich
-
-- **The side is the biggest decision:** Sandwiches come with classic fries. Swapping fries for [steamed vegetables or mashed potatoes](/menu/sides) removes roughly 300 calories at no extra cost.
-- **Premium side upgrades:** Onion rings or a fresh side salad are available at most locations for a nominal upcharge.
-- **Grilled instead of crispy:** On chicken sandwiches, opting for grilled chicken lowers calories while preserving the full protein content.
-- **Skip the bread:** Any sandwich can be ordered without the bun or wrapped in crisp lettuce leaves to drastically cut carbohydrates.
-- **Sauce on the side:** Requesting honey BBQ or ranch on the side allows precise portion control.
-- **Lunch combinations:** Many restaurants offer lunch combinations pairing half a sandwich with soup or salad. See [specials and deals](/specials-and-deals).
-
----
-
-## Do Applebee's Sandwiches Travel Well?
-
-Sandwiches travel well within about 20 minutes before bread begins absorbing ambient moisture:
-
-- **Clubhouse Grille holds up best:** Toasted potato bread provides a sturdy moisture barrier.
-- **Crispy chicken vulnerability:** Closed steam containers soften crispy breading just like [appetizers](/menu/appetizers). Grilled chicken travels better.
-- **Prime Rib Dipper travels excellently:** Because the au jus comes in a separate sealed container, dipping at home retains the exact in-restaurant texture.
-- **Fries transit challenge:** French fries soften fastest in transit; consider swapping for mashed potatoes or broccoli on takeout orders.
-- **Reheating tip:** Separate components, lightly toast the bread, warm the meats, and reassemble.
-
-Learn more on [Carside To Go](/takeout) and [delivery](/delivery).
-
----
+The Prime Rib Dipper travels best, because the au jus rides separately and you dip at home. The Clubhouse Grille's toasted bread holds up well too. Crispy chicken is the weak one: the breading steams soft in a closed box. The fries go soft first on all of them, so swap them for mashed potatoes or steamed broccoli on a [Carside To Go](/takeout) order.
 
 ## Frequently Asked Questions
 
 ### What sandwiches does Applebee's have?
-The Clubhouse Grille, the Bacon Ranch Crispy Chicken and The Prime Rib Dipper, all served with classic fries. The Chicken Fajita Rollup sits on the chicken menu, and additional chicken sandwiches appear on the new items menu and the $9.99 Really BIG Meal Deal.
-
-### What is in the Applebee's Clubhouse Grille?
-Sliced ham and turkey with Cheddar and Swiss cheese, Applewood-smoked bacon, lettuce, tomato, mayo and honey BBQ sauce on toasted potato bread. At 1,120 calories it is the largest sandwich in the section.
-
-### What bread is the Clubhouse Grille served on?
-Toasted potato bread. It is soft but sturdy enough to hold a hot, sauced filling without soaking through.
-
-### What is The Prime Rib Dipper?
-Sliced prime rib on a roll served with jus for dipping  the only French-dip-format item on the Applebee's menu, and one of the two sandwiches Applebee's features by name on its own menu page.
-
-### Which Applebee's sandwich has the most protein?
-The Bacon Ranch Crispy Chicken at 64g  more than any burger on the menu, including the Whisky Bacon Burger at 63g, and at fewer calories than all of them.
+The Clubhouse Grille, the Bacon Ranch Crispy Chicken and The Prime Rib Dipper, all with Classic Fries. The Big Cluckin' Chicken Sandwich is on the $9.99 Really BIG Meal Deal.
 
 ### How much are Applebee's sandwiches?
-Roughly $13.99 to $14.49, served with classic fries. Prices vary by location, since Applebee's restaurants are independently franchised.
+$13.99 for the Clubhouse Grille, $14.49 for the Bacon Ranch Crispy Chicken and $15.99 for The Prime Rib Dipper.
+
+### What is in the Applebee's Clubhouse Grille?
+Warm ham and turkey, Cheddar and Swiss, bacon, lettuce, tomato, mayo and honey BBQ sauce on toasted potato bread. It's 1,120 calories with fries.
+
+### What is The Prime Rib Dipper at Applebee's?
+Sliced prime rib with melted provolone on a toasted roll, served with hot au jus for dipping. It's $15.99 and 1,100 calories with fries.
+
+### What's the cheapest sandwich at Applebee's?
+The Big Cluckin' Chicken Sandwich on the $9.99 Really BIG Meal Deal, which includes fries and a fountain drink. From the regular menu, the Clubhouse Grille at $13.99.
 
 ### Do Applebee's sandwiches come with fries?
-Yes. Applebee's states that sandwiches in this section are always served with classic fries. Swapping the fries for a vegetable side is generally free and removes around 300 calories.
+Yes, Classic Fries. Swapping them for Steamed Broccoli takes off 300 calories.
 
-### Can I get an Applebee's sandwich without the bread?
-Yes. Sandwiches can be ordered without the bun or as a lettuce wrap where the build allows. Combined with swapping the fries, that removes most of the carbohydrate from the plate.
+### How many calories are in Applebee's sandwiches?
+1,050 to 1,120 with fries, which makes every sandwich lighter than every burger on the menu.
 
-### Does the Clubhouse Grille contain nuts or shellfish?
-No. It contains milk, wheat, eggs and soy, but no fish, shellfish, tree nuts, peanuts, sulfites or sesame. Shared prep surfaces mean cross-contact is still possible.
+## Burgers, Prime Rib and Side Swaps
 
-### Is the Chicken Fajita Rollup a sandwich or a chicken dish?
-Applebee's lists it under chicken. It is a wrap format  grilled chipotle-lime chicken with fajita peppers, onions, cheese and Mexi-ranch in a flour tortilla.
-
-### What is the cheapest sandwich meal at Applebee's?
-The Big Cluckin' Chicken Sandwich on the $9.99 Really BIG Meal Deal, which includes fries and a fountain drink  both unlimited when dining in.
-
-### Can I get grilled chicken instead of crispy?
-Where a sandwich uses breaded chicken, a grilled version is generally available. It lowers the calorie figure while keeping the protein, since the breading adds calories rather than protein.
-
----
-
-## Related Menu Categories
-
-- **Chicken Entrées & Fajita Wraps:** For the Chicken Fajita Rollup and grilled chicken options, visit [chicken](/menu/chicken).
-- **Handcrafted Burgers:** For burger builds, including the tortilla-based Quesadilla Burger, explore [handcrafted burgers](/menu/handcrafted-burgers).
-- **Steak & Rib Entrées:** For the prime rib flavor profile in a full entrée, see [steaks and ribs](/menu/steaks-and-ribs).
-- **Budget Sandwich Deal:** For the lowest-priced sandwich meal on the menu, check out [the $9.99 Really BIG Meal Deal](/menu/really-big-meal-deal).
-- **Sides & Potato Swaps:** To swap fries for mashed potatoes or veggies, view [sides](/menu/sides).
-- Return to the [full menu](/menu).
+For burgers, see [handcrafted burgers](/menu/handcrafted-burgers). For the full prime rib flavor as a plate, see [steaks and ribs](/menu/steaks-and-ribs). To swap your fries, see [sides](/menu/sides).

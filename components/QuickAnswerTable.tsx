@@ -1,27 +1,40 @@
 import Link from 'next/link';
 import styles from './QuickAnswerTable.module.css';
+import { categoryStats, formatPriceRange, formatCalorieRange } from '@/data/menuStats';
+import { PRICES_LAST_VERIFIED } from '@/data/site';
 
-const summaryData = [
-  { category: "Appetizers", price: "$9.99 - $12.99", calories: "590 - 1330 Cals", link: "/menu/appetizers" },
-  { category: "Handcrafted Burgers", price: "$14.49 - $15.99", calories: "1050 - 1620 Cals", link: "/menu/handcrafted-burgers" },
-  { category: "Steaks & Ribs", price: "$18.99 - $23.99", calories: "630 - 1400 Cals", link: "/menu/steaks-and-ribs" },
-  { category: "Chicken", price: "$14.99 - $16.49", calories: "1140 - 1610 Cals", link: "/menu/chicken" },
-  { category: "Pasta", price: "$17.49", calories: "1540 Cals", link: "/menu/pasta" },
-  { category: "Seafood", price: "$15.99 - $18.99", calories: "850 - 1680 Cals", link: "/menu/seafood" },
-  { category: "Salads", price: "$14.99", calories: "1220 Cals", link: "/menu/salads" },
-  { category: "Desserts", price: "$2.49 - $9.49", calories: "330 - 990 Cals", link: "/menu/desserts" },
-  { category: "Kids Menu", price: "$6.49 - $7.49", calories: "180 - 680 Cals", link: "/menu/kids-menu" },
-  { category: "Drinks & Cocktails", price: "$1.00 - $11.99", calories: "0 - 420 Cals", link: "/menu/signature-cocktails" },
+const rows = [
+  { slug: 'appetizers', label: 'Appetizers' },
+  { slug: 'handcrafted-burgers', label: 'Handcrafted Burgers' },
+  { slug: 'steaks-and-ribs', label: 'Steaks & Ribs' },
+  { slug: 'chicken', label: 'Chicken' },
+  { slug: 'pasta', label: 'Pasta' },
+  { slug: 'seafood', label: 'Seafood' },
+  { slug: 'salads', label: 'Salads' },
+  { slug: 'desserts', label: 'Desserts' },
+  { slug: 'kids-menu', label: 'Kids Menu' },
+  { slug: 'signature-cocktails', label: 'Signature Cocktails' },
 ];
 
+const checked = new Date(PRICES_LAST_VERIFIED).toLocaleDateString('en-US', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+});
+
 export default function QuickAnswerTable() {
+  const data = rows
+    .map((row) => ({ ...row, stats: categoryStats(row.slug) }))
+    .filter((row) => row.stats !== null);
+
   return (
     <section className={styles.section} id="quick-answer-table">
       <div className={styles.container}>
         <div className={styles.headerArea}>
-          <h2>Applebee's Menu Prices at a Glance</h2>
+          <h2>Applebee&apos;s Menu Prices at a Glance</h2>
           <p className={styles.subtext}>
-            Average price ranges and calorie counts for popular Applebee's menu categories.
+            The cheapest and most expensive item in each category, with the calorie range next to
+            it. Tap a category for every item.
           </p>
         </div>
 
@@ -29,30 +42,30 @@ export default function QuickAnswerTable() {
           <div className={styles.tableResponsive}>
             <table className={styles.table}>
               <caption className={styles.srOnly}>
-                Average price ranges and calorie counts for popular Applebee's menu categories.
+                Applebee&apos;s menu price and calorie ranges by category
               </caption>
               <thead>
                 <tr>
                   <th scope="col" className={styles.colCategory}>Menu Category</th>
-                  <th scope="col" className={styles.colPrice}>Estimated Price Range</th>
-                  <th scope="col" className={styles.colCalories}>Calorie Range</th>
+                  <th scope="col" className={styles.colPrice}>Price Range</th>
+                  <th scope="col" className={styles.colCalories}>Calories</th>
                 </tr>
               </thead>
               <tbody>
-                {summaryData.map((row, index) => (
-                  <tr key={index}>
+                {data.map((row) => (
+                  <tr key={row.slug}>
                     <td className={styles.categoryCell} data-label="Category">
-                      <Link href={row.link} className={styles.categoryLink}>
-                        {row.category}
+                      <Link href={`/menu/${row.slug}`} className={styles.categoryLink}>
+                        {row.label}
                       </Link>
                     </td>
-                    <td className={styles.priceCell} data-label="Estimated Price">
-                      <span className={styles.mobileLabel}>Estimated Price:</span>
-                      <span className={styles.cellValue}>{row.price}</span>
+                    <td className={styles.priceCell} data-label="Price">
+                      <span className={styles.mobileLabel}>Price:</span>
+                      <span className={styles.cellValue}>{formatPriceRange(row.stats!.price)}</span>
                     </td>
-                    <td className={styles.calorieCell} data-label="Calorie Range">
-                      <span className={styles.mobileLabel}>Calorie Range:</span>
-                      <span className={styles.cellValue}>{row.calories}</span>
+                    <td className={styles.calorieCell} data-label="Calories">
+                      <span className={styles.mobileLabel}>Calories:</span>
+                      <span className={styles.cellValue}>{formatCalorieRange(row.stats!.calories)}</span>
                     </td>
                   </tr>
                 ))}
@@ -60,7 +73,10 @@ export default function QuickAnswerTable() {
             </table>
           </div>
           <div className={styles.cardFooter}>
-            <span>Prices verified August 2026. Data represents averages from sampled US locations.</span>
+            <span>
+              Reference prices, last checked {checked}. Franchisees set their own, so your
+              restaurant will differ.
+            </span>
           </div>
         </div>
       </div>

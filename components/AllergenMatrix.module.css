@@ -1,0 +1,189 @@
+.wrap {
+  margin: 30px 0 40px;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px 40px;
+  align-items: flex-end;
+  padding: 20px;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+}
+
+.filterGroup {
+  flex: 1 1 320px;
+  min-width: 0;
+}
+
+.filterLabel {
+  display: block;
+  font-family: var(--font-oswald), sans-serif;
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #64748b;
+  margin-bottom: 10px;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.chip {
+  font-family: var(--font-roboto), sans-serif;
+  font-size: 13px;
+  padding: 6px 13px;
+  border: 1px solid #cbd5e1;
+  background: #fff;
+  color: #334155;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background 0.12s ease, border-color 0.12s ease;
+}
+
+.chip:hover {
+  border-color: #94a3b8;
+}
+
+.chipOn {
+  background: #c53030;
+  border-color: #c53030;
+  color: #fff;
+}
+
+.search {
+  flex: 1 1 260px;
+}
+
+.search input {
+  width: 100%;
+  padding: 9px 12px;
+  font-size: 14px;
+  font-family: var(--font-roboto), sans-serif;
+  border: 1px solid #cbd5e1;
+  border-radius: 4px;
+  background: #fff;
+  color: #1a2433;
+}
+
+.count {
+  font-family: var(--font-roboto), sans-serif;
+  font-size: 14px;
+  color: #64748b;
+  margin: 16px 0 10px;
+}
+
+.tableScroll {
+  overflow-x: auto;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: var(--font-roboto), sans-serif;
+  font-size: 14px;
+  min-width: 640px;
+}
+
+.caption {
+  caption-side: top;
+  text-align: left;
+  padding: 12px 14px;
+  font-size: 13px;
+  color: #64748b;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.table th,
+.table td {
+  padding: 10px 12px;
+  border-bottom: 1px solid #eef2f6;
+  text-align: left;
+  vertical-align: top;
+}
+
+.table thead th {
+  font-family: var(--font-oswald), sans-serif;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #64748b;
+  background: #f8fafc;
+  white-space: nowrap;
+}
+
+.table tbody tr:last-child th,
+.table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.itemCol {
+  font-weight: 600;
+  color: #1a2433;
+  min-width: 210px;
+}
+
+.cat {
+  display: block;
+  font-weight: 400;
+  font-size: 12px;
+  color: #94a3b8;
+  margin-top: 2px;
+}
+
+.allergenCol {
+  text-align: center !important;
+  width: 68px;
+}
+
+.numCol {
+  text-align: right !important;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.yes {
+  color: #c53030;
+  font-size: 15px;
+}
+
+.no {
+  color: #cbd5e1;
+  font-size: 15px;
+}
+
+.srOnly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.empty {
+  font-family: var(--font-roboto), sans-serif;
+  font-size: 15px;
+  color: #475569;
+  background: #fffbeb;
+  border-left: 3px solid #d97706;
+  padding: 14px 16px;
+  margin-top: 16px;
+}
+
+@media (max-width: 768px) {
+  .controls {
+    padding: 16px;
+    gap: 18px;
+  }
+}

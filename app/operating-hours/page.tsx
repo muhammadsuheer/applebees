@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     canonical: 'https://applebees-menus.us/operating-hours',
   },
   openGraph: {
-    siteName: "Applebee's Menu Information",
+    siteName: "Menu Almanac",
     images: [
       {
         url: '/og/og-operating-hours.webp',
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
 const faqData = [
   {
     question: "What time does Applebee's open?",
-    answer: "Most standalone locations open at 11:00 AM, seven days a week. Applebee's does not serve breakfast, so there is no earlier opening. Dual-branded Applebee's and IHOP locations open earlier to serve breakfast."
+    answer: "Most standalone locations open at 11:00 AM, seven days a week. Applebee's doesn't serve breakfast, so there's no earlier opening. Dual-branded Applebee's and IHOP locations open earlier to serve breakfast."
   },
   {
     question: "What time does Applebee's close?",
@@ -40,7 +40,7 @@ const faqData = [
   },
   {
     question: "Does Applebee's serve breakfast?",
-    answer: "No. There is no breakfast menu at standalone locations, which is why they open at 11:00 AM. Dual-branded locations shared with IHOP serve breakfast from the IHOP side of the menu."
+    answer: "No. There's no breakfast menu at standalone locations, which is why they open at 11:00 AM. Dual-branded locations shared with IHOP serve breakfast from the IHOP side of the menu."
   },
   {
     question: "Is Applebee's open on Christmas Day?",
@@ -130,21 +130,21 @@ export default function OperatingHoursPage() {
       <Breadcrumb items={[{ label: 'Operating Hours', href: '/operating-hours' }]} />
 
       <main className={styles.main}>
-        {/* H1 & §1  OPENING */}
+        {/* H1 & §1 — OPENING */}
         <header className={styles.hero} role="banner" aria-label="Operating Hours Header">
           <h1>Applebee's Hours: What Time It Opens and Closes</h1>
           <p className={styles.heroLead}>
             Most Applebee's locations open at 11:00 AM and close at 11:00 PM Sunday through Thursday, and midnight on Friday and Saturday. Some run later, particularly in cities and college towns.
           </p>
           <p className={styles.heroSub}>
-            Those are the common hours, not fixed national ones. Applebee's is franchised, so each restaurant sets its own schedule based on local demand  which is why two locations an hour apart can close ninety minutes apart.
+            Those are the common hours, not fixed national ones. Applebee's is franchised, so each restaurant sets its own schedule based on local demand, which is why two locations an hour apart can close ninety minutes apart.
           </p>
           <p className={styles.heroHighlight}>
             This page covers the standard pattern, why it varies, holiday schedules, and how to check before driving over.
           </p>
         </header>
 
-        {/* §2  STANDARD HOURS */}
+        {/* §2 — STANDARD HOURS */}
         <section className={styles.clusterSection} id="standard-hours">
           <h2>Applebee's Standard Opening and Closing Times</h2>
 
@@ -179,10 +179,10 @@ export default function OperatingHoursPage() {
             Opening time is the most consistent thing about Applebee's scheduling. Almost every standalone location opens at 11:00 AM, seven days a week.
           </p>
           <p>
-            The reason is that Applebee's does not serve breakfast. There is no breakfast menu, no breakfast prep, and no reason to staff a morning shift. Opening at 11:00 lands just ahead of the lunch rush without paying for the hours before it.
+            The reason is that Applebee's doesn&apos;t serve breakfast. There&apos;s no breakfast menu, no breakfast prep, and no reason to staff a morning shift. Opening at 11:00 lands just ahead of the lunch rush without paying for the hours before it.
           </p>
           <p>
-            This is why searches for Applebee's breakfast hours come up empty  the meal does not exist on the menu. See the <Link href="/menu">full menu</Link> for what is served.
+            This is why searches for Applebee's breakfast hours come up empty. The meal doesn&apos;t exist on the menu. See the <Link href="/menu">full menu</Link> for what is served.
           </p>
 
           <h3>Closing times vary more than opening times</h3>
@@ -190,21 +190,21 @@ export default function OperatingHoursPage() {
             Closing is where franchising shows. Staying open late costs a full kitchen crew, a bartender, and the utilities to run a large building. A franchise owner in a quiet suburb where nothing else is open at 11 PM will close earlier than one across from a stadium.
           </p>
           <p>
-            Urban locations and college towns commonly run later than the baseline. Rural locations commonly run earlier. Neither is unusual, and neither is wrong  both are local decisions.
+            Urban locations and college towns commonly run later than the baseline. Rural locations commonly run earlier. Neither is unusual, and neither is wrong. Both are local decisions.
           </p>
           <p>
             Confirm your restaurant's actual hours through the <Link href="/locations">location finder</Link>.
           </p>
         </section>
 
-        {/* §3  LAST CALL AND KITCHEN CLOSE */}
+        {/* §3 — LAST CALL AND KITCHEN CLOSE */}
         <section className={styles.clusterSection} id="kitchen-close">
           <h2>The Kitchen Closes Before the Restaurant Does</h2>
           <p>
-            This is the detail that catches people out, and it is the most useful thing on this page.
+            This is the detail that catches people out, and it&apos;s the most useful thing on this page.
           </p>
           <p>
-            Posted closing time is when the doors lock, not when you can still order. Kitchens begin breaking down and cleaning equipment before close, so the last food order goes in earlier than the sign suggests  commonly around half an hour before.
+            Posted closing time is when the doors lock, not when you can still order. Kitchens begin breaking down and cleaning equipment before close, so the last food order goes in earlier than the sign suggests, commonly around half an hour before.
           </p>
           <p>
             Bar last call comes earlier too. Alcohol service stops in advance of closing so drinks can be finished before the restaurant shuts, and in many areas local law sets that boundary rather than the restaurant.
@@ -213,11 +213,11 @@ export default function OperatingHoursPage() {
             <strong>Practical rule:</strong> Arriving within thirty minutes of posted close means you may get drinks but not a full meal, or a limited menu. Arriving an hour before close is the safe margin for a normal sit-down meal.
           </p>
           <p>
-            This also affects promotions  the <Link href="/happy-hour">half price appetizer window</Link> runs until close, but the kitchen stopping early sets the real end.
+            This also affects promotions. The <Link href="/happy-hour">half price appetizer window</Link> runs until close, but the kitchen stopping early sets the real end.
           </p>
         </section>
 
-        {/* §4  HOLIDAY HOURS */}
+        {/* §4 — HOLIDAY HOURS */}
         <section className={styles.clusterSection} id="holiday-hours">
           <h2>Applebee's Holiday Hours</h2>
           <p>
@@ -269,10 +269,10 @@ export default function OperatingHoursPage() {
 
           <h3>Is Applebee's open on Thanksgiving?</h3>
           <p>
-            Many locations open on Thanksgiving, though usually on a shortened schedule  opening later in the afternoon and closing earlier than normal. Applebee's does not typically serve a traditional holiday menu; the regular menu runs.
+            Many locations open on Thanksgiving, though usually on a shortened schedule, opening later in the afternoon and closing earlier than normal. Applebee's doesn&apos;t typically serve a traditional holiday menu; the regular menu runs.
           </p>
           <p>
-            The demand is real but specific: travellers, people who are not cooking, and the evening crowd. Whether your restaurant opens is a local call, so check before assuming either way.
+            The demand is real but specific: travelers, people who aren&apos;t cooking, and the evening crowd. Whether your restaurant opens is a local call, so check before assuming either way.
           </p>
 
           <h3>Is Applebee's open on Christmas Eve?</h3>
@@ -280,7 +280,7 @@ export default function OperatingHoursPage() {
             Almost always open, and almost always closing early. December 24th is a busy trading day, but most locations shut in the evening rather than running to normal closing time so staff can get home.
           </p>
           <p>
-            If you are planning a Christmas Eve meal, plan it early and confirm the closing time first.
+            If you&apos;re planning a Christmas Eve meal, plan it early and confirm the closing time first.
           </p>
 
           <h3>Is Applebee's open on Christmas Day?</h3>
@@ -290,43 +290,43 @@ export default function OperatingHoursPage() {
 
           <h3>New Year's Eve and New Year's Day</h3>
           <p>
-            New Year's Eve commonly runs later than a normal Friday or Saturday, since it is one of the busiest bar nights of the year. New Year's Day usually returns to standard hours.
+            New Year's Eve commonly runs later than a normal Friday or Saturday, since it&apos;s one of the busiest bar nights of the year. New Year's Day usually returns to standard hours.
           </p>
 
           <h3>Summer holidays</h3>
           <p>
-            Memorial Day, Independence Day and Labor Day usually run standard hours. Lunch trade tends to be quieter and evening trade busier, but the schedule generally does not change.
+            Memorial Day, Independence Day and Labor Day usually run standard hours. Lunch trade tends to be quieter and evening trade busier, but the schedule generally doesn&apos;t change.
           </p>
         </section>
 
-        {/* §5  DUAL-BRANDED LOCATIONS OPEN EARLIER */}
+        {/* §5 — DUAL-BRANDED LOCATIONS OPEN EARLIER */}
         <section className={styles.clusterSection} id="dual-branded-hours">
           <h2>Why Some Applebee's Locations Open Before 11:00 AM</h2>
           <p>
             A small number of locations operate as combined Applebee's and IHOP restaurants sharing one kitchen and one building. Because IHOP serves breakfast, these open considerably earlier than a standalone Applebee's.
           </p>
           <p>
-            At those locations the menu is organised by daypart  breakfast items in the morning, the full Applebee's range later. Sitting down at 8:00 AM is possible; ordering a steak at 8:00 AM generally is not.
+            At those locations the menu is organized by daypart. Breakfast items in the morning, the full Applebee's range later. Sitting down at 8:00 AM is possible; ordering a steak at 8:00 AM generally is not.
           </p>
           <p>
-            <strong>Scale:</strong> The first US dual-branded restaurant opened in Seguin, Texas in February 2025, and the format reached 44 US locations by mid-2026 out of roughly 1,600 Applebee's. Dine Brands is expanding it quickly, but the chances your local restaurant is one remain low.
+            <strong>Scale:</strong> The first US dual-branded restaurant opened in Seguin, Texas in February 2025. Dine Brands had 45 open in the US at the end of June 2026 and is aiming for 80 by the end of the year. With 1,439 Applebee&apos;s in the US, the chances your local restaurant is one are still low.
           </p>
           <p>
             The <Link href="/locations">your local restaurant</Link> directory shows which format a restaurant runs.
           </p>
         </section>
 
-        {/* §6  CHECKING HOURS BEFORE YOU GO */}
+        {/* §6 — CHECKING HOURS BEFORE YOU GO */}
         <section className={styles.clusterSection} id="check-hours">
           <h2>How to Check Your Local Applebee's Hours</h2>
           <p>
-            Search engine listings are the least reliable source on holidays. Map listings pull from a mix of scraped data and user submissions. If a manager decides on the day to close early, the listing usually does not reflect it.
+            Search engine listings are the least reliable source on holidays. Map listings pull from a mix of scraped data and user submissions. If a manager decides on the day to close early, the listing usually doesn&apos;t reflect it.
           </p>
           <p>
             The restaurant's own listing is more current, because it connects to the store's system rather than a third-party index.
           </p>
           <p>
-            Calling is the only real guarantee, and it is the right move for holidays, for late-night visits, and for anything where a wasted trip matters. Direct numbers for every restaurant are in the <Link href="/locations">find your restaurant</Link> finder.
+            Calling is the only real guarantee, and it&apos;s the right move for holidays, for late-night visits, and for anything where a wasted trip matters. Direct numbers for every restaurant are in the <Link href="/locations">find your restaurant</Link> finder.
           </p>
           <p>
             <strong>Two things worth asking when you call:</strong>
@@ -342,9 +342,9 @@ export default function OperatingHoursPage() {
           </p>
         </section>
 
-        {/* §7  FAQ */}
+        {/* §7 — FAQ */}
         <section className={styles.clusterSection} id="faqs">
-          <h2>Applebee's Hours  Frequently Asked Questions</h2>
+          <h2>Applebee's Hours: Frequently Asked Questions</h2>
           <div className={styles.faqList}>
             {faqData.map((faq, index) => (
               <article key={index} className={styles.faqItem}>

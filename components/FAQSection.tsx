@@ -1,73 +1,101 @@
-import Link from 'next/link';
 import styles from './FAQSection.module.css';
 
-const faqData = [
+type Faq = { question: string; answer: string };
+
+// Homepage FAQ. Dated facts checked September 2026: O-M-Cheese-adilla Burger launch
+// (Aug 31, 2026), Spooky Sips end date (Nov 15, 2026), All You Can Eat price ($15.99,
+// summer 2026), Dine Brands Q2 2026 restaurant count. Re-check each season.
+
+const defaultFaqs: Faq[] = [
   {
-    question: "What is on the Applebee's 2 for $25 menu?",
-    answer: "The Applebee's 2 for $25 menu includes one full-size appetizer to share and two full-size entrées. Appetizer choices typically include Mozzarella Sticks, Spinach & Artichoke Dip, or Boneless Wings. Entrée options usually feature the Classic Bacon Cheeseburger, Fiesta Lime Chicken, or an 8 oz. Top Sirloin, though selections and prices vary by location."
+    question: "What's on the Applebee's 2 for $25 menu right now?",
+    answer:
+      "One appetizer and two entrées for $25. Since August 31, 2026, the new O-M-Cheese-adilla Burger is one of the entrée choices, and it's dine-in only. Other entrées on the deal include the Grilled Cheese Cheeseburger, Chicken Parmesan Fettuccine and California Grilled Chicken Salad. Each franchise picks its own line-up.",
   },
   {
-    question: "What time are Applebee's half price apps?",
-    answer: "Applebee's half price apps typically run during Late Night Happy Hour, which starts at 9:00 PM and lasts until closing time every day. Many locations also offer an afternoon Happy Hour from 3:00 PM to 6:00 PM. Contact your local restaurant to confirm their specific hours."
+    question: "What time is Applebee's happy hour?",
+    answer:
+      "3:00 to 6:00 PM, and again from 9:00 PM to close. Half price appetizers run in both windows, dine-in only. Mozzarella Sticks come to $5.00 and a Chicken Quesadilla to $6.00.",
   },
   {
-    question: "How many calories are in Applebee's Quesadilla Burger?",
-    answer: "The Applebee's Quesadilla Burger contains 1,620 calories. It is one of the more indulgent items on the handcrafted burgers menu, featuring an all-beef patty, Pepper Jack cheese, Mexi-ranch, bacon, and pico de gallo inside a quesadilla-style tortilla."
+    question: "How much is Applebee's Really BIG Meal Deal?",
+    answer:
+      "$9.99. You get one entrée, classic fries and a fountain drink. The three entrées are the Big Cluckin' Chicken Sandwich, the BIG Classic Bacon Cheeseburger and the Big Bangin' Burger.",
   },
   {
-    question: "Is Applebee's open on Christmas Day?",
-    answer: "Most Applebee's locations are closed on Christmas Day to allow staff to spend time with their families. However, they are typically open on Christmas Eve, Thanksgiving, and other major holidays with adjusted hours. Always verify holiday hours with your nearest location."
+    question: "Is Applebee's All You Can Eat back?",
+    answer:
+      "It came back for summer 2026 at $15.99: unlimited Boneless Wings, Riblets and Double Crunch Shrimp with endless fries, dine-in only. It's a limited-time deal, so call your restaurant before you go.",
   },
   {
-    question: "Does Applebee's have a senior discount?",
-    answer: "Applebee's does not have a company-wide senior discount policy. Some individual franchise locations may offer a percentage off (often 10% to 15%) to guests aged 60 or older, but you must ask your server before ordering."
+    question: 'What is the O-M-Cheese-adilla Burger?',
+    answer:
+      "It's the Quesadilla Burger, with bacon and Pepper Jack, served sizzling in a skillet of molten queso and melted Cheddar, with tortilla chips, pico and cilantro. Applebee's launched it on August 31, 2026 as part of the 2 for $25.",
   },
   {
-    question: "Can I get Applebee's delivery without third-party fees?",
-    answer: "Yes, you can order direct delivery through the official Applebee's app or website. While a delivery fee may still apply, direct ordering generally offers standard menu prices and avoids the additional service markups common on third-party delivery apps."
+    question: "What's the highest calorie item at Applebee's?",
+    answer:
+      "The Classic Combo appetizer platter, at 2,200 calories. It's heavier than any entrée. The heaviest burger is the Quesadilla Burger at 1,620.",
   },
   {
-    question: "What is the All You Can Eat special at Applebee's?",
-    answer: "The All You Can Eat special is a recurring limited-time promotion featuring unlimited refills on select items, commonly Boneless Wings, Riblets, and Shrimp, served with endless fries. The deal usually costs around $14.99, though pricing varies by market."
+    question: "Does Applebee's still have the $1 Dollarita?",
+    answer:
+      "Not right now. It ran in July 2026 and ended July 31. Through November 15, 2026, the featured cocktails are the $6 Spooky Sips, and there's a $4 Tropical Spell Mocktail.",
   },
   {
-    question: "Does Applebee's offer gluten-free menu items?",
-    answer: "Applebee's offers several items made without gluten-containing ingredients, such as certain steaks, salads, and sides. However, because kitchens prepare items in shared fryers and prep areas, cross-contamination is highly likely. It is not recommended for diners with celiac disease."
+    question: "Does Applebee's have a gluten-free menu?",
+    answer:
+      "No. There's no separate gluten-free menu and no gluten-free kitchen. Of the 30 items in our allergen table, 11 have no wheat in the standard build, but shared grills and fryers make none of them safe for celiac disease.",
   },
   {
-    question: "What time does Applebee's open and close?",
-    answer: "Most Applebee's restaurants open daily at 11:00 AM for lunch service. Standard closing times are typically 11:00 PM or midnight from Sunday through Thursday, with extended late-night hours until 1:00 AM or 2:00 AM on Fridays and Saturdays."
+    question: "Are Applebee's prices the same at every location?",
+    answer:
+      "No. Franchisees ran 1,439 of the 1,557 Applebee's restaurants at the end of June 2026, and each one sets its own prices. Treat any published price, including ours, as a benchmark.",
   },
   {
-    question: "What is the Dollarita at Applebee's?",
-    answer: "The Dollarita is a promotional $1 house margarita that Applebee's brings back for limited-time seasonal campaigns. It is not available year-round. When active, it is served in a 10 oz mug and can be ordered during regular dining or Happy Hour."
-  }
+    question: "Is Applebee's cheaper on DoorDash or the Applebee's app?",
+    answer:
+      "The Applebee's app. DoorDash and Uber Eats set their own menu prices and add fees, while Carside To Go through the app charges restaurant prices with no delivery fee.",
+  },
 ];
 
-export default function FAQSection() {
+type Props = {
+  faqs?: Faq[];
+  title?: string;
+  /** Pages that already emit FAQPage inside their own @graph pass false. */
+  emitSchema?: boolean;
+};
+
+export default function FAQSection({
+  faqs,
+  title = "Applebee's Menu FAQs",
+  emitSchema,
+}: Props = {}) {
+  const faqData = faqs ?? defaultFaqs;
+  const shouldEmitSchema = emitSchema ?? faqs === undefined;
+
   const schemaData = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": faqData.map(faq => ({
-      "@type": "Question",
-      "name": faq.question,
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": faq.answer
-      }
-    }))
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqData.map((faq) => ({
+      '@type': 'Question',
+      name: faq.question,
+      acceptedAnswer: { '@type': 'Answer', text: faq.answer },
+    })),
   };
 
   return (
     <section className={styles.section} id="faq">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-      />
-      <h2>Applebee's Menu FAQs</h2>
+      {shouldEmitSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+        />
+      )}
+      <h2>{title}</h2>
       <div className={styles.faqList}>
-        {faqData.map((faq, index) => (
-          <article key={index} className={styles.faqItem}>
+        {faqData.map((faq) => (
+          <article key={faq.question} className={styles.faqItem}>
             <h3>{faq.question}</h3>
             <p>{faq.answer}</p>
           </article>
