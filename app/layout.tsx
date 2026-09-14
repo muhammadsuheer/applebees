@@ -1,11 +1,15 @@
 import type { Metadata } from "next";
 import Script from "next/script";
-import { Oswald, Inter } from "next/font/google";
+import { Plus_Jakarta_Sans, Inter } from "next/font/google";
 import "./globals.css";
 
-const oswald = Oswald({
+// Heading typeface. The CSS modules read it as --font-oswald (the original
+// heading font's variable name), so swapping the face here restyles every heading.
+const oswald = Plus_Jakarta_Sans({
   variable: "--font-oswald",
   subsets: ["latin"],
+  weight: ["600", "700", "800"],
+  display: "swap",
 });
 
 const inter = Inter({

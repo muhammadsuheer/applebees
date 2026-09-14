@@ -42,3 +42,7 @@ next-env.d.ts
 
 .vercel
 .env*
+
+# internal research notes and local tooling (never publish)
+/research/
+/.claude/

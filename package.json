@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "push": "git add -A && git -c user.email=syskabrand2@gmail.com commit -m \"Update site\" && git push origin main"
   },
   "engines": {
     "node": ">=20.0.0"

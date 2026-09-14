@@ -14,10 +14,10 @@
 .hero h1 {
   font-family: var(--font-oswald), sans-serif;
   font-size: 40px;
-  font-weight: 700;
+  font-weight: 800;
   margin-bottom: 20px;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
+  text-transform: none;
+  letter-spacing: -0.01em;
   color: #ffffff;
 }
 
@@ -73,10 +73,10 @@
 .contentSection h2 {
   font-family: var(--font-oswald), sans-serif;
   font-size: 32px;
-  font-weight: 700;
+  font-weight: 800;
   color: #1a2433;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
+  text-transform: none;
+  letter-spacing: -0.01em;
   margin-bottom: 24px;
 }
 
@@ -306,9 +306,9 @@
 .pdfSection h2 {
   font-family: var(--font-oswald), sans-serif;
   font-size: 32px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
+  font-weight: 800;
+  text-transform: none;
+  letter-spacing: -0.01em;
   text-align: left;
   color: #ffffff;
   margin-bottom: 12px;
@@ -401,11 +401,11 @@
 .faqSection h2 {
   font-family: var(--font-oswald), sans-serif;
   font-size: 32px;
-  font-weight: 700;
+  font-weight: 800;
   color: #1a2433;
-  text-transform: uppercase;
+  text-transform: none;
   text-align: left;
-  letter-spacing: 0.5px;
+  letter-spacing: -0.01em;
   margin-bottom: 35px;
 }
 

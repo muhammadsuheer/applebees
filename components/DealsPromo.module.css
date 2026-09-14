@@ -15,12 +15,12 @@
 .container h2 {
   font-family: var(--font-oswald), sans-serif;
   font-size: 38px;
-  font-weight: 700;
+  font-weight: 800;
   text-align: center;
   color: #1a2433;
   margin-bottom: 20px;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
+  text-transform: none;
+  letter-spacing: -0.01em;
 }
 
 .sectionDescription {
@@ -102,7 +102,7 @@
   font-weight: 700;
   color: #111827;
   margin-bottom: 10px;
-  text-transform: uppercase;
+  text-transform: none;
 }
 
 .content p {

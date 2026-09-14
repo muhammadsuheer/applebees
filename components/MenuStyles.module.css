@@ -14,7 +14,7 @@
   font-weight: 700;
   color: #1a2433;
   margin-bottom: 20px;
-  text-transform: uppercase;
+  text-transform: none;
   text-align: center;
 }
 
@@ -95,7 +95,7 @@
   font-weight: 700;
   color: #1a2433;
   margin-bottom: 12px;
-  text-transform: uppercase;
+  text-transform: none;
 }
 
 .cardCalories {

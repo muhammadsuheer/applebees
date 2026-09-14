@@ -6,12 +6,12 @@
 .section h2 {
   font-family: var(--font-oswald), sans-serif;
   font-size: 32px;
-  font-weight: 700;
+  font-weight: 800;
   color: #1a2433;
   margin-bottom: 35px;
   text-align: center;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
+  text-transform: none;
+  letter-spacing: -0.01em;
 }
 
 .categoryGrid {
@@ -79,8 +79,8 @@
   font-size: 17px;
   font-weight: 700;
   color: #1e293b;
-  text-transform: uppercase;
-  letter-spacing: 0.3px;
+  text-transform: none;
+  letter-spacing: -0.01em;
   margin-bottom: 6px;
 }
 

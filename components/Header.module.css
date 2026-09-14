@@ -31,7 +31,9 @@
 }
 
 .logo strong {
-  font-family: serif;
+  font-family: var(--font-oswald), sans-serif;
+  white-space: nowrap;
+  letter-spacing: -0.02em;
   font-size: 26px;
   font-weight: bold;
 }
@@ -203,7 +205,9 @@
   }
   
   .sidebarLogo strong {
-    font-family: serif;
+    font-family: var(--font-oswald), sans-serif;
+  white-space: nowrap;
+  letter-spacing: -0.02em;
     font-size: 22px;
     font-weight: bold;
   }

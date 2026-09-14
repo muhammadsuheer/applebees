@@ -14,11 +14,11 @@
 .categoryBlock > h2 {
   font-family: var(--font-oswald), sans-serif;
   font-size: 32px;
-  font-weight: 700;
+  font-weight: 800;
   color: #1a2433;
-  text-transform: uppercase;
+  text-transform: none;
   margin-bottom: 30px;
-  letter-spacing: 0.5px;
+  letter-spacing: -0.01em;
 }
 
 .itemsGrid {
@@ -87,7 +87,7 @@
   font-weight: 700;
   color: #111827;
   margin-bottom: 8px;
-  text-transform: uppercase;
+  text-transform: none;
 }
 
 .itemContent p {

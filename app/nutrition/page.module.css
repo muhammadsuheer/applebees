@@ -16,10 +16,10 @@
 .hero h1 {
   font-family: var(--font-oswald), sans-serif;
   font-size: 2.5rem;
-  font-weight: 700;
+  font-weight: 800;
   margin-bottom: 20px;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
+  text-transform: none;
+  letter-spacing: -0.01em;
   line-height: 1.2;
 }
 
@@ -73,11 +73,11 @@
 .clusterSection h2 {
   font-family: var(--font-oswald), sans-serif;
   font-size: 2rem;
-  font-weight: 700;
+  font-weight: 800;
   color: #1a2433;
   margin-bottom: 20px;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
+  text-transform: none;
+  letter-spacing: -0.01em;
 }
 
 .clusterSection h3 {
@@ -87,7 +87,7 @@
   color: #c8102e;
   margin-top: 30px;
   margin-bottom: 12px;
-  text-transform: uppercase;
+  text-transform: none;
 }
 
 .clusterSection p {
@@ -129,10 +129,10 @@
 .sectionHeader h2 {
   font-family: var(--font-oswald), sans-serif;
   font-size: 2rem;
-  font-weight: 700;
+  font-weight: 800;
   color: #1a2433;
   margin-bottom: 15px;
-  text-transform: uppercase;
+  text-transform: none;
 }
 
 .sectionHeader p {
@@ -162,10 +162,10 @@
 .tableIntro h2 {
   font-family: var(--font-oswald), sans-serif;
   font-size: 2.2rem;
-  font-weight: 700;
+  font-weight: 800;
   color: #c8102e;
   margin-bottom: 12px;
-  text-transform: uppercase;
+  text-transform: none;
 }
 
 .tableIntro p {
@@ -186,7 +186,7 @@
   font-size: 1.7rem;
   font-weight: 700;
   color: #1a2433;
-  text-transform: uppercase;
+  text-transform: none;
   margin-bottom: 8px;
 }
 

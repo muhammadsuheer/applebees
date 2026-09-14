@@ -8,10 +8,10 @@
 .section h2 {
   font-family: var(--font-oswald), sans-serif;
   font-size: 32px;
-  font-weight: 700;
+  font-weight: 800;
   color: #1a2433; /* Deep navy */
   margin-bottom: 35px;
-  text-transform: uppercase;
+  text-transform: none;
   text-align: center;
   position: relative;
 }
@@ -93,7 +93,7 @@
   font-size: 24px;
   font-weight: 700;
   color: #1a2433;
-  text-transform: uppercase;
+  text-transform: none;
   margin-bottom: 28px;
 }
 

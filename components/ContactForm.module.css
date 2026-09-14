@@ -25,7 +25,7 @@
   font-weight: 700;
   color: #1a2433;
   margin-bottom: 8px;
-  text-transform: uppercase;
+  text-transform: none;
 }
 
 .formSubtitle {
