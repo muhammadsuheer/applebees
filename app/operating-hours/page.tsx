@@ -140,7 +140,7 @@ export default function OperatingHoursPage() {
             Those are the common hours, not fixed national ones. Applebee's is franchised, so each restaurant sets its own schedule based on local demand, which is why two locations an hour apart can close ninety minutes apart.
           </p>
           <p className={styles.heroHighlight}>
-            This page covers the standard pattern, why it varies, holiday schedules, and how to check before driving over.
+            Here&apos;s the usual pattern, why it varies, what happens on holidays, and how to check before you drive over.
           </p>
         </header>
 
@@ -309,10 +309,10 @@ export default function OperatingHoursPage() {
             At those locations the menu is organized by daypart. Breakfast items in the morning, the full Applebee's range later. Sitting down at 8:00 AM is possible; ordering a steak at 8:00 AM generally is not.
           </p>
           <p>
-            <strong>Scale:</strong> The first US dual-branded restaurant opened in Seguin, Texas in February 2025. Dine Brands had 45 open in the US at the end of June 2026 and is aiming for 80 by the end of the year. With 1,439 Applebee&apos;s in the US, the chances your local restaurant is one are still low.
+            <strong>How common are they?</strong> Still fairly rare. The combined Applebee&apos;s and IHOP format only arrived in the US in 2025, and although more are opening, most Applebee&apos;s you&apos;ll walk into are the standalone kind that opens at lunchtime.
           </p>
           <p>
-            The <Link href="/locations">your local restaurant</Link> directory shows which format a restaurant runs.
+            Not sure which kind yours is? <Link href="/locations">Call your local restaurant</Link> and ask.
           </p>
         </section>
 
@@ -326,7 +326,7 @@ export default function OperatingHoursPage() {
             The restaurant's own listing is more current, because it connects to the store's system rather than a third-party index.
           </p>
           <p>
-            Calling is the only real guarantee, and it&apos;s the right move for holidays, for late-night visits, and for anything where a wasted trip matters. Direct numbers for every restaurant are in the <Link href="/locations">find your restaurant</Link> finder.
+            Calling is the only real guarantee, and it&apos;s the right move for holidays, for late-night visits, and for anything where a wasted trip matters. You&apos;ll find phone numbers in our <Link href="/locations">restaurant finder</Link>.
           </p>
           <p>
             <strong>Two things worth asking when you call:</strong>

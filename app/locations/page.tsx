@@ -13,7 +13,7 @@ import styles from './page.module.css';
 
 export const metadata: Metadata = {
   title: "Applebee's Locations Near Me: Addresses, Phone Numbers & Hours",
-  description: "Applebee's has 1,439 US restaurants. Search 129 addresses and phone numbers in 6 states, and see what changes from one Applebee's to the next: prices, deals, happy hour and hours.",
+  description: "Find an Applebee's near you with addresses, phone numbers and directions, plus what changes from one Applebee's to the next: prices, deals, happy hour and hours.",
   alternates: {
     canonical: 'https://applebees-menus.us/locations',
   },
@@ -37,12 +37,8 @@ export const metadata: Metadata = {
 
 const faqData = [
   {
-    question: "How many Applebee's locations are there?",
-    answer: "1,557 at the end of June 2026: 1,439 in the US and 118 in other countries, according to Dine Brands' second-quarter results."
-  },
-  {
     question: "How do I find the closest Applebee's?",
-    answer: "Type your city, street or ZIP code into the search on this page. It covers the 129 restaurants we list in 6 states. Outside those states, use a map app or the official Applebee's restaurant finder."
+    answer: "Type your city, street or ZIP code into the search on this page. If your area isn't in our list yet, a map app or the official Applebee's restaurant finder will show the closest one."
   },
   {
     question: "What time does Applebee's open?",
@@ -79,7 +75,7 @@ export default function LocationsPage() {
         "@id": "https://applebees-menus.us/locations/#webpage",
         "url": "https://applebees-menus.us/locations",
         "name": "Applebee's Locations Near Me: Addresses, Phone Numbers & Hours",
-        "description": "Applebee's has 1,439 US restaurants. Search 129 addresses and phone numbers in 6 states, and see what changes from one Applebee's to the next: prices, deals, happy hour and hours.",
+        "description": "Find an Applebee's near you with addresses, phone numbers and directions, plus what changes from one Applebee's to the next: prices, deals, happy hour and hours.",
         "breadcrumb": {
           "@id": "https://applebees-menus.us/locations/#breadcrumb"
         }
@@ -131,7 +127,7 @@ export default function LocationsPage() {
         <header className={styles.hero} role="banner" aria-label="Locations Header">
           <h1>Applebee&apos;s Locations Near Me: Addresses and Phone Numbers</h1>
           <p className={styles.heroLead}>
-            Applebee&apos;s had 1,439 restaurants in the US at the end of June 2026, and 1,557 worldwide. Our directory lists {MENU_FACTS.locationsListed} of them across {MENU_FACTS.statesListed} states, each with an address, a phone number and a directions link.
+            Looking for the closest Applebee&apos;s? Search our restaurant directory by city, street or ZIP code, and you&apos;ll get the address, a phone number you can tap to call, and a link for directions.
           </p>
           <p className={styles.heroSub}>
             Finding the nearest one is the easy part. Nearly every Applebee&apos;s is run by a franchisee, and each one sets its own hours, prices and deal participation, so the restaurant across town may not match the one you know.
@@ -158,7 +154,7 @@ export default function LocationsPage() {
             <div className={styles.varianceCard}>
               <h3>Prices</h3>
               <p>
-                Franchisees price for local rent and wages. A burger can cost a few dollars more in a big city than in a small town. The prices on our <Link href="/menu">menu with prices</Link> are reference figures, so your restaurant&apos;s menu wins.
+                Franchisees price for local rent and wages. A burger can cost a few dollars more in a big city than in a small town. The prices on our <Link href="/menu">menu with prices</Link> are a close guide, so your restaurant&apos;s own menu has the final say.
               </p>
             </div>
 
@@ -186,14 +182,14 @@ export default function LocationsPage() {
             <div className={styles.varianceCard}>
               <h3>Breakfast</h3>
               <p>
-                Standalone Applebee&apos;s don&apos;t serve it. The 45 dual-branded Applebee&apos;s and IHOP restaurants in the US do, because they share a kitchen with IHOP.
+                Standalone Applebee&apos;s don&apos;t serve it. The dual-branded Applebee&apos;s and IHOP restaurants do, because they share a kitchen with IHOP.
               </p>
             </div>
 
             <div className={styles.varianceCard}>
               <h3>What Stays the Same</h3>
               <p>
-                Recipes, portions and the <Link href="/nutrition">nutrition and allergen figures</Link>. Those are set nationally.
+                Recipes, portions and the <Link href="/nutrition">nutrition and allergen information</Link>. Those are set nationally.
               </p>
             </div>
           </div>
@@ -232,7 +228,7 @@ export default function LocationsPage() {
         <section className={styles.clusterSection} id="cerca-de-mi">
           <h2>Applebee&apos;s Cerca de Mí</h2>
           <p>
-            Applebee&apos;s tenía 1,439 restaurantes en Estados Unidos a finales de junio de 2026. En esta página puedes buscar {MENU_FACTS.locationsListed} de ellos en {MENU_FACTS.statesListed} estados por ciudad, calle o código postal, con dirección y teléfono.
+            ¿Buscas el Applebee&apos;s más cercano? En esta página puedes buscar restaurantes por ciudad, calle o código postal, con dirección y teléfono.
           </p>
           <p>
             Cada restaurante es de un franquiciado que fija sus propios horarios, precios y promociones. Antes de ir, llama para confirmar el horario, sobre todo en días festivos, y pregunta si participa en ofertas como <Link href="/menu/2-for-25">2 por $25</Link> o la <Link href="/happy-hour">hora feliz</Link>.

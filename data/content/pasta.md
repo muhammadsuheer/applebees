@@ -21,7 +21,7 @@ We have no published macros for Classic Broccoli Chicken Alfredo or Chicken Parm
 <div class="tableCard">
   <div class="tableResponsive">
     <table class="customTable">
-      <caption>Applebee's pasta dishes, sorted by calories</caption>
+      <caption>Applebee's pasta dishes, lightest to heaviest</caption>
       <thead>
         <tr>
           <th scope="col">Pasta</th>
@@ -75,17 +75,19 @@ We have no published macros for Classic Broccoli Chicken Alfredo or Chicken Parm
   </div>
 </div>
 
-All four sit within 130 calories of each other, so calories won't help you choose. The macros will. Prices are reference figures, and your restaurant sets its own.
+All four sit within 130 calories of each other, so calories won't help you choose. The macros will. Your restaurant's prices may be slightly different.
 
 ## Which Applebee's Pasta to Order
 
 **For protein, the Three-Cheese Chicken Penne.** 77g is more than the Bourbon Street Steak (71g) and the 8 oz. Top Sirloin (55g). Nobody walks into Applebee's expecting the pasta to beat the steaks on protein, and it does.
 
-**Unless saturated fat matters to you.** The same penne has 40g, twice the 20g Daily Value, and 56% of its 71g of fat is saturated. If your doctor has mentioned cholesterol, order anything else on this page.
+**Unless saturated fat matters to you.** The same penne has 40g, twice the 20g Daily Value, and 56% of its 71g of fat is saturated. If your doctor has mentioned cholesterol, pick a different pasta.
 
-**For the best deal, Chicken Parmesan Fettuccine on the 2 for $25.** It's $15.99 on its own, and it's one of the entrées on the [2 for $25](/menu/2-for-25), where it comes with a second entrée and an appetizer.
+**For the best deal, and the best pasta, Chicken Parmesan Fettuccine on the 2 for $25.** It's the pasta people are happiest with: thick noodles, properly crispy chicken and a marinara that clings instead of pooling. It's $15.99 on its own, and it's one of the entrées on the [2 for $25](/menu/2-for-25), where it comes with a second entrée and an appetizer.
 
-**Watch the Four Cheese Mac if you track sugar.** 44g of sugar and 160g of carbohydrate, the most carbs of any item in our data. That's more sugar than the Brownie Bite dessert.
+**Don't be shy about sending the penne back.** It's the pasta that changes most from one visit to the next. Some nights the noodles and sauce are spot on; other nights the pasta is soft and the sauce runs thin. If yours comes out wrong, ask for a fresh plate.
+
+**Watch the Four Cheese Mac if you track sugar.** 44g of sugar and 160g of carbohydrate, more carbs than any other dish here. That's more sugar than the Brownie Bite dessert. It's also the pasta diners grumble about most, usually that the cheese sauce comes out thin and bland, so it's one to skip unless it's already your favorite.
 
 ## Every Applebee's Pasta Dish
 
@@ -101,7 +103,7 @@ Penne in a three-cheese cream sauce, topped with grilled chicken and bruschetta 
 
 ![Four-cheese penne topped with glazed chicken tenders and bacon](/apple-bees-menu/applebees-four-cheese-mac-and-cheese-with-honey-pepper-chicken.webp)
 
-Four-cheese mac and cheese topped with crispy chicken tenders in a honey pepper glaze, and bacon. Sweet glaze against a salty cheese sauce is the whole idea. It's the most expensive pasta at $17.49, and at 3,300mg it has the most sodium of the four we have figures for.
+Four-cheese mac and cheese topped with crispy chicken tenders in a honey pepper glaze, and bacon. Sweet glaze against a salty cheese sauce is the whole idea. It's the most expensive pasta at $17.49, and at 3,300mg it has the most sodium of the pastas that list it.
 
 - **$17.49** · 1,360 calories · 55g protein · 160g carbs · 44g sugar · 3,300mg sodium · contains milk, wheat and soy
 

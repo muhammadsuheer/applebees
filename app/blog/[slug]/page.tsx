@@ -8,6 +8,7 @@ import Breadcrumb from '@/components/Breadcrumb';
 import Sidebar from '@/components/Sidebar';
 import { getBlogBySlug, blogs } from '@/data/blogs';
 import { PUBLISHER_BIO, SITE_NAME, SITE_URL } from '@/data/site';
+import { labelTableCells } from '@/lib/labelTables';
 import styles from './../page.module.css';
 
 type Props = {
@@ -207,7 +208,7 @@ export default async function BlogPostPage({ params }: Props) {
                 <Image src={blog.imageUrl} alt={blog.title} priority width={1200} height={630} />
               </div>
 
-              <div dangerouslySetInnerHTML={{ __html: blog.content }} />
+              <div dangerouslySetInnerHTML={{ __html: labelTableCells(blog.content) }} />
 
               {/* Publisher box: an editorial desk, shown as the organization, never as a made-up person */}
               <div className={styles.authorBox}>
@@ -237,7 +238,7 @@ export default async function BlogPostPage({ params }: Props) {
           <div className={styles.magazineLayout} style={{ marginTop: '0', paddingTop: '0' }}>
             <div style={{ gridColumn: '1 / -1' }}>
               <section className={styles.relatedSection}>
-                <h3>Related Articles</h3>
+                <h2>More Applebee&apos;s Guides</h2>
                 <div className={styles.relatedGrid}>
                   {relatedBlogs.map((related) => (
                     <Link href={`/blog/${related.slug}`} key={related.slug} style={{ textDecoration: 'none' }}>
@@ -246,9 +247,11 @@ export default async function BlogPostPage({ params }: Props) {
                           <Image src={related.imageUrl} alt={related.title} fill sizes="(max-width: 768px) 100vw, 350px" style={{ objectFit: 'cover' }} />
                         </div>
                         <div className={styles.content}>
-                          <div className={styles.meta}>{new Date(related.date).toLocaleDateString()}</div>
-                          <h4 className={styles.title} style={{ fontSize: '18px' }}>{related.title}</h4>
-                          <span className={styles.readMore}>Read Article →</span>
+                          <div className={styles.meta}>
+                            Updated {new Date(related.modifiedDate).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+                          </div>
+                          <h3 className={styles.title} style={{ fontSize: '18px' }}>{related.title}</h3>
+                          <span className={styles.readMore}>Read the guide →</span>
                         </div>
                       </div>
                     </Link>

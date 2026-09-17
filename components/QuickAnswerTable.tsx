@@ -74,8 +74,8 @@ export default function QuickAnswerTable() {
           </div>
           <div className={styles.cardFooter}>
             <span>
-              Reference prices, last checked {checked}. Franchisees set their own, so your
-              restaurant will differ.
+              Prices last checked {checked}. Each restaurant sets its own, so yours may be
+              a little different.
             </span>
           </div>
         </div>

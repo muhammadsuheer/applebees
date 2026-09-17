@@ -11,7 +11,9 @@ export default function FullMenu() {
       {menuData.map((category) => (
         <div key={category.slug} className={styles.categoryBlock} id={category.slug}>
           <h2>
-            <Link href={`/menu/${category.slug}`}>Applebee&apos;s {category.title} Menu With Prices</Link>
+            <Link href={`/menu/${category.slug}`}>
+              Applebee&apos;s {category.title.replace(/ Menu$/, '')} Menu With Prices
+            </Link>
           </h2>
 
           <div className={styles.itemsGrid}>
@@ -43,7 +45,7 @@ export default function FullMenu() {
           <div className={styles.tableCard}>
             <div className={styles.tableBanner}>
               <span className={styles.bannerTitle}>
-                <strong>{category.title}</strong> &middot; {category.items.length} items &middot; reference prices
+                <strong>{category.title}</strong> &middot; prices vary by restaurant
               </span>
               <Link href={`/menu/${category.slug}`} className={styles.bannerLink}>
                 {category.title} guide &rarr;

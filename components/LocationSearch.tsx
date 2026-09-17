@@ -6,11 +6,17 @@ import { StateLocations } from '@/data/locations';
 
 interface LocationSearchProps {
   locationsData: StateLocations[];
+  /** Keep the document outline intact: use h2 when the widget sits directly under the page h1. */
+  headingLevel?: 'h2' | 'h3';
+  /** Show results only after a search or state pick, so guide pages don't repeat the full directory. */
+  compact?: boolean;
 }
 
-export default function LocationSearch({ locationsData }: LocationSearchProps) {
+export default function LocationSearch({ locationsData, headingLevel = 'h3', compact = false }: LocationSearchProps) {
   const [query, setQuery] = useState('');
   const [selectedState, setSelectedState] = useState<string>('ALL');
+  const Heading = headingLevel;
+  const SubHeading = headingLevel === 'h2' ? 'h3' : 'h4';
 
   // Extract all available state names
   const availableStates = useMemo(() => {
@@ -28,11 +34,11 @@ export default function LocationSearch({ locationsData }: LocationSearchProps) {
     if (!query.trim()) return result;
 
     const lowerQuery = query.toLowerCase();
-    
+
     return result
       .map(stateData => {
         const matchingLocations = stateData.locations.filter(
-          loc => 
+          loc =>
             loc.city.toLowerCase().includes(lowerQuery) ||
             loc.address.toLowerCase().includes(lowerQuery) ||
             stateData.stateName.toLowerCase().includes(lowerQuery)
@@ -42,23 +48,26 @@ export default function LocationSearch({ locationsData }: LocationSearchProps) {
       .filter(stateData => stateData.locations.length > 0);
   }, [query, selectedState, locationsData]);
 
+  const showPrompt = compact && !query.trim() && selectedState === 'ALL';
+
   return (
     <div className={styles.searchContainer} id="location-finder-widget">
       <div className={styles.searchHeader}>
-        <h3 className={styles.searchHeading}>Find a Restaurant Near You</h3>
+        <Heading className={styles.searchHeading}>Find a Restaurant Near You</Heading>
         <p className={styles.searchSub}>Search by ZIP code, city, or filter by state below.</p>
-        
+
         <div className={styles.searchInputWrapper}>
           <span className={styles.searchIcon} aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round"><circle cx="11" cy="11" r="7" /><path d="m20 20-3.5-3.5" /></svg></span>
           <input
             type="text"
             className={styles.searchInput}
             placeholder="Enter ZIP code, city, or address..."
+            aria-label="Search restaurants by ZIP code, city or address"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
           />
           {query && (
-            <button className={styles.clearSearchBtn} onClick={() => setQuery('')}>✕</button>
+            <button className={styles.clearSearchBtn} onClick={() => setQuery('')} aria-label="Clear search">✕</button>
           )}
         </div>
 
@@ -68,30 +77,33 @@ export default function LocationSearch({ locationsData }: LocationSearchProps) {
             className={`${styles.statePill} ${selectedState === 'ALL' ? styles.statePillActive : ''}`}
             onClick={() => setSelectedState('ALL')}
           >
-            All States ({locationsData.reduce((acc, s) => acc + s.locations.length, 0)})
+            All states
           </button>
-          {availableStates.map(state => {
-            const count = locationsData.find(s => s.stateName === state)?.locations.length || 0;
-            return (
-              <button
-                key={state}
-                className={`${styles.statePill} ${selectedState === state ? styles.statePillActive : ''}`}
-                onClick={() => setSelectedState(selectedState === state ? 'ALL' : state)}
-              >
-                {state} ({count})
-              </button>
-            );
-          })}
+          {availableStates.map(state => (
+            <button
+              key={state}
+              className={`${styles.statePill} ${selectedState === state ? styles.statePillActive : ''}`}
+              onClick={() => setSelectedState(selectedState === state ? 'ALL' : state)}
+            >
+              {state}
+            </button>
+          ))}
         </div>
       </div>
 
       {/* Results Display */}
-      {filteredData.length > 0 ? (
+      {showPrompt ? (
+        <div className={styles.noResults}>
+          <p>
+            Type your city or ZIP code, or tap a state, to see nearby restaurants with phone numbers and
+            directions.
+          </p>
+        </div>
+      ) : filteredData.length > 0 ? (
         filteredData.map((stateInfo) => (
           <div key={stateInfo.stateName} className={styles.stateSection} id={`state-${stateInfo.stateName.toLowerCase()}`}>
             <div className={styles.stateHeader}>
-              <h3 className={styles.stateTitle}>{stateInfo.stateName}</h3>
-              <span className={styles.stateCount}>{stateInfo.locations.length} Locations</span>
+              <SubHeading className={styles.stateTitle}>{stateInfo.stateName}</SubHeading>
             </div>
             <div className={styles.locationsGrid}>
               {stateInfo.locations.map((loc, idx) => (
@@ -100,16 +112,16 @@ export default function LocationSearch({ locationsData }: LocationSearchProps) {
                     <span className={styles.cityBadge}>{loc.city}</span>
                     <span className={styles.openBadge}>Call for today&apos;s hours</span>
                   </div>
-                  
+
                   <p className={styles.address}>{loc.address}</p>
-                  
+
                   <div className={styles.cardActions}>
                     <a href={`tel:${loc.phone.replace(/\D/g, '')}`} className={styles.phoneBtn} title="Call this location">
                       Call {loc.phone}
                     </a>
-                    <a 
-                      href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(loc.address)}`} 
-                      target="_blank" 
+                    <a
+                      href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(loc.address)}`}
+                      target="_blank"
                       rel="noreferrer"
                       className={styles.directionsBtn}
                       title="Open in Google Maps"
@@ -124,9 +136,9 @@ export default function LocationSearch({ locationsData }: LocationSearchProps) {
         ))
       ) : (
         <div className={styles.noResults}>
-          <h4>No Locations Found</h4>
+          <p className={styles.searchHeading}>No Locations Found</p>
           <p>
-            We couldn't find any Applebee's matching "{query}".
+            We couldn&apos;t find any Applebee&apos;s matching &quot;{query}&quot;. Try a nearby city or a ZIP code.
           </p>
           <button className={styles.resetBtn} onClick={() => { setQuery(''); setSelectedState('ALL'); }}>
             Reset Filters

@@ -32,7 +32,7 @@ Take the Quesadilla Burger, with its bacon and Pepper Jack, and set it in a sizz
 
 It launched August 31, 2026 as a limited-time item, and it's one of the entrées on the [2 for $25](/menu/2-for-25). It's dine-in only, which makes sense once you picture a skillet of queso in a to-go box.
 
-My take: the base Quesadilla Burger is already the heaviest burger on the menu at 1,620 calories before the queso skillet. Applebee's hasn't published calories for the skillet version, but order it to share, not as a solo lunch.
+Worth knowing before you order: the regular Quesadilla Burger is already the heaviest burger on the menu at 1,620 calories, and that's before the queso skillet. Applebee's hasn't published calories for the skillet version, so it's a better dish to share than a solo lunch.
 
 ### O-M-Cheese Chicken Nachos
 
@@ -67,7 +67,7 @@ A beef patty with four slices of American cheese and a sweet and savory jam on t
 
 ![Breaded chicken parmesan over fettuccine with marinara and mozzarella](/apple-bees-menu/applebees-chicken-parmesan-fettuccine.webp)
 
-Breaded chicken, marinara and melted mozzarella over fettuccine, with a garlic breadstick. It's the most ordinary of the 2026 additions, and I'd bet on it outlasting the rest. Every casual chain has a chicken parm for a reason. On the 2 for $25 and the [pasta menu](/menu/pasta).
+Breaded chicken, marinara and melted mozzarella over fettuccine, with a garlic breadstick. It's the most ordinary of the 2026 additions, which is exactly why it's likely to stick around. Every casual chain has a chicken parm for a reason. On the 2 for $25 and the [pasta menu](/menu/pasta).
 
 ### California Grilled Chicken Salad
 
@@ -107,7 +107,7 @@ Drinks move faster than food. There was a $1 margarita in July, premium cocktail
 
 ## Is It Available at My Applebee's?
 
-Not always. Franchisees run 1,439 of Applebee's 1,557 restaurants, and each decides whether to carry a promotion. Rollouts can also be staggered by a few weeks between markets, and a restaurant can run out before the national end date.
+Not always. Most Applebee's are run by local franchise owners, and each one decides whether to carry a promotion. Rollouts can also be staggered by a few weeks between markets, and a restaurant can run out before the national end date.
 
 The Applebee's app is the quickest check. It shows the menu your chosen restaurant is actually serving. Or call through the [location finder](/locations).
 

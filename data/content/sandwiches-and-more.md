@@ -13,7 +13,7 @@ this page states no protein or allergen figures for the sandwiches.
 
 <div class="answerBlock">
   <p>
-    Applebee's has three sandwiches, $13.99 to $15.99, each served with Classic Fries: the Clubhouse Grille, the Bacon Ranch Crispy Chicken and The Prime Rib Dipper. They run 1,050 to 1,120 calories, lighter than every burger on the menu. The cheapest sandwich meal isn't in this section, though. It's the Big Cluckin' Chicken Sandwich on the $9.99 Really BIG Meal Deal.
+    Applebee's has three sandwiches, $13.99 to $15.99, each served with Classic Fries: the Clubhouse Grille, the Bacon Ranch Crispy Chicken and The Prime Rib Dipper. They run 1,050 to 1,120 calories, lighter than every burger on the menu. The cheapest sandwich meal isn't one of these, though. It's the Big Cluckin' Chicken Sandwich on the $9.99 Really BIG Meal Deal.
   </p>
 </div>
 
@@ -22,7 +22,7 @@ this page states no protein or allergen figures for the sandwiches.
 <div class="tableCard">
   <div class="tableResponsive">
     <table class="customTable">
-      <caption>Applebee's sandwiches, sorted by calories</caption>
+      <caption>Applebee's sandwiches, lightest to heaviest</caption>
       <thead>
         <tr>
           <th scope="col">Sandwich</th>
@@ -51,13 +51,13 @@ this page states no protein or allergen figures for the sandwiches.
   </div>
 </div>
 
-Calories include Classic Fries, which are 400 of them. Prices are reference figures, and your restaurant sets its own.
+Calories include Classic Fries, which are 400 of them. Prices vary a little by restaurant.
 
 ## Which Applebee's Sandwich to Order
 
-**For the cheapest sandwich meal, go off this page.** The Big Cluckin' Chicken Sandwich on the [Really BIG Meal Deal](/menu/really-big-meal-deal) is $9.99 with fries and a fountain drink. That's $4 less than the cheapest sandwich here, and it includes a drink.
+**For the cheapest sandwich meal, look at the Really BIG Meal Deal.** The Big Cluckin' Chicken Sandwich on the [Really BIG Meal Deal](/menu/really-big-meal-deal) is $9.99 with fries and a fountain drink. That's $4 less than the cheapest sandwich here, and it includes a drink.
 
-**For the best value in this section, the Clubhouse Grille.** It's the cheapest at $13.99 and has the most in it: two meats, two cheeses and bacon.
+**For the best value of the three, the Clubhouse Grille.** It's the cheapest at $13.99 and has the most in it: two meats, two cheeses and bacon.
 
 **For something you can't get elsewhere, The Prime Rib Dipper.** It's the only French dip on the menu. It's also the most expensive sandwich at $15.99.
 
@@ -87,7 +87,7 @@ A crispy hand-breaded chicken breast with Applewood-smoked bacon, ranch, dill pi
 
 ![Sliced prime rib on a toasted roll with melted provolone and savory au jus for dipping](/apple-bees-menu/applebees-prime-rib-dipper-sandwich.webp)
 
-Sliced warm prime rib on a toasted roll with melted provolone, served with hot au jus for dipping. The au jus keeps the beef and the bread from drying out as you go, and it comes in its own cup, which makes this one of the better sandwiches to take home.
+Sliced warm prime rib on a toasted roll with melted provolone, served with hot au jus for dipping. The au jus keeps the beef and the bread from drying out as you go, and it comes in its own cup, which makes this one of the better sandwiches to take home. The beef is thinly sliced rather than a thick cut, and on an off night it can come out a little chewy, so don't be shy with the dipping. The au jus is what makes this sandwich work.
 
 - **$15.99** · 1,100 calories · with Classic Fries and au jus
 

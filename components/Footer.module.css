@@ -1,199 +1,216 @@
 .footer {
-  background-color: #1a2433; /* Deep navy */
-  color: #e5e5e5;
-  padding: 60px max(20px, calc(50% - 550px)) 30px;
-  font-family: var(--font-roboto), sans-serif;
-  border-top: 4px solid #c53030;
-  display: flex;
-  flex-direction: column;
-}
-
-.footer nav {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 40px;
-  margin-bottom: 50px;
-}
-
-.footer nav > div {
-  min-width: 150px;
-  flex: 1;
-}
-
-.footer nav h2 {
-  font-family: var(--font-oswald), sans-serif;
-  font-size: 20px;
-  font-weight: 800;
-  text-transform: none;
-  color: #ffffff;
-  margin-bottom: 25px;
-  letter-spacing: -0.01em;
-  position: relative;
-}
-
-.footer nav h2::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -8px;
-  width: 30px;
-  height: 2px;
-  background-color: #c53030;
-}
-
-.footer nav ul,
-.bottomRow ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.footer nav li {
-  margin-bottom: 14px;
-}
-
-.footer nav a {
+  background-color: #16202e;
   color: #cbd5e1;
-  text-decoration: none;
-  font-size: 15px;
-  transition: color 0.2s, transform 0.2s;
-  display: inline-block;
+  border-top: 4px solid #c8102e;
+  font-family: var(--font-roboto), sans-serif;
+  padding: 64px max(20px, calc(50% - 580px)) 28px;
 }
 
-.footer nav a:hover {
-  color: #ffffff;
-  transform: translateX(4px);
+.footer a:focus-visible {
+  outline: 2px solid #fbbf24;
+  outline-offset: 3px;
+  border-radius: 3px;
 }
 
-.logoColumn {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  flex: 1.5 !important;
+/* Brand + link columns */
+.top {
+  display: grid;
+  grid-template-columns: minmax(240px, 1.15fr) 2.4fr;
+  gap: 56px;
+  padding-bottom: 44px;
+  border-bottom: 1px solid rgba(148, 163, 184, 0.18);
 }
 
-.logoColumn > a {
-  display: flex;
+.logo {
+  display: inline-flex;
   align-items: center;
-  text-decoration: none;
+  gap: 10px;
   color: #ffffff;
-  margin-bottom: 15px;
+  text-decoration: none;
 }
 
-.logoColumn > a > span {
-  font-size: 38px;
-  margin-right: 10px;
-  color: #c53030; 
-}
-
-.logoColumn > a > div {
-  display: flex;
-  flex-direction: column;
+.mark {
+  color: #ef4444;
+  font-size: 30px;
   line-height: 1;
 }
 
-.logoColumn strong {
-  font-family: serif;
-  font-size: 32px;
-  font-weight: bold;
+.name {
+  font-family: var(--font-oswald), sans-serif;
+  font-size: 26px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
 }
 
-.logoColumn em {
-  font-size: 14px;
-  font-weight: bold;
-  letter-spacing: 2px;
-  color: #e5e5e5;
-  align-self: flex-end;
-  font-style: normal;
-}
-
-
-.disclaimer {
-  margin: 34px 0 22px;
-  padding: 14px 16px;
-  border-left: 3px solid #64748b;
-  background: rgba(148, 163, 184, 0.08);
-  font-size: 13px;
-  line-height: 1.65;
+.about {
+  margin: 16px 0 0;
+  max-width: 40ch;
+  font-size: 15px;
+  line-height: 1.7;
   color: #cbd5e1;
-  max-width: 78ch;
 }
 
-.bottomRow ul a {
+.contact {
+  margin: 18px 0 0;
   font-size: 14px;
+  line-height: 1.6;
   color: #94a3b8;
-  text-decoration: none;
 }
 
-.bottomRow ul a:hover {
+.contact a {
+  color: #ffffff;
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-color: rgba(255, 255, 255, 0.35);
+  text-underline-offset: 3px;
+  overflow-wrap: anywhere;
+}
+
+.contact a:hover {
+  text-decoration-color: #ffffff;
+}
+
+.nav {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 32px;
+}
+
+.colTitle {
+  margin: 0 0 16px;
+  font-family: var(--font-oswald), sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: 0;
+}
+
+.nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 8px;
+}
+
+.nav a {
+  display: inline-block;
+  padding: 3px 0;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #cbd5e1;
+  text-decoration: none;
+  transition: color 0.15s;
+}
+
+.nav a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+/* Independence, pricing and advertising notes */
+.notice {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 28px;
+  padding: 32px 0;
+  border-bottom: 1px solid rgba(148, 163, 184, 0.18);
+}
+
+.notice p {
+  margin: 0;
+  font-size: 13.5px;
+  line-height: 1.7;
+  color: #aab6c6;
+}
+
+.notice strong {
+  display: block;
+  margin-bottom: 6px;
+  font-family: var(--font-oswald), sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.notice a {
   color: #e2e8f0;
   text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
-.bottomRow {
+.notice a:hover {
+  color: #ffffff;
+}
+
+/* Copyright + legal links */
+.bottom {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  border-top: 1px solid #334155;
-  padding-top: 25px;
-  flex-wrap: wrap;
-  gap: 20px;
+  gap: 12px 24px;
+  padding-top: 24px;
 }
 
-.bottomRow p {
+.bottom p {
+  margin: 0;
   font-size: 14px;
   color: #94a3b8;
 }
 
-.bottomRow ul {
+.legal {
+  list-style: none;
   display: flex;
-  gap: 12px;
+  flex-wrap: wrap;
+  gap: 8px 22px;
+  margin: 0;
+  padding: 0;
 }
 
-.bottomRow a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 36px;
-  height: 36px;
-  background-color: #2c3e50;
-  color: #ffffff;
+.legal a {
+  display: inline-block;
+  padding: 3px 0;
+  font-size: 14px;
+  color: #cbd5e1;
   text-decoration: none;
-  font-size: 16px;
-  font-weight: bold;
-  border-radius: 50%;
-  transition: background-color 0.2s, transform 0.2s;
 }
 
-.bottomRow a:hover {
-  background-color: #c53030;
-  transform: translateY(-2px);
+.legal a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 960px) {
+  .top {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .notice {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+}
+
+@media (max-width: 600px) {
   .footer {
-    padding: 40px 20px 25px;
+    padding: 44px 20px 24px;
   }
-  .footer nav {
+
+  .nav {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 30px 20px;
+  }
+
+  .nav a {
+    padding: 5px 0;
+  }
+
+  .bottom {
     flex-direction: column;
-    gap: 30px;
-  }
-  .footer nav > div {
-    min-width: 0;
-  }
-  .bottomRow {
-    flex-direction: column;
-    text-align: center;
-  }
-  .footer nav h2::after {
-    left: 50%;
-    transform: translateX(-50%);
-  }
-  .footer nav > div {
-    text-align: center;
-  }
-  .logoColumn {
-    align-items: center;
+    align-items: flex-start;
   }
 }

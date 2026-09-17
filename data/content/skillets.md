@@ -24,8 +24,8 @@ O-M-Cheese-adilla Burger skillet: launched Aug 31, 2026, dine-in only (Business 
       <caption>Bourbon Street Chicken &amp; Shrimp nutrition</caption>
       <thead>
         <tr>
-          <th scope="col">Measure</th>
-          <th scope="col" style="text-align: right;">Figure</th>
+          <th scope="col">Nutrition</th>
+          <th scope="col" style="text-align: right;">Amount</th>
         </tr>
       </thead>
       <tbody>
@@ -43,7 +43,7 @@ O-M-Cheese-adilla Burger skillet: launched Aug 31, 2026, dine-in only (Business 
   </div>
 </div>
 
-The price is a reference figure, and your restaurant sets its own.
+Your restaurant may charge a little more or less.
 
 ![Cajun chicken and blackened shrimp sizzling on a cast-iron skillet with mushrooms and onions](/apple-bees-menu/applebees-bourbon-street-chicken-and-shrimp-skillet.webp)
 

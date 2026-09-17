@@ -12,7 +12,7 @@ Kids Applesauce (10mg sodium) is the only item in our data with less sodium than
 
 <div class="answerBlock">
   <p>
-    Applebee's has three desserts. The Brownie Bite is $2.49 and 330 calories. The Triple Chocolate Meltdown, Applebee's lava cake, is $8.99 and 910 calories with 87g of sugar, the most sugar of any item we track. The Sizzling Caramel Apple Blondie is $9.49 and 990 calories. If you're already full, the Brownie Bite gets you dessert for a third of the sugar.
+    Applebee's has three desserts. The Brownie Bite is $2.49 and 330 calories. The Triple Chocolate Meltdown, Applebee's lava cake, is $8.99 and 910 calories with 87g of sugar, which is a lot even for dessert. The Sizzling Caramel Apple Blondie is $9.49 and 990 calories. If you're already full, the Brownie Bite gets you dessert for a third of the sugar.
   </p>
 </div>
 
@@ -21,7 +21,7 @@ Kids Applesauce (10mg sodium) is the only item in our data with less sodium than
 <div class="tableCard">
   <div class="tableResponsive">
     <table class="customTable">
-      <caption>Applebee's desserts, sorted by calories</caption>
+      <caption>Applebee's desserts, lightest to heaviest</caption>
       <thead>
         <tr>
           <th scope="col">Dessert</th>
@@ -58,15 +58,15 @@ Kids Applesauce (10mg sodium) is the only item in our data with less sodium than
   </div>
 </div>
 
-Prices are reference figures, and your restaurant sets its own.
+Expect your restaurant's prices to be close to these, not identical.
 
 ## Which Applebee's Dessert to Order
 
 **Already full? The Brownie Bite.** It's $2.49, 330 calories and 34g of sugar. Most people ordering dessert here have just eaten a 1,000-calorie entrée, and a 910-calorie cake on top of that is a second dinner. The Brownie Bite is dessert, not another meal.
 
-**Want the famous one? The Triple Chocolate Meltdown, split.** It's the dessert Applebee's is known for, and it's big enough for two. Halved, it's 455 calories and about 44g of sugar each, which is closer to a normal dessert.
+**Want the famous one? The Triple Chocolate Meltdown, split.** It's the dessert Applebee's is known for, and it's big enough for two. Halved, it's 455 calories and about 44g of sugar each, which is closer to a normal dessert. Dig in as soon as it lands, too. The ice cream starts melting into the warm cake within minutes, and a puddle on the plate is the most common letdown with this one.
 
-**Celebrating? The Sizzling Caramel Apple Blondie.** It arrives hot on a skillet and makes noise. For a birthday, that's the point.
+**Celebrating? The Sizzling Caramel Apple Blondie.** It arrives hot on a skillet and makes noise. For a birthday, that's the point. It's also the dessert fans of the menu tend to rave about most, thanks to the warm cinnamon apples and the caramel poured over at the table.
 
 ![Warm desserts served with vanilla ice cream](/apple-bees-menu/applebees-desserts-sweet-treats-menu-category.webp)
 
@@ -78,7 +78,7 @@ Prices are reference figures, and your restaurant sets its own.
 
 A warm chocolate cake with a molten fudge center and vanilla ice cream, and what most people mean when they say Applebee's lava cake. Crack the side with a spoon and the fudge runs out. The ice cream isn't decoration: cold vanilla against hot fudge is what stops it being one long note of sweet.
 
-The numbers are big. 910 calories, 87g of sugar, 116g of carbohydrate and 25g of saturated fat. It has more sugar than anything else in our data, more than a frozen Mucho Margarita (75g). It's heavier than a 6 oz. Top Sirloin. Sodium, though, is only 640mg, low for this menu.
+The numbers are big. 910 calories, 87g of sugar, 116g of carbohydrate and 25g of saturated fat. That's more sugar than a frozen Mucho Margarita (75g). It's heavier than a 6 oz. Top Sirloin. Sodium, though, is only 640mg, low for this menu.
 
 - **$8.99** · 910 calories · 87g sugar · contains milk, eggs, wheat and soy
 
@@ -123,11 +123,11 @@ Dessert isn't the only place the sugar is. Two savory dishes beat the Brownie Bi
   </div>
 </div>
 
-So if you're counting sugar across a whole meal, the salad or the drink can matter more than dessert. Pair the Meltdown with black coffee or unsweetened iced tea, not a frozen cocktail, which would add most of another dessert's worth of sugar. Every figure is in the [nutrition guide](/nutrition).
+So if you're counting sugar across a whole meal, the salad or the drink can matter more than dessert. Pair the Meltdown with black coffee or unsweetened iced tea, not a frozen cocktail, which would add most of another dessert's worth of sugar. The full breakdown is in the [nutrition guide](/nutrition).
 
 ## Allergens
 
-Both desserts with allergen data, the Meltdown and the Brownie Bite, contain milk, eggs, wheat and soy. We don't have data for the Blondie. There's no dairy-free, gluten-free or vegan dessert that we know of. The [allergen menu](/allergen-menu) has everything we track.
+Both desserts with allergen data, the Meltdown and the Brownie Bite, contain milk, eggs, wheat and soy. Allergens for the Blondie aren't listed here, so ask your server. There's no dairy-free, gluten-free or vegan dessert that we know of. Check the [allergen menu](/allergen-menu) before you order.
 
 ## Desserts To Go
 

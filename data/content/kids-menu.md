@@ -13,7 +13,7 @@ We have no verified list of other kids entrées, so only the four with data are 
 
 <div class="answerBlock">
   <p>
-    Applebee's kids meals cost $6.49 to $7.49. The four entrées we have figures for run from Kids Grilled Chicken at 180 calories to the Kids Classic Cheeseburger at 680. Order the grilled chicken: it has 32g of protein, more than the tenders, for less than half the calories. Kids Eat Free isn't a national Applebee's deal. Franchisees run it: Flynn Group offered it at its restaurants in 24 states on July 4, 2026, and some others run their own weekly nights.
+    Applebee's kids meals cost $6.49 to $7.49. The kids entrées listed here run from Kids Grilled Chicken at 180 calories to the Kids Classic Cheeseburger at 680. Order the grilled chicken: it has 32g of protein, more than the tenders, for less than half the calories. Kids Eat Free isn't a national Applebee's deal. Franchisees run it: Flynn Group offered it at its restaurants in 24 states on July 4, 2026, and some others run their own weekly nights.
   </p>
 </div>
 
@@ -22,7 +22,7 @@ We have no verified list of other kids entrées, so only the four with data are 
 <div class="tableCard">
   <div class="tableResponsive">
     <table class="customTable">
-      <caption>Applebee's kids entrées, sorted by calories</caption>
+      <caption>Applebee's kids entrées, lightest to heaviest</caption>
       <thead>
         <tr>
           <th scope="col">Kids entrée</th>
@@ -66,7 +66,7 @@ We have no verified list of other kids entrées, so only the four with data are 
   </div>
 </div>
 
-Prices are reference figures, and your restaurant sets its own. Kids menus also vary by franchise, so yours may carry items that aren't listed here. The lightest side we have data for is applesauce, at 90 calories and 10mg of sodium.
+Prices and the kids lineup both vary by restaurant, so yours may carry items that aren't listed here. The lightest side listed is applesauce, at 90 calories and 10mg of sodium.
 
 ![Children's meals with entrée, side and drink](/apple-bees-menu/applebees-kids-menu-meals-category.webp)
 
@@ -132,11 +132,11 @@ For a cheaper adult option, two [$9.99 Really BIG Meal Deals](/menu/really-big-m
 
 ## Sides and Drinks
 
-The drink changes a kids meal more than the entrée does. A fountain soda adds sugar that milk or water doesn't, and no entrée swap removes as much. Applesauce is the lightest side we have figures for at 90 calories. Ask which other sides your restaurant offers.
+The drink changes a kids meal more than the entrée does. A fountain soda adds sugar that milk or water doesn't, and no entrée swap removes as much. Applesauce is the lightest listed side, at 90 calories. Ask which other sides your restaurant offers.
 
 ## Allergies
 
-Applebee's kitchens share grills and fryers. The grilled chicken is the simplest kids item, with no breading. Tenders contain wheat, and the mac and cheese and cheeseburger contain dairy. For a serious allergy, ask for the manager and say it's an allergy, not a preference. The [allergen menu](/allergen-menu) covers the adult items we track.
+Applebee's kitchens share grills and fryers. The grilled chicken is the simplest kids item, with no breading. Tenders contain wheat, and the mac and cheese and cheeseburger contain dairy. For a serious allergy, ask for the manager and say it's an allergy, not a preference. The [allergen menu](/allergen-menu) covers the main adult dishes.
 
 ## Frequently Asked Questions
 

@@ -22,7 +22,7 @@ dine-in or To Go via applebees.com / app (RestaurantNews.com, Sept 10, 2026).
 <div class="tableCard">
   <div class="tableResponsive">
     <table class="customTable">
-      <caption>Applebee's burgers, sorted by calories</caption>
+      <caption>Applebee's burgers, lightest to heaviest</caption>
       <thead>
         <tr>
           <th scope="col">Burger</th>
@@ -80,17 +80,17 @@ dine-in or To Go via applebees.com / app (RestaurantNews.com, Sept 10, 2026).
   </div>
 </div>
 
-Every burger clears 1,000 calories, fries included. The spread from lightest to heaviest is 530 calories. Prices are reference figures, and franchisees set their own.
+Every burger clears 1,000 calories, fries included. The spread from lightest to heaviest is 530 calories. Each restaurant sets its own burger prices, so yours may differ a little.
 
 ## Which Applebee's Burger to Order
 
 **The best value isn't on this table.** It's the BIG Classic Bacon Cheeseburger on the [Really BIG Meal Deal](/menu/really-big-meal-deal): a larger build than the $14.49 Classic Bacon Cheeseburger, with fries and a fountain drink, for $9.99. If a bacon cheeseburger is what you want, order it that way.
 
-**Off the regular menu, the Classic Bacon Cheeseburger wins.** It's the cheapest burger at $14.49, has 50g of protein and the least sodium of the burgers with published figures, at 2,640mg.
+**Off the regular menu, the Classic Bacon Cheeseburger wins.** It's the cheapest burger at $14.49, has 50g of protein and the least sodium of the burgers that list it, at 2,640mg.
 
 **For the most protein, the Whisky Bacon Burger.** 63g. It also has 97g of fat and 32g of saturated fat, the most of any burger.
 
-**Don't pick the Impossible for sodium.** It's the lightest burger and has 12g of fiber, the most of anything in our data, and just 35mg of cholesterol against the beef Classic's 120mg. But its 2,910mg of sodium is higher than the beef burger's.
+**Don't pick the Impossible for sodium.** It's the lightest burger and has 12g of fiber, more than any other dish here, and just 35mg of cholesterol against the beef Classic's 120mg. But its 2,910mg of sodium is higher than the beef burger's.
 
 ## National Cheeseburger Day 2026: $8.99 on September 18
 
@@ -158,7 +158,7 @@ A beef patty with Pepper Jack, crispy fried onions, Applewood-smoked bacon and a
 
 ## Making an Applebee's Burger Lighter
 
-The side moves the number more than the burger does. Classic Fries are 400 calories. Swap them for Steamed Broccoli (100) and you've cut 300 calories from any burger on this page. Ask for Mexi-ranch or the whisky glaze on the side and you control the rest. Skipping the bun takes out most of the carbohydrate, if your restaurant will do it. See [sides](/menu/sides) for every swap.
+The side moves the number more than the burger does. Classic Fries are 400 calories. Swap them for Steamed Broccoli (100) and you've cut 300 calories from any burger. Ask for Mexi-ranch or the whisky glaze on the side and you control the rest. Skipping the bun takes out most of the carbohydrate, if your restaurant will do it. See [sides](/menu/sides) for every swap.
 
 ## Do Applebee's Burgers Travel Well?
 

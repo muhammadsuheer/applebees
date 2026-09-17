@@ -23,7 +23,7 @@ export default function Sidebar({ currentSlug, pageType = 'menu' }: SidebarProps
       
       {/* Recent Blogs Widget (Shown primarily on blogs, or as a cross-link) */}
       <div className={styles.widget}>
-        <h3 className={styles.widgetTitle}>RECENT BLOGS</h3>
+        <h3 className={styles.widgetTitle}>Latest guides</h3>
         <ul className={styles.widgetList}>
           {recentBlogs.map(blog => (
             <li key={`blog-${blog.slug}`}>
@@ -37,7 +37,7 @@ export default function Sidebar({ currentSlug, pageType = 'menu' }: SidebarProps
 
       {/* Recommended Menu Guides */}
       <div className={styles.widget}>
-        <h3 className={styles.widgetTitle}>TOP MENU GUIDES</h3>
+        <h3 className={styles.widgetTitle}>Menu by category</h3>
         <ul className={styles.widgetList}>
           {recommendedCategories.map(category => (
             <li key={`rec-${category.slug}`}>
@@ -51,7 +51,7 @@ export default function Sidebar({ currentSlug, pageType = 'menu' }: SidebarProps
 
       {/* Categories Widget */}
       <div className={styles.widget}>
-        <h3 className={styles.widgetTitle}>EXPLORE MORE</h3>
+        <h3 className={styles.widgetTitle}>More to explore</h3>
         <ul className={styles.widgetList}>
           {moreCategories.map(category => (
             <li key={`cat-${category.slug}`}>
@@ -67,7 +67,7 @@ export default function Sidebar({ currentSlug, pageType = 'menu' }: SidebarProps
 
       {/* Pages Widget */}
       <div className={styles.widget}>
-        <h3 className={styles.widgetTitle}>PAGES</h3>
+        <h3 className={styles.widgetTitle}>About this site</h3>
         <ul className={styles.widgetList}>
           <li><Link href="/about-us">About Us</Link></li>
           <li><Link href="/contact-us">Contact Us</Link></li>

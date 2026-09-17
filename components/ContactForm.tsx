@@ -116,7 +116,7 @@ export default function ContactForm() {
                 >
                   <option value="General Inquiry">General Inquiry / Feedback</option>
                   <option value="Menu Price / Calorie Correction">Menu Price or Calorie Correction</option>
-                  <option value="Business enquiry">Business enquiry</option>
+                  <option value="Business inquiry">Business inquiry</option>
                   <option value="DMCA & Copyright Takedown">DMCA & Copyright Takedown Request</option>
                   <option value="CCPA / GDPR Data Request">CCPA / GDPR Data Request</option>
                 </select>
@@ -157,7 +157,7 @@ export default function ContactForm() {
           <div className={styles.infoCard}>
             <h3>Response times</h3>
             <ul>
-              <li><strong>Price corrections:</strong> checked against our next sampling round</li>
+              <li><strong>Price corrections:</strong> we look into them and update the page</li>
               <li><strong>General questions:</strong> a few working days</li>
               <li><strong>DMCA and legal notices:</strong> handled first</li>
             </ul>
@@ -166,7 +166,7 @@ export default function ContactForm() {
           <div className={styles.infoCard}>
             <h3>Disclaimer</h3>
             <p style={{ fontSize: '13.5px', color: '#64748b' }}>
-              {SITE_NAME} is an independent research site. It isn&apos;t affiliated with, endorsed by, or operated by Applebee&apos;s Neighborhood Grill + Bar or Dine Brands Global, Inc.
+              {SITE_NAME} is an independent menu guide. It isn&apos;t affiliated with, endorsed by, or operated by Applebee&apos;s Neighborhood Grill + Bar or Dine Brands Global, Inc.
             </p>
           </div>
         </div>

@@ -21,7 +21,7 @@ so this page doesn't state them. Add them only from Applebee's nutrition informa
 <div class="tableCard">
   <div class="tableResponsive">
     <table class="customTable">
-      <caption>Applebee's chicken entrées, sorted by calories</caption>
+      <caption>Applebee's chicken entrées, lightest to heaviest</caption>
       <thead>
         <tr>
           <th scope="col">Chicken entrée</th>
@@ -66,13 +66,13 @@ so this page doesn't state them. Add them only from Applebee's nutrition informa
   </div>
 </div>
 
-The pattern is simple: every grilled dish sits below every breaded one. The gap from the Grilled Chicken Breast to the Honey Pepper Tenders is 850 calories, bigger than any other entrée category on the menu. Prices are reference figures, and your restaurant sets its own.
+The pattern is simple: every grilled dish sits below every breaded one. The gap from the Grilled Chicken Breast to the Honey Pepper Tenders is 850 calories, bigger than any other entrée category on the menu. Prices shift a little from one restaurant to the next.
 
 ## Which Applebee's Chicken Dish to Order
 
 **For the lightest plate, the Grilled Chicken Breast.** 760 calories, and nothing in the category comes close. Put a side of [Steamed Broccoli](/menu/sides) next to it instead of a starch.
 
-**For flavor, Fiesta Lime Chicken, with the Mexi-ranch on the side.** It's the most interesting chicken on the menu and has 61g of protein. It also has 3,630mg of sodium, the second-highest figure in our nutrition data after Classic Hot Buffalo wings. Getting the sauce on the side is the one change you control.
+**For flavor, Fiesta Lime Chicken, with the Mexi-ranch on the side.** It's the most interesting chicken on the menu and has 61g of protein. It also has 3,630mg of sodium, which puts it among the saltiest plates you can order. Getting the sauce on the side is the one change you control. And if the Spanish rice shows up dry, which happens more often than it should, ask to swap it for another side.
 
 **For the cheapest plate, the Chicken Fajita Rollup.** $13.99, and 170 calories lighter than Fiesta Lime Chicken.
 
@@ -92,7 +92,7 @@ The numbers are the reason to think before ordering: 1,190 calories, 61g of prot
 
 ### Grilled Chicken Breast
 
-The lightest chicken entrée and the easiest base for a light meal. A seasoned grilled breast at 760 calories. Pair it with Steamed Broccoli (100 calories) or Garlicky Green Beans (150) and you're still well under 1,000.
+The lightest chicken entrée and the easiest base for a light meal. A seasoned grilled breast at 760 calories. Pair it with Steamed Broccoli (100 calories) or Garlicky Green Beans (150) and you're still well under 1,000. It's also the plate that depends most on the grill: straight off the heat it's juicy, but it dries out if it sits waiting for the rest of the table's food. If yours arrives tough, sending it back is a perfectly normal request.
 
 - **$15.49** · 760 calories
 
@@ -100,7 +100,7 @@ The lightest chicken entrée and the easiest base for a light meal. A seasoned g
 
 ![Breaded chicken tenders served with fries, coleslaw and dipping sauce](/apple-bees-menu/applebees-crispy-chicken-tenders-platter.webp)
 
-Breaded chicken tenders with Classic Fries, coleslaw and a dipping sauce. At 1,450 calories with fries it's a full meal, and the fries are 400 of those calories. Swap them for a vegetable side and it drops to about 1,150.
+Breaded chicken tenders with Classic Fries, coleslaw and a dipping sauce. At 1,450 calories with fries it's a full meal, and the fries are 400 of those calories. Swap them for a vegetable side and it drops to about 1,150. Tenders are also where regulars most often feel the portion has gotten smaller over the years, so if you're really hungry, plan on a starter or an extra side.
 
 For a smaller portion, the [kids menu](/menu/kids-menu) tenders are 420 calories with 24g of protein.
 
@@ -122,7 +122,7 @@ Chipotle-lime grilled chicken rolled in a flour tortilla with fajita peppers, on
 
 ## More Places to Find Chicken
 
-Chicken does a lot of work outside this section. The Chicken Quesadilla appetizer has 49g of protein and costs $6.00 at [happy hour](/happy-hour). The Grilled Chicken Caesar Salad has 57g of protein at 950 calories on the [salads menu](/menu/salads). The Three-Cheese Chicken Penne has 77g, the most protein on the whole menu, on the [pasta menu](/menu/pasta). And the Southwest Chicken Bowl is 820 calories on the [bowls page](/menu/irresist-a-bowls).
+Some of the best chicken orders aren't on the chicken menu at all. The Chicken Quesadilla appetizer has 49g of protein and costs $6.00 at [happy hour](/happy-hour). The Grilled Chicken Caesar Salad has 57g of protein at 950 calories on the [salads menu](/menu/salads). The Three-Cheese Chicken Penne has 77g, the most protein on the whole menu, on the [pasta menu](/menu/pasta). And the Southwest Chicken Bowl is 820 calories on the [bowls page](/menu/irresist-a-bowls).
 
 ## Allergens
 

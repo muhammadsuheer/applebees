@@ -21,7 +21,7 @@ Tropical Spell Mocktail $4 through 11/15/26: Spooky Sips 2026. Starry replaced S
 <div class="tableCard">
   <div class="tableResponsive">
     <table class="customTable">
-      <caption>Applebee's non-alcoholic drinks, sorted by price</caption>
+      <caption>Applebee's non-alcoholic drinks, cheapest first</caption>
       <thead>
         <tr>
           <th scope="col">Drink</th>
@@ -75,7 +75,7 @@ Tropical Spell Mocktail $4 through 11/15/26: Spooky Sips 2026. Starry replaced S
   </div>
 </div>
 
-Coffee and unsweetened tea are 0 before you add anything. Prices are reference figures, and your restaurant sets its own.
+Coffee and unsweetened tea are 0 before you add anything. Drink prices vary a little by restaurant.
 
 ## What to Order
 

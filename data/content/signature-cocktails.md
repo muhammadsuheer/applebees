@@ -22,7 +22,7 @@ Happy hour drink bans: see /happy-hour sources.
 <div class="tableCard">
   <div class="tableResponsive">
     <table class="customTable">
-      <caption>Applebee's cocktails and beer, sorted by calories</caption>
+      <caption>Applebee's cocktails and beer, lightest to heaviest</caption>
       <thead>
         <tr>
           <th scope="col">Drink</th>
@@ -86,7 +86,7 @@ Happy hour drink bans: see /happy-hour sources.
   </div>
 </div>
 
-Prices are reference figures. Drink prices vary more by restaurant than food prices do, and state law sets some of the rules.
+Drink prices vary more by restaurant than food prices do, and state law sets some of the rules.
 
 ## $6 Spooky Sips: Applebee's Halloween Drinks
 
@@ -110,6 +110,8 @@ No. The $1 Dollarita, a house margarita, came back for July 2026 and ended July 
 ## Which Applebee's Drink to Order
 
 **On a budget:** a $6 Spooky Sip until November 15.
+
+**Want a stronger drink?** Promo-priced drinks are built around the price, and they tend to taste sweeter and lighter than the regular cocktails. If strength matters, a cocktail made with a named spirit, like the $10 Don Julio Mucho Margarita, is the safer bet.
 
 **Watching calories:** a Miller Lite draft at 130, or a margarita on the rocks at 310.
 

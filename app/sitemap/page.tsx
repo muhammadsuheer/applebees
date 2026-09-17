@@ -55,7 +55,7 @@ export default function HTMLSitemapPage() {
       
       <section className={styles.hero}>
         <h1>HTML Sitemap</h1>
-        <p>A complete index of all pages to help you navigate our site.</p>
+        <p>Every page on the site in one place, so you can jump straight to what you need.</p>
       </section>
 
       <section style={{ maxWidth: '1200px', margin: '0 auto', padding: '40px 20px', lineHeight: '1.8' }}>

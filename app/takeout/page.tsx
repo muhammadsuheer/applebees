@@ -34,7 +34,7 @@ export const metadata: Metadata = {
 const faqData = [
   {
     question: "Does Applebee's do takeout?",
-    answer: "Yes. Takeout is available at essentially every location, either as standard pickup or Carside To Go, where the order is brought to your car. Orders can be placed through the app, the website, or by phone."
+    answer: "Yes. Takeout is available at almost every location, either as standard pickup or Carside To Go, where the order is brought to your car. Orders can be placed through the app, the website, or by phone."
   },
   {
     question: "What is Applebee's Carside To Go?",
@@ -164,16 +164,16 @@ export default function TakeoutPage() {
         <header className={styles.hero} role="banner" aria-label="Takeout Header">
           <h1>Applebee's Takeout and Carside To Go</h1>
           <p className={styles.heroLead}>
-            Applebee's takeout is available at essentially every location, either as standard pickup inside or as Carside To Go, where the order is brought out to your car. Both use the same in-restaurant menu prices, no markup, no delivery fee.
+            Applebee's takeout is available at almost every location, either as standard pickup inside or as Carside To Go, where the order is brought out to your car. Both use the same in-restaurant menu prices, no markup, no delivery fee.
           </p>
           <p className={styles.heroSub}>
-            That makes takeout the cheapest way to eat Applebee's outside the restaurant. This page covers how to order, what it costs compared to <Link href="/delivery">delivery</Link>, which dishes survive the trip, and how to reheat what is left.
+            That makes takeout the cheapest way to eat Applebee's outside the restaurant. Here&apos;s how to order, what it costs compared to <Link href="/delivery">delivery</Link>, which dishes survive the trip, and how to reheat what&apos;s left.
           </p>
         </header>
 
         {/* Location Finder Widget Placed Above The Fold */}
         <section className={styles.finderSection}>
-          <LocationSearch locationsData={locationData} />
+          <LocationSearch locationsData={locationData} headingLevel="h2" compact />
         </section>
 
         {/* §2 — HOW TO ORDER */}
@@ -390,7 +390,7 @@ export default function TakeoutPage() {
             For takeout this means one order can include items from both brands, an Applebee's burger alongside IHOP pancakes, bagged together and collected in one trip. Some locations also carry items exclusive to the dual-brand format.
           </p>
           <p>
-            <strong>Scale check:</strong> The first US dual-branded location opened in Seguin, Texas in February 2025. By the end of June 2026 there were 45 in the US, with 12 more under construction and a target of 80 by the end of 2026. That's against 1,439 US Applebee&apos;s, so the odds that your local restaurant is one are still low. The <Link href="/locations">location finder</Link> shows which format a restaurant runs.
+            <strong>Will yours be one?</strong> Probably not yet. The combined format only arrived in the US in 2025, and while more keep opening, most Applebee&apos;s are still standalone restaurants. To check yours, <Link href="/locations">find your restaurant</Link> and give it a call.
           </p>
         </section>
 

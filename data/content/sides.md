@@ -21,7 +21,7 @@ Removed Waffle Fries and Onion Rings: no verified price, calories or availabilit
 <div class="tableCard">
   <div class="tableResponsive">
     <table class="customTable">
-      <caption>Applebee's sides, sorted by calories</caption>
+      <caption>Applebee's sides, lightest to heaviest</caption>
       <thead>
         <tr>
           <th scope="col">Side</th>
@@ -79,7 +79,7 @@ Removed Waffle Fries and Onion Rings: no verified price, calories or availabilit
   </div>
 </div>
 
-Prices are reference figures, and your restaurant sets its own. The newest side-style item, Crispy Pickle Fries tossed in TAJÍN, is 590 calories and sits on the [Ultimate Trio](/menu/ultimate-trio).
+Side prices vary a little by restaurant. The newest side-style item, Crispy Pickle Fries tossed in TAJÍN, is 590 calories and sits on the [Ultimate Trio](/menu/ultimate-trio).
 
 ## The Swap That Beats Choosing a Lighter Entrée
 
@@ -127,7 +127,7 @@ The swap helps on sodium too. Classic Fries carry 800mg. Steamed Broccoli carrie
 
 ![Steamed broccoli florets served as a vegetable side](/apple-bees-menu/applebees-steamed-broccoli-side.webp)
 
-The lightest side and the least sodium in the section. One thing the numbers give away: 8g of fat on a side of broccoli means it isn't plain steamed. It lists none of the major allergens in our data, but if you're eating strictly plant-based, ask how it's cooked.
+The lightest side and the least sodium in the section. One thing the numbers give away: 8g of fat on a side of broccoli means it isn't plain steamed. It lists none of the major allergens, but if you're eating strictly plant-based, ask how it's cooked.
 
 - **$3.49** · 100 calories · 200mg sodium · 7g carbs
 
@@ -135,7 +135,7 @@ The lightest side and the least sodium in the section. One thing the numbers giv
 
 ![Tender whole green beans with garlic](/apple-bees-menu/applebees-garlicky-green-beans-side.webp)
 
-The other vegetable side, 50 calories heavier than broccoli, and tied with fries for the most fiber at 4g. The 12g of fat comes from how they're cooked. No major allergens in our data.
+The other vegetable side, 50 calories heavier than broccoli, and tied with fries for the most fiber at 4g. The 12g of fat comes from how they're cooked. No major allergens listed.
 
 - **$3.49** · 150 calories · 550mg sodium · 4g fiber
 
@@ -159,7 +159,7 @@ The middle of the range at 260 calories, and the best side for anything with a s
 
 ![Golden seasoned fries served as a side portion](/apple-bees-menu/applebees-classic-french-fries-side.webp)
 
-The default side on burgers and sandwiches. 400 calories, 800mg of sodium and 50g of carbohydrate, with 0g of sugar. Soy is the only allergen they list.
+The default side on burgers and sandwiches. 400 calories, 800mg of sodium and 50g of carbohydrate, with 0g of sugar. Soy is the only allergen they list. Fries are at their best in the first few minutes, so if a basket arrives lukewarm or limp, it's fair to ask for a fresh one.
 
 No wheat in the recipe doesn't make them safe for celiac disease. With a serious gluten issue, treat anything from a fryer as exposed to wheat unless the kitchen tells you otherwise.
 
@@ -175,7 +175,7 @@ A baked potato with cheese, sour cream, bacon and chives. The heaviest side at 4
 
 ## Sides To Go
 
-Fries are the worst side for takeout. They go soft in a closed box within the drive home. Mashed potatoes and steamed vegetables arrive the way they left. If you're ordering [Carside To Go](/takeout), swap the fries.
+Fries are the worst side for takeout. They go soft in a closed box within the drive home. Mashed potatoes and steamed vegetables arrive the way they left. If you're ordering [Carside To Go](/takeout), swap the fries. And check the bag before you pull away: small things like sauces, dressings and sides are what most often go missing from To Go orders.
 
 ## Frequently Asked Questions
 

@@ -27,7 +27,7 @@ Three things, and no choices beyond the entrée.
 - **Classic Fries.** A basket is 400 calories. Dine in and it refills.
 - **A fountain drink.** Pepsi, Diet Pepsi, Mountain Dew, Starry or iced tea. Also refills when you dine in.
 
-That last detail changes where you should eat it. Take it to go and you get one basket and one cup. Sit down and you can have three of each for the same $9.99. This is the one deal on the menu where dining in is plainly worth more money, not just more comfortable.
+That last detail changes where you should eat it. Take it to go and you get one basket and one cup. Sit down and you can have three of each for the same $9.99. This is the one deal on the menu where dining in is plainly worth more money, not just more comfortable. One tip when you ask for a refill: ask for the fries fresh. They lose their crunch quickly, and a hot basket makes the whole deal taste better.
 
 ![Burger with fries and a fountain drink](/apple-bees-menu/applebees-really-big-meal-deal-spread.webp)
 
@@ -49,7 +49,7 @@ An all-beef patty with two slices of American cheese and two strips of Applewood
 
 ![Burger with jalapeño bacon sauce, cheese and fries](/apple-bees-menu/applebees-big-bangin-burger.webp)
 
-The one to order if you want something you can't get elsewhere on the menu. Two slices of American cheese and a sweet, spicy sauce made with jalapeños and bacon. It's the newest of the three and the heaviest, at about 1,200 calories.
+The one to order if you want something you can't get elsewhere on the menu. Two slices of American cheese and a sauce made with jalapeños and bacon. Expect it to lean more sweet than spicy, a gentle heat rather than a real kick. It's the newest of the three and the heaviest, at about 1,200 calories.
 
 ## Is It Actually Cheaper? The Math
 
@@ -119,7 +119,7 @@ On September 18, 2026, National Cheeseburger Day, Applebee's is selling a Classi
 
 Each entrée plate is listed at roughly 1,100 to 1,200 calories. Refills are where it climbs. Another basket of Classic Fries adds 400 calories, and a regular fountain soda can add up to 200 per glass.
 
-The easy fix is the drink. Diet Pepsi, unsweetened iced tea and water refill at zero, so choosing one of them keeps the refills from counting. For the per-item figures, see [handcrafted burgers](/menu/handcrafted-burgers) and the [nutrition guide](/nutrition).
+The easy fix is the drink. Diet Pepsi, unsweetened iced tea and water refill at zero, so choosing one of them keeps the refills from counting. For calories item by item, see [handcrafted burgers](/menu/handcrafted-burgers) and the [nutrition guide](/nutrition).
 
 ## Is It Still Available?
 

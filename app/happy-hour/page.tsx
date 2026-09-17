@@ -72,7 +72,7 @@ const faqData = [
   {
     question: 'Which half price appetizer is the best deal?',
     answer:
-      'The Chicken Quesadilla. At $6.00 half price it carries 49g of protein, about 8.2g per dollar. Mozzarella Sticks match that ratio at $5.00 for 41g, but the quesadilla is the bigger plate.',
+      'The Chicken Quesadilla. At $6.00 half price you get 49g of protein, which makes it one of the most filling plates for the money. Mozzarella Sticks are just as good a deal at $5.00, but the quesadilla is the bigger plate.',
   },
   {
     question: "Can I get Applebee's half price apps to go?",
@@ -87,7 +87,7 @@ const faqData = [
   {
     question: 'Is happy hour legal in Oklahoma?',
     answer:
-      'Yes. Plenty of national lists still say Oklahoma bans it, but the Oklahoma Restaurant Association says on-premises licensees can run happy hour, as long as the drink price stays at least 6% above cost.',
+      'Yes. Plenty of national lists still say Oklahoma bans it, but bars and restaurants there can run happy hour, as long as the drink price stays at least 6% above cost.',
   },
   {
     question: "Is the Applebee's Dollarita back?",
@@ -157,9 +157,9 @@ export default function HappyHourPage() {
             which puts Mozzarella Sticks at $5.00 and a Chicken Quesadilla at $6.00.
           </p>
           <p className={styles.heroSub}>
-            That schedule comes straight from Applebee&apos;s own restaurant listings. What
-            isn&apos;t on them is which apps count, what your bar discounts, and whether your state
-            lets it discount drinks at all. Those three things are what this page is for.
+            That&apos;s the easy part. Where people get stuck is which apps count, what your bar
+            discounts, and whether your state lets it discount drinks at all. Here&apos;s how each of
+            those works.
           </p>
         </section>
 
@@ -226,7 +226,7 @@ export default function HappyHourPage() {
 
           <div className={styles.answerBlock}>
             <p>
-              Six appetizers make up the core of the half price deal. Order all six at full price
+              These appetizers are the heart of the half price deal. Order them all at full price
               and it&apos;s {money(fullTotal)}. At happy hour it&apos;s {money(halfTotal)}.
             </p>
           </div>
@@ -262,8 +262,8 @@ export default function HappyHourPage() {
           </div>
 
           <p>
-            Regular prices are our reference figures, and your restaurant will land near them. Half
-            price is rounded to the cent.
+            Your restaurant&apos;s regular prices should be close to these. Half price is rounded to
+            the cent.
           </p>
           <p>
             The one to ask about is The Classic Combo. At $18.99 it&apos;s the most expensive
@@ -282,20 +282,20 @@ export default function HappyHourPage() {
         <section className={styles.clusterSection} id="best-half-price-app">
           <h2>Which Half Price App Is the Best Deal?</h2>
           <p>
-            Order the Chicken Quesadilla. Price per plate is the wrong way to judge these, because
-            the cheapest app isn&apos;t the one that feeds you. Protein per dollar is a better test,
-            and here&apos;s how the five with published nutrition come out at happy hour prices:
+            Order the Chicken Quesadilla. The cheapest plate isn&apos;t always the one that fills you
+            up, so it&apos;s worth looking at how much protein each dollar buys you at happy hour
+            prices:
           </p>
 
           <div className={styles.tableCard}>
             <div className={styles.tableResponsive}>
               <table className={styles.customTable}>
-                <caption className="sr-only">Protein per dollar at half price</caption>
+                <caption className="sr-only">How much protein each half price app gives you for the money</caption>
                 <thead>
                   <tr>
                     <th scope="col">Appetizer</th>
                     <th scope="col" style={{ textAlign: 'right' }}>Protein</th>
-                    <th scope="col" style={{ textAlign: 'right' }}>Per dollar</th>
+                    <th scope="col" style={{ textAlign: 'right' }}>Protein for $1</th>
                     <th scope="col" style={{ textAlign: 'right' }}>Sodium</th>
                   </tr>
                 </thead>
@@ -306,7 +306,7 @@ export default function HappyHourPage() {
                       <tr key={a.name}>
                         <td data-label="Appetizer"><strong>{a.name}</strong></td>
                         <td data-label="Protein" style={{ textAlign: 'right' }}>{a.protein}g</td>
-                        <td data-label="Per dollar" style={{ textAlign: 'right', fontWeight: 700 }}>
+                        <td data-label="Protein for $1" style={{ textAlign: 'right', fontWeight: 700 }}>
                           {((a.protein as number) / half(a.full)).toFixed(1)}g
                         </td>
                         <td data-label="Sodium" style={{ textAlign: 'right' }}>
@@ -320,19 +320,19 @@ export default function HappyHourPage() {
           </div>
 
           <p>
-            The quesadilla and the Mozzarella Sticks tie at 8.2g of protein per dollar. The
-            quesadilla wins the tie because it&apos;s the bigger plate: 1,170 calories against 860.
+            The quesadilla and the Mozzarella Sticks give you the same protein for your money. The
+            quesadilla wins because it&apos;s the bigger plate: 1,170 calories against 860.
             Split between two people, it&apos;s a light dinner for $6.00.
           </p>
           <p>
-            Spinach &amp; Artichoke Dip is the weakest order by this measure, at 4.0g per dollar. It
+            Spinach &amp; Artichoke Dip gives you about half as much protein for the money. It
             tastes like a better deal than it is.
           </p>
           <p>
             And watch the Boneless Wings sauce. In Classic Hot Buffalo they carry 4,720mg of sodium,
             more than twice the 2,300mg daily limit the FDA sets for adults. Garlic Parmesan has 180
             more calories and 2,010mg less sodium. If sodium matters to you, pick the sauce before
-            you pick the app. Full figures are on the <Link href="/nutrition">nutrition page</Link>.
+            you pick the app. The full nutrition breakdown is on the <Link href="/nutrition">nutrition page</Link>.
           </p>
         </section>
 
@@ -419,8 +419,8 @@ export default function HappyHourPage() {
 
           <h3>Two states most lists get wrong</h3>
           <p>
-            <strong>Oklahoma.</strong> Fox News and Tasting Table both still list it as a ban state.
-            The Oklahoma Restaurant Association says otherwise: on-premises licensees can run happy
+            <strong>Oklahoma.</strong> Plenty of lists still call it a ban state, but it isn&apos;t. Bars and
+            restaurants there can run happy
             hour specials, as long as the price stays at least 6% above what the drink costs them.
           </p>
           <p>
@@ -482,13 +482,13 @@ export default function HappyHourPage() {
         <section className={styles.clusterSection} id="why-location-differs">
           <h2>Why Your Applebee&apos;s Happy Hour Might Be Different</h2>
           <p>
-            Franchisees ran 1,439 of Applebee&apos;s 1,557 restaurants at the end of June 2026, and
-            each one sets its own schedule and prices. So 3–6 PM and 9 PM–close is the default, not a
+            Most Applebee&apos;s are run by local franchise owners, and each one sets its own schedule
+            and prices. So 3–6 PM and 9 PM–close is the default, not a
             guarantee.
           </p>
           <p>
             In practice, three things move: the weekend schedule, whether platters count, and the
-            drink list. The six core apps rarely change. Your state&apos;s alcohol law can remove
+            drink list. The core apps rarely change. Your state&apos;s alcohol law can remove
             drink deals entirely.
           </p>
           <p>

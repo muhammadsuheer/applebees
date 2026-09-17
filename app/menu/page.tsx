@@ -73,7 +73,7 @@ const categoryRows = menuData.map((c) => {
 });
 
 const TITLE = "Applebee's Menu With Prices, Pictures & Calories 2026";
-const DESCRIPTION = `The full Applebee's restaurant menu with prices and calories for 2026: all ${ITEM_COUNT} items in ${CATEGORY_COUNT} categories, price ranges by category, the cheapest entrées, current deals and what's new this fall.`;
+const DESCRIPTION = `The full Applebee's restaurant menu with prices and calories for 2026: price ranges for every category, the cheapest entrées, the deals worth using and what's new this fall.`;
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -98,11 +98,11 @@ export const metadata: Metadata = {
 const faqData = [
   {
     question: "How much is the Applebee's menu in 2026?",
-    answer: `Applebee's entrées cost ${money(entreeMin)} to ${money(entreeMax)}. Burgers are ${formatPriceRange(categoryStats('handcrafted-burgers')!.price)}, steaks and ribs ${formatPriceRange(categoryStats('steaks-and-ribs')!.price)}, appetizers ${formatPriceRange(categoryStats('appetizers')!.price)} and kids meals ${formatPriceRange(categoryStats('kids-menu')!.price)}. These are reference prices, and each restaurant sets its own.`,
+    answer: `Applebee's entrées cost ${money(entreeMin)} to ${money(entreeMax)}. Burgers are ${formatPriceRange(categoryStats('handcrafted-burgers')!.price)}, steaks and ribs ${formatPriceRange(categoryStats('steaks-and-ribs')!.price)}, appetizers ${formatPriceRange(categoryStats('appetizers')!.price)} and kids meals ${formatPriceRange(categoryStats('kids-menu')!.price)}. Each restaurant sets its own prices, so treat these as a close guide.`,
   },
   {
     question: "What's on the Applebee's full menu?",
-    answer: `${ITEM_COUNT} items across ${CATEGORY_COUNT} categories: appetizers, burgers, steaks and ribs, chicken, pasta, seafood, salads, bowls, sandwiches, sides, desserts, kids meals, cocktails and non-alcoholic drinks, plus the 2 for $25 and the $9.99 Really BIG Meal Deal.`,
+    answer: `Appetizers, burgers, steaks and ribs, chicken, pasta, seafood, salads, bowls, sandwiches, sides, desserts, kids meals, cocktails and non-alcoholic drinks, plus the 2 for $25 and the $9.99 Really BIG Meal Deal.`,
   },
   {
     question: "What is the cheapest thing on the Applebee's menu?",
@@ -140,12 +140,12 @@ const faqData = [
   {
     question: "Are Applebee's prices the same at every location?",
     answer:
-      "No. Franchisees run most of Applebee's 1,557 restaurants and each one sets its own prices, so the same burger can cost a dollar or two more in a big city.",
+      "No. Most Applebee's are run by local franchise owners who set their own prices, so the same burger can cost a dollar or two more in a big city.",
   },
   {
     question: "Is there an Applebee's menu PDF?",
     answer:
-      "Yes. This page has four printable PDFs: the full menu with prices, nutrition and allergens, catering, and drinks. They're our reference versions, not official Applebee's documents.",
+      "Yes. You can download printable PDFs of the full menu with prices, nutrition and allergens, catering, and drinks. They're our own printable versions, not official Applebee's documents.",
   },
 ];
 
@@ -153,7 +153,7 @@ const menuHighlights = [
   { metric: 'Highest calorie', item: 'The Classic Combo (appetizer)', figure: '2,200 cal' },
   { metric: 'Lowest calorie', item: 'Steamed Broccoli', figure: '100 cal' },
   { metric: 'Highest protein', item: 'Three-Cheese Chicken Penne', figure: '77g' },
-  { metric: 'Best protein per calorie', item: '8 oz. Top Sirloin', figure: '55g / 830 cal' },
+  { metric: 'Most protein for the calories', item: '8 oz. Top Sirloin', figure: '55g / 830 cal' },
   { metric: 'Highest sodium', item: 'Boneless Wings (Classic Hot Buffalo)', figure: '4,720mg' },
   { metric: 'Lowest sodium entrée', item: 'Double-Glazed Baby Back Ribs', figure: '1,300mg' },
   { metric: 'Highest sugar', item: 'Triple Chocolate Meltdown', figure: '87g' },
@@ -219,7 +219,7 @@ export default function MenuPage() {
         <h1>Applebee&apos;s Menu With Prices, Pictures and Calories (2026)</h1>
         <div className={styles.answerBlock}>
           <p>
-            The Applebee&apos;s menu has {ITEM_COUNT} items in {CATEGORY_COUNT} categories. Entrées cost{' '}
+            Entrées at Applebee&apos;s cost{' '}
             {money(entreeMin)} to {money(entreeMax)}, appetizers {formatPriceRange(categoryStats('appetizers')!.price)},
             and the cheapest full meal is the $9.99 Really BIG Meal Deal with a drink included. Calories run from
             100 for Steamed Broccoli to 2,200 for The Classic Combo. Every item is below with a picture, its price and its calorie count.
@@ -227,7 +227,7 @@ export default function MenuPage() {
         </div>
         <p className={styles.locationNotice}>
           Updated {checked}. Each Applebee&apos;s sets its own prices, so check your{' '}
-          <Link href="/locations">local restaurant</Link> for exact figures.
+          <Link href="/locations">local restaurant</Link> for exact prices.
         </p>
       </section>
 
@@ -247,7 +247,6 @@ export default function MenuPage() {
                 <thead>
                   <tr>
                     <th scope="col">Category</th>
-                    <th scope="col">Items</th>
                     <th scope="col">Price range</th>
                     <th scope="col">Calories</th>
                   </tr>
@@ -258,7 +257,6 @@ export default function MenuPage() {
                       <td className={styles.metricCell}>
                         <Link href={`/menu/${row.slug}`}>{row.title}</Link>
                       </td>
-                      <td>{row.items}</td>
                       <td className={styles.figureCell}>{row.price}</td>
                       <td>{row.calories}</td>
                     </tr>
@@ -273,8 +271,8 @@ export default function MenuPage() {
           <h2>Applebee&apos;s Menu Specials Today</h2>
           <div className={styles.sectionAnswerBlock}>
             <p>
-              Three deals run every day: the 2 for $25, the $9.99 Really BIG Meal Deal and half price apps. Three
-              more have a date on them this fall.
+              The 2 for $25, the $9.99 Really BIG Meal Deal and half price apps run every day. The rest
+              have a date on them this fall.
             </p>
           </div>
 
@@ -332,7 +330,7 @@ export default function MenuPage() {
           <div className={styles.tableCard}>
             <div className={styles.tableResponsive}>
               <table className={styles.highlightsTable}>
-                <caption className="sr-only">The eight cheapest entrées at Applebee&apos;s</caption>
+                <caption className="sr-only">The cheapest entrées at Applebee&apos;s</caption>
                 <thead>
                   <tr>
                     <th scope="col">Entrée</th>
@@ -426,7 +424,7 @@ export default function MenuPage() {
                   <tr>
                     <th scope="col">Measure</th>
                     <th scope="col">Item</th>
-                    <th scope="col">Figure</th>
+                    <th scope="col">Amount</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -445,7 +443,7 @@ export default function MenuPage() {
           <p className={styles.textParagraph}>
             Two things in that table surprise people. The heaviest thing you can order is a shared appetizer, not a
             burger or steak. And the most protein isn&apos;t in a steak either. It&apos;s the Three-Cheese Chicken Penne,
-            at 77g. Every figure is in the <Link href="/nutrition">nutrition guide</Link>, and allergens are on the{' '}
+            at 77g. Full nutrition is in the <Link href="/nutrition">nutrition guide</Link>, and allergens are on the{' '}
             <Link href="/allergen-menu">allergen menu</Link>.
           </p>
         </section>
@@ -523,7 +521,7 @@ export default function MenuPage() {
       <section className={styles.pdfSection} id="downloads">
         <h2>Applebee&apos;s Menu PDF Downloads</h2>
         <p className={styles.pdfSubtitle}>
-          Printable versions of our menu tables. These are reference versions, not official Applebee&apos;s documents.
+          Printable copies of our menu tables to keep on hand. They&apos;re our own versions, not official Applebee&apos;s documents.
         </p>
 
         <div className={styles.pdfGrid}>

@@ -12,7 +12,7 @@ export function CareersOverview() {
   return (
     <section className={styles.section} id="overview">
       <h2>Working at Applebee&apos;s in 2026</h2>
-      <p>There are 1,439 Applebee&apos;s in the US, and almost none of them are run by Applebee&apos;s. About 98% are owned by franchisees. That one fact shapes everything on this page: your pay, your benefits, your schedule and even how you apply depend on the company that owns your restaurant.</p>
+      <p>Here&apos;s the thing most people don&apos;t realize before applying: almost every Applebee&apos;s is owned by a franchise company, not by Applebee&apos;s itself. That one fact shapes everything below: your pay, your benefits, your schedule and even how you apply depend on the company that owns your restaurant.</p>
       <p>The jobs themselves are the same everywhere. Hosts and Carside To Go staff, servers and bartenders out front. Cooks, prep and dishwashers in the kitchen. Managers above both.</p>
     </section>
   );
@@ -22,7 +22,7 @@ export function FranchiseReality() {
   return (
     <section className={styles.section} id="franchise-reality">
       <h2>Who You&apos;d Actually Work For</h2>
-      <p>When you take a job at Applebee&apos;s, you&apos;re usually hired by a franchise company, not by Applebee&apos;s or its parent, Dine Brands. The biggest is Flynn Group, which runs more than 430 Applebee&apos;s across 44 states. Others run a handful of restaurants or a few dozen.</p>
+      <p>When you take a job at Applebee&apos;s, you&apos;re usually hired by a franchise company, not by Applebee&apos;s or its parent, Dine Brands. The biggest is Flynn Group, which runs hundreds of Applebee&apos;s across the country. Others run just a handful.</p>
       <p>Why it matters: the franchisee sets the pay, the benefits, the uniform and the scheduling rules. Two Applebee&apos;s in the same city can offer quite different jobs. Moving from one to the other can mean leaving one employer and joining another. Ask in your interview who the employer is and what benefits come with the job.</p>
     </section>
   );
@@ -59,7 +59,7 @@ export function HiringProcess() {
     <section className={styles.section} id="hiring">
       <h2>How to Apply</h2>
       <p>Apply online. Applebee&apos;s careers page links to openings, and most are posted by the franchisee that owns the restaurant. Some restaurants also take walk-in applications or have a QR code at the door.</p>
-      <p>From there it&apos;s usually a phone call or message, then a short in-person interview with a manager covering your availability, any experience and how you&apos;d handle a difficult guest. Applicants on Glassdoor report the process taking about eight days.</p>
+      <p>From there it&apos;s usually a phone call or message, then a short in-person interview with a manager covering your availability, any experience and how you&apos;d handle a difficult guest. It usually moves quickly, often within a week or two.</p>
       <p><strong>What helps:</strong> open availability, especially evenings and weekends. Restaurants hire around the shifts that are hardest to fill.</p>
     </section>
   );
@@ -72,7 +72,7 @@ export function PayAndTips() {
       <p>Pay depends on your state and your employer, so we don&apos;t publish a single number. The rules behind it are worth knowing.</p>
 
       <h3>Tipped jobs</h3>
-      <p>Under federal law, an employer can pay tipped staff as little as $2.13 an hour, as long as tips bring them to at least the $7.25 federal minimum wage. If they don&apos;t, the employer has to make up the difference. Many states set a higher tipped wage. Seven states, Alaska, California, Minnesota, Montana, Nevada, Oregon and Washington, require the full state minimum wage before tips.</p>
+      <p>Under federal law, an employer can pay tipped staff as little as $2.13 an hour, as long as tips bring them to at least the $7.25 federal minimum wage. If they don&apos;t, the employer has to make up the difference. Many states set a higher tipped wage. Some states, including Alaska, California, Minnesota, Montana, Nevada, Oregon and Washington, require the full state minimum wage before tips.</p>
 
       <h3>Tip-outs</h3>
       <p>Servers commonly share part of their tips with bartenders and support staff. How much, and on what, is set by the restaurant. Ask about it in your interview, because it changes your take-home pay.</p>
@@ -101,10 +101,10 @@ export function AgeRequirements() {
 export function CareersFAQ() {
   const faqData = [
     { question: "How old do you have to be to work at Applebee's?", answer: "Most restaurants hire hosts, dishwashers, Carside To Go and prep staff from 16. Servers are usually 18 or older, and bartenders 21, depending on state law." },
-    { question: "Is Applebee's owned by franchisees?", answer: "Almost entirely. About 98% of Applebee's restaurants are owned by franchisees, and the franchisee is usually your employer." },
-    { question: "Who is the largest Applebee's franchisee?", answer: "Flynn Group, with more than 430 Applebee's in 44 states." },
+    { question: "Is Applebee's owned by franchisees?", answer: "Almost entirely. Nearly every Applebee's is owned by a franchisee, and the franchisee is usually your employer." },
+    { question: "Who is the largest Applebee's franchisee?", answer: "Flynn Group, which runs hundreds of Applebee's across the US." },
     { question: "How do I apply to Applebee's?", answer: "Online through Applebee's careers page or the franchisee's job listings. Some restaurants also accept applications in person." },
-    { question: "How long does Applebee's take to hire?", answer: "Applicants on Glassdoor report about eight days from application to offer." },
+    { question: "How long does Applebee's take to hire?", answer: "Often within a week or two, depending on how quickly the restaurant needs to fill shifts." },
     { question: "How much do Applebee's servers make an hour?", answer: "It depends on the state and the employer. Federal law allows a tipped wage as low as $2.13 an hour, with tips making up at least $7.25, and many states require more." }
   ];
 

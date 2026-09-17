@@ -41,7 +41,7 @@ Crispy Pickle Fries added as a Trio choice, fall 2025, with Mexi-ranch (applebee
   </div>
 </div>
 
-The Classic Combo is Boneless Wings, Spinach &amp; Artichoke Dip, Chicken Quesadilla and Mozzarella Sticks. Three of those four are Trio choices anyway, so the extra $2 mostly buys you the dip. Trio calories depend on what you pick. Prices are reference figures, and your restaurant sets its own.
+The Classic Combo is Boneless Wings, Spinach &amp; Artichoke Dip, Chicken Quesadilla and Mozzarella Sticks. Three of those four are Trio choices anyway, so the extra $2 mostly buys you the dip. Trio calories depend on what you pick. Prices vary a little by restaurant.
 
 ![Appetizer sampler platter with three appetizers and dipping sauces](/apple-bees-menu/applebees-appetizer-sampler-platter.webp)
 

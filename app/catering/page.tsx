@@ -140,7 +140,7 @@ export default function CateringPage() {
           </p>
           <p className={styles.heroHighlight}>
             Ordering is the easy part. Working out how many platters 23 people need is where most
-            orders go wrong, so that&apos;s where this page starts.
+            orders go wrong, so let&apos;s start there.
           </p>
         </section>
 

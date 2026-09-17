@@ -45,12 +45,12 @@ const defaultFaqs: Faq[] = [
   {
     question: "Does Applebee's have a gluten-free menu?",
     answer:
-      "No. There's no separate gluten-free menu and no gluten-free kitchen. Of the 30 items in our allergen table, 11 have no wheat in the standard build, but shared grills and fryers make none of them safe for celiac disease.",
+      "No. There's no separate gluten-free menu and no gluten-free kitchen. A handful of dishes have no wheat in the standard recipe, but shared grills and fryers mean none of them are safe for celiac disease.",
   },
   {
     question: "Are Applebee's prices the same at every location?",
     answer:
-      "No. Franchisees ran 1,439 of the 1,557 Applebee's restaurants at the end of June 2026, and each one sets its own prices. Treat any published price, including ours, as a benchmark.",
+      "No. Most Applebee's are run by local franchise owners, and each one sets its own prices. Treat any published price, including ours, as a close guide.",
   },
   {
     question: "Is Applebee's cheaper on DoorDash or the Applebee's app?",

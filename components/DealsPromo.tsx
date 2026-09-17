@@ -67,7 +67,7 @@ export default function DealsPromo() {
       <div className={styles.container}>
         <h2>Applebee&apos;s Specials and Deals Right Now</h2>
         <p className={styles.sectionDescription}>
-          Five deals worth knowing in fall 2026, from the $9.99 Really BIG Meal Deal to the new
+          The deals worth knowing this fall, from the $9.99 Really BIG Meal Deal to the new
           O-M-Cheese-adilla Burger on the 2 for $25. Franchisees can opt out of any of them.
         </p>
         <div className={styles.grid}>

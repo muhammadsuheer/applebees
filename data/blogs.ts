@@ -50,7 +50,7 @@ export const blogs: BlogPost[] = [
       <p>Expect the same rules next time. Individual restaurants can also limit how many you order, which is a local decision and one worth asking about before you plan a night around it.</p>
 
       <h2>How Strong Is a Dollarita?</h2>
-      <p>Applebee's doesn't publish the pour, so nobody outside the company can tell you the alcohol content. You'll find confident numbers online. They're guesses. What we can say is that it's a house margarita, not a premium one, and it's priced to get you in the door and ordering food.</p>
+      <p>Applebee's doesn't publish the pour, so nobody outside the company can tell you the alcohol content. You'll find confident numbers online. They're guesses. What we can say is that it's a house margarita, not a premium one, and it's priced to get you in the door and ordering food. Promo drinks like this are built around the price, so expect it to taste sweeter and lighter than the regular cocktails.</p>
 
       <h2>Will the Dollarita Come Back?</h2>
       <p>Probably. Applebee's has brought it back several times since 2017, usually as a limited drink of the month. It hasn't said when. When it returns, Applebee's announces it through a press release and its social accounts, usually a week or two ahead. We update our <a href="/specials-and-deals">specials and deals</a> page when it does.</p>
@@ -95,7 +95,7 @@ export const blogs: BlogPost[] = [
       <p>A House Margarita on the rocks is 310 calories. Frozen, the Mucho Margarita is 650 with 75g of sugar. If you're counting, order it on the rocks. That one change saves more calories than most food swaps on the menu.</p>
 
       <h2>Happy Hour Isn't the Same as the Dollarita</h2>
-      <p>The Dollarita was a national price. Happy hour drink prices are set by each restaurant, and six states ban time-limited drink discounts outright. Half price appetizers, 3:00 to 6:00 PM and 9:00 PM to close, are the reliable part of <a href="/happy-hour">happy hour</a>.</p>
+      <p>The Dollarita was a national price. Happy hour drink prices are set by each restaurant, and some states ban time-limited drink discounts outright. Half price appetizers, 3:00 to 6:00 PM and 9:00 PM to close, are the reliable part of <a href="/happy-hour">happy hour</a>.</p>
 
       <h2>Frequently Asked Questions</h2>
 
@@ -137,7 +137,7 @@ export const blogs: BlogPost[] = [
       }
     ],
     date: '2026-08-18T08:00:00+00:00',
-    modifiedDate: '2026-09-11T09:00:00+00:00',
+    modifiedDate: '2026-09-15T09:00:00+00:00',
     author: "Menu Almanac Editors",
     authorRole: 'Editorial desk',
     authorImage: '/web-app-manifest-512x512.png',
@@ -145,9 +145,9 @@ export const blogs: BlogPost[] = [
   },
   {
     slug: 'applebees-secret-menu-hacks-revealed',
-    title: "Applebee's Secret Menu (2026): 9 Orders That Actually Work",
-    metaTitle: "Applebee's Secret Menu 2026: 9 Orders That Work",
-    excerpt: "Applebee's has no secret menu, and asking for a TikTok nickname gets you a blank look. These nine orders use the real menu and real deals to get you more for less.",
+    title: "Applebee's Secret Menu (2026): Orders That Actually Work",
+    metaTitle: "Applebee's Secret Menu 2026: Orders That Actually Work",
+    excerpt: "Applebee's has no secret menu, and asking for a TikTok nickname gets you a blank look. These orders use the real menu and real deals to get you more for less.",
     content: `
       <div class="quickAnswer">
         <strong>Does Applebee's have a secret menu?</strong>
@@ -157,32 +157,44 @@ export const blogs: BlogPost[] = [
       <h2>How to Ask</h2>
       <p>Describe the change, not a name. "Sauce on the side" gets rung in. "The Volcano Burger" doesn't. Keep complicated requests for quieter times, not 7 PM on a Friday, and expect add-ons like extra cheese or bacon to cost extra. What they charge is up to your restaurant.</p>
 
-      <h2>1. Take Two Side Salads on the 2 for $25</h2>
+      <h2>Take Two Side Salads on the 2 for $25</h2>
       <p>The 2 for $25 lets you swap the shared appetizer for two side salads at the same price. A House Side Salad is 160 calories. The shared appetizers run 590 to 1,170. If you both want your own starter, or want a lighter meal, this is the best-hidden option on the menu. <a href="/menu/2-for-25">2 for $25 details</a>.</p>
 
-      <h2>2. Make Any Soda Dirty for $1</h2>
+      <h2>Make Any Soda Dirty for $1</h2>
       <p>You don't have to order one of the preset Dirty Fountain Sodas. Any fountain drink can be topped with whipped cream and a cherry for $1. A dirty Diet Pepsi or a dirty Starry are both fair game. <a href="/menu/dirty-fountain-sodas">Dirty soda flavors</a>.</p>
 
-      <h2>3. Order the Oriental Chicken Salad Grilled</h2>
+      <h2>Order the Oriental Chicken Salad Grilled</h2>
       <p>It comes crispy unless you say otherwise, and crispy it's 1,560 calories. Grilled, it's 900. Same salad, same price, 660 fewer calories. No other single request changes one dish that much. <a href="/menu/salads">Salads</a>.</p>
 
-      <h2>4. Swap the Fries for Steamed Broccoli</h2>
+      <h2>Swap the Fries for Steamed Broccoli</h2>
       <p>Classic Fries are 400 calories. Steamed Broccoli is 100. Any entrée that comes with fries gets 300 lighter. For takeout it's a double win, because fries are the first thing to go soggy in a box. <a href="/menu/sides">Sides</a>.</p>
 
-      <h2>5. Get Boneless Wings Sauce on the Side</h2>
+      <h2>Get Boneless Wings Sauce on the Side</h2>
       <p>For dine-in it's a preference. For To Go it matters: wings tossed in sauce steam soft on the drive home. Sauce on the side, toss at home, and they're still crisp. It also lets you try two sauces with one order.</p>
 
-      <h2>6. Don't Spend an Ultimate Trio Pick on Fries</h2>
+      <h2>Don't Spend an Ultimate Trio Pick on Fries</h2>
       <p>The Ultimate Trio lets you pick three appetizers from a list that includes Classic Fries and Waffle Fries. Skip both. Fries come with most entrées anyway, so use your three picks on things like Boneless Wings, Brew Pub Pretzels and Chicken Wonton Tacos. <a href="/menu/ultimate-trio">Ultimate Trio choices</a>.</p>
 
-      <h2>7. Eat Between 3 and 6</h2>
+      <h2>Eat Between 3 and 6</h2>
       <p>Half price appetizers run 3:00 to 6:00 PM and 9:00 PM to close at participating restaurants, dine-in only. It's the biggest discount Applebee's offers. Ordering the same appetizers through a delivery app at full price, or higher, is the opposite. <a href="/happy-hour">Happy hour times and prices</a>.</p>
 
-      <h2>8. One Person, Two Meals: the $9.99 Deal</h2>
+      <h2>Eating Alone? Get the $9.99 Deal</h2>
       <p>The Really BIG Meal Deal is $9.99 for a sandwich or burger entrée with fries and a fountain drink. For one person who doesn't want a starter, it beats half of a 2 for $25 by $2.51 and includes the drink. <a href="/menu/really-big-meal-deal">Really BIG Meal Deal</a>.</p>
 
-      <h2>9. Ask for Dressing and Crunchy Toppings on the Side</h2>
+      <h2>Ask for Dressing and Crunchy Toppings on the Side</h2>
       <p>For any salad going home, ask for the dressing and the crispy toppings separately. Dressed greens wilt within minutes in a closed box. It's the salad version of sauce on the side.</p>
+
+      <h2>Order Your Steak One Step Rarer</h2>
+      <p>Applebee's steaks have a habit of arriving a little more done than you asked for, and a lean sirloin turns tough fast once it drifts past medium. Ask for it one step rarer than you usually would, cut into it as soon as it lands, and send it back if it's overcooked. It's a completely normal request. <a href="/menu/steaks-and-ribs">Steaks and ribs</a>.</p>
+
+      <h2>Ask for Your Fries Fresh</h2>
+      <p>Fries are great for about five minutes and ordinary after that. If a basket shows up lukewarm or limp, it's fair to ask for a fresh one, and on the Really BIG Meal Deal, ask for the refill to come out hot rather than from a batch that's been sitting.</p>
+
+      <h2>Check the To Go Bag Before You Pull Away</h2>
+      <p>Missing sauces, dressings, soups and sides are the most common To Go letdown. Open the bag in the parking lot and check it against your receipt. Thirty seconds there beats a drive back.</p>
+
+      <h2>Ask Where Happy Hour Counts</h2>
+      <p>Some restaurants only honor happy hour prices in the bar area, and weekend afternoons vary. If you're seated in the dining room, ask your server before you order so the bill doesn't surprise you.</p>
 
       <h2>What Doesn't Work</h2>
       <ul>
@@ -231,7 +243,7 @@ export const blogs: BlogPost[] = [
       }
     ],
     date: '2026-08-19T08:00:00+00:00',
-    modifiedDate: '2026-09-11T09:00:00+00:00',
+    modifiedDate: '2026-09-15T09:00:00+00:00',
     author: "Menu Almanac Editors",
     authorRole: 'Editorial desk',
     authorImage: '/web-app-manifest-512x512.png',
@@ -299,7 +311,7 @@ export const blogs: BlogPost[] = [
           </tbody>
         </table>
       </div>
-      <p>Figures are for the plate as served, sides included. "No wheat listed" means wheat isn't among the allergens. It doesn't rule out barley or rye, and it doesn't account for the shared kitchen.</p>
+      <p>Calories are for the whole plate as served, sides included. "No wheat listed" means wheat isn't among the allergens. It doesn't rule out barley or rye, and it doesn't account for the shared kitchen.</p>
       <p>If you want one order, make it the Double-Glazed Baby Back Ribs. They're the lightest of the group, tied with the 6 oz. sirloin, and soy is the only allergen listed.</p>
 
       <h2>Sides With No Wheat Listed</h2>
@@ -322,21 +334,23 @@ export const blogs: BlogPost[] = [
         <li><strong>French Onion Soup</strong> lists wheat. Tomato Basil doesn't.</li>
         <li><strong>Grilled Chicken Caesar Salad</strong> lists wheat, along with milk, eggs and fish.</li>
         <li><strong>Oriental Chicken Salad</strong> lists wheat, soy and tree nuts.</li>
-        <li><strong>Every appetizer we track</strong> lists wheat: the Boneless Wings, Brew Pub Pretzels, Spinach &amp; Artichoke Dip, Mozzarella Sticks and Chicken Quesadilla.</li>
+        <li><strong>The popular appetizers</strong> all list wheat: the Boneless Wings, Brew Pub Pretzels, Spinach &amp; Artichoke Dip, Mozzarella Sticks and Chicken Quesadilla.</li>
       </ul>
 
       <h2>What to Say When You Order</h2>
       <div class="tipBox">
-        <strong>For celiac disease or a wheat allergy:</strong><br>
-        1. Say it's a medical need, not a preference, and ask for the manager.<br>
-        2. Ask the manager to check the current allergen information for your dish. Recipes change.<br>
-        3. Ask for your protein to be cooked away from buns and breaded items, and for no fried sides.<br>
-        4. Order simple. The fewer sauces and toppings, the fewer things to check.
+        <strong>For celiac disease or a wheat allergy:</strong>
+        <ul>
+          <li>Say it's a medical need, not a preference, and ask for the manager.</li>
+          <li>Ask the manager to check the current allergen information for your dish. Recipes change.</li>
+          <li>Ask for your protein to be cooked away from buns and breaded items, and for no fried sides.</li>
+          <li>Keep it simple. The fewer sauces and toppings, the fewer things to check.</li>
+        </ul>
       </div>
-      <p>Call ahead outside the lunch and dinner rush and the manager has time to go through it properly. Numbers for our listed restaurants are in the <a href="/locations">locations directory</a>.</p>
+      <p>Call ahead outside the lunch and dinner rush and the manager has time to go through it properly. You'll find phone numbers in the <a href="/locations">locations directory</a>.</p>
 
       <h2>Keto and Low-Carb</h2>
-      <p>The Top Sirloin plates are the lowest in carbohydrate on this list, at 45g as served. The Bourbon Street Chicken &amp; Shrimp is close behind at 49g, with more protein, 57g. Most of those carbs are the potatoes, so swap them for Steamed Broccoli. Every figure is on the <a href="/allergen-menu">allergen menu</a> and the <a href="/nutrition">nutrition page</a>.</p>
+      <p>The Top Sirloin plates are the lowest in carbohydrate on this list, at 45g as served. The Bourbon Street Chicken &amp; Shrimp is close behind at 49g, with more protein, 57g. Most of those carbs are the potatoes, so swap them for Steamed Broccoli. Full nutrition and allergens are on the <a href="/allergen-menu">allergen menu</a> and the <a href="/nutrition">nutrition page</a>.</p>
 
       <h2>Frequently Asked Questions</h2>
 
@@ -378,7 +392,7 @@ export const blogs: BlogPost[] = [
       }
     ],
     date: '2026-08-20T08:00:00+00:00',
-    modifiedDate: '2026-09-11T09:00:00+00:00',
+    modifiedDate: '2026-09-15T09:00:00+00:00',
     author: "Menu Almanac Editors",
     authorRole: 'Editorial desk',
     authorImage: '/web-app-manifest-512x512.png',
@@ -387,8 +401,8 @@ export const blogs: BlogPost[] = [
   {
     slug: 'applebees-2-for-25-menu-value-guide',
     title: "Applebee's 2 for $25: The Best Combos by Savings, Protein and Calories",
-    metaTitle: "Applebee's 2 for $25 (2026): Best Combos Ranked",
-    excerpt: "The best Applebee's 2 for $25 order saves you $23.97. The worst saves about $11. Here are the combos that get the most money off, the most protein and the fewest calories.",
+    metaTitle: "Applebee's 2 for $25 (2026): The Best Combos to Order",
+    excerpt: "Pick the right entrées and the Applebee's 2 for $25 saves you close to $24. Here are the combos that save the most, pack the most protein and keep calories in check.",
     content: `
       <div class="quickAnswer">
         <strong>What's the best 2 for $25 order?</strong>
@@ -399,7 +413,7 @@ export const blogs: BlogPost[] = [
       <p>One appetizer, or two side salads, plus two full-size entrées for $25. Drinks, dessert, tax and tip are extra. Franchisees choose which entrées they offer and some charge more to swap in a steak, so check the menu at your table. The full entrée list is on our <a href="/menu/2-for-25">2 for $25 menu page</a>.</p>
 
       <h2>Best Combo for Savings</h2>
-      <p>The deal is a flat $25, so the most expensive picks save the most. Regular prices from our menu data:</p>
+      <p>The deal is a flat $25, so the pricier your picks, the more you save. Here's how a few popular orders add up at regular prices:</p>
       <div class="tableWrapper">
         <table>
           <thead>
@@ -433,10 +447,16 @@ export const blogs: BlogPost[] = [
           </tbody>
         </table>
       </div>
-      <p>Prices are reference figures, and your restaurant sets its own. The pattern holds anywhere, though: pick the wings and the skillet and you get the most off.</p>
+      <p>Your restaurant's prices may be a little different, but the pattern holds anywhere: pick the wings and the skillet and you get the most off.</p>
+
+      <h2>The Entrées Worth Picking</h2>
+      <p><strong>Bourbon Street Chicken &amp; Shrimp</strong> is the one fans of the menu keep coming back for: charred Cajun chicken and shrimp on a sizzling skillet, with the garlic butter soaking into the potatoes. It's also one of the priciest entrées on the deal, so it makes the most of your $25.</p>
+      <p><strong>Chicken Parmesan Fettuccine</strong> is the safe bet when someone at the table wants pasta. Thick noodles and properly crispy chicken make it the pasta people are happiest with.</p>
+      <p><strong>Fiesta Lime Chicken</strong> has the most flavor and plenty of protein, but the Spanish rice can come out dry. Ask to swap it for another side.</p>
+      <p>If your restaurant offers a steak on the deal, ask whether it costs extra before you order. Upcharges on premium swaps are common, and they eat into the savings quickly.</p>
 
       <h2>Best Combo for Protein</h2>
-      <p><strong>Chicken Quesadilla, Fiesta Lime Chicken and Bourbon Street Chicken &amp; Shrimp.</strong> That's 49g, 61g and 57g, or 167g of protein for two people, at 3,370 calories. The quesadilla is the highest-protein starter on the deal, and the Fiesta Lime Chicken is the highest-protein entrée on the deal that we have figures for.</p>
+      <p><strong>Chicken Quesadilla, Fiesta Lime Chicken and Bourbon Street Chicken &amp; Shrimp.</strong> That's 49g, 61g and 57g, or 167g of protein for two people, at 3,370 calories. The quesadilla is the highest-protein starter on the deal, and the Fiesta Lime Chicken is one of the most protein-packed entrées on it.</p>
 
       <h2>Best Combo for Fewer Calories</h2>
       <p><strong>Two side salads, the California Grilled Chicken Salad and the Bourbon Street Chicken &amp; Shrimp.</strong> 320, 920 and 1,010 calories, or 2,250 in total. Swapping the appetizer for side salads is the biggest single change. The shared starters run 590 to 1,170 calories on their own.</p>
@@ -460,7 +480,7 @@ export const blogs: BlogPost[] = [
       <h2>Frequently Asked Questions</h2>
 
       <h3>What's the best value on the Applebee's 2 for $25?</h3>
-      <p>Boneless Wings with two Bourbon Street Chicken &amp; Shrimp skillets, which saves $23.97 at our reference prices.</p>
+      <p>Boneless Wings with two Bourbon Street Chicken &amp; Shrimp skillets, which saves $23.97 at regular menu prices.</p>
 
       <h3>What's the lowest calorie 2 for $25 order?</h3>
       <p>Two side salads, the California Grilled Chicken Salad and the Bourbon Street Chicken &amp; Shrimp, at 2,250 calories for two people.</p>
@@ -477,7 +497,7 @@ export const blogs: BlogPost[] = [
     faqs: [
       {
         question: "What's the best value on the Applebee's 2 for $25?",
-        answer: "Boneless Wings with two Bourbon Street Chicken & Shrimp skillets, which saves $23.97 at our reference prices."
+        answer: "Boneless Wings with two Bourbon Street Chicken & Shrimp skillets, which saves $23.97 at regular menu prices."
       },
       {
         question: "What's the lowest calorie 2 for $25 order?",
@@ -497,7 +517,7 @@ export const blogs: BlogPost[] = [
       }
     ],
     date: '2026-08-21T08:00:00+00:00',
-    modifiedDate: '2026-09-11T09:00:00+00:00',
+    modifiedDate: '2026-09-15T09:00:00+00:00',
     author: "Menu Almanac Editors",
     authorRole: 'Editorial desk',
     authorImage: '/web-app-manifest-512x512.png',

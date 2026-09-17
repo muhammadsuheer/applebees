@@ -123,13 +123,29 @@
   }
 
   .descriptor {
-    font-size: 12px;
+    font-size: 13px;
+    color: #4b5563;
   }
 }
 
+/* Phones keep two columns so 20 categories stay a short, scannable grid */
 @media (max-width: 480px) {
   .categoryGrid {
-    grid-template-columns: 1fr;
-    gap: 12px;
+    gap: 10px;
+  }
+
+  .imageContainer {
+    aspect-ratio: 4 / 3;
+  }
+
+  .cardContent h3 {
+    font-size: 14px;
+  }
+
+  .descriptor {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
   }
 }

@@ -10,7 +10,7 @@ export const SITE_URL = 'https://applebees-menus.us';
 export const SITE_EMAIL = 'contact@applebees-menus.us';
 
 export const DISCLAIMER_SHORT =
-  "Independent guide. Not affiliated with, endorsed by, or operated by Applebee's Neighborhood Grill + Bar or Dine Brands Global. Prices are reference figures and vary by franchise.";
+  "Independent guide. Not affiliated with, endorsed by, or operated by Applebee's Neighborhood Grill + Bar or Dine Brands Global. Prices are a guide and vary by restaurant.";
 
 // A real, named person responsible for the data. Leave `name` empty until you
 // have one: bylines fall back to the publisher name. Do NOT fill this with an

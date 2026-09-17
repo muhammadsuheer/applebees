@@ -22,7 +22,7 @@ All You Can Eat: $15.99, announced May 11, 2026 (Applebee's newsroom).
 <div class="tableCard">
   <div class="tableResponsive">
     <table class="customTable">
-      <caption>Applebee's appetizers, sorted by calories</caption>
+      <caption>Applebee's appetizers, lightest to heaviest</caption>
       <thead>
         <tr>
           <th scope="col">Appetizer</th>
@@ -103,17 +103,17 @@ All You Can Eat: $15.99, announced May 11, 2026 (Applebee's newsroom).
   </div>
 </div>
 
-Prices are reference figures and your restaurant sets its own. Half price is rounded to the cent. Full macros and allergens are in the [nutrition guide](/nutrition).
+Your restaurant sets its own prices, so yours may be a little different. Half price is rounded to the cent, and full nutrition and allergens are in the [nutrition guide](/nutrition).
 
 ## Which Applebee's Appetizer to Order
 
-**Order the Chicken Quesadilla.** It has the most protein of any appetizer at 49g, more than the Boneless Wings most people pick for protein. At $6.00 during happy hour, that's 8.2g of protein per dollar.
+**Order the Chicken Quesadilla.** It has the most protein of any appetizer at 49g, more than the Boneless Wings most people pick for protein. At $6.00 during happy hour, it's one of the most filling things you can order for the money.
 
-**On a budget, get the Mozzarella Sticks.** They're the cheapest at $9.99, the lightest of the fried starters at 860 calories, and they tie the quesadilla on protein per dollar at half price.
+**On a budget, get the Mozzarella Sticks.** They're the cheapest at $9.99, the lightest of the fried starters at 860 calories, and at half price they're nearly as filling for the money as the quesadilla.
 
 **Want something light?** Chicken Wonton Tacos, at 590 calories. Nothing else on the list comes in under 860.
 
-**Skip the Spinach &amp; Artichoke Dip if protein is the point.** It's 990 calories for 21g, the weakest ratio here. Order it because you like it, not because it's a smart deal.
+**Skip the Spinach &amp; Artichoke Dip if protein is the point.** It's 990 calories with only 21g of protein, so it won't fill you up the way the quesadilla does. Order it because you like it, not because it's a smart deal.
 
 **And choose your wing sauce before you choose wings.** Classic Hot Buffalo carries 4,720mg of sodium, more than twice the 2,300mg a day the FDA uses as its Daily Value. Garlic Parmesan has 180 more calories and 2,010mg less sodium.
 
@@ -141,7 +141,7 @@ Breaded mozzarella fried until the outside cracks and the middle pulls, with mar
 
 ![Grilled chicken quesadilla wedges with pico de gallo and sour cream](/apple-bees-menu/applebees-chicken-quesadilla-appetizer.webp)
 
-Grilled tortillas filled with chipotle lime chicken, pico de gallo and melted Cheddar, with sour cream and salsa. It's the closest thing to a light meal in this section. Watch the saturated fat, though: 34g, the highest of any appetizer.
+Grilled tortillas filled with chipotle lime chicken, pico de gallo and melted Cheddar, with sour cream and salsa. It eats more like a meal than a starter. Watch the saturated fat, though: 34g, the highest of any appetizer.
 
 - **$11.99** · 1,170 calories · 49g protein · $6.00 at happy hour · contains milk, wheat and soy
 
@@ -159,7 +159,7 @@ Creamy spinach and artichoke with Parmesan, served with tortilla chips and salsa
 
 ![Crispy wonton shells filled with grilled chicken, slaw and cilantro](/apple-bees-menu/applebees-chicken-wonton-tacos-appetizer.webp)
 
-Grilled chicken glazed in sweet Asian chile, packed into crispy wonton shells with coleslaw and cilantro. At 590 calories they're the lightest appetizer by 270 calories. The Bacon Cheeseburger Wonton Tacos that ran on the 2 for $25 this summer used the same shell; they ended in August 2026, and these are still here.
+Grilled chicken glazed in sweet Asian chile, packed into crispy wonton shells with coleslaw and cilantro. At 590 calories they're the lightest appetizer by 270 calories. The Bacon Cheeseburger Wonton Tacos that ran on the 2 for $25 in summer 2026 used the same shell; they ended in August 2026, and these are still here.
 
 - **$11.49** · 590 calories · $5.75 at happy hour
 
@@ -246,7 +246,7 @@ The Chicken Quesadilla at 49g. Boneless Wings have 40 to 42g and Mozzarella Stic
 Ask your server. Restaurants often leave platters off the half price list, and if it's excluded, two half price apps cost less.
 
 ### Does Applebee's have all you can eat boneless wings?
-It did this summer. All You Can Eat came back May 11, 2026 at $15.99 for Boneless Wings, Riblets and Double Crunch Shrimp with endless fries, dine-in only. Call to check it's still running.
+It came back for summer 2026. All You Can Eat returned May 11, 2026 at $15.99 for Boneless Wings, Riblets and Double Crunch Shrimp with endless fries, dine-in only. Call to check it's still running.
 
 ## Three Appetizers on One Plate, and Today's Deals
 

@@ -12,6 +12,7 @@ import Link from 'next/link';
 import Sidebar from '@/components/Sidebar';
 import styles from './page.module.css';
 import { BYLINE, PRICES_LAST_VERIFIED } from '@/data/site';
+import { labelTableCells } from '@/lib/labelTables';
 
 const checkedLabel = new Date(PRICES_LAST_VERIFIED).toLocaleDateString('en-US', {
   year: 'numeric',
@@ -99,7 +100,7 @@ export default async function CategoryPage({ params }: Props) {
       if (data.h1) pageTitle = data.h1;
       else if (data.title) pageTitle = data.title;
       // Strip editorial notes (<!-- sources, VERIFY items -->) so they never reach the page source.
-      contentHtml = await marked.parse(content.replace(/<!--[\s\S]*?-->\s*/g, ''));
+      contentHtml = labelTableCells(await marked.parse(content.replace(/<!--[\s\S]*?-->\s*/g, '')));
 
       // Extract FAQs for Schema
       const faqSection = content.split(/## Frequently Asked Questions/i)[1];

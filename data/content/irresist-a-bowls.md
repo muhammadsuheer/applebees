@@ -44,7 +44,7 @@ so none are stated beyond calories. "Lightest entrée" compares entrée items in
   </div>
 </div>
 
-Prices are reference figures, and your restaurant sets its own.
+Prices can differ a little at your restaurant.
 
 ## The Lightest Entrée at Applebee's
 
@@ -90,7 +90,7 @@ Because the bowls are layered instead of cooked together, they're easy to adjust
 
 ## Allergens
 
-The Tex-Mex Shrimp Bowl contains shellfish, and shared grills mean the chicken bowl isn't safe for a shellfish allergy either. The tortilla strips contain wheat. We don't have full allergen data for the bowls, so for any allergy, talk to the kitchen. The [allergen menu](/allergen-menu) covers the items we track.
+The Tex-Mex Shrimp Bowl contains shellfish, and shared grills mean the chicken bowl isn't safe for a shellfish allergy either. The tortilla strips contain wheat. Full allergen details for the bowls aren't listed here, so for any allergy, talk to the kitchen. The [allergen menu](/allergen-menu) is a good place to start.
 
 ## Bowls To Go
 

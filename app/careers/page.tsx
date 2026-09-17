@@ -14,7 +14,7 @@ import {
 } from '@/components/CareersSections';
 
 const TITLE = "Applebee's Careers 2026: Jobs, Hiring Age, Pay & How to Apply";
-const DESCRIPTION = "Applebee's hires hosts and cooks from 16. About 98% of restaurants are franchised, so your employer sets pay and benefits. Jobs, tipped wage rules and how to apply in 2026.";
+const DESCRIPTION = "Applebee's hires hosts and cooks from 16. Nearly every restaurant is franchised, so your employer sets pay and benefits. Jobs, tipped wage rules and how to apply in 2026.";
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -61,7 +61,7 @@ export default function CareersPage() {
       <section className={styles.hero}>
         <h1>Applebee&apos;s Careers: Jobs, Hiring Age and Pay</h1>
         <p>
-          Applebee&apos;s hires hosts, dishwashers and prep cooks from 16, servers usually from 18 and bartenders from 21. Before you apply, know that about 98% of Applebee&apos;s are owned by franchisees. The company that owns your restaurant, not Applebee&apos;s, sets your pay and benefits. This is an independent guide, not an Applebee&apos;s job site.
+          Applebee&apos;s hires hosts, dishwashers and prep cooks from 16, servers usually from 18 and bartenders from 21. Before you apply, know that nearly every Applebee&apos;s is owned by a franchisee. The company that owns your restaurant, not Applebee&apos;s, sets your pay and benefits. This is an independent guide, not an Applebee&apos;s job site.
         </p>
       </section>
 

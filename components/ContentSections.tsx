@@ -83,7 +83,7 @@ export function MethodologySection() {
       </p>
       <p>
         Calories and allergens come from Applebee&apos;s published nutrition information. Prices are
-        reference figures, not a national price list, because franchisees set their own. Spot something
+        a close guide rather than a national price list, because franchisees set their own. Spot something
         out of date? Tell us on the <Link href="/contact-us">contact page</Link>.
       </p>
     </section>

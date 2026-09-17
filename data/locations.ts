@@ -64,7 +64,7 @@ export const locationData: StateLocations[] = [
       { city: "Saginaw", address: "5940 State Street, Saginaw, MI 48603", phone: "(989) 790-1222" },
       { city: "Southfield", address: "29177 Southfield Rd, Southfield, MI 48076", phone: "(248) 849-9620" },
       { city: "Traverse City", address: "2384 U.S. 31 South, Traverse City, MI 49684", phone: "(231) 929-2929" },
-      { city: "Warren", address: "2992 Cook Road, West Branch, MI 48661", phone: "(989) 343-0100" },
+      { city: "West Branch", address: "2992 Cook Road, West Branch, MI 48661", phone: "(989) 343-0100" },
       { city: "Ypsilanti", address: "3819 Carpenter Road, Ypsilanti, MI 48197", phone: "(734) 973-7440" }
     ]
   },
@@ -76,8 +76,6 @@ export const locationData: StateLocations[] = [
       { city: "Batavia", address: "8322 Lewiston Rd., Batavia, NY 14020", phone: "(585) 344-0600" },
       { city: "Binghamton", address: "842 Upper Front Street, Binghamton, NY 13905", phone: "(607) 724-0458" },
       { city: "Bronx", address: "610 Exterior Street, Bronx, NY 10451", phone: "(347) 226-5120" },
-      { city: "Brooklyn", address: "2201 Nostrand Ave, Brooklyn, NY 11210", phone: "(718) 555-0102" },
-      { city: "Buffalo", address: "2656 Delaware Avenue, Buffalo, NY 14216", phone: "(716) 555-0199" },
       { city: "Dewitt", address: "3189 Erie Blvd. East, Dewitt, NY 13214", phone: "(315) 445-7000" },
       { city: "Elmhurst", address: "9015 Queens Blvd., Elmhurst, NY 11373", phone: "(718) 271-7999" },
       { city: "New York - Times Square", address: "234 W. 42nd Street, New York, NY 10036", phone: "(212) 391-7414" },

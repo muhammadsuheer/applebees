@@ -1,63 +1,114 @@
 import Link from 'next/link';
 import styles from './Footer.module.css';
-import { SITE_NAME, SITE_EMAIL, DISCLAIMER_SHORT } from '@/data/site';
+import { SITE_NAME, SITE_EMAIL } from '@/data/site';
+
+const columns = [
+  {
+    title: 'Menu and deals',
+    links: [
+      { href: '/menu', label: 'Full menu with prices' },
+      { href: '/specials-and-deals', label: 'Specials and deals' },
+      { href: '/happy-hour', label: 'Happy hour' },
+      { href: '/menu/new-items', label: 'New menu items' },
+      { href: '/blog', label: 'Guides and tips' },
+    ],
+  },
+  {
+    title: 'Plan your visit',
+    links: [
+      { href: '/nutrition', label: 'Nutrition' },
+      { href: '/allergen-menu', label: 'Allergen menu' },
+      { href: '/locations', label: 'Locations' },
+      { href: '/operating-hours', label: 'Opening hours' },
+      { href: '/takeout', label: 'Takeout' },
+      { href: '/delivery', label: 'Delivery' },
+    ],
+  },
+  {
+    title: 'About this site',
+    links: [
+      { href: '/about-us', label: 'About us' },
+      { href: '/contact-us', label: 'Contact us' },
+      { href: '/catering', label: 'Catering' },
+      { href: '/gift-card-deals', label: 'Gift cards' },
+      { href: '/careers', label: 'Careers' },
+      { href: '/sitemap', label: 'Sitemap' },
+    ],
+  },
+];
+
+const legalLinks = [
+  { href: '/privacy-policy', label: 'Privacy Policy' },
+  { href: '/cookies', label: 'Cookie Policy' },
+  { href: '/terms-and-conditions', label: 'Terms and Conditions' },
+  { href: '/disclaimer', label: 'Disclaimer' },
+];
 
 export default function Footer() {
+  const year = new Date().getFullYear();
+
   return (
     <footer className={styles.footer}>
-      <nav aria-label="Footer Navigation">
-        
+      <div className={styles.top}>
         <div>
-          <h2>HUNGRY?</h2>
-          <ul>
-            <li><Link href="/takeout">Takeout</Link></li>
-            <li><Link href="/delivery">Delivery</Link></li>
-            <li><Link href="/locations">Restaurant List</Link></li>
-            <li><Link href="/nutrition">Nutrition & Allergens</Link></li>
-            <li><Link href="/careers">Working at Applebee&apos;s</Link></li>
-          </ul>
-        </div>
-
-        <div>
-          <h2>POLICIES</h2>
-          <ul>
-            <li><Link href="/privacy-policy">Privacy Policy</Link></li>
-            <li><Link href="/cookies">Cookies</Link></li>
-            <li><Link href="/disclaimer">Disclaimer</Link></li>
-            <li><Link href="/terms-and-conditions">Terms & Conditions</Link></li>
-          </ul>
-        </div>
-
-        <div>
-          <h2>ABOUT US</h2>
-          <ul>
-            <li><Link href="/about-us">About Us</Link></li>
-            <li><Link href="/contact-us">Contact Us</Link></li>
-            <li><Link href="/gift-card-deals">Gift Cards</Link></li>
-            <li><Link href="/sitemap">HTML Sitemap</Link></li>
-          </ul>
-        </div>
-
-        <div className={styles.logoColumn}>
-          <Link href="/" aria-label={`${SITE_NAME} home`}>
-            <span aria-hidden="true">◈</span>
-            <div>
-              <strong>{SITE_NAME}</strong>
-              <em>MENU RESEARCH</em>
-            </div>
+          <Link href="/" className={styles.logo} aria-label={`${SITE_NAME} home`}>
+            <span className={styles.mark} aria-hidden="true">◈</span>
+            <span className={styles.name}>{SITE_NAME}</span>
           </Link>
+          <p className={styles.about}>
+            A friendly, independent guide to the Applebee&apos;s menu. Prices, calories, deals and
+            allergen info in one place, so you can decide what to order before you go.
+          </p>
+          <p className={styles.contact}>
+            Spotted a price that looks out of date? Email{' '}
+            <a href={`mailto:${SITE_EMAIL}`}>{SITE_EMAIL}</a>
+          </p>
         </div>
-        
-      </nav>
 
-      <p className={styles.disclaimer}>{DISCLAIMER_SHORT}</p>
+        <nav aria-label="Footer" className={styles.nav}>
+          {columns.map((col) => (
+            <div key={col.title}>
+              <h2 className={styles.colTitle}>{col.title}</h2>
+              <ul>
+                {col.links.map((link) => (
+                  <li key={link.href}>
+                    <Link href={link.href}>{link.label}</Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </nav>
+      </div>
 
-      <div className={styles.bottomRow}>
+      <div className={styles.notice}>
         <p>
-          &copy; 2026 {SITE_NAME}. All rights reserved.
+          <strong>An independent website</strong>
+          {SITE_NAME} isn&apos;t affiliated with, endorsed by or operated by Applebee&apos;s
+          Neighborhood Grill + Bar or Dine Brands Global. Applebee&apos;s is a trademark of its
+          owner, named here only to identify the restaurant.
         </p>
-        <ul aria-label="Contact">
-          <li><a href={`mailto:${SITE_EMAIL}`}>{SITE_EMAIL}</a></li>
+        <p>
+          <strong>Prices, calories and photos</strong>
+          Each restaurant sets its own prices, so treat the figures here as a guide and check with
+          your local Applebee&apos;s before ordering. Food photos are for illustration.
+        </p>
+        <p>
+          <strong>Advertising</strong>
+          This site is supported by ads served by Google AdSense. Ads don&apos;t affect what we
+          write. Read how ads use cookies in our <Link href="/privacy-policy">Privacy Policy</Link>{' '}
+          and <Link href="/cookies">Cookie Policy</Link>.
+        </p>
+      </div>
+
+      <div className={styles.bottom}>
+        <p>&copy; {year} {SITE_NAME}. All rights reserved.</p>
+        <ul className={styles.legal} aria-label="Legal">
+          {legalLinks.map((link) => (
+            <li key={link.href}>
+              <Link href={link.href}>{link.label}</Link>
+            </li>
+          ))}
         </ul>
       </div>
     </footer>

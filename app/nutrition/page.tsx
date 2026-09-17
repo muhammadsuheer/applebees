@@ -65,15 +65,15 @@ const categoryNotes: Record<string, { lead: React.ReactNode; insight: React.Reac
   'Steaks, Ribs & Chicken': {
     lead: (
       <>
-        The best protein per calorie on the menu, across <Link href="/menu/steaks-and-ribs">steaks
+        The leanest protein on the menu lives here, across <Link href="/menu/steaks-and-ribs">steaks
         and ribs</Link> and <Link href="/menu/chicken">chicken</Link>.
       </>
     ),
     insight: (
       <>
-        <strong>Best ratio on the menu:</strong> the 8 oz. Top Sirloin gives you 55g of protein for 830
-        calories, about 15 calories per gram. The crispy Oriental Chicken Salad needs 39 calories for
-        each gram. The surprise here is the half rack of Double-Glazed Baby Back Ribs: 760 calories,
+        <strong>The leanest way to get protein:</strong> the 8 oz. Top Sirloin gives you 55g of protein for 830
+        calories. Getting the same protein from the crispy Oriental Chicken Salad would cost you more
+        than twice the calories. The surprise here is the half rack of Double-Glazed Baby Back Ribs: 760 calories,
         1,300mg of sodium, and 0g of sugar despite the glaze.
       </>
     ),
@@ -104,8 +104,8 @@ const categoryNotes: Record<string, { lead: React.ReactNode; insight: React.Reac
     insight: (
       <>
         <strong>On the Impossible Cheeseburger:</strong> it&apos;s the lightest burger, has the most
-        fiber of anything in our data at 12g, and the least cholesterol at 35mg. It isn&apos;t lower in
-        sodium. At 2,910mg it beats the beef Classic Cheeseburger&apos;s 2,640mg.
+        fiber of any dish here at 12g, and the least cholesterol at 35mg. It isn&apos;t lower in
+        sodium. At 2,910mg it&apos;s saltier than the beef Classic Cheeseburger at 2,640mg.
       </>
     ),
   },
@@ -145,7 +145,7 @@ const faqData = [
   {
     question: "Which Applebee's item has the most protein?",
     answer:
-      "The Three-Cheese Chicken Penne at 77g, though it also has 40g of saturated fat. For protein per calorie, the 8 oz. Top Sirloin wins with 55g for 830 calories.",
+      "The Three-Cheese Chicken Penne at 77g, though it also has 40g of saturated fat. For lots of protein without the calories, the 8 oz. Top Sirloin is the pick: 55g for 830.",
   },
   {
     question: "Which Applebee's item has the most sodium?",
@@ -155,12 +155,12 @@ const faqData = [
   {
     question: "Does Applebee's have a gluten-free menu?",
     answer:
-      "No, and it doesn't run a gluten-free kitchen. Eleven of the 30 items in our data have no wheat in the standard build, including both Top Sirloin steaks. With celiac disease, shared grills and fryers are the real risk. See the allergen menu page.",
+      "No, and it doesn't run a gluten-free kitchen. A handful of dishes have no wheat in the standard recipe, including both Top Sirloin steaks, but with celiac disease the shared grills and fryers are the real risk. See the allergen menu page.",
   },
   {
     question: "Are there vegan options at Applebee's?",
     answer:
-      "Only one item in our data is flagged vegan: the House Salad with fat free Italian dressing, at 160 calories. Steamed Broccoli and Garlicky Green Beans carry none of the major allergens, but ask how they're prepared.",
+      "The House Salad with fat free Italian dressing is the one dish flagged vegan, at 160 calories. Steamed Broccoli and Garlicky Green Beans carry none of the major allergens, but ask how they're prepared.",
   },
   {
     question: 'Can you eat low carb at Applebee\'s?',
@@ -236,7 +236,7 @@ export default function NutritionPage() {
         </p>
         <p className={styles.heroSub}>
           Below are calories, fat, saturated fat, cholesterol, sodium, carbs, fiber, sugar and protein
-          for 30 items across six categories, with allergens for each, from Applebee&apos;s published
+          for the dishes people order most, with allergens for each, from Applebee&apos;s published
           nutrition information (checked {checked}). There&apos;s a calculator too, so you can add up a
           meal before you order it.
         </p>
@@ -358,8 +358,8 @@ export default function NutritionPage() {
       <section className={styles.clusterSection} id="allergen-guide">
         <h2>Where Allergens Hide on the Applebee&apos;s Menu</h2>
         <p>
-          Our data covers seven allergens: milk, eggs, wheat, soy, fish, shellfish and tree nuts. No item
-          we track flags peanuts or sesame, the other two FDA major allergens, so ask the kitchen about
+          The allergens to watch here are milk, eggs, wheat, soy, fish, shellfish and tree nuts. None of
+          the dishes listed flag peanuts or sesame, the other two FDA major allergens, so ask the kitchen about
           those directly. For a filterable table, use the <Link href="/allergen-menu">allergen menu</Link>.
         </p>
 
@@ -372,14 +372,14 @@ export default function NutritionPage() {
 
         <h3>Soy</h3>
         <p>
-          The one people miss. It&apos;s in 25 of our 30 items, including dishes with no obvious soy in
+          The one people miss. It&apos;s in almost everything, including dishes with no obvious soy in
           them. The half rack of Baby Back Ribs lists soy as its only allergen, and Classic Fries flag it
           too.
         </p>
 
         <h3>Wheat</h3>
         <p>
-          In every breaded appetizer, every bun and every pasta. 19 of 30 items. The Hand-Battered Fish
+          In every breaded appetizer, every bun and every pasta. The Hand-Battered Fish
           &amp; Chips carries it along with fish, soy and milk.
         </p>
 
@@ -432,7 +432,7 @@ export default function NutritionPage() {
                 <tr>
                   <th scope="col" className={styles.colName}>Measure</th>
                   <th scope="col">Item</th>
-                  <th scope="col">Figure</th>
+                  <th scope="col">Amount</th>
                 </tr>
               </thead>
               <tbody>
@@ -440,7 +440,7 @@ export default function NutritionPage() {
                 <tr><td data-label="Measure"><strong>Highest calorie entrée</strong></td><td>Hand-Battered Fish &amp; Chips</td><td>1,680</td></tr>
                 <tr><td data-label="Measure"><strong>Lowest calorie</strong></td><td>Steamed Broccoli</td><td>100</td></tr>
                 <tr><td data-label="Measure"><strong>Most protein</strong></td><td>Three-Cheese Chicken Penne</td><td>77g</td></tr>
-                <tr><td data-label="Measure"><strong>Best protein per calorie</strong></td><td>8 oz. Top Sirloin</td><td>55g for 830</td></tr>
+                <tr><td data-label="Measure"><strong>Most protein for the calories</strong></td><td>8 oz. Top Sirloin</td><td>55g for 830</td></tr>
                 <tr><td data-label="Measure"><strong>Most sodium</strong></td><td>Boneless Wings, Classic Hot Buffalo</td><td>4,720mg</td></tr>
                 <tr><td data-label="Measure"><strong>Least sodium</strong></td><td>Brownie Bite</td><td>190mg</td></tr>
                 <tr><td data-label="Measure"><strong>Most sugar</strong></td><td>Triple Chocolate Meltdown</td><td>87g</td></tr>
@@ -482,8 +482,8 @@ export default function NutritionPage() {
 
         <h3>Watching sodium</h3>
         <p>
-          The hardest goal on this menu. Almost every sauced entrée lands above 2,000mg. The lowest items
-          in our data are the Brownie Bite (190mg), Steamed Broccoli (200mg), Garlicky Green Beans (550mg),
+          The hardest goal on this menu. Almost every sauced entrée lands above 2,000mg. The lowest-sodium
+          choices are the Brownie Bite (190mg), Steamed Broccoli (200mg), Garlicky Green Beans (550mg),
           House Salad (610mg), Classic Fries (800mg), Tomato Basil Soup (1,260mg) and the Baby Back Ribs
           (1,300mg). Get sauces and dressings on the side.
         </p>
@@ -583,7 +583,7 @@ export default function NutritionPage() {
           Top Sirloin.
         </p>
         <p>
-          A 16 oz Miller Lite draft is the lightest alcoholic option in our data at 130 calories and no
+          A 16 oz Miller Lite draft is the lightest alcoholic drink here at 130 calories and no
           sugar. Blue Moon is 220. Frozen and blended drinks are where the numbers jump.
         </p>
       </section>

@@ -52,7 +52,7 @@ const faqData = [
   },
   {
     question: "Will Applebee's replace a lost gift card?",
-    answer: "Call 1-800-252-6722 with the card number or the purchase receipt. Applebee's advises protecting gift cards as you'd cash, since anyone holding the card can spend it."
+    answer: "Call 1-800-252-6722 with the card number or the purchase receipt. Applebee's advises protecting gift cards like cash, since anyone holding the card can spend it."
   },
   {
     question: "Can I use my Applebee's gift card in Canada?",
@@ -141,7 +141,7 @@ export default function GiftCardPage() {
             There are three ways to check an Applebee's gift card balance: the balance tool linked from Applebee's own gift card page, a phone call to 1-800-252-6722, or asking staff at any Applebee's to run the card at the till.
           </p>
           <p className={styles.heroSub}>
-            Applebee's gift cards never expire and never lose value, so an old card in a drawer is still worth what it says. This page covers how to check safely, where the cards can and can&apos;t be used, and the specific scams Applebee's has publicly flagged.
+            Applebee's gift cards never expire and never lose value, so an old card in a drawer is still worth what it says. Here&apos;s how to check a balance safely, where the cards work and where they don&apos;t, and the scams Applebee's has warned customers about.
           </p>
         </header>
 
@@ -210,7 +210,7 @@ export default function GiftCardPage() {
         <section className={styles.clusterSection} id="gift-card-scams">
           <h2>Applebee's Gift Card Scams to Know About</h2>
           <p>
-            Applebee's publishes its own fraud guidance, which makes this section straightforward: these aren&apos;t theories, they&apos;re the scams the company has named.
+            These aren&apos;t guesses. Applebee's has warned customers about each of these scams itself.
           </p>
 
           <h3>The fake Meal Pass card</h3>
@@ -218,7 +218,7 @@ export default function GiftCardPage() {
             Applebee's has no Meal Pass program. A card marketed as an "Applebee's Meal Pass Card" isn&apos;t issued by Applebee's and can&apos;t be redeemed at any location. Applebee's has published an image of the fake card specifically to warn people.
           </p>
           <p>
-            If you have been offered one, or bought one, it&apos;s worthless at the restaurant. This is the most concrete gift card scam attached to the brand and almost no other page mentions it.
+            If you have been offered one, or bought one, it&apos;s worthless at the restaurant. It&apos;s the scam most tied to the Applebee&apos;s name, so it&apos;s worth knowing before you buy a card from anyone other than Applebee&apos;s or a trusted store.
           </p>
 
           <h3>Payment demand scams</h3>
@@ -237,7 +237,7 @@ export default function GiftCardPage() {
             </li>
           </ul>
           <p className={styles.alertBox}>
-            <strong>The universal rule:</strong> An Applebee's gift card can only be spent at Applebee's. Nobody — not a utility company, not a hospital, not a debt collector, not a court — takes them as payment. Any request to pay a bill with them is a scam, without exception.
+            <strong>The universal rule:</strong> An Applebee's gift card can only be spent at Applebee's. No utility company, hospital, debt collector or court takes them as payment. Any request to pay a bill with them is a scam, without exception.
           </p>
 
           <h3>Fake balance-check sites</h3>
@@ -342,7 +342,7 @@ export default function GiftCardPage() {
 
           <h3>Buying from other retailers</h3>
           <p>
-            Applebee's gift cards are sold through authorised retail partners as well as directly. Buying from a supermarket or warehouse club rack is legitimate, just check the packaging for tampering first, as covered in §3.
+            Applebee's gift cards are sold through authorized retail partners as well as directly. Buying from a supermarket or warehouse club rack is legitimate, just check the packaging for tampering first, as covered above.
           </p>
           <p>
             The value in buying elsewhere depends on whatever promotion that retailer is running at the time. It&apos;s worth checking before a large purchase, since a gift card bought at a discount is spendable at full face value, including on <Link href="/specials-and-deals">promotional deals</Link>. The discount and the promotion don&apos;t conflict, because one is a payment method and the other is a menu offer.
@@ -367,7 +367,7 @@ export default function GiftCardPage() {
             Keep the activation receipt for any card you aren&apos;t spending immediately, or photograph it. It costs nothing and it&apos;s the only thing standing between a lost card and lost money.
           </p>
 
-          <h3>Digitise it</h3>
+          <h3>Keep it on your phone</h3>
           <p>
             Digital gift cards can be stored on your phone rather than carried. A card that lives in your phone doesn&apos;t get left on a restaurant table or fall out of a wallet, and the number stays retrievable in your email if the phone is replaced.
           </p>

@@ -79,7 +79,7 @@ const faqData = [
   {
     question: "Why is the 2 for $25 more expensive at my Applebee's?",
     answer:
-      "Franchisees set their own prices. Franchise owners ran 1,439 of the 1,557 Applebee's at the end of June 2026, and a restaurant in a high-rent city can price the deal above $25.",
+      "Franchisees set their own prices. Most Applebee's are run by local franchise owners, so a restaurant in a high-rent city can price the deal above $25.",
   },
   {
     question: 'Which Applebee\'s deal is best for two people?',
@@ -136,10 +136,10 @@ export default function SpecialsPage() {
         <section className={styles.hero} aria-labelledby="deals-title">
           <h1 id="deals-title">Applebee&apos;s Specials and Deals Today</h1>
           <p className={styles.heroLead}>
-            Six Applebee&apos;s deals are worth knowing about this fall. Three run every day: the 2 for
-            $25, the $9.99 Really BIG Meal Deal and half price apps. Three have an end date: $6 Spooky
-            Sips until November 15, a one-day $8.99 burger on September 18, and All You Can Eat, which
-            ran as a summer deal.
+            Here are the Applebee&apos;s deals worth knowing about this fall. The everyday ones are the
+            2 for $25, the $9.99 Really BIG Meal Deal and half price apps. The limited-time ones are $6
+            Spooky Sips until November 15, a one-day $8.99 burger on September 18, and All You Can Eat,
+            which ran as a summer deal.
           </p>
           <p className={styles.heroSub}>
             For one person, the best of them is the Really BIG Meal Deal. For two, it depends on one

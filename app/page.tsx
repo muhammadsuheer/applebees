@@ -28,7 +28,7 @@ export default function Home() {
         "@id": "https://applebees-menus.us/#website",
         "url": "https://applebees-menus.us/",
         "name": SITE_NAME,
-        "description": "Applebee's menu prices, calories and allergens for all 88 items, published independently.",
+        "description": "Applebee's menu prices, calories, deals and allergen information in one independent guide.",
         "dateModified": PRICES_LAST_VERIFIED,
         "publisher": {
           "@id": "https://applebees-menus.us/#organization"

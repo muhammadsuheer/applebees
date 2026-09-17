@@ -87,19 +87,19 @@ export default function Header() {
         </div>
 
         <ul>
-          <li><Link href="/" className={getLinkClass('/')} onClick={closeMenu}>HOME</Link></li>
-          <li><Link href="/menu" className={getLinkClass('/menu')} onClick={closeMenu}>MENU (FULL)</Link></li>
-          <li><Link href="/nutrition" className={getLinkClass('/nutrition')} onClick={closeMenu}>NUTRITION</Link></li>
-          <li><Link href="/locations" className={getLinkClass('/locations')} onClick={closeMenu}>LOCATIONS</Link></li>
-          <li><Link href="/specials-and-deals" className={getLinkClass('/specials-and-deals')} onClick={closeMenu}>SPECIALS, DEALS</Link></li>
-          <li><Link href="/happy-hour" className={getLinkClass('/happy-hour')} onClick={closeMenu}>HAPPY HOUR</Link></li>
-          <li><Link href="/delivery" className={getLinkClass('/delivery')} onClick={closeMenu}>DELIVERY</Link></li>
-          <li><Link href="/takeout" className={getLinkClass('/takeout')} onClick={closeMenu}>TAKEOUT</Link></li>
-          <li><Link href="/operating-hours" className={getLinkClass('/operating-hours')} onClick={closeMenu}>OPERATING HOURS</Link></li>
-          <li><Link href="/catering" className={getLinkClass('/catering')} onClick={closeMenu}>CATERING</Link></li>
-          <li className={styles.mobileOnly}><Link href="/careers" className={getLinkClass('/careers')} onClick={closeMenu}>CAREERS</Link></li>
-          <li><Link href="/gift-card-deals" className={getLinkClass('/gift-card-deals')} onClick={closeMenu}>GIFT CARD</Link></li>
-          <li><Link href="/blog" className={getLinkClass('/blog')} onClick={closeMenu}>BLOG</Link></li>
+          <li><Link href="/" className={getLinkClass('/')} onClick={closeMenu}>Home</Link></li>
+          <li><Link href="/menu" className={getLinkClass('/menu')} onClick={closeMenu}>Menu</Link></li>
+          <li><Link href="/nutrition" className={getLinkClass('/nutrition')} onClick={closeMenu}>Nutrition</Link></li>
+          <li><Link href="/locations" className={getLinkClass('/locations')} onClick={closeMenu}>Locations</Link></li>
+          <li><Link href="/specials-and-deals" className={getLinkClass('/specials-and-deals')} onClick={closeMenu}>Deals</Link></li>
+          <li><Link href="/happy-hour" className={getLinkClass('/happy-hour')} onClick={closeMenu}>Happy Hour</Link></li>
+          <li><Link href="/delivery" className={getLinkClass('/delivery')} onClick={closeMenu}>Delivery</Link></li>
+          <li><Link href="/takeout" className={getLinkClass('/takeout')} onClick={closeMenu}>Takeout</Link></li>
+          <li><Link href="/operating-hours" className={getLinkClass('/operating-hours')} onClick={closeMenu}>Hours</Link></li>
+          <li><Link href="/catering" className={getLinkClass('/catering')} onClick={closeMenu}>Catering</Link></li>
+          <li className={styles.mobileOnly}><Link href="/careers" className={getLinkClass('/careers')} onClick={closeMenu}>Careers</Link></li>
+          <li><Link href="/gift-card-deals" className={getLinkClass('/gift-card-deals')} onClick={closeMenu}>Gift Cards</Link></li>
+          <li><Link href="/blog" className={getLinkClass('/blog')} onClick={closeMenu}>Blog</Link></li>
         </ul>
       </nav>
     </header>

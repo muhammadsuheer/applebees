@@ -1,5 +1,5 @@
 .section {
-  padding: 80px 20px;
+  padding: 72px 20px;
   background-color: #f8fafc;
   border-top: 1px solid #e2e8f0;
   border-bottom: 1px solid #e2e8f0;
@@ -18,17 +18,17 @@
   font-weight: 800;
   text-align: center;
   color: #1a2433;
-  margin-bottom: 20px;
+  margin-bottom: 14px;
   text-transform: none;
   letter-spacing: -0.01em;
 }
 
 .sectionDescription {
-  text-align: left;
-  max-width: 800px;
-  margin: 0 0 40px 0;
+  text-align: center;
+  max-width: 680px;
+  margin: 0 auto 36px;
   color: #4b5563;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 1.6;
 }
 
@@ -40,25 +40,30 @@
 
 .card {
   background-color: #ffffff;
-  border-radius: 12px;
+  border-radius: 14px;
   overflow: hidden;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
   border: 1px solid #e5e7eb;
   text-decoration: none;
   display: flex;
   flex-direction: column;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
 .card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  transform: translateY(-6px);
+  box-shadow: 0 14px 28px rgba(26, 36, 51, 0.12);
+}
+
+.card:focus-visible {
+  outline: 3px solid #f59e0b;
+  outline-offset: 3px;
 }
 
 .imageWrapper {
   position: relative;
   width: 100%;
-  aspect-ratio: 16 / 9;
+  aspect-ratio: 16 / 10;
   overflow: hidden;
 }
 
@@ -70,23 +75,23 @@
 }
 
 .card:hover .imageWrapper img {
-  transform: scale(1.08);
+  transform: scale(1.06);
 }
 
 .badge {
   position: absolute;
   top: 12px;
   left: 12px;
-  background-color: #ef4444;
+  background-color: #1a2433;
   color: #ffffff;
-  font-family: var(--font-oswald), sans-serif;
-  font-weight: 600;
-  font-size: 14px;
+  font-family: var(--font-roboto), sans-serif;
+  font-weight: 700;
+  font-size: 13px;
   padding: 6px 12px;
-  border-radius: 4px;
+  border-radius: 999px;
   text-transform: uppercase;
-  letter-spacing: 0.5px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  letter-spacing: 0.04em;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
 }
 
 .content {
@@ -99,40 +104,41 @@
 .content h3 {
   font-family: var(--font-oswald), sans-serif;
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 800;
   color: #111827;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
   text-transform: none;
+  letter-spacing: -0.01em;
 }
 
 .content p {
   font-family: var(--font-roboto), sans-serif;
   font-size: 15px;
   color: #4b5563;
-  line-height: 1.5;
-  margin-bottom: 20px;
+  line-height: 1.55;
+  margin-bottom: 18px;
   flex-grow: 1;
 }
 
 .ctaButton {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 46px;
   text-align: center;
-  background-color: #16a34a;
+  background-color: #c8102e;
   color: #ffffff;
   font-family: var(--font-roboto), sans-serif;
   font-weight: 700;
   font-size: 15px;
-  padding: 12px 0;
-  border-radius: 6px;
-  text-transform: uppercase;
+  border-radius: 10px;
   transition: background-color 0.2s;
 }
 
 .card:hover .ctaButton {
-  background-color: #15803d;
+  background-color: #a50d26;
 }
 
-/* Responsive Styles */
 @media (max-width: 1024px) {
   .grid {
     grid-template-columns: repeat(2, 1fr);
@@ -141,22 +147,32 @@
 
 @media (max-width: 768px) {
   .section {
-    padding: 50px 16px;
+    padding: 48px 16px;
   }
+
   .grid {
     grid-template-columns: 1fr;
-    gap: 20px;
+    gap: 16px;
   }
-  .container h2 {
-    font-size: 30px;
-  }
-}
 
-@media (max-width: 480px) {
-  .section {
-    padding: 35px 12px;
-  }
   .container h2 {
-    font-size: 26px;
+    font-size: 28px;
+  }
+
+  .sectionDescription {
+    font-size: 16px;
+    margin-bottom: 24px;
+  }
+
+  .imageWrapper {
+    aspect-ratio: 2 / 1;
+  }
+
+  .content {
+    padding: 16px;
+  }
+
+  .content p {
+    margin-bottom: 14px;
   }
 }

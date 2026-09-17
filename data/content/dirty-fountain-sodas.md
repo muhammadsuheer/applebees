@@ -23,7 +23,7 @@ Graveyard Dirty Soda: Spooky Sips 2026, through 11/15/26.
 <div class="tableCard">
   <div class="tableResponsive">
     <table class="customTable">
-      <caption>Applebee's Dirty Fountain Sodas, sorted by calories</caption>
+      <caption>Applebee's Dirty Fountain Sodas, lightest to heaviest</caption>
       <thead>
         <tr>
           <th scope="col">Dirty soda</th>
@@ -62,7 +62,7 @@ Graveyard Dirty Soda: Spooky Sips 2026, through 11/15/26.
   </div>
 </div>
 
-Prices are reference figures and move more on these than on most drinks. We've seen $3.79 in some restaurants and higher on delivery apps.
+Prices on these move around more than on most drinks. We've seen $3.79 in some restaurants and higher on delivery apps.
 
 ## What Makes a Soda "Dirty" at Applebee's
 

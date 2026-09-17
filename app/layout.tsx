@@ -24,7 +24,7 @@ import { SITE_NAME } from "@/data/site";
 export const metadata: Metadata = {
   metadataBase: new URL('https://applebees-menus.us'),
   title: "Applebee's Menu Prices & Calories 2026 | Menu Almanac",
-  description: "Every Applebee's price and calorie count, checked across 129 restaurants in 6 states. Includes the 2 for $25 line-up, happy hour times and the protein-per-dollar numbers nobody else publishes.",
+  description: "Applebee's menu prices and calories, the deals worth using, happy hour times and the dishes worth ordering, all in one friendly, independent guide.",
   alternates: {
     canonical: 'https://applebees-menus.us/',
     types: {

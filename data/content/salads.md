@@ -21,7 +21,7 @@ No macros in our data for the other salads, so none are stated. Two side salads 
 <div class="tableCard">
   <div class="tableResponsive">
     <table class="customTable">
-      <caption>Applebee's salads, sorted by calories</caption>
+      <caption>Applebee's salads, lightest to heaviest</caption>
       <thead>
         <tr>
           <th scope="col">Salad</th>
@@ -35,7 +35,7 @@ No macros in our data for the other salads, so none are stated. Two side salads 
           <th scope="row"><strong>House Side Salad</strong></th>
           <td style="text-align: right;">$4.99</td>
           <td style="text-align: right;">160</td>
-          <td>With fat free Italian; the only vegan item in our data</td>
+          <td>With fat free Italian; flagged vegan</td>
         </tr>
         <tr>
           <th scope="row"><strong>Grilled Oriental Chicken Salad</strong></th>
@@ -84,7 +84,7 @@ No macros in our data for the other salads, so none are stated. Two side salads 
   </div>
 </div>
 
-Prices are reference figures, and franchisees set their own.
+Salad prices vary a little by restaurant.
 
 ## Salads Aren't the Light Option at Applebee's
 
@@ -102,7 +102,7 @@ The other light salads cluster at 900 to 950 calories: Strawberry Balsamic, Cali
 
 ![Asian greens with crispy chicken, almonds and crunchy noodles in vinaigrette](/apple-bees-menu/applebees-oriental-chicken-salad-bowl.webp)
 
-Applebee's signature salad, which plenty of people call a Chinese or Asian chicken salad. Crispy chicken over greens and cabbage with crunchy noodles and almonds in Oriental vinaigrette. The cabbage is why it survives the dressing: it stays crunchy after lettuce would go limp.
+Applebee's signature salad, which plenty of people call a Chinese or Asian chicken salad. Crispy chicken over greens and cabbage with crunchy noodles and almonds in Oriental vinaigrette. The cabbage is why it survives the dressing: it stays crunchy after lettuce would go limp. Ask for the dressing on the side even if you're eating in. It's sweet and poured generously, and the salad tastes fresher when you add it yourself.
 
 - **Crispy: $14.99** · 1,560 calories · 40g protein · 45g sugar · 1,650mg sodium · contains wheat, soy and tree nuts
 
@@ -150,7 +150,7 @@ A Tex-Mex salad with crispy chicken, corn, black beans, pico de gallo, tortilla 
 
 ### House Side Salad
 
-Mixed greens with cucumber and tomato. With fat free Italian dressing it's 160 calories, 610mg of sodium and the only item in our data tagged vegan. As a starter, it's 700 to 1,000 calories lighter than a fried appetizer.
+Mixed greens with cucumber and tomato. With fat free Italian dressing it's 160 calories, 610mg of sodium and it's flagged vegan. As a starter, it's 700 to 1,000 calories lighter than a fried appetizer.
 
 - **$4.99** · 160 calories · 6g protein
 
@@ -162,16 +162,16 @@ The Oriental Chicken Salad and the California Grilled Chicken Salad are both ent
 
 ## How to Cut the Calories in an Applebee's Salad
 
-1. **Grilled instead of crispy.** 660 calories off the Oriental Chicken Salad. Nothing else comes close.
-2. **Dressing on the side.** You'll use less than the kitchen pours.
-3. **Skip the crunchy toppings.** Noodles, croutons and tortilla strips add up.
-4. **A House Side Salad instead of an appetizer.** 160 calories against 590 to 2,200.
+- **Grilled instead of crispy.** 660 calories off the Oriental Chicken Salad. Nothing else comes close.
+- **Dressing on the side.** You'll use less than the kitchen pours.
+- **Go easy on the crunchy toppings.** Noodles, croutons and tortilla strips add up quickly.
+- **A House Side Salad instead of an appetizer.** 160 calories against a fried starter that can run past 1,000.
 
 Taking the cheese off barely moves the number. It changes the taste more than the calories.
 
 ## Allergens
 
-The Grilled Chicken Caesar contains fish, milk, eggs and wheat. The crispy Oriental Chicken Salad contains tree nuts, wheat and soy. The House Side Salad with fat free Italian carries none of the major allergens we track. We don't have allergen data for the other five salads, so ask the kitchen. The [allergen menu](/allergen-menu) has everything we track.
+The Grilled Chicken Caesar contains fish, milk, eggs and wheat. The crispy Oriental Chicken Salad contains tree nuts, wheat and soy. The House Side Salad with fat free Italian lists none of the major allergens. Allergens for the other salads aren't listed here, so ask the kitchen. There's more on the [allergen menu](/allergen-menu).
 
 ## Salads To Go
 

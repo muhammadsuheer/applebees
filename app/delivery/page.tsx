@@ -142,13 +142,13 @@ export default function DeliveryPage() {
             Ordering direct gets you the restaurant's actual menu price. Ordering through a third-party app gets you a marked-up menu, because platform commission is built into the listed price before any fees are added.
           </p>
           <p className={styles.heroSub}>
-            This page covers how each route works, where coverage exists, what happens with alcohol, and which items travel well.
+            Here&apos;s how each way of ordering works, where delivery reaches, what happens with alcohol, and which dishes travel well.
           </p>
         </header>
 
         {/* Location Finder Widget Placed Above The Fold */}
         <section className={styles.finderSection}>
-          <LocationSearch locationsData={locationData} />
+          <LocationSearch locationsData={locationData} headingLevel="h2" compact />
         </section>
 
         {/* §2 — DIRECT VS THIRD-PARTY */}
@@ -211,7 +211,7 @@ export default function DeliveryPage() {
           </div>
 
           <p>
-            <strong>Doesn&apos;t transfer:</strong> <Link href="/happy-hour">Half price appetizers</Link> and happy hour drink pricing. These are dine-in promotions at essentially every location.
+            <strong>Doesn&apos;t transfer:</strong> <Link href="/happy-hour">Half price appetizers</Link> and happy hour drink pricing. These are dine-in promotions at almost every location.
           </p>
           <p>
             <strong>Usually transfers to direct orders:</strong> <Link href="/menu/2-for-25">2 for $25</Link> and standard menu pricing. Participation varies by location, as with everything franchised.
@@ -321,7 +321,7 @@ export default function DeliveryPage() {
             Coverage can also differ between ordering routes. The direct route and each platform maintain separate delivery zones, so an address outside one may sit inside another.
           </p>
           <p>
-            Fastest way to check: enter your address in the finder at the top of this page, or look up your restaurant in the <Link href="/locations">location finder</Link>. If delivery isn&apos;t offered, <Link href="/takeout">Carside To Go</Link> usually is.
+            Fastest way to check: enter your address at checkout in the Applebee&apos;s app or on its website, or call your nearest restaurant from the <Link href="/locations">location finder</Link>. If delivery isn&apos;t offered, <Link href="/takeout">Carside To Go</Link> usually is.
           </p>
           <p>
             Hours also apply. Delivery stops when the kitchen does. See <Link href="/operating-hours">operating hours</Link>.

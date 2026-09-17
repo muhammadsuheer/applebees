@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import styles from './Hero.module.css';
-import { MENU_FACTS, PRICES_LAST_VERIFIED, BYLINE } from '@/data/site';
+import { PRICES_LAST_VERIFIED } from '@/data/site';
 
 const checkedLabel = new Date(PRICES_LAST_VERIFIED).toLocaleDateString('en-US', {
   year: 'numeric',
@@ -8,35 +8,45 @@ const checkedLabel = new Date(PRICES_LAST_VERIFIED).toLocaleDateString('en-US', 
   day: 'numeric',
 });
 
+const quickLinks = [
+  { href: '/happy-hour', label: 'Happy hour times' },
+  { href: '/menu/2-for-25', label: '2 for $25 menu' },
+  { href: '/allergen-menu', label: 'Allergen menu' },
+  { href: '/nutrition', label: 'Nutrition & calories' },
+  { href: '/locations', label: 'Find a restaurant' },
+];
+
 export default function Hero() {
   return (
     <section className={styles.heroSection} aria-labelledby="hero-heading">
-      <h1 id="hero-heading">Applebee&apos;s Menu Prices and Calories</h1>
+      <div className={styles.inner}>
+        <p className={styles.eyebrow}>Independent menu guide &middot; Updated {checkedLabel}</p>
 
-      <p className={styles.lastUpdated}>
-        Updated {checkedLabel} &middot; by {BYLINE}
-      </p>
+        <h1 id="hero-heading">Applebee&apos;s Menu Prices and Calories</h1>
 
-      <p>
-        There&apos;s no national Applebee&apos;s price list. Franchisees set their own
-        prices, so a 12 oz. Ribeye in Carmel, Indiana doesn&apos;t have to cost what it costs
-        in Evansville. What you get here is a reference price for all {MENU_FACTS.items}{' '}
-        items across {MENU_FACTS.categories} categories, sitting next to the calorie count
-        Applebee&apos;s publishes.
-      </p>
+        <p className={styles.lead}>
+          Heading to Applebee&apos;s? Here&apos;s what the menu costs, what you&apos;re looking at calorie-wise,
+          and which dishes are actually worth ordering. Prices shift a little from one restaurant to the
+          next, so think of ours as a close guide rather than a receipt.
+        </p>
 
-      <p>
-        Chicken entrées start at $13.99. The Ribeye tops the menu at $23.99. A fountain drink
-        is $2.29. And the 2 for $25 costs exactly what its name says, which is why it&apos;s
-        the one number on this page I&apos;d trust at any location.
-      </p>
+        <div className={styles.ctas}>
+          <Link href="/menu" className={styles.primary}>
+            See the full menu
+          </Link>
+          <Link href="/specials-and-deals" className={styles.secondary}>
+            Today&apos;s deals
+          </Link>
+        </div>
 
-      <p className={styles.heroLinks}>
-        <Link href="/menu">Full menu with prices</Link>
-        <Link href="/specials-and-deals">Current deals</Link>
-        <Link href="/allergen-menu">Allergen menu</Link>
-        <Link href="/happy-hour">Happy hour times</Link>
-      </p>
+        <nav className={styles.quickLinks} aria-label="Popular guides">
+          {quickLinks.map((link) => (
+            <Link key={link.href} href={link.href}>
+              {link.label}
+            </Link>
+          ))}
+        </nav>
+      </div>
     </section>
   );
 }

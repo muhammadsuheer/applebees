@@ -20,7 +20,7 @@ Salmon and Fish & Chips macros and allergens: data/nutrition.ts. No macros in ou
 <div class="tableCard">
   <div class="tableResponsive">
     <table class="customTable">
-      <caption>Applebee's seafood, sorted by calories</caption>
+      <caption>Applebee's seafood, lightest to heaviest</caption>
       <thead>
         <tr>
           <th scope="col">Dish</th>
@@ -61,7 +61,7 @@ Salmon and Fish & Chips macros and allergens: data/nutrition.ts. No macros in ou
   </div>
 </div>
 
-Prices are reference figures, and your restaurant sets its own. Full macros are in the [nutrition guide](/nutrition).
+Prices vary a little by restaurant, and the full nutrition breakdown is in the [nutrition guide](/nutrition).
 
 ## Salmon or Fish and Chips?
 
@@ -75,7 +75,7 @@ That doesn't make fish and chips a bad order. It makes it a Friday-night order, 
 
 ![Blackened salmon fillet with mashed potatoes and broccoli](/apple-bees-menu/applebees-blackened-cajun-salmon-fillet.webp)
 
-A salmon fillet rubbed with Cajun spices and seared on high heat until the spices form a dark crust. That crust is what "blackened" means, and it keeps the fish moist inside. It's the lightest seafood entrée, has the least sodium in the section, and it's the only seafood tagged pescatarian in our data.
+A salmon fillet rubbed with Cajun spices and seared on high heat until the spices form a dark crust. That crust is what "blackened" means, and it keeps the fish moist inside. When the kitchen goes light on the rub, though, it can taste surprisingly plain, so if you like bold flavor, ask for extra Cajun seasoning or a sauce on the side. It's the lightest seafood entrée, has the least sodium in the section, and it's flagged pescatarian.
 
 - **$18.99** · 850 calories · 44g protein · 14g saturated fat · 2,050mg sodium · contains fish, milk and soy
 
@@ -91,7 +91,7 @@ White fish coated in batter to order and fried, with fries. Hand-battered is why
 
 ![Battered fried shrimp with cocktail sauce and fries](/apple-bees-menu/applebees-double-crunch-shrimp-platter.webp)
 
-Battered, fried shrimp with a heavy crunch, served with cocktail sauce and fries. The horseradish in cocktail sauce cuts through fried food better than a creamy dip. Double Crunch Shrimp is also one of the three proteins on All You Can Eat, which came back May 11, 2026 at $15.99, the same price as one plate here.
+Battered, fried shrimp with a heavy crunch, served with cocktail sauce and fries. The horseradish in cocktail sauce cuts through fried food better than a creamy dip. The crunch is the whole point, and it doesn't last, so dig in the moment the plate lands. Left to sit, the batter softens and the shrimp lose what makes them worth ordering. Double Crunch Shrimp is also one of the three proteins on All You Can Eat, which came back May 11, 2026 at $15.99, the same price as one plate here.
 
 - **$15.99** · 1,210 calories · contains shellfish
 
@@ -99,7 +99,7 @@ Want shrimp that isn't fried? The [Bourbon Street Chicken &amp; Shrimp](/menu/sk
 
 ## Allergens
 
-The salmon contains fish, milk and soy. The fish and chips contains fish, wheat, soy and milk. The shrimp is shellfish. Fried seafood comes out of a fryer, so with a shellfish allergy, ordering the fish instead of the shrimp doesn't make it safe. Talk to the kitchen. The [allergen menu](/allergen-menu) filters every item we track.
+The salmon contains fish, milk and soy. The fish and chips contains fish, wheat, soy and milk. The shrimp is shellfish. Fried seafood comes out of a fryer, so with a shellfish allergy, ordering the fish instead of the shrimp doesn't make it safe. Talk to the kitchen. You can filter by allergen on the [allergen menu](/allergen-menu).
 
 ## Seafood To Go
 

@@ -141,7 +141,7 @@ export function TermsContent() {
       <p>By using applebees-menus.us, you agree to these terms. If you don&apos;t agree, please don&apos;t use the site.</p>
 
       <h2>2. What the Information Is</h2>
-      <p>Prices on this site are reference figures, not quotes. Applebee&apos;s restaurants are mostly owned by franchisees who set their own prices, menus and hours, so what you pay can be different. Calorie and allergen figures are for reference and can change when recipes do. Check with your restaurant before you order, and always speak to the restaurant about a food allergy.</p>
+      <p>Prices on this site are a guide, not quotes. Applebee&apos;s restaurants are mostly owned by franchisees who set their own prices, menus and hours, so what you pay can be different. Calorie and allergen information is general guidance and can change when recipes do. Check with your restaurant before you order, and always speak to the restaurant about a food allergy.</p>
 
       <h2>3. Not Affiliated With Applebee&apos;s</h2>
       <p>Menu Almanac is independent. We aren&apos;t affiliated with, endorsed by or operated by Applebee&apos;s Neighborhood Grill + Bar or Dine Brands Global. Applebee&apos;s and related names are trademarks of their owners and are used here only to identify the restaurants we write about.</p>
@@ -153,7 +153,7 @@ export function TermsContent() {
       <p>You&apos;re welcome to read, print and share links to our pages for personal use. Please don&apos;t copy our tables, text or downloadable PDFs in bulk, republish them, or sell them without our written permission.</p>
 
       <h2>6. No Warranty</h2>
-      <p>We work to keep the site accurate, but it&apos;s provided as is. We can&apos;t promise every figure is correct or current.</p>
+      <p>We work to keep the site accurate, but it&apos;s provided as is. We can&apos;t promise every price and number is correct or current.</p>
 
       <h2>7. Limit of Liability</h2>
       <p>To the extent the law allows, we aren&apos;t liable for losses that come from relying on information on this site, including price differences at a restaurant or reactions to food.</p>
@@ -179,9 +179,12 @@ export function DisclaimerContent() {
       <h2>Trademarks and Copyrights</h2>
       <p>The name &quot;Applebee&apos;s&quot; as well as related names, marks, emblems and images are registered trademarks of their respective owners. The use of any trade name or trademark is for identification and reference purposes only and doesn&apos;t imply any association with the trademark holder of their product brand.</p>
 
+      <h2>Food Photos</h2>
+      <p>Food photos on this site are for illustration. Portions, plating and ingredients at your restaurant may look different.</p>
+
       <h2>Accuracy of Pricing and Nutritional Information</h2>
-      <p>The menu prices, nutritional information (including calories), and operating hours published on this website are reference figures. Because the vast majority of Applebee&apos;s restaurants are independently owned and operated franchises, <strong>prices and menu availability vary significantly by location</strong>.</p>
-      <p>We don&apos;t guarantee the accuracy, completeness, or timeliness of the data provided. You should always verify pricing, participation, and nutritional facts directly with your local restaurant before ordering.</p>
+      <p>The menu prices, nutritional information (including calories), and operating hours published on this website are a general guide. Because the vast majority of Applebee&apos;s restaurants are independently owned and operated franchises, <strong>prices and menu availability vary significantly by location</strong>.</p>
+      <p>We don&apos;t guarantee the accuracy, completeness, or timeliness of the information here. You should always verify pricing, participation, and nutritional facts directly with your local restaurant before ordering.</p>
 
       <h2>Advertising</h2>
       <p>This site is supported by ads served by Google AdSense. Advertisers have no say in what we publish, and an ad appearing next to a page isn&apos;t an endorsement by us or by Applebee&apos;s.</p>

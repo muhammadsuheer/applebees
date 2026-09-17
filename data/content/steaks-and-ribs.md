@@ -12,7 +12,7 @@ All You Can Eat ($15.99 with Riblets): Applebee's newsroom, May 11, 2026.
 
 <div class="answerBlock">
   <p>
-    Applebee's steaks and ribs cost $16.99 to $23.99 and run 760 to 1,430 calories. The 8 oz. Top Sirloin is the best order in the section and on the whole menu by protein per calorie: 55g of protein for 830 calories at $18.99. The Bourbon Street Steak has the most protein at 71g. The half rack of Baby Back Ribs has the least sodium of any entrée we track.
+    Applebee's steaks and ribs cost $16.99 to $23.99 and run 760 to 1,430 calories. The 8 oz. Top Sirloin is the best order in the section, and one of the smartest on the whole menu: 55g of protein for 830 calories at $18.99. The Bourbon Street Steak has the most protein at 71g, and the half rack of Baby Back Ribs is the surprise low-sodium pick.
   </p>
 </div>
 
@@ -21,7 +21,7 @@ All You Can Eat ($15.99 with Riblets): Applebee's newsroom, May 11, 2026.
 <div class="tableCard">
   <div class="tableResponsive">
     <table class="customTable">
-      <caption>Applebee's steaks and ribs, sorted by calories</caption>
+      <caption>Applebee's steaks and ribs, lightest to heaviest</caption>
       <thead>
         <tr>
           <th scope="col">Item</th>
@@ -79,17 +79,19 @@ All You Can Eat ($15.99 with Riblets): Applebee's newsroom, May 11, 2026.
   </div>
 </div>
 
-Prices are reference figures, and your restaurant sets its own. Full macros and allergens are in the [nutrition guide](/nutrition).
+Steak prices vary a little by restaurant. Full nutrition and allergens are in the [nutrition guide](/nutrition).
 
 ## Which Steak to Order at Applebee's
 
-**Get the 8 oz. Top Sirloin, not the 6 oz.** The bigger cut costs $2 more and adds only 70 calories, but it gives you 12g more protein. At 55g for 830 calories, about 15 calories per gram, nothing else on the Applebee's menu beats it. Compare the crispy Oriental Chicken Salad, which needs 39 calories for every gram of protein.
+**Get the 8 oz. Top Sirloin, not the 6 oz.** The bigger cut costs $2 more and adds only 70 calories, but it gives you 12g more protein. For 830 calories you get 55g of protein, which is hard to beat anywhere on the menu. To get that much protein from the crispy Oriental Chicken Salad, you'd eat more than twice the calories.
 
 **Want the most protein on a plate? The Bourbon Street Steak, at 71g.** You pay for it with 600 more calories and 1,120mg more sodium than the 8 oz. sirloin.
 
-**Watching sodium? Order the ribs.** The half rack of Double-Glazed Baby Back Ribs has 1,300mg of sodium, the lowest of any entrée in our data and less than half the Bourbon Street Steak's 3,430mg. It also lists 0g of sugar despite the glaze. Nobody expects barbecue to be the low-sodium order.
+**Watching sodium? Order the ribs.** The half rack of Double-Glazed Baby Back Ribs has 1,300mg of sodium, one of the lowest of any entrée, and less than half the Bourbon Street Steak's 3,430mg. It also lists 0g of sugar despite the glaze. Nobody expects barbecue to be the low-sodium order.
 
 **The Ribeye is the splurge.** At $23.99 it's the most expensive item on the menu, and a 12 oz. ribeye has the marbling to stay juicy if you like your steak cooked further.
+
+**Whatever you order, speak up about doneness.** Applebee's steaks don't always come out the way you asked, and a lean sirloin that drifts past medium turns tough fast. Order one step rarer than you normally would, cut into it as soon as it arrives, and send it back if it's overcooked. It's a completely normal request.
 
 ## Every Applebee's Steak and Rib Dish
 
@@ -97,7 +99,9 @@ Prices are reference figures, and your restaurant sets its own. Full macros and 
 
 ![Barbecue-glazed pork riblets served with fries and coleslaw](/apple-bees-menu/applebees-applewood-smoked-baby-back-ribs.webp)
 
-Riblets are short, meaty pieces of pork rib, slow-cooked and tossed in honey BBQ sauce, served with fries and slaw. They're easier to eat than a full rack because the pieces are small. Riblets are one of the three proteins on All You Can Eat, which came back on May 11, 2026 at $15.99 as a summer deal. If it's still running at your restaurant, unlimited riblets cost $2 less than one plate off the menu.
+Riblets are small pieces cut from the pork rib, slow-cooked and tossed in honey BBQ sauce, served with fries and slaw. Go in knowing there's a lot of bone and cartilage for the size of the plate; the sauce is the real draw. If you want rib meat you can actually sink your teeth into, the half rack of Baby Back Ribs is the better order.
+
+Riblets are one of the three proteins on All You Can Eat, which came back on May 11, 2026 at $15.99 as a summer deal. If it's still running at your restaurant, unlimited riblets cost $2 less than one plate off the menu.
 
 - **$17.99** · 1,080 calories
 
@@ -193,13 +197,13 @@ The 8 oz. Top Sirloin is $18.99, with 830 calories and 55g of protein.
 Short pieces of pork rib, slow-cooked and tossed in honey BBQ sauce, served with fries and slaw. They're $17.99 and 1,080 calories.
 
 ### Does Applebee's have all you can eat riblets?
-It did this summer. All You Can Eat came back May 11, 2026 at $15.99 for unlimited Riblets, Boneless Wings and Double Crunch Shrimp with endless fries, dine-in only. Call to check it's still running.
+It came back for summer 2026. All You Can Eat returned May 11, 2026 at $15.99 for unlimited Riblets, Boneless Wings and Double Crunch Shrimp with endless fries, dine-in only. Call to check it's still running.
 
 ### Which Applebee's steak has the most protein?
 The Bourbon Street Steak at 71g. The 8 oz. Top Sirloin has 55g for 600 fewer calories.
 
 ### What's the healthiest steak at Applebee's?
-The 8 oz. Top Sirloin: 55g of protein for 830 calories, the best ratio on the menu. Pair it with Steamed Broccoli.
+The 8 oz. Top Sirloin: 55g of protein for 830 calories, a lot of protein for the calories. Pair it with Steamed Broccoli.
 
 ### How much is the Ribeye at Applebee's?
 $23.99 for a 12 oz. Ribeye, the most expensive item on the menu, at 930 calories.
