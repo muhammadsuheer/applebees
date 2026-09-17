@@ -1,12 +1,5 @@
 import Link from 'next/link';
 import styles from './Hero.module.css';
-import { PRICES_LAST_VERIFIED } from '@/data/site';
-
-const checkedLabel = new Date(PRICES_LAST_VERIFIED).toLocaleDateString('en-US', {
-  year: 'numeric',
-  month: 'long',
-  day: 'numeric',
-});
 
 const quickLinks = [
   { href: '/happy-hour', label: 'Happy hour times' },
@@ -20,8 +13,6 @@ export default function Hero() {
   return (
     <section className={styles.heroSection} aria-labelledby="hero-heading">
       <div className={styles.inner}>
-        <p className={styles.eyebrow}>Independent menu guide &middot; Updated {checkedLabel}</p>
-
         <h1 id="hero-heading">Applebee&apos;s Menu Prices and Calories</h1>
 
         <p className={styles.lead}>

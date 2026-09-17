@@ -7,6 +7,7 @@ import FullMenu from '@/components/FullMenu';
 import { menuData } from '@/data/menu';
 import { categoryStats, formatPriceRange, formatCalorieRange, pricesFrom } from '@/data/menuStats';
 import { PRICES_LAST_VERIFIED } from '@/data/site';
+import { formatLongDate } from '@/lib/dates';
 import styles from './page.module.css';
 
 // Dated facts checked September 2026: O-M-Cheese-adilla Burger and O-M-Cheese Chicken Nachos
@@ -16,11 +17,6 @@ import styles from './page.module.css';
 // Every price range and "cheapest" figure below is computed from data/menu.ts, so it can't drift.
 
 const money = (n: number) => `$${n.toFixed(2)}`;
-const checked = new Date(PRICES_LAST_VERIFIED).toLocaleDateString('en-US', {
-  year: 'numeric',
-  month: 'long',
-  day: 'numeric',
-});
 
 const ITEM_COUNT = menuData.reduce((n, c) => n + c.items.length, 0);
 const CATEGORY_COUNT = menuData.length;
@@ -226,7 +222,7 @@ export default function MenuPage() {
           </p>
         </div>
         <p className={styles.locationNotice}>
-          Updated {checked}. Each Applebee&apos;s sets its own prices, so check your{' '}
+          Updated <time dateTime={PRICES_LAST_VERIFIED}>{formatLongDate(PRICES_LAST_VERIFIED)}</time>. Each Applebee&apos;s sets its own prices, so check your{' '}
           <Link href="/locations">local restaurant</Link> for exact prices.
         </p>
       </section>

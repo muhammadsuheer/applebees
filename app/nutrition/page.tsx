@@ -6,6 +6,7 @@ import Breadcrumb from '@/components/Breadcrumb';
 import NutritionCalculator from '@/components/NutritionCalculator';
 import { nutritionData, kidsMenuData, drinkCaloriesData } from '@/data/nutrition';
 import { PRICES_LAST_VERIFIED } from '@/data/site';
+import { formatMonthYear } from '@/lib/dates';
 import styles from './page.module.css';
 
 // Every figure on this page is read from data/nutrition.ts or data/menu.ts.
@@ -180,11 +181,7 @@ const faqData = [
 ];
 
 export default function NutritionPage() {
-  const checked = new Date(PRICES_LAST_VERIFIED).toLocaleDateString('en-US', {
-    year: 'numeric',
-    month: 'long',
-  });
-
+  const checked = formatMonthYear(PRICES_LAST_VERIFIED);
   const jsonLd = {
     '@context': 'https://schema.org',
     '@graph': [

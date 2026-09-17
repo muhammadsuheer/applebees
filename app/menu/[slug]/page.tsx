@@ -13,12 +13,7 @@ import Sidebar from '@/components/Sidebar';
 import styles from './page.module.css';
 import { BYLINE, PRICES_LAST_VERIFIED } from '@/data/site';
 import { labelTableCells } from '@/lib/labelTables';
-
-const checkedLabel = new Date(PRICES_LAST_VERIFIED).toLocaleDateString('en-US', {
-  year: 'numeric',
-  month: 'long',
-  day: 'numeric',
-});
+import { formatLongDate } from '@/lib/dates';
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -213,7 +208,8 @@ export default async function CategoryPage({ params }: Props) {
         <div className={styles.container}>
           <article className={styles.content}>
             <p className={styles.byline}>
-              By {BYLINE} &middot; updated {checkedLabel}
+              By {BYLINE} &middot; updated{' '}
+              <time dateTime={PRICES_LAST_VERIFIED}>{formatLongDate(PRICES_LAST_VERIFIED)}</time>
             </p>
             <div
               className={styles.markdownBody}

@@ -6,22 +6,14 @@ import Breadcrumb from '@/components/Breadcrumb';
 import FAQSection from '@/components/FAQSection';
 import AllergenMatrix from '@/components/AllergenMatrix';
 import { SITE_NAME, SITE_URL, BYLINE, MENU_FACTS, PRICES_LAST_VERIFIED } from '@/data/site';
+import { formatLongDate, formatMonthYear } from '@/lib/dates';
 import styles from './page.module.css';
 
 // Every number in this file is computed from data/nutrition.ts (30 items).
 // Re-run the counts if that file changes. Don't add claims about fryers, oils or
 // prep practices without a source from Applebee's itself.
 
-const checkedDay = new Date(PRICES_LAST_VERIFIED).toLocaleDateString('en-US', {
-  year: 'numeric',
-  month: 'long',
-  day: 'numeric',
-});
-const checkedMonth = new Date(PRICES_LAST_VERIFIED).toLocaleDateString('en-US', {
-  year: 'numeric',
-  month: 'long',
-});
-
+const checkedMonth = formatMonthYear(PRICES_LAST_VERIFIED);
 export const metadata: Metadata = {
   title: "Applebee's Allergen Menu: Gluten, Dairy, Soy & Nuts (2026)",
   description:
@@ -115,7 +107,8 @@ export default function AllergenMenuPage() {
         <h1>Applebee&apos;s Allergen Menu</h1>
 
         <p className={styles.byline}>
-          By {BYLINE} &middot; updated {checkedDay}
+          By {BYLINE} &middot; updated{' '}
+          <time dateTime={PRICES_LAST_VERIFIED}>{formatLongDate(PRICES_LAST_VERIFIED)}</time>
         </p>
 
         <div className={styles.answer}>

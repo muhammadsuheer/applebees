@@ -2,6 +2,7 @@ import Link from 'next/link';
 import styles from './QuickAnswerTable.module.css';
 import { categoryStats, formatPriceRange, formatCalorieRange } from '@/data/menuStats';
 import { PRICES_LAST_VERIFIED } from '@/data/site';
+import { formatLongDate } from '@/lib/dates';
 
 const rows = [
   { slug: 'appetizers', label: 'Appetizers' },
@@ -16,11 +17,6 @@ const rows = [
   { slug: 'signature-cocktails', label: 'Signature Cocktails' },
 ];
 
-const checked = new Date(PRICES_LAST_VERIFIED).toLocaleDateString('en-US', {
-  year: 'numeric',
-  month: 'long',
-  day: 'numeric',
-});
 
 export default function QuickAnswerTable() {
   const data = rows
@@ -74,7 +70,8 @@ export default function QuickAnswerTable() {
           </div>
           <div className={styles.cardFooter}>
             <span>
-              Prices last checked {checked}. Each restaurant sets its own, so yours may be
+              Prices last checked{' '}
+              <time dateTime={PRICES_LAST_VERIFIED}>{formatLongDate(PRICES_LAST_VERIFIED)}</time>. Each restaurant sets its own, so yours may be
               a little different.
             </span>
           </div>
