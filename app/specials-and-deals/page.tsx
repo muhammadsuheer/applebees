@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     canonical: 'https://applebees-menus.us/specials-and-deals',
   },
   openGraph: {
-    siteName: 'Menu Almanac',
+    siteName: 'Applebees Menu Guide',
     images: [{ url: '/og/og-specials.webp', width: 1200, height: 630 }],
     locale: 'en_US',
     type: 'article',

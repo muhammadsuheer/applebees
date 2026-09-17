@@ -33,7 +33,7 @@ export async function POST(req: Request) {
     doc.setTextColor(255, 255, 255);
     doc.setFontSize(26);
     doc.setFont('helvetica', 'bold');
-    doc.text("Menu Almanac Macro Planner", 20, 22);
+    doc.text("Applebees Menu Guide Macro Planner", 20, 22);
 
     doc.setTextColor(156, 163, 175); // Light Gray
     doc.setFontSize(12);

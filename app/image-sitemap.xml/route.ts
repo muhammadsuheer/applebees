@@ -29,7 +29,7 @@ export async function GET() {
     images: [
       {
         loc: `${baseUrl}/web-app-manifest-512x512.png`,
-        title: "Menu Almanac logo",
+        title: "Applebees Menu Guide logo",
         caption: "Independent guide to Applebee's menu prices, calories, and specials"
       },
       {

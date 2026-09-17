@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     canonical: 'https://applebees-menus.us/catering',
   },
   openGraph: {
-    siteName: 'Menu Almanac',
+    siteName: 'Applebees Menu Guide',
     images: [{ url: '/og/og-catering.webp', width: 1200, height: 630 }],
     locale: 'en_US',
     type: 'article',

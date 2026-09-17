@@ -56,7 +56,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       canonical: `https://applebees-menus.us/menu/${p.slug}`,
     },
     openGraph: {
-      siteName: "Menu Almanac",
+      siteName: "Applebees Menu Guide",
       images: [
         {
           url: ogImage,

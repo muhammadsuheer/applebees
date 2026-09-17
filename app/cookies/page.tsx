@@ -5,8 +5,8 @@ import Breadcrumb from '@/components/Breadcrumb';
 import styles from '@/components/LegalHero.module.css';
 import { CookiePolicyContent } from '@/components/LegalSections';
 
-const TITLE = 'Cookie Policy | Menu Almanac';
-const DESCRIPTION = 'The cookies Google Analytics and Google AdSense set on Menu Almanac, what each one does, how long it lasts, and how to turn them off.';
+const TITLE = 'Cookie Policy | Applebees Menu Guide';
+const DESCRIPTION = 'The cookies Google Analytics and Google AdSense set on Applebees Menu Guide, what each one does, how long it lasts, and how to turn them off.';
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     canonical: 'https://applebees-menus.us/cookies',
   },
   openGraph: {
-    siteName: "Menu Almanac",
+    siteName: "Applebees Menu Guide",
     images: [
       {
         url: '/og/og-legal.webp',

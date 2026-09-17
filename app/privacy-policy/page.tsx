@@ -6,13 +6,13 @@ import styles from '@/components/LegalHero.module.css';
 import { PrivacyPolicyContent } from '@/components/LegalSections';
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy | Menu Almanac',
+  title: 'Privacy Policy | Applebees Menu Guide',
   description: 'Our Privacy Policy details how we collect, use, and protect your data, including information on cookies, GDPR, and CCPA compliance.',
   alternates: {
     canonical: 'https://applebees-menus.us/privacy-policy',
   },
   openGraph: {
-    siteName: "Menu Almanac",
+    siteName: "Applebees Menu Guide",
     images: [
       {
         url: '/og/og-legal.webp',
@@ -33,7 +33,7 @@ export default function PrivacyPolicyPage() {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Privacy Policy | Menu Almanac",
+    "name": "Privacy Policy | Applebees Menu Guide",
     "description": "Our Privacy Policy details how we collect, use, and protect your data, including information on cookies, GDPR, and CCPA compliance.",
     "url": "https://applebees-menus.us/privacy-policy"
   };

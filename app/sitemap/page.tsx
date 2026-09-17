@@ -8,8 +8,8 @@ import { menuData } from '@/data/menu';
 import { blogs } from '@/data/blogs';
 
 export const metadata: Metadata = {
-  title: 'HTML Sitemap | Menu Almanac',
-  description: 'Complete HTML sitemap of all pages on the Menu Almanac website.',
+  title: 'HTML Sitemap | Applebees Menu Guide',
+  description: 'Complete HTML sitemap of all pages on the Applebees Menu Guide website.',
   alternates: {
     canonical: 'https://applebees-menus.us/sitemap',
   },
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   openGraph: {
-    siteName: "Menu Almanac",
+    siteName: "Applebees Menu Guide",
     images: [
       {
         url: '/og/og-sitemap.webp',
@@ -39,8 +39,8 @@ export default function HTMLSitemapPage() {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "HTML Sitemap | Menu Almanac",
-    "description": "Complete HTML sitemap of all pages on the Menu Almanac website.",
+    "name": "HTML Sitemap | Applebees Menu Guide",
+    "description": "Complete HTML sitemap of all pages on the Applebees Menu Guide website.",
     "url": "https://applebees-menus.us/sitemap"
   };
 

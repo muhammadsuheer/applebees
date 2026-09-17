@@ -82,7 +82,7 @@ export const metadata: Metadata = {
     canonical: 'https://applebees-menus.us/menu',
   },
   openGraph: {
-    siteName: 'Menu Almanac',
+    siteName: 'Applebees Menu Guide',
     title: TITLE,
     description: DESCRIPTION,
     images: [{ url: '/og/og-home.webp', width: 1200, height: 630 }],

@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     canonical: 'https://applebees-menus.us/delivery',
   },
   openGraph: {
-    siteName: "Menu Almanac",
+    siteName: "Applebees Menu Guide",
     images: [
       {
         url: '/og/og-delivery.webp',

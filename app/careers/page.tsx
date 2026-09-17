@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     canonical: 'https://applebees-menus.us/careers',
   },
   openGraph: {
-    siteName: "Menu Almanac",
+    siteName: "Applebees Menu Guide",
     images: [
       {
         url: '/og/og-careers.webp',

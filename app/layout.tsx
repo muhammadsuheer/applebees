@@ -23,7 +23,7 @@ import { SITE_NAME } from "@/data/site";
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://applebees-menus.us'),
-  title: "Applebee's Menu Prices & Calories 2026 | Menu Almanac",
+  title: "Applebee's Menu Prices & Calories 2026 | Applebees Menu Guide",
   description: "Applebee's menu prices and calories, the deals worth using, happy hour times and the dishes worth ordering, all in one friendly, independent guide.",
   alternates: {
     canonical: 'https://applebees-menus.us/',

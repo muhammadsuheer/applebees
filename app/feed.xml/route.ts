@@ -3,15 +3,15 @@ import { blogs } from '@/data/blogs';
 
 export async function GET() {
   const feed = new RSS({
-    title: "Menu Almanac Blog & News",
+    title: "Applebees Menu Guide Blog & News",
     description: "Read our latest guides, news, and tips about Applebee's menu items, discounts, and secret menus.",
     generator: 'RSS for Node and Next.js',
     feed_url: 'https://applebees-menus.us/feed.xml',
     site_url: 'https://applebees-menus.us',
     image_url: 'https://applebees-menus.us/apple-icon.png',
-    managingEditor: 'contact@applebees-menus.us (Menu Almanac Team)',
-    webMaster: 'contact@applebees-menus.us (Menu Almanac Team)',
-    copyright: `${new Date().getFullYear()} Menu Almanac`,
+    managingEditor: 'contact@applebees-menus.us (Applebees Menu Guide Team)',
+    webMaster: 'contact@applebees-menus.us (Applebees Menu Guide Team)',
+    copyright: `${new Date().getFullYear()} Applebees Menu Guide`,
     language: 'en-US',
     pubDate: new Date().toUTCString(),
     ttl: 60,

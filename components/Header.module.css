@@ -209,7 +209,7 @@
     font-family: var(--font-oswald), sans-serif;
   white-space: nowrap;
   letter-spacing: -0.02em;
-    font-size: 22px;
+    font-size: 19px;
     font-weight: bold;
   }
   
@@ -257,5 +257,23 @@
     color: #ffffff;
     border-left: 4px solid #c53030;
     padding-left: 21px; /* Compensate for the border */
+  }
+}
+
+/* Small phones: keep the longer site name on one line beside the menu button */
+@media (max-width: 480px) {
+  .header {
+    padding: 12px 16px;
+  }
+  .logo > span {
+    font-size: 24px;
+    margin-right: 8px;
+  }
+  .logo strong {
+    font-size: 20px;
+  }
+  .logo em {
+    font-size: 9px;
+    letter-spacing: 1.5px;
   }
 }

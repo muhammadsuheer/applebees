@@ -5,7 +5,7 @@
 // Applebee's wordmark as its own identity. The brand name appears in page titles
 // and body copy (nominative use, which is fine); it is not the site's name.
 
-export const SITE_NAME = 'Menu Almanac';
+export const SITE_NAME = 'Applebees Menu Guide';
 export const SITE_URL = 'https://applebees-menus.us';
 export const SITE_EMAIL = 'contact@applebees-menus.us';
 
@@ -25,7 +25,7 @@ export const EDITOR = {
 export const BYLINE = EDITOR.name || `${SITE_NAME} Editors`;
 
 export const PUBLISHER_BIO =
-  "Menu Almanac is an independent site that maintains the price, calorie and allergen tables published here. Send corrections to contact@applebees-menus.us.";
+  "Applebees Menu Guide is an independent site that maintains the price, calorie and allergen tables published here. Send corrections to contact@applebees-menus.us.";
 
 // Ground truth for counts, so no page can contradict another.
 export const MENU_FACTS = {

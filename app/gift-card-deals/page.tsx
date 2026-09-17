@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     canonical: 'https://applebees-menus.us/gift-card-deals',
   },
   openGraph: {
-    siteName: "Menu Almanac",
+    siteName: "Applebees Menu Guide",
     images: [
       {
         url: '/og/og-gift-cards.webp',

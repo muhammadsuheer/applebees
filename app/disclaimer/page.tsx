@@ -6,13 +6,13 @@ import styles from '@/components/LegalHero.module.css';
 import { DisclaimerContent } from '@/components/LegalSections';
 
 export const metadata: Metadata = {
-  title: 'Disclaimer | Menu Almanac',
+  title: 'Disclaimer | Applebees Menu Guide',
   description: 'Legal disclaimer. We\'re an independent informational resource and aren\'t officially affiliated with Applebee\'s or Dine Brands Global.',
   alternates: {
     canonical: 'https://applebees-menus.us/disclaimer',
   },
   openGraph: {
-    siteName: "Menu Almanac",
+    siteName: "Applebees Menu Guide",
     images: [
       {
         url: '/og/og-legal.webp',
@@ -33,7 +33,7 @@ export default function DisclaimerPage() {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Disclaimer | Menu Almanac",
+    "name": "Disclaimer | Applebees Menu Guide",
     "description": "Legal disclaimer. We're an independent informational resource and aren't officially affiliated with Applebee's or Dine Brands Global.",
     "url": "https://applebees-menus.us/disclaimer"
   };

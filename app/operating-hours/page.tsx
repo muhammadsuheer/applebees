@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     canonical: 'https://applebees-menus.us/operating-hours',
   },
   openGraph: {
-    siteName: "Menu Almanac",
+    siteName: "Applebees Menu Guide",
     images: [
       {
         url: '/og/og-operating-hours.webp',

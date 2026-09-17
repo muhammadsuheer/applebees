@@ -5,16 +5,16 @@ import Breadcrumb from '@/components/Breadcrumb';
 import styles from '@/components/LegalHero.module.css';
 import { AboutContent } from '@/components/LegalSections';
 
-const DESCRIPTION = "Menu Almanac is an independent guide to Applebee's prices, calories and allergens. Who runs it, where the figures come from, and how to send a correction.";
+const DESCRIPTION = "Applebees Menu Guide is an independent guide to Applebee's prices, calories and allergens. Who runs it, where the figures come from, and how to send a correction.";
 
 export const metadata: Metadata = {
-  title: 'About Menu Almanac',
+  title: 'About Applebees Menu Guide',
   description: DESCRIPTION,
   alternates: {
     canonical: 'https://applebees-menus.us/about-us',
   },
   openGraph: {
-    siteName: "Menu Almanac",
+    siteName: "Applebees Menu Guide",
     images: [
       {
         url: '/og/og-home.webp',
@@ -35,7 +35,7 @@ export default function AboutPage() {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "AboutPage",
-    "name": "About Menu Almanac",
+    "name": "About Applebees Menu Guide",
     "description": DESCRIPTION,
     "url": "https://applebees-menus.us/about-us"
   };
@@ -49,7 +49,7 @@ export default function AboutPage() {
       <Header />
       <Breadcrumb items={[{ label: 'About Us', href: '/about-us' }]} />
       <section className={styles.hero}>
-        <h1>About Menu Almanac</h1>
+        <h1>About Applebees Menu Guide</h1>
         <p>An independent reference for Applebee&apos;s prices, calories and allergens. We aren&apos;t Applebee&apos;s.</p>
       </section>
       <AboutContent />

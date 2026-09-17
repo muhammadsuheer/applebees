@@ -8,7 +8,7 @@ export function PrivacyPolicyContent() {
       <p><strong>Last updated:</strong> {LAST_UPDATED}</p>
 
       <h2>1. Who We Are</h2>
-      <p>Menu Almanac runs applebees-menus.us, an independent guide to Applebee&apos;s prices, calories and allergens. We aren&apos;t Applebee&apos;s. You can reach us at <a href="mailto:contact@applebees-menus.us">contact@applebees-menus.us</a>.</p>
+      <p>Applebees Menu Guide runs applebees-menus.us, an independent guide to Applebee&apos;s prices, calories and allergens. We aren&apos;t Applebee&apos;s. You can reach us at <a href="mailto:contact@applebees-menus.us">contact@applebees-menus.us</a>.</p>
 
       <h2>2. What We Collect</h2>
       <p>We don&apos;t have user accounts, and we don&apos;t sell anything on this site. Information is collected in three ways:</p>
@@ -144,7 +144,7 @@ export function TermsContent() {
       <p>Prices on this site are a guide, not quotes. Applebee&apos;s restaurants are mostly owned by franchisees who set their own prices, menus and hours, so what you pay can be different. Calorie and allergen information is general guidance and can change when recipes do. Check with your restaurant before you order, and always speak to the restaurant about a food allergy.</p>
 
       <h2>3. Not Affiliated With Applebee&apos;s</h2>
-      <p>Menu Almanac is independent. We aren&apos;t affiliated with, endorsed by or operated by Applebee&apos;s Neighborhood Grill + Bar or Dine Brands Global. Applebee&apos;s and related names are trademarks of their owners and are used here only to identify the restaurants we write about.</p>
+      <p>Applebees Menu Guide is independent. We aren&apos;t affiliated with, endorsed by or operated by Applebee&apos;s Neighborhood Grill + Bar or Dine Brands Global. Applebee&apos;s and related names are trademarks of their owners and are used here only to identify the restaurants we write about.</p>
 
       <h2>4. Advertising</h2>
       <p>The site shows ads served by Google AdSense. Ads are provided by third parties and aren&apos;t endorsements. We aren&apos;t responsible for the content of ads or the sites they link to.</p>
@@ -199,7 +199,7 @@ export function AboutContent() {
   return (
     <section className={styles.section}>
       <h2>Who We Are</h2>
-      <p>Menu Almanac is an independent website about the Applebee&apos;s menu. We put prices, calories, deals and allergen information in one place, so it&apos;s easy to look something up before you order.</p>
+      <p>Applebees Menu Guide is an independent website about the Applebee&apos;s menu. We put prices, calories, deals and allergen information in one place, so it&apos;s easy to look something up before you order.</p>
 
       <h2>What You&apos;ll Find Here</h2>
       <ul>
@@ -214,7 +214,7 @@ export function AboutContent() {
       <p>We update our pages when Applebee&apos;s announces new menu items, deals or changes. Each Applebee&apos;s restaurant sets its own prices, so the prices here are a general guide. For exact prices and availability, check with your local restaurant.</p>
 
       <h2>An Independent Website</h2>
-      <p>Menu Almanac isn&apos;t affiliated with, endorsed by or operated by Applebee&apos;s Neighborhood Grill + Bar or Dine Brands Global. For orders, gift cards or questions about a restaurant, please contact Applebee&apos;s directly at applebees.com.</p>
+      <p>Applebees Menu Guide isn&apos;t affiliated with, endorsed by or operated by Applebee&apos;s Neighborhood Grill + Bar or Dine Brands Global. For orders, gift cards or questions about a restaurant, please contact Applebee&apos;s directly at applebees.com.</p>
 
       <h2>Advertising</h2>
       <p>This site is supported by ads served by Google AdSense. Ads don&apos;t affect what we write.</p>

@@ -46,7 +46,7 @@ export default function Header() {
         <span aria-hidden="true">◈</span>
         <div>
           <strong>{SITE_NAME}</strong>
-          <em>MENU RESEARCH</em>
+          <em>INDEPENDENT GUIDE</em>
         </div>
       </Link>
       
@@ -74,7 +74,7 @@ export default function Header() {
             <span aria-hidden="true">◈</span>
             <div>
               <strong>{SITE_NAME}</strong>
-              <em>MENU RESEARCH</em>
+              <em>INDEPENDENT GUIDE</em>
             </div>
           </Link>
           <button 

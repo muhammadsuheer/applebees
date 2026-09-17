@@ -138,7 +138,7 @@ export const blogs: BlogPost[] = [
     ],
     date: '2026-08-18T08:00:00+00:00',
     modifiedDate: '2026-09-15T09:00:00+00:00',
-    author: "Menu Almanac Editors",
+    author: "Applebees Menu Guide Editors",
     authorRole: 'Editorial desk',
     authorImage: '/web-app-manifest-512x512.png',
     imageUrl: '/og/og-blog-dollarita.webp'
@@ -244,7 +244,7 @@ export const blogs: BlogPost[] = [
     ],
     date: '2026-08-19T08:00:00+00:00',
     modifiedDate: '2026-09-15T09:00:00+00:00',
-    author: "Menu Almanac Editors",
+    author: "Applebees Menu Guide Editors",
     authorRole: 'Editorial desk',
     authorImage: '/web-app-manifest-512x512.png',
     imageUrl: '/og/og-blog-secret-menu.webp'
@@ -393,7 +393,7 @@ export const blogs: BlogPost[] = [
     ],
     date: '2026-08-20T08:00:00+00:00',
     modifiedDate: '2026-09-15T09:00:00+00:00',
-    author: "Menu Almanac Editors",
+    author: "Applebees Menu Guide Editors",
     authorRole: 'Editorial desk',
     authorImage: '/web-app-manifest-512x512.png',
     imageUrl: '/og/og-blog-gluten-free.webp'
@@ -518,7 +518,7 @@ export const blogs: BlogPost[] = [
     ],
     date: '2026-08-21T08:00:00+00:00',
     modifiedDate: '2026-09-15T09:00:00+00:00',
-    author: "Menu Almanac Editors",
+    author: "Applebees Menu Guide Editors",
     authorRole: 'Editorial desk',
     authorImage: '/web-app-manifest-512x512.png',
     imageUrl: '/og/og-blog-2-for-25.webp'

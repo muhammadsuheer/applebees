@@ -9,7 +9,7 @@ import styles from './page.module.css';
 import heroStyles from '@/components/LegalHero.module.css';
 import sectionStyles from '@/components/ContentSections.module.css';
 
-const TITLE = "Applebee's Guides & Tips | Menu Almanac";
+const TITLE = "Applebee's Guides & Tips | Applebees Menu Guide";
 const DESCRIPTION =
   "Friendly, practical Applebee's guides: how to get the most from the 2 for $25, ordering tricks that actually work, eating gluten-free, and what's happening with the Dollarita.";
 
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     canonical: 'https://applebees-menus.us/blog',
   },
   openGraph: {
-    siteName: "Menu Almanac",
+    siteName: "Applebees Menu Guide",
     images: [
       {
         url: '/og/og-blog-secret-menu.webp',
