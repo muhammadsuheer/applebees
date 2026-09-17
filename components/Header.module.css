@@ -277,3 +277,28 @@
     letter-spacing: 1.5px;
   }
 }
+
+/* Apple mark + stacked "Applebees / GUIDE" wordmark */
+.logo svg,
+.sidebarLogo svg {
+  flex-shrink: 0;
+  margin-right: 10px;
+}
+
+.logo em,
+.sidebarLogo em {
+  margin-top: 3px;
+  letter-spacing: 5px;
+  color: #f4b8c0;
+}
+
+@media (max-width: 480px) {
+  .logo svg {
+    width: 32px;
+    height: 32px;
+    margin-right: 8px;
+  }
+  .logo em {
+    letter-spacing: 4px;
+  }
+}

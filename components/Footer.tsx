@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import styles from './Footer.module.css';
 import { SITE_NAME, SITE_EMAIL } from '@/data/site';
+import AppleMark from './AppleMark';
 
 const columns = [
   {
@@ -52,8 +53,11 @@ export default function Footer() {
       <div className={styles.top}>
         <div>
           <Link href="/" className={styles.logo} aria-label={`${SITE_NAME} home`}>
-            <span className={styles.mark} aria-hidden="true">◈</span>
-            <span className={styles.name}>{SITE_NAME}</span>
+            <AppleMark id="footer" size={40} />
+            <span className={styles.wordmark}>
+              <span className={styles.name}>Applebees</span>
+              <span className={styles.tag}>GUIDE</span>
+            </span>
           </Link>
           <p className={styles.about}>
             A friendly, independent guide to the Applebee&apos;s menu. Prices, calories, deals and

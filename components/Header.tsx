@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import styles from './Header.module.css';
 import { SITE_NAME } from '@/data/site';
+import AppleMark from './AppleMark';
 
 export default function Header() {
   const pathname = usePathname();
@@ -42,11 +43,11 @@ export default function Header() {
 
   return (
     <header className={styles.header}>
-      <Link href="/" className={styles.logo} aria-label="Home" onClick={closeMenu}>
-        <span aria-hidden="true">◈</span>
+      <Link href="/" className={styles.logo} aria-label={`${SITE_NAME} home`} onClick={closeMenu}>
+        <AppleMark id="header" size={38} />
         <div>
-          <strong>{SITE_NAME}</strong>
-          <em>INDEPENDENT GUIDE</em>
+          <strong>Applebees</strong>
+          <em>GUIDE</em>
         </div>
       </Link>
       
@@ -70,11 +71,11 @@ export default function Header() {
         
         {/* Mobile Sidebar Header (Logo + Close button placeholder area) */}
         <div className={styles.sidebarHeader}>
-          <Link href="/" className={styles.sidebarLogo} aria-label="Home" onClick={closeMenu}>
-            <span aria-hidden="true">◈</span>
+          <Link href="/" className={styles.sidebarLogo} aria-label={`${SITE_NAME} home`} onClick={closeMenu}>
+            <AppleMark id="sidebar" size={32} />
             <div>
-              <strong>{SITE_NAME}</strong>
-              <em>INDEPENDENT GUIDE</em>
+              <strong>Applebees</strong>
+              <em>GUIDE</em>
             </div>
           </Link>
           <button 

@@ -214,3 +214,19 @@
     align-items: flex-start;
   }
 }
+
+/* Stacked "Applebees / GUIDE" wordmark next to the apple mark */
+.wordmark {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+}
+
+.tag {
+  align-self: flex-end;
+  margin-top: 4px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 5px;
+  color: #f4b8c0;
+}
